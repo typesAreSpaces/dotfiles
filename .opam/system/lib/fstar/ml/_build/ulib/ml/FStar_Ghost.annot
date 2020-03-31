@@ -1,0 +1,210 @@
+"ulib/ml/FStar_Ghost.ml" 2 22 26 "ulib/ml/FStar_Ghost.ml" 2 22 32
+type(
+  'a. 'a erased -> unit
+)
+ident(
+  def reveal "ulib/ml/FStar_Ghost.ml" 3 71 71 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 2 22 63 "ulib/ml/FStar_Ghost.ml" 2 22 64
+type(
+  'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 2 22 68 "ulib/ml/FStar_Ghost.ml" 2 22 70
+type(
+  unit
+)
+"ulib/ml/FStar_Ghost.ml" 2 22 59 "ulib/ml/FStar_Ghost.ml" 2 22 70
+type(
+  'a erased -> unit
+)
+"ulib/ml/FStar_Ghost.ml" 3 71 75 "ulib/ml/FStar_Ghost.ml" 3 71 79
+type(
+  'a. 'a -> 'a erased
+)
+ident(
+  def hide "ulib/ml/FStar_Ghost.ml" 4 119 119 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 3 71 111 "ulib/ml/FStar_Ghost.ml" 3 71 112
+type(
+  'a
+)
+"ulib/ml/FStar_Ghost.ml" 3 71 116 "ulib/ml/FStar_Ghost.ml" 3 71 118
+type(
+  'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 3 71 106 "ulib/ml/FStar_Ghost.ml" 3 71 118
+type(
+  'a -> 'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 4 119 123 "ulib/ml/FStar_Ghost.ml" 4 119 134
+type(
+  'a. 'a erased -> unit
+)
+ident(
+  def hide_reveal "ulib/ml/FStar_Ghost.ml" 5 173 173 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 4 119 165 "ulib/ml/FStar_Ghost.ml" 4 119 166
+type(
+  'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 4 119 170 "ulib/ml/FStar_Ghost.ml" 4 119 172
+type(
+  unit
+)
+"ulib/ml/FStar_Ghost.ml" 4 119 161 "ulib/ml/FStar_Ghost.ml" 4 119 172
+type(
+  'a erased -> unit
+)
+"ulib/ml/FStar_Ghost.ml" 5 173 177 "ulib/ml/FStar_Ghost.ml" 5 173 188
+type(
+  'a. 'a -> unit
+)
+ident(
+  def reveal_hide "ulib/ml/FStar_Ghost.ml" 6 220 220 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 5 173 212 "ulib/ml/FStar_Ghost.ml" 5 173 213
+type(
+  'a
+)
+"ulib/ml/FStar_Ghost.ml" 5 173 217 "ulib/ml/FStar_Ghost.ml" 5 173 219
+type(
+  unit
+)
+"ulib/ml/FStar_Ghost.ml" 5 173 208 "ulib/ml/FStar_Ghost.ml" 5 173 219
+type(
+  'a -> unit
+)
+"ulib/ml/FStar_Ghost.ml" 6 220 224 "ulib/ml/FStar_Ghost.ml" 6 220 230
+type(
+  'a 'b. ('a -> unit) -> 'a erased -> 'b erased
+)
+ident(
+  def elift1 "ulib/ml/FStar_Ghost.ml" 7 297 297 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 6 220 287 "ulib/ml/FStar_Ghost.ml" 6 220 288
+type(
+  'a -> unit
+)
+"ulib/ml/FStar_Ghost.ml" 6 220 289 "ulib/ml/FStar_Ghost.ml" 6 220 290
+type(
+  'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 6 220 294 "ulib/ml/FStar_Ghost.ml" 6 220 296
+type(
+  'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 6 220 283 "ulib/ml/FStar_Ghost.ml" 6 220 296
+type(
+  ('a -> unit) -> 'a erased -> 'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 7 297 301 "ulib/ml/FStar_Ghost.ml" 7 297 307
+type(
+  'a 'b 'c. ('a -> 'c -> unit) -> 'a erased -> 'c erased -> 'b erased
+)
+ident(
+  def elift2 "ulib/ml/FStar_Ghost.ml" 8 398 398 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 7 297 386 "ulib/ml/FStar_Ghost.ml" 7 297 387
+type(
+  'a -> 'c -> unit
+)
+"ulib/ml/FStar_Ghost.ml" 7 297 388 "ulib/ml/FStar_Ghost.ml" 7 297 389
+type(
+  'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 7 297 390 "ulib/ml/FStar_Ghost.ml" 7 297 391
+type(
+  'c erased
+)
+"ulib/ml/FStar_Ghost.ml" 7 297 395 "ulib/ml/FStar_Ghost.ml" 7 297 397
+type(
+  'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 7 297 382 "ulib/ml/FStar_Ghost.ml" 7 297 397
+type(
+  ('a -> 'c -> unit) -> 'a erased -> 'c erased -> 'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 8 398 402 "ulib/ml/FStar_Ghost.ml" 8 398 408
+type(
+  'a 'b 'c 'd.
+    ('a -> 'c -> 'd -> unit) ->
+    'a erased -> 'c erased -> 'd erased -> 'b erased
+)
+ident(
+  def elift3 "ulib/ml/FStar_Ghost.ml" 9 523 523 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 8 398 509 "ulib/ml/FStar_Ghost.ml" 8 398 510
+type(
+  'a -> 'c -> 'd -> unit
+)
+"ulib/ml/FStar_Ghost.ml" 8 398 511 "ulib/ml/FStar_Ghost.ml" 8 398 512
+type(
+  'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 8 398 513 "ulib/ml/FStar_Ghost.ml" 8 398 514
+type(
+  'c erased
+)
+"ulib/ml/FStar_Ghost.ml" 8 398 515 "ulib/ml/FStar_Ghost.ml" 8 398 516
+type(
+  'd erased
+)
+"ulib/ml/FStar_Ghost.ml" 8 398 520 "ulib/ml/FStar_Ghost.ml" 8 398 522
+type(
+  'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 8 398 505 "ulib/ml/FStar_Ghost.ml" 8 398 522
+type(
+  ('a -> 'c -> 'd -> unit) ->
+  'a erased -> 'c erased -> 'd erased -> 'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 9 523 527 "ulib/ml/FStar_Ghost.ml" 9 523 535
+type(
+  'a 'b. ('a -> unit) -> 'a erased -> 'b erased
+)
+ident(
+  def elift1_p "ulib/ml/FStar_Ghost.ml" 10 600 600 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 9 523 590 "ulib/ml/FStar_Ghost.ml" 9 523 591
+type(
+  'a -> unit
+)
+"ulib/ml/FStar_Ghost.ml" 9 523 592 "ulib/ml/FStar_Ghost.ml" 9 523 593
+type(
+  'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 9 523 597 "ulib/ml/FStar_Ghost.ml" 9 523 599
+type(
+  'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 9 523 586 "ulib/ml/FStar_Ghost.ml" 9 523 599
+type(
+  ('a -> unit) -> 'a erased -> 'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 10 600 604 "ulib/ml/FStar_Ghost.ml" 10 600 612
+type(
+  'a 'b 'c. ('a -> 'c -> unit) -> 'a erased -> 'c erased -> 'b erased
+)
+ident(
+  def elift2_p "ulib/ml/FStar_Ghost.ml" 10 600 700 "ulib/ml/FStar_Ghost.ml" 1 0 -1
+)
+"ulib/ml/FStar_Ghost.ml" 10 600 689 "ulib/ml/FStar_Ghost.ml" 10 600 690
+type(
+  'a -> 'c -> unit
+)
+"ulib/ml/FStar_Ghost.ml" 10 600 691 "ulib/ml/FStar_Ghost.ml" 10 600 692
+type(
+  'a erased
+)
+"ulib/ml/FStar_Ghost.ml" 10 600 693 "ulib/ml/FStar_Ghost.ml" 10 600 694
+type(
+  'c erased
+)
+"ulib/ml/FStar_Ghost.ml" 10 600 698 "ulib/ml/FStar_Ghost.ml" 10 600 700
+type(
+  'b erased
+)
+"ulib/ml/FStar_Ghost.ml" 10 600 685 "ulib/ml/FStar_Ghost.ml" 10 600 700
+type(
+  ('a -> 'c -> unit) -> 'a erased -> 'c erased -> 'b erased
+)

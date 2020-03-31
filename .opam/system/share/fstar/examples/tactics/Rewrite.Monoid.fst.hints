@@ -1,0 +1,74 @@
+[
+  "Ó†\tt\u000ffHŠ\u0004°±-ß¸¥¥",
+  [
+    [
+      "Rewrite.Monoid.aux",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "eq2-interp", "equation_Prims.eq2",
+        "equation_Prims.squash",
+        "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
+      ],
+      0,
+      "fe158b95c60e13d334a4512529953903"
+    ],
+    [
+      "Rewrite.Monoid.monoid_reflect_rhs",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "eq2-interp", "equation_Prims.eq2",
+        "equation_Prims.squash",
+        "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
+      ],
+      0,
+      "9b2233a81f0a2190622391aed6dc457e"
+    ],
+    [
+      "Rewrite.Monoid.elim_implies",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_913239c2cf9dc8a14e1f047e0206138d"
+      ],
+      0,
+      "960b59bc92808c8271d46eb6cb1b6892"
+    ],
+    [
+      "Rewrite.Monoid.elim_implies",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_913239c2cf9dc8a14e1f047e0206138d"
+      ],
+      0,
+      "7b218ea6dac37c0ce984d8ea784483b2"
+    ],
+    [
+      "Rewrite.Monoid.apply_imp",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "bool_inversion",
+        "disc_equation_FStar.Tactics.Result.Failed",
+        "disc_equation_FStar.Tactics.Result.Success",
+        "equation_FStar.Reflection.Data.argv",
+        "function_token_typing_FStar.Reflection.Data.argv",
+        "function_token_typing_FStar.Reflection.Types.term",
+        "kinding_Prims.list@tok", "lemma_FStar.Tactics.Result.result_split",
+        "typing_FStar.Tactics.Result.uu___is_Failed",
+        "typing_FStar.Tactics.Result.uu___is_Success"
+      ],
+      0,
+      "043b7d404ef9193a0fede0e271ccd013"
+    ]
+  ]
+]

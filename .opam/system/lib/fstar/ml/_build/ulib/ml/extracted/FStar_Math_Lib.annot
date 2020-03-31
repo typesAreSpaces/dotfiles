@@ -1,0 +1,1315 @@
+"ulib/ml/extracted/FStar_Math_Lib.ml" 9 18 27 "ulib/ml/extracted/FStar_Math_Lib.ml" 9 18 32
+type(
+  Prims.pos -> Prims.nat
+)
+ident(
+  def log_2 "ulib/ml/extracted/FStar_Math_Lib.ml" 9 18 18 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 10 61 67 "ulib/ml/extracted/FStar_Math_Lib.ml" 10 61 68
+type(
+  Prims.pos
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 77 "ulib/ml/extracted/FStar_Math_Lib.ml" 13 162 185
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 80 "ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 81
+type(
+  Prims.pos
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 10 61 67 "ulib/ml/extracted/FStar_Math_Lib.ml" 10 61 68
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 82 "ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 84
+type(
+  Prims.pos -> Z.t -> bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 86 "ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 98
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 99 "ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 102
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 85 "ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 103
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 80 "ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 103
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 113 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 126
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 127 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 128
+type(
+  Z.t -> Prims.nat -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 130 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 135
+type(
+  Prims.pos -> Prims.nat
+)
+ident(
+  int_ref log_2 "ulib/ml/extracted/FStar_Math_Lib.ml" 9 18 27 "ulib/ml/extracted/FStar_Math_Lib.ml" 9 18 32
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 137 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 138
+type(
+  Prims.pos
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 10 61 67 "ulib/ml/extracted/FStar_Math_Lib.ml" 10 61 68
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 139 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 140
+type(
+  Prims.pos -> Z.t -> Prims.pos
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 142 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 154
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 155 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 158
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 141 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 159
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 136 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 160
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 129 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 161
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 113 "ulib/ml/extracted/FStar_Math_Lib.ml" 12 104 161
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 13 162 171 "ulib/ml/extracted/FStar_Math_Lib.ml" 13 162 185
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 11 73 77 "ulib/ml/extracted/FStar_Math_Lib.ml" 13 162 185
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 10 61 63 "ulib/ml/extracted/FStar_Math_Lib.ml" 13 162 185
+type(
+  Prims.pos -> Prims.nat
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 15 189 198 "ulib/ml/extracted/FStar_Math_Lib.ml" 15 189 202
+type(
+  Prims.int -> Prims.nat -> Prims.int
+)
+ident(
+  def powx "ulib/ml/extracted/FStar_Math_Lib.ml" 15 189 189 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 16 244 250 "ulib/ml/extracted/FStar_Math_Lib.ml" 16 244 251
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Math_Lib.ml" 17 256 260 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 391
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 17 256 264 "ulib/ml/extracted/FStar_Math_Lib.ml" 17 256 265
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_Math_Lib.ml" 18 270 276 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 391
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 18 270 282 "ulib/ml/extracted/FStar_Math_Lib.ml" 18 270 283
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_Math_Lib.ml" 17 256 264 "ulib/ml/extracted/FStar_Math_Lib.ml" 17 256 265
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 297 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 300
+type(
+  Prims.nat
+)
+ident(
+  def _56 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 306 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 343
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 306 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 309
+type(
+  Prims.nat
+)
+ident(
+  int_ref _56 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 297 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 300
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 310 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 311
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 312 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 326
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 306 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 326
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 330 "ulib/ml/extracted/FStar_Math_Lib.ml" 19 289 343
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 352 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 354
+type(
+  Prims.nat
+)
+ident(
+  def n1 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 358 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 391
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 358 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 359
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 16 244 250 "ulib/ml/extracted/FStar_Math_Lib.ml" 16 244 251
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 360 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 361
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 363 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 367
+type(
+  Prims.int -> Prims.nat -> Prims.int
+)
+ident(
+  int_ref powx "ulib/ml/extracted/FStar_Math_Lib.ml" 15 189 198 "ulib/ml/extracted/FStar_Math_Lib.ml" 15 189 202
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 368 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 369
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 16 244 250 "ulib/ml/extracted/FStar_Math_Lib.ml" 16 244 251
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 371 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 373
+type(
+  Prims.nat
+)
+ident(
+  int_ref n1 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 352 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 354
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 374 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 375
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 376 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 389
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 370 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 390
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 362 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 391
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 358 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 391
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 18 270 276 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 391
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 17 256 260 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 391
+type(
+  Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 16 244 246 "ulib/ml/extracted/FStar_Math_Lib.ml" 20 344 391
+type(
+  Prims.int -> Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 22 395 400 "ulib/ml/extracted/FStar_Math_Lib.ml" 22 395 403
+type(
+  Prims.int -> Prims.int
+)
+ident(
+  def abs "ulib/ml/extracted/FStar_Math_Lib.ml" 24 484 484 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 438 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 439
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 444 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 482
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 447 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 448
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 438 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 439
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 449 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 451
+type(
+  Prims.int -> Z.t -> bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 452 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 466
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 447 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 466
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 472 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 473
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 438 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 439
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 479 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 480
+type(
+  Prims.int -> Prims.int
+)
+ident(
+  ext_ref Prims.( ~- )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 481 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 482
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 438 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 439
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 479 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 482
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 444 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 482
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 434 "ulib/ml/extracted/FStar_Math_Lib.ml" 23 432 482
+type(
+  Prims.int -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 24 484 489 "ulib/ml/extracted/FStar_Math_Lib.ml" 24 484 492
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+ident(
+  def max "ulib/ml/extracted/FStar_Math_Lib.ml" 26 581 581 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 540 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 541
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 546 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 579
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 550 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 551
+type(
+  Prims.int
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 556 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 579
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 559 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 560
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 540 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 541
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 561 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 563
+type(
+  Prims.int -> Prims.int -> bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 564 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 565
+type(
+  Prims.int
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 550 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 551
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 559 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 565
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 571 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 572
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 540 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 541
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 578 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 579
+type(
+  Prims.int
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 550 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 551
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 556 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 579
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 546 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 579
+type(
+  Prims.int -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 536 "ulib/ml/extracted/FStar_Math_Lib.ml" 25 534 579
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 26 581 586 "ulib/ml/extracted/FStar_Math_Lib.ml" 26 581 589
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+ident(
+  def min "ulib/ml/extracted/FStar_Math_Lib.ml" 28 678 678 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 637 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 638
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 643 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 676
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 647 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 648
+type(
+  Prims.int
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 653 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 676
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 656 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 657
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 637 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 638
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 658 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 660
+type(
+  Prims.int -> Prims.int -> bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 661 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 662
+type(
+  Prims.int
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 647 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 648
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 656 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 662
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 668 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 669
+type(
+  Prims.int
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 647 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 648
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 675 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 676
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 637 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 638
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 653 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 676
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 643 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 676
+type(
+  Prims.int -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 633 "ulib/ml/extracted/FStar_Math_Lib.ml" 27 631 676
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 28 678 683 "ulib/ml/extracted/FStar_Math_Lib.ml" 28 678 686
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  def div "ulib/ml/extracted/FStar_Math_Lib.ml" 38 927 927 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 734 "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 735
+type(
+  Prims.int
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 744 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 923
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 748 "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 749
+type(
+  Prims.pos
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 760 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 923
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 763 "ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 764
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 734 "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 735
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 765 "ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 766
+type(
+  Prims.int -> Z.t -> bool
+)
+ident(
+  ext_ref Prims.( < )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 767 "ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 781
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 763 "ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 781
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 806 "ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 807
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 734 "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 735
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 808 "ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 811
+type(
+  Prims.int -> Prims.pos -> Z.t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 812 "ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 813
+type(
+  Prims.pos
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 748 "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 749
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 805 "ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 814
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 815 "ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 816
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 817 "ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 831
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 805 "ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 831
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 846 "ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 847
+type(
+  Z.t -> Prims.int
+)
+ident(
+  ext_ref Prims.( ~- )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 849 "ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 850
+type(
+  Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( ~- )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 852 "ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 853
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 734 "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 735
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 854 "ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 855
+type(
+  Prims.int -> Prims.pos -> Z.t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 856 "ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 857
+type(
+  Prims.pos
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 748 "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 749
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 851 "ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 858
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 848 "ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 859
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 846 "ulib/ml/extracted/FStar_Math_Lib.ml" 34 832 859
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 875 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 876
+type(
+  Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( ~- )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 878 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 879
+type(
+  Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( ~- )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 881 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 882
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 734 "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 735
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 883 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 884
+type(
+  Prims.int -> Prims.pos -> Z.t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 885 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 886
+type(
+  Prims.pos
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 748 "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 749
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 880 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 887
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 877 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 888
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 874 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 889
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 890 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 891
+type(
+  Z.t -> Z.t -> Prims.int
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 892 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 905
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 874 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 905
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 33 793 801 "ulib/ml/extracted/FStar_Math_Lib.ml" 35 860 906
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 918 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 919
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 734 "ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 735
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 920 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 921
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 922 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 923
+type(
+  Prims.pos
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 748 "ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 749
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 918 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 923
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 31 754 760 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 923
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 30 740 744 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 923
+type(
+  Prims.pos -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 29 728 730 "ulib/ml/extracted/FStar_Math_Lib.ml" 36 907 923
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 38 927 932 "ulib/ml/extracted/FStar_Math_Lib.ml" 38 927 944
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  def div_non_eucl "ulib/ml/extracted/FStar_Math_Lib.ml" 45 1115 1115 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 992 "ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 993
+type(
+  Prims.int
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Math_Lib.ml" 40 998 1002 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1111
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 40 998 1006 "ulib/ml/extracted/FStar_Math_Lib.ml" 40 998 1007
+type(
+  Prims.pos
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1018 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1111
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1021 "ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1022
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 992 "ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 993
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1023 "ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1024
+type(
+  Prims.int -> Z.t -> bool
+)
+ident(
+  ext_ref Prims.( < )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1025 "ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1039
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1021 "ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1039
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1051 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1065
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1066 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1067
+type(
+  Z.t -> Z.t -> Prims.int
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1070 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1084
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1085 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1086
+type(
+  Z.t -> Prims.int -> Z.t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1087 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1088
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 992 "ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 993
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1069 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1089
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1090 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1091
+type(
+  Z.t -> Prims.pos -> Z.t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1092 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1093
+type(
+  Prims.pos
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Math_Lib.ml" 40 998 1006 "ulib/ml/extracted/FStar_Math_Lib.ml" 40 998 1007
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1068 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1094
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1051 "ulib/ml/extracted/FStar_Math_Lib.ml" 42 1040 1094
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1106 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1107
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 992 "ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 993
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1108 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1109
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1110 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1111
+type(
+  Prims.pos
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Math_Lib.ml" 40 998 1006 "ulib/ml/extracted/FStar_Math_Lib.ml" 40 998 1007
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1106 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1111
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 41 1012 1018 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1111
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 40 998 1002 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1111
+type(
+  Prims.pos -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 39 986 988 "ulib/ml/extracted/FStar_Math_Lib.ml" 43 1095 1111
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 45 1115 1120 "ulib/ml/extracted/FStar_Math_Lib.ml" 45 1115 1130
+type(
+  Prims.int -> Prims.nat -> Prims.int
+)
+ident(
+  def shift_left "ulib/ml/extracted/FStar_Math_Lib.ml" 47 1214 1214 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1178 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1179
+type(
+  Prims.int
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1184 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1212
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1188 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1189
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1194 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1212
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1194 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1195
+type(
+  Prims.int
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1178 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1179
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1196 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1197
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1199 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1209
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1210 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1211
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1188 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1189
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1198 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1212
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1194 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1212
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1184 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1212
+type(
+  Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1174 "ulib/ml/extracted/FStar_Math_Lib.ml" 46 1172 1212
+type(
+  Prims.int -> Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 47 1214 1219 "ulib/ml/extracted/FStar_Math_Lib.ml" 47 1214 1241
+type(
+  Prims.int -> Prims.nat -> Prims.int
+)
+ident(
+  def arithmetic_shift_right "ulib/ml/extracted/FStar_Math_Lib.ml" 49 1327 1327 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1289 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1290
+type(
+  Prims.int
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1295 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1325
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1299 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1300
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1305 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1325
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1305 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1308
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  int_ref div "ulib/ml/extracted/FStar_Math_Lib.ml" 28 678 683 "ulib/ml/extracted/FStar_Math_Lib.ml" 28 678 686
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1309 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1310
+type(
+  Prims.int
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1289 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1290
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1312 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1322
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1323 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1324
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1299 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1300
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1311 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1325
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1305 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1325
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1295 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1325
+type(
+  Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1285 "ulib/ml/extracted/FStar_Math_Lib.ml" 48 1283 1325
+type(
+  Prims.int -> Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 49 1327 1332 "ulib/ml/extracted/FStar_Math_Lib.ml" 49 1327 1345
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  def signed_modulo "ulib/ml/extracted/FStar_Math_Lib.ml" 56 1521 1521 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1393 "ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1394
+type(
+  Prims.int
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Math_Lib.ml" 51 1399 1403 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1517
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 51 1399 1407 "ulib/ml/extracted/FStar_Math_Lib.ml" 51 1399 1408
+type(
+  Prims.pos
+)
+ident(
+  def p "ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1419 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1517
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1422 "ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1423
+type(
+  Prims.int
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1393 "ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1394
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1424 "ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1426
+type(
+  Prims.int -> Z.t -> bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1427 "ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1441
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1422 "ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1441
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 53 1442 1453 "ulib/ml/extracted/FStar_Math_Lib.ml" 53 1442 1454
+type(
+  Prims.int
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1393 "ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1394
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 53 1442 1455 "ulib/ml/extracted/FStar_Math_Lib.ml" 53 1442 1458
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 53 1442 1459 "ulib/ml/extracted/FStar_Math_Lib.ml" 53 1442 1460
+type(
+  Prims.pos
+)
+ident(
+  int_ref p "ulib/ml/extracted/FStar_Math_Lib.ml" 51 1399 1407 "ulib/ml/extracted/FStar_Math_Lib.ml" 51 1399 1408
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 53 1442 1453 "ulib/ml/extracted/FStar_Math_Lib.ml" 53 1442 1460
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1472 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1486
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1487 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1488
+type(
+  Z.t -> Z.t -> Prims.int
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1491 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1505
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1506 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1507
+type(
+  Z.t -> Prims.int -> Z.t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1508 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1509
+type(
+  Prims.int
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1393 "ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1394
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1490 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1510
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1511 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1514
+type(
+  Z.t -> Prims.pos -> Z.t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1515 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1516
+type(
+  Prims.pos
+)
+ident(
+  int_ref p "ulib/ml/extracted/FStar_Math_Lib.ml" 51 1399 1407 "ulib/ml/extracted/FStar_Math_Lib.ml" 51 1399 1408
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1489 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1517
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1472 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1517
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 52 1413 1419 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1517
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 51 1399 1403 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1517
+type(
+  Prims.pos -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 50 1387 1389 "ulib/ml/extracted/FStar_Math_Lib.ml" 54 1461 1517
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 56 1521 1526 "ulib/ml/extracted/FStar_Math_Lib.ml" 56 1521 1541
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  def op_Plus_Percent "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1622 "ulib/ml/extracted/FStar_Math_Lib.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1589 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1590
+type(
+  Prims.int
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1595 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1622
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1599 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1600
+type(
+  Prims.pos
+)
+ident(
+  def p "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1605 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1622
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1605 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1618
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)
+ident(
+  int_ref signed_modulo "ulib/ml/extracted/FStar_Math_Lib.ml" 49 1327 1332 "ulib/ml/extracted/FStar_Math_Lib.ml" 49 1327 1345
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1619 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1620
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1589 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1590
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1621 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1622
+type(
+  Prims.pos
+)
+ident(
+  int_ref p "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1599 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1600
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1605 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1622
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1595 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1622
+type(
+  Prims.pos -> Prims.int
+)
+"ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1585 "ulib/ml/extracted/FStar_Math_Lib.ml" 57 1583 1622
+type(
+  Prims.int -> Prims.pos -> Prims.int
+)

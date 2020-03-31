@@ -1,0 +1,923 @@
+"ulib/ml/FStar_HyperStack_ST.ml" 8 111 115 "ulib/ml/FStar_HyperStack_ST.ml" 8 111 125
+type(
+  unit -> unit
+)
+ident(
+  def push_frame "ulib/ml/FStar_HyperStack_ST.ml" 9 134 134 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 8 111 126 "ulib/ml/FStar_HyperStack_ST.ml" 8 111 128
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 8 111 131 "ulib/ml/FStar_HyperStack_ST.ml" 8 111 133
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 9 134 138 "ulib/ml/FStar_HyperStack_ST.ml" 9 134 147
+type(
+  unit -> unit
+)
+ident(
+  def pop_frame "ulib/ml/FStar_HyperStack_ST.ml" 11 157 157 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 9 134 148 "ulib/ml/FStar_HyperStack_ST.ml" 9 134 150
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 9 134 153 "ulib/ml/FStar_HyperStack_ST.ml" 9 134 155
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 11 157 161 "ulib/ml/FStar_HyperStack_ST.ml" 11 157 165
+type(
+  unit
+)
+ident(
+  def root "ulib/ml/FStar_HyperStack_ST.ml" 13 172 172 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 11 157 168 "ulib/ml/FStar_HyperStack_ST.ml" 11 157 170
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 13 172 176 "ulib/ml/FStar_HyperStack_ST.ml" 13 172 183
+type(
+  unit
+)
+ident(
+  def def_rid "ulib/ml/FStar_HyperStack_ST.ml" 15 192 192 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 13 172 186 "ulib/ml/FStar_HyperStack_ST.ml" 13 172 190
+type(
+  unit
+)
+ident(
+  int_ref root "ulib/ml/FStar_HyperStack_ST.ml" 11 157 161 "ulib/ml/FStar_HyperStack_ST.ml" 11 157 165
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 15 192 196 "ulib/ml/FStar_HyperStack_ST.ml" 15 192 202
+type(
+  'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def salloc "ulib/ml/FStar_HyperStack_ST.ml" 19 297 297 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 15 192 204 "ulib/ml/FStar_HyperStack_ST.ml" 15 192 212
+type(
+  'a
+)
+ident(
+  def contents "ulib/ml/FStar_HyperStack_ST.ml" 15 192 217 "ulib/ml/FStar_HyperStack_ST.ml" 17 278 295
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 16 235 241 "ulib/ml/FStar_HyperStack_ST.ml" 16 235 242
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 17 278 280 "ulib/ml/FStar_HyperStack_ST.ml" 17 278 295
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 16 235 245 "ulib/ml/FStar_HyperStack_ST.ml" 16 235 265
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 16 235 266 "ulib/ml/FStar_HyperStack_ST.ml" 16 235 274
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/ml/FStar_HyperStack_ST.ml" 15 192 204 "ulib/ml/FStar_HyperStack_ST.ml" 15 192 212
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 16 235 245 "ulib/ml/FStar_HyperStack_ST.ml" 16 235 274
+call(
+  stack
+)
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 17 278 287 "ulib/ml/FStar_HyperStack_ST.ml" 17 278 291
+type(
+  Prims.unit
+)
+ident(
+  int_ref root "ulib/ml/FStar_HyperStack_ST.ml" 11 157 161 "ulib/ml/FStar_HyperStack_ST.ml" 11 157 165
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 17 278 293 "ulib/ml/FStar_HyperStack_ST.ml" 17 278 294
+type(
+  ('a, Prims.unit) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/ml/FStar_HyperStack_ST.ml" 16 235 241 "ulib/ml/FStar_HyperStack_ST.ml" 16 235 242
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 17 278 280 "ulib/ml/FStar_HyperStack_ST.ml" 17 278 295
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 16 235 237 "ulib/ml/FStar_HyperStack_ST.ml" 17 278 295
+type(
+  'a FStar_HyperStack.reference
+)
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 19 297 301 "ulib/ml/FStar_HyperStack_ST.ml" 19 297 310
+type(
+  'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def salloc_mm "ulib/ml/FStar_HyperStack_ST.ml" 23 405 405 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 19 297 312 "ulib/ml/FStar_HyperStack_ST.ml" 19 297 320
+type(
+  'a
+)
+ident(
+  def contents "ulib/ml/FStar_HyperStack_ST.ml" 19 297 325 "ulib/ml/FStar_HyperStack_ST.ml" 21 386 403
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 20 343 349 "ulib/ml/FStar_HyperStack_ST.ml" 20 343 350
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 21 386 388 "ulib/ml/FStar_HyperStack_ST.ml" 21 386 403
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 20 343 353 "ulib/ml/FStar_HyperStack_ST.ml" 20 343 373
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 20 343 374 "ulib/ml/FStar_HyperStack_ST.ml" 20 343 382
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/ml/FStar_HyperStack_ST.ml" 19 297 312 "ulib/ml/FStar_HyperStack_ST.ml" 19 297 320
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 20 343 353 "ulib/ml/FStar_HyperStack_ST.ml" 20 343 382
+call(
+  stack
+)
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 21 386 395 "ulib/ml/FStar_HyperStack_ST.ml" 21 386 399
+type(
+  Prims.unit
+)
+ident(
+  int_ref root "ulib/ml/FStar_HyperStack_ST.ml" 11 157 161 "ulib/ml/FStar_HyperStack_ST.ml" 11 157 165
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 21 386 401 "ulib/ml/FStar_HyperStack_ST.ml" 21 386 402
+type(
+  ('a, Prims.unit) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/ml/FStar_HyperStack_ST.ml" 20 343 349 "ulib/ml/FStar_HyperStack_ST.ml" 20 343 350
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 21 386 388 "ulib/ml/FStar_HyperStack_ST.ml" 21 386 403
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 20 343 345 "ulib/ml/FStar_HyperStack_ST.ml" 21 386 403
+type(
+  'a FStar_HyperStack.reference
+)
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 23 405 409 "ulib/ml/FStar_HyperStack_ST.ml" 23 405 414
+type(
+  'a -> unit
+)
+ident(
+  def sfree "ulib/ml/FStar_HyperStack_ST.ml" 25 423 423 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 23 405 415 "ulib/ml/FStar_HyperStack_ST.ml" 23 405 416
+type(
+  'a
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 23 405 419 "ulib/ml/FStar_HyperStack_ST.ml" 23 405 421
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 23 405 419 "ulib/ml/FStar_HyperStack_ST.ml" 23 405 421
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 25 423 427 "ulib/ml/FStar_HyperStack_ST.ml" 25 423 437
+type(
+  'a -> unit
+)
+ident(
+  def new_region "ulib/ml/FStar_HyperStack_ST.ml" 26 460 460 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 25 423 445 "ulib/ml/FStar_HyperStack_ST.ml" 25 423 447
+type(
+  'a
+)
+ident(
+  def r0 "ulib/ml/FStar_HyperStack_ST.ml" 25 423 451 "ulib/ml/FStar_HyperStack_ST.ml" 25 423 458
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 25 423 451 "ulib/ml/FStar_HyperStack_ST.ml" 25 423 458
+type(
+  unit
+)
+ident(
+  int_ref def_rid "ulib/ml/FStar_HyperStack_ST.ml" 13 172 176 "ulib/ml/FStar_HyperStack_ST.ml" 13 172 183
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 25 423 440 "ulib/ml/FStar_HyperStack_ST.ml" 25 423 459
+type(
+  'a -> unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 26 460 464 "ulib/ml/FStar_HyperStack_ST.ml" 26 460 482
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def new_colored_region "ulib/ml/FStar_HyperStack_ST.ml" 28 508 508 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 26 460 490 "ulib/ml/FStar_HyperStack_ST.ml" 26 460 492
+type(
+  'a
+)
+ident(
+  def r0 "ulib/ml/FStar_HyperStack_ST.ml" 26 460 493 "ulib/ml/FStar_HyperStack_ST.ml" 26 460 505
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 26 460 493 "ulib/ml/FStar_HyperStack_ST.ml" 26 460 494
+type(
+  'b
+)
+ident(
+  def c "ulib/ml/FStar_HyperStack_ST.ml" 26 460 498 "ulib/ml/FStar_HyperStack_ST.ml" 26 460 505
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 26 460 498 "ulib/ml/FStar_HyperStack_ST.ml" 26 460 505
+type(
+  unit
+)
+ident(
+  int_ref def_rid "ulib/ml/FStar_HyperStack_ST.ml" 13 172 176 "ulib/ml/FStar_HyperStack_ST.ml" 13 172 183
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 26 460 485 "ulib/ml/FStar_HyperStack_ST.ml" 26 460 506
+type(
+  'a -> 'b -> unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 28 508 512 "ulib/ml/FStar_HyperStack_ST.ml" 28 508 518
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def ralloc "ulib/ml/FStar_HyperStack_ST.ml" 32 614 614 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 28 508 519 "ulib/ml/FStar_HyperStack_ST.ml" 28 508 520
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/ml/FStar_HyperStack_ST.ml" 28 508 521 "ulib/ml/FStar_HyperStack_ST.ml" 30 596 610
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 28 508 522 "ulib/ml/FStar_HyperStack_ST.ml" 28 508 530
+type(
+  'a
+)
+ident(
+  def contents "ulib/ml/FStar_HyperStack_ST.ml" 28 508 535 "ulib/ml/FStar_HyperStack_ST.ml" 30 596 610
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 29 553 559 "ulib/ml/FStar_HyperStack_ST.ml" 29 553 560
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 30 596 598 "ulib/ml/FStar_HyperStack_ST.ml" 30 596 610
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 29 553 563 "ulib/ml/FStar_HyperStack_ST.ml" 29 553 583
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 29 553 584 "ulib/ml/FStar_HyperStack_ST.ml" 29 553 592
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/ml/FStar_HyperStack_ST.ml" 28 508 522 "ulib/ml/FStar_HyperStack_ST.ml" 28 508 530
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 29 553 563 "ulib/ml/FStar_HyperStack_ST.ml" 29 553 592
+call(
+  stack
+)
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 30 596 605 "ulib/ml/FStar_HyperStack_ST.ml" 30 596 606
+type(
+  Prims.unit
+)
+ident(
+  int_ref i "ulib/ml/FStar_HyperStack_ST.ml" 28 508 519 "ulib/ml/FStar_HyperStack_ST.ml" 28 508 520
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 30 596 608 "ulib/ml/FStar_HyperStack_ST.ml" 30 596 609
+type(
+  ('a, Prims.unit) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/ml/FStar_HyperStack_ST.ml" 29 553 559 "ulib/ml/FStar_HyperStack_ST.ml" 29 553 560
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 30 596 598 "ulib/ml/FStar_HyperStack_ST.ml" 30 596 610
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 29 553 555 "ulib/ml/FStar_HyperStack_ST.ml" 30 596 610
+type(
+  'a FStar_HyperStack.reference
+)
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 32 614 618 "ulib/ml/FStar_HyperStack_ST.ml" 32 614 627
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def ralloc_mm "ulib/ml/FStar_HyperStack_ST.ml" 36 723 723 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 32 614 628 "ulib/ml/FStar_HyperStack_ST.ml" 32 614 629
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/ml/FStar_HyperStack_ST.ml" 32 614 630 "ulib/ml/FStar_HyperStack_ST.ml" 34 705 719
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 32 614 631 "ulib/ml/FStar_HyperStack_ST.ml" 32 614 639
+type(
+  'a
+)
+ident(
+  def contents "ulib/ml/FStar_HyperStack_ST.ml" 32 614 644 "ulib/ml/FStar_HyperStack_ST.ml" 34 705 719
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 33 662 668 "ulib/ml/FStar_HyperStack_ST.ml" 33 662 669
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 34 705 707 "ulib/ml/FStar_HyperStack_ST.ml" 34 705 719
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 33 662 672 "ulib/ml/FStar_HyperStack_ST.ml" 33 662 692
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 33 662 693 "ulib/ml/FStar_HyperStack_ST.ml" 33 662 701
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/ml/FStar_HyperStack_ST.ml" 32 614 631 "ulib/ml/FStar_HyperStack_ST.ml" 32 614 639
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 33 662 672 "ulib/ml/FStar_HyperStack_ST.ml" 33 662 701
+call(
+  stack
+)
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 34 705 714 "ulib/ml/FStar_HyperStack_ST.ml" 34 705 715
+type(
+  Prims.unit
+)
+ident(
+  int_ref i "ulib/ml/FStar_HyperStack_ST.ml" 32 614 628 "ulib/ml/FStar_HyperStack_ST.ml" 32 614 629
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 34 705 717 "ulib/ml/FStar_HyperStack_ST.ml" 34 705 718
+type(
+  ('a, Prims.unit) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/ml/FStar_HyperStack_ST.ml" 33 662 668 "ulib/ml/FStar_HyperStack_ST.ml" 33 662 669
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 34 705 707 "ulib/ml/FStar_HyperStack_ST.ml" 34 705 719
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 33 662 664 "ulib/ml/FStar_HyperStack_ST.ml" 34 705 719
+type(
+  'a FStar_HyperStack.reference
+)
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 36 723 727 "ulib/ml/FStar_HyperStack_ST.ml" 36 723 732
+type(
+  'a -> unit
+)
+ident(
+  def rfree "ulib/ml/FStar_HyperStack_ST.ml" 38 741 741 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 36 723 733 "ulib/ml/FStar_HyperStack_ST.ml" 36 723 734
+type(
+  'a
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 36 723 737 "ulib/ml/FStar_HyperStack_ST.ml" 36 723 739
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 36 723 737 "ulib/ml/FStar_HyperStack_ST.ml" 36 723 739
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 38 741 745 "ulib/ml/FStar_HyperStack_ST.ml" 38 741 760
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a -> unit
+)
+ident(
+  def op_Colon_Equals "ulib/ml/FStar_HyperStack_ST.ml" 41 821 821 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 38 741 761 "ulib/ml/FStar_HyperStack_ST.ml" 38 741 762
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 38 741 763 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 819
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 38 741 763 "ulib/ml/FStar_HyperStack_ST.ml" 38 741 764
+type(
+  'a
+)
+ident(
+  def v "ulib/ml/FStar_HyperStack_ST.ml" 38 741 767 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 819
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 38 741 773 "ulib/ml/FStar_HyperStack_ST.ml" 38 741 774
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+ident(
+  int_ref r "ulib/ml/FStar_HyperStack_ST.ml" 38 741 761 "ulib/ml/FStar_HyperStack_ST.ml" 38 741 762
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 39 780 791 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 792
+type(
+  Prims.unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 39 780 794 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 795
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 39 780 800 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 819
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 39 780 784 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 796
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 39 780 800 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 815
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref -> 'a -> unit
+)
+ident(
+  ext_ref FStar_CommonST.op_Colon_Equals
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 39 780 816 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 817
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/ml/FStar_HyperStack_ST.ml" 39 780 794 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 795
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 39 780 818 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 819
+type(
+  'a
+)
+ident(
+  int_ref v "ulib/ml/FStar_HyperStack_ST.ml" 38 741 763 "ulib/ml/FStar_HyperStack_ST.ml" 38 741 764
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 39 780 800 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 819
+call(
+  tail
+)
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 38 741 767 "ulib/ml/FStar_HyperStack_ST.ml" 39 780 819
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 41 821 825 "ulib/ml/FStar_HyperStack_ST.ml" 41 821 832
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a
+)
+ident(
+  def op_Bang "ulib/ml/FStar_HyperStack_ST.ml" 44 881 881 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 41 821 833 "ulib/ml/FStar_HyperStack_ST.ml" 41 821 834
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 41 821 837 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 879
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 41 821 843 "ulib/ml/FStar_HyperStack_ST.ml" 41 821 844
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+ident(
+  int_ref r "ulib/ml/FStar_HyperStack_ST.ml" 41 821 833 "ulib/ml/FStar_HyperStack_ST.ml" 41 821 834
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 42 850 861 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 862
+type(
+  Prims.unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 42 850 864 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 865
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 42 850 870 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 879
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 42 850 854 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 866
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 42 850 870 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 877
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref -> 'a
+)
+ident(
+  ext_ref FStar_CommonST.op_Bang
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 42 850 878 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 879
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/ml/FStar_HyperStack_ST.ml" 42 850 864 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 865
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 42 850 870 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 879
+call(
+  tail
+)
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 41 821 837 "ulib/ml/FStar_HyperStack_ST.ml" 42 850 879
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 44 881 885 "ulib/ml/FStar_HyperStack_ST.ml" 44 881 889
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a
+)
+ident(
+  def read "ulib/ml/FStar_HyperStack_ST.ml" 46 901 901 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 44 881 892 "ulib/ml/FStar_HyperStack_ST.ml" 44 881 899
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a
+)
+ident(
+  int_ref op_Bang "ulib/ml/FStar_HyperStack_ST.ml" 41 821 825 "ulib/ml/FStar_HyperStack_ST.ml" 41 821 832
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 46 901 905 "ulib/ml/FStar_HyperStack_ST.ml" 46 901 910
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a -> unit
+)
+ident(
+  def write "ulib/ml/FStar_HyperStack_ST.ml" 48 930 930 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 46 901 913 "ulib/ml/FStar_HyperStack_ST.ml" 46 901 928
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a -> unit
+)
+ident(
+  int_ref op_Colon_Equals "ulib/ml/FStar_HyperStack_ST.ml" 38 741 745 "ulib/ml/FStar_HyperStack_ST.ml" 38 741 760
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 934 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 937
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def get "ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1020 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 938 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 940
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 947 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 962
+type(
+  string -> Prims.int
+)
+ident(
+  ext_ref Prims.parse_int
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 963 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 966
+type(
+  string
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 947 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 966
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 968 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 983
+type(
+  FStar_Monotonic_Heap.heap -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  ext_ref FStar_Map.const
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 984 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 1008
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.emp
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 968 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 1008
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 1010 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 1017
+type(
+  Prims.unit
+)
+ident(
+  int_ref def_rid "ulib/ml/FStar_HyperStack_ST.ml" 13 172 176 "ulib/ml/FStar_HyperStack_ST.ml" 13 172 183
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 48 930 943 "ulib/ml/FStar_HyperStack_ST.ml" 48 930 1018
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1024 "ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1030
+type(
+  'a -> unit
+)
+ident(
+  def recall "ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1048 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1038 "ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1039
+type(
+  'a
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1043 "ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1045
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1043 "ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1045
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1033 "ulib/ml/FStar_HyperStack_ST.ml" 50 1020 1046
+type(
+  'a -> unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1052 "ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1065
+type(
+  'a -> unit
+)
+ident(
+  def recall_region "ulib/ml/FStar_HyperStack_ST.ml" 53 1082 1082 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1073 "ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1074
+type(
+  'a
+)
+ident(
+  def r "ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1078 "ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1080
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1078 "ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1080
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1068 "ulib/ml/FStar_HyperStack_ST.ml" 52 1048 1081
+type(
+  'a -> unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 53 1082 1086 "ulib/ml/FStar_HyperStack_ST.ml" 53 1082 1100
+type(
+  'a -> unit
+)
+ident(
+  def witness_region "ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1108 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 53 1082 1101 "ulib/ml/FStar_HyperStack_ST.ml" 53 1082 1102
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 53 1082 1105 "ulib/ml/FStar_HyperStack_ST.ml" 53 1082 1107
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1112 "ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1125
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def witness_hsref "ulib/ml/FStar_HyperStack_ST.ml" 55 1135 1135 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1126 "ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1127
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1128 "ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1129
+type(
+  'b
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1132 "ulib/ml/FStar_HyperStack_ST.ml" 54 1108 1134
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 60 1257 1261 "ulib/ml/FStar_HyperStack_ST.ml" 60 1257 1266
+type(
+  'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def alloc "ulib/ml/FStar_HyperStack_ST.ml" 61 1276 1276 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 60 1257 1269 "ulib/ml/FStar_HyperStack_ST.ml" 60 1257 1275
+type(
+  'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  int_ref salloc "ulib/ml/FStar_HyperStack_ST.ml" 15 192 196 "ulib/ml/FStar_HyperStack_ST.ml" 15 192 202
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1387 "ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1397
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> unit
+)
+ident(
+  def mr_witness "ulib/ml/FStar_HyperStack_ST.ml" 65 1413 1413 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1398 "ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1399
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1400 "ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1401
+type(
+  'b
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1402 "ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1403
+type(
+  'c
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1404 "ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1405
+type(
+  'd
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1406 "ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1407
+type(
+  'e
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1410 "ulib/ml/FStar_HyperStack_ST.ml" 64 1383 1412
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 65 1413 1417 "ulib/ml/FStar_HyperStack_ST.ml" 65 1413 1424
+type(
+  'a -> unit
+)
+ident(
+  def testify "ulib/ml/FStar_HyperStack_ST.ml" 66 1432 1432 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 65 1413 1425 "ulib/ml/FStar_HyperStack_ST.ml" 65 1413 1426
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 65 1413 1429 "ulib/ml/FStar_HyperStack_ST.ml" 65 1413 1431
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 66 1432 1436 "ulib/ml/FStar_HyperStack_ST.ml" 66 1432 1450
+type(
+  'a -> unit
+)
+ident(
+  def testify_forall "ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1458 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 66 1432 1451 "ulib/ml/FStar_HyperStack_ST.ml" 66 1432 1452
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 66 1432 1455 "ulib/ml/FStar_HyperStack_ST.ml" 66 1432 1457
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1462 "ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1497
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def testify_forall_region_contains_pred "ulib/ml/FStar_HyperStack_ST.ml" 69 1508 1508 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1498 "ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1499
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1500 "ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1501
+type(
+  'b
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1504 "ulib/ml/FStar_HyperStack_ST.ml" 67 1458 1506
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 73 1649 1653 "ulib/ml/FStar_HyperStack_ST.ml" 73 1649 1662
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def witness_p "ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1672 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 73 1649 1663 "ulib/ml/FStar_HyperStack_ST.ml" 73 1649 1664
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 73 1649 1665 "ulib/ml/FStar_HyperStack_ST.ml" 73 1649 1666
+type(
+  'b
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 73 1649 1669 "ulib/ml/FStar_HyperStack_ST.ml" 73 1649 1671
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1676 "ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1684
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def recall_p "ulib/ml/FStar_HyperStack_ST.ml" 76 1695 1695 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1685 "ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1686
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1687 "ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1688
+type(
+  'b
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1691 "ulib/ml/FStar_HyperStack_ST.ml" 74 1672 1693
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 77 1711 1715 "ulib/ml/FStar_HyperStack_ST.ml" 77 1711 1723
+type(
+  'a -> unit
+)
+ident(
+  def new_drgn "ulib/ml/FStar_HyperStack_ST.ml" 78 1731 1731 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 77 1711 1724 "ulib/ml/FStar_HyperStack_ST.ml" 77 1711 1725
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 77 1711 1728 "ulib/ml/FStar_HyperStack_ST.ml" 77 1711 1730
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 78 1731 1735 "ulib/ml/FStar_HyperStack_ST.ml" 78 1731 1744
+type(
+  'a -> unit
+)
+ident(
+  def free_drgn "ulib/ml/FStar_HyperStack_ST.ml" 79 1752 1752 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 78 1731 1745 "ulib/ml/FStar_HyperStack_ST.ml" 78 1731 1746
+type(
+  'a
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 78 1731 1749 "ulib/ml/FStar_HyperStack_ST.ml" 78 1731 1751
+type(
+  unit
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 79 1752 1756 "ulib/ml/FStar_HyperStack_ST.ml" 79 1752 1767
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def ralloc_drgn "ulib/ml/FStar_HyperStack_ST.ml" 80 1777 1777 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 79 1752 1770 "ulib/ml/FStar_HyperStack_ST.ml" 79 1752 1776
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  int_ref ralloc "ulib/ml/FStar_HyperStack_ST.ml" 28 508 512 "ulib/ml/FStar_HyperStack_ST.ml" 28 508 518
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 80 1777 1781 "ulib/ml/FStar_HyperStack_ST.ml" 80 1777 1795
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def ralloc_drgn_mm "ulib/ml/FStar_HyperStack_ST.ml" 80 1777 1807 "ulib/ml/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_HyperStack_ST.ml" 80 1777 1798 "ulib/ml/FStar_HyperStack_ST.ml" 80 1777 1807
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  int_ref ralloc_mm "ulib/ml/FStar_HyperStack_ST.ml" 32 614 618 "ulib/ml/FStar_HyperStack_ST.ml" 32 614 627
+)

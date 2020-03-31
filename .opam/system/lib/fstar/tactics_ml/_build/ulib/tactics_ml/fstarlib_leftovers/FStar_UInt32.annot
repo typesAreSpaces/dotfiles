@@ -1,0 +1,1969 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 67 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 70
+type(
+  int -> int -> int
+)
+ident(
+  def % "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 119 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 71 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 72
+type(
+  int
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 73 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 117
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 73 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 74
+type(
+  int
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 77 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 117
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 80 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 81
+type(
+  int
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 71 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 72
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 82 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 83
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 84 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 85
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 80 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 85
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 92 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 93
+type(
+  int
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 71 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 72
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 94 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 97
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 98 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 99
+type(
+  int
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 73 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 74
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 91 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 100
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 101 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 102
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 103 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 104
+type(
+  int
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 73 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 74
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 91 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 104
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 110 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 111
+type(
+  int
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 71 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 72
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 112 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 115
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 116 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 117
+type(
+  int
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 73 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 74
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 110 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 117
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 77 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 117
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 123 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 124
+type(
+  Z.t
+)
+ident(
+  def n "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 148 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 127 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 142
+type(
+  string -> Z.t
+)
+ident(
+  ext_ref Prims.parse_int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 143 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 147
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 127 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 7 119 147
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 152 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 153
+type(
+  uint32 -> Prims.int
+)
+ident(
+  def v "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 10 214 214 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 155 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 156
+type(
+  uint32
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 165 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 212
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 179 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 194
+type(
+  string -> Prims.int
+)
+ident(
+  ext_ref Prims.parse_int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 196 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 209
+type(
+  uint32 -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 210 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 211
+type(
+  uint32
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 155 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 156
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 195 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 212
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 179 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 8 148 212
+call(
+  tail
+)
+type(
+  Prims.int
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 10 214 218 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 10 214 222
+type(
+  int
+)
+ident(
+  def zero "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 11 227 227 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 10 214 225 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 10 214 226
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 11 227 231 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 11 227 234
+type(
+  int
+)
+ident(
+  def one "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 12 239 239 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 11 227 237 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 11 227 238
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 12 239 243 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 12 239 247
+type(
+  int
+)
+ident(
+  def ones "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 309 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 12 239 250 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 12 239 260
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 313 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 316
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def add "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 356 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 318 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 319
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 328 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 329 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 330
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 339 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 350 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 351
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 318 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 352 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 353
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 354 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 355
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 329 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 330
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 350 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 355
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 360 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 373
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def add_underspec "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 388 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 374 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 375
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 376 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 387
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 376 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 377
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 380 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 387
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 380 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 383
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref add "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 313 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 316
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 384 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 385
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 374 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 375
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 386 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 387
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 376 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 377
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 380 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 387
+call(
+  tail
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 392 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 399
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  def add_mod "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 433 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 400 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 401
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 402 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 431
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 402 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 403
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 406 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 431
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 407 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 410
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref add "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 313 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 316
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 411 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 412
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 400 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 401
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 413 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 414
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 402 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 403
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 406 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 415
+call(
+  stack
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 416 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 420
+type(
+  uint32 -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 421 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 431
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 406 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 431
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 437 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 440
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def sub "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 480 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 442 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 443
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 452 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 479
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 453 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 454
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 463 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 479
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 474 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 475
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 442 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 443
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 476 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 477
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 478 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 479
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 453 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 454
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 474 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 479
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 484 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 497
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def sub_underspec "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 498 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 499
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 500 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 511
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 500 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 501
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 504 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 511
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 504 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 507
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref sub "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 437 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 440
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 508 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 509
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 498 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 499
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 510 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 511
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 500 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 501
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 504 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 511
+call(
+  tail
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 516 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 523
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  def sub_mod "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 557 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 524 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 525
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 526 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 555
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 526 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 527
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 530 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 555
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 531 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 534
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref sub "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 437 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 440
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 535 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 536
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 524 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 525
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 537 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 538
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 526 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 527
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 530 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 539
+call(
+  stack
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 540 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 544
+type(
+  uint32 -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 545 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 555
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 530 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 555
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 564
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def mul "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 604 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 566 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 567
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 576 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 603
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 577 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 578
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 587 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 603
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 598 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 599
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 566 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 567
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 600 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 601
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 602 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 603
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 577 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 578
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 598 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 603
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 608 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 621
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def mul_underspec "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 636 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 622 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 623
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 624 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 635
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 624 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 625
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 628 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 635
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 628 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 631
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref mul "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 564
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 632 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 633
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 622 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 623
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 634 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 635
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 624 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 625
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 628 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 635
+call(
+  tail
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 640 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 647
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  def mul_mod "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 681 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 648 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 649
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 650 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 679
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 650 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 651
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 654 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 679
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 655 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 658
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref mul "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 564
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 659 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 660
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 648 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 649
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 661 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 662
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 650 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 651
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 654 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 663
+call(
+  stack
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 664 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 668
+type(
+  uint32 -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 669 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 679
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 654 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 679
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 685 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 688
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def div "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 729 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 690 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 691
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 700 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 727
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 701 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 702
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 711 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 727
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 722 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 723
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 690 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 691
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 724 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 725
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 726 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 727
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 701 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 702
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 722 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 727
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 733 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 736
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def rem "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 779 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 738 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 739
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 748 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 777
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 749 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 750
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 759 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 777
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 770 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 771
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 738 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 739
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 772 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 775
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 776 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 777
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 749 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 750
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 770 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 777
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 783 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 789
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def logand "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 832 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 791 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 792
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 801 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 831
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 802 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 803
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 812 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 831
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 823 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 824
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 791 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 792
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 825 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 829
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 830 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 831
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 802 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 803
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 823 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 831
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 836 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 842
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def logxor "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 885 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 844 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 845
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 854 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 884
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 855 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 856
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 865 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 884
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 876 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 877
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 844 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 845
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 878 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 882
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( lxor )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 883 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 884
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 855 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 856
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 876 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 884
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 889 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 894
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def logor "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 937 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 897 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 898
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 907 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 936
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 908 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 909
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 918 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 936
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 929 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 930
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 897 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 898
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 931 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 934
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 935 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 936
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 908 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 909
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 929 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 936
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 941 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 947
+type(
+  uint32 -> uint32
+)
+ident(
+  def lognot "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 985 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 949 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 950
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 959 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 976
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 970 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 974
+type(
+  uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.lnot
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 975 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 976
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 949 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 950
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 970 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 33 937 976
+call(
+  tail
+)
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 989 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1002
+type(
+  Prims.int -> int
+)
+ident(
+  def int_to_uint32 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1067 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1004 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1005
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1019 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1065
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1019 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1032
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1034 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1049
+type(
+  Prims.int -> string
+)
+ident(
+  ext_ref Prims.to_string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1050 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1051
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1004 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1005
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1033 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1052
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1019 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1052
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1053 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1054
+type(
+  int -> int -> int
+)
+ident(
+  int_ref % "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 67 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 5 63 70
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1055 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1065
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1019 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1065
+call(
+  tail
+)
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1071 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1082
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def shift_right "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1124 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1084 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1085
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1094 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1123
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1095 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1096
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1105 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1123
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1116 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1117
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1084 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1085
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1118 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1121
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1122 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1123
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1095 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1096
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1116 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1123
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1128 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1138
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def shift_left "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1227 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1141 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1142
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1151 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1198
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1152 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1153
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1162 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1198
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1174 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1175
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1141 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1142
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1176 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1179
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1180 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1181
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1152 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1153
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1173 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1182
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1183 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1187
+type(
+  int -> int -> uint32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1188 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1198
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1173 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1198
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1231 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1233
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def eq "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1271 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1235 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1236
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1245 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1270
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1246 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1247
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1256 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1270
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1265 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1266
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1235 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1236
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1267 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1268
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1269 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1270
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1246 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1247
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1265 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1270
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1275 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1277
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def gt "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1315 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1279 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1280
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1289 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1314
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1290 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1291
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1300 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1314
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1309 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1310
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1279 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1280
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1311 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1312
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1313 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1314
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1290 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1291
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1309 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1314
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1319 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1322
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def gte "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1361 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1324 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1325
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1334 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1360
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1335 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1336
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1345 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1360
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1355
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1324 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1325
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1356 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1358
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1359 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1360
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1335 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1336
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1360
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1367
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def lt "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1405 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1369 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1370
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1379 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1404
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1380 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1381
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1390 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1404
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1399 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1400
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1369 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1370
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1401 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1402
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1403 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1404
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1380 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1381
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1399 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1404
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1409 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1412
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def lte "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1498 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1414 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1415
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1424 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1451
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1425 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1426
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1435 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1451
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1445 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1446
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1414 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1415
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1447 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1449
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1450 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1451
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1425 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1426
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1445 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1451
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1502 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1509
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def eq_mask "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1569 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1511 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1512
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1521 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1568
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1522 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1523
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1532 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1568
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1548 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1549
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1511 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1512
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1550 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1551
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1552 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1553
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1522 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 48 1498 1523
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1548 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1553
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1559 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1561
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1567 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1568
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1545 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 49 1543 1568
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1573 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1581
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def gte_mask "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 54 1665 1665 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1583 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1584
+type(
+  uint32
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1593 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1641
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1594 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1595
+type(
+  uint32
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1604 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1641
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1620 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1621
+type(
+  uint32
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1583 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1584
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1622 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1624
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1625 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1626
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1594 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 50 1569 1595
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1620 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1626
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1632 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1634
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1640 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1641
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1617 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 51 1615 1641
+type(
+  uint32
+)
+type(
+  uint32
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 54 1665 1669 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 54 1665 1680
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Plus_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 55 1687 1687 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 54 1665 1683 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 54 1665 1686
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref add "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 313 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 14 309 316
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 55 1687 1691 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 55 1687 1711
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Plus_Question_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 56 1728 1728 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 55 1687 1714 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 55 1687 1727
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref add_underspec "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 360 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 15 356 373
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 56 1728 1732 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 56 1728 1751
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  def op_Plus_Percent_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 57 1762 1762 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 56 1728 1754 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 56 1728 1761
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  int_ref add_mod "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 392 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 16 388 399
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 57 1762 1766 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 57 1762 1784
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Subtraction_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 58 1791 1791 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 57 1762 1787 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 57 1762 1790
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref sub "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 437 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 18 433 440
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 58 1791 1795 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 58 1791 1822
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Subtraction_Question_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 59 1839 1839 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 58 1791 1825 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 58 1791 1838
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref sub_underspec "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 484 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 19 480 497
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 59 1839 1843 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 59 1839 1869
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  def op_Subtraction_Percent_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 60 1880 1880 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 59 1839 1872 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 59 1839 1879
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  int_ref sub_mod "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 516 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 20 512 523
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 60 1880 1884 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 60 1880 1895
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Star_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 61 1902 1902 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 60 1880 1898 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 60 1880 1901
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref mul "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 22 557 564
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 61 1902 1906 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 61 1902 1926
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Star_Question_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 62 1943 1943 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 61 1902 1929 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 61 1902 1942
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref mul_underspec "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 608 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 23 604 621
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 62 1943 1947 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 62 1943 1966
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  def op_Star_Percent_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 63 1977 1977 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 62 1943 1969 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 62 1943 1976
+type(
+  uint32 -> uint32 -> int
+)
+ident(
+  int_ref mul_mod "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 640 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 24 636 647
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 63 1977 1981 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 63 1977 1993
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Slash_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 64 2000 2000 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 63 1977 1996 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 63 1977 1999
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref div "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 685 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 26 681 688
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 64 2000 2004 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 64 2000 2018
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Percent_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 65 2025 2025 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 64 2000 2021 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 64 2000 2024
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref rem "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 733 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 28 729 736
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 65 2025 2029 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 65 2025 2039
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Hat_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 66 2051 2051 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 65 2025 2042 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 65 2025 2048
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref logxor "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 836 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 31 832 842
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 66 2051 2055 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 66 2051 2065
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Amp_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 67 2075 2075 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 66 2051 2068 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 66 2051 2074
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref logand "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 783 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 30 779 789
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 67 2075 2079 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 67 2075 2089
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Bar_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 68 2098 2098 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 67 2075 2092 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 67 2075 2097
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref logor "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 889 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 32 885 894
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 68 2098 2102 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 68 2098 2118
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Less_Less_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 69 2132 2132 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 68 2098 2121 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 68 2098 2131
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref shift_left "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1128 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 38 1124 1138
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 69 2132 2136 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 69 2132 2158
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  def op_Greater_Greater_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 70 2173 2173 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 69 2132 2161 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 69 2132 2172
+type(
+  uint32 -> uint32 -> uint32
+)
+ident(
+  int_ref shift_right "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1071 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 37 1067 1082
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 70 2173 2177 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 70 2173 2190
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def op_Equals_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 71 2196 2196 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 70 2173 2193 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 70 2173 2195
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  int_ref eq "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1231 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 41 1227 1233
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 71 2196 2200 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 71 2196 2214
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def op_Greater_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 72 2220 2220 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 71 2196 2217 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 71 2196 2219
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  int_ref gt "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1275 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 42 1271 1277
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 72 2220 2224 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 72 2220 2245
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def op_Greater_Equals_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 73 2252 2252 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 72 2220 2248 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 72 2220 2251
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  int_ref gte "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1319 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 43 1315 1322
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 73 2252 2256 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 73 2252 2267
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def op_Less_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 74 2273 2273 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 73 2252 2270 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 73 2252 2272
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  int_ref lt "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 44 1361 1367
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 74 2273 2277 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 74 2273 2295
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  def op_Less_Equals_Hat "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2303 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 74 2273 2298 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 74 2273 2301
+type(
+  uint32 -> uint32 -> bool
+)
+ident(
+  int_ref lte "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1409 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 45 1405 1412
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2307 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2316
+type(
+  string -> int
+)
+ident(
+  def of_string "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2337 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2317 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2318
+type(
+  string
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2321 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2336
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2321 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2334
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2335 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2336
+type(
+  string
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2317 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2318
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2321 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 76 2303 2336
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2341 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2350
+type(
+  int -> string
+)
+ident(
+  def to_string "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2371 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2351 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2352
+type(
+  int
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2355 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2370
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2355 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2368
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2369 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2370
+type(
+  int
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2351 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2352
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2355 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 77 2337 2370
+call(
+  tail
+)
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2375 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2381
+type(
+  'a -> 'a
+)
+ident(
+  def to_int "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2388 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2382 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2383
+type(
+  'a
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2386 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2387
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2386 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2387
+type(
+  'a
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2382 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 78 2371 2383
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2392 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2401
+type(
+  Prims.int -> int
+)
+ident(
+  def uint_to_t "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 80 2422 2422 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2402 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2403
+type(
+  Prims.int
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2406 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2421
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2406 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2419
+type(
+  Prims.int -> int
+)
+ident(
+  int_ref int_to_uint32 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 989 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 35 985 1002
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2420 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2421
+type(
+  Prims.int
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2402 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2403
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2406 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2421
+call(
+  tail
+)
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 80 2422 2426 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 80 2422 2437
+type(
+  Prims.int -> int
+)
+ident(
+  def __uint_to_t "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 80 2422 2449 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 80 2422 2440 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 80 2422 2449
+type(
+  Prims.int -> int
+)
+ident(
+  int_ref uint_to_t "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2392 "ulib/tactics_ml/fstarlib_leftovers/FStar_UInt32.ml" 79 2388 2401
+)

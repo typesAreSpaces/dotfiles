@@ -1,0 +1,1075 @@
+"ulib/ml/FStar_Udp.ml" 10 154 160 "ulib/ml/FStar_Udp.ml" 10 154 179
+type(
+  int
+)
+ident(
+  def default_buffer_size "ulib/ml/FStar_Udp.ml" 13 221 223 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 10 154 182 "ulib/ml/FStar_Udp.ml" 10 154 186
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 13 221 227 "ulib/ml/FStar_Udp.ml" 13 221 231
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def stop "ulib/ml/FStar_Udp.ml" 16 265 267 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 13 221 232 "ulib/ml/FStar_Udp.ml" 13 221 233
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Udp.ml" 14 236 240 "ulib/ml/FStar_Udp.ml" 14 236 263
+)
+"ulib/ml/FStar_Udp.ml" 14 236 240 "ulib/ml/FStar_Udp.ml" 14 236 248
+type(
+  Unix.file_descr -> Unix.shutdown_command -> unit
+)
+ident(
+  ext_ref Unix.shutdown
+)
+"ulib/ml/FStar_Udp.ml" 14 236 249 "ulib/ml/FStar_Udp.ml" 14 236 250
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Udp.ml" 13 221 232 "ulib/ml/FStar_Udp.ml" 13 221 233
+)
+"ulib/ml/FStar_Udp.ml" 14 236 251 "ulib/ml/FStar_Udp.ml" 14 236 263
+type(
+  Unix.shutdown_command
+)
+"ulib/ml/FStar_Udp.ml" 14 236 240 "ulib/ml/FStar_Udp.ml" 14 236 263
+call(
+  tail
+)
+type(
+  unit
+)
+"ulib/ml/FStar_Udp.ml" 16 265 271 "ulib/ml/FStar_Udp.ml" 16 265 276
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def close "ulib/ml/FStar_Udp.ml" 20 324 326 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 16 265 277 "ulib/ml/FStar_Udp.ml" 16 265 278
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Udp.ml" 17 281 285 "ulib/ml/FStar_Udp.ml" 17 281 292
+)
+"ulib/ml/FStar_Udp.ml" 17 281 285 "ulib/ml/FStar_Udp.ml" 17 281 290
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"ulib/ml/FStar_Udp.ml" 17 281 291 "ulib/ml/FStar_Udp.ml" 17 281 292
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Udp.ml" 16 265 277 "ulib/ml/FStar_Udp.ml" 16 265 278
+)
+"ulib/ml/FStar_Udp.ml" 17 281 285 "ulib/ml/FStar_Udp.ml" 17 281 292
+call(
+  tail
+)
+type(
+  unit
+)
+"ulib/ml/FStar_Udp.ml" 20 324 330 "ulib/ml/FStar_Udp.ml" 20 324 337
+type(
+  string -> Z.t -> Unix.file_descr
+)
+ident(
+  def connect "ulib/ml/FStar_Udp.ml" 28 613 615 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 20 324 338 "ulib/ml/FStar_Udp.ml" 20 324 340
+type(
+  string
+)
+ident(
+  def ip "ulib/ml/FStar_Udp.ml" 20 324 341 "ulib/ml/FStar_Udp.ml" 25 522 537
+)
+"ulib/ml/FStar_Udp.ml" 20 324 341 "ulib/ml/FStar_Udp.ml" 20 324 345
+type(
+  Z.t
+)
+ident(
+  def port "ulib/ml/FStar_Udp.ml" 21 348 352 "ulib/ml/FStar_Udp.ml" 25 522 537
+)
+"ulib/ml/FStar_Udp.ml" 21 348 356 "ulib/ml/FStar_Udp.ml" 21 348 360
+type(
+  int
+)
+ident(
+  def port "ulib/ml/FStar_Udp.ml" 22 380 384 "ulib/ml/FStar_Udp.ml" 25 522 537
+)
+"ulib/ml/FStar_Udp.ml" 21 348 363 "ulib/ml/FStar_Udp.ml" 21 348 371
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Udp.ml" 21 348 372 "ulib/ml/FStar_Udp.ml" 21 348 376
+type(
+  Z.t
+)
+ident(
+  int_ref port "ulib/ml/FStar_Udp.ml" 20 324 341 "ulib/ml/FStar_Udp.ml" 20 324 345
+)
+"ulib/ml/FStar_Udp.ml" 21 348 363 "ulib/ml/FStar_Udp.ml" 21 348 376
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 22 380 388 "ulib/ml/FStar_Udp.ml" 22 380 399
+type(
+  Unix.file_descr
+)
+ident(
+  def client_sock "ulib/ml/FStar_Udp.ml" 23 433 437 "ulib/ml/FStar_Udp.ml" 25 522 537
+)
+"ulib/ml/FStar_Udp.ml" 22 380 402 "ulib/ml/FStar_Udp.ml" 22 380 408
+type(
+  ?cloexec:bool ->
+  Unix.socket_domain -> Unix.socket_type -> int -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.socket
+)
+"ulib/ml/FStar_Udp.ml" 22 380 409 "ulib/ml/FStar_Udp.ml" 22 380 416
+type(
+  Unix.socket_domain
+)
+"ulib/ml/FStar_Udp.ml" 22 380 417 "ulib/ml/FStar_Udp.ml" 22 380 427
+type(
+  Unix.socket_type
+)
+"ulib/ml/FStar_Udp.ml" 22 380 428 "ulib/ml/FStar_Udp.ml" 22 380 429
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 22 380 402 "ulib/ml/FStar_Udp.ml" 22 380 429
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Udp.ml" 23 433 441 "ulib/ml/FStar_Udp.ml" 23 433 445
+type(
+  Unix.inet_addr
+)
+ident(
+  def addr "ulib/ml/FStar_Udp.ml" 24 474 478 "ulib/ml/FStar_Udp.ml" 25 522 537
+)
+"ulib/ml/FStar_Udp.ml" 23 433 448 "ulib/ml/FStar_Udp.ml" 23 433 467
+type(
+  string -> Unix.inet_addr
+)
+ident(
+  ext_ref Unix.inet_addr_of_string
+)
+"ulib/ml/FStar_Udp.ml" 23 433 468 "ulib/ml/FStar_Udp.ml" 23 433 470
+type(
+  string
+)
+ident(
+  int_ref ip "ulib/ml/FStar_Udp.ml" 20 324 338 "ulib/ml/FStar_Udp.ml" 20 324 340
+)
+"ulib/ml/FStar_Udp.ml" 23 433 448 "ulib/ml/FStar_Udp.ml" 23 433 470
+call(
+  stack
+)
+type(
+  Unix.inet_addr
+)
+"ulib/ml/FStar_Udp.ml" 24 474 478 "ulib/ml/FStar_Udp.ml" 24 474 485
+type(
+  Unix.file_descr -> Unix.sockaddr -> unit
+)
+ident(
+  ext_ref Unix.connect
+)
+"ulib/ml/FStar_Udp.ml" 24 474 486 "ulib/ml/FStar_Udp.ml" 24 474 497
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref client_sock "ulib/ml/FStar_Udp.ml" 22 380 388 "ulib/ml/FStar_Udp.ml" 22 380 399
+)
+"ulib/ml/FStar_Udp.ml" 24 474 509 "ulib/ml/FStar_Udp.ml" 24 474 513
+type(
+  Unix.inet_addr
+)
+ident(
+  int_ref addr "ulib/ml/FStar_Udp.ml" 23 433 441 "ulib/ml/FStar_Udp.ml" 23 433 445
+)
+"ulib/ml/FStar_Udp.ml" 24 474 514 "ulib/ml/FStar_Udp.ml" 24 474 518
+type(
+  int
+)
+ident(
+  int_ref port "ulib/ml/FStar_Udp.ml" 21 348 356 "ulib/ml/FStar_Udp.ml" 21 348 360
+)
+"ulib/ml/FStar_Udp.ml" 24 474 498 "ulib/ml/FStar_Udp.ml" 24 474 520
+type(
+  Unix.sockaddr
+)
+"ulib/ml/FStar_Udp.ml" 24 474 478 "ulib/ml/FStar_Udp.ml" 24 474 520
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/FStar_Udp.ml" 25 522 526 "ulib/ml/FStar_Udp.ml" 25 522 537
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref client_sock "ulib/ml/FStar_Udp.ml" 22 380 388 "ulib/ml/FStar_Udp.ml" 22 380 399
+)
+"ulib/ml/FStar_Udp.ml" 24 474 478 "ulib/ml/FStar_Udp.ml" 25 522 537
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Udp.ml" 23 433 437 "ulib/ml/FStar_Udp.ml" 25 522 537
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Udp.ml" 22 380 384 "ulib/ml/FStar_Udp.ml" 25 522 537
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Udp.ml" 21 348 352 "ulib/ml/FStar_Udp.ml" 25 522 537
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Udp.ml" 28 613 619 "ulib/ml/FStar_Udp.ml" 28 613 628
+type(
+  Unix.file_descr -> FStar_Bytes.bytes -> int
+)
+ident(
+  def sock_send "ulib/ml/FStar_Udp.ml" 34 806 808 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 28 613 629 "ulib/ml/FStar_Udp.ml" 28 613 633
+type(
+  Unix.file_descr
+)
+ident(
+  def sock "ulib/ml/FStar_Udp.ml" 28 613 634 "ulib/ml/FStar_Udp.ml" 31 707 743
+)
+"ulib/ml/FStar_Udp.ml" 28 613 634 "ulib/ml/FStar_Udp.ml" 28 613 637
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  def str "ulib/ml/FStar_Udp.ml" 29 640 644 "ulib/ml/FStar_Udp.ml" 31 707 743
+)
+"ulib/ml/FStar_Udp.ml" 29 640 648 "ulib/ml/FStar_Udp.ml" 29 640 651
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  def str "ulib/ml/FStar_Udp.ml" 30 672 676 "ulib/ml/FStar_Udp.ml" 31 707 743
+)
+"ulib/ml/FStar_Udp.ml" 29 640 654 "ulib/ml/FStar_Udp.ml" 29 640 664
+type(
+  FStar_Bytes.bytes -> FStar_Bytes.bytes
+)
+ident(
+  ext_ref FStar_Bytes.get_cbytes
+)
+"ulib/ml/FStar_Udp.ml" 29 640 665 "ulib/ml/FStar_Udp.ml" 29 640 668
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Udp.ml" 28 613 634 "ulib/ml/FStar_Udp.ml" 28 613 637
+)
+"ulib/ml/FStar_Udp.ml" 29 640 654 "ulib/ml/FStar_Udp.ml" 29 640 668
+call(
+  stack
+)
+type(
+  FStar_Bytes.bytes
+)
+"ulib/ml/FStar_Udp.ml" 30 672 680 "ulib/ml/FStar_Udp.ml" 30 672 683
+type(
+  int
+)
+ident(
+  def len "ulib/ml/FStar_Udp.ml" 31 707 711 "ulib/ml/FStar_Udp.ml" 31 707 743
+)
+"ulib/ml/FStar_Udp.ml" 30 672 686 "ulib/ml/FStar_Udp.ml" 30 672 699
+type(
+  FStar_Bytes.bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"ulib/ml/FStar_Udp.ml" 30 672 700 "ulib/ml/FStar_Udp.ml" 30 672 703
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Udp.ml" 29 640 648 "ulib/ml/FStar_Udp.ml" 29 640 651
+)
+"ulib/ml/FStar_Udp.ml" 30 672 686 "ulib/ml/FStar_Udp.ml" 30 672 703
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 31 707 711 "ulib/ml/FStar_Udp.ml" 31 707 725
+type(
+  Unix.file_descr ->
+  FStar_Bytes.bytes -> int -> int -> Unix.msg_flag list -> int
+)
+ident(
+  ext_ref Unix.send_substring
+)
+"ulib/ml/FStar_Udp.ml" 31 707 726 "ulib/ml/FStar_Udp.ml" 31 707 730
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref sock "ulib/ml/FStar_Udp.ml" 28 613 629 "ulib/ml/FStar_Udp.ml" 28 613 633
+)
+"ulib/ml/FStar_Udp.ml" 31 707 731 "ulib/ml/FStar_Udp.ml" 31 707 734
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Udp.ml" 29 640 648 "ulib/ml/FStar_Udp.ml" 29 640 651
+)
+"ulib/ml/FStar_Udp.ml" 31 707 735 "ulib/ml/FStar_Udp.ml" 31 707 736
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 31 707 737 "ulib/ml/FStar_Udp.ml" 31 707 740
+type(
+  int
+)
+ident(
+  int_ref len "ulib/ml/FStar_Udp.ml" 30 672 680 "ulib/ml/FStar_Udp.ml" 30 672 683
+)
+"ulib/ml/FStar_Udp.ml" 31 707 741 "ulib/ml/FStar_Udp.ml" 31 707 743
+type(
+  Unix.msg_flag list
+)
+"ulib/ml/FStar_Udp.ml" 31 707 711 "ulib/ml/FStar_Udp.ml" 31 707 743
+call(
+  tail
+)
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 30 672 676 "ulib/ml/FStar_Udp.ml" 31 707 743
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 29 640 644 "ulib/ml/FStar_Udp.ml" 31 707 743
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 34 806 812 "ulib/ml/FStar_Udp.ml" 34 806 821
+type(
+  Unix.file_descr -> int -> FStar_Bytes.cbytes
+)
+ident(
+  def sock_recv "ulib/ml/FStar_Udp.ml" 41 1022 1024 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 34 806 822 "ulib/ml/FStar_Udp.ml" 34 806 826
+type(
+  Unix.file_descr
+)
+ident(
+  def sock "ulib/ml/FStar_Udp.ml" 34 806 827 "ulib/ml/FStar_Udp.ml" 38 968 982
+)
+"ulib/ml/FStar_Udp.ml" 34 806 827 "ulib/ml/FStar_Udp.ml" 34 806 833
+type(
+  int
+)
+ident(
+  def maxlen "ulib/ml/FStar_Udp.ml" 35 836 840 "ulib/ml/FStar_Udp.ml" 38 968 982
+)
+"ulib/ml/FStar_Udp.ml" 35 836 844 "ulib/ml/FStar_Udp.ml" 35 836 847
+type(
+  bytes
+)
+ident(
+  def str "ulib/ml/FStar_Udp.ml" 36 873 877 "ulib/ml/FStar_Udp.ml" 38 968 982
+)
+"ulib/ml/FStar_Udp.ml" 35 836 850 "ulib/ml/FStar_Udp.ml" 35 836 862
+type(
+  int -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"ulib/ml/FStar_Udp.ml" 35 836 863 "ulib/ml/FStar_Udp.ml" 35 836 869
+type(
+  int
+)
+ident(
+  int_ref maxlen "ulib/ml/FStar_Udp.ml" 34 806 827 "ulib/ml/FStar_Udp.ml" 34 806 833
+)
+"ulib/ml/FStar_Udp.ml" 35 836 850 "ulib/ml/FStar_Udp.ml" 35 836 869
+type(
+  bytes
+)
+"ulib/ml/FStar_Udp.ml" 36 873 881 "ulib/ml/FStar_Udp.ml" 36 873 888
+type(
+  int
+)
+ident(
+  def recvlen "ulib/ml/FStar_Udp.ml" 37 920 924 "ulib/ml/FStar_Udp.ml" 38 968 982
+)
+"ulib/ml/FStar_Udp.ml" 36 873 891 "ulib/ml/FStar_Udp.ml" 36 873 895
+type(
+  Unix.file_descr -> bytes -> int -> int -> Unix.msg_flag list -> int
+)
+ident(
+  ext_ref Unix.recv
+)
+"ulib/ml/FStar_Udp.ml" 36 873 896 "ulib/ml/FStar_Udp.ml" 36 873 900
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref sock "ulib/ml/FStar_Udp.ml" 34 806 822 "ulib/ml/FStar_Udp.ml" 34 806 826
+)
+"ulib/ml/FStar_Udp.ml" 36 873 901 "ulib/ml/FStar_Udp.ml" 36 873 904
+type(
+  bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Udp.ml" 35 836 844 "ulib/ml/FStar_Udp.ml" 35 836 847
+)
+"ulib/ml/FStar_Udp.ml" 36 873 905 "ulib/ml/FStar_Udp.ml" 36 873 906
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 36 873 907 "ulib/ml/FStar_Udp.ml" 36 873 913
+type(
+  int
+)
+ident(
+  int_ref maxlen "ulib/ml/FStar_Udp.ml" 34 806 827 "ulib/ml/FStar_Udp.ml" 34 806 833
+)
+"ulib/ml/FStar_Udp.ml" 36 873 914 "ulib/ml/FStar_Udp.ml" 36 873 916
+type(
+  Unix.msg_flag list
+)
+"ulib/ml/FStar_Udp.ml" 36 873 891 "ulib/ml/FStar_Udp.ml" 36 873 916
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 37 920 928 "ulib/ml/FStar_Udp.ml" 37 920 931
+type(
+  string
+)
+ident(
+  def str "ulib/ml/FStar_Udp.ml" 38 968 972 "ulib/ml/FStar_Udp.ml" 38 968 982
+)
+"ulib/ml/FStar_Udp.ml" 37 920 934 "ulib/ml/FStar_Udp.ml" 37 920 950
+type(
+  bytes -> int -> int -> string
+)
+ident(
+  ext_ref Bytes.sub_string
+)
+"ulib/ml/FStar_Udp.ml" 37 920 951 "ulib/ml/FStar_Udp.ml" 37 920 954
+type(
+  bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Udp.ml" 35 836 844 "ulib/ml/FStar_Udp.ml" 35 836 847
+)
+"ulib/ml/FStar_Udp.ml" 37 920 955 "ulib/ml/FStar_Udp.ml" 37 920 956
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 37 920 957 "ulib/ml/FStar_Udp.ml" 37 920 964
+type(
+  int
+)
+ident(
+  int_ref recvlen "ulib/ml/FStar_Udp.ml" 36 873 881 "ulib/ml/FStar_Udp.ml" 36 873 888
+)
+"ulib/ml/FStar_Udp.ml" 37 920 934 "ulib/ml/FStar_Udp.ml" 37 920 964
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Udp.ml" 38 968 972 "ulib/ml/FStar_Udp.ml" 38 968 978
+type(
+  FStar_Bytes.cbytes -> FStar_Bytes.cbytes
+)
+ident(
+  ext_ref FStar_Bytes.abytes
+)
+"ulib/ml/FStar_Udp.ml" 38 968 979 "ulib/ml/FStar_Udp.ml" 38 968 982
+type(
+  FStar_Bytes.cbytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Udp.ml" 37 920 928 "ulib/ml/FStar_Udp.ml" 37 920 931
+)
+"ulib/ml/FStar_Udp.ml" 38 968 972 "ulib/ml/FStar_Udp.ml" 38 968 982
+call(
+  tail
+)
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Udp.ml" 37 920 924 "ulib/ml/FStar_Udp.ml" 38 968 982
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Udp.ml" 36 873 877 "ulib/ml/FStar_Udp.ml" 38 968 982
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Udp.ml" 35 836 840 "ulib/ml/FStar_Udp.ml" 38 968 982
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Udp.ml" 41 1022 1028 "ulib/ml/FStar_Udp.ml" 41 1022 1032
+type(
+  Unix.file_descr ->
+  Z.t -> (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+ident(
+  def recv "ulib/ml/FStar_Udp.ml" 48 1231 1233 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 41 1022 1033 "ulib/ml/FStar_Udp.ml" 41 1022 1034
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Udp.ml" 41 1022 1035 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+)
+"ulib/ml/FStar_Udp.ml" 41 1022 1035 "ulib/ml/FStar_Udp.ml" 41 1022 1036
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_Udp.ml" 42 1039 1043 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+)
+"ulib/ml/FStar_Udp.ml" 42 1039 1047 "ulib/ml/FStar_Udp.ml" 42 1039 1048
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_Udp.ml" 43 1065 1069 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+)
+"ulib/ml/FStar_Udp.ml" 42 1039 1051 "ulib/ml/FStar_Udp.ml" 42 1039 1059
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Udp.ml" 42 1039 1060 "ulib/ml/FStar_Udp.ml" 42 1039 1061
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_Udp.ml" 41 1022 1035 "ulib/ml/FStar_Udp.ml" 41 1022 1036
+)
+"ulib/ml/FStar_Udp.ml" 42 1039 1051 "ulib/ml/FStar_Udp.ml" 42 1039 1061
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 43 1065 1082 "ulib/ml/FStar_Udp.ml" 43 1065 1091
+type(
+  Unix.file_descr -> int -> FStar_Bytes.cbytes
+)
+ident(
+  int_ref sock_recv "ulib/ml/FStar_Udp.ml" 34 806 812 "ulib/ml/FStar_Udp.ml" 34 806 821
+)
+"ulib/ml/FStar_Udp.ml" 43 1065 1092 "ulib/ml/FStar_Udp.ml" 43 1065 1093
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Udp.ml" 41 1022 1033 "ulib/ml/FStar_Udp.ml" 41 1022 1034
+)
+"ulib/ml/FStar_Udp.ml" 43 1065 1094 "ulib/ml/FStar_Udp.ml" 43 1065 1095
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_Udp.ml" 42 1039 1047 "ulib/ml/FStar_Udp.ml" 42 1039 1048
+)
+"ulib/ml/FStar_Udp.ml" 43 1065 1081 "ulib/ml/FStar_Udp.ml" 43 1065 1096
+call(
+  stack
+)
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Udp.ml" 43 1065 1073 "ulib/ml/FStar_Udp.ml" 43 1065 1096
+type(
+  (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 44 1097 1118 "ulib/ml/FStar_Udp.ml" 44 1097 1119
+type(
+  Unix.error
+)
+ident(
+  def e "ulib/ml/FStar_Udp.ml" 45 1130 1136 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+)
+"ulib/ml/FStar_Udp.ml" 44 1097 1120 "ulib/ml/FStar_Udp.ml" 44 1097 1122
+type(
+  string
+)
+ident(
+  def s1 "ulib/ml/FStar_Udp.ml" 45 1130 1136 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+)
+"ulib/ml/FStar_Udp.ml" 44 1097 1123 "ulib/ml/FStar_Udp.ml" 44 1097 1125
+type(
+  string
+)
+ident(
+  def s2 "ulib/ml/FStar_Udp.ml" 45 1130 1136 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+)
+"ulib/ml/FStar_Udp.ml" 44 1097 1106 "ulib/ml/FStar_Udp.ml" 44 1097 1126
+type(
+  exn
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1143 "ulib/ml/FStar_Udp.ml" 45 1130 1157
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1158 "ulib/ml/FStar_Udp.ml" 45 1130 1170
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1172 "ulib/ml/FStar_Udp.ml" 45 1130 1185
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1186 "ulib/ml/FStar_Udp.ml" 45 1130 1187
+type(
+  Unix.error
+)
+ident(
+  int_ref e "ulib/ml/FStar_Udp.ml" 44 1097 1118 "ulib/ml/FStar_Udp.ml" 44 1097 1119
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1171 "ulib/ml/FStar_Udp.ml" 45 1130 1188
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1189 "ulib/ml/FStar_Udp.ml" 45 1130 1191
+type(
+  string
+)
+ident(
+  int_ref s1 "ulib/ml/FStar_Udp.ml" 44 1097 1120 "ulib/ml/FStar_Udp.ml" 44 1097 1122
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1192 "ulib/ml/FStar_Udp.ml" 45 1130 1194
+type(
+  string
+)
+ident(
+  int_ref s2 "ulib/ml/FStar_Udp.ml" 44 1097 1123 "ulib/ml/FStar_Udp.ml" 44 1097 1125
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1142 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Udp.ml" 45 1130 1136 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+type(
+  (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 43 1065 1069 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+type(
+  (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 42 1039 1043 "ulib/ml/FStar_Udp.ml" 45 1130 1195
+type(
+  (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 48 1231 1237 "ulib/ml/FStar_Udp.ml" 48 1231 1241
+type(
+  Unix.file_descr ->
+  FStar_Bytes.bytes -> (string, unit) FStar_Error.optResult
+)
+ident(
+  def send "ulib/ml/FStar_Udp.ml" 58 1569 1571 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 48 1231 1242 "ulib/ml/FStar_Udp.ml" 48 1231 1243
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Udp.ml" 48 1231 1244 "ulib/ml/FStar_Udp.ml" 55 1444 1509
+)
+"ulib/ml/FStar_Udp.ml" 48 1231 1244 "ulib/ml/FStar_Udp.ml" 48 1231 1245
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  def b "ulib/ml/FStar_Udp.ml" 49 1248 1252 "ulib/ml/FStar_Udp.ml" 55 1444 1509
+)
+"ulib/ml/FStar_Udp.ml" 50 1256 1267 "ulib/ml/FStar_Udp.ml" 50 1256 1268
+type(
+  int
+)
+ident(
+  def n "ulib/ml/FStar_Udp.ml" 51 1288 1295 "ulib/ml/FStar_Udp.ml" 53 1388 1409
+)
+"ulib/ml/FStar_Udp.ml" 50 1256 1271 "ulib/ml/FStar_Udp.ml" 50 1256 1280
+type(
+  Unix.file_descr -> FStar_Bytes.bytes -> int
+)
+ident(
+  int_ref sock_send "ulib/ml/FStar_Udp.ml" 28 613 619 "ulib/ml/FStar_Udp.ml" 28 613 628
+)
+"ulib/ml/FStar_Udp.ml" 50 1256 1281 "ulib/ml/FStar_Udp.ml" 50 1256 1282
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Udp.ml" 48 1231 1242 "ulib/ml/FStar_Udp.ml" 48 1231 1243
+)
+"ulib/ml/FStar_Udp.ml" 50 1256 1283 "ulib/ml/FStar_Udp.ml" 50 1256 1284
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref b "ulib/ml/FStar_Udp.ml" 48 1231 1244 "ulib/ml/FStar_Udp.ml" 48 1231 1245
+)
+"ulib/ml/FStar_Udp.ml" 50 1256 1271 "ulib/ml/FStar_Udp.ml" 50 1256 1284
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 51 1288 1298 "ulib/ml/FStar_Udp.ml" 51 1288 1299
+type(
+  int
+)
+ident(
+  int_ref n "ulib/ml/FStar_Udp.ml" 50 1256 1267 "ulib/ml/FStar_Udp.ml" 50 1256 1268
+)
+"ulib/ml/FStar_Udp.ml" 51 1288 1300 "ulib/ml/FStar_Udp.ml" 51 1288 1301
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ulib/ml/FStar_Udp.ml" 51 1288 1302 "ulib/ml/FStar_Udp.ml" 51 1288 1315
+type(
+  FStar_Bytes.bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"ulib/ml/FStar_Udp.ml" 51 1288 1316 "ulib/ml/FStar_Udp.ml" 51 1288 1317
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref b "ulib/ml/FStar_Udp.ml" 48 1231 1244 "ulib/ml/FStar_Udp.ml" 48 1231 1245
+)
+"ulib/ml/FStar_Udp.ml" 51 1288 1302 "ulib/ml/FStar_Udp.ml" 51 1288 1317
+type(
+  int
+)
+"ulib/ml/FStar_Udp.ml" 51 1288 1298 "ulib/ml/FStar_Udp.ml" 51 1288 1317
+type(
+  bool
+)
+"ulib/ml/FStar_Udp.ml" 52 1323 1338 "ulib/ml/FStar_Udp.ml" 52 1323 1352
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ulib/ml/FStar_Udp.ml" 52 1323 1353 "ulib/ml/FStar_Udp.ml" 52 1323 1384
+type(
+  (int -> string, unit, string) format
+)
+"ulib/ml/FStar_Udp.ml" 52 1323 1385 "ulib/ml/FStar_Udp.ml" 52 1323 1386
+type(
+  int
+)
+ident(
+  int_ref n "ulib/ml/FStar_Udp.ml" 50 1256 1267 "ulib/ml/FStar_Udp.ml" 50 1256 1268
+)
+"ulib/ml/FStar_Udp.ml" 52 1323 1337 "ulib/ml/FStar_Udp.ml" 52 1323 1387
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Udp.ml" 52 1323 1332 "ulib/ml/FStar_Udp.ml" 52 1323 1387
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 53 1388 1407 "ulib/ml/FStar_Udp.ml" 53 1388 1409
+type(
+  unit
+)
+"ulib/ml/FStar_Udp.ml" 53 1388 1400 "ulib/ml/FStar_Udp.ml" 53 1388 1409
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 51 1288 1295 "ulib/ml/FStar_Udp.ml" 53 1388 1409
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 50 1256 1262 "ulib/ml/FStar_Udp.ml" 53 1388 1410
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 54 1411 1432 "ulib/ml/FStar_Udp.ml" 54 1411 1433
+type(
+  Unix.error
+)
+ident(
+  def e "ulib/ml/FStar_Udp.ml" 55 1444 1450 "ulib/ml/FStar_Udp.ml" 55 1444 1509
+)
+"ulib/ml/FStar_Udp.ml" 54 1411 1434 "ulib/ml/FStar_Udp.ml" 54 1411 1436
+type(
+  string
+)
+ident(
+  def s1 "ulib/ml/FStar_Udp.ml" 55 1444 1450 "ulib/ml/FStar_Udp.ml" 55 1444 1509
+)
+"ulib/ml/FStar_Udp.ml" 54 1411 1437 "ulib/ml/FStar_Udp.ml" 54 1411 1439
+type(
+  string
+)
+ident(
+  def s2 "ulib/ml/FStar_Udp.ml" 55 1444 1450 "ulib/ml/FStar_Udp.ml" 55 1444 1509
+)
+"ulib/ml/FStar_Udp.ml" 54 1411 1420 "ulib/ml/FStar_Udp.ml" 54 1411 1440
+type(
+  exn
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1457 "ulib/ml/FStar_Udp.ml" 55 1444 1471
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1472 "ulib/ml/FStar_Udp.ml" 55 1444 1484
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1486 "ulib/ml/FStar_Udp.ml" 55 1444 1499
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1500 "ulib/ml/FStar_Udp.ml" 55 1444 1501
+type(
+  Unix.error
+)
+ident(
+  int_ref e "ulib/ml/FStar_Udp.ml" 54 1411 1432 "ulib/ml/FStar_Udp.ml" 54 1411 1433
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1485 "ulib/ml/FStar_Udp.ml" 55 1444 1502
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1503 "ulib/ml/FStar_Udp.ml" 55 1444 1505
+type(
+  string
+)
+ident(
+  int_ref s1 "ulib/ml/FStar_Udp.ml" 54 1411 1434 "ulib/ml/FStar_Udp.ml" 54 1411 1436
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1506 "ulib/ml/FStar_Udp.ml" 55 1444 1508
+type(
+  string
+)
+ident(
+  int_ref s2 "ulib/ml/FStar_Udp.ml" 54 1411 1437 "ulib/ml/FStar_Udp.ml" 54 1411 1439
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1456 "ulib/ml/FStar_Udp.ml" 55 1444 1509
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Udp.ml" 55 1444 1450 "ulib/ml/FStar_Udp.ml" 55 1444 1509
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 49 1248 1252 "ulib/ml/FStar_Udp.ml" 55 1444 1509
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Udp.ml" 58 1569 1575 "ulib/ml/FStar_Udp.ml" 58 1569 1585
+type(
+  Unix.file_descr -> in_channel * out_channel
+)
+ident(
+  def sock_split "ulib/ml/FStar_Udp.ml" 64 1721 1723 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 58 1569 1586 "ulib/ml/FStar_Udp.ml" 58 1569 1587
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Udp.ml" 59 1590 1594 "ulib/ml/FStar_Udp.ml" 61 1667 1676
+)
+"ulib/ml/FStar_Udp.ml" 59 1590 1598 "ulib/ml/FStar_Udp.ml" 59 1590 1600
+type(
+  out_channel
+)
+ident(
+  def oc "ulib/ml/FStar_Udp.ml" 60 1629 1633 "ulib/ml/FStar_Udp.ml" 61 1667 1676
+)
+"ulib/ml/FStar_Udp.ml" 59 1590 1603 "ulib/ml/FStar_Udp.ml" 59 1590 1623
+type(
+  Unix.file_descr -> out_channel
+)
+ident(
+  ext_ref Unix.out_channel_of_descr
+)
+"ulib/ml/FStar_Udp.ml" 59 1590 1624 "ulib/ml/FStar_Udp.ml" 59 1590 1625
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Udp.ml" 58 1569 1586 "ulib/ml/FStar_Udp.ml" 58 1569 1587
+)
+"ulib/ml/FStar_Udp.ml" 59 1590 1603 "ulib/ml/FStar_Udp.ml" 59 1590 1625
+call(
+  stack
+)
+type(
+  out_channel
+)
+"ulib/ml/FStar_Udp.ml" 60 1629 1637 "ulib/ml/FStar_Udp.ml" 60 1629 1639
+type(
+  in_channel
+)
+ident(
+  def ic "ulib/ml/FStar_Udp.ml" 61 1667 1671 "ulib/ml/FStar_Udp.ml" 61 1667 1676
+)
+"ulib/ml/FStar_Udp.ml" 60 1629 1642 "ulib/ml/FStar_Udp.ml" 60 1629 1661
+type(
+  Unix.file_descr -> in_channel
+)
+ident(
+  ext_ref Unix.in_channel_of_descr
+)
+"ulib/ml/FStar_Udp.ml" 60 1629 1662 "ulib/ml/FStar_Udp.ml" 60 1629 1663
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Udp.ml" 58 1569 1586 "ulib/ml/FStar_Udp.ml" 58 1569 1587
+)
+"ulib/ml/FStar_Udp.ml" 60 1629 1642 "ulib/ml/FStar_Udp.ml" 60 1629 1663
+call(
+  stack
+)
+type(
+  in_channel
+)
+"ulib/ml/FStar_Udp.ml" 61 1667 1671 "ulib/ml/FStar_Udp.ml" 61 1667 1673
+type(
+  in_channel
+)
+ident(
+  int_ref ic "ulib/ml/FStar_Udp.ml" 60 1629 1637 "ulib/ml/FStar_Udp.ml" 60 1629 1639
+)
+"ulib/ml/FStar_Udp.ml" 61 1667 1674 "ulib/ml/FStar_Udp.ml" 61 1667 1676
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ulib/ml/FStar_Udp.ml" 59 1590 1598 "ulib/ml/FStar_Udp.ml" 59 1590 1600
+)
+"ulib/ml/FStar_Udp.ml" 61 1667 1671 "ulib/ml/FStar_Udp.ml" 61 1667 1676
+type(
+  in_channel * out_channel
+)
+"ulib/ml/FStar_Udp.ml" 60 1629 1633 "ulib/ml/FStar_Udp.ml" 61 1667 1676
+type(
+  in_channel * out_channel
+)
+"ulib/ml/FStar_Udp.ml" 59 1590 1594 "ulib/ml/FStar_Udp.ml" 61 1667 1676
+type(
+  in_channel * out_channel
+)
+"ulib/ml/FStar_Udp.ml" 64 1721 1727 "ulib/ml/FStar_Udp.ml" 64 1721 1732
+type(
+  out_channel -> unit
+)
+ident(
+  def flush "ulib/ml/FStar_Udp.ml" 65 1738 1750 "ulib/ml/FStar_Udp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Udp.ml" 64 1721 1733 "ulib/ml/FStar_Udp.ml" 64 1721 1735
+type(
+  out_channel
+)
+ident(
+  def oc "ulib/ml/FStar_Udp.ml" 65 1738 1742 "ulib/ml/FStar_Udp.ml" 65 1738 1750
+)
+"ulib/ml/FStar_Udp.ml" 65 1738 1742 "ulib/ml/FStar_Udp.ml" 65 1738 1747
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"ulib/ml/FStar_Udp.ml" 65 1738 1748 "ulib/ml/FStar_Udp.ml" 65 1738 1750
+type(
+  out_channel
+)
+ident(
+  int_ref oc "ulib/ml/FStar_Udp.ml" 64 1721 1733 "ulib/ml/FStar_Udp.ml" 64 1721 1735
+)
+"ulib/ml/FStar_Udp.ml" 65 1738 1742 "ulib/ml/FStar_Udp.ml" 65 1738 1750
+call(
+  tail
+)
+type(
+  unit
+)

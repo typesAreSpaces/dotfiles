@@ -1,0 +1,2419 @@
+"ulib/ml/extracted/FStar_Int31.ml" 2 11 16 "ulib/ml/extracted/FStar_Int31.ml" 2 11 17
+type(
+  Prims.int
+)
+ident(
+  def n "ulib/ml/extracted/FStar_Int31.ml" 3 54 54 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 2 11 34 "ulib/ml/extracted/FStar_Int31.ml" 2 11 46
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 2 11 47 "ulib/ml/extracted/FStar_Int31.ml" 2 11 51
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 2 11 33 "ulib/ml/extracted/FStar_Int31.ml" 2 11 52
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 5 95 100 "ulib/ml/extracted/FStar_Int31.ml" 5 95 110
+type(
+  t -> Prims.bool
+)
+ident(
+  def uu___is_Mk "ulib/ml/extracted/FStar_Int31.ml" 6 156 156 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 5 95 136 "ulib/ml/extracted/FStar_Int31.ml" 5 95 145
+type(
+  t
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Int31.ml" 5 95 150 "ulib/ml/extracted/FStar_Int31.ml" 5 95 154
+)
+"ulib/ml/extracted/FStar_Int31.ml" 5 95 150 "ulib/ml/extracted/FStar_Int31.ml" 5 95 154
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 5 95 132 "ulib/ml/extracted/FStar_Int31.ml" 5 95 154
+type(
+  t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 6 156 161 "ulib/ml/extracted/FStar_Int31.ml" 6 156 180
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  def __proj__Mk__item__v "ulib/ml/extracted/FStar_Int31.ml" 8 268 268 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 7 212 218 "ulib/ml/extracted/FStar_Int31.ml" 7 212 227
+type(
+  t
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Int31.ml" 7 212 232 "ulib/ml/extracted/FStar_Int31.ml" 7 212 266
+)
+"ulib/ml/extracted/FStar_Int31.ml" 7 212 238 "ulib/ml/extracted/FStar_Int31.ml" 7 212 247
+type(
+  t
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Int31.ml" 7 212 218 "ulib/ml/extracted/FStar_Int31.ml" 7 212 227
+)
+"ulib/ml/extracted/FStar_Int31.ml" 7 212 258 "ulib/ml/extracted/FStar_Int31.ml" 7 212 260
+type(
+  Prims.unit FStar_Int.int_t
+)
+ident(
+  def v1 "ulib/ml/extracted/FStar_Int31.ml" 7 212 264 "ulib/ml/extracted/FStar_Int31.ml" 7 212 266
+)
+"ulib/ml/extracted/FStar_Int31.ml" 7 212 255 "ulib/ml/extracted/FStar_Int31.ml" 7 212 260
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 7 212 264 "ulib/ml/extracted/FStar_Int31.ml" 7 212 266
+type(
+  Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/FStar_Int31.ml" 7 212 258 "ulib/ml/extracted/FStar_Int31.ml" 7 212 260
+)
+"ulib/ml/extracted/FStar_Int31.ml" 7 212 232 "ulib/ml/extracted/FStar_Int31.ml" 7 212 266
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 7 212 214 "ulib/ml/extracted/FStar_Int31.ml" 7 212 266
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Int31.ml" 9 339 339 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 8 268 310 "ulib/ml/extracted/FStar_Int31.ml" 8 268 311
+type(
+  t
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Int31.ml" 8 268 316 "ulib/ml/extracted/FStar_Int31.ml" 8 268 337
+)
+"ulib/ml/extracted/FStar_Int31.ml" 8 268 316 "ulib/ml/extracted/FStar_Int31.ml" 8 268 335
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref __proj__Mk__item__v "ulib/ml/extracted/FStar_Int31.ml" 6 156 161 "ulib/ml/extracted/FStar_Int31.ml" 6 156 180
+)
+"ulib/ml/extracted/FStar_Int31.ml" 8 268 336 "ulib/ml/extracted/FStar_Int31.ml" 8 268 337
+type(
+  t
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Int31.ml" 8 268 310 "ulib/ml/extracted/FStar_Int31.ml" 8 268 311
+)
+"ulib/ml/extracted/FStar_Int31.ml" 8 268 316 "ulib/ml/extracted/FStar_Int31.ml" 8 268 337
+call(
+  tail
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 8 268 306 "ulib/ml/extracted/FStar_Int31.ml" 8 268 337
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 9 339 344 "ulib/ml/extracted/FStar_Int31.ml" 9 339 352
+type(
+  Prims.unit FStar_Int.int_t -> t
+)
+ident(
+  def int_to_t "ulib/ml/extracted/FStar_Int31.ml" 13 403 403 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 9 339 388 "ulib/ml/extracted/FStar_Int31.ml" 9 339 389
+type(
+  Prims.unit FStar_Int.int_t
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Int31.ml" 9 339 394 "ulib/ml/extracted/FStar_Int31.ml" 9 339 398
+)
+"ulib/ml/extracted/FStar_Int31.ml" 9 339 397 "ulib/ml/extracted/FStar_Int31.ml" 9 339 398
+type(
+  Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Int31.ml" 9 339 388 "ulib/ml/extracted/FStar_Int31.ml" 9 339 389
+)
+"ulib/ml/extracted/FStar_Int31.ml" 9 339 394 "ulib/ml/extracted/FStar_Int31.ml" 9 339 398
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 9 339 384 "ulib/ml/extracted/FStar_Int31.ml" 9 339 398
+type(
+  Prims.unit FStar_Int.int_t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 13 403 408 "ulib/ml/extracted/FStar_Int31.ml" 13 403 411
+type(
+  t -> t -> t
+)
+ident(
+  def add "ulib/ml/extracted/FStar_Int31.ml" 15 503 503 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 435 "ulib/ml/extracted/FStar_Int31.ml" 14 429 436
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 14 429 441 "ulib/ml/extracted/FStar_Int31.ml" 14 429 501
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 445 "ulib/ml/extracted/FStar_Int31.ml" 14 429 446
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 14 429 451 "ulib/ml/extracted/FStar_Int31.ml" 14 429 501
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 455 "ulib/ml/extracted/FStar_Int31.ml" 14 429 468
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.add
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 470 "ulib/ml/extracted/FStar_Int31.ml" 14 429 482
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 483 "ulib/ml/extracted/FStar_Int31.ml" 14 429 487
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 469 "ulib/ml/extracted/FStar_Int31.ml" 14 429 488
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 490 "ulib/ml/extracted/FStar_Int31.ml" 14 429 491
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 492 "ulib/ml/extracted/FStar_Int31.ml" 14 429 493
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 14 429 435 "ulib/ml/extracted/FStar_Int31.ml" 14 429 436
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 489 "ulib/ml/extracted/FStar_Int31.ml" 14 429 494
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 496 "ulib/ml/extracted/FStar_Int31.ml" 14 429 497
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 498 "ulib/ml/extracted/FStar_Int31.ml" 14 429 499
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 14 429 445 "ulib/ml/extracted/FStar_Int31.ml" 14 429 446
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 495 "ulib/ml/extracted/FStar_Int31.ml" 14 429 500
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 454 "ulib/ml/extracted/FStar_Int31.ml" 14 429 501
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 451 "ulib/ml/extracted/FStar_Int31.ml" 14 429 501
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 441 "ulib/ml/extracted/FStar_Int31.ml" 14 429 501
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 14 429 431 "ulib/ml/extracted/FStar_Int31.ml" 14 429 501
+type(
+  t -> t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 15 503 508 "ulib/ml/extracted/FStar_Int31.ml" 15 503 511
+type(
+  t -> t -> t
+)
+ident(
+  def sub "ulib/ml/extracted/FStar_Int31.ml" 17 603 603 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 535 "ulib/ml/extracted/FStar_Int31.ml" 16 529 536
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 16 529 541 "ulib/ml/extracted/FStar_Int31.ml" 16 529 601
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 545 "ulib/ml/extracted/FStar_Int31.ml" 16 529 546
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 16 529 551 "ulib/ml/extracted/FStar_Int31.ml" 16 529 601
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 555 "ulib/ml/extracted/FStar_Int31.ml" 16 529 568
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.sub
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 570 "ulib/ml/extracted/FStar_Int31.ml" 16 529 582
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 583 "ulib/ml/extracted/FStar_Int31.ml" 16 529 587
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 569 "ulib/ml/extracted/FStar_Int31.ml" 16 529 588
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 590 "ulib/ml/extracted/FStar_Int31.ml" 16 529 591
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 592 "ulib/ml/extracted/FStar_Int31.ml" 16 529 593
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 16 529 535 "ulib/ml/extracted/FStar_Int31.ml" 16 529 536
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 589 "ulib/ml/extracted/FStar_Int31.ml" 16 529 594
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 596 "ulib/ml/extracted/FStar_Int31.ml" 16 529 597
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 598 "ulib/ml/extracted/FStar_Int31.ml" 16 529 599
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 16 529 545 "ulib/ml/extracted/FStar_Int31.ml" 16 529 546
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 595 "ulib/ml/extracted/FStar_Int31.ml" 16 529 600
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 554 "ulib/ml/extracted/FStar_Int31.ml" 16 529 601
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 551 "ulib/ml/extracted/FStar_Int31.ml" 16 529 601
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 541 "ulib/ml/extracted/FStar_Int31.ml" 16 529 601
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 16 529 531 "ulib/ml/extracted/FStar_Int31.ml" 16 529 601
+type(
+  t -> t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 17 603 608 "ulib/ml/extracted/FStar_Int31.ml" 17 603 611
+type(
+  t -> t -> t
+)
+ident(
+  def mul "ulib/ml/extracted/FStar_Int31.ml" 19 703 703 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 635 "ulib/ml/extracted/FStar_Int31.ml" 18 629 636
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 18 629 641 "ulib/ml/extracted/FStar_Int31.ml" 18 629 701
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 645 "ulib/ml/extracted/FStar_Int31.ml" 18 629 646
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 18 629 651 "ulib/ml/extracted/FStar_Int31.ml" 18 629 701
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 655 "ulib/ml/extracted/FStar_Int31.ml" 18 629 668
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.mul
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 670 "ulib/ml/extracted/FStar_Int31.ml" 18 629 682
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 683 "ulib/ml/extracted/FStar_Int31.ml" 18 629 687
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 669 "ulib/ml/extracted/FStar_Int31.ml" 18 629 688
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 690 "ulib/ml/extracted/FStar_Int31.ml" 18 629 691
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 692 "ulib/ml/extracted/FStar_Int31.ml" 18 629 693
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 18 629 635 "ulib/ml/extracted/FStar_Int31.ml" 18 629 636
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 689 "ulib/ml/extracted/FStar_Int31.ml" 18 629 694
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 696 "ulib/ml/extracted/FStar_Int31.ml" 18 629 697
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 698 "ulib/ml/extracted/FStar_Int31.ml" 18 629 699
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 18 629 645 "ulib/ml/extracted/FStar_Int31.ml" 18 629 646
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 695 "ulib/ml/extracted/FStar_Int31.ml" 18 629 700
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 654 "ulib/ml/extracted/FStar_Int31.ml" 18 629 701
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 651 "ulib/ml/extracted/FStar_Int31.ml" 18 629 701
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 641 "ulib/ml/extracted/FStar_Int31.ml" 18 629 701
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 18 629 631 "ulib/ml/extracted/FStar_Int31.ml" 18 629 701
+type(
+  t -> t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 19 703 708 "ulib/ml/extracted/FStar_Int31.ml" 19 703 711
+type(
+  t -> t -> t
+)
+ident(
+  def div "ulib/ml/extracted/FStar_Int31.ml" 21 803 803 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 735 "ulib/ml/extracted/FStar_Int31.ml" 20 729 736
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 20 729 741 "ulib/ml/extracted/FStar_Int31.ml" 20 729 801
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 745 "ulib/ml/extracted/FStar_Int31.ml" 20 729 746
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 20 729 751 "ulib/ml/extracted/FStar_Int31.ml" 20 729 801
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 755 "ulib/ml/extracted/FStar_Int31.ml" 20 729 768
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.div
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 770 "ulib/ml/extracted/FStar_Int31.ml" 20 729 782
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 783 "ulib/ml/extracted/FStar_Int31.ml" 20 729 787
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 769 "ulib/ml/extracted/FStar_Int31.ml" 20 729 788
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 790 "ulib/ml/extracted/FStar_Int31.ml" 20 729 791
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 792 "ulib/ml/extracted/FStar_Int31.ml" 20 729 793
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 20 729 735 "ulib/ml/extracted/FStar_Int31.ml" 20 729 736
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 789 "ulib/ml/extracted/FStar_Int31.ml" 20 729 794
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 796 "ulib/ml/extracted/FStar_Int31.ml" 20 729 797
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 798 "ulib/ml/extracted/FStar_Int31.ml" 20 729 799
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 20 729 745 "ulib/ml/extracted/FStar_Int31.ml" 20 729 746
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 795 "ulib/ml/extracted/FStar_Int31.ml" 20 729 800
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 754 "ulib/ml/extracted/FStar_Int31.ml" 20 729 801
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 751 "ulib/ml/extracted/FStar_Int31.ml" 20 729 801
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 741 "ulib/ml/extracted/FStar_Int31.ml" 20 729 801
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 20 729 731 "ulib/ml/extracted/FStar_Int31.ml" 20 729 801
+type(
+  t -> t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 21 803 808 "ulib/ml/extracted/FStar_Int31.ml" 21 803 811
+type(
+  t -> t -> t
+)
+ident(
+  def rem "ulib/ml/extracted/FStar_Int31.ml" 23 904 904 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 835 "ulib/ml/extracted/FStar_Int31.ml" 22 829 836
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 22 829 841 "ulib/ml/extracted/FStar_Int31.ml" 22 829 902
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 845 "ulib/ml/extracted/FStar_Int31.ml" 22 829 846
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 22 829 851 "ulib/ml/extracted/FStar_Int31.ml" 22 829 902
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 855 "ulib/ml/extracted/FStar_Int31.ml" 22 829 869
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.mod_
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 871 "ulib/ml/extracted/FStar_Int31.ml" 22 829 883
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 884 "ulib/ml/extracted/FStar_Int31.ml" 22 829 888
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 870 "ulib/ml/extracted/FStar_Int31.ml" 22 829 889
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 891 "ulib/ml/extracted/FStar_Int31.ml" 22 829 892
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 893 "ulib/ml/extracted/FStar_Int31.ml" 22 829 894
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 22 829 835 "ulib/ml/extracted/FStar_Int31.ml" 22 829 836
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 890 "ulib/ml/extracted/FStar_Int31.ml" 22 829 895
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 897 "ulib/ml/extracted/FStar_Int31.ml" 22 829 898
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 899 "ulib/ml/extracted/FStar_Int31.ml" 22 829 900
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 22 829 845 "ulib/ml/extracted/FStar_Int31.ml" 22 829 846
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 896 "ulib/ml/extracted/FStar_Int31.ml" 22 829 901
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 854 "ulib/ml/extracted/FStar_Int31.ml" 22 829 902
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 851 "ulib/ml/extracted/FStar_Int31.ml" 22 829 902
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 841 "ulib/ml/extracted/FStar_Int31.ml" 22 829 902
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 22 829 831 "ulib/ml/extracted/FStar_Int31.ml" 22 829 902
+type(
+  t -> t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 23 904 909 "ulib/ml/extracted/FStar_Int31.ml" 23 904 915
+type(
+  t -> t -> t
+)
+ident(
+  def logand "ulib/ml/extracted/FStar_Int31.ml" 25 1010 1010 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 939 "ulib/ml/extracted/FStar_Int31.ml" 24 933 940
+type(
+  t
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Int31.ml" 24 933 945 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1008
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 949 "ulib/ml/extracted/FStar_Int31.ml" 24 933 950
+type(
+  t
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Int31.ml" 24 933 955 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1008
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 959 "ulib/ml/extracted/FStar_Int31.ml" 24 933 975
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.logand
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 977 "ulib/ml/extracted/FStar_Int31.ml" 24 933 989
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 990 "ulib/ml/extracted/FStar_Int31.ml" 24 933 994
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 976 "ulib/ml/extracted/FStar_Int31.ml" 24 933 995
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 997 "ulib/ml/extracted/FStar_Int31.ml" 24 933 998
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 999 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1000
+type(
+  t
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Int31.ml" 24 933 939 "ulib/ml/extracted/FStar_Int31.ml" 24 933 940
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 996 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1001
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 1003 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1004
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 1005 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1006
+type(
+  t
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Int31.ml" 24 933 949 "ulib/ml/extracted/FStar_Int31.ml" 24 933 950
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 1002 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1007
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 958 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1008
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 955 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1008
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 945 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1008
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 24 933 935 "ulib/ml/extracted/FStar_Int31.ml" 24 933 1008
+type(
+  t -> t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 25 1010 1015 "ulib/ml/extracted/FStar_Int31.ml" 25 1010 1021
+type(
+  t -> t -> t
+)
+ident(
+  def logxor "ulib/ml/extracted/FStar_Int31.ml" 27 1116 1116 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1045 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1046
+type(
+  t
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1051 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1114
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1055 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1056
+type(
+  t
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1061 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1114
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1065 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1081
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.logxor
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1083 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1095
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1096 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1100
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1082 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1101
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1103 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1104
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1105 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1106
+type(
+  t
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1045 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1046
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1102 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1107
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1109 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1110
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1111 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1112
+type(
+  t
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1055 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1056
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1108 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1113
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1064 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1114
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1061 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1114
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1051 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1114
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 26 1039 1041 "ulib/ml/extracted/FStar_Int31.ml" 26 1039 1114
+type(
+  t -> t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 27 1116 1121 "ulib/ml/extracted/FStar_Int31.ml" 27 1116 1126
+type(
+  t -> t -> t
+)
+ident(
+  def logor "ulib/ml/extracted/FStar_Int31.ml" 29 1220 1220 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1150 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1151
+type(
+  t
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1156 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1218
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1160 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1161
+type(
+  t
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1166 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1218
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1170 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1185
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.logor
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1187 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1199
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1200 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1204
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1186 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1205
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1207 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1208
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1209 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1210
+type(
+  t
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1150 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1151
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1206 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1211
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1213 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1214
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1215 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1216
+type(
+  t
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1160 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1161
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1212 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1217
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1169 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1218
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1166 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1218
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1156 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1218
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 28 1144 1146 "ulib/ml/extracted/FStar_Int31.ml" 28 1144 1218
+type(
+  t -> t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 29 1220 1225 "ulib/ml/extracted/FStar_Int31.ml" 29 1220 1231
+type(
+  t -> t
+)
+ident(
+  def lognot "ulib/ml/extracted/FStar_Int31.ml" 31 1305 1305 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1250 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1251
+type(
+  t
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1256 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1303
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1260 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1276
+type(
+  Prims.pos -> Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.lognot
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1278 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1290
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1291 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1295
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1277 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1296
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1298 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1299
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1300 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1301
+type(
+  t
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1250 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1251
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1297 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1302
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1259 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1303
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1256 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1303
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 30 1244 1246 "ulib/ml/extracted/FStar_Int31.ml" 30 1244 1303
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 31 1305 1310 "ulib/ml/extracted/FStar_Int31.ml" 31 1305 1321
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  def shift_right "ulib/ml/extracted/FStar_Int31.ml" 36 1459 1459 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 32 1352 1358 "ulib/ml/extracted/FStar_Int31.ml" 32 1352 1359
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 33 1364 1368 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1455
+)
+"ulib/ml/extracted/FStar_Int31.ml" 33 1364 1372 "ulib/ml/extracted/FStar_Int31.ml" 33 1364 1373
+type(
+  FStar_UInt32.t
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1384 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1455
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1388 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1409
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t -> Prims.nat -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.shift_right
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1411 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1423
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1424 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1428
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1410 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1429
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1431 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1432
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1433 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1434
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 32 1352 1358 "ulib/ml/extracted/FStar_Int31.ml" 32 1352 1359
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1430 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1435
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1437 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1451
+type(
+  FStar_UInt32.uint32 -> Prims.int
+)
+ident(
+  ext_ref FStar_UInt32.v
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1452 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1453
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Int31.ml" 33 1364 1372 "ulib/ml/extracted/FStar_Int31.ml" 33 1364 1373
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1436 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1454
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1387 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1455
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 34 1378 1384 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1455
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 33 1364 1368 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1455
+type(
+  FStar_UInt32.t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 32 1352 1354 "ulib/ml/extracted/FStar_Int31.ml" 34 1378 1455
+type(
+  t -> FStar_UInt32.t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 36 1459 1464 "ulib/ml/extracted/FStar_Int31.ml" 36 1459 1474
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  def shift_left "ulib/ml/extracted/FStar_Int31.ml" 41 1611 1611 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 37 1505 1511 "ulib/ml/extracted/FStar_Int31.ml" 37 1505 1512
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 38 1517 1521 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1607
+)
+"ulib/ml/extracted/FStar_Int31.ml" 38 1517 1525 "ulib/ml/extracted/FStar_Int31.ml" 38 1517 1526
+type(
+  FStar_UInt32.t
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1537 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1607
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1541 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1561
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t -> Prims.nat -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.shift_left
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1563 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1575
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1576 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1580
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1562 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1581
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1583 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1584
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1585 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1586
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 37 1505 1511 "ulib/ml/extracted/FStar_Int31.ml" 37 1505 1512
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1582 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1587
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1589 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1603
+type(
+  FStar_UInt32.uint32 -> Prims.int
+)
+ident(
+  ext_ref FStar_UInt32.v
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1604 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1605
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Int31.ml" 38 1517 1525 "ulib/ml/extracted/FStar_Int31.ml" 38 1517 1526
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1588 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1606
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1540 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1607
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 39 1531 1537 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1607
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 38 1517 1521 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1607
+type(
+  FStar_UInt32.t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 37 1505 1507 "ulib/ml/extracted/FStar_Int31.ml" 39 1531 1607
+type(
+  t -> FStar_UInt32.t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 41 1611 1616 "ulib/ml/extracted/FStar_Int31.ml" 41 1611 1638
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  def shift_arithmetic_right "ulib/ml/extracted/FStar_Int31.ml" 48 1806 1806 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 42 1669 1675 "ulib/ml/extracted/FStar_Int31.ml" 42 1669 1676
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 43 1681 1685 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1802
+)
+"ulib/ml/extracted/FStar_Int31.ml" 43 1681 1689 "ulib/ml/extracted/FStar_Int31.ml" 43 1681 1690
+type(
+  FStar_UInt32.t
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Int31.ml" 44 1695 1701 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1802
+)
+"ulib/ml/extracted/FStar_Int31.ml" 45 1704 1713 "ulib/ml/extracted/FStar_Int31.ml" 45 1704 1745
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t -> Prims.nat -> Prims.unit FStar_Int.int_t
+)
+ident(
+  ext_ref FStar_Int.shift_arithmetic_right
+)
+"ulib/ml/extracted/FStar_Int31.ml" 45 1704 1747 "ulib/ml/extracted/FStar_Int31.ml" 45 1704 1759
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 45 1704 1760 "ulib/ml/extracted/FStar_Int31.ml" 45 1704 1764
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 45 1704 1746 "ulib/ml/extracted/FStar_Int31.ml" 45 1704 1765
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 45 1704 1767 "ulib/ml/extracted/FStar_Int31.ml" 45 1704 1768
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 45 1704 1769 "ulib/ml/extracted/FStar_Int31.ml" 45 1704 1770
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 42 1669 1675 "ulib/ml/extracted/FStar_Int31.ml" 42 1669 1676
+)
+"ulib/ml/extracted/FStar_Int31.ml" 45 1704 1766 "ulib/ml/extracted/FStar_Int31.ml" 45 1704 1771
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 46 1772 1784 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1798
+type(
+  FStar_UInt32.uint32 -> Prims.int
+)
+ident(
+  ext_ref FStar_UInt32.v
+)
+"ulib/ml/extracted/FStar_Int31.ml" 46 1772 1799 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1800
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Int31.ml" 43 1681 1689 "ulib/ml/extracted/FStar_Int31.ml" 43 1681 1690
+)
+"ulib/ml/extracted/FStar_Int31.ml" 46 1772 1783 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1801
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 45 1704 1712 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1802
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 44 1695 1701 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1802
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 43 1681 1685 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1802
+type(
+  FStar_UInt32.t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 42 1669 1671 "ulib/ml/extracted/FStar_Int31.ml" 46 1772 1802
+type(
+  t -> FStar_UInt32.t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 48 1806 1811 "ulib/ml/extracted/FStar_Int31.ml" 48 1806 1813
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def eq "ulib/ml/extracted/FStar_Int31.ml" 50 1908 1908 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1846 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1847
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1852 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1906
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1856 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1857
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1862 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1906
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1862 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1874
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t -> Prims.bool
+)
+ident(
+  ext_ref FStar_Int.eq
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1876 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1888
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1889 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1893
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1875 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1894
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1896 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1897
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1898 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1899
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1846 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1847
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1895 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1900
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1902 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1903
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1904 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1905
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1856 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1857
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1901 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1906
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1862 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1906
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1852 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1906
+type(
+  t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 49 1840 1842 "ulib/ml/extracted/FStar_Int31.ml" 49 1840 1906
+type(
+  t -> t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 50 1908 1913 "ulib/ml/extracted/FStar_Int31.ml" 50 1908 1915
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def gt "ulib/ml/extracted/FStar_Int31.ml" 52 2010 2010 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1948 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1949
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1954 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2008
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1958 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1959
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1964 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2008
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1964 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1976
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t -> Prims.bool
+)
+ident(
+  ext_ref FStar_Int.gt
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1978 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1990
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1991 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1995
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1977 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1996
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1998 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1999
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 2000 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2001
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1948 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1949
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1997 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2002
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 2004 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2005
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 2006 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2007
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1958 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 1959
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 2003 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2008
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1964 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2008
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1954 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2008
+type(
+  t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 51 1942 1944 "ulib/ml/extracted/FStar_Int31.ml" 51 1942 2008
+type(
+  t -> t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 52 2010 2015 "ulib/ml/extracted/FStar_Int31.ml" 52 2010 2018
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def gte "ulib/ml/extracted/FStar_Int31.ml" 54 2114 2114 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2051 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2052
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2057 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2112
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2061 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2062
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2067 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2112
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2067 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2080
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t -> Prims.bool
+)
+ident(
+  ext_ref FStar_Int.gte
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2082 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2094
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2095 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2099
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2081 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2100
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2102 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2103
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2104 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2105
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2051 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2052
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2101 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2106
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2108 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2109
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2110 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2111
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2061 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2062
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2107 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2112
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2067 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2112
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2057 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2112
+type(
+  t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 53 2045 2047 "ulib/ml/extracted/FStar_Int31.ml" 53 2045 2112
+type(
+  t -> t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 54 2114 2119 "ulib/ml/extracted/FStar_Int31.ml" 54 2114 2121
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def lt "ulib/ml/extracted/FStar_Int31.ml" 56 2216 2216 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2154 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2155
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2160 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2214
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2164 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2165
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2170 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2214
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2170 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2182
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t -> Prims.bool
+)
+ident(
+  ext_ref FStar_Int.lt
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2184 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2196
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2197 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2201
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2183 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2202
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2204 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2205
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2206 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2207
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2154 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2155
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2203 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2208
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2210 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2211
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2212 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2213
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2164 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2165
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2209 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2214
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2170 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2214
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2160 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2214
+type(
+  t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 55 2148 2150 "ulib/ml/extracted/FStar_Int31.ml" 55 2148 2214
+type(
+  t -> t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 56 2216 2221 "ulib/ml/extracted/FStar_Int31.ml" 56 2216 2224
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def lte "ulib/ml/extracted/FStar_Int31.ml" 58 2320 2320 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2257 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2258
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2263 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2318
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2267 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2268
+type(
+  t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2273 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2318
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2273 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2286
+type(
+  Prims.pos ->
+  Prims.unit FStar_Int.int_t -> Prims.unit FStar_Int.int_t -> Prims.bool
+)
+ident(
+  ext_ref FStar_Int.lte
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2288 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2300
+type(
+  int -> Prims.pos
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2301 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2305
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2287 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2306
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2308 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2309
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2310 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2311
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2257 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2258
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2307 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2312
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2314 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2315
+type(
+  t -> Prims.unit FStar_Int.int_t
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Int31.ml" 8 268 273 "ulib/ml/extracted/FStar_Int31.ml" 8 268 274
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2316 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2317
+type(
+  t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2267 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2268
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2313 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2318
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Int.int_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2273 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2318
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2263 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2318
+type(
+  t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 57 2251 2253 "ulib/ml/extracted/FStar_Int31.ml" 57 2251 2318
+type(
+  t -> t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Int31.ml" 58 2320 2325 "ulib/ml/extracted/FStar_Int31.ml" 58 2320 2336
+type(
+  t -> t -> t
+)
+ident(
+  def op_Plus_Hat "ulib/ml/extracted/FStar_Int31.ml" 59 2359 2359 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 58 2320 2354 "ulib/ml/extracted/FStar_Int31.ml" 58 2320 2357
+type(
+  t -> t -> t
+)
+ident(
+  int_ref add "ulib/ml/extracted/FStar_Int31.ml" 13 403 408 "ulib/ml/extracted/FStar_Int31.ml" 13 403 411
+)
+"ulib/ml/extracted/FStar_Int31.ml" 59 2359 2364 "ulib/ml/extracted/FStar_Int31.ml" 59 2359 2382
+type(
+  t -> t -> t
+)
+ident(
+  def op_Subtraction_Hat "ulib/ml/extracted/FStar_Int31.ml" 60 2405 2405 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 59 2359 2400 "ulib/ml/extracted/FStar_Int31.ml" 59 2359 2403
+type(
+  t -> t -> t
+)
+ident(
+  int_ref sub "ulib/ml/extracted/FStar_Int31.ml" 15 503 508 "ulib/ml/extracted/FStar_Int31.ml" 15 503 511
+)
+"ulib/ml/extracted/FStar_Int31.ml" 60 2405 2410 "ulib/ml/extracted/FStar_Int31.ml" 60 2405 2421
+type(
+  t -> t -> t
+)
+ident(
+  def op_Star_Hat "ulib/ml/extracted/FStar_Int31.ml" 61 2444 2444 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 60 2405 2439 "ulib/ml/extracted/FStar_Int31.ml" 60 2405 2442
+type(
+  t -> t -> t
+)
+ident(
+  int_ref mul "ulib/ml/extracted/FStar_Int31.ml" 17 603 608 "ulib/ml/extracted/FStar_Int31.ml" 17 603 611
+)
+"ulib/ml/extracted/FStar_Int31.ml" 61 2444 2449 "ulib/ml/extracted/FStar_Int31.ml" 61 2444 2461
+type(
+  t -> t -> t
+)
+ident(
+  def op_Slash_Hat "ulib/ml/extracted/FStar_Int31.ml" 62 2484 2484 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 61 2444 2479 "ulib/ml/extracted/FStar_Int31.ml" 61 2444 2482
+type(
+  t -> t -> t
+)
+ident(
+  int_ref div "ulib/ml/extracted/FStar_Int31.ml" 19 703 708 "ulib/ml/extracted/FStar_Int31.ml" 19 703 711
+)
+"ulib/ml/extracted/FStar_Int31.ml" 62 2484 2489 "ulib/ml/extracted/FStar_Int31.ml" 62 2484 2503
+type(
+  t -> t -> t
+)
+ident(
+  def op_Percent_Hat "ulib/ml/extracted/FStar_Int31.ml" 63 2526 2526 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 62 2484 2521 "ulib/ml/extracted/FStar_Int31.ml" 62 2484 2524
+type(
+  t -> t -> t
+)
+ident(
+  int_ref rem "ulib/ml/extracted/FStar_Int31.ml" 21 803 808 "ulib/ml/extracted/FStar_Int31.ml" 21 803 811
+)
+"ulib/ml/extracted/FStar_Int31.ml" 63 2526 2531 "ulib/ml/extracted/FStar_Int31.ml" 63 2526 2541
+type(
+  t -> t -> t
+)
+ident(
+  def op_Hat_Hat "ulib/ml/extracted/FStar_Int31.ml" 64 2567 2567 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 63 2526 2559 "ulib/ml/extracted/FStar_Int31.ml" 63 2526 2565
+type(
+  t -> t -> t
+)
+ident(
+  int_ref logxor "ulib/ml/extracted/FStar_Int31.ml" 25 1010 1015 "ulib/ml/extracted/FStar_Int31.ml" 25 1010 1021
+)
+"ulib/ml/extracted/FStar_Int31.ml" 64 2567 2572 "ulib/ml/extracted/FStar_Int31.ml" 64 2567 2582
+type(
+  t -> t -> t
+)
+ident(
+  def op_Amp_Hat "ulib/ml/extracted/FStar_Int31.ml" 65 2608 2608 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 64 2567 2600 "ulib/ml/extracted/FStar_Int31.ml" 64 2567 2606
+type(
+  t -> t -> t
+)
+ident(
+  int_ref logand "ulib/ml/extracted/FStar_Int31.ml" 23 904 909 "ulib/ml/extracted/FStar_Int31.ml" 23 904 915
+)
+"ulib/ml/extracted/FStar_Int31.ml" 65 2608 2613 "ulib/ml/extracted/FStar_Int31.ml" 65 2608 2623
+type(
+  t -> t -> t
+)
+ident(
+  def op_Bar_Hat "ulib/ml/extracted/FStar_Int31.ml" 66 2648 2648 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 65 2608 2641 "ulib/ml/extracted/FStar_Int31.ml" 65 2608 2646
+type(
+  t -> t -> t
+)
+ident(
+  int_ref logor "ulib/ml/extracted/FStar_Int31.ml" 27 1116 1121 "ulib/ml/extracted/FStar_Int31.ml" 27 1116 1126
+)
+"ulib/ml/extracted/FStar_Int31.ml" 66 2648 2653 "ulib/ml/extracted/FStar_Int31.ml" 66 2648 2669
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  def op_Less_Less_Hat "ulib/ml/extracted/FStar_Int31.ml" 67 2712 2712 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 66 2648 2700 "ulib/ml/extracted/FStar_Int31.ml" 66 2648 2710
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  int_ref shift_left "ulib/ml/extracted/FStar_Int31.ml" 36 1459 1464 "ulib/ml/extracted/FStar_Int31.ml" 36 1459 1474
+)
+"ulib/ml/extracted/FStar_Int31.ml" 67 2712 2717 "ulib/ml/extracted/FStar_Int31.ml" 67 2712 2739
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  def op_Greater_Greater_Hat "ulib/ml/extracted/FStar_Int31.ml" 68 2783 2783 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 67 2712 2770 "ulib/ml/extracted/FStar_Int31.ml" 67 2712 2781
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  int_ref shift_right "ulib/ml/extracted/FStar_Int31.ml" 31 1305 1310 "ulib/ml/extracted/FStar_Int31.ml" 31 1305 1321
+)
+"ulib/ml/extracted/FStar_Int31.ml" 68 2783 2788 "ulib/ml/extracted/FStar_Int31.ml" 68 2783 2818
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  def op_Greater_Greater_Greater_Hat "ulib/ml/extracted/FStar_Int31.ml" 70 2875 2875 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 69 2849 2851 "ulib/ml/extracted/FStar_Int31.ml" 69 2849 2873
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  int_ref shift_arithmetic_right "ulib/ml/extracted/FStar_Int31.ml" 41 1611 1616 "ulib/ml/extracted/FStar_Int31.ml" 41 1611 1638
+)
+"ulib/ml/extracted/FStar_Int31.ml" 70 2875 2880 "ulib/ml/extracted/FStar_Int31.ml" 70 2875 2893
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def op_Equals_Hat "ulib/ml/extracted/FStar_Int31.ml" 71 2924 2924 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 70 2875 2920 "ulib/ml/extracted/FStar_Int31.ml" 70 2875 2922
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  int_ref eq "ulib/ml/extracted/FStar_Int31.ml" 48 1806 1811 "ulib/ml/extracted/FStar_Int31.ml" 48 1806 1813
+)
+"ulib/ml/extracted/FStar_Int31.ml" 71 2924 2929 "ulib/ml/extracted/FStar_Int31.ml" 71 2924 2943
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def op_Greater_Hat "ulib/ml/extracted/FStar_Int31.ml" 72 2974 2974 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 71 2924 2970 "ulib/ml/extracted/FStar_Int31.ml" 71 2924 2972
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  int_ref gt "ulib/ml/extracted/FStar_Int31.ml" 50 1908 1913 "ulib/ml/extracted/FStar_Int31.ml" 50 1908 1915
+)
+"ulib/ml/extracted/FStar_Int31.ml" 72 2974 2979 "ulib/ml/extracted/FStar_Int31.ml" 72 2974 3000
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def op_Greater_Equals_Hat "ulib/ml/extracted/FStar_Int31.ml" 73 3032 3032 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 72 2974 3027 "ulib/ml/extracted/FStar_Int31.ml" 72 2974 3030
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  int_ref gte "ulib/ml/extracted/FStar_Int31.ml" 52 2010 2015 "ulib/ml/extracted/FStar_Int31.ml" 52 2010 2018
+)
+"ulib/ml/extracted/FStar_Int31.ml" 73 3032 3037 "ulib/ml/extracted/FStar_Int31.ml" 73 3032 3048
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def op_Less_Hat "ulib/ml/extracted/FStar_Int31.ml" 74 3079 3079 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 73 3032 3075 "ulib/ml/extracted/FStar_Int31.ml" 73 3032 3077
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  int_ref lt "ulib/ml/extracted/FStar_Int31.ml" 54 2114 2119 "ulib/ml/extracted/FStar_Int31.ml" 54 2114 2121
+)
+"ulib/ml/extracted/FStar_Int31.ml" 74 3079 3084 "ulib/ml/extracted/FStar_Int31.ml" 74 3079 3102
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  def op_Less_Equals_Hat "ulib/ml/extracted/FStar_Int31.ml" 75 3134 3134 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 74 3079 3129 "ulib/ml/extracted/FStar_Int31.ml" 74 3079 3132
+type(
+  t -> t -> Prims.bool
+)
+ident(
+  int_ref lte "ulib/ml/extracted/FStar_Int31.ml" 56 2216 2221 "ulib/ml/extracted/FStar_Int31.ml" 56 2216 2224
+)
+"ulib/ml/extracted/FStar_Int31.ml" 75 3134 3139 "ulib/ml/extracted/FStar_Int31.ml" 75 3134 3145
+type(
+  t -> t
+)
+ident(
+  def ct_abs "ulib/ml/extracted/FStar_Int31.ml" 82 3303 3303 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 76 3158 3164 "ulib/ml/extracted/FStar_Int31.ml" 76 3158 3165
+type(
+  t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int31.ml" 77 3170 3174 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3299
+)
+"ulib/ml/extracted/FStar_Int31.ml" 77 3170 3178 "ulib/ml/extracted/FStar_Int31.ml" 77 3170 3182
+type(
+  t
+)
+ident(
+  def mask "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3275 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3299
+)
+"ulib/ml/extracted/FStar_Int31.ml" 78 3185 3191 "ulib/ml/extracted/FStar_Int31.ml" 78 3185 3213
+type(
+  t -> FStar_UInt32.t -> t
+)
+ident(
+  int_ref shift_arithmetic_right "ulib/ml/extracted/FStar_Int31.ml" 41 1611 1616 "ulib/ml/extracted/FStar_Int31.ml" 41 1611 1638
+)
+"ulib/ml/extracted/FStar_Int31.ml" 78 3185 3214 "ulib/ml/extracted/FStar_Int31.ml" 78 3185 3215
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 76 3158 3164 "ulib/ml/extracted/FStar_Int31.ml" 76 3158 3165
+)
+"ulib/ml/extracted/FStar_Int31.ml" 78 3185 3217 "ulib/ml/extracted/FStar_Int31.ml" 78 3185 3239
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 78 3185 3241 "ulib/ml/extracted/FStar_Int31.ml" 78 3185 3253
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 78 3185 3254 "ulib/ml/extracted/FStar_Int31.ml" 78 3185 3258
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 78 3185 3240 "ulib/ml/extracted/FStar_Int31.ml" 78 3185 3259
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Int31.ml" 78 3185 3216 "ulib/ml/extracted/FStar_Int31.ml" 78 3185 3260
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 78 3185 3191 "ulib/ml/extracted/FStar_Int31.ml" 78 3185 3260
+call(
+  stack
+)
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 80 3271 3275 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3278
+type(
+  t -> t -> t
+)
+ident(
+  int_ref sub "ulib/ml/extracted/FStar_Int31.ml" 15 503 508 "ulib/ml/extracted/FStar_Int31.ml" 15 503 511
+)
+"ulib/ml/extracted/FStar_Int31.ml" 80 3271 3280 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3286
+type(
+  t -> t -> t
+)
+ident(
+  int_ref logxor "ulib/ml/extracted/FStar_Int31.ml" 25 1010 1015 "ulib/ml/extracted/FStar_Int31.ml" 25 1010 1021
+)
+"ulib/ml/extracted/FStar_Int31.ml" 80 3271 3287 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3288
+type(
+  t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int31.ml" 76 3158 3164 "ulib/ml/extracted/FStar_Int31.ml" 76 3158 3165
+)
+"ulib/ml/extracted/FStar_Int31.ml" 80 3271 3289 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3293
+type(
+  t
+)
+ident(
+  int_ref mask "ulib/ml/extracted/FStar_Int31.ml" 77 3170 3178 "ulib/ml/extracted/FStar_Int31.ml" 77 3170 3182
+)
+"ulib/ml/extracted/FStar_Int31.ml" 80 3271 3279 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3294
+call(
+  stack
+)
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 80 3271 3295 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3299
+type(
+  t
+)
+ident(
+  int_ref mask "ulib/ml/extracted/FStar_Int31.ml" 77 3170 3178 "ulib/ml/extracted/FStar_Int31.ml" 77 3170 3182
+)
+"ulib/ml/extracted/FStar_Int31.ml" 80 3271 3275 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3299
+call(
+  tail
+)
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 77 3170 3174 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3299
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 76 3158 3160 "ulib/ml/extracted/FStar_Int31.ml" 80 3271 3299
+type(
+  t -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 82 3303 3308 "ulib/ml/extracted/FStar_Int31.ml" 82 3303 3317
+type(
+  t -> Prims.string
+)
+ident(
+  def to_string "ulib/ml/extracted/FStar_Int31.ml" 84 3403 3403 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 83 3341 3347 "ulib/ml/extracted/FStar_Int31.ml" 83 3341 3356
+type(
+  t
+)
+ident(
+  def uu____503 "ulib/ml/extracted/FStar_Int31.ml" 83 3341 3361 "ulib/ml/extracted/FStar_Int31.ml" 83 3341 3401
+)
+"ulib/ml/extracted/FStar_Int31.ml" 83 3341 3361 "ulib/ml/extracted/FStar_Int31.ml" 83 3341 3369
+type(
+  string -> Prims.string
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Int31.ml" 83 3341 3370 "ulib/ml/extracted/FStar_Int31.ml" 83 3341 3401
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Int31.ml" 83 3341 3361 "ulib/ml/extracted/FStar_Int31.ml" 83 3341 3401
+call(
+  tail
+)
+type(
+  Prims.string
+)
+"ulib/ml/extracted/FStar_Int31.ml" 83 3341 3343 "ulib/ml/extracted/FStar_Int31.ml" 83 3341 3401
+type(
+  t -> Prims.string
+)
+"ulib/ml/extracted/FStar_Int31.ml" 84 3403 3408 "ulib/ml/extracted/FStar_Int31.ml" 84 3403 3417
+type(
+  Prims.string -> t
+)
+ident(
+  def of_string "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3503 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 85 3441 3447 "ulib/ml/extracted/FStar_Int31.ml" 85 3441 3456
+type(
+  Prims.string
+)
+ident(
+  def uu____515 "ulib/ml/extracted/FStar_Int31.ml" 85 3441 3461 "ulib/ml/extracted/FStar_Int31.ml" 85 3441 3501
+)
+"ulib/ml/extracted/FStar_Int31.ml" 85 3441 3461 "ulib/ml/extracted/FStar_Int31.ml" 85 3441 3469
+type(
+  string -> t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Int31.ml" 85 3441 3470 "ulib/ml/extracted/FStar_Int31.ml" 85 3441 3501
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Int31.ml" 85 3441 3461 "ulib/ml/extracted/FStar_Int31.ml" 85 3441 3501
+call(
+  tail
+)
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 85 3441 3443 "ulib/ml/extracted/FStar_Int31.ml" 85 3441 3501
+type(
+  Prims.string -> t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 86 3503 3508 "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3518
+type(
+  Prims.int -> t
+)
+ident(
+  def __int_to_t "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3559 "ulib/ml/extracted/FStar_Int31.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int31.ml" 86 3503 3543 "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3544
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3549 "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3559
+)
+"ulib/ml/extracted/FStar_Int31.ml" 86 3503 3549 "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3557
+type(
+  Prims.unit FStar_Int.int_t -> t
+)
+ident(
+  int_ref int_to_t "ulib/ml/extracted/FStar_Int31.ml" 9 339 344 "ulib/ml/extracted/FStar_Int31.ml" 9 339 352
+)
+"ulib/ml/extracted/FStar_Int31.ml" 86 3503 3558 "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3559
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3543 "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3544
+)
+"ulib/ml/extracted/FStar_Int31.ml" 86 3503 3549 "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3559
+call(
+  tail
+)
+type(
+  t
+)
+"ulib/ml/extracted/FStar_Int31.ml" 86 3503 3539 "ulib/ml/extracted/FStar_Int31.ml" 86 3503 3559
+type(
+  Prims.int -> t
+)

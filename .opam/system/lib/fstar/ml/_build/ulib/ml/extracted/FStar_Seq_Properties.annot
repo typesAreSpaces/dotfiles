@@ -1,0 +1,3871 @@
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 100 "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 104
+type(
+  'Aa. 'Aa FStar_Seq_Base.seq -> 'Aa
+)
+ident(
+  def head "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 196 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 151 "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 152
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 157 "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 194
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 157 "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 177
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 178 "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 179
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 151 "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 152
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 180 "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 194
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 157 "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 194
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 147 "ulib/ml/extracted/FStar_Seq_Properties.ml" 9 145 194
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 200 "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 204
+type(
+  'Aa. 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def tail "ulib/ml/extracted/FStar_Seq_Properties.ml" 14 342 342 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 270 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 271
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 276 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 338
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 276 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 296
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 297 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 298
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 270 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 271
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 299 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 312
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 314 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 335
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 336 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 337
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 270 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 271
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 313 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 338
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 276 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 338
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 266 "ulib/ml/extracted/FStar_Seq_Properties.ml" 11 264 338
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 14 342 346 "ulib/ml/extracted/FStar_Seq_Properties.ml" 14 342 350
+type(
+  'Aa. 'Aa FStar_Seq_Base.seq -> 'Aa
+)
+ident(
+  def last "ulib/ml/extracted/FStar_Seq_Properties.ml" 18 477 477 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 15 391 397 "ulib/ml/extracted/FStar_Seq_Properties.ml" 15 391 398
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 407 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 473
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 407 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 427
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 428 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 429
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 15 391 397 "ulib/ml/extracted/FStar_Seq_Properties.ml" 15 391 398
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 432 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 453
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 454 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 455
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 15 391 397 "ulib/ml/extracted/FStar_Seq_Properties.ml" 15 391 398
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 431 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 456
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 457 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 458
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 459 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 472
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 430 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 473
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 407 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 473
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 15 391 393 "ulib/ml/extracted/FStar_Seq_Properties.ml" 16 403 473
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 18 477 481 "ulib/ml/extracted/FStar_Seq_Properties.ml" 18 477 485
+type(
+  'Aa. 'Aa -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def cons "ulib/ml/extracted/FStar_Seq_Properties.ml" 23 646 646 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 19 552 558 "ulib/ml/extracted/FStar_Seq_Properties.ml" 19 552 559
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 568 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 641
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 572 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 573
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 578 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 641
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 578 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 599
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 601 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 622
+type(
+  Prims.nat -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 623 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 636
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 637 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 638
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 19 552 558 "ulib/ml/extracted/FStar_Seq_Properties.ml" 19 552 559
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 600 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 639
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 640 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 641
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 572 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 573
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 578 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 641
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 568 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 641
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 19 552 554 "ulib/ml/extracted/FStar_Seq_Properties.ml" 20 564 641
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 23 646 650 "ulib/ml/extracted/FStar_Seq_Properties.ml" 23 646 655
+type(
+  'Aa.
+    'Aa FStar_Seq_Base.seq ->
+    Prims.nat -> 'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def split "ulib/ml/extracted/FStar_Seq_Properties.ml" 34 911 911 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 775 "ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 776
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 29 781 785 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 906
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 29 781 789 "ulib/ml/extracted/FStar_Seq_Properties.ml" 29 781 790
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 801 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 906
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 803 "ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 823
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 824 "ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 825
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 775 "ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 776
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 826 "ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 840
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 841 "ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 842
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 29 781 789 "ulib/ml/extracted/FStar_Seq_Properties.ml" 29 781 790
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 802 "ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 843
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 854 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 874
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 875 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 876
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 775 "ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 776
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 877 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 878
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 29 781 789 "ulib/ml/extracted/FStar_Seq_Properties.ml" 29 781 790
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 880 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 901
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 902 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 903
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 775 "ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 776
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 879 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 904
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 853 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 905
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 30 795 801 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 906
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 29 781 785 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 906
+type(
+  Prims.nat -> 'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 28 769 771 "ulib/ml/extracted/FStar_Seq_Properties.ml" 31 845 906
+type(
+  'Aa FStar_Seq_Base.seq ->
+  Prims.nat -> 'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 34 911 915 "ulib/ml/extracted/FStar_Seq_Properties.ml" 34 911 923
+type(
+  'Aa.
+    'Aa FStar_Seq_Base.seq ->
+    Prims.nat -> 'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def split_eq "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1082 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1041 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1042
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1047 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1080
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1051 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1052
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1057 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1080
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1061 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1062
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1079 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1080
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1065 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1070
+type(
+  'Aa FStar_Seq_Base.seq ->
+  Prims.nat -> 'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref split "ulib/ml/extracted/FStar_Seq_Properties.ml" 23 646 650 "ulib/ml/extracted/FStar_Seq_Properties.ml" 23 646 655
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1071 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1072
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1041 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1042
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1073 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1074
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1051 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1052
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1065 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1074
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1079 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1080
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1061 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1062
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1057 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1080
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1047 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1080
+type(
+  Prims.nat -> 'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1037 "ulib/ml/extracted/FStar_Seq_Properties.ml" 38 1033 1080
+type(
+  'Aa FStar_Seq_Base.seq ->
+  Prims.nat -> 'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1090 "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1095
+type(
+  'Aa. 'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  def count "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1082 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1155 "ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1156
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1165 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1365
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1169 "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1170
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1181 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1365
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1185 "ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1206
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1207 "ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1208
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1169 "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1170
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1184 "ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1209
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1210 "ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1211
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1212 "ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1226
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1184 "ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1226
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 43 1227 1238 "ulib/ml/extracted/FStar_Seq_Properties.ml" 43 1227 1252
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1276 "ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1280
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa
+)
+ident(
+  int_ref head "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 100 "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 104
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1281 "ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1282
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1169 "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1170
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1275 "ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1283
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1284 "ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1285
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1286 "ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1287
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1155 "ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1156
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1275 "ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1287
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1301 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1314
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1315 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1316
+type(
+  Z.t -> Prims.nat -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1318 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1323
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  int_ref count "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1090 "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1095
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1324 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1325
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1155 "ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1156
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1327 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1331
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref tail "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 200 "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 204
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1332 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1333
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1169 "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1170
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1326 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1334
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1317 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1335
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1301 "ulib/ml/extracted/FStar_Seq_Properties.ml" 46 1288 1335
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1349 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1354
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  int_ref count "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1090 "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1095
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1355 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1356
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1155 "ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1156
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1358 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1362
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref tail "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 200 "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 204
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1363 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1364
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1169 "ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1170
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1357 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1365
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1349 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1365
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 45 1264 1272 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1365
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 42 1175 1181 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1365
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 41 1161 1165 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1365
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 40 1149 1151 "ulib/ml/extracted/FStar_Seq_Properties.ml" 47 1336 1365
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 49 1369 1373 "ulib/ml/extracted/FStar_Seq_Properties.ml" 49 1369 1376
+type(
+  'Aa. 'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+ident(
+  def mem "ulib/ml/extracted/FStar_Seq_Properties.ml" 52 1484 1484 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1437 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1438
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1443 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1481
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1447 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1448
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1453 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1481
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1454 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1459
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  int_ref count "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1090 "ulib/ml/extracted/FStar_Seq_Properties.ml" 39 1082 1095
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1460 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1461
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1437 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1438
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1462 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1463
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1447 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1448
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1453 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1464
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1465 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1466
+type(
+  Prims.nat -> Z.t -> Prims.bool
+)
+ident(
+  ext_ref Prims.( > )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1467 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1481
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1453 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1481
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1443 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1481
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1433 "ulib/ml/extracted/FStar_Seq_Properties.ml" 50 1431 1481
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 52 1484 1492 "ulib/ml/extracted/FStar_Seq_Properties.ml" 52 1484 1501
+type(
+  'Aa. 'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  def index_mem "ulib/ml/extracted/FStar_Seq_Properties.ml" 52 1484 1484 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 53 1555 1561 "ulib/ml/extracted/FStar_Seq_Properties.ml" 53 1555 1562
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Seq_Properties.ml" 54 1567 1571 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1678
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 54 1567 1575 "ulib/ml/extracted/FStar_Seq_Properties.ml" 54 1567 1576
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1587 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1678
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1591 "ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1595
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa
+)
+ident(
+  int_ref head "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 100 "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 104
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1596 "ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1597
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 54 1567 1575 "ulib/ml/extracted/FStar_Seq_Properties.ml" 54 1567 1576
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1590 "ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1598
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1599 "ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1600
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1601 "ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1602
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 53 1555 1561 "ulib/ml/extracted/FStar_Seq_Properties.ml" 53 1555 1562
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1590 "ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1602
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 56 1603 1614 "ulib/ml/extracted/FStar_Seq_Properties.ml" 56 1603 1628
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1640 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1653
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1654 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1655
+type(
+  Z.t -> Prims.nat -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1657 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1666
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  int_ref index_mem "ulib/ml/extracted/FStar_Seq_Properties.ml" 52 1484 1492 "ulib/ml/extracted/FStar_Seq_Properties.ml" 52 1484 1501
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1667 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1668
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 53 1555 1561 "ulib/ml/extracted/FStar_Seq_Properties.ml" 53 1555 1562
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1670 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1674
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref tail "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 200 "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 204
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1675 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1676
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 54 1567 1575 "ulib/ml/extracted/FStar_Seq_Properties.ml" 54 1567 1576
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1669 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1677
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1656 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1678
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1640 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1678
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 55 1581 1587 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1678
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 54 1567 1571 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1678
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 53 1555 1557 "ulib/ml/extracted/FStar_Seq_Properties.ml" 57 1629 1678
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 59 1682 1686 "ulib/ml/extracted/FStar_Seq_Properties.ml" 59 1682 1690
+type(
+  'Aa.
+    'Aa FStar_Seq_Base.seq ->
+    Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def swap "ulib/ml/extracted/FStar_Seq_Properties.ml" 77 1969 1969 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1796 "ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1797
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 65 1802 1806 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1959
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 65 1802 1810 "ulib/ml/extracted/FStar_Seq_Properties.ml" 65 1802 1811
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Seq_Properties.ml" 66 1816 1822 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1959
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 66 1816 1826 "ulib/ml/extracted/FStar_Seq_Properties.ml" 66 1816 1827
+type(
+  Prims.nat
+)
+ident(
+  def j "ulib/ml/extracted/FStar_Seq_Properties.ml" 67 1832 1840 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1959
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 67 1832 1840 "ulib/ml/extracted/FStar_Seq_Properties.ml" 67 1832 1858
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.upd
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1870 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1888
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.upd
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1889 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1890
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1796 "ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1797
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1891 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1892
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 66 1816 1826 "ulib/ml/extracted/FStar_Seq_Properties.ml" 66 1816 1827
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1894 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1914
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1915 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1916
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1796 "ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1797
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1917 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1918
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 65 1802 1810 "ulib/ml/extracted/FStar_Seq_Properties.ml" 65 1802 1811
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1893 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1919
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1869 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1920
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1921 "ulib/ml/extracted/FStar_Seq_Properties.ml" 68 1859 1922
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 65 1802 1810 "ulib/ml/extracted/FStar_Seq_Properties.ml" 65 1802 1811
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1934 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1954
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1955 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1956
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1796 "ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1797
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1957 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1958
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 66 1816 1826 "ulib/ml/extracted/FStar_Seq_Properties.ml" 66 1816 1827
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1933 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1959
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 67 1832 1840 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1959
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 66 1816 1822 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1959
+type(
+  Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 65 1802 1806 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1959
+type(
+  Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 64 1790 1792 "ulib/ml/extracted/FStar_Seq_Properties.ml" 69 1923 1959
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 77 1969 1977 "ulib/ml/extracted/FStar_Seq_Properties.ml" 77 1969 1983
+type(
+  'Aa. ('Aa -> 'Aa -> Prims.bool) -> 'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+ident(
+  def sorted "ulib/ml/extracted/FStar_Seq_Properties.ml" 77 1969 1969 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 79 2063 2069 "ulib/ml/extracted/FStar_Seq_Properties.ml" 79 2063 2070
+type(
+  'Aa -> 'Aa -> Prims.bool
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2079 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2288
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2083 "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2084
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2095 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2288
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2099 "ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2120
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2121 "ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2122
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2083 "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2084
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2098 "ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2123
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2124 "ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2126
+type(
+  Prims.nat -> Z.t -> bool
+)
+ident(
+  ext_ref Prims.( <= )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2127 "ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2140
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2098 "ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2140
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 82 2141 2152 "ulib/ml/extracted/FStar_Seq_Properties.ml" 82 2141 2156
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2181 "ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2184
+type(
+  'Aa
+)
+ident(
+  def hd1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2207 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2287
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2187 "ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2191
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa
+)
+ident(
+  int_ref head "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 100 "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 104
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2192 "ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2193
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2083 "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2084
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2187 "ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2193
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2208 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2209
+type(
+  'Aa -> 'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 79 2063 2069 "ulib/ml/extracted/FStar_Seq_Properties.ml" 79 2063 2070
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2210 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2213
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2181 "ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2184
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2215 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2235
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2236 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2237
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2083 "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2084
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2238 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2251
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2214 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2252
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2207 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2253
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2254 "ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2256
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2269 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2275
+type(
+  ('Aa -> 'Aa -> Prims.bool) -> 'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+ident(
+  int_ref sorted "ulib/ml/extracted/FStar_Seq_Properties.ml" 77 1969 1977 "ulib/ml/extracted/FStar_Seq_Properties.ml" 77 1969 1983
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2276 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2277
+type(
+  'Aa -> 'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 79 2063 2069 "ulib/ml/extracted/FStar_Seq_Properties.ml" 79 2063 2070
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2279 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2283
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref tail "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 200 "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 204
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2284 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2285
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2083 "ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2084
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2278 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2286
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2268 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2287
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 85 2198 2207 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2287
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 84 2168 2176 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2288
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 81 2089 2095 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2288
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 80 2075 2079 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2288
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 79 2063 2065 "ulib/ml/extracted/FStar_Seq_Properties.ml" 86 2257 2288
+type(
+  ('Aa -> 'Aa -> Prims.bool) -> 'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 97 2377 2381 "ulib/ml/extracted/FStar_Seq_Properties.ml" 97 2377 2388
+type(
+  'Aa.
+    'Aa FStar_Seq_Base.seq ->
+    Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+ident(
+  def split_5 "ulib/ml/extracted/FStar_Seq_Properties.ml" 123 3292 3292 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2513 "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2514
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2523 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2527 "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2528
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2539 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2543 "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2544
+type(
+  Prims.nat
+)
+ident(
+  def j "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2557 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2561 "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2568
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def frag_lo "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2623 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2571 "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2591
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2592 "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2593
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2513 "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2514
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2594 "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2608
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2609 "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2610
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2527 "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2528
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2571 "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2610
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2627 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2633
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def frag_i "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2693 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2636 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2656
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2657 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2658
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2513 "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2514
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2659 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2660
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2527 "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2528
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2662 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2663
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2527 "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2528
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2664 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2665
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2666 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2679
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2661 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2680
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2636 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2680
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2697 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2705
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def frag_mid "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2765 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2708 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2728
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2729 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2730
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2513 "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2514
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2732 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2733
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2527 "ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2528
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2734 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2735
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2736 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2749
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2731 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2750
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2751 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2752
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2543 "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2544
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2708 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2752
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2769 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2775
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def frag_j "ulib/ml/extracted/FStar_Seq_Properties.ml" 109 2827 2835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2778 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2798
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2799 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2800
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2513 "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2514
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2801 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2802
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2543 "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2544
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2804 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2805
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2543 "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2544
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2806 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2807
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2808 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2821
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2803 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2822
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2778 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2822
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 109 2827 2839 "ulib/ml/extracted/FStar_Seq_Properties.ml" 109 2827 2846
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def frag_hi "ulib/ml/extracted/FStar_Seq_Properties.ml" 113 2954 2962 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2859 "ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2879
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2880 "ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2881
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2513 "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2514
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2883 "ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2884
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2543 "ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2544
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2885 "ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2886
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2887 "ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2900
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2882 "ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2901
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 111 2902 2915 "ulib/ml/extracted/FStar_Seq_Properties.ml" 111 2902 2936
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 111 2902 2937 "ulib/ml/extracted/FStar_Seq_Properties.ml" 111 2902 2938
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2513 "ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2514
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 111 2902 2914 "ulib/ml/extracted/FStar_Seq_Properties.ml" 111 2902 2939
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 110 2849 2859 "ulib/ml/extracted/FStar_Seq_Properties.ml" 111 2902 2939
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 113 2954 2962 "ulib/ml/extracted/FStar_Seq_Properties.ml" 113 2954 2980
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq ->
+  Prims.nat ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.upd
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 114 2981 2992 "ulib/ml/extracted/FStar_Seq_Properties.ml" 114 2981 3010
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq ->
+  Prims.nat ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.upd
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 115 3011 3025 "ulib/ml/extracted/FStar_Seq_Properties.ml" 115 3011 3043
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq ->
+  Prims.nat ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.upd
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 116 3044 3061 "ulib/ml/extracted/FStar_Seq_Properties.ml" 116 3044 3079
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq ->
+  Prims.nat ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.upd
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3100 "ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3121
+type(
+  Prims.nat ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3123 "ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3135
+type(
+  int -> Prims.nat
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3136 "ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3139
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3122 "ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3140
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3141 "ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3148
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref frag_lo "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2561 "ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2568
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3099 "ulib/ml/extracted/FStar_Seq_Properties.ml" 117 3080 3149
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3169 "ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3182
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3183 "ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3189
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref frag_i "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2627 "ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2633
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 116 3044 3060 "ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3190
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3192 "ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3204
+type(
+  int -> Prims.nat
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3205 "ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3208
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3191 "ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3209
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3210 "ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3218
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref frag_mid "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2697 "ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2705
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 115 3011 3024 "ulib/ml/extracted/FStar_Seq_Properties.ml" 118 3150 3219
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3234 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3246
+type(
+  int -> Prims.nat
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3247 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3250
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3233 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3251
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3252 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3258
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref frag_j "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2769 "ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2775
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 114 2981 2991 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3259
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3261 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3273
+type(
+  int -> Prims.nat
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3274 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3277
+type(
+  int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3260 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3278
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3279 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref frag_hi "ulib/ml/extracted/FStar_Seq_Properties.ml" 109 2827 2839 "ulib/ml/extracted/FStar_Seq_Properties.ml" 109 2827 2846
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 113 2954 2962 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 109 2827 2835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 108 2757 2765 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 107 2685 2693 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 106 2615 2623 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 105 2549 2557 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 104 2533 2539 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  Prims.nat -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 103 2519 2523 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 102 2507 2509 "ulib/ml/extracted/FStar_Seq_Properties.ml" 119 3220 3286
+type(
+  'Aa FStar_Seq_Base.seq ->
+  Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 137 3345 3349 "ulib/ml/extracted/FStar_Seq_Properties.ml" 137 3345 3355
+type(
+  'Aa.
+    'Aa FStar_Seq_Base.seq ->
+    Prims.nat ->
+    'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def splice "ulib/ml/extracted/FStar_Seq_Properties.ml" 151 3765 3765 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3495 "ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3497
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 144 3502 3506 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 144 3502 3510 "ulib/ml/extracted/FStar_Seq_Properties.ml" 144 3502 3511
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Seq_Properties.ml" 145 3516 3522 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 145 3516 3526 "ulib/ml/extracted/FStar_Seq_Properties.ml" 145 3516 3528
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s2 "ulib/ml/extracted/FStar_Seq_Properties.ml" 146 3533 3541 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 146 3533 3545 "ulib/ml/extracted/FStar_Seq_Properties.ml" 146 3533 3546
+type(
+  Prims.nat
+)
+ident(
+  def j "ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3561 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3561 "ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3582
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3584 "ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3604
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3605 "ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3607
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3495 "ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3497
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3608 "ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3622
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3623 "ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3624
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 144 3502 3510 "ulib/ml/extracted/FStar_Seq_Properties.ml" 144 3502 3511
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3583 "ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3625
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3639 "ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3660
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3662 "ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3682
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3683 "ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3685
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s2 "ulib/ml/extracted/FStar_Seq_Properties.ml" 145 3516 3526 "ulib/ml/extracted/FStar_Seq_Properties.ml" 145 3516 3528
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3686 "ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3687
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 144 3502 3510 "ulib/ml/extracted/FStar_Seq_Properties.ml" 144 3502 3511
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3688 "ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3689
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 146 3533 3545 "ulib/ml/extracted/FStar_Seq_Properties.ml" 146 3533 3546
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3661 "ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3690
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3707 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3727
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3728 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3730
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3495 "ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3497
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3731 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3732
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 146 3533 3545 "ulib/ml/extracted/FStar_Seq_Properties.ml" 146 3533 3546
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3734 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3755
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3756 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3758
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3495 "ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3497
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3733 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3759
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3706 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3760
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 148 3626 3638 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 147 3551 3561 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 146 3533 3541 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+type(
+  Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 145 3516 3522 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 144 3502 3506 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+type(
+  Prims.nat -> 'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 143 3489 3491 "ulib/ml/extracted/FStar_Seq_Properties.ml" 149 3691 3761
+type(
+  'Aa FStar_Seq_Base.seq ->
+  Prims.nat -> 'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 151 3765 3769 "ulib/ml/extracted/FStar_Seq_Properties.ml" 151 3765 3783
+type(
+  'Aa.
+    'Aa FStar_Seq_Base.seq ->
+    Prims.nat ->
+    Prims.nat -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def replace_subseq "ulib/ml/extracted/FStar_Seq_Properties.ml" 176 4175 4175 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3923 "ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3924
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 158 3929 3933 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 158 3929 3937 "ulib/ml/extracted/FStar_Seq_Properties.ml" 158 3929 3938
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Seq_Properties.ml" 159 3943 3949 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 159 3943 3953 "ulib/ml/extracted/FStar_Seq_Properties.ml" 159 3943 3954
+type(
+  Prims.nat
+)
+ident(
+  def j "ulib/ml/extracted/FStar_Seq_Properties.ml" 160 3959 3967 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 160 3959 3971 "ulib/ml/extracted/FStar_Seq_Properties.ml" 160 3959 3974
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def sub "ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 3989 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 3989 "ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4010
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4012 "ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4032
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4033 "ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4034
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3923 "ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3924
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4035 "ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4049
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4050 "ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4051
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 158 3929 3937 "ulib/ml/extracted/FStar_Seq_Properties.ml" 158 3929 3938
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4011 "ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 4052
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 162 4053 4066 "ulib/ml/extracted/FStar_Seq_Properties.ml" 162 4053 4087
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 162 4053 4088 "ulib/ml/extracted/FStar_Seq_Properties.ml" 162 4053 4091
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref sub "ulib/ml/extracted/FStar_Seq_Properties.ml" 160 3959 3971 "ulib/ml/extracted/FStar_Seq_Properties.ml" 160 3959 3974
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4108 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4128
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4129 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4130
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3923 "ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3924
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4131 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4132
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/ml/extracted/FStar_Seq_Properties.ml" 159 3943 3953 "ulib/ml/extracted/FStar_Seq_Properties.ml" 159 3943 3954
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4134 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4155
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4156 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4157
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3923 "ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3924
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4133 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4158
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4107 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4159
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 162 4053 4065 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 161 3979 3989 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 160 3959 3967 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 159 3943 3949 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+type(
+  Prims.nat -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 158 3929 3933 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+type(
+  Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 157 3917 3919 "ulib/ml/extracted/FStar_Seq_Properties.ml" 163 4092 4160
+type(
+  'Aa FStar_Seq_Base.seq ->
+  Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 176 4175 4179 "ulib/ml/extracted/FStar_Seq_Properties.ml" 176 4175 4183
+type(
+  'Aa. 'Aa FStar_Seq_Base.seq -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def snoc "ulib/ml/extracted/FStar_Seq_Properties.ml" 184 4347 4347 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 177 4250 4256 "ulib/ml/extracted/FStar_Seq_Properties.ml" 177 4250 4257
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4266 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4339
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4270 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4271
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4276 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4339
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4276 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4297
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4298 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4299
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 177 4250 4256 "ulib/ml/extracted/FStar_Seq_Properties.ml" 177 4250 4257
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4301 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4322
+type(
+  Prims.nat -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4323 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4336
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4337 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4338
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4270 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4271
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4300 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4339
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4276 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4339
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4266 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4339
+type(
+  'Aa -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 177 4250 4252 "ulib/ml/extracted/FStar_Seq_Properties.ml" 178 4262 4339
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 184 4347 4355 "ulib/ml/extracted/FStar_Seq_Properties.ml" 184 4347 4361
+type(
+  'Aa.
+    ('Aa -> Prims.bool) ->
+    'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def find_l "ulib/ml/extracted/FStar_Seq_Properties.ml" 184 4347 4347 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 189 4470 4476 "ulib/ml/extracted/FStar_Seq_Properties.ml" 189 4470 4477
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4486 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4702
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4490 "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4491
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4502 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4702
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4506 "ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4527
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4528 "ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4529
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4490 "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4491
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4505 "ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4530
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4531 "ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4532
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4533 "ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4547
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4505 "ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4547
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 192 4548 4559 "ulib/ml/extracted/FStar_Seq_Properties.ml" 192 4548 4587
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4610 "ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4611
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 189 4470 4476 "ulib/ml/extracted/FStar_Seq_Properties.ml" 189 4470 4477
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4613 "ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4617
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa
+)
+ident(
+  int_ref head "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 100 "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 104
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4618 "ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4619
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4490 "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4491
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4612 "ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4620
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4610 "ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4620
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 195 4621 4664 "ulib/ml/extracted/FStar_Seq_Properties.ml" 195 4621 4668
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa
+)
+ident(
+  int_ref head "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 100 "ulib/ml/extracted/FStar_Seq_Properties.ml" 8 96 104
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 195 4621 4669 "ulib/ml/extracted/FStar_Seq_Properties.ml" 195 4621 4670
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4490 "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4491
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 195 4621 4663 "ulib/ml/extracted/FStar_Seq_Properties.ml" 195 4621 4671
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 195 4621 4634 "ulib/ml/extracted/FStar_Seq_Properties.ml" 195 4621 4671
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4685 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4691
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref find_l "ulib/ml/extracted/FStar_Seq_Properties.ml" 184 4347 4355 "ulib/ml/extracted/FStar_Seq_Properties.ml" 184 4347 4361
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4692 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4693
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 189 4470 4476 "ulib/ml/extracted/FStar_Seq_Properties.ml" 189 4470 4477
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4695 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4699
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref tail "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 200 "ulib/ml/extracted/FStar_Seq_Properties.ml" 10 196 204
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4700 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4701
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4490 "ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4491
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4694 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4702
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4685 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4702
+call(
+  tail
+)
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 194 4599 4607 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4702
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 191 4496 4502 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4702
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 190 4482 4486 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4702
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 189 4470 4472 "ulib/ml/extracted/FStar_Seq_Properties.ml" 196 4672 4702
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 203 4711 4715 "ulib/ml/extracted/FStar_Seq_Properties.ml" 203 4711 4722
+type(
+  'Aa. 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq * 'Aa
+)
+ident(
+  def un_snoc "ulib/ml/extracted/FStar_Seq_Properties.ml" 211 4973 4973 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 205 4792 4798 "ulib/ml/extracted/FStar_Seq_Properties.ml" 205 4792 4799
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4808 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4968
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4812 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4822
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def uu____1075 "ulib/ml/extracted/FStar_Seq_Properties.ml" 207 4881 4885 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4968
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4825 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4830
+type(
+  'Aa FStar_Seq_Base.seq ->
+  Prims.nat -> 'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref split "ulib/ml/extracted/FStar_Seq_Properties.ml" 23 646 650 "ulib/ml/extracted/FStar_Seq_Properties.ml" 23 646 655
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4831 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4832
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 205 4792 4798 "ulib/ml/extracted/FStar_Seq_Properties.ml" 205 4792 4799
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4856
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4857 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4858
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 205 4792 4798 "ulib/ml/extracted/FStar_Seq_Properties.ml" 205 4792 4799
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4834 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4859
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4860 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4861
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4862 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4875
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4833 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4876
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4825 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4876
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 207 4881 4891 "ulib/ml/extracted/FStar_Seq_Properties.ml" 207 4881 4901
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref uu____1075 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4812 "ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4822
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4914 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4916
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s' "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4923 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4968
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4917 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4918
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4923 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4968
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4913 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4919
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4924 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4926
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s' "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4914 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4916
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4929 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4949
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4950 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4951
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4917 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4918
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4952 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4966
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4928 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4967
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4923 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4968
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 207 4881 4885 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4968
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 206 4804 4808 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4968
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 205 4792 4794 "ulib/ml/extracted/FStar_Seq_Properties.ml" 208 4907 4968
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 211 4973 4981 "ulib/ml/extracted/FStar_Seq_Properties.ml" 211 4973 4987
+type(
+  'Aa.
+    ('Aa -> Prims.bool) ->
+    'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def find_r "ulib/ml/extracted/FStar_Seq_Properties.ml" 211 4973 4973 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 216 5096 5102 "ulib/ml/extracted/FStar_Seq_Properties.ml" 216 5096 5103
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Seq_Properties.ml" 217 5108 5112 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5436
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 217 5108 5116 "ulib/ml/extracted/FStar_Seq_Properties.ml" 217 5108 5117
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5128 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5436
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5132 "ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5153
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5154 "ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5155
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 217 5108 5116 "ulib/ml/extracted/FStar_Seq_Properties.ml" 217 5108 5117
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5131 "ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5156
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5157 "ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5158
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5159 "ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5173
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5131 "ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5173
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 219 5174 5185 "ulib/ml/extracted/FStar_Seq_Properties.ml" 219 5174 5213
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5238 "ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5248
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+ident(
+  def uu____1151 "ulib/ml/extracted/FStar_Seq_Properties.ml" 222 5265 5274 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5435
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5251 "ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5258
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq * 'Aa
+)
+ident(
+  int_ref un_snoc "ulib/ml/extracted/FStar_Seq_Properties.ml" 203 4711 4715 "ulib/ml/extracted/FStar_Seq_Properties.ml" 203 4711 4722
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5259 "ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5260
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 217 5108 5116 "ulib/ml/extracted/FStar_Seq_Properties.ml" 217 5108 5117
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5251 "ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5260
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 222 5265 5280 "ulib/ml/extracted/FStar_Seq_Properties.ml" 222 5265 5290
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+ident(
+  int_ref uu____1151 "ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5238 "ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5248
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5308 "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5314
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def prefix "ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5338 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5435
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5315 "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5320
+type(
+  'Aa
+)
+ident(
+  def last1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5338 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5435
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5307 "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5321
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5341 "ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5342
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 216 5096 5102 "ulib/ml/extracted/FStar_Seq_Properties.ml" 216 5096 5103
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5343 "ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5348
+type(
+  'Aa
+)
+ident(
+  int_ref last1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5315 "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5320
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5341 "ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5348
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 225 5349 5396 "ulib/ml/extracted/FStar_Seq_Properties.ml" 225 5349 5401
+type(
+  'Aa
+)
+ident(
+  int_ref last1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5315 "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5320
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 225 5349 5367 "ulib/ml/extracted/FStar_Seq_Properties.ml" 225 5349 5401
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5420 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5426
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref find_r "ulib/ml/extracted/FStar_Seq_Properties.ml" 211 4973 4981 "ulib/ml/extracted/FStar_Seq_Properties.ml" 211 4973 4987
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5427 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5428
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 216 5096 5102 "ulib/ml/extracted/FStar_Seq_Properties.ml" 216 5096 5103
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5429 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5435
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref prefix "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5308 "ulib/ml/extracted/FStar_Seq_Properties.ml" 223 5296 5314
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5420 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5435
+call(
+  tail
+)
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 224 5325 5338 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5435
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 222 5265 5274 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5435
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 221 5225 5233 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5436
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 218 5122 5128 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5436
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 217 5108 5112 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5436
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 216 5096 5098 "ulib/ml/extracted/FStar_Seq_Properties.ml" 226 5402 5436
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 229 5462 5470 "ulib/ml/extracted/FStar_Seq_Properties.ml" 229 5462 5482
+type(
+  'Aa.
+    ('Aa -> Prims.bool) ->
+    'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def seq_find_aux "ulib/ml/extracted/FStar_Seq_Properties.ml" 229 5462 5462 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 235 5612 5618 "ulib/ml/extracted/FStar_Seq_Properties.ml" 235 5612 5619
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5628 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5632 "ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5633
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 237 5638 5644 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 237 5638 5648 "ulib/ml/extracted/FStar_Seq_Properties.ml" 237 5638 5651
+type(
+  Prims.nat
+)
+ident(
+  def ctr "ulib/ml/extracted/FStar_Seq_Properties.ml" 238 5656 5664 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 238 5656 5670 "ulib/ml/extracted/FStar_Seq_Properties.ml" 238 5656 5673
+type(
+  Prims.nat
+)
+ident(
+  int_ref ctr "ulib/ml/extracted/FStar_Seq_Properties.ml" 237 5638 5648 "ulib/ml/extracted/FStar_Seq_Properties.ml" 237 5638 5651
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5689 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5694
+type(
+  Prims.nat
+)
+ident(
+  def _1225 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5700 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5754
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5700 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5705
+type(
+  Prims.nat
+)
+ident(
+  int_ref _1225 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5689 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5694
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5706 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5707
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5708 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5722
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5700 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5722
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5726 "ulib/ml/extracted/FStar_Seq_Properties.ml" 239 5679 5754
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 240 5755 5765 "ulib/ml/extracted/FStar_Seq_Properties.ml" 240 5755 5775
+type(
+  Prims.nat
+)
+ident(
+  def uu____1226 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5791 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5795 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5796
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5799 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5802
+type(
+  Prims.nat
+)
+ident(
+  int_ref ctr "ulib/ml/extracted/FStar_Seq_Properties.ml" 237 5638 5648 "ulib/ml/extracted/FStar_Seq_Properties.ml" 237 5638 5651
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5803 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5804
+type(
+  Prims.nat -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5805 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5818
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5799 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5818
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5838 "ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5839
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 235 5612 5618 "ulib/ml/extracted/FStar_Seq_Properties.ml" 235 5612 5619
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5841 "ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5861
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5862 "ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5863
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5632 "ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5633
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5864 "ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5865
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5795 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5796
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5840 "ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5866
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5838 "ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5866
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5914 "ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5934
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5935 "ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5936
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5632 "ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5633
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5937 "ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5938
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5795 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5796
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5913 "ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5939
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5884 "ulib/ml/extracted/FStar_Seq_Properties.ml" 243 5867 5939
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5957 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5969
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref seq_find_aux "ulib/ml/extracted/FStar_Seq_Properties.ml" 229 5462 5470 "ulib/ml/extracted/FStar_Seq_Properties.ml" 229 5462 5482
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5970 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5971
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 235 5612 5618 "ulib/ml/extracted/FStar_Seq_Properties.ml" 235 5612 5619
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5972 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5973
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5632 "ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5633
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5974 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5795 "ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5796
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5957 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+call(
+  tail
+)
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 242 5823 5835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 241 5779 5791 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 238 5656 5664 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 237 5638 5644 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+type(
+  Prims.nat -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 236 5624 5628 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 235 5612 5614 "ulib/ml/extracted/FStar_Seq_Properties.ml" 244 5940 5975
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 246 5979 5983 "ulib/ml/extracted/FStar_Seq_Properties.ml" 246 5979 5991
+type(
+  'Aa.
+    ('Aa -> Prims.bool) ->
+    'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def seq_find "ulib/ml/extracted/FStar_Seq_Properties.ml" 252 6165 6165 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6104 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6105
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6110 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6162
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6114 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6115
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6120 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6162
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6120 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6132
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref seq_find_aux "ulib/ml/extracted/FStar_Seq_Properties.ml" 229 5462 5470 "ulib/ml/extracted/FStar_Seq_Properties.ml" 229 5462 5482
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6133 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6134
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6104 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6105
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6135 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6136
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6114 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6115
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6138 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6159
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6160 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6161
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6114 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6115
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6137 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6162
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6120 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6162
+call(
+  tail
+)
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6110 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6162
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6100 "ulib/ml/extracted/FStar_Seq_Properties.ml" 250 6096 6162
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 252 6165 6169 "ulib/ml/extracted/FStar_Seq_Properties.ml" 252 6165 6176
+type(
+  'Aa. ('Aa -> Prims.bool) -> 'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+ident(
+  def for_all "ulib/ml/extracted/FStar_Seq_Properties.ml" 260 6379 6379 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 254 6249 6255 "ulib/ml/extracted/FStar_Seq_Properties.ml" 254 6249 6256
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Seq_Properties.ml" 255 6261 6265 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6374
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 255 6261 6269 "ulib/ml/extracted/FStar_Seq_Properties.ml" 255 6261 6270
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 256 6275 6281 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6374
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 256 6275 6281 "ulib/ml/extracted/FStar_Seq_Properties.ml" 256 6275 6317
+type(
+  'Aa FStar_Pervasives_Native.option -> Prims.bool
+)
+ident(
+  ext_ref FStar_Pervasives_Native.uu___is_None
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6327 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6335
+type(
+  ('Aa -> Prims.bool) ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref seq_find "ulib/ml/extracted/FStar_Seq_Properties.ml" 246 5979 5983 "ulib/ml/extracted/FStar_Seq_Properties.ml" 246 5979 5991
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6341 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6342
+type(
+  'Aa
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6347 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6370
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6347 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6364
+type(
+  Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Prims.op_Negation
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6366 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6367
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 254 6249 6255 "ulib/ml/extracted/FStar_Seq_Properties.ml" 254 6249 6256
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6368 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6369
+type(
+  'Aa
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6341 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6342
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6365 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6370
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6347 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6370
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6336 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6371
+type(
+  'Aa -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6372 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6373
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 255 6261 6269 "ulib/ml/extracted/FStar_Seq_Properties.ml" 255 6261 6270
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6326 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6374
+call(
+  stack
+)
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 256 6275 6281 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6374
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 255 6261 6265 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6374
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 254 6249 6251 "ulib/ml/extracted/FStar_Seq_Properties.ml" 257 6318 6374
+type(
+  ('Aa -> Prims.bool) -> 'Aa FStar_Seq_Base.seq -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 260 6379 6387 "ulib/ml/extracted/FStar_Seq_Properties.ml" 260 6379 6398
+type(
+  'Aa. 'Aa FStar_Seq_Base.seq -> 'Aa Prims.list
+)
+ident(
+  def seq_to_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 260 6379 6379 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6456 "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6457
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6466 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6669
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6470 "ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6491
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6492 "ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6493
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6456 "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6457
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6469 "ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6494
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6495 "ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6496
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6497 "ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6511
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6469 "ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6511
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 263 6512 6521 "ulib/ml/extracted/FStar_Seq_Properties.ml" 263 6512 6523
+type(
+  'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6534 "ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6554
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6555 "ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6556
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6456 "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6457
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6557 "ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6571
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6533 "ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6572
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 265 6576 6583 "ulib/ml/extracted/FStar_Seq_Properties.ml" 265 6576 6594
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa Prims.list
+)
+ident(
+  int_ref seq_to_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 260 6379 6387 "ulib/ml/extracted/FStar_Seq_Properties.ml" 260 6379 6398
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6605 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6625
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6626 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6627
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6456 "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6457
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6628 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6641
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6643 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6664
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6665 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6666
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6456 "ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6457
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6642 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6667
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6604 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6668
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 265 6576 6582 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6669
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 264 6524 6533 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6669
+type(
+  'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 262 6462 6466 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6669
+type(
+  'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 261 6450 6452 "ulib/ml/extracted/FStar_Seq_Properties.ml" 266 6595 6669
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6681 "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6692
+type(
+  'Aa. 'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def seq_of_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6673 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 269 6744 6750 "ulib/ml/extracted/FStar_Seq_Properties.ml" 269 6744 6751
+type(
+  'Aa Prims.list
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 270 6756 6760 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6929
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 270 6756 6766 "ulib/ml/extracted/FStar_Seq_Properties.ml" 270 6756 6767
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 269 6744 6750 "ulib/ml/extracted/FStar_Seq_Properties.ml" 269 6744 6751
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 271 6773 6779 "ulib/ml/extracted/FStar_Seq_Properties.ml" 271 6773 6781
+type(
+  'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 271 6773 6785 "ulib/ml/extracted/FStar_Seq_Properties.ml" 271 6773 6805
+type(
+  Prims.unit -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.empty
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 271 6773 6806 "ulib/ml/extracted/FStar_Seq_Properties.ml" 271 6773 6808
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 271 6773 6785 "ulib/ml/extracted/FStar_Seq_Properties.ml" 271 6773 6808
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6815 "ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6818
+type(
+  'Aa
+)
+ident(
+  def hd1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6929
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6820 "ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6823
+type(
+  'Aa list
+)
+ident(
+  def tl1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6929
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6815 "ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6823
+type(
+  'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6859
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.op_At_Bar
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6861 "ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6882
+type(
+  Prims.nat -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6883 "ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6896
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6897 "ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6900
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6815 "ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6818
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6860 "ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6901
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6913 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6924
+type(
+  'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref seq_of_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6681 "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6692
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6925 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6928
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref tl1 "ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6820 "ulib/ml/extracted/FStar_Seq_Properties.ml" 272 6809 6823
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6912 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6929
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 273 6827 6835 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6929
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 270 6756 6760 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6929
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 269 6744 6746 "ulib/ml/extracted/FStar_Seq_Properties.ml" 274 6902 6929
+type(
+  'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 280 6975 6979 "ulib/ml/extracted/FStar_Seq_Properties.ml" 280 6975 6986
+type(
+  'Aa. 'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def createL "ulib/ml/extracted/FStar_Seq_Properties.ml" 283 7080 7080 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7044 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7045
+type(
+  'Aa Prims.list
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7050 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7077
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7054 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7055
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7076 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7077
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7058 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7069
+type(
+  'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref seq_of_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6681 "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6692
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7070 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7071
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7044 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7045
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7058 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7071
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7076 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7077
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7054 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7055
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7050 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7077
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7040 "ulib/ml/extracted/FStar_Seq_Properties.ml" 281 7038 7077
+type(
+  'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 311 7182 7186 "ulib/ml/extracted/FStar_Seq_Properties.ml" 311 7182 7193
+type(
+  'Aa. 'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def of_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 315 7274 7274 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7251 "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7252
+type(
+  'Aa Prims.list
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7257 "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7270
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7257 "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7268
+type(
+  'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref seq_of_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6681 "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6692
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7269 "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7270
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7251 "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7252
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7257 "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7270
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7247 "ulib/ml/extracted/FStar_Seq_Properties.ml" 312 7245 7270
+type(
+  'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 321 7371 7375 "ulib/ml/extracted/FStar_Seq_Properties.ml" 321 7371 7383
+type(
+  'Aa.
+    ('Aa -> 'Aa -> Prims.int) ->
+    'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def sortWith "ulib/ml/extracted/FStar_Seq_Properties.ml" 333 7580 7580 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 326 7486 7492 "ulib/ml/extracted/FStar_Seq_Properties.ml" 326 7486 7493
+type(
+  'Aa -> 'Aa -> Prims.int
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7502 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7572
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7506 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7507
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7512 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7572
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7512 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7523
+type(
+  'Aa Prims.list -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref seq_of_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6681 "ulib/ml/extracted/FStar_Seq_Properties.ml" 268 6673 6692
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7525 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7553
+type(
+  ('Aa -> 'Aa -> Prims.int) -> 'Aa Prims.list -> 'Aa Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.sortWith
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7554 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7555
+type(
+  'Aa -> 'Aa -> Prims.int
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 326 7486 7492 "ulib/ml/extracted/FStar_Seq_Properties.ml" 326 7486 7493
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7557 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7568
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa Prims.list
+)
+ident(
+  int_ref seq_to_list "ulib/ml/extracted/FStar_Seq_Properties.ml" 260 6379 6387 "ulib/ml/extracted/FStar_Seq_Properties.ml" 260 6379 6398
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7569 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7570
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7506 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7507
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7556 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7571
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7524 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7572
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7512 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7572
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7502 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7572
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 326 7486 7488 "ulib/ml/extracted/FStar_Seq_Properties.ml" 327 7498 7572
+type(
+  ('Aa -> 'Aa -> Prims.int) ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 333 7580 7584 "ulib/ml/extracted/FStar_Seq_Properties.ml" 333 7580 7593
+type(
+  'Aa.
+    Prims.nat ->
+    'Aa tot_ord -> ('Aa, Prims.unit) lseq -> ('Aa, Prims.unit) lseq
+)
+ident(
+  def sort_lseq "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785 "ulib/ml/extracted/FStar_Seq_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 335 7669 7675 "ulib/ml/extracted/FStar_Seq_Properties.ml" 335 7669 7676
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_Seq_Properties.ml" 336 7681 7685 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 336 7681 7689 "ulib/ml/extracted/FStar_Seq_Properties.ml" 336 7681 7690
+type(
+  'Aa tot_ord
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Seq_Properties.ml" 337 7695 7701 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 337 7695 7705 "ulib/ml/extracted/FStar_Seq_Properties.ml" 337 7695 7706
+type(
+  ('Aa, Prims.unit) lseq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7719 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7723 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7725
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s' "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7783 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7728 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7736
+type(
+  ('Aa -> 'Aa -> Prims.int) ->
+  ('Aa, Prims.unit) lseq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref sortWith "ulib/ml/extracted/FStar_Seq_Properties.ml" 321 7371 7375 "ulib/ml/extracted/FStar_Seq_Properties.ml" 321 7371 7383
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7738 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7773
+type(
+  'Aa tot_ord -> 'Aa -> 'Aa -> Prims.int
+)
+ident(
+  ext_ref FStar_List_Tot_Base.compare_of_bool
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7774 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7775
+type(
+  'Aa tot_ord
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Seq_Properties.ml" 336 7681 7689 "ulib/ml/extracted/FStar_Seq_Properties.ml" 336 7681 7690
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7737 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7776
+call(
+  stack
+)
+type(
+  'Aa -> 'Aa -> Prims.int
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7777 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7778
+type(
+  ('Aa, Prims.unit) lseq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Seq_Properties.ml" 337 7695 7705 "ulib/ml/extracted/FStar_Seq_Properties.ml" 337 7695 7706
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7728 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7778
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7783 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+type(
+  ('Aa, Prims.unit) lseq
+)
+ident(
+  int_ref s' "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7723 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7725
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7719 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+type(
+  ('Aa, Prims.unit) lseq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 337 7695 7701 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+type(
+  ('Aa, Prims.unit) lseq -> ('Aa, Prims.unit) lseq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 336 7681 7685 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+type(
+  'Aa tot_ord -> ('Aa, Prims.unit) lseq -> ('Aa, Prims.unit) lseq
+)
+"ulib/ml/extracted/FStar_Seq_Properties.ml" 335 7669 7671 "ulib/ml/extracted/FStar_Seq_Properties.ml" 338 7711 7785
+type(
+  Prims.nat ->
+  'Aa tot_ord -> ('Aa, Prims.unit) lseq -> ('Aa, Prims.unit) lseq
+)

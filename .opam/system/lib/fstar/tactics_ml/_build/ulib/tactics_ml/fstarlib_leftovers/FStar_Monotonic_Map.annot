@@ -1,0 +1,889 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 4 117 121 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 4 117 124
+type(
+  'Aa 'Ab. ('Aa, 'Ab) map' -> 'Aa -> 'Ab -> ('Aa, 'Ab) map'
+)
+ident(
+  def upd "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 10 303 303 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 5 186 192 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 5 186 193
+type(
+  ('Aa, 'Ab) map'
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 6 198 202 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 6 198 206 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 6 198 207
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 7 212 218 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 7 212 222 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 7 212 223
+type(
+  'Ab
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 241
+type(
+  'Aa
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 249 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 250
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 6 198 206 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 6 198 207
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 251 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 252
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 254
+type(
+  'Aa
+)
+ident(
+  int_ref z "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 241
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 249 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 254
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 289 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 290
+type(
+  'Ab
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 7 212 222 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 7 212 223
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 260 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 290
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 296 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 297
+type(
+  ('Aa, 'Ab) map'
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 5 186 192 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 5 186 193
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 298 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+type(
+  'Aa
+)
+ident(
+  int_ref z "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 241
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 296 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+call(
+  tail
+)
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+type(
+  'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 7 212 218 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+type(
+  'Ab -> ('Aa, 'Ab) map'
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 6 198 202 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+type(
+  'Aa -> 'Ab -> ('Aa, 'Ab) map'
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 5 186 188 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 8 228 299
+type(
+  ('Aa, 'Ab) map' -> 'Aa -> 'Ab -> ('Aa, 'Ab) map'
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 10 303 307 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 10 303 310
+type(
+  'Aa 'Ab. ('Aa, 'Ab) map' -> 'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+ident(
+  def sel "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 13 414 414 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 393 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 394
+type(
+  ('Aa, 'Ab) map'
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 399 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 412
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 403 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 404
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 409 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 412
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 409 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 410
+type(
+  ('Aa, 'Ab) map'
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 393 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 394
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 411 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 412
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 403 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 404
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 409 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 412
+call(
+  tail
+)
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 399 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 412
+type(
+  'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 389 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 12 387 412
+type(
+  ('Aa, 'Ab) map' -> 'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 16 548 552 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 16 548 561
+type(
+  'Aa 'Ab. ('Aa, 'Ab) map'
+)
+ident(
+  def empty_map "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 18 633 633 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 17 591 597 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 17 591 598
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 17 591 603 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 17 591 631
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 17 591 603 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 17 591 631
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 17 591 593 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 17 591 631
+type(
+  'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 19 649 654 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 19 649 659
+type(
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit -> Prims.unit -> (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  def alloc "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 23 815 815 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 20 724 730 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 20 724 731
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 744 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 745
+type(
+  Prims.unit
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 750 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 754 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 755
+type(
+  Prims.unit
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 760 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 764 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 767
+type(
+  Prims.unit
+)
+ident(
+  def inv "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 772 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 772 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 798
+type(
+  Prims.unit ->
+  (Obj.t, Obj.t) map' -> (Obj.t, Obj.t) map' FStar_HyperStack.reference
+)
+ident(
+  ext_ref FStar_HyperStack_ST.ralloc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 799 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 801
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 802 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+type(
+  (Obj.t, Obj.t) map'
+)
+ident(
+  int_ref empty_map "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 16 548 552 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 16 548 561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 772 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+call(
+  tail
+)
+type(
+  (Obj.t, Obj.t) map' FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 760 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+type(
+  Prims.unit -> (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 750 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+type(
+  Prims.unit -> Prims.unit -> (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+type(
+  Prims.unit ->
+  Prims.unit -> Prims.unit -> (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 20 724 726 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 21 736 811
+type(
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit -> Prims.unit -> (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 28 976 981 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 28 976 987
+type(
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> Obj.t -> Obj.t -> Prims.unit
+)
+ident(
+  def extend "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 46 1550 1550 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 33 1092 1098 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 33 1092 1099
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 34 1104 1108 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 34 1104 1112 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 34 1104 1113
+type(
+  Prims.unit
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 35 1118 1124 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 35 1118 1128 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 35 1118 1129
+type(
+  Prims.unit
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 36 1134 1142 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 36 1134 1146 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 36 1134 1149
+type(
+  Prims.unit
+)
+ident(
+  def inv "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1164 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1168 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1169
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 38 1174 1186 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 38 1174 1190 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 38 1174 1191
+type(
+  Obj.t
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 39 1196 1210 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 39 1196 1214 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 39 1196 1215
+type(
+  Obj.t
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 40 1220 1236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 40 1220 1236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 40 1220 1262
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.recall
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 40 1220 1263 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 40 1220 1264
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1168 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1169
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 40 1220 1236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 40 1220 1264
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1287 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1290
+type(
+  (Obj.t, Obj.t, Obj.t) map
+)
+ident(
+  def cur "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1545
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1293 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1320
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> (Obj.t, Obj.t, Obj.t) map
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1321 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1322
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1168 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1169
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1293 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1322
+call(
+  stack
+)
+type(
+  (Obj.t, Obj.t, Obj.t) map
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1379
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> (Obj.t, Obj.t, Obj.t) map -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Colon_Equals
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1380 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1381
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1168 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1169
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1383 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1386
+type(
+  (Obj.t, Obj.t) map' -> Obj.t -> Obj.t -> (Obj.t, Obj.t) map'
+)
+ident(
+  int_ref upd "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 4 117 121 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 4 117 124
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1387 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1390
+type(
+  (Obj.t, Obj.t, Obj.t) map
+)
+ident(
+  int_ref cur "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1287 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1290
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1391 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1392
+type(
+  Obj.t
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 38 1174 1190 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 38 1174 1191
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1393 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1394
+type(
+  Obj.t
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 39 1196 1214 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 39 1196 1215
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1382 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1395
+call(
+  stack
+)
+type(
+  (Obj.t, Obj.t) map'
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1395
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1414 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1444
+type(
+  unit -> unit -> unit -> '_a -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1445 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1447
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1448 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1450
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1451 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1453
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1455 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1464
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> '_a
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1465 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1466
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1168 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1169
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1454 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1467
+type(
+  '_a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1468 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1470
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1414 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1470
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1489 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1519
+type(
+  unit -> unit -> unit -> '_b -> unit -> Prims.unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1520 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1522
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1523 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1525
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1526 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1528
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1530 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1539
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> '_b
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1540 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1541
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1168 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1169
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1529 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1542
+type(
+  '_b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1543 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1545
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1489 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1545
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 43 1397 1414 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1545
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 42 1327 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1545
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 41 1266 1282 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 40 1220 1236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 39 1196 1210 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  Obj.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 38 1174 1186 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  Obj.t -> Obj.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 37 1154 1164 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> Obj.t -> Obj.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 36 1134 1142 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> Obj.t -> Obj.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 35 1118 1124 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> Obj.t -> Obj.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 34 1104 1108 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> Obj.t -> Obj.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 33 1092 1094 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 44 1472 1546
+type(
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> Obj.t -> Obj.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 46 1550 1555 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 46 1550 1561
+type(
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t ->
+  Obj.t -> Obj.t FStar_Pervasives_Native.option
+)
+ident(
+  def lookup "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 54 1719 1725 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 54 1719 1726
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 55 1731 1735 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 55 1731 1739 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 55 1731 1740
+type(
+  Prims.unit
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 56 1745 1751 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 56 1745 1755 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 56 1745 1756
+type(
+  Prims.unit
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 57 1761 1769 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 57 1761 1773 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 57 1761 1776
+type(
+  Prims.unit
+)
+ident(
+  def inv "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1791 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1795 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1796
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 59 1801 1813 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 59 1801 1817 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 59 1801 1818
+type(
+  Obj.t
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1837 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1841 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1842
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 63 1949 1963 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1865 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1875
+type(
+  (Obj.t, Obj.t, Obj.t) map
+)
+ident(
+  def uu____1387 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1928 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1944
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1878 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1905
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> (Obj.t, Obj.t, Obj.t) map
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1906 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1907
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1795 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1796
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1878 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1907
+call(
+  stack
+)
+type(
+  (Obj.t, Obj.t, Obj.t) map
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1928 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1931
+type(
+  (Obj.t, Obj.t) map' -> Obj.t -> Obj.t FStar_Pervasives_Native.option
+)
+ident(
+  int_ref sel "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 10 303 307 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 10 303 310
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1932 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1942
+type(
+  (Obj.t, Obj.t, Obj.t) map
+)
+ident(
+  int_ref uu____1387 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1865 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1875
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1943 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1944
+type(
+  Obj.t
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 59 1801 1817 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 59 1801 1818
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1928 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1944
+call(
+  stack
+)
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 61 1845 1861 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 62 1912 1944
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 63 1949 1969 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 63 1949 1970
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1841 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1842
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 64 1976 1992 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 64 1976 2020
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 64 1976 2025 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 64 1976 2026
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1841 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1842
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 65 2027 2072 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 65 2027 2073
+type(
+  Obj.t
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2095 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 65 2027 2043 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 65 2027 2073
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2096 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2126
+type(
+  unit -> unit -> unit -> '_a -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2127 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2129
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2130 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2132
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2135
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2137 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2146
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> '_a
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2147 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2148
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1795 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1796
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2136 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2149
+type(
+  '_a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2150 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2152
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2096 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2152
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2173 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2203
+type(
+  unit -> unit -> unit -> '_b -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2204 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2206
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2207 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2209
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2210 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2212
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2214 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2223
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t -> '_b
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2224 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2225
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1795 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1796
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2213 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2226
+type(
+  '_b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2227 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2229
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2173 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2229
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2250 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2251
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1841 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1842
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 67 2154 2173 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2251
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 66 2077 2095 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 63 1949 1963 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 60 1823 1837 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 59 1801 1813 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  Obj.t -> Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 58 1781 1791 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t ->
+  Obj.t -> Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 57 1761 1769 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t ->
+  Obj.t -> Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 56 1745 1751 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t ->
+  Obj.t -> Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 55 1731 1735 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t ->
+  Obj.t -> Obj.t FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 54 1719 1721 "ulib/tactics_ml/fstarlib_leftovers/FStar_Monotonic_Map.ml" 68 2231 2252
+type(
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, Obj.t, Obj.t, Obj.t) t ->
+  Obj.t -> Obj.t FStar_Pervasives_Native.option
+)

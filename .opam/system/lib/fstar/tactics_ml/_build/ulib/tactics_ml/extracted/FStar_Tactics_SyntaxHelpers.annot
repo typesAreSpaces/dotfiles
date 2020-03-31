@@ -1,0 +1,4586 @@
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 20 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 32
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.comp ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def collect_arr' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 11 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 266 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 268
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  def bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 277 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2014
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 281 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 282
+type(
+  FStar_Reflection_Types.comp
+)
+ident(
+  def c "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 11 287 293 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2014
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 11 287 299 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 11 287 334
+type(
+  FStar_Syntax_Syntax.comp -> FStar_Reflection_Data.comp_view
+)
+ident(
+  ext_ref FStar_Reflection_Basic.inspect_comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 11 287 335 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 11 287 336
+type(
+  FStar_Reflection_Types.comp
+)
+ident(
+  int_ref c "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 281 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 282
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 11 287 299 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 11 287 336
+call(
+  stack
+)
+type(
+  FStar_Reflection_Data.comp_view
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 381 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 382
+type(
+  FStar_Reflection_Data.typ
+)
+ident(
+  def t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 13 397 407 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1939
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 383 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 392
+type(
+  FStar_Syntax_Syntax.term FStar_Pervasives_Native.option
+)
+ident(
+  def uu____104 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 13 397 407 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1939
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 380 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 393
+type(
+  FStar_Reflection_Data.typ *
+  FStar_Syntax_Syntax.term FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 350 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 393
+type(
+  FStar_Reflection_Data.comp_view
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 13 397 412 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 13 397 414
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 432 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1938
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 439 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 469
+type(
+  FStar_Syntax_Syntax.term ->
+  FStar_Reflection_Data.term_view FStar_Tactics_Effect.__tac
+)
+ident(
+  ext_ref FStar_Tactics_Builtins.inspect
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 470 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 471
+type(
+  FStar_Reflection_Data.typ
+)
+ident(
+  int_ref t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 381 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 12 342 382
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 438 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 472
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Effect.__tac
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 15 473 495 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 15 473 525
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 16 526 551 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 16 526 591
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 16 526 592 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 16 526 594
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 13 397 412 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 13 397 414
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 17 595 623 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 17 595 655
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 18 656 687 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 18 656 701
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 19 702 735 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 19 702 768
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 803 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 815
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 816 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 820
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 802 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 821
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 823 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 835
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 836 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 840
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 822 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 20 769 841
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 876 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 888
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 889 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 893
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 875 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 894
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 896 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 908
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 909 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 913
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 895 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 914
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 18 656 686 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 915
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 17 595 622 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 916
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 16 526 550 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 917
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 15 473 494 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 918
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 438 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 21 842 918
+call(
+  stack
+)
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 982 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 983
+type(
+  FStar_Reflection_Data.term_view
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 24 992 1009 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1830
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 984 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 987
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 24 992 1009 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1830
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 981 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 988
+type(
+  FStar_Reflection_Data.term_view * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 952 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 988
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 24 992 1016 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 24 992 1018
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 25 1024 1044 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 25 1024 1046
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 26 1050 1080 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 26 1050 1081
+type(
+  FStar_Reflection_Data.term_view
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 982 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 983
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1145 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1146
+type(
+  FStar_Syntax_Syntax.binder
+)
+ident(
+  def b "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1182 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1207
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1147 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1149
+type(
+  FStar_Syntax_Syntax.comp
+)
+ident(
+  def c1 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1182 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1207
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1144 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1150
+type(
+  FStar_Syntax_Syntax.binder * FStar_Syntax_Syntax.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1113 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1150
+type(
+  FStar_Reflection_Data.term_view
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1182 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1194
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.comp ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref collect_arr' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 20 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 32
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1196 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1197
+type(
+  FStar_Syntax_Syntax.binder
+)
+ident(
+  int_ref b "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1145 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1146
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1201 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1203
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 266 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 268
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1195 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1204
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1205 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1207
+type(
+  FStar_Syntax_Syntax.comp
+)
+ident(
+  int_ref c1 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1147 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 27 1087 1149
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1182 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 28 1154 1207
+call(
+  stack
+)
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 29 1208 1234 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 29 1208 1243
+type(
+  FStar_Reflection_Data.term_view
+)
+ident(
+  def uu____148 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 30 1247 1275 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1359
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 30 1247 1280 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 30 1247 1281
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1317 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1358
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1348 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1350
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 266 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 268
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1352 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1353
+type(
+  FStar_Reflection_Types.comp
+)
+ident(
+  int_ref c "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 281 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 282
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1347 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1354
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1356 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1357
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 30 1247 1280 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 30 1247 1281
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1346 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1358
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1317 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1358
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 30 1247 1275 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1359
+type(
+  FStar_Tactics_Types.proofstate ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 26 1050 1072 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 31 1286 1361
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 32 1362 1387 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 32 1362 1417
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 33 1418 1446 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 33 1418 1486
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 33 1418 1487 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 33 1418 1490
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 984 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 23 937 987
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 34 1491 1522 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 34 1491 1554
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 35 1555 1589 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 35 1555 1603
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 36 1604 1640 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 36 1604 1673
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1711 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1723
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1724 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1728
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1710 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1729
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1731 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1743
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1744 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1748
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1730 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 37 1674 1749
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1787 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1799
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1800 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1804
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1786 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1805
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1807 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1819
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1820 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1824
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1806 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1825
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 35 1555 1588 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1826
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 34 1491 1521 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1827
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 33 1418 1445 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1828
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 32 1362 1386 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1829
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 26 1050 1072 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1829
+call(
+  tail
+)
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 24 992 1009 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 38 1750 1830
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1875 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1876
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1902 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1938
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1877 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1880
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1902 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1938
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1874 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1881
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1846 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1881
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1931 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1932
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1875 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1876
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1934 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1937
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1877 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 39 1831 1880
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1930 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1938
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1902 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1938
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 14 419 432 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1938
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 13 397 407 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 40 1885 1939
+type(
+  FStar_Tactics_Types.proofstate ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1948 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1957
+type(
+  FStar_Reflection_Data.comp_view
+)
+ident(
+  def uu____174 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1961 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2014
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1966 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1967
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1972 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2013
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2003 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2005
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 266 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 268
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2007 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2008
+type(
+  FStar_Reflection_Types.comp
+)
+ident(
+  int_ref c "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 281 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 282
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2002 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2009
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2011 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2012
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1966 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1967
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2001 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2013
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1972 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2013
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 1961 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2014
+type(
+  FStar_Tactics_Types.proofstate ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 11 287 293 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2014
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 10 273 277 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2014
+type(
+  FStar_Reflection_Types.comp ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 9 260 262 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 41 1940 2014
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.comp ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 43 2018 2023 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 43 2018 2037
+type(
+  FStar_Reflection_Types.typ ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def collect_arr_bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 76 3536 3536 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 48 2204 2210 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 48 2204 2211
+type(
+  FStar_Reflection_Types.typ
+)
+ident(
+  def t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 49 2216 2220 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 49 2216 2224 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 49 2216 2226
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 50 2231 2237 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 50 2231 2244 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 50 2231 2256
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.comp ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref collect_arr' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 20 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 32
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 50 2231 2257 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 50 2231 2259
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 51 2260 2276 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 51 2260 2308
+type(
+  FStar_Reflection_Data.comp_view -> FStar_Syntax_Syntax.comp
+)
+ident(
+  ext_ref FStar_Reflection_Basic.pack_comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2380 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2381
+type(
+  FStar_Reflection_Types.typ
+)
+ident(
+  int_ref t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 48 2204 2210 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 48 2204 2211
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2383 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2411
+type(
+  FStar_Syntax_Syntax.term FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2379 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2412
+type(
+  FStar_Reflection_Data.typ *
+  FStar_Syntax_Syntax.term FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 52 2309 2327 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2413
+type(
+  FStar_Reflection_Data.comp_view
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 51 2260 2275 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2414
+call(
+  stack
+)
+type(
+  FStar_Syntax_Syntax.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 50 2231 2243 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 53 2358 2415
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 54 2416 2431 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 54 2416 2461
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 55 2462 2480 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 55 2462 2520
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 55 2462 2521 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 55 2462 2523
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 49 2216 2224 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 49 2216 2226
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 56 2524 2545 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 56 2524 2577
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 57 2578 2602 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 57 2578 2616
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 57 2578 2617 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 57 2578 2650
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2678 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2690
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2691 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2695
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2677 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2696
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2698 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2710
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2711 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2715
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2697 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 58 2651 2716
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2744 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2756
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2757 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2761
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2743 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2762
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2764 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2776
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2777 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2781
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2763 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2782
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 57 2578 2601 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2783
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 56 2524 2544 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2784
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 55 2462 2479 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2785
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 54 2416 2430 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2786
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 50 2231 2243 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 59 2717 2786
+call(
+  stack
+)
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2836 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2837
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 62 2846 2856 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3438
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2838 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2841
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 62 2846 2856 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3438
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2835 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2842
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2806 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2842
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 62 2846 2863 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 62 2846 2865
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 63 2871 2884 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 63 2871 2886
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 65 2934 2960 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 65 2934 2961
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2836 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2837
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2990 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2992
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  def bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2999 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3032
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2993 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2994
+type(
+  FStar_Reflection_Types.comp
+)
+ident(
+  def c "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2999 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3032
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2989 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2995
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3001 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3024
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.rev
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3025 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3027
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2990 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2992
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3000 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3028
+call(
+  stack
+)
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3030 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3031
+type(
+  FStar_Reflection_Types.comp
+)
+ident(
+  int_ref c "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2993 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2994
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 2999 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3032
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 65 2934 2952 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 66 2967 3034
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 67 3036 3056 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 67 3036 3086
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 68 3087 3110 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 68 3087 3150
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 68 3087 3151 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 68 3087 3154
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2838 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 61 2798 2841
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 69 3155 3181 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 69 3155 3213
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 70 3214 3243 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 70 3214 3257
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 70 3214 3258 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 70 3214 3291
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3324 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3336
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3337 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3341
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3323 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3342
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3344 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3356
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3357 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3360
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3343 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 71 3292 3361
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3394 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3406
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3407 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3411
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3393 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3412
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3414 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3426
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3427 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3431
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3413 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3432
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 70 3214 3242 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3433
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 69 3155 3180 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3434
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 68 3087 3109 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3435
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 67 3036 3055 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3436
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 65 2934 2951 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3437
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 64 2890 2905 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3437
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 62 2846 2856 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 72 3362 3438
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3476 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3477
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3496 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3478 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3481
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3496 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3475 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3482
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3447 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3482
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3525 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3526
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3476 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3477
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3528 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3531
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3478 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 73 3439 3481
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3524 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3496 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 50 2231 2237 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 49 2216 2220 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+type(
+  FStar_Tactics_Types.proofstate ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 48 2204 2206 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 74 3486 3532
+type(
+  FStar_Reflection_Types.typ ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 76 3536 3541 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 76 3536 3552
+type(
+  FStar_Reflection_Types.typ ->
+  (FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def collect_arr "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 113 5223 5223 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 81 3716 3722 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 81 3716 3723
+type(
+  FStar_Reflection_Types.typ
+)
+ident(
+  def t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 82 3728 3732 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 82 3728 3736 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 82 3728 3738
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 83 3743 3749 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 83 3743 3756 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 83 3743 3768
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.comp ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref collect_arr' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 20 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 2 11 32
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 83 3743 3769 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 83 3743 3771
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 84 3772 3788 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 84 3772 3820
+type(
+  FStar_Reflection_Data.comp_view -> FStar_Syntax_Syntax.comp
+)
+ident(
+  ext_ref FStar_Reflection_Basic.pack_comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3892 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3893
+type(
+  FStar_Reflection_Types.typ
+)
+ident(
+  int_ref t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 81 3716 3722 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 81 3716 3723
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3895 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3923
+type(
+  FStar_Syntax_Syntax.term FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3891 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3924
+type(
+  FStar_Reflection_Data.typ *
+  FStar_Syntax_Syntax.term FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 85 3821 3839 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3925
+type(
+  FStar_Reflection_Data.comp_view
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 84 3772 3787 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3926
+call(
+  stack
+)
+type(
+  FStar_Syntax_Syntax.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 83 3743 3755 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 86 3870 3927
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 87 3928 3943 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 87 3928 3973
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 88 3974 3992 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 88 3974 4032
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 88 3974 4033 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 88 3974 4035
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 82 3728 3736 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 82 3728 3738
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 89 4036 4057 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 89 4036 4089
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 90 4090 4114 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 90 4090 4128
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 90 4090 4129 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 90 4090 4162
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4190 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4202
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4203 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4207
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4189 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4208
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4210 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4222
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4223 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4227
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4209 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 91 4163 4228
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4256 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4268
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4269 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4273
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4255 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4274
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4276 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4288
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4289 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4293
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4275 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4294
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 90 4090 4113 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4295
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 89 4036 4056 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4296
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 88 3974 3991 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4297
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 87 3928 3942 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4298
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 83 3743 3755 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 92 4229 4298
+call(
+  stack
+)
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4348 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4349
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 95 4358 4368 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5125
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4350 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4353
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 95 4358 4368 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5125
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4347 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4354
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4318 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4354
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 95 4358 4375 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 95 4358 4377
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 96 4383 4396 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 96 4383 4398
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 98 4446 4472 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 98 4446 4473
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4348 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4349
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4502 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4504
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  def bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 100 4511 4535 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 103 4691 4719
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4505 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4506
+type(
+  FStar_Reflection_Types.comp
+)
+ident(
+  def c "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 100 4511 4535 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 103 4691 4719
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4501 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4507
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 100 4511 4537 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 100 4511 4560
+type(
+  FStar_Reflection_Types.typ list -> FStar_Reflection_Types.typ Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.rev
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 101 4561 4590 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 101 4561 4613
+type(
+  (FStar_Reflection_Types.binder -> FStar_Reflection_Types.typ) ->
+  FStar_Reflection_Types.binder Prims.list -> FStar_Reflection_Types.typ list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.map
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 102 4614 4645 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 102 4614 4684
+type(
+  FStar_Reflection_Types.binder -> FStar_Reflection_Types.typ
+)
+ident(
+  ext_ref FStar_Reflection_Derived.type_of_binder
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 102 4614 4685 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 102 4614 4687
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4502 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4504
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 101 4561 4589 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 102 4614 4688
+call(
+  stack
+)
+type(
+  FStar_Reflection_Types.typ list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 100 4511 4536 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 102 4614 4689
+call(
+  stack
+)
+type(
+  FStar_Reflection_Types.typ Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 103 4691 4717 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 103 4691 4718
+type(
+  FStar_Reflection_Types.comp
+)
+ident(
+  int_ref c "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4505 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 99 4479 4506
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 100 4511 4535 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 103 4691 4719
+type(
+  FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 98 4446 4464 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 103 4691 4721
+type(
+  FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 104 4723 4743 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 104 4723 4773
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 105 4774 4797 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 105 4774 4837
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 105 4774 4838 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 105 4774 4841
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4350 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 94 4310 4353
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 106 4842 4868 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 106 4842 4900
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 107 4901 4930 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 107 4901 4944
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 107 4901 4945 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 107 4901 4978
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5011 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5023
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5024 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5028
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5010 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5029
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5031 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5043
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5044 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5047
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5030 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 108 4979 5048
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5081 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5093
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5094 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5098
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5080 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5099
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5101 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5113
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5114 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5118
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5100 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5119
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 107 4901 4929 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5120
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 106 4842 4867 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5121
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 105 4774 4796 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5122
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 104 4723 4742 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5123
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 98 4446 4463 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5124
+type(
+  (FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 97 4402 4417 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5124
+type(
+  (FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 95 4358 4368 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 109 5049 5125
+type(
+  (FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5163 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5164
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5183 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5165 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5168
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5183 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5162 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5169
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5134 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5169
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5212 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5213
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5163 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5164
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5215 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5218
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5165 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 110 5126 5168
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5211 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5183 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+type(
+  (FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 83 3743 3749 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+type(
+  (FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 82 3728 3732 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+type(
+  FStar_Tactics_Types.proofstate ->
+  (FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 81 3716 3718 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 111 5173 5219
+type(
+  FStar_Reflection_Types.typ ->
+  (FStar_Reflection_Types.typ Prims.list * FStar_Reflection_Types.comp,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 113 5223 5232 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 113 5223 5244
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def collect_abs' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 113 5223 5223 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 120 5472 5478 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 120 5472 5480
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  def bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 121 5485 5489 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 121 5485 5493 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 121 5485 5494
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  def t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 122 5499 5505 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 122 5499 5509 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 122 5499 5511
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5524 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5531 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5561
+type(
+  FStar_Syntax_Syntax.term ->
+  FStar_Reflection_Data.term_view FStar_Tactics_Effect.__tac
+)
+ident(
+  ext_ref FStar_Tactics_Builtins.inspect
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5562 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5563
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 121 5485 5493 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 121 5485 5494
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5530 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5564
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Effect.__tac
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 124 5565 5582 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 124 5565 5612
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 125 5613 5633 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 125 5613 5673
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 125 5613 5674 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 125 5613 5676
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 122 5499 5509 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 122 5499 5511
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 126 5677 5700 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 126 5677 5732
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 127 5733 5759 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 127 5733 5773
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 127 5733 5774 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 127 5733 5807
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5837 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5849
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5850 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5854
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5836 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5855
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5857 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5869
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5870 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5874
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5856 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 128 5808 5875
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5905 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5917
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5918 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5922
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5904 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5923
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5925 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5937
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5938 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5942
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5924 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5943
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 127 5733 5758 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5944
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 126 5677 5699 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5945
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 125 5613 5632 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5946
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 124 5565 5581 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5947
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5530 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 129 5876 5947
+call(
+  stack
+)
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6001 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6002
+type(
+  FStar_Reflection_Data.term_view
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 132 6011 6023 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6714
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6003 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6006
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 132 6011 6023 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6714
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6000 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6007
+type(
+  FStar_Reflection_Data.term_view * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 5971 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6007
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 132 6011 6030 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 132 6011 6032
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 133 6038 6053 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 133 6038 6055
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 134 6059 6084 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 134 6059 6085
+type(
+  FStar_Reflection_Data.term_view
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6001 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6002
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6142 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6143
+type(
+  FStar_Syntax_Syntax.binder
+)
+ident(
+  def b "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6174 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6199
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6144 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6146
+type(
+  FStar_Syntax_Syntax.term
+)
+ident(
+  def t' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6174 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6199
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6141 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6147
+type(
+  FStar_Syntax_Syntax.binder * FStar_Syntax_Syntax.term
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6112 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6147
+type(
+  FStar_Reflection_Data.term_view
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6174 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6186
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref collect_abs' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 113 5223 5232 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 113 5223 5244
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6188 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6189
+type(
+  FStar_Syntax_Syntax.binder
+)
+ident(
+  int_ref b "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6142 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6143
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6193 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6195
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 120 5472 5478 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 120 5472 5480
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6187 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6196
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6197 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6199
+type(
+  FStar_Syntax_Syntax.term
+)
+ident(
+  int_ref t' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6144 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 135 6091 6146
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6174 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 136 6151 6199
+call(
+  stack
+)
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 137 6200 6221 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 137 6200 6230
+type(
+  FStar_Reflection_Data.term_view
+)
+ident(
+  def uu____642 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6257 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6310
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6262 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6263
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6268 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6309
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6299 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6301
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 120 5472 5478 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 120 5472 5480
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6303 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6304
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 121 5485 5493 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 121 5485 5494
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6298 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6305
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6307 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6308
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6262 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6263
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6297 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6309
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6268 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6309
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6257 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6310
+type(
+  FStar_Tactics_Types.proofstate ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 134 6059 6076 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 138 6234 6312
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 139 6313 6333 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 139 6313 6363
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 140 6364 6387 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 140 6364 6427
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 140 6364 6428 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 140 6364 6431
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6003 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 131 5961 6006
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 141 6432 6458 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 141 6432 6490
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 142 6491 6520 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 142 6491 6534
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 142 6491 6535 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 142 6491 6568
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6601 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6613
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6614 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6618
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6600 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6619
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6621 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6633
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6634 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6637
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6620 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 143 6569 6638
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6671 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6683
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6684 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6688
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6670 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6689
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6691 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6703
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6704 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6708
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6690 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6709
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 142 6491 6519 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6710
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 141 6432 6457 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6711
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 140 6364 6386 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6712
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 139 6313 6332 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6713
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 134 6059 6076 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6713
+call(
+  tail
+)
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 132 6011 6023 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 144 6639 6714
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6754 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6755
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6776 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6756 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6759
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6776 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6753 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6760
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6725 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6760
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6805 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6806
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6754 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6755
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6808 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6811
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6756 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 145 6715 6759
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6804 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6776 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 123 5516 5524 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 122 5499 5505 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+type(
+  FStar_Tactics_Types.proofstate ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 121 5485 5489 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+type(
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 120 5472 5474 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 146 6764 6812
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 148 6816 6821 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 148 6816 6832
+type(
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def collect_abs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 178 8181 8181 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 153 7000 7006 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 153 7000 7007
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  def t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 154 7012 7016 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 154 7012 7020 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 154 7012 7022
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7033 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7040 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7052
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref collect_abs' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 113 5223 5232 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 113 5223 5244
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7053 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7055
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7056 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7057
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref t "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 153 7000 7006 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 153 7000 7007
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7039 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7058
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 156 7059 7074 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 156 7059 7104
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 157 7105 7123 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 157 7105 7163
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 157 7105 7164 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 157 7105 7166
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 154 7012 7020 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 154 7012 7022
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 158 7167 7188 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 158 7167 7220
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 159 7221 7245 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 159 7221 7259
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 159 7221 7260 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 159 7221 7293
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7321 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7333
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7334 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7338
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7320 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7339
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7341 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7353
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7354 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7358
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7340 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 160 7294 7359
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7387 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7399
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7400 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7404
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7386 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7405
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7407 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7419
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7420 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7424
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7406 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7425
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 159 7221 7244 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7426
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 158 7167 7187 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7427
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 157 7105 7122 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7428
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 156 7059 7073 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7429
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7039 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 161 7360 7429
+call(
+  stack
+)
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7479 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7480
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 164 7489 7499 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8083
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7481 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7484
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 164 7489 7499 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8083
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7478 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7485
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7449 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7485
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 164 7489 7506 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 164 7489 7508
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 165 7514 7527 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 165 7514 7529
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 167 7577 7603 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 167 7577 7604
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7479 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7480
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7633 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7635
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  def bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7643 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7677
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7636 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7638
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  def t' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7643 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7677
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7632 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7639
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7645 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7668
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.rev
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7669 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7671
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7633 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7635
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7644 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7672
+call(
+  stack
+)
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7674 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7676
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref t' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7636 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7638
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7643 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7677
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 167 7577 7595 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 168 7610 7679
+type(
+  FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 169 7681 7701 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 169 7681 7731
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 170 7732 7755 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 170 7732 7795
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 170 7732 7796 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 170 7732 7799
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7481 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 163 7441 7484
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 171 7800 7826 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 171 7800 7858
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 172 7859 7888 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 172 7859 7902
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 172 7859 7903 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 172 7859 7936
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 7969 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 7981
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 7982 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 7986
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 7968 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 7987
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 7989 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 8001
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 8002 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 8005
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 7988 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 173 7937 8006
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8039 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8051
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8052 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8056
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8038 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8057
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8059 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8071
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8072 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8076
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8058 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8077
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 172 7859 7887 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8078
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 171 7800 7825 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8079
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 170 7732 7754 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8080
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 169 7681 7700 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8081
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 167 7577 7594 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8082
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term) *
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 166 7533 7548 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8082
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 164 7489 7499 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 174 8007 8083
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8121 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8122
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8141 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8123 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8126
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8141 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8120 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8127
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8092 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8127
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8170 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8171
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8121 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8122
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8173 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8176
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8123 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 175 8084 8126
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8169 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8141 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 155 7027 7033 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+type(
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 154 7012 7016 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+type(
+  FStar_Tactics_Types.proofstate ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term)
+  FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 153 7000 7002 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 176 8131 8177
+type(
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.binder Prims.list * FStar_Reflection_Types.term,
+   Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 178 8181 8190 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 178 8181 8200
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.term, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def mk_tot_arr "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 178 8181 8181 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 183 8366 8372 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 183 8366 8374
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  def bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 184 8379 8383 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16017
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 184 8379 8387 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 184 8379 8390
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  def cod "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 185 8395 8401 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16017
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 185 8395 8407 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 185 8395 8409
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 183 8366 8372 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 183 8366 8374
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8423 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8425
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8434 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8435
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8440 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8477
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8470 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8473
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref cod "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 184 8379 8387 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 184 8379 8390
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8475 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8476
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8434 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8435
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8469 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8477
+type(
+  FStar_Reflection_Types.term * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8440 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8477
+type(
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8429 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 186 8415 8478
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8487 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8488
+type(
+  FStar_Reflection_Types.binder
+)
+ident(
+  def b "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 188 8497 8507 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16017
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8490 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8493
+type(
+  FStar_Reflection_Types.binder list
+)
+ident(
+  def bs1 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 188 8497 8507 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16017
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8487 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8493
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 188 8497 8512 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 188 8497 8514
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8532 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16016
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8557 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8567
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.term, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref mk_tot_arr "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 178 8181 8190 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 178 8181 8200
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8568 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8571
+type(
+  FStar_Reflection_Types.binder Prims.list
+)
+ident(
+  int_ref bs1 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8490 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8493
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8572 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8575
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref cod "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 184 8379 8387 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 184 8379 8390
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8556 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8576
+type(
+  (FStar_Reflection_Types.term, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 190 8577 8617 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 190 8577 8647
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 191 8648 8691 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 191 8648 8731
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 192 8732 8778 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 192 8732 8808
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 193 8809 8858 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 193 8809 8898
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 194 8899 8951 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 194 8899 8981
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 195 8982 9037 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 195 8982 9077
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 196 9078 9136 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 196 9078 9166
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 197 9167 9228 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 197 9167 9268
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 198 9269 9332 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 198 9269 9334
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 188 8497 8512 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 188 8497 8514
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 199 9335 9399 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 199 9335 9431
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 200 9432 9499 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 200 9432 9513
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 201 9514 9582 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 201 9514 9615
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 202 9616 9685 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 202 9616 9697
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 202 9616 9698 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 202 9616 9702
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 202 9616 9684 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 202 9616 9703
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 203 9704 9773 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 203 9704 9785
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 203 9704 9786 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 203 9704 9790
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 203 9704 9772 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 203 9704 9791
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 204 9792 9861 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 204 9792 9873
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 204 9792 9874 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 204 9792 9878
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 204 9792 9860 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 204 9792 9879
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9949 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9961
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9962 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9966
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9948 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9967
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 200 9432 9498 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9968
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 199 9335 9398 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9969
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 197 9167 9227 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9970
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 196 9078 9135 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 205 9880 9971
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 206 9972 10030 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 206 9972 10062
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 207 10063 10124 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 207 10063 10138
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 208 10139 10202 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 208 10139 10235
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 209 10236 10300 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 209 10236 10312
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 209 10236 10313 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 209 10236 10317
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 209 10236 10299 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 209 10236 10318
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 210 10319 10383 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 210 10319 10395
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 210 10319 10396 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 210 10319 10400
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 210 10319 10382 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 210 10319 10401
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 211 10402 10466 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 211 10402 10478
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 211 10402 10479 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 211 10402 10483
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 211 10402 10465 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 211 10402 10484
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10549 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10561
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10562 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10566
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10548 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10567
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 207 10063 10123 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10568
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 206 9972 10029 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10569
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 195 8982 9036 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10570
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 194 8899 8950 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 212 10485 10571
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 213 10572 10624 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 213 10572 10656
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 214 10657 10712 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 214 10657 10726
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 215 10727 10784 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 215 10727 10817
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 216 10818 10876 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 216 10818 10888
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 216 10818 10889 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 216 10818 10893
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 216 10818 10875 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 216 10818 10894
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 217 10895 10953 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 217 10895 10965
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 217 10895 10966 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 217 10895 10970
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 217 10895 10952 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 217 10895 10971
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 218 10972 11030 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 218 10972 11042
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 218 10972 11043 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 218 10972 11047
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 218 10972 11029 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 218 10972 11048
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11107 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11119
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11120 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11124
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11106 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11125
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 214 10657 10711 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11126
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 213 10572 10623 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11127
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 193 8809 8857 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11128
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 192 8732 8777 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 219 11049 11129
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 220 11130 11176 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 220 11130 11208
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 221 11209 11258 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 221 11209 11272
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 222 11273 11324 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 222 11273 11357
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 223 11358 11410 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 223 11358 11422
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 223 11358 11423 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 223 11358 11427
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 223 11358 11409 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 223 11358 11428
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 224 11429 11481 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 224 11429 11493
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 224 11429 11494 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 224 11429 11498
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 224 11429 11480 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 224 11429 11499
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 225 11500 11552 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 225 11500 11564
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 225 11500 11565 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 225 11500 11569
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 225 11500 11551 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 225 11500 11570
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11623 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11635
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11636 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11640
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11622 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11641
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 221 11209 11257 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11642
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 220 11130 11175 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11643
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 191 8648 8690 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11644
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 190 8577 8616 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11645
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8556 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 226 11571 11645
+call(
+  stack
+)
+type(
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11745 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11746
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 229 11755 11790 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12893
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11747 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11750
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 229 11755 11790 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12893
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11744 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11751
+type(
+  FStar_Reflection_Types.term * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11715 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11751
+type(
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 229 11755 11797 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 229 11755 11799
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 230 11805 11843 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 230 11805 11845
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 233 11992 12039 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 233 11992 12040
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11745 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11746
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 234 12042 12090 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 234 12042 12118
+type(
+  FStar_Syntax_Syntax.term FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 233 11992 12038 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 234 12042 12119
+type(
+  FStar_Reflection_Data.typ *
+  FStar_Syntax_Syntax.term FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 232 11918 11961 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 234 12042 12120
+type(
+  FStar_Reflection_Data.comp_view
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 235 12122 12167 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 235 12122 12197
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 236 12198 12246 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 236 12198 12286
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 237 12287 12337 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 237 12287 12340
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11747 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 228 11682 11750
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 238 12341 12392 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 238 12341 12424
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 239 12425 12479 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 239 12425 12493
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 240 12494 12550 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 240 12494 12583
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 241 12584 12641 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 241 12584 12653
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 241 12584 12654 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 241 12584 12658
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 241 12584 12640 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 241 12584 12659
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 242 12660 12717 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 242 12660 12729
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 242 12660 12730 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 242 12660 12734
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 242 12660 12716 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 242 12660 12735
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 243 12736 12793 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 243 12736 12805
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 243 12736 12806 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 243 12736 12810
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 243 12736 12792 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 243 12736 12811
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12869 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12881
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12882 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12886
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12868 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12887
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 239 12425 12478 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12888
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 238 12341 12391 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12889
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 236 12198 12245 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12890
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 235 12122 12166 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12891
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 232 11918 11960 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12892
+type(
+  FStar_Reflection_Data.comp_view * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 231 11849 11889 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12892
+type(
+  FStar_Reflection_Data.comp_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 229 11755 11790 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 244 12812 12893
+type(
+  FStar_Reflection_Data.comp_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12956 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12957
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13001 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13037
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12958 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12961
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13001 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13037
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12955 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12962
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12927 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12962
+type(
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13030 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13031
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12956 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12957
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13033 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13036
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12958 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 245 12894 12961
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13029 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13037
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13001 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13037
+type(
+  FStar_Reflection_Data.comp_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8550 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 246 12966 13037
+type(
+  FStar_Reflection_Data.comp_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13125 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13126
+type(
+  FStar_Reflection_Data.comp_view
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 249 13135 13164 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13127 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13130
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 249 13135 13164 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13124 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13131
+type(
+  FStar_Reflection_Data.comp_view * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13095 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13131
+type(
+  FStar_Reflection_Data.comp_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 249 13135 13171 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 249 13135 13173
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 250 13179 13211 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 250 13179 13213
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 252 13280 13318 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 252 13280 13350
+type(
+  FStar_Reflection_Data.comp_view -> FStar_Syntax_Syntax.comp
+)
+ident(
+  ext_ref FStar_Reflection_Basic.pack_comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 252 13280 13351 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 252 13280 13352
+type(
+  FStar_Reflection_Data.comp_view
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13125 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13126
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 252 13280 13317 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 252 13280 13353
+call(
+  stack
+)
+type(
+  FStar_Syntax_Syntax.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 253 13355 13394 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 253 13355 13424
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 254 13425 13467 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 254 13425 13507
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 255 13508 13552 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 255 13508 13555
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13127 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 248 13068 13130
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 256 13556 13601 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 256 13556 13633
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 257 13634 13682 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 257 13634 13696
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 258 13697 13747 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 258 13697 13780
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 259 13781 13832 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 259 13781 13844
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 259 13781 13845 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 259 13781 13849
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 259 13781 13831 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 259 13781 13850
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 260 13851 13902 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 260 13851 13914
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 260 13851 13915 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 260 13851 13919
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 260 13851 13901 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 260 13851 13920
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 261 13921 13972 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 261 13921 13984
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 261 13921 13985 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 261 13921 13989
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 261 13921 13971 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 261 13921 13990
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14042 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14054
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14055 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14059
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14041 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14060
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 257 13634 13681 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14061
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 256 13556 13600 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14062
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 254 13425 13466 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14063
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 253 13355 13393 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14064
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 252 13280 13316 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14065
+type(
+  FStar_Syntax_Syntax.comp * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 251 13217 13251 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14065
+type(
+  FStar_Syntax_Syntax.comp FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 249 13135 13164 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 262 13991 14066
+type(
+  FStar_Syntax_Syntax.comp FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14123 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14124
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14162 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14198
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14125 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14128
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14162 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14198
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14122 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14129
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14094 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14129
+type(
+  FStar_Reflection_Data.comp_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14191 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14192
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14123 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14124
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14194 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14197
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14125 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 263 14067 14128
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14190 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14198
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14162 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14198
+type(
+  FStar_Syntax_Syntax.comp FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8544 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 264 14133 14198
+type(
+  FStar_Syntax_Syntax.comp FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14274 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14275
+type(
+  FStar_Syntax_Syntax.comp
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 267 14284 14307 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15134
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14276 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14279
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 267 14284 14307 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15134
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14273 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14280
+type(
+  FStar_Syntax_Syntax.comp * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14244 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14280
+type(
+  FStar_Syntax_Syntax.comp FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 267 14284 14314 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 267 14284 14316
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 268 14322 14348 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 268 14322 14350
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14475 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14476
+type(
+  FStar_Reflection_Types.binder
+)
+ident(
+  int_ref b "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8487 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 187 8479 8488
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14478 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14479
+type(
+  FStar_Syntax_Syntax.comp
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14274 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14275
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14474 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14480
+type(
+  FStar_Syntax_Syntax.binder * FStar_Syntax_Syntax.comp
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14442 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14481
+type(
+  FStar_Reflection_Data.term_view
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 271 14483 14516 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 271 14483 14546
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 272 14547 14583 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 272 14547 14623
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 273 14624 14662 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 273 14624 14665
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14276 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 266 14223 14279
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 274 14666 14705 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 274 14666 14737
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 275 14738 14780 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 275 14738 14794
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 276 14795 14839 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 276 14795 14872
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 277 14873 14918 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 277 14873 14930
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 277 14873 14931 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 277 14873 14935
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 277 14873 14917 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 277 14873 14936
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 278 14937 14982 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 278 14937 14994
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 278 14937 14995 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 278 14937 14999
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 278 14937 14981 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 278 14937 15000
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 279 15001 15046 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 279 15001 15058
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 279 15001 15059 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 279 15001 15063
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 279 15001 15045 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 279 15001 15064
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15110 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15122
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15123 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15127
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15109 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15128
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 275 14738 14779 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15129
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 274 14666 14704 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15130
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 272 14547 14582 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15131
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 271 14483 14515 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15132
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 270 14411 14441 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15133
+type(
+  FStar_Reflection_Data.term_view * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 269 14354 14382 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15133
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 267 14284 14307 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 280 15065 15134
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15185 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15186
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15218 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15254
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15187 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15190
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15218 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15254
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15184 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15191
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15156 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15191
+type(
+  FStar_Syntax_Syntax.comp FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15247 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15248
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15185 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15186
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15250 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15253
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15187 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 281 15135 15190
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15246 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15254
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15218 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15254
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8538 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 282 15195 15254
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15318 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15319
+type(
+  FStar_Reflection_Data.term_view
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 285 15328 15345 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15908
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15320 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15323
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 285 15328 15345 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15908
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15317 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15324
+type(
+  FStar_Reflection_Data.term_view * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15288 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15324
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 285 15328 15352 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 285 15328 15354
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 286 15360 15380 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 286 15360 15382
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 287 15386 15409 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 287 15386 15436
+type(
+  FStar_Reflection_Data.term_view ->
+  FStar_Syntax_Syntax.term FStar_Tactics_Effect.__tac
+)
+ident(
+  ext_ref FStar_Tactics_Builtins.pack
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 287 15386 15437 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 287 15386 15438
+type(
+  FStar_Reflection_Data.term_view
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15318 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15319
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 287 15386 15408 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 287 15386 15439
+type(
+  FStar_Syntax_Syntax.term FStar_Tactics_Effect.__tac
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 288 15440 15465 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 288 15440 15495
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 289 15496 15524 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 289 15496 15564
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 289 15496 15565 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 289 15496 15568
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15320 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 284 15273 15323
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 290 15569 15600 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 290 15569 15632
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 291 15633 15667 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 291 15633 15681
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 292 15682 15718 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 292 15682 15751
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15789 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15801
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15802 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15806
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15788 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15807
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15809 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15821
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15822 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15826
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15808 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 293 15752 15827
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15865 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15877
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15878 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15882
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15864 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15883
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15885 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15897
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15898 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15902
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15884 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15903
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 291 15633 15666 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15904
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 290 15569 15599 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15905
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 289 15496 15523 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15906
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 288 15440 15464 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15907
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 287 15386 15408 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15907
+call(
+  tail
+)
+type(
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 285 15328 15345 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 294 15828 15908
+type(
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15953 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15954
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 15980 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16016
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15955 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15958
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 15980 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16016
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15952 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15959
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15924 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15959
+type(
+  FStar_Reflection_Data.term_view FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16009 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16010
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15953 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15954
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16012 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16015
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15955 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 295 15909 15958
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16008 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16016
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 15980 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16016
+type(
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 189 8519 8532 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16016
+type(
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 188 8497 8507 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16017
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Reflection_Types.term FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 185 8395 8401 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16017
+type(
+  (FStar_Reflection_Types.term, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 184 8379 8383 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16017
+type(
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.term, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 183 8366 8368 "ulib/tactics_ml/extracted/FStar_Tactics_SyntaxHelpers.ml" 296 15963 16017
+type(
+  FStar_Reflection_Types.binder Prims.list ->
+  FStar_Reflection_Types.term ->
+  (FStar_Reflection_Types.term, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)

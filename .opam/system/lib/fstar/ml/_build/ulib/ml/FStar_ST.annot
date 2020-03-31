@@ -1,0 +1,178 @@
+"ulib/ml/FStar_ST.ml" 9 188 192 "ulib/ml/FStar_ST.ml" 9 188 205
+type(
+  'a -> 'b -> [> `Null ]
+)
+ident(
+  def ref_to_yojson "ulib/ml/FStar_ST.ml" 10 218 218 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 9 188 206 "ulib/ml/FStar_ST.ml" 9 188 207
+type(
+  'a
+)
+"ulib/ml/FStar_ST.ml" 9 188 208 "ulib/ml/FStar_ST.ml" 9 188 209
+type(
+  'b
+)
+"ulib/ml/FStar_ST.ml" 9 188 212 "ulib/ml/FStar_ST.ml" 9 188 217
+type(
+  [> `Null ] as 'c
+)
+"ulib/ml/FStar_ST.ml" 10 218 222 "ulib/ml/FStar_ST.ml" 10 218 235
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def ref_of_yojson "ulib/ml/FStar_ST.ml" 12 270 270 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 10 218 236 "ulib/ml/FStar_ST.ml" 10 218 237
+type(
+  'a
+)
+"ulib/ml/FStar_ST.ml" 10 218 238 "ulib/ml/FStar_ST.ml" 10 218 239
+type(
+  'b
+)
+"ulib/ml/FStar_ST.ml" 10 218 242 "ulib/ml/FStar_ST.ml" 10 218 250
+type(
+  string -> 'c
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/FStar_ST.ml" 10 218 251 "ulib/ml/FStar_ST.ml" 10 218 268
+type(
+  string
+)
+"ulib/ml/FStar_ST.ml" 10 218 242 "ulib/ml/FStar_ST.ml" 10 218 268
+call(
+  tail
+)
+type(
+  'c
+)
+"ulib/ml/FStar_ST.ml" 12 270 274 "ulib/ml/FStar_ST.ml" 12 270 278
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a
+)
+ident(
+  def read "ulib/ml/FStar_ST.ml" 14 287 287 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 12 270 281 "ulib/ml/FStar_ST.ml" 12 270 285
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a
+)
+ident(
+  ext_ref FStar_CommonST.read
+)
+"ulib/ml/FStar_ST.ml" 14 287 291 "ulib/ml/FStar_ST.ml" 14 287 298
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a
+)
+ident(
+  def op_Bang "ulib/ml/FStar_ST.ml" 16 310 310 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 14 287 301 "ulib/ml/FStar_ST.ml" 14 287 308
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a
+)
+ident(
+  ext_ref FStar_CommonST.op_Bang
+)
+"ulib/ml/FStar_ST.ml" 16 310 314 "ulib/ml/FStar_ST.ml" 16 310 319
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a -> unit
+)
+ident(
+  def write "ulib/ml/FStar_ST.ml" 18 329 329 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 16 310 322 "ulib/ml/FStar_ST.ml" 16 310 327
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a -> unit
+)
+ident(
+  ext_ref FStar_CommonST.write
+)
+"ulib/ml/FStar_ST.ml" 18 329 333 "ulib/ml/FStar_ST.ml" 18 329 348
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a -> unit
+)
+ident(
+  def op_Colon_Equals "ulib/ml/FStar_ST.ml" 20 368 368 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 18 329 351 "ulib/ml/FStar_ST.ml" 18 329 366
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a -> unit
+)
+ident(
+  ext_ref FStar_CommonST.op_Colon_Equals
+)
+"ulib/ml/FStar_ST.ml" 20 368 372 "ulib/ml/FStar_ST.ml" 20 368 377
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def alloc "ulib/ml/FStar_ST.ml" 22 387 387 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 20 368 380 "ulib/ml/FStar_ST.ml" 20 368 385
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/ml/FStar_ST.ml" 22 387 391 "ulib/ml/FStar_ST.ml" 22 387 397
+type(
+  'a -> unit
+)
+ident(
+  def recall "ulib/ml/FStar_ST.ml" 23 407 407 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 22 387 400 "ulib/ml/FStar_ST.ml" 22 387 406
+type(
+  'a -> unit
+)
+ident(
+  ext_ref FStar_CommonST.recall
+)
+"ulib/ml/FStar_ST.ml" 23 407 411 "ulib/ml/FStar_ST.ml" 23 407 414
+type(
+  unit -> unit
+)
+ident(
+  def get "ulib/ml/FStar_ST.ml" 25 422 422 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 23 407 417 "ulib/ml/FStar_ST.ml" 23 407 420
+type(
+  unit -> unit
+)
+ident(
+  ext_ref FStar_CommonST.get
+)
+"ulib/ml/FStar_ST.ml" 27 471 475 "ulib/ml/FStar_ST.ml" 27 471 486
+type(
+  'a -> unit
+)
+ident(
+  def gst_witness "ulib/ml/FStar_ST.ml" 28 501 501 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 27 471 489 "ulib/ml/FStar_ST.ml" 27 471 500
+type(
+  'a -> unit
+)
+ident(
+  ext_ref FStar_CommonST.gst_witness
+)
+"ulib/ml/FStar_ST.ml" 28 501 505 "ulib/ml/FStar_ST.ml" 28 501 515
+type(
+  'a -> unit
+)
+ident(
+  def gst_recall "ulib/ml/FStar_ST.ml" 28 501 528 "ulib/ml/FStar_ST.ml" 1 0 -1
+)
+"ulib/ml/FStar_ST.ml" 28 501 518 "ulib/ml/FStar_ST.ml" 28 501 528
+type(
+  'a -> unit
+)
+ident(
+  ext_ref FStar_CommonST.gst_recall
+)

@@ -1,0 +1,2259 @@
+"ulib/ml/extracted/FStar_BitVector.ml" 3 57 62 "ulib/ml/extracted/FStar_BitVector.ml" 3 57 70
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+ident(
+  def zero_vec "ulib/ml/extracted/FStar_BitVector.ml" 5 142 142 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 4 99 105 "ulib/ml/extracted/FStar_BitVector.ml" 4 99 106
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 4 99 111 "ulib/ml/extracted/FStar_BitVector.ml" 4 99 140
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 4 99 111 "ulib/ml/extracted/FStar_BitVector.ml" 4 99 132
+type(
+  Prims.nat -> Prims.bool -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 4 99 133 "ulib/ml/extracted/FStar_BitVector.ml" 4 99 134
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 4 99 105 "ulib/ml/extracted/FStar_BitVector.ml" 4 99 106
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 4 99 135 "ulib/ml/extracted/FStar_BitVector.ml" 4 99 140
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 4 99 111 "ulib/ml/extracted/FStar_BitVector.ml" 4 99 140
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 4 99 101 "ulib/ml/extracted/FStar_BitVector.ml" 4 99 140
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 5 142 147 "ulib/ml/extracted/FStar_BitVector.ml" 5 142 155
+type(
+  Prims.pos -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  def elem_vec "ulib/ml/extracted/FStar_BitVector.ml" 9 284 284 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 6 197 203 "ulib/ml/extracted/FStar_BitVector.ml" 6 197 204
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 7 209 213 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 280
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 217 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 218
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_BitVector.ml" 7 209 223 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 280
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 223 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 241
+type(
+  Prims.bool FStar_Seq_Base.seq -> Prims.nat -> Prims.bool -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.upd
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 243 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 264
+type(
+  Prims.nat -> Prims.bool -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 265 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 266
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 6 197 203 "ulib/ml/extracted/FStar_BitVector.ml" 6 197 204
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 267 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 272
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 242 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 273
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 274 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 275
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_BitVector.ml" 7 209 217 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 218
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 276 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 280
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 223 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 280
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 7 209 213 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 280
+type(
+  Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 6 197 199 "ulib/ml/extracted/FStar_BitVector.ml" 7 209 280
+type(
+  Prims.pos -> Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 9 284 289 "ulib/ml/extracted/FStar_BitVector.ml" 9 284 297
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+ident(
+  def ones_vec "ulib/ml/extracted/FStar_BitVector.ml" 11 368 368 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 10 326 332 "ulib/ml/extracted/FStar_BitVector.ml" 10 326 333
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 10 326 338 "ulib/ml/extracted/FStar_BitVector.ml" 10 326 366
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 10 326 338 "ulib/ml/extracted/FStar_BitVector.ml" 10 326 359
+type(
+  Prims.nat -> Prims.bool -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 10 326 360 "ulib/ml/extracted/FStar_BitVector.ml" 10 326 361
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 10 326 332 "ulib/ml/extracted/FStar_BitVector.ml" 10 326 333
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 10 326 362 "ulib/ml/extracted/FStar_BitVector.ml" 10 326 366
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 10 326 338 "ulib/ml/extracted/FStar_BitVector.ml" 10 326 366
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 10 326 328 "ulib/ml/extracted/FStar_BitVector.ml" 10 326 366
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 11 368 377 "ulib/ml/extracted/FStar_BitVector.ml" 11 368 387
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  def logand_vec "ulib/ml/extracted/FStar_BitVector.ml" 11 368 368 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 12 442 448 "ulib/ml/extracted/FStar_BitVector.ml" 12 442 449
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 13 454 458 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 13 454 462 "ulib/ml/extracted/FStar_BitVector.ml" 13 454 463
+type(
+  Prims.unit bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_BitVector.ml" 14 468 474 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 14 468 478 "ulib/ml/extracted/FStar_BitVector.ml" 14 468 479
+type(
+  Prims.unit bv_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_BitVector.ml" 15 484 492 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 15 484 495 "ulib/ml/extracted/FStar_BitVector.ml" 15 484 496
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 12 442 448 "ulib/ml/extracted/FStar_BitVector.ml" 12 442 449
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 15 484 497 "ulib/ml/extracted/FStar_BitVector.ml" 15 484 498
+type(
+  Prims.pos -> Prims.pos -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 15 484 499 "ulib/ml/extracted/FStar_BitVector.ml" 15 484 512
+type(
+  Prims.pos
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 15 484 495 "ulib/ml/extracted/FStar_BitVector.ml" 15 484 512
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 17 526 536 "ulib/ml/extracted/FStar_BitVector.ml" 17 526 557
+type(
+  Prims.nat -> Prims.bool -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 17 526 558 "ulib/ml/extracted/FStar_BitVector.ml" 17 526 571
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 18 572 586 "ulib/ml/extracted/FStar_BitVector.ml" 18 572 606
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 18 572 607 "ulib/ml/extracted/FStar_BitVector.ml" 18 572 608
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 13 454 462 "ulib/ml/extracted/FStar_BitVector.ml" 13 454 463
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 18 572 609 "ulib/ml/extracted/FStar_BitVector.ml" 18 572 623
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 18 572 585 "ulib/ml/extracted/FStar_BitVector.ml" 18 572 624
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 18 572 625 "ulib/ml/extracted/FStar_BitVector.ml" 18 572 627
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 19 628 644 "ulib/ml/extracted/FStar_BitVector.ml" 19 628 664
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 19 628 665 "ulib/ml/extracted/FStar_BitVector.ml" 19 628 666
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 14 468 478 "ulib/ml/extracted/FStar_BitVector.ml" 14 468 479
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 19 628 667 "ulib/ml/extracted/FStar_BitVector.ml" 19 628 681
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 19 628 643 "ulib/ml/extracted/FStar_BitVector.ml" 19 628 682
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 18 572 584 "ulib/ml/extracted/FStar_BitVector.ml" 19 628 683
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 17 526 536 "ulib/ml/extracted/FStar_BitVector.ml" 19 628 683
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 21 697 707 "ulib/ml/extracted/FStar_BitVector.ml" 21 697 728
+type(
+  Prims.bool FStar_Seq_Base.seq -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 22 729 742 "ulib/ml/extracted/FStar_BitVector.ml" 22 729 763
+type(
+  Prims.nat -> Prims.bool -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 22 729 764 "ulib/ml/extracted/FStar_BitVector.ml" 22 729 777
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 23 778 795 "ulib/ml/extracted/FStar_BitVector.ml" 23 778 815
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 23 778 816 "ulib/ml/extracted/FStar_BitVector.ml" 23 778 817
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 13 454 462 "ulib/ml/extracted/FStar_BitVector.ml" 13 454 463
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 23 778 818 "ulib/ml/extracted/FStar_BitVector.ml" 23 778 832
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 23 778 794 "ulib/ml/extracted/FStar_BitVector.ml" 23 778 833
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 23 778 834 "ulib/ml/extracted/FStar_BitVector.ml" 23 778 836
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 24 837 856 "ulib/ml/extracted/FStar_BitVector.ml" 24 837 876
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 24 837 877 "ulib/ml/extracted/FStar_BitVector.ml" 24 837 878
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 14 468 478 "ulib/ml/extracted/FStar_BitVector.ml" 14 468 479
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 24 837 879 "ulib/ml/extracted/FStar_BitVector.ml" 24 837 893
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 24 837 855 "ulib/ml/extracted/FStar_BitVector.ml" 24 837 894
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 23 778 793 "ulib/ml/extracted/FStar_BitVector.ml" 24 837 895
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 22 729 741 "ulib/ml/extracted/FStar_BitVector.ml" 24 837 896
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 25 897 910 "ulib/ml/extracted/FStar_BitVector.ml" 25 897 920
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  int_ref logand_vec "ulib/ml/extracted/FStar_BitVector.ml" 11 368 377 "ulib/ml/extracted/FStar_BitVector.ml" 11 368 387
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 25 897 922 "ulib/ml/extracted/FStar_BitVector.ml" 25 897 923
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 12 442 448 "ulib/ml/extracted/FStar_BitVector.ml" 12 442 449
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 25 897 924 "ulib/ml/extracted/FStar_BitVector.ml" 25 897 925
+type(
+  Prims.pos -> Z.t -> Prims.pos
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 25 897 926 "ulib/ml/extracted/FStar_BitVector.ml" 25 897 939
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 25 897 921 "ulib/ml/extracted/FStar_BitVector.ml" 25 897 940
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 26 941 957 "ulib/ml/extracted/FStar_BitVector.ml" 26 941 977
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 26 941 978 "ulib/ml/extracted/FStar_BitVector.ml" 26 941 979
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 13 454 462 "ulib/ml/extracted/FStar_BitVector.ml" 13 454 463
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 26 941 980 "ulib/ml/extracted/FStar_BitVector.ml" 26 941 993
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 26 941 994 "ulib/ml/extracted/FStar_BitVector.ml" 26 941 995
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 12 442 448 "ulib/ml/extracted/FStar_BitVector.ml" 12 442 449
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 26 941 956 "ulib/ml/extracted/FStar_BitVector.ml" 26 941 996
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 27 997 1013 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1033
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 27 997 1034 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1035
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 14 468 478 "ulib/ml/extracted/FStar_BitVector.ml" 14 468 479
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 27 997 1036 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1049
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 27 997 1050 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1051
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 12 442 448 "ulib/ml/extracted/FStar_BitVector.ml" 12 442 449
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 27 997 1012 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1052
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 25 897 909 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 21 697 707 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 15 484 492 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 14 468 474 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+type(
+  Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 13 454 458 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+type(
+  Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 12 442 444 "ulib/ml/extracted/FStar_BitVector.ml" 27 997 1053
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 29 1057 1066 "ulib/ml/extracted/FStar_BitVector.ml" 29 1057 1076
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  def logxor_vec "ulib/ml/extracted/FStar_BitVector.ml" 29 1057 1057 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1137 "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1138
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1147 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1151 "ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1152
+type(
+  Prims.unit bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1163 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1167 "ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1168
+type(
+  Prims.unit bv_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1181 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1184 "ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1185
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1137 "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1138
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1186 "ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1187
+type(
+  Prims.pos -> Prims.pos -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1188 "ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1201
+type(
+  Prims.pos
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1184 "ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1201
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 35 1215 1225 "ulib/ml/extracted/FStar_BitVector.ml" 35 1215 1246
+type(
+  Prims.nat -> Prims.bool -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 35 1215 1247 "ulib/ml/extracted/FStar_BitVector.ml" 35 1215 1260
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1275 "ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1295
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1296 "ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1297
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1151 "ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1152
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1298 "ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1312
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1274 "ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1313
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1314 "ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1316
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1333 "ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1353
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1354 "ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1355
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1167 "ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1168
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1356 "ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1370
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1332 "ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1371
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 36 1261 1273 "ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1372
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 35 1215 1225 "ulib/ml/extracted/FStar_BitVector.ml" 37 1317 1372
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 39 1386 1396 "ulib/ml/extracted/FStar_BitVector.ml" 39 1386 1417
+type(
+  Prims.bool FStar_Seq_Base.seq -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 40 1418 1431 "ulib/ml/extracted/FStar_BitVector.ml" 40 1418 1452
+type(
+  Prims.nat -> Prims.bool -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 40 1418 1453 "ulib/ml/extracted/FStar_BitVector.ml" 40 1418 1466
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1484 "ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1504
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1505 "ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1506
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1151 "ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1152
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1507 "ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1521
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1483 "ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1522
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1523 "ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1525
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1545 "ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1565
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1566 "ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1567
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1167 "ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1168
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1568 "ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1582
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1544 "ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1583
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 41 1467 1482 "ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1584
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 40 1418 1430 "ulib/ml/extracted/FStar_BitVector.ml" 42 1526 1585
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1599 "ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1609
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  int_ref logxor_vec "ulib/ml/extracted/FStar_BitVector.ml" 29 1057 1066 "ulib/ml/extracted/FStar_BitVector.ml" 29 1057 1076
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1611 "ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1612
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1137 "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1138
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1613 "ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1614
+type(
+  Prims.pos -> Z.t -> Prims.pos
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1615 "ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1628
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1610 "ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1629
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1646 "ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1666
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1667 "ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1668
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1151 "ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1152
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1669 "ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1682
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1683 "ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1684
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1137 "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1138
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1645 "ulib/ml/extracted/FStar_BitVector.ml" 44 1630 1685
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1702 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1722
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1723 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1724
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1167 "ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1168
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1725 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1738
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1739 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1740
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1137 "ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1138
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1701 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1741
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 43 1586 1598 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 39 1386 1396 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 33 1173 1181 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 32 1157 1163 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+type(
+  Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 31 1143 1147 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+type(
+  Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 30 1131 1133 "ulib/ml/extracted/FStar_BitVector.ml" 45 1686 1742
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 47 1746 1755 "ulib/ml/extracted/FStar_BitVector.ml" 47 1746 1764
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  def logor_vec "ulib/ml/extracted/FStar_BitVector.ml" 47 1746 1746 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1825 "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1826
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1835 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1839 "ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1840
+type(
+  Prims.unit bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1851 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1855 "ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1856
+type(
+  Prims.unit bv_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1869 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1872 "ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1873
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1825 "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1826
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1874 "ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1875
+type(
+  Prims.pos -> Prims.pos -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1876 "ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1889
+type(
+  Prims.pos
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1872 "ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1889
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 53 1903 1913 "ulib/ml/extracted/FStar_BitVector.ml" 53 1903 1934
+type(
+  Prims.nat -> Prims.bool -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 53 1903 1935 "ulib/ml/extracted/FStar_BitVector.ml" 53 1903 1948
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 54 1949 1963 "ulib/ml/extracted/FStar_BitVector.ml" 54 1949 1983
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 54 1949 1984 "ulib/ml/extracted/FStar_BitVector.ml" 54 1949 1985
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1839 "ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1840
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 54 1949 1986 "ulib/ml/extracted/FStar_BitVector.ml" 54 1949 2000
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 54 1949 1962 "ulib/ml/extracted/FStar_BitVector.ml" 54 1949 2001
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 54 1949 2002 "ulib/ml/extracted/FStar_BitVector.ml" 54 1949 2004
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2021 "ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2041
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2042 "ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2043
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1855 "ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1856
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2044 "ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2058
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2020 "ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2059
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 54 1949 1961 "ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2060
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 53 1903 1913 "ulib/ml/extracted/FStar_BitVector.ml" 55 2005 2060
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 57 2074 2084 "ulib/ml/extracted/FStar_BitVector.ml" 57 2074 2105
+type(
+  Prims.bool FStar_Seq_Base.seq -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 58 2106 2119 "ulib/ml/extracted/FStar_BitVector.ml" 58 2106 2140
+type(
+  Prims.nat -> Prims.bool -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 58 2106 2141 "ulib/ml/extracted/FStar_BitVector.ml" 58 2106 2154
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2172 "ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2192
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2193 "ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2194
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1839 "ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1840
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2195 "ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2209
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2171 "ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2210
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2211 "ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2213
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2233 "ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2253
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2254 "ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2255
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1855 "ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1856
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2256 "ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2270
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2232 "ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2271
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 59 2155 2170 "ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2272
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 58 2106 2118 "ulib/ml/extracted/FStar_BitVector.ml" 60 2214 2273
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2287 "ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2296
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  int_ref logor_vec "ulib/ml/extracted/FStar_BitVector.ml" 47 1746 1755 "ulib/ml/extracted/FStar_BitVector.ml" 47 1746 1764
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2298 "ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2299
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1825 "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1826
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2300 "ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2301
+type(
+  Prims.pos -> Z.t -> Prims.pos
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2302 "ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2315
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2297 "ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2316
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2333 "ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2353
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2354 "ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2355
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1839 "ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1840
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2356 "ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2369
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2370 "ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2371
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1825 "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1826
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2332 "ulib/ml/extracted/FStar_BitVector.ml" 62 2317 2372
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2389 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2409
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2410 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2411
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1855 "ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1856
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2412 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2425
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2426 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2427
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1825 "ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1826
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2388 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2428
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 61 2274 2286 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 57 2074 2084 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 51 1861 1869 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 50 1845 1851 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+type(
+  Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 49 1831 1835 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+type(
+  Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 48 1819 1821 "ulib/ml/extracted/FStar_BitVector.ml" 63 2373 2429
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 65 2433 2442 "ulib/ml/extracted/FStar_BitVector.ml" 65 2433 2452
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  def lognot_vec "ulib/ml/extracted/FStar_BitVector.ml" 65 2433 2433 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2500 "ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2501
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2510 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2930
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2514 "ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2515
+type(
+  Prims.unit bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2526 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2930
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2529 "ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2530
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2500 "ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2501
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2531 "ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2532
+type(
+  Prims.pos -> Prims.pos -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2533 "ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2546
+type(
+  Prims.pos
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2529 "ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2546
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 70 2558 2566 "ulib/ml/extracted/FStar_BitVector.ml" 70 2558 2587
+type(
+  Prims.nat -> Prims.bool -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 70 2558 2588 "ulib/ml/extracted/FStar_BitVector.ml" 70 2558 2601
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2613 "ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2630
+type(
+  Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Prims.op_Negation
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2632 "ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2652
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2653 "ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2654
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2514 "ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2515
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2655 "ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2669
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2631 "ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2670
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2612 "ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2671
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 70 2558 2566 "ulib/ml/extracted/FStar_BitVector.ml" 71 2602 2671
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 73 2683 2691 "ulib/ml/extracted/FStar_BitVector.ml" 73 2683 2712
+type(
+  Prims.bool FStar_Seq_Base.seq -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 74 2713 2724 "ulib/ml/extracted/FStar_BitVector.ml" 74 2713 2745
+type(
+  Prims.nat -> Prims.bool -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 74 2713 2746 "ulib/ml/extracted/FStar_BitVector.ml" 74 2713 2759
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2774 "ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2791
+type(
+  Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Prims.op_Negation
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2793 "ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2813
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2814 "ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2815
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2514 "ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2515
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2816 "ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2830
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2792 "ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2831
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2773 "ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2832
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 74 2713 2723 "ulib/ml/extracted/FStar_BitVector.ml" 75 2760 2833
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2845 "ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2855
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  int_ref lognot_vec "ulib/ml/extracted/FStar_BitVector.ml" 65 2433 2442 "ulib/ml/extracted/FStar_BitVector.ml" 65 2433 2452
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2857 "ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2858
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2500 "ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2501
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2859 "ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2860
+type(
+  Prims.pos -> Z.t -> Prims.pos
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2861 "ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2874
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2856 "ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2875
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2890 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2910
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2911 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2912
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2514 "ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2515
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2913 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2926
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2927 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2928
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2500 "ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2501
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2889 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2929
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 76 2834 2844 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2930
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 73 2683 2691 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2930
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 68 2520 2526 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2930
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 67 2506 2510 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2930
+type(
+  Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 66 2494 2496 "ulib/ml/extracted/FStar_BitVector.ml" 77 2876 2930
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 88 3023 3028 "ulib/ml/extracted/FStar_BitVector.ml" 88 3023 3042
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  def shift_left_vec "ulib/ml/extracted/FStar_BitVector.ml" 100 3337 3337 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3103 "ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3104
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 90 3109 3113 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 90 3109 3117 "ulib/ml/extracted/FStar_BitVector.ml" 90 3109 3118
+type(
+  Prims.unit bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3129 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3133 "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3134
+type(
+  Prims.nat
+)
+ident(
+  def s "ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3147 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3150 "ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3151
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3133 "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3134
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3152 "ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3154
+type(
+  Prims.nat -> Prims.pos -> bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3155 "ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3156
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3103 "ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3104
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3150 "ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3156
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 93 3157 3170 "ulib/ml/extracted/FStar_BitVector.ml" 93 3157 3178
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+ident(
+  int_ref zero_vec "ulib/ml/extracted/FStar_BitVector.ml" 3 57 62 "ulib/ml/extracted/FStar_BitVector.ml" 3 57 70
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 93 3157 3179 "ulib/ml/extracted/FStar_BitVector.ml" 93 3157 3180
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3103 "ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3104
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 93 3157 3170 "ulib/ml/extracted/FStar_BitVector.ml" 93 3157 3180
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3207 "ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3208
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3133 "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3134
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3209 "ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3210
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3211 "ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3225
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3207 "ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3225
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 96 3226 3241 "ulib/ml/extracted/FStar_BitVector.ml" 96 3226 3242
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 90 3109 3117 "ulib/ml/extracted/FStar_BitVector.ml" 90 3109 3118
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3270 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3291
+type(
+  Prims.bool FStar_Seq_Base.seq -> Prims.unit bv_t -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3293 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3313
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3314 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3315
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 90 3109 3117 "ulib/ml/extracted/FStar_BitVector.ml" 90 3109 3118
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3316 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3317
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3133 "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3134
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3318 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3319
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3103 "ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3104
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3292 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3320
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3322 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3330
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+ident(
+  int_ref zero_vec "ulib/ml/extracted/FStar_BitVector.ml" 3 57 62 "ulib/ml/extracted/FStar_BitVector.ml" 3 57 70
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3331 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3332
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3133 "ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3134
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3321 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3270 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 95 3194 3204 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 92 3139 3147 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 91 3123 3129 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+type(
+  Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 90 3109 3113 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 89 3097 3099 "ulib/ml/extracted/FStar_BitVector.ml" 98 3258 3333
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 100 3337 3342 "ulib/ml/extracted/FStar_BitVector.ml" 100 3337 3357
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  def shift_right_vec "ulib/ml/extracted/FStar_BitVector.ml" 113 3685 3685 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3418 "ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3419
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 102 3424 3428 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 102 3424 3432 "ulib/ml/extracted/FStar_BitVector.ml" 102 3424 3433
+type(
+  Prims.unit bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3444 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3448 "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3449
+type(
+  Prims.nat
+)
+ident(
+  def s "ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3462 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3465 "ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3466
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3448 "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3449
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3467 "ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3469
+type(
+  Prims.nat -> Prims.pos -> bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3470 "ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3471
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3418 "ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3419
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3465 "ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3471
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 105 3472 3485 "ulib/ml/extracted/FStar_BitVector.ml" 105 3472 3493
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+ident(
+  int_ref zero_vec "ulib/ml/extracted/FStar_BitVector.ml" 3 57 62 "ulib/ml/extracted/FStar_BitVector.ml" 3 57 70
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 105 3472 3494 "ulib/ml/extracted/FStar_BitVector.ml" 105 3472 3495
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3418 "ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3419
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 105 3472 3485 "ulib/ml/extracted/FStar_BitVector.ml" 105 3472 3495
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3522 "ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3523
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3448 "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3449
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3524 "ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3525
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3526 "ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3540
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3522 "ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3540
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 108 3541 3556 "ulib/ml/extracted/FStar_BitVector.ml" 108 3541 3557
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 102 3424 3432 "ulib/ml/extracted/FStar_BitVector.ml" 102 3424 3433
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3585 "ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3606
+type(
+  Prims.unit bv_t -> Prims.bool FStar_Seq_Base.seq -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3608 "ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3616
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+ident(
+  int_ref zero_vec "ulib/ml/extracted/FStar_BitVector.ml" 3 57 62 "ulib/ml/extracted/FStar_BitVector.ml" 3 57 70
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3617 "ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3618
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3448 "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3449
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3607 "ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3619
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3635 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3655
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3656 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3657
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 102 3424 3432 "ulib/ml/extracted/FStar_BitVector.ml" 102 3424 3433
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3658 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3672
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3674 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3675
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3418 "ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3419
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3676 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3677
+type(
+  Prims.pos -> Prims.nat -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3678 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3679
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3448 "ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3449
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3673 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3680
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3634 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 110 3573 3585 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 107 3509 3519 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 104 3454 3462 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 103 3438 3444 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+type(
+  Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 102 3424 3428 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 101 3412 3414 "ulib/ml/extracted/FStar_BitVector.ml" 111 3620 3681
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 113 3685 3690 "ulib/ml/extracted/FStar_BitVector.ml" 113 3685 3716
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  def shift_arithmetic_right_vec "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164 "ulib/ml/extracted/FStar_BitVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3779 "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3780
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3789 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3793 "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3794
+type(
+  Prims.unit bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3805 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3809 "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3810
+type(
+  Prims.nat
+)
+ident(
+  def s "ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3823 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3826 "ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3846
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3847 "ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3848
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3793 "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3794
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3849 "ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3863
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3826 "ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3863
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3891 "ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3892
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3809 "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3810
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3893 "ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3895
+type(
+  Prims.nat -> Prims.pos -> bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3896 "ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3897
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3779 "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3780
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3891 "ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3897
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 121 3898 3914 "ulib/ml/extracted/FStar_BitVector.ml" 121 3898 3922
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+ident(
+  int_ref ones_vec "ulib/ml/extracted/FStar_BitVector.ml" 9 284 289 "ulib/ml/extracted/FStar_BitVector.ml" 9 284 297
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 121 3898 3923 "ulib/ml/extracted/FStar_BitVector.ml" 121 3898 3924
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3779 "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3780
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 121 3898 3914 "ulib/ml/extracted/FStar_BitVector.ml" 121 3898 3924
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3957 "ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3958
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3809 "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3810
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3959 "ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3960
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3961 "ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3975
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3957 "ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3975
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 124 3976 3994 "ulib/ml/extracted/FStar_BitVector.ml" 124 3976 3995
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3793 "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3794
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4029 "ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4050
+type(
+  Prims.unit bv_t -> Prims.bool FStar_Seq_Base.seq -> Prims.unit bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4052 "ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4060
+type(
+  Prims.pos -> Prims.unit bv_t
+)
+ident(
+  int_ref ones_vec "ulib/ml/extracted/FStar_BitVector.ml" 9 284 289 "ulib/ml/extracted/FStar_BitVector.ml" 9 284 297
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4061 "ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4062
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3809 "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3810
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4051 "ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4063
+call(
+  stack
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4082 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4102
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.nat -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4103 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4104
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3793 "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3794
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4105 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4119
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4121 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4122
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3779 "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3780
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4123 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4124
+type(
+  Prims.pos -> Prims.nat -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4125 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4126
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3809 "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3810
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4120 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4127
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4081 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4128
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 126 4014 4029 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4128
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 123 3941 3954 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4128
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 120 3877 3887 "ulib/ml/extracted/FStar_BitVector.ml" 127 4064 4129
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4143 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4158
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+ident(
+  int_ref shift_right_vec "ulib/ml/extracted/FStar_BitVector.ml" 100 3337 3342 "ulib/ml/extracted/FStar_BitVector.ml" 100 3337 3357
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4159 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4160
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3779 "ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3780
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4161 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4162
+type(
+  Prims.unit bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3793 "ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3794
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4163 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3809 "ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3810
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4143 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+call(
+  tail
+)
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 118 3815 3823 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+type(
+  Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 117 3799 3805 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+type(
+  Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 116 3785 3789 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+type(
+  Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)
+"ulib/ml/extracted/FStar_BitVector.ml" 115 3773 3775 "ulib/ml/extracted/FStar_BitVector.ml" 128 4130 4164
+type(
+  Prims.pos -> Prims.unit bv_t -> Prims.nat -> Prims.unit bv_t
+)

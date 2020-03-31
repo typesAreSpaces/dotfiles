@@ -1,0 +1,913 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 6 149 157 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 6 149 161
+type(
+  'Aa.
+    'Aa FStar_Seq_Base.seq ->
+    ('Aa -> Prims.bool) ->
+    Prims.nat -> Prims.nat FStar_Pervasives_Native.option
+)
+ident(
+  def find "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 6 149 149 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 303 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 304
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 13 309 313 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 13 309 317 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 13 309 318
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  def p "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 329 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 334
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 347 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 350 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 351
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref p "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 13 309 317 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 13 309 318
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 353 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 373
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 374 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 375
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 303 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 304
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 376 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 377
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 334
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 352 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 378
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 350 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 378
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 16 379 421 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 16 379 422
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 334
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 16 379 392 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 16 379 422
+type(
+  Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 450 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 451
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 334
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 452 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 453
+type(
+  Prims.nat -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 454 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 467
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 449 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 468
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 469 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 470
+type(
+  Z.t -> Prims.nat -> bool
+)
+ident(
+  ext_ref Prims.( < )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 472 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 493
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 494 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 495
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 303 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 304
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 471 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 496
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 449 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 496
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 516
+type(
+  'Aa FStar_Seq_Base.seq ->
+  ('Aa -> Prims.bool) ->
+  Prims.nat -> Prims.nat FStar_Pervasives_Native.option
+)
+ident(
+  int_ref find "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 6 149 157 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 6 149 161
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 517 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 518
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 303 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 304
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 519 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 520
+type(
+  'Aa -> Prims.bool
+)
+ident(
+  int_ref p "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 13 309 317 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 13 309 318
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 522 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 523
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 334
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 524 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 525
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 526 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 539
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 521 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 540
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 19 497 540
+call(
+  tail
+)
+type(
+  Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 556 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+type(
+  Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 18 436 446 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+type(
+  Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 15 339 347 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+type(
+  Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 14 323 329 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+type(
+  Prims.nat -> Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 13 309 313 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+type(
+  ('Aa -> Prims.bool) ->
+  Prims.nat -> Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 12 297 299 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 20 541 584
+type(
+  'Aa FStar_Seq_Base.seq ->
+  ('Aa -> Prims.bool) ->
+  Prims.nat -> Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 22 588 597 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 22 588 607
+type(
+  Prims.nat ->
+  Prims.unit fin FStar_Seq_Base.seq ->
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  def pigeonhole "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 22 588 588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 27 715 721 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 27 715 723
+type(
+  Prims.nat
+)
+ident(
+  def a1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 28 728 732 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2033
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 28 728 736 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 28 728 738
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  def a2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 749 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2033
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 754 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 755
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 769 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2018
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 773 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 774
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 790 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2018
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 793 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 794
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 754 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 755
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 795 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 796
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 797 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 811
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 793 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 811
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 828 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 837
+type(
+  Obj.t ->
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 839 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 847
+type(
+  '_a -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 849 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 857
+type(
+  string -> '_a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 858 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 871
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 848 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 872
+call(
+  tail
+)
+type(
+  '_a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 838 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 873
+type(
+  Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 828 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 32 812 873
+type(
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 34 890 903 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 34 890 912
+type(
+  Obj.t ->
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 35 913 929 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 35 913 937
+type(
+  Z.t * Prims.nat -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 960 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 961
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 754 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 755
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 962 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 963
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 964 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 977
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 960 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 977
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 37 978 1003 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 37 978 1017
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 37 978 1019 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 37 978 1032
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 37 978 1002 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 37 978 1033
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1084 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1086
+type(
+  Prims.unit fin
+)
+ident(
+  def k0 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1153 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2015
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1089 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1109
+type(
+  Prims.unit fin FStar_Seq_Base.seq -> Prims.nat -> Prims.unit fin
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1110 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1111
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 773 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 774
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1112 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1126
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1089 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1126
+call(
+  stack
+)
+type(
+  Prims.unit fin
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1159 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1163
+type(
+  Prims.unit fin FStar_Seq_Base.seq ->
+  (Prims.unit fin -> Prims.bool) ->
+  Prims.nat -> Prims.nat FStar_Pervasives_Native.option
+)
+ident(
+  int_ref find "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 6 149 157 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 6 149 161
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1164 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1165
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 773 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 774
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1171 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1172
+type(
+  Prims.unit fin
+)
+ident(
+  def k "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1177 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1183
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1177 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1178
+type(
+  Prims.unit fin
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1171 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1172
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1179 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1180
+type(
+  Prims.unit fin -> Prims.unit fin -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1181 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1183
+type(
+  Prims.unit fin
+)
+ident(
+  int_ref k0 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1084 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1086
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1177 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1183
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1166 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1184
+type(
+  Prims.unit fin -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1185 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1198
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1159 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1198
+call(
+  stack
+)
+type(
+  Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1257 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1258
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1262 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1281
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1228 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1258
+type(
+  Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1263 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1277
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1279 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1280
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1257 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1258
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1262 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 41 1204 1281
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 42 1282 1306 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 42 1282 1334
+type(
+  Prims.nat FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 43 1339 1369 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 43 1339 1378
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  def reduced_s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 51 1736 1762 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2015
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 44 1381 1409 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 44 1381 1428
+type(
+  Prims.nat ->
+  (Prims.nat -> Prims.unit fin) -> Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.init
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 44 1381 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 44 1381 1430
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 754 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 755
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 45 1431 1466 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 45 1431 1467
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1505 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1702
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1509 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1510
+type(
+  Prims.unit fin
+)
+ident(
+  def k "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1663 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1702
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1548 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1568
+type(
+  Prims.unit fin FStar_Seq_Base.seq -> Prims.nat -> Prims.unit fin
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1569 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1570
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 773 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 774
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1572 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1573
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 45 1431 1466 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 45 1431 1467
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1574 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1575
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1576 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1589
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1571 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1590
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1548 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 47 1513 1590
+call(
+  stack
+)
+type(
+  Prims.unit fin
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1666 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1667
+type(
+  Prims.unit fin
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1509 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1510
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1668 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1669
+type(
+  Prims.unit fin -> Prims.unit fin -> bool
+)
+ident(
+  ext_ref Prims.( < )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1670 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1672
+type(
+  Prims.unit fin
+)
+ident(
+  int_ref k0 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1084 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1086
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1666 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1672
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1678 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1679
+type(
+  Prims.unit fin
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1509 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1510
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1685 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1686
+type(
+  Prims.unit fin
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1509 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1510
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1687 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1688
+type(
+  Prims.unit fin -> Z.t -> Prims.unit fin
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1689 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1702
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1685 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1702
+call(
+  tail
+)
+type(
+  Prims.unit fin
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1663 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1702
+type(
+  Prims.unit fin
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 46 1472 1505 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1702
+type(
+  Prims.unit fin
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 45 1431 1461 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1703
+type(
+  Prims.nat -> Prims.unit fin
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 44 1381 1409 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 49 1630 1703
+call(
+  stack
+)
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 51 1736 1766 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 51 1736 1775
+type(
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  def uu____255 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 53 1851 1877 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2015
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1806 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1816
+type(
+  Prims.nat ->
+  Prims.unit fin FStar_Seq_Base.seq ->
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  int_ref pigeonhole "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 22 588 597 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 22 588 607
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1818 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1819
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 754 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 755
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1820 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1821
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1822 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1835
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1817 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1836
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1837 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1846
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  int_ref reduced_s "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 43 1339 1369 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 43 1339 1378
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1806 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 52 1778 1846
+call(
+  stack
+)
+type(
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 53 1851 1884 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 53 1851 1893
+type(
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  int_ref uu____255 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 51 1736 1766 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 51 1736 1775
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1929 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1931
+type(
+  (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  def i1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1970 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2014
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1932 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1934
+type(
+  (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  def i2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1970 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2014
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1928 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1935
+type(
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1972 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1974
+type(
+  (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  int_ref i1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1929 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1931
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1975 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1976
+type(
+  (Prims.unit fin, Prims.unit) in_ -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1977 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1990
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1971 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1991
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1994 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1996
+type(
+  (Prims.unit fin, Prims.unit) in_
+)
+ident(
+  int_ref i2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1932 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 54 1899 1934
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1997 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1998
+type(
+  (Prims.unit fin, Prims.unit) in_ -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1999 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2012
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1993 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2013
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 1970 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2014
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 53 1851 1877 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2015
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 51 1736 1762 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2015
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 43 1339 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2015
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 40 1131 1153 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2015
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 39 1058 1079 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2016
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 36 938 956 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2017
+type(
+  Z.t * Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 35 913 928 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2018
+type(
+  Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 34 890 903 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2018
+type(
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 31 779 790 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2018
+type(
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 30 760 769 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2018
+type(
+  Prims.unit fin FStar_Seq_Base.seq ->
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 749 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 55 1939 2019
+type(
+  Prims.nat ->
+  Prims.unit fin FStar_Seq_Base.seq ->
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2028 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2030
+type(
+  Prims.nat
+)
+ident(
+  int_ref a1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 27 715 721 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 27 715 723
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2031 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2033
+type(
+  Prims.unit fin FStar_Seq_Base.seq
+)
+ident(
+  int_ref a2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 28 728 736 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 28 728 738
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 29 743 749 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2033
+type(
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 28 728 732 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2033
+type(
+  Prims.unit fin FStar_Seq_Base.seq ->
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 27 715 717 "ulib/tactics_ml/fstarlib_leftovers/FStar_Fin.ml" 56 2020 2033
+type(
+  Prims.nat ->
+  Prims.unit fin FStar_Seq_Base.seq ->
+  (Prims.unit fin, Prims.unit) in_ * (Prims.unit fin, Prims.unit) in_
+)

@@ -1,0 +1,3294 @@
+"ulib/ml/FStar_Int_Cast.ml" 14 217 221 "ulib/ml/FStar_Int_Cast.ml" 14 217 236
+type(
+  u8 -> u64
+)
+ident(
+  def uint8_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 15 277 277 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 14 217 238 "ulib/ml/FStar_Int_Cast.ml" 14 217 239
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 14 217 244 "ulib/ml/FStar_Int_Cast.ml" 14 217 276
+)
+"ulib/ml/FStar_Int_Cast.ml" 14 217 254 "ulib/ml/FStar_Int_Cast.ml" 14 217 274
+type(
+  u8 -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 14 217 275 "ulib/ml/FStar_Int_Cast.ml" 14 217 276
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 14 217 238 "ulib/ml/FStar_Int_Cast.ml" 14 217 239
+)
+"ulib/ml/FStar_Int_Cast.ml" 14 217 254 "ulib/ml/FStar_Int_Cast.ml" 14 217 276
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 15 277 281 "ulib/ml/FStar_Int_Cast.ml" 15 277 296
+type(
+  u8 -> u63
+)
+ident(
+  def uint8_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 16 316 316 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 15 277 298 "ulib/ml/FStar_Int_Cast.ml" 15 277 299
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 15 277 304 "ulib/ml/FStar_Int_Cast.ml" 15 277 315
+)
+"ulib/ml/FStar_Int_Cast.ml" 15 277 314 "ulib/ml/FStar_Int_Cast.ml" 15 277 315
+type(
+  u63
+)
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 15 277 298 "ulib/ml/FStar_Int_Cast.ml" 15 277 299
+)
+"ulib/ml/FStar_Int_Cast.ml" 16 316 320 "ulib/ml/FStar_Int_Cast.ml" 16 316 335
+type(
+  u8 -> u32
+)
+ident(
+  def uint8_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 17 355 355 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 16 316 337 "ulib/ml/FStar_Int_Cast.ml" 16 316 338
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 16 316 343 "ulib/ml/FStar_Int_Cast.ml" 16 316 354
+)
+"ulib/ml/FStar_Int_Cast.ml" 16 316 353 "ulib/ml/FStar_Int_Cast.ml" 16 316 354
+type(
+  u32
+)
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 16 316 337 "ulib/ml/FStar_Int_Cast.ml" 16 316 338
+)
+"ulib/ml/FStar_Int_Cast.ml" 17 355 359 "ulib/ml/FStar_Int_Cast.ml" 17 355 374
+type(
+  u8 -> u16
+)
+ident(
+  def uint8_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 19 395 395 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 17 355 376 "ulib/ml/FStar_Int_Cast.ml" 17 355 377
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 17 355 382 "ulib/ml/FStar_Int_Cast.ml" 17 355 393
+)
+"ulib/ml/FStar_Int_Cast.ml" 17 355 392 "ulib/ml/FStar_Int_Cast.ml" 17 355 393
+type(
+  u16
+)
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 17 355 376 "ulib/ml/FStar_Int_Cast.ml" 17 355 377
+)
+"ulib/ml/FStar_Int_Cast.ml" 19 395 399 "ulib/ml/FStar_Int_Cast.ml" 19 395 415
+type(
+  u16 -> u64
+)
+ident(
+  def uint16_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 20 457 457 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 19 395 417 "ulib/ml/FStar_Int_Cast.ml" 19 395 418
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 19 395 424 "ulib/ml/FStar_Int_Cast.ml" 19 395 456
+)
+"ulib/ml/FStar_Int_Cast.ml" 19 395 434 "ulib/ml/FStar_Int_Cast.ml" 19 395 454
+type(
+  u16 -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 19 395 455 "ulib/ml/FStar_Int_Cast.ml" 19 395 456
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 19 395 417 "ulib/ml/FStar_Int_Cast.ml" 19 395 418
+)
+"ulib/ml/FStar_Int_Cast.ml" 19 395 434 "ulib/ml/FStar_Int_Cast.ml" 19 395 456
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 20 457 461 "ulib/ml/FStar_Int_Cast.ml" 20 457 477
+type(
+  u16 -> u63
+)
+ident(
+  def uint16_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 21 498 498 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 20 457 479 "ulib/ml/FStar_Int_Cast.ml" 20 457 480
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 20 457 486 "ulib/ml/FStar_Int_Cast.ml" 20 457 497
+)
+"ulib/ml/FStar_Int_Cast.ml" 20 457 496 "ulib/ml/FStar_Int_Cast.ml" 20 457 497
+type(
+  u63
+)
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 20 457 479 "ulib/ml/FStar_Int_Cast.ml" 20 457 480
+)
+"ulib/ml/FStar_Int_Cast.ml" 21 498 502 "ulib/ml/FStar_Int_Cast.ml" 21 498 518
+type(
+  u16 -> u32
+)
+ident(
+  def uint16_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 22 539 539 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 21 498 520 "ulib/ml/FStar_Int_Cast.ml" 21 498 521
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 21 498 527 "ulib/ml/FStar_Int_Cast.ml" 21 498 538
+)
+"ulib/ml/FStar_Int_Cast.ml" 21 498 537 "ulib/ml/FStar_Int_Cast.ml" 21 498 538
+type(
+  u32
+)
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 21 498 520 "ulib/ml/FStar_Int_Cast.ml" 21 498 521
+)
+"ulib/ml/FStar_Int_Cast.ml" 22 539 543 "ulib/ml/FStar_Int_Cast.ml" 22 539 558
+type(
+  u16 -> u8
+)
+ident(
+  def uint16_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 24 589 589 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 22 539 561 "ulib/ml/FStar_Int_Cast.ml" 22 539 562
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 22 539 568 "ulib/ml/FStar_Int_Cast.ml" 22 539 587
+)
+"ulib/ml/FStar_Int_Cast.ml" 22 539 577 "ulib/ml/FStar_Int_Cast.ml" 22 539 578
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 22 539 561 "ulib/ml/FStar_Int_Cast.ml" 22 539 562
+)
+"ulib/ml/FStar_Int_Cast.ml" 22 539 579 "ulib/ml/FStar_Int_Cast.ml" 22 539 583
+type(
+  u16 -> int -> u8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 22 539 584 "ulib/ml/FStar_Int_Cast.ml" 22 539 587
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 22 539 577 "ulib/ml/FStar_Int_Cast.ml" 22 539 587
+type(
+  u8
+)
+type(
+  u8
+)
+"ulib/ml/FStar_Int_Cast.ml" 24 589 593 "ulib/ml/FStar_Int_Cast.ml" 24 589 609
+type(
+  u32 -> u64
+)
+ident(
+  def uint32_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 25 670 670 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 24 589 611 "ulib/ml/FStar_Int_Cast.ml" 24 589 612
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 24 589 618 "ulib/ml/FStar_Int_Cast.ml" 24 589 669
+)
+"ulib/ml/FStar_Int_Cast.ml" 24 589 628 "ulib/ml/FStar_Int_Cast.ml" 24 589 651
+type(
+  string -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_string
+)
+"ulib/ml/FStar_Int_Cast.ml" 24 589 653 "ulib/ml/FStar_Int_Cast.ml" 24 589 666
+type(
+  u32 -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 24 589 667 "ulib/ml/FStar_Int_Cast.ml" 24 589 668
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 24 589 611 "ulib/ml/FStar_Int_Cast.ml" 24 589 612
+)
+"ulib/ml/FStar_Int_Cast.ml" 24 589 652 "ulib/ml/FStar_Int_Cast.ml" 24 589 669
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Int_Cast.ml" 24 589 628 "ulib/ml/FStar_Int_Cast.ml" 24 589 669
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 25 670 674 "ulib/ml/FStar_Int_Cast.ml" 25 670 690
+type(
+  u32 -> u63
+)
+ident(
+  def uint32_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 26 711 711 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 25 670 692 "ulib/ml/FStar_Int_Cast.ml" 25 670 693
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 25 670 699 "ulib/ml/FStar_Int_Cast.ml" 25 670 710
+)
+"ulib/ml/FStar_Int_Cast.ml" 25 670 709 "ulib/ml/FStar_Int_Cast.ml" 25 670 710
+type(
+  u63
+)
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 25 670 692 "ulib/ml/FStar_Int_Cast.ml" 25 670 693
+)
+"ulib/ml/FStar_Int_Cast.ml" 26 711 715 "ulib/ml/FStar_Int_Cast.ml" 26 711 731
+type(
+  u32 -> u16
+)
+ident(
+  def uint32_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 27 763 763 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 26 711 733 "ulib/ml/FStar_Int_Cast.ml" 26 711 734
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 26 711 740 "ulib/ml/FStar_Int_Cast.ml" 26 711 762
+)
+"ulib/ml/FStar_Int_Cast.ml" 26 711 750 "ulib/ml/FStar_Int_Cast.ml" 26 711 751
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 26 711 733 "ulib/ml/FStar_Int_Cast.ml" 26 711 734
+)
+"ulib/ml/FStar_Int_Cast.ml" 26 711 752 "ulib/ml/FStar_Int_Cast.ml" 26 711 756
+type(
+  u32 -> int -> u16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 26 711 757 "ulib/ml/FStar_Int_Cast.ml" 26 711 762
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 26 711 750 "ulib/ml/FStar_Int_Cast.ml" 26 711 762
+type(
+  u16
+)
+type(
+  u16
+)
+"ulib/ml/FStar_Int_Cast.ml" 27 763 767 "ulib/ml/FStar_Int_Cast.ml" 27 763 782
+type(
+  u32 -> u8
+)
+ident(
+  def uint32_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 29 813 813 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 27 763 785 "ulib/ml/FStar_Int_Cast.ml" 27 763 786
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 27 763 792 "ulib/ml/FStar_Int_Cast.ml" 27 763 811
+)
+"ulib/ml/FStar_Int_Cast.ml" 27 763 801 "ulib/ml/FStar_Int_Cast.ml" 27 763 802
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 27 763 785 "ulib/ml/FStar_Int_Cast.ml" 27 763 786
+)
+"ulib/ml/FStar_Int_Cast.ml" 27 763 803 "ulib/ml/FStar_Int_Cast.ml" 27 763 807
+type(
+  u32 -> int -> u8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 27 763 808 "ulib/ml/FStar_Int_Cast.ml" 27 763 811
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 27 763 801 "ulib/ml/FStar_Int_Cast.ml" 27 763 811
+type(
+  u8
+)
+type(
+  u8
+)
+"ulib/ml/FStar_Int_Cast.ml" 29 813 817 "ulib/ml/FStar_Int_Cast.ml" 29 813 833
+type(
+  u63 -> u64
+)
+ident(
+  def uint63_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 30 894 894 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 29 813 835 "ulib/ml/FStar_Int_Cast.ml" 29 813 836
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 29 813 842 "ulib/ml/FStar_Int_Cast.ml" 29 813 893
+)
+"ulib/ml/FStar_Int_Cast.ml" 29 813 852 "ulib/ml/FStar_Int_Cast.ml" 29 813 875
+type(
+  string -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_string
+)
+"ulib/ml/FStar_Int_Cast.ml" 29 813 877 "ulib/ml/FStar_Int_Cast.ml" 29 813 890
+type(
+  u63 -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 29 813 891 "ulib/ml/FStar_Int_Cast.ml" 29 813 892
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 29 813 835 "ulib/ml/FStar_Int_Cast.ml" 29 813 836
+)
+"ulib/ml/FStar_Int_Cast.ml" 29 813 876 "ulib/ml/FStar_Int_Cast.ml" 29 813 893
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Int_Cast.ml" 29 813 852 "ulib/ml/FStar_Int_Cast.ml" 29 813 893
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 30 894 898 "ulib/ml/FStar_Int_Cast.ml" 30 894 914
+type(
+  u63 -> u32
+)
+ident(
+  def uint63_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 31 951 951 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 30 894 916 "ulib/ml/FStar_Int_Cast.ml" 30 894 917
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 30 894 923 "ulib/ml/FStar_Int_Cast.ml" 30 894 950
+)
+"ulib/ml/FStar_Int_Cast.ml" 30 894 933 "ulib/ml/FStar_Int_Cast.ml" 30 894 934
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 30 894 916 "ulib/ml/FStar_Int_Cast.ml" 30 894 917
+)
+"ulib/ml/FStar_Int_Cast.ml" 30 894 935 "ulib/ml/FStar_Int_Cast.ml" 30 894 939
+type(
+  u63 -> int -> u32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 30 894 940 "ulib/ml/FStar_Int_Cast.ml" 30 894 950
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 30 894 933 "ulib/ml/FStar_Int_Cast.ml" 30 894 950
+type(
+  u32
+)
+type(
+  u32
+)
+"ulib/ml/FStar_Int_Cast.ml" 31 951 955 "ulib/ml/FStar_Int_Cast.ml" 31 951 971
+type(
+  u63 -> u16
+)
+ident(
+  def uint63_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1003 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 31 951 973 "ulib/ml/FStar_Int_Cast.ml" 31 951 974
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 31 951 980 "ulib/ml/FStar_Int_Cast.ml" 31 951 1002
+)
+"ulib/ml/FStar_Int_Cast.ml" 31 951 990 "ulib/ml/FStar_Int_Cast.ml" 31 951 991
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 31 951 973 "ulib/ml/FStar_Int_Cast.ml" 31 951 974
+)
+"ulib/ml/FStar_Int_Cast.ml" 31 951 992 "ulib/ml/FStar_Int_Cast.ml" 31 951 996
+type(
+  u63 -> int -> u16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 31 951 997 "ulib/ml/FStar_Int_Cast.ml" 31 951 1002
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 31 951 990 "ulib/ml/FStar_Int_Cast.ml" 31 951 1002
+type(
+  u16
+)
+type(
+  u16
+)
+"ulib/ml/FStar_Int_Cast.ml" 32 1003 1007 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1022
+type(
+  u63 -> u8
+)
+ident(
+  def uint63_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 34 1054 1054 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 32 1003 1025 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1026
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 32 1003 1032 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1052
+)
+"ulib/ml/FStar_Int_Cast.ml" 32 1003 1042 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1043
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 32 1003 1025 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1026
+)
+"ulib/ml/FStar_Int_Cast.ml" 32 1003 1044 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1048
+type(
+  u63 -> int -> u8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 32 1003 1049 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1052
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 32 1003 1042 "ulib/ml/FStar_Int_Cast.ml" 32 1003 1052
+type(
+  u8
+)
+type(
+  u8
+)
+"ulib/ml/FStar_Int_Cast.ml" 34 1054 1058 "ulib/ml/FStar_Int_Cast.ml" 34 1054 1074
+type(
+  u64 -> u63
+)
+ident(
+  def uint64_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1116 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 34 1054 1076 "ulib/ml/FStar_Int_Cast.ml" 34 1054 1077
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 34 1054 1083 "ulib/ml/FStar_Int_Cast.ml" 34 1054 1115
+)
+"ulib/ml/FStar_Int_Cast.ml" 34 1054 1093 "ulib/ml/FStar_Int_Cast.ml" 34 1054 1113
+type(
+  Stdint.Uint64.t -> u63
+)
+ident(
+  ext_ref Stdint.Uint64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 34 1054 1114 "ulib/ml/FStar_Int_Cast.ml" 34 1054 1115
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 34 1054 1076 "ulib/ml/FStar_Int_Cast.ml" 34 1054 1077
+)
+"ulib/ml/FStar_Int_Cast.ml" 34 1054 1093 "ulib/ml/FStar_Int_Cast.ml" 34 1054 1115
+call(
+  tail
+)
+type(
+  u63
+)
+type(
+  u63
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1120 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1136
+type(
+  u64 -> u32
+)
+ident(
+  def uint64_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1235 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1138 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1139
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 35 1116 1145 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1234
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1155 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1175
+type(
+  Stdint.Uint64.t -> u32
+)
+ident(
+  ext_ref Stdint.Uint64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1177 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1197
+type(
+  Stdint.Uint64.t -> Stdint.Uint64.t -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.logand
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1198 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1199
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 35 1116 1138 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1139
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1201 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1221
+type(
+  int -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1222 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1232
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1200 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1233
+call(
+  stack
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1176 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1234
+call(
+  stack
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 35 1116 1155 "ulib/ml/FStar_Int_Cast.ml" 35 1116 1234
+call(
+  tail
+)
+type(
+  u32
+)
+type(
+  u32
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1239 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1255
+type(
+  u64 -> u16
+)
+ident(
+  def uint64_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1354 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1257 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1258
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 36 1235 1264 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1348
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1274 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1294
+type(
+  Stdint.Uint64.t -> u16
+)
+ident(
+  ext_ref Stdint.Uint64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1296 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1316
+type(
+  Stdint.Uint64.t -> Stdint.Uint64.t -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.logand
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1317 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1318
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 36 1235 1257 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1258
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1320 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1340
+type(
+  int -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1341 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1346
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1319 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1347
+call(
+  stack
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1295 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1348
+call(
+  stack
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 36 1235 1274 "ulib/ml/FStar_Int_Cast.ml" 36 1235 1348
+call(
+  tail
+)
+type(
+  u16
+)
+type(
+  u16
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1358 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1373
+type(
+  u64 -> u8
+)
+ident(
+  def uint64_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 42 1594 1594 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1376 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1377
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 37 1354 1383 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1489
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1393 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1406
+type(
+  string -> u8
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1408 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1431
+type(
+  Stdint.Uint64.t -> string
+)
+ident(
+  ext_ref Stdint.Uint64.to_string
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1433 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1453
+type(
+  Stdint.Uint64.t -> Stdint.Uint64.t -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.logand
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1454 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1455
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 37 1354 1376 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1377
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1457 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1480
+type(
+  string -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_string
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1481 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1486
+type(
+  string
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1456 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1487
+call(
+  stack
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1432 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1488
+call(
+  stack
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1407 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1489
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Int_Cast.ml" 37 1354 1393 "ulib/ml/FStar_Int_Cast.ml" 37 1354 1489
+type(
+  u8
+)
+type(
+  u8
+)
+"ulib/ml/FStar_Int_Cast.ml" 42 1594 1598 "ulib/ml/FStar_Int_Cast.ml" 42 1594 1611
+type(
+  i8 -> i64
+)
+ident(
+  def int8_to_int64 "ulib/ml/FStar_Int_Cast.ml" 43 1644 1644 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 42 1594 1613 "ulib/ml/FStar_Int_Cast.ml" 42 1594 1614
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 42 1594 1619 "ulib/ml/FStar_Int_Cast.ml" 42 1594 1643
+)
+"ulib/ml/FStar_Int_Cast.ml" 42 1594 1629 "ulib/ml/FStar_Int_Cast.ml" 42 1594 1641
+type(
+  i8 -> i64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 42 1594 1642 "ulib/ml/FStar_Int_Cast.ml" 42 1594 1643
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 42 1594 1613 "ulib/ml/FStar_Int_Cast.ml" 42 1594 1614
+)
+"ulib/ml/FStar_Int_Cast.ml" 42 1594 1629 "ulib/ml/FStar_Int_Cast.ml" 42 1594 1643
+type(
+  i64
+)
+type(
+  i64
+)
+"ulib/ml/FStar_Int_Cast.ml" 43 1644 1648 "ulib/ml/FStar_Int_Cast.ml" 43 1644 1661
+type(
+  i8 -> i63
+)
+ident(
+  def int8_to_int63 "ulib/ml/FStar_Int_Cast.ml" 44 1717 1717 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 43 1644 1663 "ulib/ml/FStar_Int_Cast.ml" 43 1644 1664
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 43 1644 1669 "ulib/ml/FStar_Int_Cast.ml" 43 1644 1680
+)
+"ulib/ml/FStar_Int_Cast.ml" 43 1644 1679 "ulib/ml/FStar_Int_Cast.ml" 43 1644 1680
+type(
+  i63
+)
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 43 1644 1663 "ulib/ml/FStar_Int_Cast.ml" 43 1644 1664
+)
+"ulib/ml/FStar_Int_Cast.ml" 44 1717 1721 "ulib/ml/FStar_Int_Cast.ml" 44 1717 1734
+type(
+  i8 -> i32
+)
+ident(
+  def int8_to_int32 "ulib/ml/FStar_Int_Cast.ml" 45 1754 1754 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 44 1717 1736 "ulib/ml/FStar_Int_Cast.ml" 44 1717 1737
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 44 1717 1742 "ulib/ml/FStar_Int_Cast.ml" 44 1717 1753
+)
+"ulib/ml/FStar_Int_Cast.ml" 44 1717 1752 "ulib/ml/FStar_Int_Cast.ml" 44 1717 1753
+type(
+  i32
+)
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 44 1717 1736 "ulib/ml/FStar_Int_Cast.ml" 44 1717 1737
+)
+"ulib/ml/FStar_Int_Cast.ml" 45 1754 1758 "ulib/ml/FStar_Int_Cast.ml" 45 1754 1771
+type(
+  i8 -> i16
+)
+ident(
+  def int8_to_int16 "ulib/ml/FStar_Int_Cast.ml" 47 1792 1792 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 45 1754 1773 "ulib/ml/FStar_Int_Cast.ml" 45 1754 1774
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 45 1754 1779 "ulib/ml/FStar_Int_Cast.ml" 45 1754 1790
+)
+"ulib/ml/FStar_Int_Cast.ml" 45 1754 1789 "ulib/ml/FStar_Int_Cast.ml" 45 1754 1790
+type(
+  i16
+)
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 45 1754 1773 "ulib/ml/FStar_Int_Cast.ml" 45 1754 1774
+)
+"ulib/ml/FStar_Int_Cast.ml" 47 1792 1796 "ulib/ml/FStar_Int_Cast.ml" 47 1792 1810
+type(
+  i16 -> i64
+)
+ident(
+  def int16_to_int64 "ulib/ml/FStar_Int_Cast.ml" 48 1844 1844 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 47 1792 1812 "ulib/ml/FStar_Int_Cast.ml" 47 1792 1813
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 47 1792 1819 "ulib/ml/FStar_Int_Cast.ml" 47 1792 1843
+)
+"ulib/ml/FStar_Int_Cast.ml" 47 1792 1829 "ulib/ml/FStar_Int_Cast.ml" 47 1792 1841
+type(
+  i16 -> i64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 47 1792 1842 "ulib/ml/FStar_Int_Cast.ml" 47 1792 1843
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 47 1792 1812 "ulib/ml/FStar_Int_Cast.ml" 47 1792 1813
+)
+"ulib/ml/FStar_Int_Cast.ml" 47 1792 1829 "ulib/ml/FStar_Int_Cast.ml" 47 1792 1843
+type(
+  i64
+)
+type(
+  i64
+)
+"ulib/ml/FStar_Int_Cast.ml" 48 1844 1848 "ulib/ml/FStar_Int_Cast.ml" 48 1844 1862
+type(
+  i16 -> i63
+)
+ident(
+  def int16_to_int63 "ulib/ml/FStar_Int_Cast.ml" 49 1883 1883 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 48 1844 1864 "ulib/ml/FStar_Int_Cast.ml" 48 1844 1865
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 48 1844 1871 "ulib/ml/FStar_Int_Cast.ml" 48 1844 1882
+)
+"ulib/ml/FStar_Int_Cast.ml" 48 1844 1881 "ulib/ml/FStar_Int_Cast.ml" 48 1844 1882
+type(
+  i63
+)
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 48 1844 1864 "ulib/ml/FStar_Int_Cast.ml" 48 1844 1865
+)
+"ulib/ml/FStar_Int_Cast.ml" 49 1883 1887 "ulib/ml/FStar_Int_Cast.ml" 49 1883 1901
+type(
+  i16 -> i32
+)
+ident(
+  def int16_to_int32 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1922 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 49 1883 1903 "ulib/ml/FStar_Int_Cast.ml" 49 1883 1904
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 49 1883 1910 "ulib/ml/FStar_Int_Cast.ml" 49 1883 1921
+)
+"ulib/ml/FStar_Int_Cast.ml" 49 1883 1920 "ulib/ml/FStar_Int_Cast.ml" 49 1883 1921
+type(
+  i32
+)
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 49 1883 1903 "ulib/ml/FStar_Int_Cast.ml" 49 1883 1904
+)
+"ulib/ml/FStar_Int_Cast.ml" 50 1922 1926 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1939
+type(
+  i16 -> i8
+)
+ident(
+  def int16_to_int8 "ulib/ml/FStar_Int_Cast.ml" 52 1971 1971 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 50 1922 1942 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1943
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 50 1922 1949 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1969
+)
+"ulib/ml/FStar_Int_Cast.ml" 50 1922 1959 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1960
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 50 1922 1942 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1943
+)
+"ulib/ml/FStar_Int_Cast.ml" 50 1922 1961 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1965
+type(
+  i16 -> int -> i8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 50 1922 1966 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1969
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 50 1922 1959 "ulib/ml/FStar_Int_Cast.ml" 50 1922 1969
+type(
+  i8
+)
+type(
+  i8
+)
+"ulib/ml/FStar_Int_Cast.ml" 52 1971 1975 "ulib/ml/FStar_Int_Cast.ml" 52 1971 1989
+type(
+  i32 -> i64
+)
+ident(
+  def int32_to_int64 "ulib/ml/FStar_Int_Cast.ml" 53 2073 2073 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 52 1971 1991 "ulib/ml/FStar_Int_Cast.ml" 52 1971 1992
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 52 1971 1998 "ulib/ml/FStar_Int_Cast.ml" 52 1971 2022
+)
+"ulib/ml/FStar_Int_Cast.ml" 52 1971 2008 "ulib/ml/FStar_Int_Cast.ml" 52 1971 2020
+type(
+  i32 -> i64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 52 1971 2021 "ulib/ml/FStar_Int_Cast.ml" 52 1971 2022
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 52 1971 1991 "ulib/ml/FStar_Int_Cast.ml" 52 1971 1992
+)
+"ulib/ml/FStar_Int_Cast.ml" 52 1971 2008 "ulib/ml/FStar_Int_Cast.ml" 52 1971 2022
+type(
+  i64
+)
+type(
+  i64
+)
+"ulib/ml/FStar_Int_Cast.ml" 53 2073 2077 "ulib/ml/FStar_Int_Cast.ml" 53 2073 2091
+type(
+  i32 -> i63
+)
+ident(
+  def int32_to_int63 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2112 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 53 2073 2093 "ulib/ml/FStar_Int_Cast.ml" 53 2073 2094
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 53 2073 2100 "ulib/ml/FStar_Int_Cast.ml" 53 2073 2111
+)
+"ulib/ml/FStar_Int_Cast.ml" 53 2073 2110 "ulib/ml/FStar_Int_Cast.ml" 53 2073 2111
+type(
+  i63
+)
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 53 2073 2093 "ulib/ml/FStar_Int_Cast.ml" 53 2073 2094
+)
+"ulib/ml/FStar_Int_Cast.ml" 54 2112 2116 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2130
+type(
+  i32 -> i16
+)
+ident(
+  def int32_to_int16 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2162 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 54 2112 2132 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2133
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 54 2112 2139 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2161
+)
+"ulib/ml/FStar_Int_Cast.ml" 54 2112 2149 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2150
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 54 2112 2132 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2133
+)
+"ulib/ml/FStar_Int_Cast.ml" 54 2112 2151 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2155
+type(
+  i32 -> int -> i16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 54 2112 2156 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2161
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 54 2112 2149 "ulib/ml/FStar_Int_Cast.ml" 54 2112 2161
+type(
+  i16
+)
+type(
+  i16
+)
+"ulib/ml/FStar_Int_Cast.ml" 55 2162 2166 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2179
+type(
+  i32 -> i8
+)
+ident(
+  def int32_to_int8 "ulib/ml/FStar_Int_Cast.ml" 57 2211 2211 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 55 2162 2182 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2183
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 55 2162 2189 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2209
+)
+"ulib/ml/FStar_Int_Cast.ml" 55 2162 2199 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2200
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 55 2162 2182 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2183
+)
+"ulib/ml/FStar_Int_Cast.ml" 55 2162 2201 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2205
+type(
+  i32 -> int -> i8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 55 2162 2206 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2209
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 55 2162 2199 "ulib/ml/FStar_Int_Cast.ml" 55 2162 2209
+type(
+  i8
+)
+type(
+  i8
+)
+"ulib/ml/FStar_Int_Cast.ml" 57 2211 2215 "ulib/ml/FStar_Int_Cast.ml" 57 2211 2229
+type(
+  i63 -> i64
+)
+ident(
+  def int63_to_int64 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2313 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 57 2211 2231 "ulib/ml/FStar_Int_Cast.ml" 57 2211 2232
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 57 2211 2238 "ulib/ml/FStar_Int_Cast.ml" 57 2211 2262
+)
+"ulib/ml/FStar_Int_Cast.ml" 57 2211 2248 "ulib/ml/FStar_Int_Cast.ml" 57 2211 2260
+type(
+  i63 -> i64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 57 2211 2261 "ulib/ml/FStar_Int_Cast.ml" 57 2211 2262
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 57 2211 2231 "ulib/ml/FStar_Int_Cast.ml" 57 2211 2232
+)
+"ulib/ml/FStar_Int_Cast.ml" 57 2211 2248 "ulib/ml/FStar_Int_Cast.ml" 57 2211 2262
+type(
+  i64
+)
+type(
+  i64
+)
+"ulib/ml/FStar_Int_Cast.ml" 58 2313 2317 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2331
+type(
+  i63 -> i32
+)
+ident(
+  def int63_to_int32 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2368 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 58 2313 2333 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2334
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 58 2313 2340 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2367
+)
+"ulib/ml/FStar_Int_Cast.ml" 58 2313 2350 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2351
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 58 2313 2333 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2334
+)
+"ulib/ml/FStar_Int_Cast.ml" 58 2313 2352 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2356
+type(
+  i63 -> int -> i32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 58 2313 2357 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2367
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 58 2313 2350 "ulib/ml/FStar_Int_Cast.ml" 58 2313 2367
+type(
+  i32
+)
+type(
+  i32
+)
+"ulib/ml/FStar_Int_Cast.ml" 59 2368 2372 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2386
+type(
+  i63 -> i16
+)
+ident(
+  def int63_to_int16 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2418 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 59 2368 2388 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2389
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 59 2368 2395 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2417
+)
+"ulib/ml/FStar_Int_Cast.ml" 59 2368 2405 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2406
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 59 2368 2388 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2389
+)
+"ulib/ml/FStar_Int_Cast.ml" 59 2368 2407 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2411
+type(
+  i63 -> int -> i16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 59 2368 2412 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2417
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 59 2368 2405 "ulib/ml/FStar_Int_Cast.ml" 59 2368 2417
+type(
+  i16
+)
+type(
+  i16
+)
+"ulib/ml/FStar_Int_Cast.ml" 60 2418 2422 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2435
+type(
+  i63 -> i8
+)
+ident(
+  def int63_to_int8 "ulib/ml/FStar_Int_Cast.ml" 62 2467 2467 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 60 2418 2438 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2439
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 60 2418 2445 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2465
+)
+"ulib/ml/FStar_Int_Cast.ml" 60 2418 2455 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2456
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 60 2418 2438 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2439
+)
+"ulib/ml/FStar_Int_Cast.ml" 60 2418 2457 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2461
+type(
+  i63 -> int -> i8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 60 2418 2462 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2465
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 60 2418 2455 "ulib/ml/FStar_Int_Cast.ml" 60 2418 2465
+type(
+  i8
+)
+type(
+  i8
+)
+"ulib/ml/FStar_Int_Cast.ml" 62 2467 2471 "ulib/ml/FStar_Int_Cast.ml" 62 2467 2485
+type(
+  i64 -> i63
+)
+ident(
+  def int64_to_int63 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2519 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 62 2467 2487 "ulib/ml/FStar_Int_Cast.ml" 62 2467 2488
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 62 2467 2494 "ulib/ml/FStar_Int_Cast.ml" 62 2467 2518
+)
+"ulib/ml/FStar_Int_Cast.ml" 62 2467 2504 "ulib/ml/FStar_Int_Cast.ml" 62 2467 2516
+type(
+  i64 -> i63
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 62 2467 2517 "ulib/ml/FStar_Int_Cast.ml" 62 2467 2518
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 62 2467 2487 "ulib/ml/FStar_Int_Cast.ml" 62 2467 2488
+)
+"ulib/ml/FStar_Int_Cast.ml" 62 2467 2504 "ulib/ml/FStar_Int_Cast.ml" 62 2467 2518
+type(
+  i63
+)
+type(
+  i63
+)
+"ulib/ml/FStar_Int_Cast.ml" 63 2519 2523 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2537
+type(
+  i64 -> i32
+)
+ident(
+  def int64_to_int32 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2589 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 63 2519 2539 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2540
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 63 2519 2546 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2588
+)
+"ulib/ml/FStar_Int_Cast.ml" 63 2519 2557 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2569
+type(
+  i64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 63 2519 2570 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2571
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 63 2519 2539 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2540
+)
+"ulib/ml/FStar_Int_Cast.ml" 63 2519 2556 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2572
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 63 2519 2573 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2577
+type(
+  int -> int -> i32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 63 2519 2578 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2588
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 63 2519 2556 "ulib/ml/FStar_Int_Cast.ml" 63 2519 2588
+type(
+  i32
+)
+type(
+  i32
+)
+"ulib/ml/FStar_Int_Cast.ml" 64 2589 2593 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2607
+type(
+  i64 -> i16
+)
+ident(
+  def int64_to_int16 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2654 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 64 2589 2609 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2610
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 64 2589 2616 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2653
+)
+"ulib/ml/FStar_Int_Cast.ml" 64 2589 2627 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2639
+type(
+  i64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 64 2589 2640 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2641
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 64 2589 2609 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2610
+)
+"ulib/ml/FStar_Int_Cast.ml" 64 2589 2626 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2642
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 64 2589 2643 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2647
+type(
+  int -> int -> i16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 64 2589 2648 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2653
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 64 2589 2626 "ulib/ml/FStar_Int_Cast.ml" 64 2589 2653
+type(
+  i16
+)
+type(
+  i16
+)
+"ulib/ml/FStar_Int_Cast.ml" 65 2654 2658 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2671
+type(
+  i64 -> i8
+)
+ident(
+  def int64_to_int8 "ulib/ml/FStar_Int_Cast.ml" 68 2740 2740 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 65 2654 2674 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2675
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 65 2654 2681 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2716
+)
+"ulib/ml/FStar_Int_Cast.ml" 65 2654 2692 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2704
+type(
+  i64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 65 2654 2705 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2706
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 65 2654 2674 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2675
+)
+"ulib/ml/FStar_Int_Cast.ml" 65 2654 2691 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2707
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 65 2654 2708 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2712
+type(
+  int -> int -> i8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 65 2654 2713 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2716
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 65 2654 2691 "ulib/ml/FStar_Int_Cast.ml" 65 2654 2716
+type(
+  i8
+)
+type(
+  i8
+)
+"ulib/ml/FStar_Int_Cast.ml" 68 2740 2744 "ulib/ml/FStar_Int_Cast.ml" 68 2740 2758
+type(
+  u8 -> i64
+)
+ident(
+  def uint8_to_int64 "ulib/ml/FStar_Int_Cast.ml" 69 2791 2791 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 68 2740 2760 "ulib/ml/FStar_Int_Cast.ml" 68 2740 2761
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 68 2740 2766 "ulib/ml/FStar_Int_Cast.ml" 68 2740 2790
+)
+"ulib/ml/FStar_Int_Cast.ml" 68 2740 2776 "ulib/ml/FStar_Int_Cast.ml" 68 2740 2788
+type(
+  u8 -> i64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 68 2740 2789 "ulib/ml/FStar_Int_Cast.ml" 68 2740 2790
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 68 2740 2760 "ulib/ml/FStar_Int_Cast.ml" 68 2740 2761
+)
+"ulib/ml/FStar_Int_Cast.ml" 68 2740 2776 "ulib/ml/FStar_Int_Cast.ml" 68 2740 2790
+type(
+  i64
+)
+type(
+  i64
+)
+"ulib/ml/FStar_Int_Cast.ml" 69 2791 2795 "ulib/ml/FStar_Int_Cast.ml" 69 2791 2809
+type(
+  u8 -> i63
+)
+ident(
+  def uint8_to_int63 "ulib/ml/FStar_Int_Cast.ml" 70 2829 2829 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 69 2791 2811 "ulib/ml/FStar_Int_Cast.ml" 69 2791 2812
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 69 2791 2817 "ulib/ml/FStar_Int_Cast.ml" 69 2791 2828
+)
+"ulib/ml/FStar_Int_Cast.ml" 69 2791 2827 "ulib/ml/FStar_Int_Cast.ml" 69 2791 2828
+type(
+  i63
+)
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 69 2791 2811 "ulib/ml/FStar_Int_Cast.ml" 69 2791 2812
+)
+"ulib/ml/FStar_Int_Cast.ml" 70 2829 2833 "ulib/ml/FStar_Int_Cast.ml" 70 2829 2847
+type(
+  u8 -> i32
+)
+ident(
+  def uint8_to_int32 "ulib/ml/FStar_Int_Cast.ml" 71 2867 2867 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 70 2829 2849 "ulib/ml/FStar_Int_Cast.ml" 70 2829 2850
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 70 2829 2855 "ulib/ml/FStar_Int_Cast.ml" 70 2829 2866
+)
+"ulib/ml/FStar_Int_Cast.ml" 70 2829 2865 "ulib/ml/FStar_Int_Cast.ml" 70 2829 2866
+type(
+  i32
+)
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 70 2829 2849 "ulib/ml/FStar_Int_Cast.ml" 70 2829 2850
+)
+"ulib/ml/FStar_Int_Cast.ml" 71 2867 2871 "ulib/ml/FStar_Int_Cast.ml" 71 2867 2885
+type(
+  u8 -> i16
+)
+ident(
+  def uint8_to_int16 "ulib/ml/FStar_Int_Cast.ml" 72 2905 2905 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 71 2867 2887 "ulib/ml/FStar_Int_Cast.ml" 71 2867 2888
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 71 2867 2893 "ulib/ml/FStar_Int_Cast.ml" 71 2867 2904
+)
+"ulib/ml/FStar_Int_Cast.ml" 71 2867 2903 "ulib/ml/FStar_Int_Cast.ml" 71 2867 2904
+type(
+  i16
+)
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 71 2867 2887 "ulib/ml/FStar_Int_Cast.ml" 71 2867 2888
+)
+"ulib/ml/FStar_Int_Cast.ml" 72 2905 2909 "ulib/ml/FStar_Int_Cast.ml" 72 2905 2922
+type(
+  u8 -> i8
+)
+ident(
+  def uint8_to_int8 "ulib/ml/FStar_Int_Cast.ml" 74 2944 2944 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 72 2905 2925 "ulib/ml/FStar_Int_Cast.ml" 72 2905 2926
+type(
+  u8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 72 2905 2931 "ulib/ml/FStar_Int_Cast.ml" 72 2905 2942
+)
+"ulib/ml/FStar_Int_Cast.ml" 72 2905 2941 "ulib/ml/FStar_Int_Cast.ml" 72 2905 2942
+type(
+  i8
+)
+type(
+  u8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 72 2905 2925 "ulib/ml/FStar_Int_Cast.ml" 72 2905 2926
+)
+"ulib/ml/FStar_Int_Cast.ml" 74 2944 2948 "ulib/ml/FStar_Int_Cast.ml" 74 2944 2963
+type(
+  u16 -> i64
+)
+ident(
+  def uint16_to_int64 "ulib/ml/FStar_Int_Cast.ml" 75 2997 2997 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 74 2944 2965 "ulib/ml/FStar_Int_Cast.ml" 74 2944 2966
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 74 2944 2972 "ulib/ml/FStar_Int_Cast.ml" 74 2944 2996
+)
+"ulib/ml/FStar_Int_Cast.ml" 74 2944 2982 "ulib/ml/FStar_Int_Cast.ml" 74 2944 2994
+type(
+  u16 -> i64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 74 2944 2995 "ulib/ml/FStar_Int_Cast.ml" 74 2944 2996
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 74 2944 2965 "ulib/ml/FStar_Int_Cast.ml" 74 2944 2966
+)
+"ulib/ml/FStar_Int_Cast.ml" 74 2944 2982 "ulib/ml/FStar_Int_Cast.ml" 74 2944 2996
+type(
+  i64
+)
+type(
+  i64
+)
+"ulib/ml/FStar_Int_Cast.ml" 75 2997 3001 "ulib/ml/FStar_Int_Cast.ml" 75 2997 3016
+type(
+  u16 -> i63
+)
+ident(
+  def uint16_to_int63 "ulib/ml/FStar_Int_Cast.ml" 76 3037 3037 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 75 2997 3018 "ulib/ml/FStar_Int_Cast.ml" 75 2997 3019
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 75 2997 3025 "ulib/ml/FStar_Int_Cast.ml" 75 2997 3036
+)
+"ulib/ml/FStar_Int_Cast.ml" 75 2997 3035 "ulib/ml/FStar_Int_Cast.ml" 75 2997 3036
+type(
+  i63
+)
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 75 2997 3018 "ulib/ml/FStar_Int_Cast.ml" 75 2997 3019
+)
+"ulib/ml/FStar_Int_Cast.ml" 76 3037 3041 "ulib/ml/FStar_Int_Cast.ml" 76 3037 3056
+type(
+  u16 -> i32
+)
+ident(
+  def uint16_to_int32 "ulib/ml/FStar_Int_Cast.ml" 77 3077 3077 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 76 3037 3058 "ulib/ml/FStar_Int_Cast.ml" 76 3037 3059
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 76 3037 3065 "ulib/ml/FStar_Int_Cast.ml" 76 3037 3076
+)
+"ulib/ml/FStar_Int_Cast.ml" 76 3037 3075 "ulib/ml/FStar_Int_Cast.ml" 76 3037 3076
+type(
+  i32
+)
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 76 3037 3058 "ulib/ml/FStar_Int_Cast.ml" 76 3037 3059
+)
+"ulib/ml/FStar_Int_Cast.ml" 77 3077 3081 "ulib/ml/FStar_Int_Cast.ml" 77 3077 3096
+type(
+  u16 -> i16
+)
+ident(
+  def uint16_to_int16 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3118 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 77 3077 3098 "ulib/ml/FStar_Int_Cast.ml" 77 3077 3099
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 77 3077 3105 "ulib/ml/FStar_Int_Cast.ml" 77 3077 3116
+)
+"ulib/ml/FStar_Int_Cast.ml" 77 3077 3115 "ulib/ml/FStar_Int_Cast.ml" 77 3077 3116
+type(
+  i16
+)
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 77 3077 3098 "ulib/ml/FStar_Int_Cast.ml" 77 3077 3099
+)
+"ulib/ml/FStar_Int_Cast.ml" 78 3118 3122 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3136
+type(
+  u16 -> i8
+)
+ident(
+  def uint16_to_int8 "ulib/ml/FStar_Int_Cast.ml" 80 3168 3168 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 78 3118 3139 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3140
+type(
+  u16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 78 3118 3146 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3166
+)
+"ulib/ml/FStar_Int_Cast.ml" 78 3118 3156 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3157
+type(
+  u16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 78 3118 3139 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3140
+)
+"ulib/ml/FStar_Int_Cast.ml" 78 3118 3158 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3162
+type(
+  u16 -> int -> i8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 78 3118 3163 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3166
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 78 3118 3156 "ulib/ml/FStar_Int_Cast.ml" 78 3118 3166
+type(
+  i8
+)
+type(
+  i8
+)
+"ulib/ml/FStar_Int_Cast.ml" 80 3168 3172 "ulib/ml/FStar_Int_Cast.ml" 80 3168 3187
+type(
+  u32 -> i64
+)
+ident(
+  def uint32_to_int64 "ulib/ml/FStar_Int_Cast.ml" 81 3221 3221 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 80 3168 3189 "ulib/ml/FStar_Int_Cast.ml" 80 3168 3190
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 80 3168 3196 "ulib/ml/FStar_Int_Cast.ml" 80 3168 3220
+)
+"ulib/ml/FStar_Int_Cast.ml" 80 3168 3206 "ulib/ml/FStar_Int_Cast.ml" 80 3168 3218
+type(
+  u32 -> i64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 80 3168 3219 "ulib/ml/FStar_Int_Cast.ml" 80 3168 3220
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 80 3168 3189 "ulib/ml/FStar_Int_Cast.ml" 80 3168 3190
+)
+"ulib/ml/FStar_Int_Cast.ml" 80 3168 3206 "ulib/ml/FStar_Int_Cast.ml" 80 3168 3220
+type(
+  i64
+)
+type(
+  i64
+)
+"ulib/ml/FStar_Int_Cast.ml" 81 3221 3225 "ulib/ml/FStar_Int_Cast.ml" 81 3221 3240
+type(
+  u32 -> i63
+)
+ident(
+  def uint32_to_int63 "ulib/ml/FStar_Int_Cast.ml" 82 3261 3261 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 81 3221 3242 "ulib/ml/FStar_Int_Cast.ml" 81 3221 3243
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 81 3221 3249 "ulib/ml/FStar_Int_Cast.ml" 81 3221 3260
+)
+"ulib/ml/FStar_Int_Cast.ml" 81 3221 3259 "ulib/ml/FStar_Int_Cast.ml" 81 3221 3260
+type(
+  i63
+)
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 81 3221 3242 "ulib/ml/FStar_Int_Cast.ml" 81 3221 3243
+)
+"ulib/ml/FStar_Int_Cast.ml" 82 3261 3265 "ulib/ml/FStar_Int_Cast.ml" 82 3261 3280
+type(
+  u32 -> i32
+)
+ident(
+  def uint32_to_int32 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3302 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 82 3261 3282 "ulib/ml/FStar_Int_Cast.ml" 82 3261 3283
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 82 3261 3289 "ulib/ml/FStar_Int_Cast.ml" 82 3261 3300
+)
+"ulib/ml/FStar_Int_Cast.ml" 82 3261 3299 "ulib/ml/FStar_Int_Cast.ml" 82 3261 3300
+type(
+  i32
+)
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 82 3261 3282 "ulib/ml/FStar_Int_Cast.ml" 82 3261 3283
+)
+"ulib/ml/FStar_Int_Cast.ml" 83 3302 3306 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3321
+type(
+  u32 -> i16
+)
+ident(
+  def uint32_to_int16 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3353 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 83 3302 3323 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3324
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 83 3302 3330 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3352
+)
+"ulib/ml/FStar_Int_Cast.ml" 83 3302 3340 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3341
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 83 3302 3323 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3324
+)
+"ulib/ml/FStar_Int_Cast.ml" 83 3302 3342 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3346
+type(
+  u32 -> int -> i16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 83 3302 3347 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3352
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 83 3302 3340 "ulib/ml/FStar_Int_Cast.ml" 83 3302 3352
+type(
+  i16
+)
+type(
+  i16
+)
+"ulib/ml/FStar_Int_Cast.ml" 84 3353 3357 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3371
+type(
+  u32 -> i8
+)
+ident(
+  def uint32_to_int8 "ulib/ml/FStar_Int_Cast.ml" 86 3403 3403 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 84 3353 3374 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3375
+type(
+  u32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 84 3353 3381 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3401
+)
+"ulib/ml/FStar_Int_Cast.ml" 84 3353 3391 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3392
+type(
+  u32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 84 3353 3374 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3375
+)
+"ulib/ml/FStar_Int_Cast.ml" 84 3353 3393 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3397
+type(
+  u32 -> int -> i8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 84 3353 3398 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3401
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 84 3353 3391 "ulib/ml/FStar_Int_Cast.ml" 84 3353 3401
+type(
+  i8
+)
+type(
+  i8
+)
+"ulib/ml/FStar_Int_Cast.ml" 86 3403 3407 "ulib/ml/FStar_Int_Cast.ml" 86 3403 3422
+type(
+  u63 -> i64
+)
+ident(
+  def uint63_to_int64 "ulib/ml/FStar_Int_Cast.ml" 87 3456 3456 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 86 3403 3424 "ulib/ml/FStar_Int_Cast.ml" 86 3403 3425
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 86 3403 3431 "ulib/ml/FStar_Int_Cast.ml" 86 3403 3455
+)
+"ulib/ml/FStar_Int_Cast.ml" 86 3403 3441 "ulib/ml/FStar_Int_Cast.ml" 86 3403 3453
+type(
+  u63 -> i64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 86 3403 3454 "ulib/ml/FStar_Int_Cast.ml" 86 3403 3455
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 86 3403 3424 "ulib/ml/FStar_Int_Cast.ml" 86 3403 3425
+)
+"ulib/ml/FStar_Int_Cast.ml" 86 3403 3441 "ulib/ml/FStar_Int_Cast.ml" 86 3403 3455
+type(
+  i64
+)
+type(
+  i64
+)
+"ulib/ml/FStar_Int_Cast.ml" 87 3456 3460 "ulib/ml/FStar_Int_Cast.ml" 87 3456 3475
+type(
+  u63 -> i63
+)
+ident(
+  def uint63_to_int63 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3496 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 87 3456 3477 "ulib/ml/FStar_Int_Cast.ml" 87 3456 3478
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 87 3456 3484 "ulib/ml/FStar_Int_Cast.ml" 87 3456 3495
+)
+"ulib/ml/FStar_Int_Cast.ml" 87 3456 3494 "ulib/ml/FStar_Int_Cast.ml" 87 3456 3495
+type(
+  i63
+)
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 87 3456 3477 "ulib/ml/FStar_Int_Cast.ml" 87 3456 3478
+)
+"ulib/ml/FStar_Int_Cast.ml" 88 3496 3500 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3515
+type(
+  u63 -> i32
+)
+ident(
+  def uint63_to_int32 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3552 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 88 3496 3517 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3518
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 88 3496 3524 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3551
+)
+"ulib/ml/FStar_Int_Cast.ml" 88 3496 3534 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3535
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 88 3496 3517 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3518
+)
+"ulib/ml/FStar_Int_Cast.ml" 88 3496 3536 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3540
+type(
+  u63 -> int -> i32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 88 3496 3541 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3551
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 88 3496 3534 "ulib/ml/FStar_Int_Cast.ml" 88 3496 3551
+type(
+  i32
+)
+type(
+  i32
+)
+"ulib/ml/FStar_Int_Cast.ml" 89 3552 3556 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3571
+type(
+  u63 -> i16
+)
+ident(
+  def uint63_to_int16 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3603 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 89 3552 3573 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3574
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 89 3552 3580 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3602
+)
+"ulib/ml/FStar_Int_Cast.ml" 89 3552 3590 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3591
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 89 3552 3573 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3574
+)
+"ulib/ml/FStar_Int_Cast.ml" 89 3552 3592 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3596
+type(
+  u63 -> int -> i16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 89 3552 3597 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3602
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 89 3552 3590 "ulib/ml/FStar_Int_Cast.ml" 89 3552 3602
+type(
+  i16
+)
+type(
+  i16
+)
+"ulib/ml/FStar_Int_Cast.ml" 90 3603 3607 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3621
+type(
+  u63 -> i8
+)
+ident(
+  def uint63_to_int8 "ulib/ml/FStar_Int_Cast.ml" 92 3653 3653 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 90 3603 3624 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3625
+type(
+  u63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 90 3603 3631 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3651
+)
+"ulib/ml/FStar_Int_Cast.ml" 90 3603 3641 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3642
+type(
+  u63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 90 3603 3624 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3625
+)
+"ulib/ml/FStar_Int_Cast.ml" 90 3603 3643 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3647
+type(
+  u63 -> int -> i8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 90 3603 3648 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3651
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 90 3603 3641 "ulib/ml/FStar_Int_Cast.ml" 90 3603 3651
+type(
+  i8
+)
+type(
+  i8
+)
+"ulib/ml/FStar_Int_Cast.ml" 92 3653 3657 "ulib/ml/FStar_Int_Cast.ml" 92 3653 3672
+type(
+  u64 -> i64
+)
+ident(
+  def uint64_to_int64 "ulib/ml/FStar_Int_Cast.ml" 93 3716 3716 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 92 3653 3674 "ulib/ml/FStar_Int_Cast.ml" 92 3653 3675
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 92 3653 3681 "ulib/ml/FStar_Int_Cast.ml" 92 3653 3715
+)
+"ulib/ml/FStar_Int_Cast.ml" 92 3653 3691 "ulib/ml/FStar_Int_Cast.ml" 92 3653 3713
+type(
+  Stdint.Uint64.t -> Stdint.int64
+)
+ident(
+  ext_ref Stdint.Uint64.to_int64
+)
+"ulib/ml/FStar_Int_Cast.ml" 92 3653 3714 "ulib/ml/FStar_Int_Cast.ml" 92 3653 3715
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 92 3653 3674 "ulib/ml/FStar_Int_Cast.ml" 92 3653 3675
+)
+"ulib/ml/FStar_Int_Cast.ml" 92 3653 3691 "ulib/ml/FStar_Int_Cast.ml" 92 3653 3715
+call(
+  tail
+)
+type(
+  i64
+)
+type(
+  Stdint.int64
+)
+"ulib/ml/FStar_Int_Cast.ml" 93 3716 3720 "ulib/ml/FStar_Int_Cast.ml" 93 3716 3735
+type(
+  u64 -> i63
+)
+ident(
+  def uint64_to_int63 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3777 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 93 3716 3737 "ulib/ml/FStar_Int_Cast.ml" 93 3716 3738
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 93 3716 3744 "ulib/ml/FStar_Int_Cast.ml" 93 3716 3776
+)
+"ulib/ml/FStar_Int_Cast.ml" 93 3716 3754 "ulib/ml/FStar_Int_Cast.ml" 93 3716 3774
+type(
+  Stdint.Uint64.t -> i63
+)
+ident(
+  ext_ref Stdint.Uint64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 93 3716 3775 "ulib/ml/FStar_Int_Cast.ml" 93 3716 3776
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 93 3716 3737 "ulib/ml/FStar_Int_Cast.ml" 93 3716 3738
+)
+"ulib/ml/FStar_Int_Cast.ml" 93 3716 3754 "ulib/ml/FStar_Int_Cast.ml" 93 3716 3776
+call(
+  tail
+)
+type(
+  i63
+)
+type(
+  i63
+)
+"ulib/ml/FStar_Int_Cast.ml" 94 3777 3781 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3796
+type(
+  u64 -> i32
+)
+ident(
+  def uint64_to_int32 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3854 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 94 3777 3798 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3799
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 94 3777 3805 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3853
+)
+"ulib/ml/FStar_Int_Cast.ml" 94 3777 3815 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3835
+type(
+  Stdint.Uint64.t -> int
+)
+ident(
+  ext_ref Stdint.Uint64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 94 3777 3836 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3837
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 94 3777 3798 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3799
+)
+"ulib/ml/FStar_Int_Cast.ml" 94 3777 3815 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3837
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 94 3777 3838 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3842
+type(
+  int -> int -> i32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 94 3777 3843 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3853
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 94 3777 3815 "ulib/ml/FStar_Int_Cast.ml" 94 3777 3853
+type(
+  i32
+)
+type(
+  i32
+)
+"ulib/ml/FStar_Int_Cast.ml" 95 3854 3858 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3873
+type(
+  u64 -> i16
+)
+ident(
+  def uint64_to_int16 "ulib/ml/FStar_Int_Cast.ml" 96 3950 3950 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 95 3854 3875 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3876
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 95 3854 3882 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3925
+)
+"ulib/ml/FStar_Int_Cast.ml" 95 3854 3892 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3912
+type(
+  Stdint.Uint64.t -> int
+)
+ident(
+  ext_ref Stdint.Uint64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 95 3854 3913 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3914
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 95 3854 3875 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3876
+)
+"ulib/ml/FStar_Int_Cast.ml" 95 3854 3892 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3914
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 95 3854 3915 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3919
+type(
+  int -> int -> i16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 95 3854 3920 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3925
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 95 3854 3892 "ulib/ml/FStar_Int_Cast.ml" 95 3854 3925
+type(
+  i16
+)
+type(
+  i16
+)
+"ulib/ml/FStar_Int_Cast.ml" 96 3950 3954 "ulib/ml/FStar_Int_Cast.ml" 96 3950 3968
+type(
+  u64 -> i8
+)
+ident(
+  def uint64_to_int8 "ulib/ml/FStar_Int_Cast.ml" 99 4042 4042 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 96 3950 3971 "ulib/ml/FStar_Int_Cast.ml" 96 3950 3972
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 96 3950 3978 "ulib/ml/FStar_Int_Cast.ml" 96 3950 4019
+)
+"ulib/ml/FStar_Int_Cast.ml" 96 3950 3988 "ulib/ml/FStar_Int_Cast.ml" 96 3950 4008
+type(
+  Stdint.Uint64.t -> int
+)
+ident(
+  ext_ref Stdint.Uint64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 96 3950 4009 "ulib/ml/FStar_Int_Cast.ml" 96 3950 4010
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 96 3950 3971 "ulib/ml/FStar_Int_Cast.ml" 96 3950 3972
+)
+"ulib/ml/FStar_Int_Cast.ml" 96 3950 3988 "ulib/ml/FStar_Int_Cast.ml" 96 3950 4010
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 96 3950 4011 "ulib/ml/FStar_Int_Cast.ml" 96 3950 4015
+type(
+  int -> int -> i8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 96 3950 4016 "ulib/ml/FStar_Int_Cast.ml" 96 3950 4019
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 96 3950 3988 "ulib/ml/FStar_Int_Cast.ml" 96 3950 4019
+type(
+  i8
+)
+type(
+  i8
+)
+"ulib/ml/FStar_Int_Cast.ml" 99 4042 4046 "ulib/ml/FStar_Int_Cast.ml" 99 4042 4060
+type(
+  i8 -> u64
+)
+ident(
+  def int8_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 100 4101 4101 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 99 4042 4062 "ulib/ml/FStar_Int_Cast.ml" 99 4042 4063
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 99 4042 4068 "ulib/ml/FStar_Int_Cast.ml" 99 4042 4100
+)
+"ulib/ml/FStar_Int_Cast.ml" 99 4042 4078 "ulib/ml/FStar_Int_Cast.ml" 99 4042 4098
+type(
+  i8 -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 99 4042 4099 "ulib/ml/FStar_Int_Cast.ml" 99 4042 4100
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 99 4042 4062 "ulib/ml/FStar_Int_Cast.ml" 99 4042 4063
+)
+"ulib/ml/FStar_Int_Cast.ml" 99 4042 4078 "ulib/ml/FStar_Int_Cast.ml" 99 4042 4100
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 100 4101 4105 "ulib/ml/FStar_Int_Cast.ml" 100 4101 4119
+type(
+  i8 -> u63
+)
+ident(
+  def int8_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 101 4139 4139 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 100 4101 4121 "ulib/ml/FStar_Int_Cast.ml" 100 4101 4122
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 100 4101 4127 "ulib/ml/FStar_Int_Cast.ml" 100 4101 4138
+)
+"ulib/ml/FStar_Int_Cast.ml" 100 4101 4137 "ulib/ml/FStar_Int_Cast.ml" 100 4101 4138
+type(
+  u63
+)
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 100 4101 4121 "ulib/ml/FStar_Int_Cast.ml" 100 4101 4122
+)
+"ulib/ml/FStar_Int_Cast.ml" 101 4139 4143 "ulib/ml/FStar_Int_Cast.ml" 101 4139 4157
+type(
+  i8 -> u32
+)
+ident(
+  def int8_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 102 4177 4177 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 101 4139 4159 "ulib/ml/FStar_Int_Cast.ml" 101 4139 4160
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 101 4139 4165 "ulib/ml/FStar_Int_Cast.ml" 101 4139 4176
+)
+"ulib/ml/FStar_Int_Cast.ml" 101 4139 4175 "ulib/ml/FStar_Int_Cast.ml" 101 4139 4176
+type(
+  u32
+)
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 101 4139 4159 "ulib/ml/FStar_Int_Cast.ml" 101 4139 4160
+)
+"ulib/ml/FStar_Int_Cast.ml" 102 4177 4181 "ulib/ml/FStar_Int_Cast.ml" 102 4177 4195
+type(
+  i8 -> u16
+)
+ident(
+  def int8_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 103 4215 4215 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 102 4177 4197 "ulib/ml/FStar_Int_Cast.ml" 102 4177 4198
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 102 4177 4203 "ulib/ml/FStar_Int_Cast.ml" 102 4177 4214
+)
+"ulib/ml/FStar_Int_Cast.ml" 102 4177 4213 "ulib/ml/FStar_Int_Cast.ml" 102 4177 4214
+type(
+  u16
+)
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 102 4177 4197 "ulib/ml/FStar_Int_Cast.ml" 102 4177 4198
+)
+"ulib/ml/FStar_Int_Cast.ml" 103 4215 4219 "ulib/ml/FStar_Int_Cast.ml" 103 4215 4232
+type(
+  i8 -> u8
+)
+ident(
+  def int8_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 105 4254 4254 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 103 4215 4235 "ulib/ml/FStar_Int_Cast.ml" 103 4215 4236
+type(
+  i8
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 103 4215 4241 "ulib/ml/FStar_Int_Cast.ml" 103 4215 4252
+)
+"ulib/ml/FStar_Int_Cast.ml" 103 4215 4251 "ulib/ml/FStar_Int_Cast.ml" 103 4215 4252
+type(
+  u8
+)
+type(
+  i8
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 103 4215 4235 "ulib/ml/FStar_Int_Cast.ml" 103 4215 4236
+)
+"ulib/ml/FStar_Int_Cast.ml" 105 4254 4258 "ulib/ml/FStar_Int_Cast.ml" 105 4254 4273
+type(
+  i16 -> u64
+)
+ident(
+  def int16_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 106 4315 4315 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 105 4254 4275 "ulib/ml/FStar_Int_Cast.ml" 105 4254 4276
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 105 4254 4282 "ulib/ml/FStar_Int_Cast.ml" 105 4254 4314
+)
+"ulib/ml/FStar_Int_Cast.ml" 105 4254 4292 "ulib/ml/FStar_Int_Cast.ml" 105 4254 4312
+type(
+  i16 -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 105 4254 4313 "ulib/ml/FStar_Int_Cast.ml" 105 4254 4314
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 105 4254 4275 "ulib/ml/FStar_Int_Cast.ml" 105 4254 4276
+)
+"ulib/ml/FStar_Int_Cast.ml" 105 4254 4292 "ulib/ml/FStar_Int_Cast.ml" 105 4254 4314
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 106 4315 4319 "ulib/ml/FStar_Int_Cast.ml" 106 4315 4334
+type(
+  i16 -> u63
+)
+ident(
+  def int16_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 107 4355 4355 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 106 4315 4336 "ulib/ml/FStar_Int_Cast.ml" 106 4315 4337
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 106 4315 4343 "ulib/ml/FStar_Int_Cast.ml" 106 4315 4354
+)
+"ulib/ml/FStar_Int_Cast.ml" 106 4315 4353 "ulib/ml/FStar_Int_Cast.ml" 106 4315 4354
+type(
+  u63
+)
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 106 4315 4336 "ulib/ml/FStar_Int_Cast.ml" 106 4315 4337
+)
+"ulib/ml/FStar_Int_Cast.ml" 107 4355 4359 "ulib/ml/FStar_Int_Cast.ml" 107 4355 4374
+type(
+  i16 -> u32
+)
+ident(
+  def int16_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 108 4395 4395 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 107 4355 4376 "ulib/ml/FStar_Int_Cast.ml" 107 4355 4377
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 107 4355 4383 "ulib/ml/FStar_Int_Cast.ml" 107 4355 4394
+)
+"ulib/ml/FStar_Int_Cast.ml" 107 4355 4393 "ulib/ml/FStar_Int_Cast.ml" 107 4355 4394
+type(
+  u32
+)
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 107 4355 4376 "ulib/ml/FStar_Int_Cast.ml" 107 4355 4377
+)
+"ulib/ml/FStar_Int_Cast.ml" 108 4395 4399 "ulib/ml/FStar_Int_Cast.ml" 108 4395 4414
+type(
+  i16 -> u16
+)
+ident(
+  def int16_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4435 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 108 4395 4416 "ulib/ml/FStar_Int_Cast.ml" 108 4395 4417
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 108 4395 4423 "ulib/ml/FStar_Int_Cast.ml" 108 4395 4434
+)
+"ulib/ml/FStar_Int_Cast.ml" 108 4395 4433 "ulib/ml/FStar_Int_Cast.ml" 108 4395 4434
+type(
+  u16
+)
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 108 4395 4416 "ulib/ml/FStar_Int_Cast.ml" 108 4395 4417
+)
+"ulib/ml/FStar_Int_Cast.ml" 109 4435 4439 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4453
+type(
+  i16 -> u8
+)
+ident(
+  def int16_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 111 4485 4485 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 109 4435 4456 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4457
+type(
+  i16
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 109 4435 4463 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4483
+)
+"ulib/ml/FStar_Int_Cast.ml" 109 4435 4473 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4474
+type(
+  i16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 109 4435 4456 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4457
+)
+"ulib/ml/FStar_Int_Cast.ml" 109 4435 4475 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4479
+type(
+  i16 -> int -> u8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 109 4435 4480 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4483
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 109 4435 4473 "ulib/ml/FStar_Int_Cast.ml" 109 4435 4483
+type(
+  u8
+)
+type(
+  u8
+)
+"ulib/ml/FStar_Int_Cast.ml" 111 4485 4489 "ulib/ml/FStar_Int_Cast.ml" 111 4485 4504
+type(
+  i32 -> u64
+)
+ident(
+  def int32_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 112 4546 4546 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 111 4485 4506 "ulib/ml/FStar_Int_Cast.ml" 111 4485 4507
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 111 4485 4513 "ulib/ml/FStar_Int_Cast.ml" 111 4485 4545
+)
+"ulib/ml/FStar_Int_Cast.ml" 111 4485 4523 "ulib/ml/FStar_Int_Cast.ml" 111 4485 4543
+type(
+  i32 -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 111 4485 4544 "ulib/ml/FStar_Int_Cast.ml" 111 4485 4545
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 111 4485 4506 "ulib/ml/FStar_Int_Cast.ml" 111 4485 4507
+)
+"ulib/ml/FStar_Int_Cast.ml" 111 4485 4523 "ulib/ml/FStar_Int_Cast.ml" 111 4485 4545
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 112 4546 4550 "ulib/ml/FStar_Int_Cast.ml" 112 4546 4565
+type(
+  i32 -> u63
+)
+ident(
+  def int32_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 113 4586 4586 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 112 4546 4567 "ulib/ml/FStar_Int_Cast.ml" 112 4546 4568
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 112 4546 4574 "ulib/ml/FStar_Int_Cast.ml" 112 4546 4585
+)
+"ulib/ml/FStar_Int_Cast.ml" 112 4546 4584 "ulib/ml/FStar_Int_Cast.ml" 112 4546 4585
+type(
+  u63
+)
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 112 4546 4567 "ulib/ml/FStar_Int_Cast.ml" 112 4546 4568
+)
+"ulib/ml/FStar_Int_Cast.ml" 113 4586 4590 "ulib/ml/FStar_Int_Cast.ml" 113 4586 4605
+type(
+  i32 -> u32
+)
+ident(
+  def int32_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4626 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 113 4586 4607 "ulib/ml/FStar_Int_Cast.ml" 113 4586 4608
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 113 4586 4614 "ulib/ml/FStar_Int_Cast.ml" 113 4586 4625
+)
+"ulib/ml/FStar_Int_Cast.ml" 113 4586 4624 "ulib/ml/FStar_Int_Cast.ml" 113 4586 4625
+type(
+  u32
+)
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 113 4586 4607 "ulib/ml/FStar_Int_Cast.ml" 113 4586 4608
+)
+"ulib/ml/FStar_Int_Cast.ml" 114 4626 4630 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4645
+type(
+  i32 -> u16
+)
+ident(
+  def int32_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4677 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 114 4626 4647 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4648
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 114 4626 4654 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4676
+)
+"ulib/ml/FStar_Int_Cast.ml" 114 4626 4664 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4665
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 114 4626 4647 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4648
+)
+"ulib/ml/FStar_Int_Cast.ml" 114 4626 4666 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4670
+type(
+  i32 -> int -> u16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 114 4626 4671 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4676
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 114 4626 4664 "ulib/ml/FStar_Int_Cast.ml" 114 4626 4676
+type(
+  u16
+)
+type(
+  u16
+)
+"ulib/ml/FStar_Int_Cast.ml" 115 4677 4681 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4695
+type(
+  i32 -> u8
+)
+ident(
+  def int32_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 117 4727 4727 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 115 4677 4698 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4699
+type(
+  i32
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 115 4677 4705 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4725
+)
+"ulib/ml/FStar_Int_Cast.ml" 115 4677 4715 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4716
+type(
+  i32
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 115 4677 4698 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4699
+)
+"ulib/ml/FStar_Int_Cast.ml" 115 4677 4717 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4721
+type(
+  i32 -> int -> u8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 115 4677 4722 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4725
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 115 4677 4715 "ulib/ml/FStar_Int_Cast.ml" 115 4677 4725
+type(
+  u8
+)
+type(
+  u8
+)
+"ulib/ml/FStar_Int_Cast.ml" 117 4727 4731 "ulib/ml/FStar_Int_Cast.ml" 117 4727 4746
+type(
+  i63 -> u64
+)
+ident(
+  def int63_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 118 4788 4788 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 117 4727 4748 "ulib/ml/FStar_Int_Cast.ml" 117 4727 4749
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 117 4727 4755 "ulib/ml/FStar_Int_Cast.ml" 117 4727 4787
+)
+"ulib/ml/FStar_Int_Cast.ml" 117 4727 4765 "ulib/ml/FStar_Int_Cast.ml" 117 4727 4785
+type(
+  i63 -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 117 4727 4786 "ulib/ml/FStar_Int_Cast.ml" 117 4727 4787
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 117 4727 4748 "ulib/ml/FStar_Int_Cast.ml" 117 4727 4749
+)
+"ulib/ml/FStar_Int_Cast.ml" 117 4727 4765 "ulib/ml/FStar_Int_Cast.ml" 117 4727 4787
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 118 4788 4792 "ulib/ml/FStar_Int_Cast.ml" 118 4788 4807
+type(
+  i63 -> u63
+)
+ident(
+  def int63_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4828 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 118 4788 4809 "ulib/ml/FStar_Int_Cast.ml" 118 4788 4810
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 118 4788 4816 "ulib/ml/FStar_Int_Cast.ml" 118 4788 4827
+)
+"ulib/ml/FStar_Int_Cast.ml" 118 4788 4826 "ulib/ml/FStar_Int_Cast.ml" 118 4788 4827
+type(
+  u63
+)
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 118 4788 4809 "ulib/ml/FStar_Int_Cast.ml" 118 4788 4810
+)
+"ulib/ml/FStar_Int_Cast.ml" 119 4828 4832 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4847
+type(
+  i63 -> u32
+)
+ident(
+  def int63_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4884 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 119 4828 4849 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4850
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 119 4828 4856 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4883
+)
+"ulib/ml/FStar_Int_Cast.ml" 119 4828 4866 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4867
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 119 4828 4849 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4850
+)
+"ulib/ml/FStar_Int_Cast.ml" 119 4828 4868 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4872
+type(
+  i63 -> int -> u32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 119 4828 4873 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4883
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 119 4828 4866 "ulib/ml/FStar_Int_Cast.ml" 119 4828 4883
+type(
+  u32
+)
+type(
+  u32
+)
+"ulib/ml/FStar_Int_Cast.ml" 120 4884 4888 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4903
+type(
+  i63 -> u16
+)
+ident(
+  def int63_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4935 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 120 4884 4905 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4906
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 120 4884 4912 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4934
+)
+"ulib/ml/FStar_Int_Cast.ml" 120 4884 4922 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4923
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 120 4884 4905 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4906
+)
+"ulib/ml/FStar_Int_Cast.ml" 120 4884 4924 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4928
+type(
+  i63 -> int -> u16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 120 4884 4929 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4934
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 120 4884 4922 "ulib/ml/FStar_Int_Cast.ml" 120 4884 4934
+type(
+  u16
+)
+type(
+  u16
+)
+"ulib/ml/FStar_Int_Cast.ml" 121 4935 4939 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4953
+type(
+  i63 -> u8
+)
+ident(
+  def int63_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 123 4985 4985 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 121 4935 4956 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4957
+type(
+  i63
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 121 4935 4963 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4983
+)
+"ulib/ml/FStar_Int_Cast.ml" 121 4935 4973 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4974
+type(
+  i63
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 121 4935 4956 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4957
+)
+"ulib/ml/FStar_Int_Cast.ml" 121 4935 4975 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4979
+type(
+  i63 -> int -> u8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 121 4935 4980 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4983
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 121 4935 4973 "ulib/ml/FStar_Int_Cast.ml" 121 4935 4983
+type(
+  u8
+)
+type(
+  u8
+)
+"ulib/ml/FStar_Int_Cast.ml" 123 4985 4989 "ulib/ml/FStar_Int_Cast.ml" 123 4985 5004
+type(
+  i64 -> u64
+)
+ident(
+  def int64_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 124 5048 5048 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 123 4985 5006 "ulib/ml/FStar_Int_Cast.ml" 123 4985 5007
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 123 4985 5013 "ulib/ml/FStar_Int_Cast.ml" 123 4985 5047
+)
+"ulib/ml/FStar_Int_Cast.ml" 123 4985 5023 "ulib/ml/FStar_Int_Cast.ml" 123 4985 5045
+type(
+  Stdint.int64 -> Stdint.Uint64.t
+)
+ident(
+  ext_ref Stdint.Uint64.of_int64
+)
+"ulib/ml/FStar_Int_Cast.ml" 123 4985 5046 "ulib/ml/FStar_Int_Cast.ml" 123 4985 5047
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 123 4985 5006 "ulib/ml/FStar_Int_Cast.ml" 123 4985 5007
+)
+"ulib/ml/FStar_Int_Cast.ml" 123 4985 5023 "ulib/ml/FStar_Int_Cast.ml" 123 4985 5047
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  Stdint.Uint64.t
+)
+"ulib/ml/FStar_Int_Cast.ml" 124 5048 5052 "ulib/ml/FStar_Int_Cast.ml" 124 5048 5067
+type(
+  i64 -> u63
+)
+ident(
+  def int64_to_uint63 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5101 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 124 5048 5069 "ulib/ml/FStar_Int_Cast.ml" 124 5048 5070
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 124 5048 5076 "ulib/ml/FStar_Int_Cast.ml" 124 5048 5100
+)
+"ulib/ml/FStar_Int_Cast.ml" 124 5048 5086 "ulib/ml/FStar_Int_Cast.ml" 124 5048 5098
+type(
+  i64 -> u63
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 124 5048 5099 "ulib/ml/FStar_Int_Cast.ml" 124 5048 5100
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 124 5048 5069 "ulib/ml/FStar_Int_Cast.ml" 124 5048 5070
+)
+"ulib/ml/FStar_Int_Cast.ml" 124 5048 5086 "ulib/ml/FStar_Int_Cast.ml" 124 5048 5100
+type(
+  u63
+)
+type(
+  u63
+)
+"ulib/ml/FStar_Int_Cast.ml" 125 5101 5105 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5120
+type(
+  i64 -> u32
+)
+ident(
+  def int64_to_uint32 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5170 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 125 5101 5122 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5123
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 125 5101 5129 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5169
+)
+"ulib/ml/FStar_Int_Cast.ml" 125 5101 5139 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5151
+type(
+  i64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 125 5101 5152 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5153
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 125 5101 5122 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5123
+)
+"ulib/ml/FStar_Int_Cast.ml" 125 5101 5139 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5153
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 125 5101 5154 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5158
+type(
+  int -> int -> u32
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 125 5101 5159 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5169
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 125 5101 5139 "ulib/ml/FStar_Int_Cast.ml" 125 5101 5169
+type(
+  u32
+)
+type(
+  u32
+)
+"ulib/ml/FStar_Int_Cast.ml" 126 5170 5174 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5189
+type(
+  i64 -> u16
+)
+ident(
+  def int64_to_uint16 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5265 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 126 5170 5191 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5192
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 126 5170 5198 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5233
+)
+"ulib/ml/FStar_Int_Cast.ml" 126 5170 5208 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5220
+type(
+  i64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 126 5170 5221 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5222
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 126 5170 5191 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5192
+)
+"ulib/ml/FStar_Int_Cast.ml" 126 5170 5208 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5222
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 126 5170 5223 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5227
+type(
+  int -> int -> u16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 126 5170 5228 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5233
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 126 5170 5208 "ulib/ml/FStar_Int_Cast.ml" 126 5170 5233
+type(
+  u16
+)
+type(
+  u16
+)
+"ulib/ml/FStar_Int_Cast.ml" 127 5265 5270 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5284
+type(
+  i64 -> u8
+)
+ident(
+  def int64_to_uint8 "ulib/ml/FStar_Int_Cast.ml" 129 5328 5328 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 127 5265 5286 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5287
+type(
+  i64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 127 5265 5293 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5326
+)
+"ulib/ml/FStar_Int_Cast.ml" 127 5265 5303 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5315
+type(
+  i64 -> int
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_Int_Cast.ml" 127 5265 5316 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5317
+type(
+  i64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 127 5265 5286 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5287
+)
+"ulib/ml/FStar_Int_Cast.ml" 127 5265 5303 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5317
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 127 5265 5318 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5322
+type(
+  int -> int -> u8
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int_Cast.ml" 127 5265 5323 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5326
+type(
+  int
+)
+"ulib/ml/FStar_Int_Cast.ml" 127 5265 5303 "ulib/ml/FStar_Int_Cast.ml" 127 5265 5326
+type(
+  u8
+)
+type(
+  u8
+)
+"ulib/ml/FStar_Int_Cast.ml" 129 5328 5332 "ulib/ml/FStar_Int_Cast.ml" 129 5328 5349
+type(
+  u128 -> u64
+)
+ident(
+  def uint128_to_uint64 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5396 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 129 5328 5351 "ulib/ml/FStar_Int_Cast.ml" 129 5328 5352
+type(
+  u128
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 129 5328 5359 "ulib/ml/FStar_Int_Cast.ml" 129 5328 5395
+)
+"ulib/ml/FStar_Int_Cast.ml" 129 5328 5369 "ulib/ml/FStar_Int_Cast.ml" 129 5328 5393
+type(
+  Stdint.Uint128.t -> u64
+)
+ident(
+  ext_ref Stdint.Uint128.to_uint64
+)
+"ulib/ml/FStar_Int_Cast.ml" 129 5328 5394 "ulib/ml/FStar_Int_Cast.ml" 129 5328 5395
+type(
+  u128
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 129 5328 5351 "ulib/ml/FStar_Int_Cast.ml" 129 5328 5352
+)
+"ulib/ml/FStar_Int_Cast.ml" 129 5328 5369 "ulib/ml/FStar_Int_Cast.ml" 129 5328 5395
+call(
+  tail
+)
+type(
+  u64
+)
+type(
+  u64
+)
+"ulib/ml/FStar_Int_Cast.ml" 130 5396 5400 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5417
+type(
+  u64 -> u128
+)
+ident(
+  def uint64_to_uint128 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5463 "ulib/ml/FStar_Int_Cast.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int_Cast.ml" 130 5396 5419 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5420
+type(
+  u64
+)
+ident(
+  def a "ulib/ml/FStar_Int_Cast.ml" 130 5396 5426 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5463
+)
+"ulib/ml/FStar_Int_Cast.ml" 130 5396 5437 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5461
+type(
+  Stdint.Uint64.t -> u128
+)
+ident(
+  ext_ref Stdint.Uint64.to_uint128
+)
+"ulib/ml/FStar_Int_Cast.ml" 130 5396 5462 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5463
+type(
+  u64
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int_Cast.ml" 130 5396 5419 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5420
+)
+"ulib/ml/FStar_Int_Cast.ml" 130 5396 5437 "ulib/ml/FStar_Int_Cast.ml" 130 5396 5463
+call(
+  tail
+)
+type(
+  u128
+)
+type(
+  u128
+)

@@ -1,0 +1,292 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 2 11 19 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 2 11 23
+type(
+  'Ak 'Av 'At.
+    'Ak FStar_OrdMap.cmp ->
+    ('Ak -> 'Av -> 'At -> 'At) ->
+    ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap -> 'At -> 'At
+)
+ident(
+  def fold "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 2 11 11 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 173 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 174
+type(
+  'Ak FStar_OrdMap.cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 9 179 183 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 9 179 187 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 9 179 188
+type(
+  'Ak -> 'Av -> 'At -> 'At
+)
+ident(
+  def g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 199 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 203 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 204
+type(
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 11 209 217 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 11 209 221 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 11 209 222
+type(
+  'At
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 237 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 241 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 258
+type(
+  'Ak FStar_OrdMap.cmp ->
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap -> Prims.nat
+)
+ident(
+  ext_ref FStar_OrdMap.size
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 259 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 260
+type(
+  'Ak FStar_OrdMap.cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 173 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 174
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 261 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 262
+type(
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 203 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 204
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 240 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 263
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 264 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 265
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 266 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 280
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 240 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 280
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 13 281 296 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 13 281 297
+type(
+  'At
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 11 209 221 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 11 209 222
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 330 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 339
+type(
+  ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+ident(
+  def uu____165 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 16 370 383 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 520
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 342 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 361
+type(
+  'Ak FStar_OrdMap.cmp ->
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap ->
+  ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+ident(
+  ext_ref FStar_OrdMap.choose
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 362 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 363
+type(
+  'Ak FStar_OrdMap.cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 173 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 174
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 364 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 365
+type(
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 203 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 204
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 342 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 365
+call(
+  stack
+)
+type(
+  ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 16 370 389 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 16 370 398
+type(
+  ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+ident(
+  int_ref uu____165 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 330 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 339
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 449 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 450
+type(
+  'Ak
+)
+ident(
+  def k "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 474 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 520
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 451 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 452
+type(
+  'Av
+)
+ident(
+  def v "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 474 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 520
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 448 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 453
+type(
+  'Ak * 'Av
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 419 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 453
+type(
+  ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 474 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 478
+type(
+  'Ak FStar_OrdMap.cmp ->
+  ('Ak -> 'Av -> 'At -> 'At) ->
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap -> 'At -> 'At
+)
+ident(
+  int_ref fold "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 2 11 19 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 2 11 23
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 479 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 480
+type(
+  'Ak FStar_OrdMap.cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 173 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 174
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 481 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 482
+type(
+  'Ak -> 'Av -> 'At -> 'At
+)
+ident(
+  int_ref g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 9 179 187 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 9 179 188
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 484 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 503
+type(
+  'Ak FStar_OrdMap.cmp ->
+  'Ak ->
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap ->
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap
+)
+ident(
+  ext_ref FStar_OrdMap.remove
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 504 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 505
+type(
+  'Ak FStar_OrdMap.cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 173 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 174
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 506 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 507
+type(
+  'Ak
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 449 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 450
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 508 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 509
+type(
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 203 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 204
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 483 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 510
+call(
+  stack
+)
+type(
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 513
+type(
+  'Ak -> 'Av -> 'At -> 'At
+)
+ident(
+  int_ref g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 9 179 187 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 9 179 188
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 514 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 515
+type(
+  'Ak
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 449 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 450
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 516 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 517
+type(
+  'Av
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 451 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 17 404 452
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 518 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 519
+type(
+  'At
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 11 209 221 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 11 209 222
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 511 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 520
+call(
+  stack
+)
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 474 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 520
+call(
+  tail
+)
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 16 370 383 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 520
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 15 313 325 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 12 227 237 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 11 209 217 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+type(
+  'At -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 10 193 199 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+type(
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap -> 'At -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 9 179 183 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+type(
+  ('Ak -> 'Av -> 'At -> 'At) ->
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap -> 'At -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 8 167 169 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdMapProps.ml" 18 457 521
+type(
+  'Ak FStar_OrdMap.cmp ->
+  ('Ak -> 'Av -> 'At -> 'At) ->
+  ('Ak, 'Av, Prims.unit) FStar_OrdMap.ordmap -> 'At -> 'At
+)

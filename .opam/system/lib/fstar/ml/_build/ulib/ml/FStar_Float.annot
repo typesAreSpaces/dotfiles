@@ -1,0 +1,383 @@
+"ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  double -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  double
+)
+ident(
+  int_ref x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  Format.formatter -> double -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_double "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  ((Format.formatter -> double -> Ppx_deriving_runtime.unit) ->
+   double -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> double -> Ppx_deriving_runtime.unit) ->
+   double -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> double -> Ppx_deriving_runtime.unit) ->
+  double -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  double
+)
+ident(
+  def x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  Format.formatter -> double -> Ppx_deriving_runtime.unit
+)
+type(
+  double -> Ppx_deriving_runtime.unit
+)
+type(
+  (double -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  Format.formatter ->
+  (double -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format -> double -> Ppx_deriving_runtime.unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  double -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_double "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 -1
+)
+type(
+  Format.formatter -> double -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_double "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> double Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  (double, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  double
+)
+ident(
+  int_ref x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  (double, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  double
+)
+type(
+  string
+)
+ident(
+  int_ref x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  string -> double
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+type(
+  (double, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  double
+)
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  int -> double
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+type(
+  (double, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  double
+)
+ident(
+  def x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  string
+)
+ident(
+  def x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  int
+)
+ident(
+  def x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  double -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Ppx_deriving_runtime.float
+)
+ident(
+  int_ref x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  Ppx_deriving_runtime.float
+)
+ident(
+  def x "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  Yojson.Safe.json -> double Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def double_of_yojson "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 -1
+)
+type(
+  double -> Yojson.Safe.json
+)
+ident(
+  def double_to_yojson "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 -1
+)
+"ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  float -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  float
+)
+ident(
+  int_ref x "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  Format.formatter -> float -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_float "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  ((Format.formatter -> float -> Ppx_deriving_runtime.unit) ->
+   float -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> float -> Ppx_deriving_runtime.unit) ->
+   float -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> float -> Ppx_deriving_runtime.unit) ->
+  float -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  float
+)
+ident(
+  def x "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  Format.formatter -> float -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> float -> Ppx_deriving_runtime.unit
+)
+type(
+  float -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  Format.formatter -> float -> Ppx_deriving_runtime.unit
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> float -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref __0 "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  unit -> Format.formatter -> double -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> double -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_double "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> double -> Ppx_deriving_runtime.unit
+)
+ident(
+  def __0 "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  float -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_float "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 1 0 -1
+)
+type(
+  Format.formatter -> float -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_float "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> float Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  double Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  Yojson.Safe.json -> double Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref double_of_yojson "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  float -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  float
+)
+ident(
+  int_ref x "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  double -> Yojson.Safe.json
+)
+ident(
+  int_ref double_to_yojson "ulib/ml/FStar_Float.ml" 1 0 0 "ulib/ml/FStar_Float.ml" 1 0 43
+)
+type(
+  float
+)
+ident(
+  def x "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 2 44 87
+)
+type(
+  Yojson.Safe.json -> float Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def float_of_yojson "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 1 0 -1
+)
+type(
+  float -> Yojson.Safe.json
+)
+ident(
+  def float_to_yojson "ulib/ml/FStar_Float.ml" 2 44 44 "ulib/ml/FStar_Float.ml" 1 0 -1
+)

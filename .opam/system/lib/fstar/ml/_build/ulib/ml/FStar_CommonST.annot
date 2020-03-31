@@ -1,0 +1,392 @@
+"ulib/ml/FStar_CommonST.ml" 3 27 31 "ulib/ml/FStar_CommonST.ml" 3 27 35
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a
+)
+ident(
+  def read "ulib/ml/FStar_CommonST.ml" 5 52 52 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 3 27 36 "ulib/ml/FStar_CommonST.ml" 3 27 37
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def x "ulib/ml/FStar_CommonST.ml" 3 27 40 "ulib/ml/FStar_CommonST.ml" 3 27 50
+)
+"ulib/ml/FStar_CommonST.ml" 3 27 40 "ulib/ml/FStar_CommonST.ml" 3 27 41
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  int_ref x "ulib/ml/FStar_CommonST.ml" 3 27 36 "ulib/ml/FStar_CommonST.ml" 3 27 37
+)
+"ulib/ml/FStar_CommonST.ml" 3 27 40 "ulib/ml/FStar_CommonST.ml" 3 27 50
+type(
+  'a
+)
+"ulib/ml/FStar_CommonST.ml" 5 52 56 "ulib/ml/FStar_CommonST.ml" 5 52 63
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a
+)
+ident(
+  def op_Bang "ulib/ml/FStar_CommonST.ml" 7 76 76 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 5 52 64 "ulib/ml/FStar_CommonST.ml" 5 52 65
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def x "ulib/ml/FStar_CommonST.ml" 5 52 68 "ulib/ml/FStar_CommonST.ml" 5 52 74
+)
+"ulib/ml/FStar_CommonST.ml" 5 52 68 "ulib/ml/FStar_CommonST.ml" 5 52 72
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a
+)
+ident(
+  int_ref read "ulib/ml/FStar_CommonST.ml" 3 27 31 "ulib/ml/FStar_CommonST.ml" 3 27 35
+)
+"ulib/ml/FStar_CommonST.ml" 5 52 73 "ulib/ml/FStar_CommonST.ml" 5 52 74
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  int_ref x "ulib/ml/FStar_CommonST.ml" 5 52 64 "ulib/ml/FStar_CommonST.ml" 5 52 65
+)
+"ulib/ml/FStar_CommonST.ml" 5 52 68 "ulib/ml/FStar_CommonST.ml" 5 52 74
+call(
+  tail
+)
+type(
+  'a
+)
+"ulib/ml/FStar_CommonST.ml" 7 76 80 "ulib/ml/FStar_CommonST.ml" 7 76 85
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a -> unit
+)
+ident(
+  def write "ulib/ml/FStar_CommonST.ml" 9 109 109 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 7 76 86 "ulib/ml/FStar_CommonST.ml" 7 76 87
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def x "ulib/ml/FStar_CommonST.ml" 7 76 88 "ulib/ml/FStar_CommonST.ml" 7 76 107
+)
+"ulib/ml/FStar_CommonST.ml" 7 76 88 "ulib/ml/FStar_CommonST.ml" 7 76 89
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/FStar_CommonST.ml" 7 76 92 "ulib/ml/FStar_CommonST.ml" 7 76 107
+)
+"ulib/ml/FStar_CommonST.ml" 7 76 92 "ulib/ml/FStar_CommonST.ml" 7 76 93
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  int_ref x "ulib/ml/FStar_CommonST.ml" 7 76 86 "ulib/ml/FStar_CommonST.ml" 7 76 87
+)
+"ulib/ml/FStar_CommonST.ml" 7 76 106 "ulib/ml/FStar_CommonST.ml" 7 76 107
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/FStar_CommonST.ml" 7 76 88 "ulib/ml/FStar_CommonST.ml" 7 76 89
+)
+"ulib/ml/FStar_CommonST.ml" 7 76 92 "ulib/ml/FStar_CommonST.ml" 7 76 107
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 9 109 113 "ulib/ml/FStar_CommonST.ml" 9 109 128
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a -> unit
+)
+ident(
+  def op_Colon_Equals "ulib/ml/FStar_CommonST.ml" 11 146 146 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 9 109 129 "ulib/ml/FStar_CommonST.ml" 9 109 130
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def x "ulib/ml/FStar_CommonST.ml" 9 109 131 "ulib/ml/FStar_CommonST.ml" 9 109 144
+)
+"ulib/ml/FStar_CommonST.ml" 9 109 131 "ulib/ml/FStar_CommonST.ml" 9 109 132
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/FStar_CommonST.ml" 9 109 135 "ulib/ml/FStar_CommonST.ml" 9 109 144
+)
+"ulib/ml/FStar_CommonST.ml" 9 109 135 "ulib/ml/FStar_CommonST.ml" 9 109 140
+type(
+  'a FStar_Monotonic_Heap.ref -> 'a -> unit
+)
+ident(
+  int_ref write "ulib/ml/FStar_CommonST.ml" 7 76 80 "ulib/ml/FStar_CommonST.ml" 7 76 85
+)
+"ulib/ml/FStar_CommonST.ml" 9 109 141 "ulib/ml/FStar_CommonST.ml" 9 109 142
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  int_ref x "ulib/ml/FStar_CommonST.ml" 9 109 129 "ulib/ml/FStar_CommonST.ml" 9 109 130
+)
+"ulib/ml/FStar_CommonST.ml" 9 109 143 "ulib/ml/FStar_CommonST.ml" 9 109 144
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/FStar_CommonST.ml" 9 109 131 "ulib/ml/FStar_CommonST.ml" 9 109 132
+)
+"ulib/ml/FStar_CommonST.ml" 9 109 135 "ulib/ml/FStar_CommonST.ml" 9 109 144
+call(
+  tail
+)
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 11 146 150 "ulib/ml/FStar_CommonST.ml" 11 146 153
+type(
+  int ref
+)
+ident(
+  def uid "ulib/ml/FStar_CommonST.ml" 13 163 163 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 11 146 156 "ulib/ml/FStar_CommonST.ml" 11 146 159
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ulib/ml/FStar_CommonST.ml" 11 146 160 "ulib/ml/FStar_CommonST.ml" 11 146 161
+type(
+  int
+)
+"ulib/ml/FStar_CommonST.ml" 11 146 156 "ulib/ml/FStar_CommonST.ml" 11 146 161
+type(
+  int ref
+)
+"ulib/ml/FStar_CommonST.ml" 13 163 167 "ulib/ml/FStar_CommonST.ml" 13 163 172
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def alloc "ulib/ml/FStar_CommonST.ml" 19 285 285 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 13 163 173 "ulib/ml/FStar_CommonST.ml" 13 163 181
+type(
+  'a
+)
+ident(
+  def contents "ulib/ml/FStar_CommonST.ml" 14 184 186 "ulib/ml/FStar_CommonST.ml" 17 280 283
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 190 "ulib/ml/FStar_CommonST.ml" 14 184 192
+type(
+  int
+)
+ident(
+  def id "ulib/ml/FStar_CommonST.ml" 15 213 215 "ulib/ml/FStar_CommonST.ml" 17 280 283
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 195 "ulib/ml/FStar_CommonST.ml" 14 184 199
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 200 "ulib/ml/FStar_CommonST.ml" 14 184 203
+type(
+  int ref
+)
+ident(
+  int_ref uid "ulib/ml/FStar_CommonST.ml" 11 146 150 "ulib/ml/FStar_CommonST.ml" 11 146 153
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 195 "ulib/ml/FStar_CommonST.ml" 14 184 203
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 205 "ulib/ml/FStar_CommonST.ml" 14 184 206
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 206 "ulib/ml/FStar_CommonST.ml" 14 184 209
+type(
+  int ref
+)
+ident(
+  int_ref uid "ulib/ml/FStar_CommonST.ml" 11 146 150 "ulib/ml/FStar_CommonST.ml" 11 146 153
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 205 "ulib/ml/FStar_CommonST.ml" 14 184 209
+type(
+  int
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 195 "ulib/ml/FStar_CommonST.ml" 14 184 209
+type(
+  int
+)
+"ulib/ml/FStar_CommonST.ml" 15 213 219 "ulib/ml/FStar_CommonST.ml" 15 213 220
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/ml/FStar_CommonST.ml" 16 243 245 "ulib/ml/FStar_CommonST.ml" 17 280 283
+)
+"ulib/ml/FStar_CommonST.ml" 15 213 225 "ulib/ml/FStar_CommonST.ml" 15 213 227
+type(
+  int
+)
+ident(
+  int_ref id "ulib/ml/FStar_CommonST.ml" 14 184 190 "ulib/ml/FStar_CommonST.ml" 14 184 192
+)
+"ulib/ml/FStar_CommonST.ml" 15 213 229 "ulib/ml/FStar_CommonST.ml" 15 213 237
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/ml/FStar_CommonST.ml" 13 163 173 "ulib/ml/FStar_CommonST.ml" 13 163 181
+)
+"ulib/ml/FStar_CommonST.ml" 15 213 223 "ulib/ml/FStar_CommonST.ml" 15 213 239
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/ml/FStar_CommonST.ml" 16 243 250 "ulib/ml/FStar_CommonST.ml" 16 243 257
+type(
+  Obj.t -> int -> unit
+)
+ident(
+  ext_ref Obj.set_tag
+)
+"ulib/ml/FStar_CommonST.ml" 16 243 259 "ulib/ml/FStar_CommonST.ml" 16 243 263
+type(
+  'a FStar_Monotonic_Heap.ref -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"ulib/ml/FStar_CommonST.ml" 16 243 264 "ulib/ml/FStar_CommonST.ml" 16 243 265
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  int_ref r "ulib/ml/FStar_CommonST.ml" 15 213 219 "ulib/ml/FStar_CommonST.ml" 15 213 220
+)
+"ulib/ml/FStar_CommonST.ml" 16 243 258 "ulib/ml/FStar_CommonST.ml" 16 243 266
+type(
+  Obj.t
+)
+"ulib/ml/FStar_CommonST.ml" 16 243 267 "ulib/ml/FStar_CommonST.ml" 16 243 277
+type(
+  int
+)
+ident(
+  ext_ref Obj.object_tag
+)
+"ulib/ml/FStar_CommonST.ml" 16 243 250 "ulib/ml/FStar_CommonST.ml" 16 243 277
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 17 280 282 "ulib/ml/FStar_CommonST.ml" 17 280 283
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  int_ref r "ulib/ml/FStar_CommonST.ml" 15 213 219 "ulib/ml/FStar_CommonST.ml" 15 213 220
+)
+"ulib/ml/FStar_CommonST.ml" 16 243 245 "ulib/ml/FStar_CommonST.ml" 17 280 283
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/ml/FStar_CommonST.ml" 15 213 215 "ulib/ml/FStar_CommonST.ml" 17 280 283
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/ml/FStar_CommonST.ml" 14 184 186 "ulib/ml/FStar_CommonST.ml" 17 280 283
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/ml/FStar_CommonST.ml" 19 285 289 "ulib/ml/FStar_CommonST.ml" 19 285 295
+type(
+  'a -> unit
+)
+ident(
+  def recall "ulib/ml/FStar_CommonST.ml" 20 312 312 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 19 285 303 "ulib/ml/FStar_CommonST.ml" 19 285 304
+type(
+  'a
+)
+ident(
+  def r "ulib/ml/FStar_CommonST.ml" 19 285 308 "ulib/ml/FStar_CommonST.ml" 19 285 310
+)
+"ulib/ml/FStar_CommonST.ml" 19 285 308 "ulib/ml/FStar_CommonST.ml" 19 285 310
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 19 285 298 "ulib/ml/FStar_CommonST.ml" 19 285 311
+type(
+  'a -> unit
+)
+"ulib/ml/FStar_CommonST.ml" 20 312 316 "ulib/ml/FStar_CommonST.ml" 20 312 319
+type(
+  unit -> unit
+)
+ident(
+  def get "ulib/ml/FStar_CommonST.ml" 22 329 329 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 20 312 320 "ulib/ml/FStar_CommonST.ml" 20 312 322
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 20 312 325 "ulib/ml/FStar_CommonST.ml" 20 312 327
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 24 354 358 "ulib/ml/FStar_CommonST.ml" 24 354 369
+type(
+  'a -> unit
+)
+ident(
+  def gst_witness "ulib/ml/FStar_CommonST.ml" 25 386 386 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 24 354 377 "ulib/ml/FStar_CommonST.ml" 24 354 378
+type(
+  'a
+)
+ident(
+  def r "ulib/ml/FStar_CommonST.ml" 24 354 382 "ulib/ml/FStar_CommonST.ml" 24 354 384
+)
+"ulib/ml/FStar_CommonST.ml" 24 354 382 "ulib/ml/FStar_CommonST.ml" 24 354 384
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 24 354 372 "ulib/ml/FStar_CommonST.ml" 24 354 385
+type(
+  'a -> unit
+)
+"ulib/ml/FStar_CommonST.ml" 25 386 390 "ulib/ml/FStar_CommonST.ml" 25 386 400
+type(
+  'a -> unit
+)
+ident(
+  def gst_recall "ulib/ml/FStar_CommonST.ml" 25 386 416 "ulib/ml/FStar_CommonST.ml" 1 0 -1
+)
+"ulib/ml/FStar_CommonST.ml" 25 386 408 "ulib/ml/FStar_CommonST.ml" 25 386 409
+type(
+  'a
+)
+ident(
+  def r "ulib/ml/FStar_CommonST.ml" 25 386 413 "ulib/ml/FStar_CommonST.ml" 25 386 415
+)
+"ulib/ml/FStar_CommonST.ml" 25 386 413 "ulib/ml/FStar_CommonST.ml" 25 386 415
+type(
+  unit
+)
+"ulib/ml/FStar_CommonST.ml" 25 386 403 "ulib/ml/FStar_CommonST.ml" 25 386 416
+type(
+  'a -> unit
+)

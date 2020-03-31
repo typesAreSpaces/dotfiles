@@ -1,0 +1,791 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 5 114 118 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 5 114 145
+type(
+  'Akey 'Avalue.
+    ('Akey, 'Avalue) t ->
+    ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  def __proj__Mkt__item__mappings "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 10 329 329 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 265 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 274
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 279 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 327
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 285 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 294
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 265 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 274
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 304 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 312
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  def mappings "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 319 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 327
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 302 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 315
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 319 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 327
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  int_ref mappings "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 304 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 312
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 279 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 327
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 261 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 9 257 327
+type(
+  ('Akey, 'Avalue) t ->
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 10 329 333 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 10 329 339
+type(
+  'Akey 'Avalue. ('Akey -> 'Avalue) -> ('Akey, 'Avalue) t
+)
+ident(
+  def create "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 12 473 473 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 406 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 407
+type(
+  'Akey -> 'Avalue
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 412 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 471
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 426 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 466
+type(
+  ('Akey -> 'Avalue) ->
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 467 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 468
+type(
+  'Akey -> 'Avalue
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 406 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 407
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 425 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 469
+call(
+  stack
+)
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 412 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 471
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 402 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 11 400 471
+type(
+  ('Akey -> 'Avalue) -> ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 12 473 477 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 12 473 480
+type(
+  'Akey 'Avalue. ('Akey, 'Avalue) t -> 'Akey -> 'Avalue
+)
+ident(
+  def sel "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 15 576 576 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 545 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 546
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 551 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 573
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 555 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 556
+type(
+  'Akey
+)
+ident(
+  def k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 573
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 562
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 545 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 571
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 572 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 573
+type(
+  'Akey
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 555 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 556
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 573
+call(
+  tail
+)
+type(
+  'Avalue
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 551 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 573
+type(
+  'Akey -> 'Avalue
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 541 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 13 539 573
+type(
+  ('Akey, 'Avalue) t -> 'Akey -> 'Avalue
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 15 576 580 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 15 576 583
+type(
+  'Akey 'Avalue. ('Akey, 'Avalue) t -> 'Akey -> 'Avalue -> ('Akey, 'Avalue) t
+)
+ident(
+  def upd "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 29 874 874 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 18 667 673 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 18 667 674
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 19 679 683 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 25 859 868
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 19 679 687 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 19 679 688
+type(
+  'Akey
+)
+ident(
+  def k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 20 693 699 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 25 859 868
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 20 693 703 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 20 693 704
+type(
+  'Avalue
+)
+ident(
+  def v "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 21 709 717 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 25 859 868
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 23 740 753 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 23 740 793
+type(
+  ('Akey -> 'Avalue) ->
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 814 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 816
+type(
+  'Akey
+)
+ident(
+  def k' "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 821 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 856
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 824 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 826
+type(
+  'Akey
+)
+ident(
+  int_ref k' "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 814 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 816
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 827 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 828
+type(
+  'Akey -> 'Akey -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 829 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 830
+type(
+  'Akey
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 19 679 687 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 19 679 688
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 824 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 830
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 836 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 837
+type(
+  'Avalue
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 20 693 703 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 20 693 704
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 843 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 844
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 18 667 673 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 18 667 674
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 843 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 853
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 854 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 856
+type(
+  'Akey
+)
+ident(
+  int_ref k' "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 814 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 816
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 843 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 856
+call(
+  tail
+)
+type(
+  'Avalue
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 821 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 856
+type(
+  'Avalue
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 809 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 857
+type(
+  'Akey -> 'Avalue
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 23 740 752 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 24 794 858
+call(
+  stack
+)
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 21 709 717 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 25 859 868
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 20 693 699 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 25 859 868
+type(
+  'Avalue -> ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 19 679 683 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 25 859 868
+type(
+  'Akey -> 'Avalue -> ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 18 667 669 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 25 859 868
+type(
+  ('Akey, 'Avalue) t -> 'Akey -> 'Avalue -> ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 33 921 925 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 33 921 933
+type(
+  'Akey 'Avalue. ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+ident(
+  def restrict "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 38 1086 1086 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 34 997 1003 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 34 997 1004
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1013 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1081
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1027 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1067
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t ->
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1068 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1069
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 34 997 1003 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 34 997 1004
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1068 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1078
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1026 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1079
+call(
+  stack
+)
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1013 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1081
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 34 997 999 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 35 1009 1081
+type(
+  ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 39 1150 1154 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 39 1150 1169
+type(
+  'Akey1 'Avalue1 'Akey2 'Avalue2.
+    ('Akey1 -> 'Avalue1) ->
+    ('Akey2 -> 'Avalue2) -> ('Akey1, 'Akey2) FStar_Pervasives.either -> Obj.t
+)
+ident(
+  def concat_mappings "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 52 1503 1503 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 45 1327 1333 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 45 1327 1335
+type(
+  'Akey1 -> 'Avalue1
+)
+ident(
+  def m1 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 46 1340 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 46 1340 1348 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 46 1340 1350
+type(
+  'Akey2 -> 'Avalue2
+)
+ident(
+  def m2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 47 1355 1361 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 47 1355 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 47 1355 1366
+type(
+  ('Akey1, 'Akey2) FStar_Pervasives.either
+)
+ident(
+  def k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 48 1371 1379 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 48 1371 1385 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 48 1371 1386
+type(
+  ('Akey1, 'Akey2) FStar_Pervasives.either
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 47 1355 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 47 1355 1366
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1423 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1425
+type(
+  'Akey1
+)
+ident(
+  def k1 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1445
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1402 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1425
+type(
+  ('Akey1, 'Akey2) FStar_Pervasives.either
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1437
+type(
+  'Avalue1 -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1439 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1441
+type(
+  'Akey1 -> 'Avalue1
+)
+ident(
+  int_ref m1 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 45 1327 1333 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 45 1327 1335
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1442 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1444
+type(
+  'Akey1
+)
+ident(
+  int_ref k1 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1423 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1425
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1438 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1445
+call(
+  tail
+)
+type(
+  'Avalue1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 49 1392 1445
+type(
+  Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1477 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1479
+type(
+  'Akey2
+)
+ident(
+  def k2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1483 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1456 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1479
+type(
+  ('Akey1, 'Akey2) FStar_Pervasives.either
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1483 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1491
+type(
+  'Avalue2 -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1493 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1495
+type(
+  'Akey2 -> 'Avalue2
+)
+ident(
+  int_ref m2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 46 1340 1348 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 46 1340 1350
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1496 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1498
+type(
+  'Akey2
+)
+ident(
+  int_ref k2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1477 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1479
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1492 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+call(
+  tail
+)
+type(
+  'Avalue2
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1483 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+type(
+  Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 48 1371 1379 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+type(
+  Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 47 1355 1361 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+type(
+  ('Akey1, 'Akey2) FStar_Pervasives.either -> Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 46 1340 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+type(
+  ('Akey2 -> 'Avalue2) -> ('Akey1, 'Akey2) FStar_Pervasives.either -> Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 45 1327 1329 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 50 1446 1499
+type(
+  ('Akey1 -> 'Avalue1) ->
+  ('Akey2 -> 'Avalue2) -> ('Akey1, 'Akey2) FStar_Pervasives.either -> Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 52 1503 1507 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 52 1503 1513
+type(
+  'Akey1 'Avalue1 'Akey2 'Avalue2.
+    ('Akey1, 'Avalue1) t ->
+    ('Akey2, 'Avalue2) t ->
+    (('Akey1, 'Akey2) FStar_Pervasives.either, Obj.t) t
+)
+ident(
+  def concat "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 68 1846 1846 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 58 1670 1676 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 58 1670 1678
+type(
+  ('Akey1, 'Avalue1) t
+)
+ident(
+  def m1 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 59 1683 1687 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 64 1833 1840
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 59 1683 1691 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 59 1683 1693
+type(
+  ('Akey2, 'Avalue2) t
+)
+ident(
+  def m2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 60 1698 1704 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 64 1833 1840
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 62 1725 1736 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 62 1725 1776
+type(
+  (('Akey1, 'Akey2) FStar_Pervasives.either -> Obj.t) ->
+  (('Akey1, 'Akey2) FStar_Pervasives.either, Obj.t)
+  FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1791 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1806
+type(
+  ('Akey1, 'Avalue1) FStar_FunctionalExtensionality.restricted_t ->
+  ('Akey2, 'Avalue2) FStar_FunctionalExtensionality.restricted_t ->
+  ('Akey1, 'Akey2) FStar_Pervasives.either -> Obj.t
+)
+ident(
+  int_ref concat_mappings "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 39 1150 1154 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 39 1150 1169
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1807 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1809
+type(
+  ('Akey1, 'Avalue1) t
+)
+ident(
+  int_ref m1 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 58 1670 1676 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 58 1670 1678
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1807 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1818
+type(
+  ('Akey1, 'Avalue1) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1819 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1821
+type(
+  ('Akey2, 'Avalue2) t
+)
+ident(
+  int_ref m2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 59 1683 1691 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 59 1683 1693
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1819 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1830
+type(
+  ('Akey2, 'Avalue2) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1790 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1831
+call(
+  stack
+)
+type(
+  ('Akey1, 'Akey2) FStar_Pervasives.either -> Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 62 1725 1735 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 63 1777 1832
+call(
+  stack
+)
+type(
+  (('Akey1, 'Akey2) FStar_Pervasives.either, Obj.t)
+  FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 60 1698 1704 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 64 1833 1840
+type(
+  (('Akey1, 'Akey2) FStar_Pervasives.either, Obj.t) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 59 1683 1687 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 64 1833 1840
+type(
+  ('Akey2, 'Avalue2) t -> (('Akey1, 'Akey2) FStar_Pervasives.either, Obj.t) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 58 1670 1672 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 64 1833 1840
+type(
+  ('Akey1, 'Avalue1) t ->
+  ('Akey2, 'Avalue2) t -> (('Akey1, 'Akey2) FStar_Pervasives.either, Obj.t) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 69 1910 1914 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 69 1910 1920
+type(
+  'Akey1 'Avalue1.
+    ('Akey1, 'Avalue1) t ->
+    Prims.unit ->
+    (Obj.t -> 'Akey1) ->
+    (Obj.t, ('Akey1, 'Avalue1, Obj.t, Prims.unit, Prims.unit) rename_value) t
+)
+ident(
+  def rename "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 86 2279 2279 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 76 2084 2090 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 76 2084 2091
+type(
+  ('Akey1, 'Avalue1) t
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 77 2096 2100 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 83 2265 2274
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 77 2096 2104 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 77 2096 2108
+type(
+  Prims.unit
+)
+ident(
+  def key2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 78 2113 2119 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 83 2265 2274
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 78 2113 2123 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 78 2113 2126
+type(
+  Obj.t -> 'Akey1
+)
+ident(
+  def ren "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 79 2131 2139 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 83 2265 2274
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 81 2162 2175 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 81 2162 2215
+type(
+  (Obj.t -> 'Avalue1) ->
+  (Obj.t, ('Akey1, 'Avalue1, Obj.t, Prims.unit, Prims.unit) rename_value)
+  FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2236 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2238
+type(
+  Obj.t
+)
+ident(
+  def k2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2243 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2262
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2243 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2244
+type(
+  ('Akey1, 'Avalue1) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 76 2084 2090 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 76 2084 2091
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2243 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2253
+type(
+  ('Akey1, 'Avalue1) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2255 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2258
+type(
+  Obj.t -> 'Akey1
+)
+ident(
+  int_ref ren "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 78 2113 2123 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 78 2113 2126
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2259 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2261
+type(
+  Obj.t
+)
+ident(
+  int_ref k2 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2236 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2238
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2254 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2262
+call(
+  stack
+)
+type(
+  'Akey1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2243 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2262
+call(
+  tail
+)
+type(
+  'Avalue1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2231 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2263
+type(
+  Obj.t -> 'Avalue1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 81 2162 2174 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 82 2216 2264
+call(
+  stack
+)
+type(
+  (Obj.t, ('Akey1, 'Avalue1, Obj.t, Prims.unit, Prims.unit) rename_value)
+  FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 79 2131 2139 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 83 2265 2274
+type(
+  (Obj.t, ('Akey1, 'Avalue1, Obj.t, Prims.unit, Prims.unit) rename_value) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 78 2113 2119 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 83 2265 2274
+type(
+  (Obj.t -> 'Akey1) ->
+  (Obj.t, ('Akey1, 'Avalue1, Obj.t, Prims.unit, Prims.unit) rename_value) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 77 2096 2100 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 83 2265 2274
+type(
+  Prims.unit ->
+  (Obj.t -> 'Akey1) ->
+  (Obj.t, ('Akey1, 'Avalue1, Obj.t, Prims.unit, Prims.unit) rename_value) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 76 2084 2086 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 83 2265 2274
+type(
+  ('Akey1, 'Avalue1) t ->
+  Prims.unit ->
+  (Obj.t -> 'Akey1) ->
+  (Obj.t, ('Akey1, 'Avalue1, Obj.t, Prims.unit, Prims.unit) rename_value) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 86 2279 2283 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 86 2279 2286
+type(
+  'Akey 'Avalue1 'Avalue2.
+    ('Akey -> 'Avalue1 -> 'Avalue2) ->
+    ('Akey, 'Avalue1) t -> ('Akey, 'Avalue2) t
+)
+ident(
+  def map "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 96 2539 2546 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 91 2407 2413 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 91 2407 2414
+type(
+  'Akey -> 'Avalue1 -> 'Avalue2
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 92 2419 2423 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 96 2539 2546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 92 2419 2427 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 92 2419 2428
+type(
+  ('Akey, 'Avalue1) t
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 93 2433 2439 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 96 2539 2546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2471 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2511
+type(
+  ('Akey -> 'Avalue2) ->
+  ('Akey, 'Avalue2) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2517 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2518
+type(
+  'Akey
+)
+ident(
+  def k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2523 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2536
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2523 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2524
+type(
+  'Akey -> 'Avalue1 -> 'Avalue2
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 91 2407 2413 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 91 2407 2414
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2525 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2526
+type(
+  'Akey
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2517 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2518
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2528 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2531
+type(
+  ('Akey, 'Avalue1) t -> 'Akey -> 'Avalue1
+)
+ident(
+  int_ref sel "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 12 473 477 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 12 473 480
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2532 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2533
+type(
+  ('Akey, 'Avalue1) t
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 92 2419 2427 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 92 2419 2428
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2534 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2535
+type(
+  'Akey
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2517 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2518
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2527 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2536
+call(
+  stack
+)
+type(
+  'Avalue1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2523 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2536
+call(
+  tail
+)
+type(
+  'Avalue2
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2512 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2537
+type(
+  'Akey -> 'Avalue2
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2470 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 95 2460 2538
+call(
+  stack
+)
+type(
+  ('Akey, 'Avalue2) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 93 2433 2439 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 96 2539 2546
+type(
+  ('Akey, 'Avalue2) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 92 2419 2423 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 96 2539 2546
+type(
+  ('Akey, 'Avalue1) t -> ('Akey, 'Avalue2) t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 91 2407 2409 "ulib/tactics_ml/fstarlib_leftovers/FStar_DependentMap.ml" 96 2539 2546
+type(
+  ('Akey -> 'Avalue1 -> 'Avalue2) ->
+  ('Akey, 'Avalue1) t -> ('Akey, 'Avalue2) t
+)

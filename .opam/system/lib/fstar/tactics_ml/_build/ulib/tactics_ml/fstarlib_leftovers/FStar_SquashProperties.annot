@@ -1,0 +1,172 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 5 14 18 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 5 14 28
+type(
+  'Ap 'Aq. ('Ap, 'Aq) Prims.c_or -> Prims.bool
+)
+ident(
+  def bool_of_or "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 14 183 183 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 6 78 84 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 6 78 85
+type(
+  ('Ap, 'Aq) Prims.c_or
+)
+ident(
+  def t "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 7 90 94 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 176
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 7 90 100 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 7 90 101
+type(
+  ('Ap, 'Aq) Prims.c_or
+)
+ident(
+  int_ref t "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 6 78 84 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 6 78 85
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 8 107 124 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 8 107 132
+type(
+  'Ap
+)
+ident(
+  def uu____60 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 8 107 136 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 8 107 140
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 8 107 113 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 8 107 132
+type(
+  ('Ap, 'Aq) Prims.c_or
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 8 107 136 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 8 107 140
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 159 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 167
+type(
+  'Aq
+)
+ident(
+  def uu____62 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 171 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 176
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 147 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 167
+type(
+  ('Ap, 'Aq) Prims.c_or
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 171 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 176
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 7 90 94 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 176
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 6 78 80 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 9 141 176
+type(
+  ('Ap, 'Aq) Prims.c_or -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 17 257 261 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 17 257 272
+type(
+  'a 'b. ('a, 'b) retract -> Prims.bool
+)
+ident(
+  def uu___is_MkR "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 22 344 344 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 18 315 321 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 18 315 330
+type(
+  ('a, 'b) retract
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 18 315 335 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 18 315 339
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 18 315 335 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 18 315 339
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 18 315 317 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 18 315 339
+type(
+  ('a, 'b) retract -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 24 403 407 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 24 403 418
+type(
+  'a 'b. ('a, 'b) retract_cond -> Prims.bool
+)
+ident(
+  def uu___is_MkC "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 30 496 496 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 25 466 472 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 25 466 481
+type(
+  ('a, 'b) retract_cond
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 25 466 486 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 25 466 490
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 25 466 486 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 25 466 490
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 25 466 468 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 25 466 490
+type(
+  ('a, 'b) retract_cond -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 30 496 500 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 30 496 510
+type(
+  'Aa. Prims.l_False -> 'Aa
+)
+ident(
+  def false_elim "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 33 607 607 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 548 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 550
+type(
+  Prims.l_False
+)
+ident(
+  def a1 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 555 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 604
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 560 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 561
+type(
+  Prims.l_False
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 566 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 600
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 566 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 575
+type(
+  '_a -> 'Aa
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 577 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 585
+type(
+  string -> '_a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 586 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 599
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 576 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 600
+call(
+  tail
+)
+type(
+  '_a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 566 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 600
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 555 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 601
+type(
+  Prims.l_False -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 602 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 604
+type(
+  Prims.l_False
+)
+ident(
+  int_ref a1 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 548 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 550
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 555 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 604
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 544 "ulib/tactics_ml/fstarlib_leftovers/FStar_SquashProperties.ml" 31 542 604
+type(
+  Prims.l_False -> 'Aa
+)

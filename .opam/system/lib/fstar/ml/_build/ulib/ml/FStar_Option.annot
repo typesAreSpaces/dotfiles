@@ -1,0 +1,365 @@
+"ulib/ml/FStar_Option.ml" 2 11 15 "ulib/ml/FStar_Option.ml" 2 11 21
+type(
+  'a. 'a FStar_Pervasives_Native.option -> Prims.bool
+)
+ident(
+  def isNone "ulib/ml/FStar_Option.ml" 7 222 222 "ulib/ml/FStar_Option.ml" 1 0 -1
+)
+"ulib/ml/FStar_Option.ml" 3 78 84 "ulib/ml/FStar_Option.ml" 3 78 94
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  def uu___10_12 "ulib/ml/FStar_Option.ml" 4 99 103 "ulib/ml/FStar_Option.ml" 6 169 221
+)
+"ulib/ml/FStar_Option.ml" 4 99 109 "ulib/ml/FStar_Option.ml" 4 99 119
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  int_ref uu___10_12 "ulib/ml/FStar_Option.ml" 3 78 84 "ulib/ml/FStar_Option.ml" 3 78 94
+)
+"ulib/ml/FStar_Option.ml" 5 125 131 "ulib/ml/FStar_Option.ml" 5 125 159
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 5 125 164 "ulib/ml/FStar_Option.ml" 5 125 168
+type(
+  Prims.bool
+)
+"ulib/ml/FStar_Option.ml" 6 169 204 "ulib/ml/FStar_Option.ml" 6 169 212
+type(
+  'a
+)
+ident(
+  def uu____15 "ulib/ml/FStar_Option.ml" 6 169 216 "ulib/ml/FStar_Option.ml" 6 169 221
+)
+"ulib/ml/FStar_Option.ml" 6 169 175 "ulib/ml/FStar_Option.ml" 6 169 212
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 6 169 216 "ulib/ml/FStar_Option.ml" 6 169 221
+type(
+  Prims.bool
+)
+"ulib/ml/FStar_Option.ml" 4 99 103 "ulib/ml/FStar_Option.ml" 6 169 221
+type(
+  Prims.bool
+)
+"ulib/ml/FStar_Option.ml" 3 78 80 "ulib/ml/FStar_Option.ml" 6 169 221
+type(
+  'a FStar_Pervasives_Native.option -> Prims.bool
+)
+"ulib/ml/FStar_Option.ml" 7 222 226 "ulib/ml/FStar_Option.ml" 7 222 232
+type(
+  'a. 'a FStar_Pervasives_Native.option -> Prims.bool
+)
+ident(
+  def isSome "ulib/ml/FStar_Option.ml" 12 433 433 "ulib/ml/FStar_Option.ml" 1 0 -1
+)
+"ulib/ml/FStar_Option.ml" 8 289 295 "ulib/ml/FStar_Option.ml" 8 289 305
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  def uu___11_27 "ulib/ml/FStar_Option.ml" 9 310 314 "ulib/ml/FStar_Option.ml" 11 388 432
+)
+"ulib/ml/FStar_Option.ml" 9 310 320 "ulib/ml/FStar_Option.ml" 9 310 330
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  int_ref uu___11_27 "ulib/ml/FStar_Option.ml" 8 289 295 "ulib/ml/FStar_Option.ml" 8 289 305
+)
+"ulib/ml/FStar_Option.ml" 10 336 371 "ulib/ml/FStar_Option.ml" 10 336 379
+type(
+  'a
+)
+ident(
+  def uu____30 "ulib/ml/FStar_Option.ml" 10 336 383 "ulib/ml/FStar_Option.ml" 10 336 387
+)
+"ulib/ml/FStar_Option.ml" 10 336 342 "ulib/ml/FStar_Option.ml" 10 336 379
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 10 336 383 "ulib/ml/FStar_Option.ml" 10 336 387
+type(
+  Prims.bool
+)
+"ulib/ml/FStar_Option.ml" 11 388 394 "ulib/ml/FStar_Option.ml" 11 388 422
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 11 388 427 "ulib/ml/FStar_Option.ml" 11 388 432
+type(
+  Prims.bool
+)
+"ulib/ml/FStar_Option.ml" 9 310 314 "ulib/ml/FStar_Option.ml" 11 388 432
+type(
+  Prims.bool
+)
+"ulib/ml/FStar_Option.ml" 8 289 291 "ulib/ml/FStar_Option.ml" 11 388 432
+type(
+  'a FStar_Pervasives_Native.option -> Prims.bool
+)
+"ulib/ml/FStar_Option.ml" 12 433 437 "ulib/ml/FStar_Option.ml" 12 433 440
+type(
+  'a 'b.
+    ('a -> 'b) ->
+    'a FStar_Pervasives_Native.option -> 'b FStar_Pervasives_Native.option
+)
+ident(
+  def map "ulib/ml/FStar_Option.ml" 23 796 796 "ulib/ml/FStar_Option.ml" 1 0 -1
+)
+"ulib/ml/FStar_Option.ml" 17 551 557 "ulib/ml/FStar_Option.ml" 17 551 558
+type(
+  'a -> 'b
+)
+ident(
+  def f "ulib/ml/FStar_Option.ml" 18 563 567 "ulib/ml/FStar_Option.ml" 22 726 795
+)
+"ulib/ml/FStar_Option.ml" 18 563 571 "ulib/ml/FStar_Option.ml" 18 563 581
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  def uu___12_58 "ulib/ml/FStar_Option.ml" 19 586 592 "ulib/ml/FStar_Option.ml" 22 726 795
+)
+"ulib/ml/FStar_Option.ml" 19 586 598 "ulib/ml/FStar_Option.ml" 19 586 608
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  int_ref uu___12_58 "ulib/ml/FStar_Option.ml" 18 563 571 "ulib/ml/FStar_Option.ml" 18 563 581
+)
+"ulib/ml/FStar_Option.ml" 20 614 651 "ulib/ml/FStar_Option.ml" 20 614 652
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Option.ml" 21 656 666 "ulib/ml/FStar_Option.ml" 21 656 725
+)
+"ulib/ml/FStar_Option.ml" 20 614 622 "ulib/ml/FStar_Option.ml" 20 614 652
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 21 656 670 "ulib/ml/FStar_Option.ml" 21 656 678
+type(
+  'b
+)
+ident(
+  def uu____64 "ulib/ml/FStar_Option.ml" 21 656 688 "ulib/ml/FStar_Option.ml" 21 656 725
+)
+"ulib/ml/FStar_Option.ml" 21 656 681 "ulib/ml/FStar_Option.ml" 21 656 682
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ulib/ml/FStar_Option.ml" 17 551 557 "ulib/ml/FStar_Option.ml" 17 551 558
+)
+"ulib/ml/FStar_Option.ml" 21 656 683 "ulib/ml/FStar_Option.ml" 21 656 684
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_Option.ml" 20 614 651 "ulib/ml/FStar_Option.ml" 20 614 652
+)
+"ulib/ml/FStar_Option.ml" 21 656 681 "ulib/ml/FStar_Option.ml" 21 656 684
+call(
+  stack
+)
+type(
+  'b
+)
+"ulib/ml/FStar_Option.ml" 21 656 717 "ulib/ml/FStar_Option.ml" 21 656 725
+type(
+  'b
+)
+ident(
+  int_ref uu____64 "ulib/ml/FStar_Option.ml" 21 656 670 "ulib/ml/FStar_Option.ml" 21 656 678
+)
+"ulib/ml/FStar_Option.ml" 21 656 688 "ulib/ml/FStar_Option.ml" 21 656 725
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 21 656 666 "ulib/ml/FStar_Option.ml" 21 656 725
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 22 726 734 "ulib/ml/FStar_Option.ml" 22 726 762
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 22 726 767 "ulib/ml/FStar_Option.ml" 22 726 795
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 19 586 592 "ulib/ml/FStar_Option.ml" 22 726 795
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 18 563 567 "ulib/ml/FStar_Option.ml" 22 726 795
+type(
+  'a FStar_Pervasives_Native.option -> 'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 17 551 553 "ulib/ml/FStar_Option.ml" 22 726 795
+type(
+  ('a -> 'b) ->
+  'a FStar_Pervasives_Native.option -> 'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 23 796 800 "ulib/ml/FStar_Option.ml" 23 796 806
+type(
+  'a 'b.
+    ('a -> 'b) ->
+    'a FStar_Pervasives_Native.option -> 'b FStar_Pervasives_Native.option
+)
+ident(
+  def mapTot "ulib/ml/FStar_Option.ml" 33 1127 1127 "ulib/ml/FStar_Option.ml" 1 0 -1
+)
+"ulib/ml/FStar_Option.ml" 28 917 923 "ulib/ml/FStar_Option.ml" 28 917 924
+type(
+  'a -> 'b
+)
+ident(
+  def f "ulib/ml/FStar_Option.ml" 29 929 933 "ulib/ml/FStar_Option.ml" 32 1057 1126
+)
+"ulib/ml/FStar_Option.ml" 29 929 937 "ulib/ml/FStar_Option.ml" 29 929 947
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  def uu___13_91 "ulib/ml/FStar_Option.ml" 30 952 958 "ulib/ml/FStar_Option.ml" 32 1057 1126
+)
+"ulib/ml/FStar_Option.ml" 30 952 964 "ulib/ml/FStar_Option.ml" 30 952 974
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  int_ref uu___13_91 "ulib/ml/FStar_Option.ml" 29 929 937 "ulib/ml/FStar_Option.ml" 29 929 947
+)
+"ulib/ml/FStar_Option.ml" 31 980 1017 "ulib/ml/FStar_Option.ml" 31 980 1018
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Option.ml" 31 980 1022 "ulib/ml/FStar_Option.ml" 31 980 1056
+)
+"ulib/ml/FStar_Option.ml" 31 980 988 "ulib/ml/FStar_Option.ml" 31 980 1018
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 31 980 1052 "ulib/ml/FStar_Option.ml" 31 980 1053
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ulib/ml/FStar_Option.ml" 28 917 923 "ulib/ml/FStar_Option.ml" 28 917 924
+)
+"ulib/ml/FStar_Option.ml" 31 980 1054 "ulib/ml/FStar_Option.ml" 31 980 1055
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_Option.ml" 31 980 1017 "ulib/ml/FStar_Option.ml" 31 980 1018
+)
+"ulib/ml/FStar_Option.ml" 31 980 1051 "ulib/ml/FStar_Option.ml" 31 980 1056
+call(
+  stack
+)
+type(
+  'b
+)
+"ulib/ml/FStar_Option.ml" 31 980 1022 "ulib/ml/FStar_Option.ml" 31 980 1056
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 32 1057 1065 "ulib/ml/FStar_Option.ml" 32 1057 1093
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 32 1057 1098 "ulib/ml/FStar_Option.ml" 32 1057 1126
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 30 952 958 "ulib/ml/FStar_Option.ml" 32 1057 1126
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 29 929 933 "ulib/ml/FStar_Option.ml" 32 1057 1126
+type(
+  'a FStar_Pervasives_Native.option -> 'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 28 917 919 "ulib/ml/FStar_Option.ml" 32 1057 1126
+type(
+  ('a -> 'b) ->
+  'a FStar_Pervasives_Native.option -> 'b FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 33 1127 1131 "ulib/ml/FStar_Option.ml" 33 1127 1134
+type(
+  'a. 'a FStar_Pervasives_Native.option -> 'a
+)
+ident(
+  def get "ulib/ml/FStar_Option.ml" 37 1274 1336 "ulib/ml/FStar_Option.ml" 1 0 -1
+)
+"ulib/ml/FStar_Option.ml" 34 1183 1189 "ulib/ml/FStar_Option.ml" 34 1183 1200
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  def uu___14_108 "ulib/ml/FStar_Option.ml" 35 1205 1209 "ulib/ml/FStar_Option.ml" 37 1274 1336
+)
+"ulib/ml/FStar_Option.ml" 35 1205 1215 "ulib/ml/FStar_Option.ml" 35 1205 1226
+type(
+  'a FStar_Pervasives_Native.option
+)
+ident(
+  int_ref uu___14_108 "ulib/ml/FStar_Option.ml" 34 1183 1189 "ulib/ml/FStar_Option.ml" 34 1183 1200
+)
+"ulib/ml/FStar_Option.ml" 36 1232 1267 "ulib/ml/FStar_Option.ml" 36 1232 1268
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Option.ml" 36 1232 1272 "ulib/ml/FStar_Option.ml" 36 1232 1273
+)
+"ulib/ml/FStar_Option.ml" 36 1232 1238 "ulib/ml/FStar_Option.ml" 36 1232 1268
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 36 1232 1272 "ulib/ml/FStar_Option.ml" 36 1232 1273
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_Option.ml" 36 1232 1267 "ulib/ml/FStar_Option.ml" 36 1232 1268
+)
+"ulib/ml/FStar_Option.ml" 37 1274 1280 "ulib/ml/FStar_Option.ml" 37 1274 1308
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/FStar_Option.ml" 37 1274 1313 "ulib/ml/FStar_Option.ml" 37 1274 1321
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/FStar_Option.ml" 37 1274 1322 "ulib/ml/FStar_Option.ml" 37 1274 1336
+type(
+  string
+)
+"ulib/ml/FStar_Option.ml" 37 1274 1313 "ulib/ml/FStar_Option.ml" 37 1274 1336
+call(
+  tail
+)
+type(
+  'a
+)
+"ulib/ml/FStar_Option.ml" 35 1205 1209 "ulib/ml/FStar_Option.ml" 37 1274 1336
+type(
+  'a
+)
+"ulib/ml/FStar_Option.ml" 34 1183 1185 "ulib/ml/FStar_Option.ml" 37 1274 1336
+type(
+  'a FStar_Pervasives_Native.option -> 'a
+)

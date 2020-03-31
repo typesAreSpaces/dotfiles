@@ -1,0 +1,2201 @@
+"ulib/ml/FStar_List_Tot_Base.ml" 3 119 123 "ulib/ml/FStar_List_Tot_Base.ml" 3 119 130
+type(
+  'a list -> bool
+)
+ident(
+  def isEmpty "ulib/ml/FStar_List_Tot_Base.ml" 4 142 142 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 3 119 131 "ulib/ml/FStar_List_Tot_Base.ml" 3 119 132
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 3 119 135 "ulib/ml/FStar_List_Tot_Base.ml" 3 119 141
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 3 119 135 "ulib/ml/FStar_List_Tot_Base.ml" 3 119 136
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 3 119 131 "ulib/ml/FStar_List_Tot_Base.ml" 3 119 132
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 3 119 137 "ulib/ml/FStar_List_Tot_Base.ml" 3 119 138
+type(
+  'a list -> 'a list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 3 119 139 "ulib/ml/FStar_List_Tot_Base.ml" 3 119 141
+type(
+  'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 3 119 135 "ulib/ml/FStar_List_Tot_Base.ml" 3 119 141
+type(
+  bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 4 142 146 "ulib/ml/FStar_List_Tot_Base.ml" 4 142 148
+type(
+  'a list -> 'a
+)
+ident(
+  def hd "ulib/ml/FStar_List_Tot_Base.ml" 5 162 162 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 4 142 151 "ulib/ml/FStar_List_Tot_Base.ml" 4 142 161
+type(
+  'a list -> 'a
+)
+ident(
+  ext_ref BatList.hd
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 5 162 166 "ulib/ml/FStar_List_Tot_Base.ml" 5 162 170
+type(
+  'a list -> 'a list
+)
+ident(
+  def tail "ulib/ml/FStar_List_Tot_Base.ml" 6 184 184 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 5 162 173 "ulib/ml/FStar_List_Tot_Base.ml" 5 162 183
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref BatList.tl
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 6 184 188 "ulib/ml/FStar_List_Tot_Base.ml" 6 184 190
+type(
+  'a list -> 'a list
+)
+ident(
+  def tl "ulib/ml/FStar_List_Tot_Base.ml" 7 204 204 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 6 184 193 "ulib/ml/FStar_List_Tot_Base.ml" 6 184 203
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref BatList.tl
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 7 204 208 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 214
+type(
+  'a list -> Z.t
+)
+ident(
+  def length "ulib/ml/FStar_List_Tot_Base.ml" 8 247 247 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 7 204 215 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 216
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 7 204 219 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 246
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 7 204 219 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 227
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Z.of_int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 7 204 229 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 243
+type(
+  'a list -> int
+)
+ident(
+  ext_ref BatList.length
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 7 204 244 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 245
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 7 204 215 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 216
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 7 204 228 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 246
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 7 204 219 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 246
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 251 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 254
+type(
+  'a list -> Z.t -> 'a option
+)
+ident(
+  def nth "ulib/ml/FStar_List_Tot_Base.ml" 9 314 314 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 255 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 256
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 8 247 257 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 313
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 257 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 258
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_List_Tot_Base.ml" 8 247 261 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 313
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 271 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 282
+type(
+  'a list -> int -> 'a
+)
+ident(
+  ext_ref BatList.nth
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 283 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 284
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 8 247 255 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 256
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 286 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 294
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 295 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 296
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_List_Tot_Base.ml" 8 247 257 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 258
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 285 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 297
+type(
+  int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 270 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 298
+call(
+  stack
+)
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 265 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 298
+type(
+  'a option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 304 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 305
+type(
+  exn
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 309 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 313
+type(
+  'a option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 8 247 261 "ulib/ml/FStar_List_Tot_Base.ml" 8 247 313
+type(
+  'a option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 318 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 323
+type(
+  'a list -> Z.t -> 'a
+)
+ident(
+  def index "ulib/ml/FStar_List_Tot_Base.ml" 10 357 357 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 324 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 325
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 9 314 326 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 356
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 326 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 327
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_List_Tot_Base.ml" 9 314 330 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 356
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 330 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 341
+type(
+  'a list -> int -> 'a
+)
+ident(
+  ext_ref BatList.nth
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 342 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 343
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 9 314 324 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 325
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 345 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 353
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 354 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 355
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_List_Tot_Base.ml" 9 314 326 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 327
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 344 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 356
+type(
+  int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 9 314 330 "ulib/ml/FStar_List_Tot_Base.ml" 9 314 356
+call(
+  tail
+)
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 10 357 361 "ulib/ml/FStar_List_Tot_Base.ml" 10 357 366
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def count "ulib/ml/FStar_List_Tot_Base.ml" 11 431 431 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 10 357 367 "ulib/ml/FStar_List_Tot_Base.ml" 10 357 368
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 10 357 369 "ulib/ml/FStar_List_Tot_Base.ml" 10 357 370
+type(
+  'b
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 10 357 373 "ulib/ml/FStar_List_Tot_Base.ml" 10 357 381
+type(
+  string -> 'c
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 10 357 382 "ulib/ml/FStar_List_Tot_Base.ml" 10 357 430
+type(
+  string
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 10 357 373 "ulib/ml/FStar_List_Tot_Base.ml" 10 357 430
+call(
+  tail
+)
+type(
+  'c
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 11 431 435 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 442
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def rev_acc "ulib/ml/FStar_List_Tot_Base.ml" 12 472 472 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 11 431 443 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 444
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 11 431 445 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 471
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 11 431 445 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 446
+type(
+  'a list
+)
+ident(
+  def r "ulib/ml/FStar_List_Tot_Base.ml" 11 431 449 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 471
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 11 431 449 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 467
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref BatList.rev_append
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 11 431 468 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 469
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 11 431 443 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 444
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 11 431 470 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 471
+type(
+  'a list
+)
+ident(
+  int_ref r "ulib/ml/FStar_List_Tot_Base.ml" 11 431 445 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 446
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 11 431 449 "ulib/ml/FStar_List_Tot_Base.ml" 11 431 471
+call(
+  tail
+)
+type(
+  'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 12 472 476 "ulib/ml/FStar_List_Tot_Base.ml" 12 472 479
+type(
+  'a list -> 'a list
+)
+ident(
+  def rev "ulib/ml/FStar_List_Tot_Base.ml" 13 494 494 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 12 472 482 "ulib/ml/FStar_List_Tot_Base.ml" 12 472 493
+type(
+  'a list -> 'a list
+)
+ident(
+  ext_ref BatList.rev
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 13 494 498 "ulib/ml/FStar_List_Tot_Base.ml" 13 494 504
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def append "ulib/ml/FStar_List_Tot_Base.ml" 14 522 522 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 13 494 507 "ulib/ml/FStar_List_Tot_Base.ml" 13 494 521
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  ext_ref BatList.append
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 14 522 526 "ulib/ml/FStar_List_Tot_Base.ml" 14 522 531
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  def op_At "ulib/ml/FStar_List_Tot_Base.ml" 15 541 541 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 14 522 534 "ulib/ml/FStar_List_Tot_Base.ml" 14 522 540
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref append "ulib/ml/FStar_List_Tot_Base.ml" 13 494 498 "ulib/ml/FStar_List_Tot_Base.ml" 13 494 504
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 545 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 549
+type(
+  'a list * 'a -> 'a list
+)
+ident(
+  def snoc "ulib/ml/FStar_List_Tot_Base.ml" 16 572 572 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 551 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 552
+type(
+  'a list
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 15 541 559 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 571
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 554 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 555
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/FStar_List_Tot_Base.ml" 15 541 559 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 571
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 550 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 556
+type(
+  'a list * 'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 559 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 565
+type(
+  'a list -> 'a list -> 'a list
+)
+ident(
+  int_ref append "ulib/ml/FStar_List_Tot_Base.ml" 13 494 498 "ulib/ml/FStar_List_Tot_Base.ml" 13 494 504
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 566 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 567
+type(
+  'a list
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 15 541 551 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 552
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 569 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 570
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/FStar_List_Tot_Base.ml" 15 541 554 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 555
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 568 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 571
+type(
+  'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 15 541 559 "ulib/ml/FStar_List_Tot_Base.ml" 15 541 571
+call(
+  tail
+)
+type(
+  'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 16 572 576 "ulib/ml/FStar_List_Tot_Base.ml" 16 572 583
+type(
+  'a list list -> 'a list
+)
+ident(
+  def flatten "ulib/ml/FStar_List_Tot_Base.ml" 17 602 602 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 16 572 586 "ulib/ml/FStar_List_Tot_Base.ml" 16 572 601
+type(
+  'a list list -> 'a list
+)
+ident(
+  ext_ref BatList.flatten
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 17 602 606 "ulib/ml/FStar_List_Tot_Base.ml" 17 602 609
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  def map "ulib/ml/FStar_List_Tot_Base.ml" 18 624 624 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 17 602 612 "ulib/ml/FStar_List_Tot_Base.ml" 17 602 623
+type(
+  ('a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  ext_ref BatList.map
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 18 624 628 "ulib/ml/FStar_List_Tot_Base.ml" 18 624 637
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def mapi_init "ulib/ml/FStar_List_Tot_Base.ml" 19 708 708 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 18 624 638 "ulib/ml/FStar_List_Tot_Base.ml" 18 624 639
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 18 624 640 "ulib/ml/FStar_List_Tot_Base.ml" 18 624 641
+type(
+  'b
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 18 624 642 "ulib/ml/FStar_List_Tot_Base.ml" 18 624 643
+type(
+  'c
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 18 624 646 "ulib/ml/FStar_List_Tot_Base.ml" 18 624 654
+type(
+  string -> 'd
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 18 624 655 "ulib/ml/FStar_List_Tot_Base.ml" 18 624 707
+type(
+  string
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 18 624 646 "ulib/ml/FStar_List_Tot_Base.ml" 18 624 707
+call(
+  tail
+)
+type(
+  'd
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 712 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 716
+type(
+  (Z.t -> 'a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  def mapi "ulib/ml/FStar_List_Tot_Base.ml" 20 768 768 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 717 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 718
+type(
+  Z.t -> 'a -> 'b
+)
+ident(
+  def f "ulib/ml/FStar_List_Tot_Base.ml" 19 708 719 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 767
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 719 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 720
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 19 708 723 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 767
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 723 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 735
+type(
+  (int -> 'a -> 'b) -> 'a list -> 'b list
+)
+ident(
+  ext_ref BatList.mapi
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 741 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 742
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_List_Tot_Base.ml" 19 708 743 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 764
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 743 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 744
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 19 708 748 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 764
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 748 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 749
+type(
+  Z.t -> 'a -> 'b
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 19 708 717 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 718
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 751 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 759
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Z.of_int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 760 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 761
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_List_Tot_Base.ml" 19 708 741 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 742
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 750 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 762
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 763 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 764
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 19 708 743 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 744
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 748 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 764
+call(
+  tail
+)
+type(
+  'b
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 736 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 765
+type(
+  int -> 'a -> 'b
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 766 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 767
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 19 708 719 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 720
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 19 708 723 "ulib/ml/FStar_List_Tot_Base.ml" 19 708 767
+call(
+  tail
+)
+type(
+  'b list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 772 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 781
+type(
+  ('a -> 'b list) -> 'a list -> 'b list
+)
+ident(
+  def concatMap "ulib/ml/FStar_List_Tot_Base.ml" 21 806 806 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 782 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 783
+type(
+  'a -> 'b list
+)
+ident(
+  def f "ulib/ml/FStar_List_Tot_Base.ml" 20 768 784 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 805
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 784 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 785
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 20 768 788 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 805
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 788 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 795
+type(
+  'b list list -> 'b list
+)
+ident(
+  int_ref flatten "ulib/ml/FStar_List_Tot_Base.ml" 16 572 576 "ulib/ml/FStar_List_Tot_Base.ml" 16 572 583
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 797 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 800
+type(
+  ('a -> 'b list) -> 'a list -> 'b list list
+)
+ident(
+  int_ref map "ulib/ml/FStar_List_Tot_Base.ml" 17 602 606 "ulib/ml/FStar_List_Tot_Base.ml" 17 602 609
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 801 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 802
+type(
+  'a -> 'b list
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 20 768 782 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 783
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 803 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 804
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 20 768 784 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 785
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 796 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 805
+call(
+  stack
+)
+type(
+  'b list list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 20 768 788 "ulib/ml/FStar_List_Tot_Base.ml" 20 768 805
+call(
+  tail
+)
+type(
+  'b list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 21 806 810 "ulib/ml/FStar_List_Tot_Base.ml" 21 806 819
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+)
+ident(
+  def fold_left "ulib/ml/FStar_List_Tot_Base.ml" 22 840 840 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 21 806 822 "ulib/ml/FStar_List_Tot_Base.ml" 21 806 839
+type(
+  ('a -> 'b -> 'a) -> 'a -> 'b list -> 'a
+)
+ident(
+  ext_ref BatList.fold_left
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 22 840 844 "ulib/ml/FStar_List_Tot_Base.ml" 22 840 854
+type(
+  ('a -> 'b -> 'b) -> 'a list -> 'b -> 'b
+)
+ident(
+  def fold_right "ulib/ml/FStar_List_Tot_Base.ml" 23 876 876 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 22 840 857 "ulib/ml/FStar_List_Tot_Base.ml" 22 840 875
+type(
+  ('a -> 'b -> 'b) -> 'a list -> 'b -> 'b
+)
+ident(
+  ext_ref BatList.fold_right
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 23 876 880 "ulib/ml/FStar_List_Tot_Base.ml" 23 876 890
+type(
+  ('a -> 'b -> 'c -> 'a) -> 'a -> 'b list -> 'c list -> 'a
+)
+ident(
+  def fold_left2 "ulib/ml/FStar_List_Tot_Base.ml" 24 912 912 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 23 876 893 "ulib/ml/FStar_List_Tot_Base.ml" 23 876 911
+type(
+  ('a -> 'b -> 'c -> 'a) -> 'a -> 'b list -> 'c list -> 'a
+)
+ident(
+  ext_ref BatList.fold_left2
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 24 912 916 "ulib/ml/FStar_List_Tot_Base.ml" 24 912 919
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  def mem "ulib/ml/FStar_List_Tot_Base.ml" 25 934 934 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 24 912 922 "ulib/ml/FStar_List_Tot_Base.ml" 24 912 933
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  ext_ref BatList.mem
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 968 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 976
+type(
+  'a -> 'a list -> bool
+)
+ident(
+  def contains "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1017 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 977 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 978
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 26 964 979 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 979 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 980
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 26 964 983 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 983 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 997
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  ext_ref BatList.exists
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 1003 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1004
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1008 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1013
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 1008 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1009
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 26 964 977 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 978
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 1010 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1011
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 1012 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1013
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1003 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1004
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 1008 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1013
+type(
+  bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 998 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1014
+type(
+  'a -> bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 1015 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1016
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 26 964 979 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 980
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 26 964 983 "ulib/ml/FStar_List_Tot_Base.ml" 26 964 1016
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1021 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1028
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  def existsb "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1054 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1029 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1030
+type(
+  'a -> bool
+)
+ident(
+  def f "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1031 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1053
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1031 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1032
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1035 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1053
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1035 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1049
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  ext_ref BatList.exists
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1050 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1051
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1029 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1030
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1052 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1053
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1031 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1032
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1035 "ulib/ml/FStar_List_Tot_Base.ml" 27 1017 1053
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1058 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1062
+type(
+  ('a -> bool) -> 'a list -> 'a option
+)
+ident(
+  def find "ulib/ml/FStar_List_Tot_Base.ml" 29 1122 1122 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1063 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1064
+type(
+  'a -> bool
+)
+ident(
+  def f "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1065 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1121
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1065 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1066
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1069 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1121
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1079 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1091
+type(
+  ('a -> bool) -> 'a list -> 'a
+)
+ident(
+  ext_ref BatList.find
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1092 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1093
+type(
+  'a -> bool
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1063 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1064
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1094 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1095
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1065 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1066
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1078 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1096
+call(
+  stack
+)
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1073 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1096
+type(
+  'a option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1104 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1113
+type(
+  exn
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1117 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1121
+type(
+  'a option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1069 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1121
+type(
+  'a option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 29 1122 1126 "ulib/ml/FStar_List_Tot_Base.ml" 29 1122 1132
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  def filter "ulib/ml/FStar_List_Tot_Base.ml" 30 1150 1150 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 29 1122 1135 "ulib/ml/FStar_List_Tot_Base.ml" 29 1122 1149
+type(
+  ('a -> bool) -> 'a list -> 'a list
+)
+ident(
+  ext_ref BatList.filter
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 30 1150 1154 "ulib/ml/FStar_List_Tot_Base.ml" 30 1150 1161
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  def for_all "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1180 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 30 1150 1164 "ulib/ml/FStar_List_Tot_Base.ml" 30 1150 1179
+type(
+  ('a -> bool) -> 'a list -> bool
+)
+ident(
+  ext_ref BatList.for_all
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1184 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1191
+type(
+  ('a -> 'b list) -> 'a list -> 'b list
+)
+ident(
+  def collect "ulib/ml/FStar_List_Tot_Base.ml" 32 1232 1232 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1192 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1193
+type(
+  'a -> 'b list
+)
+ident(
+  def f "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1194 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1231
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1194 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1195
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1198 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1231
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1198 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1213
+type(
+  'b list list -> 'b list
+)
+ident(
+  ext_ref BatList.flatten
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1215 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1226
+type(
+  ('a -> 'b list) -> 'a list -> 'b list list
+)
+ident(
+  ext_ref BatList.map
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1227 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1228
+type(
+  'a -> 'b list
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1192 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1193
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1229 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1230
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1194 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1195
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1214 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1231
+call(
+  stack
+)
+type(
+  'b list list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1198 "ulib/ml/FStar_List_Tot_Base.ml" 31 1180 1231
+call(
+  tail
+)
+type(
+  'b list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 32 1232 1236 "ulib/ml/FStar_List_Tot_Base.ml" 32 1232 1243
+type(
+  ('a -> bool) -> 'a list -> 'a option
+)
+ident(
+  def tryFind "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1251 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 32 1232 1246 "ulib/ml/FStar_List_Tot_Base.ml" 32 1232 1250
+type(
+  ('a -> bool) -> 'a list -> 'a option
+)
+ident(
+  int_ref find "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1058 "ulib/ml/FStar_List_Tot_Base.ml" 28 1054 1062
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1255 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1262
+type(
+  ('a -> 'b option) -> 'a list -> 'b option
+)
+ident(
+  def tryPick "ulib/ml/FStar_List_Tot_Base.ml" 34 1340 1340 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1263 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1264
+type(
+  'a -> 'b option
+)
+ident(
+  def f "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1265 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1339
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1265 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1266
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1269 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1339
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1273 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1274
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1263 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1264
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1276 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1288
+type(
+  ('a -> bool) -> 'a list -> 'a
+)
+ident(
+  ext_ref BatList.find
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1294 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1295
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1299 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1310
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1299 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1300
+type(
+  'a -> 'b option
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1263 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1264
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1301 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1302
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1294 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1295
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1299 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1302
+call(
+  stack
+)
+type(
+  'b option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1303 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1305
+type(
+  'b option -> 'b option -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1306 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1310
+type(
+  'b option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1299 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1310
+type(
+  bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1289 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1311
+type(
+  'a -> bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1312 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1313
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1265 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1266
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1275 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1314
+call(
+  stack
+)
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1273 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1314
+call(
+  stack
+)
+type(
+  'b option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1322 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1331
+type(
+  exn
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1335 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1339
+type(
+  'b option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1269 "ulib/ml/FStar_List_Tot_Base.ml" 33 1251 1339
+type(
+  'b option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 34 1340 1344 "ulib/ml/FStar_List_Tot_Base.ml" 34 1340 1350
+type(
+  ('a -> 'b option) -> 'a list -> 'b list
+)
+ident(
+  def choose "ulib/ml/FStar_List_Tot_Base.ml" 35 1372 1372 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 34 1340 1353 "ulib/ml/FStar_List_Tot_Base.ml" 34 1340 1371
+type(
+  ('a -> 'b option) -> 'a list -> 'b list
+)
+ident(
+  ext_ref BatList.filter_map
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 35 1372 1376 "ulib/ml/FStar_List_Tot_Base.ml" 35 1372 1385
+type(
+  ('a -> bool) -> 'a list -> 'a list * 'a list
+)
+ident(
+  def partition "ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1406 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 35 1372 1388 "ulib/ml/FStar_List_Tot_Base.ml" 35 1372 1405
+type(
+  ('a -> bool) -> 'a list -> 'a list * 'a list
+)
+ident(
+  ext_ref BatList.partition
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1410 "ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1416
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def subset "ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1482 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1417 "ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1418
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1419 "ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1420
+type(
+  'b
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1423 "ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1431
+type(
+  string -> 'c
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1432 "ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1481
+type(
+  string
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1423 "ulib/ml/FStar_List_Tot_Base.ml" 36 1406 1481
+call(
+  tail
+)
+type(
+  'c
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1486 "ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1495
+type(
+  'a -> 'b
+)
+ident(
+  def noRepeats "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1562 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1496 "ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1497
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1500 "ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1508
+type(
+  string -> 'b
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1509 "ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1561
+type(
+  string
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1500 "ulib/ml/FStar_List_Tot_Base.ml" 37 1482 1561
+call(
+  tail
+)
+type(
+  'b
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1566 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1571
+type(
+  'a -> ('a * 'b) list -> 'b option
+)
+ident(
+  def assoc "ulib/ml/FStar_List_Tot_Base.ml" 39 1646 1646 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1572 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1573
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1574 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1645
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1574 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1575
+type(
+  ('a * 'b) list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1578 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1645
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1584 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1594
+type(
+  'a -> ('a * 'b) list -> 'b
+)
+ident(
+  ext_ref List.assoc
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1595 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1596
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1572 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1573
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1597 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1598
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1574 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1575
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1584 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1598
+call(
+  stack
+)
+type(
+  'b
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1614 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1623
+type(
+  exn
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1627 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1631
+type(
+  'b option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1634 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1635
+type(
+  'b
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1639 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1645
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1644 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1645
+type(
+  'b
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1634 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1635
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1639 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1645
+type(
+  'b option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1578 "ulib/ml/FStar_List_Tot_Base.ml" 38 1562 1645
+type(
+  'b option
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 39 1646 1650 "ulib/ml/FStar_List_Tot_Base.ml" 39 1646 1655
+type(
+  ('a * 'b) list -> 'a list * 'b list
+)
+ident(
+  def split "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1672 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 39 1646 1658 "ulib/ml/FStar_List_Tot_Base.ml" 39 1646 1671
+type(
+  ('a * 'b) list -> 'a list * 'b list
+)
+ident(
+  ext_ref BatList.split
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1676 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1683
+type(
+  Z.t -> 'a list -> 'a list * 'a list
+)
+ident(
+  def splitAt "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1722 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1684 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1685
+type(
+  Z.t
+)
+ident(
+  def n "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1686 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1721
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1686 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1687
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1690 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1721
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1690 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1706
+type(
+  int -> 'a list -> 'a list * 'a list
+)
+ident(
+  ext_ref BatList.split_at
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1708 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1716
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1717 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1718
+type(
+  Z.t
+)
+ident(
+  int_ref n "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1684 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1685
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1707 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1719
+type(
+  int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1720 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1721
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1686 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1687
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1690 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1721
+call(
+  tail
+)
+type(
+  'a list * 'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1726 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1732
+type(
+  'a list -> 'a list * 'a
+)
+ident(
+  def unsnoc "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1798 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1733 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1734
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1737 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1797
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1741 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1743
+type(
+  'a list
+)
+ident(
+  def l1 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1788 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1797
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1745 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1747
+type(
+  'a list
+)
+ident(
+  def l2 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1788 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1797
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1741 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1747
+type(
+  'a list * 'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1750 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1757
+type(
+  Z.t -> 'a list -> 'a list * 'a list
+)
+ident(
+  int_ref splitAt "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1676 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1683
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1759 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1764
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.sub
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1766 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1772
+type(
+  'a list -> Z.t
+)
+ident(
+  int_ref length "ulib/ml/FStar_List_Tot_Base.ml" 7 204 208 "ulib/ml/FStar_List_Tot_Base.ml" 7 204 214
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1773 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1774
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1733 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1734
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1765 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1775
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1776 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1781
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.one
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1758 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1782
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1783 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1784
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1733 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1734
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1750 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1784
+call(
+  stack
+)
+type(
+  'a list * 'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1788 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1790
+type(
+  'a list
+)
+ident(
+  int_ref l1 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1741 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1743
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1792 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1794
+type(
+  'a list -> 'a
+)
+ident(
+  int_ref hd "ulib/ml/FStar_List_Tot_Base.ml" 4 142 146 "ulib/ml/FStar_List_Tot_Base.ml" 4 142 148
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1795 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1797
+type(
+  'a list
+)
+ident(
+  int_ref l2 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1745 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1747
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1792 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1797
+call(
+  stack
+)
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1788 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1797
+type(
+  'a list * 'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1737 "ulib/ml/FStar_List_Tot_Base.ml" 41 1722 1797
+type(
+  'a list * 'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1802 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1808
+type(
+  'a list -> Z.t -> 'a list * 'a * 'a list
+)
+ident(
+  def split3 "ulib/ml/FStar_List_Tot_Base.ml" 43 1869 1869 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1809 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1810
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1811 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1811 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1812
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1815 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1819 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1820
+type(
+  'a list
+)
+ident(
+  def a "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1842 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1822 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1824
+type(
+  'a list
+)
+ident(
+  def a1 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1842 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1819 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1824
+type(
+  'a list * 'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1827 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1834
+type(
+  Z.t -> 'a list -> 'a list * 'a list
+)
+ident(
+  int_ref splitAt "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1676 "ulib/ml/FStar_List_Tot_Base.ml" 40 1672 1683
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1835 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1836
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1811 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1812
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1837 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1838
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1809 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1810
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1827 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1838
+call(
+  stack
+)
+type(
+  'a list * 'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1846 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1847
+type(
+  'a
+)
+ident(
+  def b "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1861 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1851 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1852
+type(
+  'a list
+)
+ident(
+  def c "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1861 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1846 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1852
+type(
+  'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1855 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1857
+type(
+  'a list
+)
+ident(
+  int_ref a1 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1822 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1824
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1861 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1862
+type(
+  'a list
+)
+ident(
+  int_ref a "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1819 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1820
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1864 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1865
+type(
+  'a
+)
+ident(
+  int_ref b "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1846 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1847
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1867 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+type(
+  'a list
+)
+ident(
+  int_ref c "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1851 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1852
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1861 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+type(
+  'a list * 'a * 'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1842 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+type(
+  'a list * 'a * 'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1815 "ulib/ml/FStar_List_Tot_Base.ml" 42 1798 1868
+type(
+  'a list * 'a * 'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 43 1869 1873 "ulib/ml/FStar_List_Tot_Base.ml" 43 1869 1878
+type(
+  ('a * 'b) list -> 'a list * 'b list
+)
+ident(
+  def unzip "ulib/ml/FStar_List_Tot_Base.ml" 44 1887 1887 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 43 1869 1881 "ulib/ml/FStar_List_Tot_Base.ml" 43 1869 1886
+type(
+  ('a * 'b) list -> 'a list * 'b list
+)
+ident(
+  int_ref split "ulib/ml/FStar_List_Tot_Base.ml" 39 1646 1650 "ulib/ml/FStar_List_Tot_Base.ml" 39 1646 1655
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 44 1887 1895 "ulib/ml/FStar_List_Tot_Base.ml" 44 1887 1901
+type(
+  ('a * 'b * 'c) list -> 'a list * 'b list * 'c list
+)
+ident(
+  def unzip3 "ulib/ml/FStar_List_Tot_Base.ml" 44 1887 1887 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1917 "ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1919
+type(
+  ('a * 'b * 'c) list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1924 "ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1926
+type(
+  'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1927 "ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1929
+type(
+  'b list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1930 "ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1932
+type(
+  'c list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1923 "ulib/ml/FStar_List_Tot_Base.ml" 45 1913 1933
+type(
+  'a list * 'b list * 'c list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1939 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1940
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1960 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1941 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1942
+type(
+  'b
+)
+ident(
+  def y "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1960 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1943 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1944
+type(
+  'c
+)
+ident(
+  def z "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1960 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1938 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1945
+type(
+  'a * 'b * 'c
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1947 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1951
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  def xyzs "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1960 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1938 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1951
+type(
+  ('a * 'b * 'c) list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1965 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1967
+type(
+  'a list
+)
+ident(
+  def xs "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 1997 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1968 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1970
+type(
+  'b list
+)
+ident(
+  def ys "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 1997 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1971 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1973
+type(
+  'c list
+)
+ident(
+  def zs "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 1997 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1964 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1974
+type(
+  'a list * 'b list * 'c list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1977 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1983
+type(
+  ('a * 'b * 'c) list -> 'a list * 'b list * 'c list
+)
+ident(
+  int_ref unzip3 "ulib/ml/FStar_List_Tot_Base.ml" 44 1887 1895 "ulib/ml/FStar_List_Tot_Base.ml" 44 1887 1901
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1984 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1988
+type(
+  ('a * 'b * 'c) list
+)
+ident(
+  int_ref xyzs "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1947 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1951
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1977 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1988
+call(
+  stack
+)
+type(
+  'a list * 'b list * 'c list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 1998 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 1999
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1939 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1940
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2001 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2003
+type(
+  'a list
+)
+ident(
+  int_ref xs "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1965 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1967
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 1998 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2003
+type(
+  'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2004 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2005
+type(
+  'b
+)
+ident(
+  int_ref y "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1941 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1942
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2007 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2009
+type(
+  'b list
+)
+ident(
+  int_ref ys "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1968 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1970
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2004 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2009
+type(
+  'b list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2010 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2011
+type(
+  'c
+)
+ident(
+  int_ref z "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1943 "ulib/ml/FStar_List_Tot_Base.ml" 46 1934 1944
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2013 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2015
+type(
+  'c list
+)
+ident(
+  int_ref zs "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1971 "ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1973
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2010 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2015
+type(
+  'c list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 48 1992 1997 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+type(
+  'a list * 'b list * 'c list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 47 1955 1960 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+type(
+  'a list * 'b list * 'c list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 44 1887 1904 "ulib/ml/FStar_List_Tot_Base.ml" 48 1992 2016
+type(
+  ('a * 'b * 'c) list -> 'a list * 'b list * 'c list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2021 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2036
+type(
+  ('a -> 'b -> Z.t) -> 'a -> 'b -> bool
+)
+ident(
+  def bool_of_compare "ulib/ml/FStar_List_Tot_Base.ml" 50 2065 2065 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2037 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2038
+type(
+  'a -> 'b -> Z.t
+)
+ident(
+  def f "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2039 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2064
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2039 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2040
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2041 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2064
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2041 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2042
+type(
+  'b
+)
+ident(
+  def y "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2045 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2064
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2045 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2049
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Z.gt
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2051 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2052
+type(
+  'a -> 'b -> Z.t
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2037 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2038
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2053 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2054
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2039 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2040
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2055 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2056
+type(
+  'b
+)
+ident(
+  int_ref y "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2041 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2042
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2050 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2057
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2058 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2064
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.zero
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2045 "ulib/ml/FStar_List_Tot_Base.ml" 49 2017 2064
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 50 2065 2069 "ulib/ml/FStar_List_Tot_Base.ml" 50 2065 2084
+type(
+  ('a -> 'a -> bool) -> 'a -> 'a -> Z.t
+)
+ident(
+  def compare_of_bool "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2189 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2093 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2096
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def rel "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2100 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2188
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2104 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2105
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2109 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2188
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2113 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2114
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2118 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2188
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2122 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2125
+type(
+  'a -> 'a -> bool
+)
+ident(
+  int_ref rel "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2093 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2096
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2126 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2127
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2104 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2105
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2128 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2129
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2113 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2114
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2121 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2130
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2136 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2141
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.one
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2151 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2152
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2104 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2105
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2153 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2154
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2155 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2156
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2113 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2114
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2151 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2156
+type(
+  bool
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2162 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2168
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.zero
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2175 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2180
+type(
+  Z.t -> Z.t
+)
+ident(
+  ext_ref Z.neg
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2181 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2186
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.one
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2174 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2187
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2147 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2188
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2118 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2188
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2109 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2188
+type(
+  'a -> Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2100 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2188
+type(
+  'a -> 'a -> Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2089 "ulib/ml/FStar_List_Tot_Base.ml" 51 2087 2188
+type(
+  ('a -> 'a -> bool) -> 'a -> 'a -> Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2193 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2201
+type(
+  ('a -> 'a -> Z.t) -> 'a list -> 'a list
+)
+ident(
+  def sortWith "ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2253 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2202 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2203
+type(
+  'a -> 'a -> Z.t
+)
+ident(
+  def f "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2204 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2252
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2204 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2205
+type(
+  'a list
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2208 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2252
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2208 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2220
+type(
+  ('a -> 'a -> int) -> 'a list -> 'a list
+)
+ident(
+  ext_ref BatList.sort
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2226 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2227
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2228 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2249
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2228 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2229
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2233 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2249
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2233 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2241
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2243 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2244
+type(
+  'a -> 'a -> Z.t
+)
+ident(
+  int_ref f "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2202 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2203
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2245 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2246
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2226 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2227
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2247 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2248
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2228 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2229
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2242 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2249
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2233 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2249
+type(
+  int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2221 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2250
+type(
+  'a -> 'a -> int
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2251 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2252
+type(
+  'a list
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2204 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2205
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2208 "ulib/ml/FStar_List_Tot_Base.ml" 52 2189 2252
+call(
+  tail
+)
+type(
+  'a list
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2257 "ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2267
+type(
+  'a -> 'a
+)
+ident(
+  def list_unref "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2274 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2268 "ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2269
+type(
+  'a
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2272 "ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2273
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2272 "ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2273
+type(
+  'a
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2268 "ulib/ml/FStar_List_Tot_Base.ml" 53 2253 2269
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2278 "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2286
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def list_ref "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2295 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2287 "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2288
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2289 "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2290
+type(
+  'b
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2293 "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2294
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2293 "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2294
+type(
+  'b
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2289 "ulib/ml/FStar_List_Tot_Base.ml" 54 2274 2290
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2299 "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2308
+type(
+  'a -> 'b -> 'b
+)
+ident(
+  def list_refb "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2316 "ulib/ml/FStar_List_Tot_Base.ml" 1 0 -1
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2309 "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2310
+type(
+  'a
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2311 "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2312
+type(
+  'b
+)
+ident(
+  def l "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2315 "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2316
+)
+"ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2315 "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2316
+type(
+  'b
+)
+ident(
+  int_ref l "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2311 "ulib/ml/FStar_List_Tot_Base.ml" 55 2295 2312
+)

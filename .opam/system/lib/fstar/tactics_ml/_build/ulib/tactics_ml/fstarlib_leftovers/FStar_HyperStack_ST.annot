@@ -1,0 +1,923 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 8 111 115 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 8 111 125
+type(
+  unit -> unit
+)
+ident(
+  def push_frame "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 9 134 134 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 8 111 126 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 8 111 128
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 8 111 131 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 8 111 133
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 9 134 138 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 9 134 147
+type(
+  unit -> unit
+)
+ident(
+  def pop_frame "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 157 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 9 134 148 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 9 134 150
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 9 134 153 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 9 134 155
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 161 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 165
+type(
+  unit
+)
+ident(
+  def root "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 172 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 168 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 170
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 176 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 183
+type(
+  unit
+)
+ident(
+  def def_rid "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 192 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 186 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 190
+type(
+  unit
+)
+ident(
+  int_ref root "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 161 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 165
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 196 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 202
+type(
+  'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def salloc "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 19 297 297 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 204 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 212
+type(
+  'a
+)
+ident(
+  def contents "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 217 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 295
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 241 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 242
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 280 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 295
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 245 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 265
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 266 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 274
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 204 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 212
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 245 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 274
+call(
+  stack
+)
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 287 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 291
+type(
+  Prims.unit
+)
+ident(
+  int_ref root "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 161 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 165
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 293 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 294
+type(
+  ('a, Prims.unit) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 241 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 242
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 280 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 295
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 16 235 237 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 17 278 295
+type(
+  'a FStar_HyperStack.reference
+)
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 19 297 301 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 19 297 310
+type(
+  'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def salloc_mm "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 405 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 19 297 312 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 19 297 320
+type(
+  'a
+)
+ident(
+  def contents "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 19 297 325 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 403
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 349 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 350
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 388 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 403
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 353 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 373
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 374 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 382
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 19 297 312 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 19 297 320
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 353 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 382
+call(
+  stack
+)
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 395 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 399
+type(
+  Prims.unit
+)
+ident(
+  int_ref root "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 161 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 11 157 165
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 401 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 402
+type(
+  ('a, Prims.unit) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 349 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 350
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 388 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 403
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 20 343 345 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 21 386 403
+type(
+  'a FStar_HyperStack.reference
+)
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 409 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 414
+type(
+  'a -> unit
+)
+ident(
+  def sfree "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 423 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 415 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 416
+type(
+  'a
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 419 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 421
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 419 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 23 405 421
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 427 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 437
+type(
+  'a -> unit
+)
+ident(
+  def new_region "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 460 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 445 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 447
+type(
+  'a
+)
+ident(
+  def r0 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 451 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 458
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 451 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 458
+type(
+  unit
+)
+ident(
+  int_ref def_rid "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 176 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 183
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 440 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 25 423 459
+type(
+  'a -> unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 464 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 482
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def new_colored_region "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 508 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 490 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 492
+type(
+  'a
+)
+ident(
+  def r0 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 493 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 505
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 493 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 494
+type(
+  'b
+)
+ident(
+  def c "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 498 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 505
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 498 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 505
+type(
+  unit
+)
+ident(
+  int_ref def_rid "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 176 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 183
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 485 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 26 460 506
+type(
+  'a -> 'b -> unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 518
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def ralloc "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 614 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 519 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 520
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 521 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 610
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 522 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 530
+type(
+  'a
+)
+ident(
+  def contents "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 535 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 610
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 559 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 560
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 598 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 610
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 563 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 583
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 584 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 592
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 522 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 530
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 563 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 592
+call(
+  stack
+)
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 605 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 606
+type(
+  Prims.unit
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 519 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 520
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 608 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 609
+type(
+  ('a, Prims.unit) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 559 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 560
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 598 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 610
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 29 553 555 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 30 596 610
+type(
+  'a FStar_HyperStack.reference
+)
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 618 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 627
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def ralloc_mm "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 723 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 628 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 629
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 630 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 719
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 631 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 639
+type(
+  'a
+)
+ident(
+  def contents "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 644 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 719
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 668 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 669
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 707 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 719
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 672 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 692
+type(
+  'a -> 'a FStar_Monotonic_Heap.ref
+)
+ident(
+  ext_ref FStar_CommonST.alloc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 693 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 701
+type(
+  'a
+)
+ident(
+  int_ref contents "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 631 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 639
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 672 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 701
+call(
+  stack
+)
+type(
+  'a FStar_Monotonic_Heap.ref
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 714 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 715
+type(
+  Prims.unit
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 628 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 629
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 717 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 718
+type(
+  ('a, Prims.unit) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 668 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 669
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 707 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 719
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 33 662 664 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 34 705 719
+type(
+  'a FStar_HyperStack.reference
+)
+type(
+  'a FStar_HyperStack.reference
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 727 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 732
+type(
+  'a -> unit
+)
+ident(
+  def rfree "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 741 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 733 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 734
+type(
+  'a
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 737 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 739
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 737 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 36 723 739
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 745 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 760
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a -> unit
+)
+ident(
+  def op_Colon_Equals "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 821 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 761 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 762
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 763 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 819
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 763 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 764
+type(
+  'a
+)
+ident(
+  def v "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 767 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 819
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 773 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 774
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 761 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 762
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 791 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 792
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 794 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 795
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 800 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 819
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 784 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 796
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 800 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 815
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref -> 'a -> unit
+)
+ident(
+  ext_ref FStar_CommonST.op_Colon_Equals
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 816 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 817
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 794 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 795
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 818 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 819
+type(
+  'a
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 763 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 764
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 800 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 819
+call(
+  tail
+)
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 767 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 39 780 819
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 825 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 832
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a
+)
+ident(
+  def op_Bang "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 44 881 881 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 833 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 834
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 837 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 879
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 843 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 844
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 833 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 834
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 861 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 862
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 864 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 865
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 870 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 879
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 854 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 866
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference'
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 870 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 877
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref -> 'a
+)
+ident(
+  ext_ref FStar_CommonST.op_Bang
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 878 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 879
+type(
+  ('a, 'b) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 864 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 865
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 870 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 879
+call(
+  tail
+)
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 837 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 42 850 879
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 44 881 885 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 44 881 889
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a
+)
+ident(
+  def read "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 46 901 901 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 44 881 892 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 44 881 899
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a
+)
+ident(
+  int_ref op_Bang "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 825 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 41 821 832
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 46 901 905 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 46 901 910
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a -> unit
+)
+ident(
+  def write "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 930 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 46 901 913 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 46 901 928
+type(
+  ('a, 'b) FStar_Monotonic_HyperStack.mreference' -> 'a -> unit
+)
+ident(
+  int_ref op_Colon_Equals "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 745 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 38 741 760
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 934 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 937
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def get "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 938 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 940
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 947 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 962
+type(
+  string -> Prims.int
+)
+ident(
+  ext_ref Prims.parse_int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 963 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 966
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 947 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 966
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 968 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 983
+type(
+  FStar_Monotonic_Heap.heap -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  ext_ref FStar_Map.const
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 984 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 1008
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.emp
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 968 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 1008
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 1010 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 1017
+type(
+  Prims.unit
+)
+ident(
+  int_ref def_rid "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 176 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 13 172 183
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 943 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 48 930 1018
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1024 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1030
+type(
+  'a -> unit
+)
+ident(
+  def recall "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1048 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1038 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1039
+type(
+  'a
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1043 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1045
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1043 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1045
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1033 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 50 1020 1046
+type(
+  'a -> unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1052 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1065
+type(
+  'a -> unit
+)
+ident(
+  def recall_region "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 53 1082 1082 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1073 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1074
+type(
+  'a
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1078 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1080
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1078 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1080
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1068 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 52 1048 1081
+type(
+  'a -> unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 53 1082 1086 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 53 1082 1100
+type(
+  'a -> unit
+)
+ident(
+  def witness_region "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1108 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 53 1082 1101 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 53 1082 1102
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 53 1082 1105 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 53 1082 1107
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1112 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1125
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def witness_hsref "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 55 1135 1135 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1126 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1127
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1128 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1129
+type(
+  'b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1132 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 54 1108 1134
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 60 1257 1261 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 60 1257 1266
+type(
+  'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def alloc "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 61 1276 1276 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 60 1257 1269 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 60 1257 1275
+type(
+  'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  int_ref salloc "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 196 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 15 192 202
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1387 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1397
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> unit
+)
+ident(
+  def mr_witness "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 65 1413 1413 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1398 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1399
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1400 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1401
+type(
+  'b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1402 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1403
+type(
+  'c
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1404 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1405
+type(
+  'd
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1406 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1407
+type(
+  'e
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1410 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 64 1383 1412
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 65 1413 1417 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 65 1413 1424
+type(
+  'a -> unit
+)
+ident(
+  def testify "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 66 1432 1432 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 65 1413 1425 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 65 1413 1426
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 65 1413 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 65 1413 1431
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 66 1432 1436 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 66 1432 1450
+type(
+  'a -> unit
+)
+ident(
+  def testify_forall "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1458 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 66 1432 1451 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 66 1432 1452
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 66 1432 1455 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 66 1432 1457
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1462 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1497
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def testify_forall_region_contains_pred "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 69 1508 1508 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1498 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1499
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1500 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1501
+type(
+  'b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1504 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 67 1458 1506
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 73 1649 1653 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 73 1649 1662
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def witness_p "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1672 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 73 1649 1663 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 73 1649 1664
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 73 1649 1665 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 73 1649 1666
+type(
+  'b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 73 1649 1669 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 73 1649 1671
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1676 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1684
+type(
+  'a -> 'b -> unit
+)
+ident(
+  def recall_p "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 76 1695 1695 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1685 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1686
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1687 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1688
+type(
+  'b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1691 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 74 1672 1693
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 77 1711 1715 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 77 1711 1723
+type(
+  'a -> unit
+)
+ident(
+  def new_drgn "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 78 1731 1731 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 77 1711 1724 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 77 1711 1725
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 77 1711 1728 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 77 1711 1730
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 78 1731 1735 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 78 1731 1744
+type(
+  'a -> unit
+)
+ident(
+  def free_drgn "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 79 1752 1752 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 78 1731 1745 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 78 1731 1746
+type(
+  'a
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 78 1731 1749 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 78 1731 1751
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 79 1752 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 79 1752 1767
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def ralloc_drgn "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 80 1777 1777 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 79 1752 1770 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 79 1752 1776
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  int_ref ralloc "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 28 508 518
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 80 1777 1781 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 80 1777 1795
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  def ralloc_drgn_mm "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 80 1777 1807 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 80 1777 1798 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 80 1777 1807
+type(
+  Prims.unit -> 'a -> 'a FStar_HyperStack.reference
+)
+ident(
+  int_ref ralloc_mm "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 618 "ulib/tactics_ml/fstarlib_leftovers/FStar_HyperStack_ST.ml" 32 614 627
+)

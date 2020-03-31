@@ -1,0 +1,360 @@
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 2 11 15 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 2 11 22
+type(
+  'a 'b 'c. ('a -> 'b -> 'c) -> 'a * 'b -> 'c
+)
+ident(
+  def uncurry "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 4 141 141 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 80 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 81
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 86 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 90 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 98
+type(
+  'a * 'b
+)
+ident(
+  def uu____41 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 103 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 109 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 117
+type(
+  'a * 'b
+)
+ident(
+  int_ref uu____41 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 90 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 98
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 126 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 127
+type(
+  'a
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 134 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 128 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 129
+type(
+  'b
+)
+ident(
+  def y "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 134 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 125 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 130
+type(
+  'a * 'b
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 134 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 135
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 80 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 81
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 136 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 137
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 126 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 127
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 138 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+type(
+  'b
+)
+ident(
+  int_ref y "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 128 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 129
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 134 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+call(
+  tail
+)
+type(
+  'c
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 103 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+type(
+  'c
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 86 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+type(
+  'a * 'b -> 'c
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 76 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 3 74 139
+type(
+  ('a -> 'b -> 'c) -> 'a * 'b -> 'c
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 4 141 145 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 4 141 150
+type(
+  'a 'b 'c. ('a * 'b -> 'c) -> 'a -> 'b -> 'c
+)
+ident(
+  def curry "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 6 244 244 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 208 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 209
+type(
+  'a * 'b -> 'c
+)
+ident(
+  def f "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 214 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 242
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 218 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 219
+type(
+  'a
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 224 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 242
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 228 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 229
+type(
+  'b
+)
+ident(
+  def y "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 234 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 242
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 234 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 235
+type(
+  'a * 'b -> 'c
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 208 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 209
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 237 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 238
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 218 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 219
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 240 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 241
+type(
+  'b
+)
+ident(
+  int_ref y "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 228 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 229
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 236 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 242
+type(
+  'a * 'b
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 234 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 242
+call(
+  tail
+)
+type(
+  'c
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 224 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 242
+type(
+  'b -> 'c
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 214 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 242
+type(
+  'a -> 'b -> 'c
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 204 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 5 202 242
+type(
+  ('a * 'b -> 'c) -> 'a -> 'b -> 'c
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 6 244 252 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 6 244 260
+type(
+  'Aa. 'Aa Prims.list -> 'Aa Prims.list
+)
+ident(
+  def list_ref "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 6 244 244 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 314 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 315
+type(
+  'Aa Prims.list
+)
+ident(
+  def l "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 320 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 373
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 326 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 327
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref l "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 314 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 315
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 335 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 337
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 341 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 343
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 346 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 347
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 355 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 373
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 349 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 351
+type(
+  'Aa list
+)
+ident(
+  def xs "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 355 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 373
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 346 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 351
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 355 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 356
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 346 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 347
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 361 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 369
+type(
+  'Aa Prims.list -> 'Aa Prims.list
+)
+ident(
+  int_ref list_ref "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 6 244 252 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 6 244 260
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 370 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 372
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 349 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 351
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 360 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 373
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 355 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 373
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 320 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 373
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 310 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 7 308 373
+type(
+  'Aa Prims.list -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 12 379 384 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 12 379 399
+type(
+  FStar_Reflection_Types.term ->
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+ident(
+  def collect_app_ref "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 16 514 520 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 16 514 521
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  def t "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 530 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 534 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 543
+type(
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+ident(
+  def uu____172 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 593 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 546 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 582
+type(
+  FStar_Reflection_Types.term ->
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+ident(
+  ext_ref FStar_Reflection_Derived.collect_app
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 583 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 584
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref t "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 16 514 520 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 16 514 521
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 546 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 584
+call(
+  stack
+)
+type(
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 599 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 608
+type(
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+ident(
+  int_ref uu____172 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 534 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 543
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 617 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 618
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  def h "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 625 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 619 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 620
+type(
+  FStar_Reflection_Data.argv Prims.list
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 625 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 616 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 621
+type(
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 626 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 627
+type(
+  FStar_Reflection_Types.term
+)
+ident(
+  int_ref h "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 617 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 618
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 630 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 638
+type(
+  FStar_Reflection_Data.argv Prims.list ->
+  FStar_Reflection_Data.argv Prims.list
+)
+ident(
+  int_ref list_ref "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 6 244 252 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 6 244 260
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 639 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 640
+type(
+  FStar_Reflection_Data.argv Prims.list
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 619 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 620
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 629 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 641
+call(
+  stack
+)
+type(
+  FStar_Reflection_Data.argv Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 625 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642
+type(
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 593 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642
+type(
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 17 526 530 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642
+type(
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 16 514 516 "ulib/tactics_ml/extracted/FStar_Reflection_Derived_Lemmas.ml" 18 589 642
+type(
+  FStar_Reflection_Types.term ->
+  FStar_Reflection_Types.term * FStar_Reflection_Data.argv Prims.list
+)

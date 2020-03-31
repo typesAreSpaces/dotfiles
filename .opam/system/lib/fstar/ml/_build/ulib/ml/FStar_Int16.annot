@@ -1,0 +1,2289 @@
+"ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  int16 -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  int16
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  Format.formatter -> int16 -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_int16 "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  ((Format.formatter -> int16 -> Ppx_deriving_runtime.unit) ->
+   int16 -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> int16 -> Ppx_deriving_runtime.unit) ->
+   int16 -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> int16 -> Ppx_deriving_runtime.unit) ->
+  int16 -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  int16
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  Format.formatter -> int16 -> Ppx_deriving_runtime.unit
+)
+type(
+  int16 -> Ppx_deriving_runtime.unit
+)
+type(
+  (int16 -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  Format.formatter ->
+  (int16 -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format -> int16 -> Ppx_deriving_runtime.unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  int16 -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_int16 "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  Format.formatter -> int16 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_int16 "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> int16 Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  (int16, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  int16
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  (int16, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  int16
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  int16 -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Ppx_deriving_runtime.int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  Ppx_deriving_runtime.int
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  Yojson.Safe.json -> int16 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def int16_of_yojson "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  int16 -> Yojson.Safe.json
+)
+ident(
+  def int16_to_yojson "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  t -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  t
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  ((Format.formatter -> t -> Ppx_deriving_runtime.unit) ->
+   t -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> t -> Ppx_deriving_runtime.unit) ->
+   t -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> t -> Ppx_deriving_runtime.unit) ->
+  t -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  t
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+type(
+  t -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref __0 "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  unit -> Format.formatter -> int16 -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> int16 -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_int16 "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> int16 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def __0 "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  t -> Ppx_deriving_runtime.string
+)
+ident(
+  def show "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> t Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  int16 Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  Yojson.Safe.json -> int16 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref int16_of_yojson "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  t -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  t
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  int16 -> Yojson.Safe.json
+)
+ident(
+  int_ref int16_to_yojson "ulib/ml/FStar_Int16.ml" 1 0 0 "ulib/ml/FStar_Int16.ml" 1 0 40
+)
+type(
+  t
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  Yojson.Safe.json -> t Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def of_yojson "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  t -> Yojson.Safe.json
+)
+ident(
+  def to_yojson "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  t' -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  t'
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  Format.formatter -> t' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_t' "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  ((Format.formatter -> t' -> Ppx_deriving_runtime.unit) ->
+   t' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> t' -> Ppx_deriving_runtime.unit) ->
+   t' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> t' -> Ppx_deriving_runtime.unit) ->
+  t' -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  t'
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  Format.formatter -> t' -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> t' -> Ppx_deriving_runtime.unit
+)
+type(
+  t' -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  Format.formatter -> t' -> Ppx_deriving_runtime.unit
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> t' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref __0 "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  unit -> Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> t -> Ppx_deriving_runtime.unit
+)
+ident(
+  def __0 "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  t' -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_t' "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  Format.formatter -> t' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_t' "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> t' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  t Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  Yojson.Safe.json -> t Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref of_yojson "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  t' -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  t'
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  t -> Yojson.Safe.json
+)
+ident(
+  int_ref to_yojson "ulib/ml/FStar_Int16.ml" 3 59 59 "ulib/ml/FStar_Int16.ml" 3 59 97
+)
+type(
+  t'
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 4 98 133
+)
+type(
+  Yojson.Safe.json -> t' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def t'_of_yojson "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+type(
+  t' -> Yojson.Safe.json
+)
+ident(
+  def t'_to_yojson "ulib/ml/FStar_Int16.ml" 4 98 98 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 6 135 139 "ulib/ml/FStar_Int16.ml" 6 135 140
+type(
+  int16 -> Prims.int
+)
+ident(
+  def v "ulib/ml/FStar_Int16.ml" 8 200 200 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 6 135 142 "ulib/ml/FStar_Int16.ml" 6 135 143
+type(
+  int16
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 6 135 151 "ulib/ml/FStar_Int16.ml" 6 135 198
+)
+"ulib/ml/FStar_Int16.ml" 6 135 165 "ulib/ml/FStar_Int16.ml" 6 135 180
+type(
+  string -> Prims.int
+)
+ident(
+  ext_ref Prims.parse_int
+)
+"ulib/ml/FStar_Int16.ml" 6 135 182 "ulib/ml/FStar_Int16.ml" 6 135 195
+type(
+  int16 -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ulib/ml/FStar_Int16.ml" 6 135 196 "ulib/ml/FStar_Int16.ml" 6 135 197
+type(
+  int16
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 6 135 142 "ulib/ml/FStar_Int16.ml" 6 135 143
+)
+"ulib/ml/FStar_Int16.ml" 6 135 181 "ulib/ml/FStar_Int16.ml" 6 135 198
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Int16.ml" 6 135 165 "ulib/ml/FStar_Int16.ml" 6 135 198
+call(
+  tail
+)
+type(
+  Prims.int
+)
+type(
+  Prims.int
+)
+"ulib/ml/FStar_Int16.ml" 8 200 204 "ulib/ml/FStar_Int16.ml" 8 200 208
+type(
+  int
+)
+ident(
+  def zero "ulib/ml/FStar_Int16.ml" 9 213 213 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 8 200 211 "ulib/ml/FStar_Int16.ml" 8 200 212
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 9 213 217 "ulib/ml/FStar_Int16.ml" 9 213 220
+type(
+  int
+)
+ident(
+  def one "ulib/ml/FStar_Int16.ml" 10 225 225 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 9 213 223 "ulib/ml/FStar_Int16.ml" 9 213 224
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 10 225 229 "ulib/ml/FStar_Int16.ml" 10 225 233
+type(
+  int
+)
+ident(
+  def ones "ulib/ml/FStar_Int16.ml" 12 285 285 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 10 225 236 "ulib/ml/FStar_Int16.ml" 10 225 238
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 12 285 289 "ulib/ml/FStar_Int16.ml" 12 285 292
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def add "ulib/ml/FStar_Int16.ml" 13 329 329 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 12 285 294 "ulib/ml/FStar_Int16.ml" 12 285 295
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 12 285 303 "ulib/ml/FStar_Int16.ml" 12 285 328
+)
+"ulib/ml/FStar_Int16.ml" 12 285 304 "ulib/ml/FStar_Int16.ml" 12 285 305
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 12 285 313 "ulib/ml/FStar_Int16.ml" 12 285 328
+)
+"ulib/ml/FStar_Int16.ml" 12 285 323 "ulib/ml/FStar_Int16.ml" 12 285 324
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 12 285 294 "ulib/ml/FStar_Int16.ml" 12 285 295
+)
+"ulib/ml/FStar_Int16.ml" 12 285 325 "ulib/ml/FStar_Int16.ml" 12 285 326
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ulib/ml/FStar_Int16.ml" 12 285 327 "ulib/ml/FStar_Int16.ml" 12 285 328
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 12 285 304 "ulib/ml/FStar_Int16.ml" 12 285 305
+)
+"ulib/ml/FStar_Int16.ml" 12 285 323 "ulib/ml/FStar_Int16.ml" 12 285 328
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 13 329 333 "ulib/ml/FStar_Int16.ml" 13 329 346
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def add_underspec "ulib/ml/FStar_Int16.ml" 14 361 361 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 13 329 347 "ulib/ml/FStar_Int16.ml" 13 329 348
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 13 329 349 "ulib/ml/FStar_Int16.ml" 13 329 360
+)
+"ulib/ml/FStar_Int16.ml" 13 329 349 "ulib/ml/FStar_Int16.ml" 13 329 350
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 13 329 353 "ulib/ml/FStar_Int16.ml" 13 329 360
+)
+"ulib/ml/FStar_Int16.ml" 13 329 353 "ulib/ml/FStar_Int16.ml" 13 329 356
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref add "ulib/ml/FStar_Int16.ml" 12 285 289 "ulib/ml/FStar_Int16.ml" 12 285 292
+)
+"ulib/ml/FStar_Int16.ml" 13 329 357 "ulib/ml/FStar_Int16.ml" 13 329 358
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 13 329 347 "ulib/ml/FStar_Int16.ml" 13 329 348
+)
+"ulib/ml/FStar_Int16.ml" 13 329 359 "ulib/ml/FStar_Int16.ml" 13 329 360
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 13 329 349 "ulib/ml/FStar_Int16.ml" 13 329 350
+)
+"ulib/ml/FStar_Int16.ml" 13 329 353 "ulib/ml/FStar_Int16.ml" 13 329 360
+call(
+  tail
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 14 361 365 "ulib/ml/FStar_Int16.ml" 14 361 372
+type(
+  int16 -> int16 -> int
+)
+ident(
+  def add_mod "ulib/ml/FStar_Int16.ml" 16 401 401 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 14 361 373 "ulib/ml/FStar_Int16.ml" 14 361 374
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 14 361 375 "ulib/ml/FStar_Int16.ml" 14 361 399
+)
+"ulib/ml/FStar_Int16.ml" 14 361 375 "ulib/ml/FStar_Int16.ml" 14 361 376
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 14 361 379 "ulib/ml/FStar_Int16.ml" 14 361 399
+)
+"ulib/ml/FStar_Int16.ml" 14 361 380 "ulib/ml/FStar_Int16.ml" 14 361 383
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref add "ulib/ml/FStar_Int16.ml" 12 285 289 "ulib/ml/FStar_Int16.ml" 12 285 292
+)
+"ulib/ml/FStar_Int16.ml" 14 361 384 "ulib/ml/FStar_Int16.ml" 14 361 385
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 14 361 373 "ulib/ml/FStar_Int16.ml" 14 361 374
+)
+"ulib/ml/FStar_Int16.ml" 14 361 386 "ulib/ml/FStar_Int16.ml" 14 361 387
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 14 361 375 "ulib/ml/FStar_Int16.ml" 14 361 376
+)
+"ulib/ml/FStar_Int16.ml" 14 361 379 "ulib/ml/FStar_Int16.ml" 14 361 388
+call(
+  stack
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 14 361 389 "ulib/ml/FStar_Int16.ml" 14 361 393
+type(
+  int16 -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int16.ml" 14 361 394 "ulib/ml/FStar_Int16.ml" 14 361 399
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 14 361 379 "ulib/ml/FStar_Int16.ml" 14 361 399
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 16 401 405 "ulib/ml/FStar_Int16.ml" 16 401 408
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def sub "ulib/ml/FStar_Int16.ml" 17 445 445 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 16 401 410 "ulib/ml/FStar_Int16.ml" 16 401 411
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 16 401 419 "ulib/ml/FStar_Int16.ml" 16 401 444
+)
+"ulib/ml/FStar_Int16.ml" 16 401 420 "ulib/ml/FStar_Int16.ml" 16 401 421
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 16 401 429 "ulib/ml/FStar_Int16.ml" 16 401 444
+)
+"ulib/ml/FStar_Int16.ml" 16 401 439 "ulib/ml/FStar_Int16.ml" 16 401 440
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 16 401 410 "ulib/ml/FStar_Int16.ml" 16 401 411
+)
+"ulib/ml/FStar_Int16.ml" 16 401 441 "ulib/ml/FStar_Int16.ml" 16 401 442
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ulib/ml/FStar_Int16.ml" 16 401 443 "ulib/ml/FStar_Int16.ml" 16 401 444
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 16 401 420 "ulib/ml/FStar_Int16.ml" 16 401 421
+)
+"ulib/ml/FStar_Int16.ml" 16 401 439 "ulib/ml/FStar_Int16.ml" 16 401 444
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 17 445 449 "ulib/ml/FStar_Int16.ml" 17 445 462
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def sub_underspec "ulib/ml/FStar_Int16.ml" 18 477 477 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 17 445 463 "ulib/ml/FStar_Int16.ml" 17 445 464
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 17 445 465 "ulib/ml/FStar_Int16.ml" 17 445 476
+)
+"ulib/ml/FStar_Int16.ml" 17 445 465 "ulib/ml/FStar_Int16.ml" 17 445 466
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 17 445 469 "ulib/ml/FStar_Int16.ml" 17 445 476
+)
+"ulib/ml/FStar_Int16.ml" 17 445 469 "ulib/ml/FStar_Int16.ml" 17 445 472
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref sub "ulib/ml/FStar_Int16.ml" 16 401 405 "ulib/ml/FStar_Int16.ml" 16 401 408
+)
+"ulib/ml/FStar_Int16.ml" 17 445 473 "ulib/ml/FStar_Int16.ml" 17 445 474
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 17 445 463 "ulib/ml/FStar_Int16.ml" 17 445 464
+)
+"ulib/ml/FStar_Int16.ml" 17 445 475 "ulib/ml/FStar_Int16.ml" 17 445 476
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 17 445 465 "ulib/ml/FStar_Int16.ml" 17 445 466
+)
+"ulib/ml/FStar_Int16.ml" 17 445 469 "ulib/ml/FStar_Int16.ml" 17 445 476
+call(
+  tail
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 18 477 481 "ulib/ml/FStar_Int16.ml" 18 477 488
+type(
+  int16 -> int16 -> int
+)
+ident(
+  def sub_mod "ulib/ml/FStar_Int16.ml" 20 517 517 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 18 477 489 "ulib/ml/FStar_Int16.ml" 18 477 490
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 18 477 491 "ulib/ml/FStar_Int16.ml" 18 477 515
+)
+"ulib/ml/FStar_Int16.ml" 18 477 491 "ulib/ml/FStar_Int16.ml" 18 477 492
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 18 477 495 "ulib/ml/FStar_Int16.ml" 18 477 515
+)
+"ulib/ml/FStar_Int16.ml" 18 477 496 "ulib/ml/FStar_Int16.ml" 18 477 499
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref sub "ulib/ml/FStar_Int16.ml" 16 401 405 "ulib/ml/FStar_Int16.ml" 16 401 408
+)
+"ulib/ml/FStar_Int16.ml" 18 477 500 "ulib/ml/FStar_Int16.ml" 18 477 501
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 18 477 489 "ulib/ml/FStar_Int16.ml" 18 477 490
+)
+"ulib/ml/FStar_Int16.ml" 18 477 502 "ulib/ml/FStar_Int16.ml" 18 477 503
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 18 477 491 "ulib/ml/FStar_Int16.ml" 18 477 492
+)
+"ulib/ml/FStar_Int16.ml" 18 477 495 "ulib/ml/FStar_Int16.ml" 18 477 504
+call(
+  stack
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 18 477 505 "ulib/ml/FStar_Int16.ml" 18 477 509
+type(
+  int16 -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int16.ml" 18 477 510 "ulib/ml/FStar_Int16.ml" 18 477 515
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 18 477 495 "ulib/ml/FStar_Int16.ml" 18 477 515
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 20 517 521 "ulib/ml/FStar_Int16.ml" 20 517 524
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def mul "ulib/ml/FStar_Int16.ml" 21 561 561 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 20 517 526 "ulib/ml/FStar_Int16.ml" 20 517 527
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 20 517 535 "ulib/ml/FStar_Int16.ml" 20 517 560
+)
+"ulib/ml/FStar_Int16.ml" 20 517 536 "ulib/ml/FStar_Int16.ml" 20 517 537
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 20 517 545 "ulib/ml/FStar_Int16.ml" 20 517 560
+)
+"ulib/ml/FStar_Int16.ml" 20 517 555 "ulib/ml/FStar_Int16.ml" 20 517 556
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 20 517 526 "ulib/ml/FStar_Int16.ml" 20 517 527
+)
+"ulib/ml/FStar_Int16.ml" 20 517 557 "ulib/ml/FStar_Int16.ml" 20 517 558
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"ulib/ml/FStar_Int16.ml" 20 517 559 "ulib/ml/FStar_Int16.ml" 20 517 560
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 20 517 536 "ulib/ml/FStar_Int16.ml" 20 517 537
+)
+"ulib/ml/FStar_Int16.ml" 20 517 555 "ulib/ml/FStar_Int16.ml" 20 517 560
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 21 561 565 "ulib/ml/FStar_Int16.ml" 21 561 578
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def mul_underspec "ulib/ml/FStar_Int16.ml" 22 593 593 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 21 561 579 "ulib/ml/FStar_Int16.ml" 21 561 580
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 21 561 581 "ulib/ml/FStar_Int16.ml" 21 561 592
+)
+"ulib/ml/FStar_Int16.ml" 21 561 581 "ulib/ml/FStar_Int16.ml" 21 561 582
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 21 561 585 "ulib/ml/FStar_Int16.ml" 21 561 592
+)
+"ulib/ml/FStar_Int16.ml" 21 561 585 "ulib/ml/FStar_Int16.ml" 21 561 588
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref mul "ulib/ml/FStar_Int16.ml" 20 517 521 "ulib/ml/FStar_Int16.ml" 20 517 524
+)
+"ulib/ml/FStar_Int16.ml" 21 561 589 "ulib/ml/FStar_Int16.ml" 21 561 590
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 21 561 579 "ulib/ml/FStar_Int16.ml" 21 561 580
+)
+"ulib/ml/FStar_Int16.ml" 21 561 591 "ulib/ml/FStar_Int16.ml" 21 561 592
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 21 561 581 "ulib/ml/FStar_Int16.ml" 21 561 582
+)
+"ulib/ml/FStar_Int16.ml" 21 561 585 "ulib/ml/FStar_Int16.ml" 21 561 592
+call(
+  tail
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 22 593 597 "ulib/ml/FStar_Int16.ml" 22 593 604
+type(
+  int16 -> int16 -> int
+)
+ident(
+  def mul_mod "ulib/ml/FStar_Int16.ml" 24 633 633 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 22 593 605 "ulib/ml/FStar_Int16.ml" 22 593 606
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 22 593 607 "ulib/ml/FStar_Int16.ml" 22 593 631
+)
+"ulib/ml/FStar_Int16.ml" 22 593 607 "ulib/ml/FStar_Int16.ml" 22 593 608
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 22 593 611 "ulib/ml/FStar_Int16.ml" 22 593 631
+)
+"ulib/ml/FStar_Int16.ml" 22 593 612 "ulib/ml/FStar_Int16.ml" 22 593 615
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref mul "ulib/ml/FStar_Int16.ml" 20 517 521 "ulib/ml/FStar_Int16.ml" 20 517 524
+)
+"ulib/ml/FStar_Int16.ml" 22 593 616 "ulib/ml/FStar_Int16.ml" 22 593 617
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 22 593 605 "ulib/ml/FStar_Int16.ml" 22 593 606
+)
+"ulib/ml/FStar_Int16.ml" 22 593 618 "ulib/ml/FStar_Int16.ml" 22 593 619
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 22 593 607 "ulib/ml/FStar_Int16.ml" 22 593 608
+)
+"ulib/ml/FStar_Int16.ml" 22 593 611 "ulib/ml/FStar_Int16.ml" 22 593 620
+call(
+  stack
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 22 593 621 "ulib/ml/FStar_Int16.ml" 22 593 625
+type(
+  int16 -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int16.ml" 22 593 626 "ulib/ml/FStar_Int16.ml" 22 593 631
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 22 593 611 "ulib/ml/FStar_Int16.ml" 22 593 631
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 24 633 637 "ulib/ml/FStar_Int16.ml" 24 633 640
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def div "ulib/ml/FStar_Int16.ml" 26 678 678 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 24 633 642 "ulib/ml/FStar_Int16.ml" 24 633 643
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 24 633 651 "ulib/ml/FStar_Int16.ml" 24 633 676
+)
+"ulib/ml/FStar_Int16.ml" 24 633 652 "ulib/ml/FStar_Int16.ml" 24 633 653
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 24 633 661 "ulib/ml/FStar_Int16.ml" 24 633 676
+)
+"ulib/ml/FStar_Int16.ml" 24 633 671 "ulib/ml/FStar_Int16.ml" 24 633 672
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 24 633 642 "ulib/ml/FStar_Int16.ml" 24 633 643
+)
+"ulib/ml/FStar_Int16.ml" 24 633 673 "ulib/ml/FStar_Int16.ml" 24 633 674
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"ulib/ml/FStar_Int16.ml" 24 633 675 "ulib/ml/FStar_Int16.ml" 24 633 676
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 24 633 652 "ulib/ml/FStar_Int16.ml" 24 633 653
+)
+"ulib/ml/FStar_Int16.ml" 24 633 671 "ulib/ml/FStar_Int16.ml" 24 633 676
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 26 678 682 "ulib/ml/FStar_Int16.ml" 26 678 685
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def rem "ulib/ml/FStar_Int16.ml" 28 725 725 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 26 678 687 "ulib/ml/FStar_Int16.ml" 26 678 688
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 26 678 696 "ulib/ml/FStar_Int16.ml" 26 678 723
+)
+"ulib/ml/FStar_Int16.ml" 26 678 697 "ulib/ml/FStar_Int16.ml" 26 678 698
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 26 678 706 "ulib/ml/FStar_Int16.ml" 26 678 723
+)
+"ulib/ml/FStar_Int16.ml" 26 678 716 "ulib/ml/FStar_Int16.ml" 26 678 717
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 26 678 687 "ulib/ml/FStar_Int16.ml" 26 678 688
+)
+"ulib/ml/FStar_Int16.ml" 26 678 718 "ulib/ml/FStar_Int16.ml" 26 678 721
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"ulib/ml/FStar_Int16.ml" 26 678 722 "ulib/ml/FStar_Int16.ml" 26 678 723
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 26 678 697 "ulib/ml/FStar_Int16.ml" 26 678 698
+)
+"ulib/ml/FStar_Int16.ml" 26 678 716 "ulib/ml/FStar_Int16.ml" 26 678 723
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 28 725 729 "ulib/ml/FStar_Int16.ml" 28 725 735
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def logand "ulib/ml/FStar_Int16.ml" 29 775 775 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 28 725 737 "ulib/ml/FStar_Int16.ml" 28 725 738
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 28 725 746 "ulib/ml/FStar_Int16.ml" 28 725 774
+)
+"ulib/ml/FStar_Int16.ml" 28 725 747 "ulib/ml/FStar_Int16.ml" 28 725 748
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 28 725 756 "ulib/ml/FStar_Int16.ml" 28 725 774
+)
+"ulib/ml/FStar_Int16.ml" 28 725 766 "ulib/ml/FStar_Int16.ml" 28 725 767
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 28 725 737 "ulib/ml/FStar_Int16.ml" 28 725 738
+)
+"ulib/ml/FStar_Int16.ml" 28 725 768 "ulib/ml/FStar_Int16.ml" 28 725 772
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int16.ml" 28 725 773 "ulib/ml/FStar_Int16.ml" 28 725 774
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 28 725 747 "ulib/ml/FStar_Int16.ml" 28 725 748
+)
+"ulib/ml/FStar_Int16.ml" 28 725 766 "ulib/ml/FStar_Int16.ml" 28 725 774
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 29 775 779 "ulib/ml/FStar_Int16.ml" 29 775 785
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def logxor "ulib/ml/FStar_Int16.ml" 30 825 825 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 29 775 787 "ulib/ml/FStar_Int16.ml" 29 775 788
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 29 775 796 "ulib/ml/FStar_Int16.ml" 29 775 824
+)
+"ulib/ml/FStar_Int16.ml" 29 775 797 "ulib/ml/FStar_Int16.ml" 29 775 798
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 29 775 806 "ulib/ml/FStar_Int16.ml" 29 775 824
+)
+"ulib/ml/FStar_Int16.ml" 29 775 816 "ulib/ml/FStar_Int16.ml" 29 775 817
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 29 775 787 "ulib/ml/FStar_Int16.ml" 29 775 788
+)
+"ulib/ml/FStar_Int16.ml" 29 775 818 "ulib/ml/FStar_Int16.ml" 29 775 822
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  ext_ref Pervasives.( lxor )
+)
+"ulib/ml/FStar_Int16.ml" 29 775 823 "ulib/ml/FStar_Int16.ml" 29 775 824
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 29 775 797 "ulib/ml/FStar_Int16.ml" 29 775 798
+)
+"ulib/ml/FStar_Int16.ml" 29 775 816 "ulib/ml/FStar_Int16.ml" 29 775 824
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 30 825 829 "ulib/ml/FStar_Int16.ml" 30 825 834
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def logor "ulib/ml/FStar_Int16.ml" 31 874 874 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 30 825 837 "ulib/ml/FStar_Int16.ml" 30 825 838
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 30 825 846 "ulib/ml/FStar_Int16.ml" 30 825 873
+)
+"ulib/ml/FStar_Int16.ml" 30 825 847 "ulib/ml/FStar_Int16.ml" 30 825 848
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 30 825 856 "ulib/ml/FStar_Int16.ml" 30 825 873
+)
+"ulib/ml/FStar_Int16.ml" 30 825 866 "ulib/ml/FStar_Int16.ml" 30 825 867
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 30 825 837 "ulib/ml/FStar_Int16.ml" 30 825 838
+)
+"ulib/ml/FStar_Int16.ml" 30 825 868 "ulib/ml/FStar_Int16.ml" 30 825 871
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"ulib/ml/FStar_Int16.ml" 30 825 872 "ulib/ml/FStar_Int16.ml" 30 825 873
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 30 825 847 "ulib/ml/FStar_Int16.ml" 30 825 848
+)
+"ulib/ml/FStar_Int16.ml" 30 825 866 "ulib/ml/FStar_Int16.ml" 30 825 873
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 31 874 878 "ulib/ml/FStar_Int16.ml" 31 874 884
+type(
+  int16 -> int16
+)
+ident(
+  def lognot "ulib/ml/FStar_Int16.ml" 33 920 920 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 31 874 886 "ulib/ml/FStar_Int16.ml" 31 874 887
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 31 874 895 "ulib/ml/FStar_Int16.ml" 31 874 911
+)
+"ulib/ml/FStar_Int16.ml" 31 874 905 "ulib/ml/FStar_Int16.ml" 31 874 909
+type(
+  int16 -> int16
+)
+ident(
+  ext_ref Pervasives.lnot
+)
+"ulib/ml/FStar_Int16.ml" 31 874 910 "ulib/ml/FStar_Int16.ml" 31 874 911
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 31 874 886 "ulib/ml/FStar_Int16.ml" 31 874 887
+)
+"ulib/ml/FStar_Int16.ml" 31 874 905 "ulib/ml/FStar_Int16.ml" 31 874 911
+call(
+  tail
+)
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 33 920 924 "ulib/ml/FStar_Int16.ml" 33 920 936
+type(
+  Prims.int -> int
+)
+ident(
+  def int_to_int16 "ulib/ml/FStar_Int16.ml" 35 999 999 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 33 920 938 "ulib/ml/FStar_Int16.ml" 33 920 939
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 33 920 953 "ulib/ml/FStar_Int16.ml" 33 920 997
+)
+"ulib/ml/FStar_Int16.ml" 33 920 953 "ulib/ml/FStar_Int16.ml" 33 920 966
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"ulib/ml/FStar_Int16.ml" 33 920 968 "ulib/ml/FStar_Int16.ml" 33 920 983
+type(
+  Prims.int -> string
+)
+ident(
+  ext_ref Prims.to_string
+)
+"ulib/ml/FStar_Int16.ml" 33 920 984 "ulib/ml/FStar_Int16.ml" 33 920 985
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 33 920 938 "ulib/ml/FStar_Int16.ml" 33 920 939
+)
+"ulib/ml/FStar_Int16.ml" 33 920 967 "ulib/ml/FStar_Int16.ml" 33 920 986
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Int16.ml" 33 920 953 "ulib/ml/FStar_Int16.ml" 33 920 986
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 33 920 987 "ulib/ml/FStar_Int16.ml" 33 920 991
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int16.ml" 33 920 992 "ulib/ml/FStar_Int16.ml" 33 920 997
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 33 920 953 "ulib/ml/FStar_Int16.ml" 33 920 997
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 35 999 1003 "ulib/ml/FStar_Int16.ml" 35 999 1014
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  def shift_right "ulib/ml/FStar_Int16.ml" 36 1054 1054 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 35 999 1016 "ulib/ml/FStar_Int16.ml" 35 999 1017
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 35 999 1025 "ulib/ml/FStar_Int16.ml" 35 999 1053
+)
+"ulib/ml/FStar_Int16.ml" 35 999 1026 "ulib/ml/FStar_Int16.ml" 35 999 1027
+type(
+  uint32
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 35 999 1036 "ulib/ml/FStar_Int16.ml" 35 999 1053
+)
+"ulib/ml/FStar_Int16.ml" 35 999 1046 "ulib/ml/FStar_Int16.ml" 35 999 1047
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 35 999 1016 "ulib/ml/FStar_Int16.ml" 35 999 1017
+)
+"ulib/ml/FStar_Int16.ml" 35 999 1048 "ulib/ml/FStar_Int16.ml" 35 999 1051
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"ulib/ml/FStar_Int16.ml" 35 999 1052 "ulib/ml/FStar_Int16.ml" 35 999 1053
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 35 999 1026 "ulib/ml/FStar_Int16.ml" 35 999 1027
+)
+"ulib/ml/FStar_Int16.ml" 35 999 1046 "ulib/ml/FStar_Int16.ml" 35 999 1053
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1058 "ulib/ml/FStar_Int16.ml" 36 1054 1068
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  def shift_left "ulib/ml/FStar_Int16.ml" 37 1122 1122 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1071 "ulib/ml/FStar_Int16.ml" 36 1054 1072
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 36 1054 1080 "ulib/ml/FStar_Int16.ml" 36 1054 1121
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1081 "ulib/ml/FStar_Int16.ml" 36 1054 1082
+type(
+  uint32
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 36 1054 1091 "ulib/ml/FStar_Int16.ml" 36 1054 1121
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1102 "ulib/ml/FStar_Int16.ml" 36 1054 1103
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 36 1054 1071 "ulib/ml/FStar_Int16.ml" 36 1054 1072
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1104 "ulib/ml/FStar_Int16.ml" 36 1054 1107
+type(
+  int16 -> uint32 -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1108 "ulib/ml/FStar_Int16.ml" 36 1054 1109
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 36 1054 1081 "ulib/ml/FStar_Int16.ml" 36 1054 1082
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1101 "ulib/ml/FStar_Int16.ml" 36 1054 1110
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1111 "ulib/ml/FStar_Int16.ml" 36 1054 1115
+type(
+  int -> int -> int16
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1116 "ulib/ml/FStar_Int16.ml" 36 1054 1121
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 36 1054 1101 "ulib/ml/FStar_Int16.ml" 36 1054 1121
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 37 1122 1126 "ulib/ml/FStar_Int16.ml" 37 1122 1148
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  def shift_arithmetic_right "ulib/ml/FStar_Int16.ml" 40 1216 1216 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 37 1122 1150 "ulib/ml/FStar_Int16.ml" 37 1122 1151
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 37 1122 1159 "ulib/ml/FStar_Int16.ml" 37 1122 1187
+)
+"ulib/ml/FStar_Int16.ml" 37 1122 1160 "ulib/ml/FStar_Int16.ml" 37 1122 1161
+type(
+  uint32
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 37 1122 1170 "ulib/ml/FStar_Int16.ml" 37 1122 1187
+)
+"ulib/ml/FStar_Int16.ml" 37 1122 1180 "ulib/ml/FStar_Int16.ml" 37 1122 1181
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 37 1122 1150 "ulib/ml/FStar_Int16.ml" 37 1122 1151
+)
+"ulib/ml/FStar_Int16.ml" 37 1122 1182 "ulib/ml/FStar_Int16.ml" 37 1122 1185
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  ext_ref Pervasives.( asr )
+)
+"ulib/ml/FStar_Int16.ml" 37 1122 1186 "ulib/ml/FStar_Int16.ml" 37 1122 1187
+type(
+  uint32
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 37 1122 1160 "ulib/ml/FStar_Int16.ml" 37 1122 1161
+)
+"ulib/ml/FStar_Int16.ml" 37 1122 1180 "ulib/ml/FStar_Int16.ml" 37 1122 1187
+type(
+  int16
+)
+type(
+  int16
+)
+"ulib/ml/FStar_Int16.ml" 40 1216 1220 "ulib/ml/FStar_Int16.ml" 40 1216 1222
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def eq "ulib/ml/FStar_Int16.ml" 41 1258 1258 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 40 1216 1224 "ulib/ml/FStar_Int16.ml" 40 1216 1225
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 40 1216 1233 "ulib/ml/FStar_Int16.ml" 40 1216 1257
+)
+"ulib/ml/FStar_Int16.ml" 40 1216 1234 "ulib/ml/FStar_Int16.ml" 40 1216 1235
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 40 1216 1243 "ulib/ml/FStar_Int16.ml" 40 1216 1257
+)
+"ulib/ml/FStar_Int16.ml" 40 1216 1252 "ulib/ml/FStar_Int16.ml" 40 1216 1253
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 40 1216 1224 "ulib/ml/FStar_Int16.ml" 40 1216 1225
+)
+"ulib/ml/FStar_Int16.ml" 40 1216 1254 "ulib/ml/FStar_Int16.ml" 40 1216 1255
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/FStar_Int16.ml" 40 1216 1256 "ulib/ml/FStar_Int16.ml" 40 1216 1257
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 40 1216 1234 "ulib/ml/FStar_Int16.ml" 40 1216 1235
+)
+"ulib/ml/FStar_Int16.ml" 40 1216 1252 "ulib/ml/FStar_Int16.ml" 40 1216 1257
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_Int16.ml" 41 1258 1262 "ulib/ml/FStar_Int16.ml" 41 1258 1264
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def gt "ulib/ml/FStar_Int16.ml" 42 1300 1300 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 41 1258 1266 "ulib/ml/FStar_Int16.ml" 41 1258 1267
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 41 1258 1275 "ulib/ml/FStar_Int16.ml" 41 1258 1299
+)
+"ulib/ml/FStar_Int16.ml" 41 1258 1276 "ulib/ml/FStar_Int16.ml" 41 1258 1277
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 41 1258 1285 "ulib/ml/FStar_Int16.ml" 41 1258 1299
+)
+"ulib/ml/FStar_Int16.ml" 41 1258 1294 "ulib/ml/FStar_Int16.ml" 41 1258 1295
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 41 1258 1266 "ulib/ml/FStar_Int16.ml" 41 1258 1267
+)
+"ulib/ml/FStar_Int16.ml" 41 1258 1296 "ulib/ml/FStar_Int16.ml" 41 1258 1297
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ulib/ml/FStar_Int16.ml" 41 1258 1298 "ulib/ml/FStar_Int16.ml" 41 1258 1299
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 41 1258 1276 "ulib/ml/FStar_Int16.ml" 41 1258 1277
+)
+"ulib/ml/FStar_Int16.ml" 41 1258 1294 "ulib/ml/FStar_Int16.ml" 41 1258 1299
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_Int16.ml" 42 1300 1304 "ulib/ml/FStar_Int16.ml" 42 1300 1307
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def gte "ulib/ml/FStar_Int16.ml" 43 1344 1344 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 42 1300 1309 "ulib/ml/FStar_Int16.ml" 42 1300 1310
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 42 1300 1318 "ulib/ml/FStar_Int16.ml" 42 1300 1343
+)
+"ulib/ml/FStar_Int16.ml" 42 1300 1319 "ulib/ml/FStar_Int16.ml" 42 1300 1320
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 42 1300 1328 "ulib/ml/FStar_Int16.ml" 42 1300 1343
+)
+"ulib/ml/FStar_Int16.ml" 42 1300 1337 "ulib/ml/FStar_Int16.ml" 42 1300 1338
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 42 1300 1309 "ulib/ml/FStar_Int16.ml" 42 1300 1310
+)
+"ulib/ml/FStar_Int16.ml" 42 1300 1339 "ulib/ml/FStar_Int16.ml" 42 1300 1341
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ulib/ml/FStar_Int16.ml" 42 1300 1342 "ulib/ml/FStar_Int16.ml" 42 1300 1343
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 42 1300 1319 "ulib/ml/FStar_Int16.ml" 42 1300 1320
+)
+"ulib/ml/FStar_Int16.ml" 42 1300 1337 "ulib/ml/FStar_Int16.ml" 42 1300 1343
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_Int16.ml" 43 1344 1348 "ulib/ml/FStar_Int16.ml" 43 1344 1350
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def lt "ulib/ml/FStar_Int16.ml" 44 1386 1386 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 43 1344 1352 "ulib/ml/FStar_Int16.ml" 43 1344 1353
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 43 1344 1361 "ulib/ml/FStar_Int16.ml" 43 1344 1385
+)
+"ulib/ml/FStar_Int16.ml" 43 1344 1362 "ulib/ml/FStar_Int16.ml" 43 1344 1363
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 43 1344 1371 "ulib/ml/FStar_Int16.ml" 43 1344 1385
+)
+"ulib/ml/FStar_Int16.ml" 43 1344 1380 "ulib/ml/FStar_Int16.ml" 43 1344 1381
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 43 1344 1352 "ulib/ml/FStar_Int16.ml" 43 1344 1353
+)
+"ulib/ml/FStar_Int16.ml" 43 1344 1382 "ulib/ml/FStar_Int16.ml" 43 1344 1383
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ulib/ml/FStar_Int16.ml" 43 1344 1384 "ulib/ml/FStar_Int16.ml" 43 1344 1385
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 43 1344 1362 "ulib/ml/FStar_Int16.ml" 43 1344 1363
+)
+"ulib/ml/FStar_Int16.ml" 43 1344 1380 "ulib/ml/FStar_Int16.ml" 43 1344 1385
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_Int16.ml" 44 1386 1390 "ulib/ml/FStar_Int16.ml" 44 1386 1393
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def lte "ulib/ml/FStar_Int16.ml" 47 1454 1454 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 44 1386 1395 "ulib/ml/FStar_Int16.ml" 44 1386 1396
+type(
+  int16
+)
+ident(
+  def a "ulib/ml/FStar_Int16.ml" 44 1386 1404 "ulib/ml/FStar_Int16.ml" 44 1386 1430
+)
+"ulib/ml/FStar_Int16.ml" 44 1386 1405 "ulib/ml/FStar_Int16.ml" 44 1386 1406
+type(
+  int16
+)
+ident(
+  def b "ulib/ml/FStar_Int16.ml" 44 1386 1414 "ulib/ml/FStar_Int16.ml" 44 1386 1430
+)
+"ulib/ml/FStar_Int16.ml" 44 1386 1424 "ulib/ml/FStar_Int16.ml" 44 1386 1425
+type(
+  int16
+)
+ident(
+  int_ref a "ulib/ml/FStar_Int16.ml" 44 1386 1395 "ulib/ml/FStar_Int16.ml" 44 1386 1396
+)
+"ulib/ml/FStar_Int16.ml" 44 1386 1426 "ulib/ml/FStar_Int16.ml" 44 1386 1428
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ulib/ml/FStar_Int16.ml" 44 1386 1429 "ulib/ml/FStar_Int16.ml" 44 1386 1430
+type(
+  int16
+)
+ident(
+  int_ref b "ulib/ml/FStar_Int16.ml" 44 1386 1405 "ulib/ml/FStar_Int16.ml" 44 1386 1406
+)
+"ulib/ml/FStar_Int16.ml" 44 1386 1424 "ulib/ml/FStar_Int16.ml" 44 1386 1430
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_Int16.ml" 47 1454 1458 "ulib/ml/FStar_Int16.ml" 47 1454 1469
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Plus_Hat "ulib/ml/FStar_Int16.ml" 48 1476 1476 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 47 1454 1472 "ulib/ml/FStar_Int16.ml" 47 1454 1475
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref add "ulib/ml/FStar_Int16.ml" 12 285 289 "ulib/ml/FStar_Int16.ml" 12 285 292
+)
+"ulib/ml/FStar_Int16.ml" 48 1476 1480 "ulib/ml/FStar_Int16.ml" 48 1476 1500
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Plus_Question_Hat "ulib/ml/FStar_Int16.ml" 49 1517 1517 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 48 1476 1503 "ulib/ml/FStar_Int16.ml" 48 1476 1516
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref add_underspec "ulib/ml/FStar_Int16.ml" 13 329 333 "ulib/ml/FStar_Int16.ml" 13 329 346
+)
+"ulib/ml/FStar_Int16.ml" 49 1517 1521 "ulib/ml/FStar_Int16.ml" 49 1517 1540
+type(
+  int16 -> int16 -> int
+)
+ident(
+  def op_Plus_Percent_Hat "ulib/ml/FStar_Int16.ml" 50 1551 1551 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 49 1517 1543 "ulib/ml/FStar_Int16.ml" 49 1517 1550
+type(
+  int16 -> int16 -> int
+)
+ident(
+  int_ref add_mod "ulib/ml/FStar_Int16.ml" 14 361 365 "ulib/ml/FStar_Int16.ml" 14 361 372
+)
+"ulib/ml/FStar_Int16.ml" 50 1551 1555 "ulib/ml/FStar_Int16.ml" 50 1551 1573
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Subtraction_Hat "ulib/ml/FStar_Int16.ml" 51 1580 1580 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 50 1551 1576 "ulib/ml/FStar_Int16.ml" 50 1551 1579
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref sub "ulib/ml/FStar_Int16.ml" 16 401 405 "ulib/ml/FStar_Int16.ml" 16 401 408
+)
+"ulib/ml/FStar_Int16.ml" 51 1580 1584 "ulib/ml/FStar_Int16.ml" 51 1580 1611
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Subtraction_Question_Hat "ulib/ml/FStar_Int16.ml" 52 1628 1628 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 51 1580 1614 "ulib/ml/FStar_Int16.ml" 51 1580 1627
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref sub_underspec "ulib/ml/FStar_Int16.ml" 17 445 449 "ulib/ml/FStar_Int16.ml" 17 445 462
+)
+"ulib/ml/FStar_Int16.ml" 52 1628 1632 "ulib/ml/FStar_Int16.ml" 52 1628 1658
+type(
+  int16 -> int16 -> int
+)
+ident(
+  def op_Subtraction_Percent_Hat "ulib/ml/FStar_Int16.ml" 53 1669 1669 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 52 1628 1661 "ulib/ml/FStar_Int16.ml" 52 1628 1668
+type(
+  int16 -> int16 -> int
+)
+ident(
+  int_ref sub_mod "ulib/ml/FStar_Int16.ml" 18 477 481 "ulib/ml/FStar_Int16.ml" 18 477 488
+)
+"ulib/ml/FStar_Int16.ml" 53 1669 1673 "ulib/ml/FStar_Int16.ml" 53 1669 1684
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Star_Hat "ulib/ml/FStar_Int16.ml" 54 1691 1691 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 53 1669 1687 "ulib/ml/FStar_Int16.ml" 53 1669 1690
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref mul "ulib/ml/FStar_Int16.ml" 20 517 521 "ulib/ml/FStar_Int16.ml" 20 517 524
+)
+"ulib/ml/FStar_Int16.ml" 54 1691 1695 "ulib/ml/FStar_Int16.ml" 54 1691 1715
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Star_Question_Hat "ulib/ml/FStar_Int16.ml" 55 1732 1732 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 54 1691 1718 "ulib/ml/FStar_Int16.ml" 54 1691 1731
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref mul_underspec "ulib/ml/FStar_Int16.ml" 21 561 565 "ulib/ml/FStar_Int16.ml" 21 561 578
+)
+"ulib/ml/FStar_Int16.ml" 55 1732 1736 "ulib/ml/FStar_Int16.ml" 55 1732 1755
+type(
+  int16 -> int16 -> int
+)
+ident(
+  def op_Star_Percent_Hat "ulib/ml/FStar_Int16.ml" 56 1766 1766 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 55 1732 1758 "ulib/ml/FStar_Int16.ml" 55 1732 1765
+type(
+  int16 -> int16 -> int
+)
+ident(
+  int_ref mul_mod "ulib/ml/FStar_Int16.ml" 22 593 597 "ulib/ml/FStar_Int16.ml" 22 593 604
+)
+"ulib/ml/FStar_Int16.ml" 56 1766 1770 "ulib/ml/FStar_Int16.ml" 56 1766 1782
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Slash_Hat "ulib/ml/FStar_Int16.ml" 57 1789 1789 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 56 1766 1785 "ulib/ml/FStar_Int16.ml" 56 1766 1788
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref div "ulib/ml/FStar_Int16.ml" 24 633 637 "ulib/ml/FStar_Int16.ml" 24 633 640
+)
+"ulib/ml/FStar_Int16.ml" 57 1789 1793 "ulib/ml/FStar_Int16.ml" 57 1789 1807
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Percent_Hat "ulib/ml/FStar_Int16.ml" 58 1814 1814 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 57 1789 1810 "ulib/ml/FStar_Int16.ml" 57 1789 1813
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref rem "ulib/ml/FStar_Int16.ml" 26 678 682 "ulib/ml/FStar_Int16.ml" 26 678 685
+)
+"ulib/ml/FStar_Int16.ml" 58 1814 1818 "ulib/ml/FStar_Int16.ml" 58 1814 1828
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Hat_Hat "ulib/ml/FStar_Int16.ml" 59 1840 1840 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 58 1814 1831 "ulib/ml/FStar_Int16.ml" 58 1814 1837
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref logxor "ulib/ml/FStar_Int16.ml" 29 775 779 "ulib/ml/FStar_Int16.ml" 29 775 785
+)
+"ulib/ml/FStar_Int16.ml" 59 1840 1844 "ulib/ml/FStar_Int16.ml" 59 1840 1854
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Amp_Hat "ulib/ml/FStar_Int16.ml" 60 1864 1864 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 59 1840 1857 "ulib/ml/FStar_Int16.ml" 59 1840 1863
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref logand "ulib/ml/FStar_Int16.ml" 28 725 729 "ulib/ml/FStar_Int16.ml" 28 725 735
+)
+"ulib/ml/FStar_Int16.ml" 60 1864 1868 "ulib/ml/FStar_Int16.ml" 60 1864 1878
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  def op_Bar_Hat "ulib/ml/FStar_Int16.ml" 61 1887 1887 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 60 1864 1881 "ulib/ml/FStar_Int16.ml" 60 1864 1886
+type(
+  int16 -> int16 -> int16
+)
+ident(
+  int_ref logor "ulib/ml/FStar_Int16.ml" 30 825 829 "ulib/ml/FStar_Int16.ml" 30 825 834
+)
+"ulib/ml/FStar_Int16.ml" 61 1887 1891 "ulib/ml/FStar_Int16.ml" 61 1887 1907
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  def op_Less_Less_Hat "ulib/ml/FStar_Int16.ml" 62 1921 1921 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 61 1887 1910 "ulib/ml/FStar_Int16.ml" 61 1887 1920
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  int_ref shift_left "ulib/ml/FStar_Int16.ml" 36 1054 1058 "ulib/ml/FStar_Int16.ml" 36 1054 1068
+)
+"ulib/ml/FStar_Int16.ml" 62 1921 1925 "ulib/ml/FStar_Int16.ml" 62 1921 1947
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  def op_Greater_Greater_Hat "ulib/ml/FStar_Int16.ml" 63 1962 1962 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 62 1921 1950 "ulib/ml/FStar_Int16.ml" 62 1921 1961
+type(
+  int16 -> uint32 -> int16
+)
+ident(
+  int_ref shift_right "ulib/ml/FStar_Int16.ml" 35 999 1003 "ulib/ml/FStar_Int16.ml" 35 999 1014
+)
+"ulib/ml/FStar_Int16.ml" 63 1962 1966 "ulib/ml/FStar_Int16.ml" 63 1962 1979
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def op_Equals_Hat "ulib/ml/FStar_Int16.ml" 64 1985 1985 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 63 1962 1982 "ulib/ml/FStar_Int16.ml" 63 1962 1984
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  int_ref eq "ulib/ml/FStar_Int16.ml" 40 1216 1220 "ulib/ml/FStar_Int16.ml" 40 1216 1222
+)
+"ulib/ml/FStar_Int16.ml" 64 1985 1989 "ulib/ml/FStar_Int16.ml" 64 1985 2003
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def op_Greater_Hat "ulib/ml/FStar_Int16.ml" 65 2009 2009 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 64 1985 2006 "ulib/ml/FStar_Int16.ml" 64 1985 2008
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  int_ref gt "ulib/ml/FStar_Int16.ml" 41 1258 1262 "ulib/ml/FStar_Int16.ml" 41 1258 1264
+)
+"ulib/ml/FStar_Int16.ml" 65 2009 2013 "ulib/ml/FStar_Int16.ml" 65 2009 2034
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def op_Greater_Equals_Hat "ulib/ml/FStar_Int16.ml" 66 2041 2041 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 65 2009 2037 "ulib/ml/FStar_Int16.ml" 65 2009 2040
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  int_ref gte "ulib/ml/FStar_Int16.ml" 42 1300 1304 "ulib/ml/FStar_Int16.ml" 42 1300 1307
+)
+"ulib/ml/FStar_Int16.ml" 66 2041 2045 "ulib/ml/FStar_Int16.ml" 66 2041 2056
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def op_Less_Hat "ulib/ml/FStar_Int16.ml" 67 2062 2062 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 66 2041 2059 "ulib/ml/FStar_Int16.ml" 66 2041 2061
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  int_ref lt "ulib/ml/FStar_Int16.ml" 43 1344 1348 "ulib/ml/FStar_Int16.ml" 43 1344 1350
+)
+"ulib/ml/FStar_Int16.ml" 67 2062 2066 "ulib/ml/FStar_Int16.ml" 67 2062 2084
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  def op_Less_Equals_Hat "ulib/ml/FStar_Int16.ml" 69 2092 2092 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 67 2062 2087 "ulib/ml/FStar_Int16.ml" 67 2062 2090
+type(
+  int16 -> int16 -> bool
+)
+ident(
+  int_ref lte "ulib/ml/FStar_Int16.ml" 44 1386 1390 "ulib/ml/FStar_Int16.ml" 44 1386 1393
+)
+"ulib/ml/FStar_Int16.ml" 69 2092 2096 "ulib/ml/FStar_Int16.ml" 69 2092 2100
+type(
+  int -> int
+)
+ident(
+  def cmod "ulib/ml/FStar_Int16.ml" 72 2143 2143 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 69 2092 2101 "ulib/ml/FStar_Int16.ml" 69 2092 2102
+type(
+  int
+)
+ident(
+  def x "ulib/ml/FStar_Int16.ml" 70 2105 2107 "ulib/ml/FStar_Int16.ml" 70 2105 2141
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2110 "ulib/ml/FStar_Int16.ml" 70 2105 2111
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 69 2092 2101 "ulib/ml/FStar_Int16.ml" 69 2092 2102
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2112 "ulib/ml/FStar_Int16.ml" 70 2105 2113
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2114 "ulib/ml/FStar_Int16.ml" 70 2105 2119
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2110 "ulib/ml/FStar_Int16.ml" 70 2105 2119
+type(
+  bool
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2125 "ulib/ml/FStar_Int16.ml" 70 2105 2126
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 69 2092 2101 "ulib/ml/FStar_Int16.ml" 69 2092 2102
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2127 "ulib/ml/FStar_Int16.ml" 70 2105 2128
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2129 "ulib/ml/FStar_Int16.ml" 70 2105 2134
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2125 "ulib/ml/FStar_Int16.ml" 70 2105 2134
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2140 "ulib/ml/FStar_Int16.ml" 70 2105 2141
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Int16.ml" 69 2092 2101 "ulib/ml/FStar_Int16.ml" 69 2092 2102
+)
+"ulib/ml/FStar_Int16.ml" 70 2105 2107 "ulib/ml/FStar_Int16.ml" 70 2105 2141
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 72 2143 2147 "ulib/ml/FStar_Int16.ml" 72 2143 2156
+type(
+  int -> string
+)
+ident(
+  def to_string "ulib/ml/FStar_Int16.ml" 73 2184 2184 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 72 2143 2157 "ulib/ml/FStar_Int16.ml" 72 2143 2158
+type(
+  int
+)
+ident(
+  def s "ulib/ml/FStar_Int16.ml" 72 2143 2161 "ulib/ml/FStar_Int16.ml" 72 2143 2183
+)
+"ulib/ml/FStar_Int16.ml" 72 2143 2161 "ulib/ml/FStar_Int16.ml" 72 2143 2174
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ulib/ml/FStar_Int16.ml" 72 2143 2176 "ulib/ml/FStar_Int16.ml" 72 2143 2180
+type(
+  int -> int
+)
+ident(
+  int_ref cmod "ulib/ml/FStar_Int16.ml" 69 2092 2096 "ulib/ml/FStar_Int16.ml" 69 2092 2100
+)
+"ulib/ml/FStar_Int16.ml" 72 2143 2181 "ulib/ml/FStar_Int16.ml" 72 2143 2182
+type(
+  int
+)
+ident(
+  int_ref s "ulib/ml/FStar_Int16.ml" 72 2143 2157 "ulib/ml/FStar_Int16.ml" 72 2143 2158
+)
+"ulib/ml/FStar_Int16.ml" 72 2143 2175 "ulib/ml/FStar_Int16.ml" 72 2143 2183
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 72 2143 2161 "ulib/ml/FStar_Int16.ml" 72 2143 2183
+call(
+  tail
+)
+type(
+  string
+)
+"ulib/ml/FStar_Int16.ml" 73 2184 2188 "ulib/ml/FStar_Int16.ml" 73 2184 2196
+type(
+  Prims.int -> int
+)
+ident(
+  def int_to_t "ulib/ml/FStar_Int16.ml" 74 2216 2216 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 73 2184 2197 "ulib/ml/FStar_Int16.ml" 73 2184 2198
+type(
+  Prims.int
+)
+ident(
+  def s "ulib/ml/FStar_Int16.ml" 73 2184 2201 "ulib/ml/FStar_Int16.ml" 73 2184 2215
+)
+"ulib/ml/FStar_Int16.ml" 73 2184 2201 "ulib/ml/FStar_Int16.ml" 73 2184 2213
+type(
+  Prims.int -> int
+)
+ident(
+  int_ref int_to_int16 "ulib/ml/FStar_Int16.ml" 33 920 924 "ulib/ml/FStar_Int16.ml" 33 920 936
+)
+"ulib/ml/FStar_Int16.ml" 73 2184 2214 "ulib/ml/FStar_Int16.ml" 73 2184 2215
+type(
+  Prims.int
+)
+ident(
+  int_ref s "ulib/ml/FStar_Int16.ml" 73 2184 2197 "ulib/ml/FStar_Int16.ml" 73 2184 2198
+)
+"ulib/ml/FStar_Int16.ml" 73 2184 2201 "ulib/ml/FStar_Int16.ml" 73 2184 2215
+call(
+  tail
+)
+type(
+  int
+)
+"ulib/ml/FStar_Int16.ml" 74 2216 2220 "ulib/ml/FStar_Int16.ml" 74 2216 2230
+type(
+  Prims.int -> int
+)
+ident(
+  def __int_to_t "ulib/ml/FStar_Int16.ml" 74 2216 2241 "ulib/ml/FStar_Int16.ml" 1 0 -1
+)
+"ulib/ml/FStar_Int16.ml" 74 2216 2233 "ulib/ml/FStar_Int16.ml" 74 2216 2241
+type(
+  Prims.int -> int
+)
+ident(
+  int_ref int_to_t "ulib/ml/FStar_Int16.ml" 73 2184 2188 "ulib/ml/FStar_Int16.ml" 73 2184 2196
+)

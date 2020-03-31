@@ -1,0 +1,14 @@
+"ulib/ml/FStar_Exn.ml" 1 0 4 "ulib/ml/FStar_Exn.ml" 1 0 9
+type(
+  exn -> 'a
+)
+ident(
+  def raise "ulib/ml/FStar_Exn.ml" 1 0 17 "ulib/ml/FStar_Exn.ml" 1 0 -1
+)
+"ulib/ml/FStar_Exn.ml" 1 0 12 "ulib/ml/FStar_Exn.ml" 1 0 17
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)

@@ -1,0 +1,1257 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 6 184 188 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 6 184 204
+type(
+  'At.
+    Prims.unit Prims.list ->
+    'At ->
+    'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+ident(
+  def uu___is_CalcRefl "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 17 476 476 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 11 308 314 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 11 308 323
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def uu____139 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 12 328 332 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 12 328 336 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 12 328 345
+type(
+  'At
+)
+ident(
+  def uu____140 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 13 350 356 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 13 350 360 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 13 350 369
+type(
+  'At
+)
+ident(
+  def uu____141 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 14 374 382 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 14 374 386 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 14 374 395
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 410 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 416 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 425
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 14 374 386 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 14 374 395
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 442 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 443
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 447 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 451
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 433 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 443
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 447 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 451
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 454 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 463
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def uu____157 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 467 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 467 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 410 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 14 374 382 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 13 350 356 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+type(
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 12 328 332 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+type(
+  'At ->
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 11 308 310 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 15 400 472
+type(
+  Prims.unit Prims.list ->
+  'At ->
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 17 476 480 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 17 476 505
+type(
+  'At.
+    Prims.unit Prims.list ->
+    'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+ident(
+  def __proj__CalcRefl__item__x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 26 730 730 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 21 596 602 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 21 596 611
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def uu____215 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 22 616 620 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 22 616 624 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 22 616 633
+type(
+  'At
+)
+ident(
+  def uu____216 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 23 638 644 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 23 638 648 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 23 638 657
+type(
+  'At
+)
+ident(
+  def uu____217 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 670 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 674 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 683
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 688 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 694 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 703
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 674 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 683
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 720 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 721
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 725 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 711 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 721
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 725 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+type(
+  'At
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 720 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 721
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 688 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 670 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 23 638 644 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+type(
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 22 616 620 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+type(
+  'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 21 596 598 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 24 662 726
+type(
+  Prims.unit Prims.list ->
+  'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 26 730 734 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 26 730 750
+type(
+  'At.
+    Prims.unit Prims.list ->
+    'At ->
+    'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+ident(
+  def uu___is_CalcStep "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 39 1059 1059 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 31 854 860 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 31 854 869
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def uu____286 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 32 874 878 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 32 874 882 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 32 874 891
+type(
+  'At
+)
+ident(
+  def uu____287 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 33 896 902 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 33 896 906 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 33 896 915
+type(
+  'At
+)
+ident(
+  def uu____288 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 34 920 928 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 34 920 932 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 34 920 941
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 35 946 956 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 35 946 962 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 35 946 971
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 34 920 932 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 34 920 941
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 999 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1001
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def rs "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1002 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1003
+type(
+  Prims.unit
+)
+ident(
+  def p "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1004 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1005
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1006 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1007
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1008 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1009
+type(
+  'At
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1010 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1012
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def _5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1013 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1015
+type(
+  Prims.unit
+)
+ident(
+  def _6 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 989 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1016
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 36 977 1024
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1046
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def uu____322 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1050 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1050 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 35 946 956 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 34 920 928 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 33 896 902 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+type(
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 32 874 878 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+type(
+  'At ->
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 31 854 856 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 37 1025 1055
+type(
+  Prims.unit Prims.list ->
+  'At ->
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 39 1059 1063 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 39 1059 1089
+type(
+  'At.
+    Prims.unit Prims.list ->
+    'At ->
+    'At ->
+    ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+    Prims.unit Prims.list
+)
+ident(
+  def __proj__CalcStep__item__rs "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 50 1360 1360 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 44 1198 1204 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 44 1198 1213
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def uu____388 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 45 1218 1222 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 45 1218 1226 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 45 1218 1235
+type(
+  'At
+)
+ident(
+  def uu____389 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 46 1240 1246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 46 1240 1250 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 46 1240 1259
+type(
+  'At
+)
+ident(
+  def uu____390 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 47 1264 1272 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 47 1264 1276 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 47 1264 1285
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1300 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1306 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1315
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 47 1264 1276 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 47 1264 1285
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1335
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def rs "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1336 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1337
+type(
+  Prims.unit
+)
+ident(
+  def p "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1338 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1339
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1340 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1341
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1342 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1343
+type(
+  'At
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1346
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def _5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1347 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1349
+type(
+  Prims.unit
+)
+ident(
+  def _6 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1323 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1350
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+type(
+  Prims.unit Prims.list
+)
+ident(
+  int_ref rs "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1335
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1300 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+type(
+  Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 47 1264 1272 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+  Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 46 1240 1246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+type(
+  'At ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+  Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 45 1218 1222 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+type(
+  'At ->
+  'At ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+  Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 44 1198 1200 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 48 1290 1356
+type(
+  Prims.unit Prims.list ->
+  'At ->
+  'At ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+  Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 52 1480 1484 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 52 1480 1509
+type(
+  'At.
+    Prims.unit Prims.list ->
+    'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+ident(
+  def __proj__CalcStep__item__x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 62 1761 1761 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 56 1600 1606 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 56 1600 1615
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def uu____519 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 57 1620 1624 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 57 1620 1628 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 57 1620 1637
+type(
+  'At
+)
+ident(
+  def uu____520 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 58 1642 1648 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 58 1642 1652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 58 1642 1661
+type(
+  'At
+)
+ident(
+  def uu____521 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 59 1666 1674 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 59 1666 1678 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 59 1666 1687
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1702 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1708 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1717
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 59 1666 1678 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 59 1666 1687
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1735 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1737
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def rs "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1738 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1739
+type(
+  Prims.unit
+)
+ident(
+  def p "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1740 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1741
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1742 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1743
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1744 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1745
+type(
+  'At
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1746 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1748
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def _5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1749 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1751
+type(
+  Prims.unit
+)
+ident(
+  def _6 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1725 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1752
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1756 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+type(
+  'At
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1740 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1741
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1702 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 59 1666 1674 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 58 1642 1648 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+type(
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 57 1620 1624 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+type(
+  'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 56 1600 1602 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 60 1692 1757
+type(
+  Prims.unit Prims.list ->
+  'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 62 1761 1765 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 62 1761 1790
+type(
+  'At.
+    Prims.unit Prims.list ->
+    'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+ident(
+  def __proj__CalcStep__item__y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 72 2042 2042 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 66 1881 1887 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 66 1881 1896
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def uu____606 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 67 1901 1905 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 67 1901 1909 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 67 1901 1918
+type(
+  'At
+)
+ident(
+  def uu____607 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 68 1923 1929 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 68 1923 1933 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 68 1923 1942
+type(
+  'At
+)
+ident(
+  def uu____608 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 69 1947 1955 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 69 1947 1959 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 69 1947 1968
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 1983 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 1989 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 1998
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 69 1947 1959 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 69 1947 1968
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2016 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2018
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def rs "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2019 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2020
+type(
+  Prims.unit
+)
+ident(
+  def p "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2021 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2022
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2023 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2024
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2025 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2026
+type(
+  'At
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2027 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2029
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def _5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2030 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2032
+type(
+  Prims.unit
+)
+ident(
+  def _6 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2006 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2033
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2037 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+type(
+  'At
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2023 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 1983 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 69 1947 1955 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 68 1923 1929 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+type(
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 67 1901 1905 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+type(
+  'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 66 1881 1883 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 70 1973 2038
+type(
+  Prims.unit Prims.list ->
+  'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 72 2042 2046 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 72 2042 2071
+type(
+  'At.
+    Prims.unit Prims.list ->
+    'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+ident(
+  def __proj__CalcStep__item__z "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 82 2323 2323 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 76 2162 2168 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 76 2162 2177
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def uu____693 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 77 2182 2186 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 77 2182 2190 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 77 2182 2199
+type(
+  'At
+)
+ident(
+  def uu____694 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 78 2204 2210 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 78 2204 2214 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 78 2204 2223
+type(
+  'At
+)
+ident(
+  def uu____695 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 79 2228 2236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 79 2228 2240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 79 2228 2249
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2264 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2270 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2279
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 79 2228 2240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 79 2228 2249
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2297 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2299
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def rs "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2300 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2301
+type(
+  Prims.unit
+)
+ident(
+  def p "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2302 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2303
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2304 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2305
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2306 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2307
+type(
+  'At
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2308 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2310
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def _5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2311 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2313
+type(
+  Prims.unit
+)
+ident(
+  def _6 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2287 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2314
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+type(
+  'At
+)
+ident(
+  int_ref z "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2306 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2307
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2264 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+type(
+  'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 79 2228 2236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 78 2204 2210 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+type(
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 77 2182 2186 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+type(
+  'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 76 2162 2164 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 80 2254 2319
+type(
+  Prims.unit Prims.list ->
+  'At -> 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof -> 'At
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 82 2323 2327 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 82 2323 2353
+type(
+  'At.
+    Prims.unit Prims.list ->
+    'At ->
+    'At ->
+    ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+    ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def __proj__CalcStep__item___5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 96 2659 2659 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 89 2496 2502 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 89 2496 2511
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def uu____790 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 90 2516 2520 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 90 2516 2524 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 90 2516 2533
+type(
+  'At
+)
+ident(
+  def uu____791 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 91 2538 2544 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 91 2538 2548 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 91 2538 2557
+type(
+  'At
+)
+ident(
+  def uu____792 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 92 2562 2570 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 92 2562 2574 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 92 2562 2583
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2598 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2604 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2613
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 92 2562 2574 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 92 2562 2583
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2631 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2633
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def rs "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2634 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2635
+type(
+  Prims.unit
+)
+ident(
+  def p "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2636 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2637
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2638 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2639
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2640 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2641
+type(
+  'At
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2642 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2644
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def _5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2645 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2647
+type(
+  Prims.unit
+)
+ident(
+  def _6 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2621 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2648
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref _5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2642 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2644
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2598 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 92 2562 2570 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 91 2538 2544 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+type(
+  'At ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 90 2516 2520 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+type(
+  'At ->
+  'At ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 89 2496 2498 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 93 2588 2654
+type(
+  Prims.unit Prims.list ->
+  'At ->
+  'At ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 100 2763 2767 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 100 2763 2798
+type(
+  'At.
+    'At ->
+    'At -> ('At, Prims.unit, Prims.unit) calc_pack -> Prims.unit Prims.list
+)
+ident(
+  def __proj__Mkcalc_pack__item__rels "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 106 2971 2971 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 102 2870 2876 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 102 2870 2877
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 103 2882 2886 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 103 2882 2890 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 103 2882 2891
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2902 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2906 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2915
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2920 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2926 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2935
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2906 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2915
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2949
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def rels "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2963 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2951 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2956
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def proof "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2963 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2943 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2959
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2963 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+type(
+  Prims.unit Prims.list
+)
+ident(
+  int_ref rels "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2949
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2920 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+type(
+  Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2902 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack -> Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 103 2882 2886 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+type(
+  'At -> ('At, Prims.unit, Prims.unit) calc_pack -> Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 102 2870 2872 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 104 2896 2967
+type(
+  'At ->
+  'At -> ('At, Prims.unit, Prims.unit) calc_pack -> Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 106 2971 2975 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 106 2971 3007
+type(
+  'At.
+    'At ->
+    'At ->
+    ('At, Prims.unit, Prims.unit) calc_pack ->
+    ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def __proj__Mkcalc_pack__item__proof "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 115 3209 3209 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 111 3107 3113 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 111 3107 3114
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 112 3119 3123 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 112 3119 3127 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 112 3119 3128
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3139 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3143 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3152
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3157 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3163 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3172
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3143 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3152
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3182 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3186
+type(
+  Prims.unit Prims.list
+)
+ident(
+  def rels "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3200 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3188 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3193
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def proof "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3200 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3180 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3196
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3200 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref proof "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3188 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3193
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3157 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3139 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 112 3119 3123 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+type(
+  'At ->
+  ('At, Prims.unit, Prims.unit) calc_pack ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 111 3107 3109 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 113 3133 3205
+type(
+  'At ->
+  'At ->
+  ('At, Prims.unit, Prims.unit) calc_pack ->
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 115 3209 3213 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 115 3209 3220
+type(
+  'At.
+    'At ->
+    'At -> ('At, Prims.unit, Prims.unit) calc_pack -> Prims.unit Prims.list
+)
+ident(
+  def pk_rels "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 118 3334 3334 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3298 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3299
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3304 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3332
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3308 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3309
+type(
+  'At
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3314 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3332
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3320
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+ident(
+  def pk "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3325 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3332
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3325 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3327
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+ident(
+  int_ref pk "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3320
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3325 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3332
+type(
+  Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3314 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3332
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack -> Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3304 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3332
+type(
+  'At -> ('At, Prims.unit, Prims.unit) calc_pack -> Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3294 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 117 3292 3332
+type(
+  'At ->
+  'At -> ('At, Prims.unit, Prims.unit) calc_pack -> Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 121 3435 3439 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 121 3435 3449
+type(
+  'At. 'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  def _calc_init "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 123 3523 3523 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3505 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3506
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3511 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3521
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3520 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3521
+type(
+  'At
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3505 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3506
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3511 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3521
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3501 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 122 3499 3521
+type(
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 123 3523 3527 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 123 3523 3536
+type(
+  'At. 'At -> ('At, Prims.unit, Prims.unit) calc_pack
+)
+ident(
+  def calc_init "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3629 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3586 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3587
+type(
+  'At
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3592 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3629
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3601 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3603
+type(
+  Prims.unit Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3614 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3624
+type(
+  'At -> ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+ident(
+  int_ref _calc_init "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 121 3435 3439 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 121 3435 3449
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3625 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3626
+type(
+  'At
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3586 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3587
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3613 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3627
+call(
+  stack
+)
+type(
+  ('At, Prims.unit, Prims.unit, Prims.unit) calc_proof
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3592 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3629
+type(
+  ('At, Prims.unit, Prims.unit) calc_pack
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3582 "ulib/tactics_ml/fstarlib_leftovers/FStar_Calc.ml" 124 3580 3629
+type(
+  'At -> ('At, Prims.unit, Prims.unit) calc_pack
+)

@@ -1,0 +1,3746 @@
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 2 11 16 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 2 11 21
+type(
+  Prims.unit -> FStar_Monotonic_HyperHeap.hmap -> Prims.bool
+)
+ident(
+  def is_in "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 128 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 86 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 87
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 92 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 125
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 96 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 97
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 102 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 125
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 102 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 120
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> Prims.bool
+)
+ident(
+  ext_ref FStar_Map.contains
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 121 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 122
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 96 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 97
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 123 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 125
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 102 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 125
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 92 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 125
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 82 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 3 80 125
+type(
+  Prims.unit -> FStar_Monotonic_HyperHeap.hmap -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 133 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 146
+type(
+  Prims.int -> Prims.bool
+)
+ident(
+  def is_heap_color "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 8 209 209 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 180 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 181
+type(
+  Prims.int
+)
+ident(
+  def c "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 186 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 205
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 186 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 187
+type(
+  Prims.int
+)
+ident(
+  int_ref c "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 180 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 181
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 188 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 190
+type(
+  Prims.int -> Z.t -> Prims.bool
+)
+ident(
+  ext_ref Prims.( <= )
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 191 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 205
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 186 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 205
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 176 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 5 128 205
+type(
+  Prims.int -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 691 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 701
+type(
+  mem' -> Prims.bool
+)
+ident(
+  def uu___is_HS "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 28 750 750 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 730 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 739
+type(
+  mem'
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 744 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 748
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 744 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 748
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 726 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 27 686 748
+type(
+  mem' -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 28 750 755 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 28 750 780
+type(
+  mem' -> Prims.int
+)
+ident(
+  def __proj__HS__item__rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 30 878 878 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 810 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 819
+type(
+  mem'
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 824 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 876
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 830 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 839
+type(
+  mem'
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 810 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 819
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 851 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 858
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 869 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 876
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 859 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 860
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 869 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 876
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 861 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 864
+type(
+  Prims.unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 869 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 876
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 847 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 865
+type(
+  mem'
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 869 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 876
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 851 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 858
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 824 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 876
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 806 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 29 804 876
+type(
+  mem' -> Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 30 878 883 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 30 878 902
+type(
+  mem' -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def __proj__HS__item__h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1016 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 953 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 962
+type(
+  mem'
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 967 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1013
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 973 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 982
+type(
+  mem'
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 953 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 962
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 994 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1001
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1012 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1013
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1002 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1003
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1012 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1013
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1004 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1007
+type(
+  Prims.unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1012 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1013
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 990 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1008
+type(
+  mem'
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1012 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1013
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1002 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1003
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 967 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1013
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 949 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 31 947 1013
+type(
+  mem' -> FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem'
+)
+ident(
+  def mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1154 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1099 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1106
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1111 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1152
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1115 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1116
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1121 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1152
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1125 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1128
+type(
+  Prims.unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1133 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1152
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1137 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1144
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1099 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1106
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1146 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1147
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1115 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1116
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1149 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1151
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1133 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1152
+type(
+  mem'
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1121 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1152
+type(
+  Prims.unit -> mem'
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1111 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1152
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem'
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1095 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 34 1093 1152
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem'
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+type(
+  mem' -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1247 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1218 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1219
+type(
+  mem'
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1224 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1245
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1224 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1243
+type(
+  mem' -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref __proj__HS__item__h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 30 878 883 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 30 878 902
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1244 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1245
+type(
+  mem'
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1218 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1219
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1224 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1245
+call(
+  tail
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1214 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 36 1212 1245
+type(
+  mem' -> FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+type(
+  mem' -> Prims.int
+)
+ident(
+  def get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 40 1328 1328 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1291 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1292
+type(
+  mem'
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1297 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1324
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1297 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1322
+type(
+  mem' -> Prims.int
+)
+ident(
+  int_ref __proj__HS__item__rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 28 750 755 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 28 750 780
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1323 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1324
+type(
+  mem'
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1291 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1292
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1297 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1324
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1287 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1324
+type(
+  mem' -> Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 49 1352 1357 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 49 1352 1366
+type(
+  mem
+)
+ident(
+  def empty_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 57 1591 1591 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 50 1376 1382 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 50 1376 1391
+type(
+  (Prims.unit, unit) FStar_Map.t
+)
+ident(
+  def empty_map "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1497 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1588
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1398 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1416
+type(
+  Prims.unit FStar_Set.set ->
+  (Prims.unit, unit) FStar_Map.t -> (Prims.unit, unit) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.restrict
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1418 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1433
+type(
+  unit -> Prims.unit FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.empty
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1434 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1436
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1417 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1437
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 52 1438 1445 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 52 1438 1460
+type(
+  unit -> (Prims.unit, unit) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.const
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 52 1438 1461 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 52 1438 1485
+type(
+  unit
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.emp
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 52 1438 1444 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 52 1438 1486
+call(
+  stack
+)
+type(
+  (Prims.unit, unit) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 51 1394 1398 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 52 1438 1486
+call(
+  stack
+)
+type(
+  (Prims.unit, unit) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1501 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1502
+type(
+  (Prims.unit, unit) FStar_Map.t
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1563 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1588
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1505 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1518
+type(
+  (Prims.unit, unit) FStar_Map.t ->
+  Prims.unit -> unit -> (Prims.unit, unit) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.upd
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1519 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1528
+type(
+  (Prims.unit, unit) FStar_Map.t
+)
+ident(
+  int_ref empty_map "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 50 1376 1382 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 50 1376 1391
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1529 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1531
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1532 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1556
+type(
+  unit
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.emp
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1505 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1556
+call(
+  stack
+)
+type(
+  (Prims.unit, unit) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1563 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1569
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1570 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1583
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1584 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1585
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1501 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1502
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1586 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1588
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1563 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1588
+call(
+  stack
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 54 1495 1497 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1588
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 50 1376 1378 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 55 1561 1588
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 58 1616 1620 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 58 1616 1630
+type(
+  'Aa. 'Aa FStar_Set.set -> 'Aa -> 'Aa FStar_Set.set
+)
+ident(
+  def remove_elt "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 63 1791 1791 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 59 1687 1693 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 59 1687 1694
+type(
+  'Aa FStar_Set.set
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 60 1699 1703 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1787
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 60 1699 1707 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 60 1699 1708
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1719 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1787
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1719 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1738
+type(
+  'Aa FStar_Set.set -> 'Aa BatSet.t -> 'Aa FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.intersect
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1739 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1740
+type(
+  'Aa FStar_Set.set
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 59 1687 1693 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 59 1687 1694
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1742 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1762
+type(
+  'Aa BatSet.t -> 'Aa BatSet.t
+)
+ident(
+  ext_ref FStar_Set.complement
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1764 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1783
+type(
+  'Aa -> 'Aa BatSet.t
+)
+ident(
+  ext_ref FStar_Set.singleton
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1784 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1785
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 60 1699 1707 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 60 1699 1708
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1763 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1786
+call(
+  stack
+)
+type(
+  'Aa BatSet.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1741 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1787
+call(
+  stack
+)
+type(
+  'Aa BatSet.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1719 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1787
+call(
+  tail
+)
+type(
+  'Aa FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 60 1699 1703 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1787
+type(
+  'Aa -> 'Aa FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 59 1687 1689 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 61 1713 1787
+type(
+  'Aa FStar_Set.set -> 'Aa -> 'Aa FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 64 1822 1827 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 64 1822 1830
+type(
+  mem -> mem
+)
+ident(
+  def pop "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 72 2105 2105 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 65 1847 1853 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 65 1847 1855
+type(
+  mem
+)
+ident(
+  def m0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1864 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1868 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1877
+type(
+  FStar_Monotonic_HyperHeap.hmap * unit * Prims.int
+)
+ident(
+  def uu____701 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 67 1922 1926 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1882 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1890
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1891 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1893
+type(
+  mem
+)
+ident(
+  int_ref m0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 65 1847 1853 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 65 1847 1855
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1881 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1894
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1896 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1898
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1901 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1912
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1913 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1915
+type(
+  mem
+)
+ident(
+  int_ref m0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 65 1847 1853 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 65 1847 1855
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1900 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1916
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1880 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1917
+type(
+  FStar_Monotonic_HyperHeap.hmap * unit * Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 67 1922 1932 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 67 1922 1941
+type(
+  FStar_Monotonic_HyperHeap.hmap * unit * Prims.int
+)
+ident(
+  int_ref uu____701 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1868 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1877
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1954 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1956
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1983 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1957 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1961
+type(
+  unit
+)
+ident(
+  def tip0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1983 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1962 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1970
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1983 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1953 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1971
+type(
+  FStar_Monotonic_HyperHeap.hmap * unit * Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1987 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1990
+type(
+  Prims.unit FStar_Set.set
+)
+ident(
+  def dom "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2041 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1993 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2003
+type(
+  Prims.unit FStar_Set.set -> Prims.unit -> Prims.unit FStar_Set.set
+)
+ident(
+  int_ref remove_elt "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 58 1616 1620 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 58 1616 1630
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2005 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2021
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit FStar_Set.set
+)
+ident(
+  ext_ref FStar_Map.domain
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2022 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2024
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1954 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1956
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2004 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2025
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2026 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2028
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1993 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 2028
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2045 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2047
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2080 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2050 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2068
+type(
+  Prims.unit FStar_Set.set ->
+  FStar_Monotonic_HyperHeap.hmap ->
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.restrict
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2069 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2072
+type(
+  Prims.unit FStar_Set.set
+)
+ident(
+  int_ref dom "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1987 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1990
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2073 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2075
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1954 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1956
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2050 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2075
+call(
+  stack
+)
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2080 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2086
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2087 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2095
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1962 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 68 1947 1970
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2096 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2098
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2045 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2047
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2099 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2080 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+call(
+  tail
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2041 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 69 1975 1983 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 67 1922 1926 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 66 1860 1864 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 65 1847 1849 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 70 2033 2101
+type(
+  mem -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 74 2195 2199 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 74 2195 2212
+type(
+  'Aa 'Arel. ('Aa, 'Arel) mreference' -> Prims.bool
+)
+ident(
+  def uu___is_MkRef "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 77 2294 2294 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 75 2267 2273 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 75 2267 2282
+type(
+  ('Aa, 'Arel) mreference'
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 75 2267 2287 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 75 2267 2291
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 75 2267 2287 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 75 2267 2291
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 75 2267 2269 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 75 2267 2291
+type(
+  ('Aa, 'Arel) mreference' -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 77 2294 2298 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 77 2294 2322
+type(
+  'Aa 'Arel.
+    ('Aa, 'Arel) mreference' -> ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  def __proj__MkRef__item__ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 81 2479 2479 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2416 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2425
+type(
+  ('Aa, 'Arel) mreference'
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2430 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2477
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2436 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2445
+type(
+  ('Aa, 'Arel) mreference'
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2416 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2425
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2460 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2465
+type(
+  Prims.unit
+)
+ident(
+  def frame "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2474 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2477
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2466 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2469
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  def ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2474 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2477
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2453 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2470
+type(
+  ('Aa, 'Arel) mreference'
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2474 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2477
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2466 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2469
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2430 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2477
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2412 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 80 2408 2477
+type(
+  ('Aa, 'Arel) mreference' -> ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 83 2534 2538 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 83 2534 2551
+type(
+  'Aa 'Arel.
+    Prims.unit ->
+    ('Aa, 'Arel) FStar_Monotonic_Heap.mref -> ('Aa, 'Arel) mreference
+)
+ident(
+  def mk_mreference "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2685 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2652 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2655
+type(
+  Prims.unit
+)
+ident(
+  def id1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2660 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2683
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2664 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2665
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2670 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2683
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2677 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2679
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2681 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2682
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2664 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2665
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2670 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2683
+type(
+  ('Aa, 'Arel) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2660 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2683
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref -> ('Aa, 'Arel) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2648 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 86 2644 2683
+type(
+  Prims.unit ->
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref -> ('Aa, 'Arel) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2689 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2695
+type(
+  'Auu____1102 'Auu____1103.
+    ('Auu____1102, 'Auu____1103) mreference ->
+    ('Auu____1102, 'Auu____1103) FStar_Monotonic_Heap.mref
+)
+ident(
+  def as_ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 95 2879 2879 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2842 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2843
+type(
+  ('Auu____1102, 'Auu____1103) mreference
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2848 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2874
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2848 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2872
+type(
+  ('Auu____1102, 'Auu____1103) mreference ->
+  ('Auu____1102, 'Auu____1103) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref __proj__MkRef__item__ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 77 2294 2298 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 77 2294 2322
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2873 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2874
+type(
+  ('Auu____1102, 'Auu____1103) mreference
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2842 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2843
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2848 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2874
+call(
+  tail
+)
+type(
+  ('Auu____1102, 'Auu____1103) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2838 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 91 2834 2874
+type(
+  ('Auu____1102, 'Auu____1103) mreference ->
+  ('Auu____1102, 'Auu____1103) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 100 3134 3139 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 100 3134 3150
+type(
+  mem -> Prims.unit -> Prims.bool
+)
+ident(
+  def live_region "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 105 3243 3243 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3188 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3189
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3194 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3238
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3198 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3199
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3204 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3238
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3204 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3222
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> Prims.bool
+)
+ident(
+  ext_ref FStar_Map.contains
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3224 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3232
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3233 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3234
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3188 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3189
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3223 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3235
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3236 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3238
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3204 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3238
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3194 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3238
+type(
+  Prims.unit -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3184 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 101 3182 3238
+type(
+  mem -> Prims.unit -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 109 3334 3338 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 109 3334 3343
+type(
+  'Aa 'Arel.
+    Prims.unit -> 'Aa -> Prims.bool -> mem -> ('Aa, 'Arel) mreference * mem
+)
+ident(
+  def alloc "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 127 3932 3932 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 113 3435 3441 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 113 3435 3444
+type(
+  Prims.unit
+)
+ident(
+  def id1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 114 3449 3453 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 114 3449 3457 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 114 3449 3462
+type(
+  'Aa
+)
+ident(
+  def init1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 115 3467 3473 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 115 3467 3477 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 115 3467 3479
+type(
+  Prims.bool
+)
+ident(
+  def mm "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 116 3484 3492 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 116 3484 3496 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 116 3484 3497
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3512 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3516 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3526
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  def uu____2054 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 118 3569 3579 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3531 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3539
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3540 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3541
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 116 3484 3496 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 116 3484 3497
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3530 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3542
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3545 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3556
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3557 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3558
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 116 3484 3496 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 116 3484 3497
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3544 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3559
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3561 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3563
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3529 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3564
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 118 3569 3585 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 118 3569 3595
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  int_ref uu____2054 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3516 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3526
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3614 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3615
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 120 3632 3646 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3616 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3623
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 120 3632 3646 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3624 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3627
+type(
+  unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 120 3632 3646 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3613 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3628
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 120 3632 3650 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 120 3632 3660
+type(
+  'a
+)
+ident(
+  def uu____2088 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 122 3740 3754 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3679 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3705
+type(
+  FStar_Monotonic_Heap.heap -> 'Aa -> Prims.bool -> 'a
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.alloc
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3707 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3720
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Map.sel
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3721 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3722
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3614 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3615
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3723 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3725
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3706 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3726
+call(
+  stack
+)
+type(
+  FStar_Monotonic_Heap.heap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3727 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3732
+type(
+  'Aa
+)
+ident(
+  int_ref init1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 114 3449 3457 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 114 3449 3462
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3733 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3735
+type(
+  Prims.bool
+)
+ident(
+  int_ref mm "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 115 3467 3477 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 115 3467 3479
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3679 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 121 3663 3735
+call(
+  stack
+)
+type(
+  'a
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 122 3740 3761 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 122 3740 3771
+type(
+  'b
+)
+ident(
+  int_ref uu____2088 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 120 3632 3650 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 120 3632 3660
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3795 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3796
+type(
+  'c
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3825 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3927
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3797 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3801
+type(
+  'd
+)
+ident(
+  def id_h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3825 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3927
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3794 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3802
+type(
+  'c * 'd
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3829 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3831
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3881 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3927
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3834 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3847
+type(
+  FStar_Monotonic_HyperHeap.hmap ->
+  Prims.unit ->
+  FStar_Monotonic_Heap.heap ->
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.upd
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3848 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3849
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3614 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3615
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3850 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3852
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3853 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3857
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  int_ref id_h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3797 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3801
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3834 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3857
+call(
+  stack
+)
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3883 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3896
+type(
+  Prims.unit ->
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref -> ('Aa, 'Arel) mreference
+)
+ident(
+  int_ref mk_mreference "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 83 2534 2538 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 83 2534 2551
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3897 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3899
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3900 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3901
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3795 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 123 3777 3796
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3882 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3902
+call(
+  stack
+)
+type(
+  ('Aa, 'Arel) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3905 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3911
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3912 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3919
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3616 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 119 3601 3623
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3920 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3922
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3829 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3831
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3923 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3925
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3904 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3926
+call(
+  stack
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3881 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3927
+type(
+  ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 124 3806 3825 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3927
+type(
+  ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 122 3740 3754 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+type(
+  ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 120 3632 3646 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+type(
+  ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 118 3569 3579 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+type(
+  ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 117 3502 3512 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+type(
+  ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 116 3484 3492 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+type(
+  mem -> ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 115 3467 3473 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+type(
+  Prims.bool -> mem -> ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 114 3449 3453 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+type(
+  'Aa -> Prims.bool -> mem -> ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 113 3435 3437 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 125 3862 3928
+type(
+  Prims.unit -> 'Aa -> Prims.bool -> mem -> ('Aa, 'Arel) mreference * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 127 3932 3936 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 127 3932 3940
+type(
+  'Aa 'Arel. ('Aa, 'Arel) mreference -> mem -> mem
+)
+ident(
+  def free "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 137 4321 4321 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 128 3994 4000 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 128 3994 4001
+type(
+  ('Aa, 'Arel) mreference
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 129 4006 4010 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 129 4006 4014 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 129 4006 4015
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4026 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4030 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4040
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  def uu____2248 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 131 4083 4089 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4045 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4053
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4054 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4055
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 129 4006 4014 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 129 4006 4015
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4044 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4056
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4059 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4070
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4071 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4072
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 129 4006 4014 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 129 4006 4015
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4058 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4073
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4075 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4077
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4043 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4078
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 131 4083 4095 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 131 4083 4105
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  int_ref uu____2248 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4030 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4040
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4120 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4121
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4148 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4122 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4129
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4148 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4130 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4133
+type(
+  unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4148 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4119 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4134
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4152 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4155
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  def i_h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4191 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4158 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4171
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Map.sel
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4172 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4173
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4120 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4121
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4174 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4176
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4158 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4176
+call(
+  stack
+)
+type(
+  FStar_Monotonic_Heap.heap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4195 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4199
+type(
+  'a
+)
+ident(
+  def i_h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4260 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4202 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4230
+type(
+  FStar_Monotonic_Heap.heap -> ('Aa, 'Arel) FStar_Monotonic_Heap.mref -> 'a
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.free_mm
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4231 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4234
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  int_ref i_h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4152 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4155
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4236 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4242
+type(
+  ('Aa, 'Arel) mreference -> ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref as_ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2689 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2695
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4243 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4244
+type(
+  ('Aa, 'Arel) mreference
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 128 3994 4000 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 128 3994 4001
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4235 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4245
+call(
+  stack
+)
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4202 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4245
+call(
+  stack
+)
+type(
+  'a
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4264 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4266
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4297 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4269 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4282
+type(
+  FStar_Monotonic_HyperHeap.hmap ->
+  Prims.unit ->
+  FStar_Monotonic_Heap.heap ->
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.upd
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4283 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4284
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4120 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4121
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4285 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4287
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4288 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4292
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  int_ref i_h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4195 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4199
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4269 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4292
+call(
+  stack
+)
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4297 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4303
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4304 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4311
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4122 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 132 4111 4129
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4312 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4314
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4264 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4266
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4315 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4297 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+call(
+  tail
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4260 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 134 4181 4191 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 133 4138 4148 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 131 4083 4089 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 130 4020 4026 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 129 4006 4010 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+type(
+  mem -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 128 3994 3996 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 135 4250 4317
+type(
+  ('Aa, 'Arel) mreference -> mem -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 137 4321 4325 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 137 4321 4332
+type(
+  'Aa 'Arel. mem -> ('Aa, 'Arel) mreference -> 'Aa -> mem
+)
+ident(
+  def upd_tot "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 148 4750 4750 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 138 4393 4399 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 138 4393 4400
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 139 4405 4409 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 139 4405 4413 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 139 4405 4414
+type(
+  ('Aa, 'Arel) mreference
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 140 4419 4425 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 140 4419 4429 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 140 4419 4430
+type(
+  'Aa
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4443 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4447 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4457
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  def uu____2370 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 142 4500 4508 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4462 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4470
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4471 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4472
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 138 4393 4399 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 138 4393 4400
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4461 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4473
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4476 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4487
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4488 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4489
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 138 4393 4399 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 138 4393 4400
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4475 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4490
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4492 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4494
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4460 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4495
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 142 4500 4514 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 142 4500 4524
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  int_ref uu____2370 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4447 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4457
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4541 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4542
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4571 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4543 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4550
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4571 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4551 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4554
+type(
+  unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4571 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4540 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4555
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4575 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4578
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  def i_h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4616 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4581 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4594
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Map.sel
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4595 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4596
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4541 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4542
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4597 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4599
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4581 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4599
+call(
+  stack
+)
+type(
+  FStar_Monotonic_Heap.heap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4620 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4624
+type(
+  'a
+)
+ident(
+  def i_h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4689 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4627 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4655
+type(
+  FStar_Monotonic_Heap.heap ->
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref -> 'Aa -> 'a
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.upd_tot
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4656 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4659
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  int_ref i_h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4575 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4578
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4661 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4667
+type(
+  ('Aa, 'Arel) mreference -> ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref as_ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2689 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2695
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4668 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4669
+type(
+  ('Aa, 'Arel) mreference
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 139 4405 4413 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 139 4405 4414
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4660 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4670
+call(
+  stack
+)
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4671 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4672
+type(
+  'Aa
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 140 4419 4429 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 140 4419 4430
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4627 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4672
+call(
+  stack
+)
+type(
+  'a
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4693 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4695
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4726 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4698 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4711
+type(
+  FStar_Monotonic_HyperHeap.hmap ->
+  Prims.unit ->
+  FStar_Monotonic_Heap.heap ->
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.upd
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4712 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4713
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4541 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4542
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4714 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4716
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4717 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4721
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  int_ref i_h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4620 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4624
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4698 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4721
+call(
+  stack
+)
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4726 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4732
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4733 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4740
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4543 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 143 4530 4550
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4741 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4743
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4693 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4695
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4744 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4726 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+call(
+  tail
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4689 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 145 4604 4616 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 144 4559 4571 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 142 4500 4508 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 141 4435 4443 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 140 4419 4425 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  'Aa -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 139 4405 4409 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  ('Aa, 'Arel) mreference -> 'Aa -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 138 4393 4395 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 146 4677 4746
+type(
+  mem -> ('Aa, 'Arel) mreference -> 'Aa -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 148 4750 4754 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 148 4750 4761
+type(
+  'Aa 'Arel. mem -> ('Aa, 'Arel) mreference -> 'Aa
+)
+ident(
+  def sel_tot "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 153 4922 4922 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 149 4815 4821 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 149 4815 4822
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 150 4827 4831 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4918
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 150 4827 4835 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 150 4827 4836
+type(
+  ('Aa, 'Arel) mreference
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4847 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4918
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4847 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4875
+type(
+  FStar_Monotonic_Heap.heap -> ('Aa, 'Arel) FStar_Monotonic_Heap.mref -> 'Aa
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.sel_tot
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4877 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4890
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Map.sel
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4892 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4900
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4901 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4902
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 149 4815 4821 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 149 4815 4822
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4891 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4903
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4904 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4906
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4876 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4907
+call(
+  stack
+)
+type(
+  FStar_Monotonic_Heap.heap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4909 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4915
+type(
+  ('Aa, 'Arel) mreference -> ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref as_ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2689 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2695
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4916 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4917
+type(
+  ('Aa, 'Arel) mreference
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 150 4827 4835 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 150 4827 4836
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4908 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4918
+call(
+  stack
+)
+type(
+  ('Aa, 'Arel) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4847 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4918
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 150 4827 4831 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4918
+type(
+  ('Aa, 'Arel) mreference -> 'Aa
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 149 4815 4817 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 151 4841 4918
+type(
+  mem -> ('Aa, 'Arel) mreference -> 'Aa
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 154 4958 4963 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 154 4958 4976
+type(
+  mem -> mem
+)
+ident(
+  def hs_push_frame "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 162 5232 5232 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 155 4993 4999 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 155 4993 5000
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5009 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5013 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5023
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  def uu____2729 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 157 5066 5070 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5028 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5036
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5037 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5038
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 155 4993 4999 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 155 4993 5000
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5027 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5039
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5042 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5053
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5054 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5055
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 155 4993 4999 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 155 4993 5000
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5041 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5056
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5058 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5060
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5026 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5061
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 157 5066 5076 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 157 5066 5086
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  int_ref uu____2729 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5013 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5023
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5099 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5100
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5125 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5101 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5108
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5125 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5109 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5112
+type(
+  unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5125 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5098 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5113
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5129 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5131
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5190 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5134 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5147
+type(
+  FStar_Monotonic_HyperHeap.hmap ->
+  Prims.unit ->
+  FStar_Monotonic_Heap.heap ->
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.upd
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5148 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5149
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5099 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5100
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5150 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5152
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5153 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5177
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.emp
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5134 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5177
+call(
+  stack
+)
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5190 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5196
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5198 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5205
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5101 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 158 5092 5108
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5206 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5207
+type(
+  Prims.int -> Z.t -> Prims.int
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5208 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5221
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5197 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5222
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5223 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5225
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5129 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5131
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5226 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5190 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+call(
+  tail
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 159 5117 5125 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 157 5066 5070 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 156 5005 5009 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 155 4993 4995 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 160 5182 5228
+type(
+  mem -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 162 5232 5237 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 162 5232 5255
+type(
+  mem ->
+  Prims.unit -> Prims.int FStar_Pervasives_Native.option -> Prims.unit * mem
+)
+ident(
+  def new_eternal_region "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 173 5637 5637 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 164 5335 5341 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 164 5335 5342
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 165 5347 5351 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 165 5347 5355 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 165 5347 5361
+type(
+  Prims.unit
+)
+ident(
+  def parent "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 166 5366 5372 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 166 5366 5376 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 166 5366 5377
+type(
+  Prims.int FStar_Pervasives_Native.option
+)
+ident(
+  def c "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5390 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5394 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5404
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  def uu____2807 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 168 5447 5455 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5409 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5417
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5418 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5419
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 164 5335 5341 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 164 5335 5342
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5408 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5420
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5423 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5434
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5435 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5436
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 164 5335 5341 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 164 5335 5342
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5422 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5437
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5439 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5441
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5407 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5442
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 168 5447 5461 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 168 5447 5471
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  int_ref uu____2807 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5394 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5404
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5488 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5489
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5518 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5490 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5497
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5518 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5498 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5501
+type(
+  unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5518 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5487 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5502
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5522 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5524
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5587 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5527 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5540
+type(
+  FStar_Monotonic_HyperHeap.hmap ->
+  Prims.unit ->
+  FStar_Monotonic_Heap.heap ->
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.upd
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5541 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5542
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5488 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5489
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5543 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5545
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5546 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5570
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.emp
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5527 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5570
+call(
+  stack
+)
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5588 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5590
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5593 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5599
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5601 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5608
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5490 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 169 5477 5497
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5609 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5610
+type(
+  Prims.int -> Z.t -> Prims.int
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5611 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5624
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5600 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5625
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5626 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5628
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5522 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5524
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5629 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5631
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5592 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5632
+call(
+  stack
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5587 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+type(
+  Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 170 5506 5518 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+type(
+  Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 168 5447 5455 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+type(
+  Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 167 5382 5390 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+type(
+  Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 166 5366 5372 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+type(
+  Prims.int FStar_Pervasives_Native.option -> Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 165 5347 5351 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+type(
+  Prims.unit -> Prims.int FStar_Pervasives_Native.option -> Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 164 5335 5337 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 171 5575 5633
+type(
+  mem ->
+  Prims.unit -> Prims.int FStar_Pervasives_Native.option -> Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 173 5637 5642 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 173 5637 5666
+type(
+  mem -> Prims.unit -> Prims.unit * mem
+)
+ident(
+  def new_freeable_heap_region "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 182 5976 5976 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 174 5700 5706 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 174 5700 5707
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 175 5712 5716 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 175 5712 5720 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 175 5712 5726
+type(
+  Prims.unit
+)
+ident(
+  def parent "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5737 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5741 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5751
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  def uu____2872 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 177 5794 5800 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5756 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5764
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5765 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5766
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 174 5700 5706 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 174 5700 5707
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5755 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5767
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5770 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5781
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5782 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5783
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 174 5700 5706 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 174 5700 5707
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5769 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5784
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5786 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5788
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5754 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5789
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 177 5794 5806 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 177 5794 5816
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+ident(
+  int_ref uu____2872 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5741 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5751
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5831 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5832
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5859 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5833 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5840
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5859 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5841 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5844
+type(
+  unit
+)
+ident(
+  def tip "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5859 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5830 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5845
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int * unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5863 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5865
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5926 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5868 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5881
+type(
+  FStar_Monotonic_HyperHeap.hmap ->
+  Prims.unit ->
+  FStar_Monotonic_Heap.heap ->
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.upd
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5882 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5883
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5831 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5832
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5884 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5886
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5887 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5911
+type(
+  FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.emp
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5868 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5911
+call(
+  stack
+)
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5927 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5929
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5932 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5938
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5940 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5947
+type(
+  Prims.int
+)
+ident(
+  int_ref rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5833 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 178 5822 5840
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5948 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5949
+type(
+  Prims.int -> Z.t -> Prims.int
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5950 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5963
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5939 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5964
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5965 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5967
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5863 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5865
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5968 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5970
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5931 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5971
+call(
+  stack
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5926 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+type(
+  Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 179 5849 5859 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+type(
+  Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 177 5794 5800 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+type(
+  Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 176 5731 5737 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+type(
+  Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 175 5712 5716 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+type(
+  Prims.unit -> Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 174 5700 5702 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 180 5916 5972
+type(
+  mem -> Prims.unit -> Prims.unit * mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 182 5976 5981 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 182 5976 5997
+type(
+  mem -> Prims.unit -> mem
+)
+ident(
+  def free_heap_region "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 196 6319 6319 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6028 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6030
+type(
+  mem
+)
+ident(
+  def m0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 184 6035 6039 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 184 6035 6043 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 184 6035 6044
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6055 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6059 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6069
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int
+)
+ident(
+  def uu____2932 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 186 6110 6116 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6074 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6082
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6083 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6085
+type(
+  mem
+)
+ident(
+  int_ref m0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6028 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6030
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6073 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6086
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6089 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6100
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6101 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6103
+type(
+  mem
+)
+ident(
+  int_ref m0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6028 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6030
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6088 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6104
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6072 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6105
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 186 6110 6122 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 186 6110 6132
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int
+)
+ident(
+  int_ref uu____2932 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6059 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6069
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6147 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6149
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  def h0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6173 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6150 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6158
+type(
+  Prims.int
+)
+ident(
+  def rid_ctr0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6173 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6146 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6159
+type(
+  FStar_Monotonic_HyperHeap.hmap * Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6177 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6180
+type(
+  Prims.unit FStar_Set.set
+)
+ident(
+  def dom "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6233 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6183 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6193
+type(
+  Prims.unit FStar_Set.set -> Prims.unit -> Prims.unit FStar_Set.set
+)
+ident(
+  int_ref remove_elt "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 58 1616 1620 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 58 1616 1630
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6195 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6211
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit FStar_Set.set
+)
+ident(
+  ext_ref FStar_Map.domain
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6212 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6214
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6147 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6149
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6194 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6215
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6216 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6218
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6183 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6218
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6237 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6239
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6282 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6242 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6260
+type(
+  Prims.unit FStar_Set.set ->
+  FStar_Monotonic_HyperHeap.hmap ->
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+ident(
+  ext_ref FStar_Map.restrict
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6261 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6264
+type(
+  Prims.unit FStar_Set.set
+)
+ident(
+  int_ref dom "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6177 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6180
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6265 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6267
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6147 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 187 6138 6149
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6242 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6267
+call(
+  stack
+)
+type(
+  (Prims.unit, FStar_Monotonic_Heap.heap) FStar_Map.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6282 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6288
+type(
+  Prims.int -> FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> mem
+)
+ident(
+  int_ref mk_mem "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1021 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 33 1016 1027
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6290 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6301
+type(
+  mem -> Prims.int
+)
+ident(
+  int_ref get_rid_ctr "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1252 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 37 1247 1263
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6302 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6304
+type(
+  mem
+)
+ident(
+  int_ref m0 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6028 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6030
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6289 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6305
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6306 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6308
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6237 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6239
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6309 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6282 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+call(
+  tail
+)
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 189 6223 6233 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 188 6163 6173 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 186 6110 6116 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 185 6049 6055 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+type(
+  mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 184 6035 6039 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+type(
+  Prims.unit -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 183 6022 6024 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 190 6272 6311
+type(
+  mem -> Prims.unit -> mem
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 199 6433 6438 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 199 6433 6447
+type(
+  mem -> FStar_Monotonic_Heap.heap
+)
+ident(
+  def top_frame "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 203 6531 6531 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6492 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6493
+type(
+  mem
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6498 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6527
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6498 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6511
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Map.sel
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6513 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6521
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref get_hmap "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1159 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 35 1154 1167
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6522 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6523
+type(
+  mem
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6492 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6493
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6512 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6524
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6525 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6527
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6498 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6527
+call(
+  tail
+)
+type(
+  FStar_Monotonic_Heap.heap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6488 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 200 6486 6527
+type(
+  mem -> FStar_Monotonic_Heap.heap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6691 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6702
+type(
+  some_ref -> Prims.bool
+)
+ident(
+  def uu___is_Ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 208 6755 6755 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6735 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6744
+type(
+  some_ref
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6749 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6753
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6749 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6753
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6731 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 207 6686 6753
+type(
+  some_ref -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 210 6877 6882 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 210 6877 6903
+type(
+  some_ref -> (Obj.t, Obj.t) mreference
+)
+ident(
+  def __proj__Ref__item___2 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 212 7011 7011 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6952 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6961
+type(
+  some_ref
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6966 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7009
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6972 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6981
+type(
+  some_ref
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6952 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6961
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6994 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6995
+type(
+  Prims.unit
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7007 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7009
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6996 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6999
+type(
+  Prims.unit
+)
+ident(
+  def rel "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7007 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7009
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7000 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7002
+type(
+  (Obj.t, Obj.t) mreference
+)
+ident(
+  def _2 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7007 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7009
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6989 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7003
+type(
+  some_ref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7007 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7009
+type(
+  (Obj.t, Obj.t) mreference
+)
+ident(
+  int_ref _2 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7000 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7002
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6966 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7009
+type(
+  (Obj.t, Obj.t) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 6948 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 211 6946 7009
+type(
+  some_ref -> (Obj.t, Obj.t) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 213 7048 7057 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 213 7048 7077
+type(
+  some_refs -> Prims.unit FStar_Set.set
+)
+ident(
+  def regions_of_some_refs "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 213 7048 7048 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 214 7115 7121 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 214 7115 7123
+type(
+  some_refs
+)
+ident(
+  def rs "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 215 7128 7132 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 215 7128 7138 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 215 7128 7140
+type(
+  some_refs
+)
+ident(
+  int_ref rs "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 214 7115 7121 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 214 7115 7123
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 216 7146 7152 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 216 7146 7154
+type(
+  some_refs
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 216 7146 7158 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 216 7146 7173
+type(
+  unit -> Prims.unit FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.empty
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 216 7146 7174 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 216 7146 7176
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 216 7146 7158 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 216 7146 7176
+call(
+  tail
+)
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7189 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7199
+type(
+  Prims.unit
+)
+ident(
+  def uu____4109 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7231 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7200 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7210
+type(
+  Prims.unit
+)
+ident(
+  def uu____4110 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7231 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7211 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7212
+type(
+  (Obj.t, Obj.t) mreference
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7231 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7183 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7214
+type(
+  some_ref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7216 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7219
+type(
+  some_ref list
+)
+ident(
+  def tl1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7231 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7183 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7219
+type(
+  some_refs
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7231 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7246
+type(
+  Prims.unit BatSet.t -> Prims.unit FStar_Set.set -> Prims.unit FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.union
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7248 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7267
+type(
+  Prims.unit -> Prims.unit BatSet.t
+)
+ident(
+  ext_ref FStar_Set.singleton
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7268 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7270
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7247 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7271
+call(
+  stack
+)
+type(
+  Prims.unit BatSet.t
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7273 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7293
+type(
+  some_refs -> Prims.unit FStar_Set.set
+)
+ident(
+  int_ref regions_of_some_refs "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 213 7048 7057 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 213 7048 7077
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7294 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7297
+type(
+  some_refs
+)
+ident(
+  int_ref tl1 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7216 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 217 7177 7219
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7272 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7231 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+call(
+  tail
+)
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 215 7128 7132 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+type(
+  Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 214 7115 7117 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 218 7223 7298
+type(
+  some_refs -> Prims.unit FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 222 7356 7361 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 222 7356 7371
+type(
+  FStar_Pervasives.norm_step Prims.list
+)
+ident(
+  def norm_steps "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 231 7710 7710 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 223 7415 7418 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 223 7415 7439
+type(
+  FStar_Pervasives.norm_step
+)
+ident(
+  ext_ref FStar_Pervasives.iota
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 224 7441 7443 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 224 7441 7464
+type(
+  FStar_Pervasives.norm_step
+)
+ident(
+  ext_ref FStar_Pervasives.zeta
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 225 7466 7468 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 225 7466 7490
+type(
+  FStar_Pervasives.norm_step
+)
+ident(
+  ext_ref FStar_Pervasives.delta
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 226 7492 7494 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 226 7492 7521
+type(
+  Prims.string Prims.list -> FStar_Pervasives.norm_step
+)
+ident(
+  ext_ref FStar_Pervasives.delta_only
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 227 7522 7527 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 227 7522 7576
+type(
+  Prims.string
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 228 7578 7582 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 228 7578 7625
+type(
+  Prims.string
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 229 7627 7631 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 229 7627 7678
+type(
+  Prims.string
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 227 7522 7526 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 229 7627 7679
+type(
+  Prims.string Prims.list
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 226 7492 7494 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 229 7627 7679
+call(
+  stack
+)
+type(
+  FStar_Pervasives.norm_step
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 230 7681 7683 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 230 7681 7707
+type(
+  FStar_Pervasives.norm_step
+)
+ident(
+  ext_ref FStar_Pervasives.primops
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 223 7415 7417 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 230 7681 7708
+type(
+  FStar_Pervasives.norm_step Prims.list
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7816 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7828
+type(
+  aref -> Prims.bool
+)
+ident(
+  def uu___is_ARef "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 245 7878 7878 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7857 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7866
+type(
+  aref
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7871 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7875
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7871 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7875
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7853 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 243 7811 7875
+type(
+  aref -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 245 7878 7883 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 245 7878 7912
+type(
+  aref -> FStar_Monotonic_Heap.aref
+)
+ident(
+  def __proj__ARef__item__aref_aref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8044 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 246 7952 7958 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 246 7952 7967
+type(
+  aref
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 7976 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8040
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 7982 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 7991
+type(
+  aref
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 246 7952 7958 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 246 7952 7967
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8005 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8016
+type(
+  Prims.unit
+)
+ident(
+  def aref_region "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8031 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8040
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8017 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8026
+type(
+  FStar_Monotonic_Heap.aref
+)
+ident(
+  def aref_aref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8031 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8040
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 7999 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8027
+type(
+  aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8031 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8040
+type(
+  FStar_Monotonic_Heap.aref
+)
+ident(
+  int_ref aref_aref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8017 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8026
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 7976 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8040
+type(
+  FStar_Monotonic_Heap.aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 246 7952 7954 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 247 7972 8040
+type(
+  aref -> FStar_Monotonic_Heap.aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8049 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8059
+type(
+  aref
+)
+ident(
+  def dummy_aref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 251 8115 8115 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8076 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8078
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8080 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8111
+type(
+  FStar_Monotonic_Heap.aref
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.dummy_aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8070 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 249 8044 8112
+type(
+  aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 251 8115 8119 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 251 8115 8126
+type(
+  'Auu____4778 'Auu____4779. ('Auu____4778, 'Auu____4779) mreference -> aref
+)
+ident(
+  def aref_of "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 260 8280 8280 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8214 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8215
+type(
+  ('Auu____4778, 'Auu____4779) mreference
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8220 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8272
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8226 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8228
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8231 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8259
+type(
+  ('Auu____4778, 'Auu____4779) FStar_Monotonic_Heap.mref ->
+  FStar_Monotonic_Heap.aref
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.aref_of
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8261 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8267
+type(
+  ('Auu____4778, 'Auu____4779) mreference ->
+  ('Auu____4778, 'Auu____4779) FStar_Monotonic_Heap.mref
+)
+ident(
+  int_ref as_ref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2689 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 87 2685 2695
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8268 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8269
+type(
+  ('Auu____4778, 'Auu____4779) mreference
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8214 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8215
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8260 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8270
+call(
+  stack
+)
+type(
+  ('Auu____4778, 'Auu____4779) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8230 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8271
+call(
+  stack
+)
+type(
+  FStar_Monotonic_Heap.aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8220 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8272
+type(
+  aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8210 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 253 8206 8272
+type(
+  ('Auu____4778, 'Auu____4779) mreference -> aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 265 8365 8370 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 265 8365 8382
+type(
+  mem -> aref -> Prims.unit -> Prims.unit -> (Obj.t, Obj.t) mreference
+)
+ident(
+  def reference_of "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 267 8446 8452 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 267 8446 8453
+type(
+  mem
+)
+ident(
+  def h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 268 8458 8462 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 268 8458 8466 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 268 8458 8467
+type(
+  aref
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 269 8472 8478 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 269 8472 8482 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 269 8472 8483
+type(
+  Prims.unit
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 270 8488 8496 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 270 8488 8500 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 270 8488 8503
+type(
+  Prims.unit
+)
+ident(
+  def rel "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 271 8508 8518 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 272 8524 8537 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 272 8524 8539
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 273 8541 8556 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 273 8541 8583
+type(
+  FStar_Monotonic_Heap.heap ->
+  FStar_Monotonic_Heap.aref ->
+  unit -> unit -> (Obj.t, Obj.t) FStar_Monotonic_Heap.mref
+)
+ident(
+  ext_ref FStar_Monotonic_Heap.ref_of
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8602 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8615
+type(
+  FStar_Monotonic_HyperHeap.hmap -> Prims.unit -> FStar_Monotonic_Heap.heap
+)
+ident(
+  ext_ref FStar_Map.sel
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8617 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8636
+type(
+  mem -> FStar_Monotonic_HyperHeap.hmap
+)
+ident(
+  int_ref __proj__HS__item__h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 30 878 883 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 30 878 902
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8637 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8638
+type(
+  mem
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 267 8446 8452 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 267 8446 8453
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8616 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8639
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperHeap.hmap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8640 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8642
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8601 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 274 8584 8643
+call(
+  stack
+)
+type(
+  FStar_Monotonic_Heap.heap
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8662 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8691
+type(
+  aref -> FStar_Monotonic_Heap.aref
+)
+ident(
+  int_ref __proj__ARef__item__aref_aref "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 245 7878 7883 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 245 7878 7912
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8692 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8693
+type(
+  aref
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 268 8458 8466 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 268 8458 8467
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8661 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8694
+call(
+  stack
+)
+type(
+  FStar_Monotonic_Heap.aref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8695 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8697
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8698 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8700
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 273 8541 8555 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8701
+call(
+  stack
+)
+type(
+  (Obj.t, Obj.t) FStar_Monotonic_Heap.mref
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 271 8508 8518 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+type(
+  (Obj.t, Obj.t) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 270 8488 8496 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+type(
+  Prims.unit -> (Obj.t, Obj.t) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 269 8472 8478 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+type(
+  Prims.unit -> Prims.unit -> (Obj.t, Obj.t) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 268 8458 8462 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+type(
+  aref -> Prims.unit -> Prims.unit -> (Obj.t, Obj.t) mreference
+)
+"ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 267 8446 8448 "ulib/ml/extracted/FStar_Monotonic_HyperStack.ml" 275 8644 8702
+type(
+  mem -> aref -> Prims.unit -> Prims.unit -> (Obj.t, Obj.t) mreference
+)

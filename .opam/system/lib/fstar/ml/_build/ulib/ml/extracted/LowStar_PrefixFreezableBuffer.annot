@@ -1,0 +1,1556 @@
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 4 61 66 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 4 61 73
+type(
+  u8 FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  def le_to_n "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 6 154 154 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 120 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 121
+type(
+  FStar_Endianness.bytes
+)
+ident(
+  def s "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 126 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 152
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 126 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 150
+type(
+  FStar_Endianness.bytes -> Prims.nat
+)
+ident(
+  ext_ref FStar_Endianness.le_to_n
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 151 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 152
+type(
+  FStar_Endianness.bytes
+)
+ident(
+  int_ref s "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 120 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 121
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 126 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 152
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 116 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 5 114 152
+type(
+  FStar_Endianness.bytes -> Prims.nat
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 6 154 159 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 6 154 171
+type(
+  u8 FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  def frozen_until "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 10 298 298 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 7 212 218 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 7 212 219
+type(
+  u8 FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 228 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 294
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 228 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 235
+type(
+  u8 FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  int_ref le_to_n "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 4 61 66 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 4 61 73
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 237 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 257
+type(
+  u8 FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> u8 FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 258 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 259
+type(
+  u8 FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 7 212 218 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 7 212 219
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 260 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 274
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 276 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 288
+type(
+  int -> Prims.nat
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 289 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 292
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 275 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 293
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 236 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 294
+call(
+  stack
+)
+type(
+  u8 FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 228 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 294
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 7 212 214 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 8 224 294
+type(
+  u8 FStar_Seq_Base.seq -> Prims.nat
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 19 650 655 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 19 650 680
+type(
+  (u8, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer -> Prims.unit
+)
+ident(
+  def update_frozen_until_alloc "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 29 1050 1050 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 24 862 868 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 24 862 869
+type(
+  (FStar_UInt8.t, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 878 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1046
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 878 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 909
+type(
+  (FStar_UInt8.t, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Endianness.store32_le_i
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 910 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 911
+type(
+  (FStar_UInt8.t, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 24 862 868 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 24 862 869
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 913 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 935
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 936 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 950
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 912 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 951
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 959 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 981
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 983 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 995
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 996 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 999
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 982 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 1000
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 958 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 1001
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 878 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 26 952 1001
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1007 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1041
+type(
+  (FStar_UInt8.t, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.witness_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1042 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1043
+type(
+  (FStar_UInt8.t, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 24 862 868 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 24 862 869
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1044 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1046
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1007 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1046
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 25 874 878 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1046
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 24 862 864 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 27 1003 1046
+type(
+  (FStar_UInt8.t, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 29 1050 1055 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 29 1050 1063
+type(
+  Prims.unit -> u32 -> buffer
+)
+ident(
+  def gcmalloc "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 40 1442 1442 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 30 1091 1097 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 30 1091 1098
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 31 1103 1107 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 31 1103 1111 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 31 1103 1114
+type(
+  u32
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1125 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1129 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1131
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h0 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 33 1165 1171 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1134 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1157
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1158 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1160
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1134 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1160
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 33 1165 1175 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 33 1165 1176
+type(
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1369 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 34 1179 1187 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 34 1179 1221
+type(
+  Prims.unit ->
+  FStar_UInt8.uint8 ->
+  FStar_UInt32.t ->
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.mgcmalloc
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 34 1179 1222 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 34 1179 1224
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 35 1225 1236 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 35 1225 1257
+type(
+  Prims.int -> FStar_UInt8.uint8
+)
+ident(
+  ext_ref FStar_UInt8.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 35 1225 1258 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 35 1225 1272
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 35 1225 1235 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 35 1225 1273
+call(
+  stack
+)
+type(
+  FStar_UInt8.uint8
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1285 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1301
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.add
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1302 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1305
+type(
+  u32
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 31 1103 1111 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 31 1103 1114
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1307 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1329
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1331 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1343
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1344 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1347
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1330 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1348
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1306 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1349
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1284 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1350
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 34 1179 1187 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 36 1274 1350
+call(
+  stack
+)
+type(
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1373 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1374
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1408 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1377 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1400
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1401 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1403
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1377 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1403
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1408 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1433
+type(
+  (u8, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer -> Prims.unit
+)
+ident(
+  int_ref update_frozen_until_alloc "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 19 650 655 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 19 650 680
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1434 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1435
+type(
+  (u8, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 33 1165 1175 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 33 1165 1176
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1408 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1435
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1437 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 33 1165 1175 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 33 1165 1176
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1408 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1369 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 33 1165 1171 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 32 1119 1125 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 31 1103 1107 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+type(
+  u32 -> buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 30 1091 1093 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 38 1363 1438
+type(
+  Prims.unit -> u32 -> buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 40 1442 1447 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 40 1442 1453
+type(
+  Prims.unit -> u32 -> buffer
+)
+ident(
+  def malloc "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 51 1830 1830 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 41 1481 1487 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 41 1481 1488
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 42 1493 1497 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 42 1493 1501 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 42 1493 1504
+type(
+  u32
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1515 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1519 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1521
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h0 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 44 1555 1561 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1524 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1547
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1548 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1550
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1524 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1550
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 44 1555 1565 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 44 1555 1566
+type(
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1757 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 45 1569 1577 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 45 1569 1609
+type(
+  Prims.unit ->
+  FStar_UInt8.uint8 ->
+  FStar_UInt32.t ->
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.mmalloc
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 45 1569 1610 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 45 1569 1612
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 46 1613 1624 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 46 1613 1645
+type(
+  Prims.int -> FStar_UInt8.uint8
+)
+ident(
+  ext_ref FStar_UInt8.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 46 1613 1646 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 46 1613 1660
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 46 1613 1623 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 46 1613 1661
+call(
+  stack
+)
+type(
+  FStar_UInt8.uint8
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1673 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1689
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.add
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1690 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1693
+type(
+  u32
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 42 1493 1501 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 42 1493 1504
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1695 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1717
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1719 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1731
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1732 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1735
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1718 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1736
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1694 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1737
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1672 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1738
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 45 1569 1577 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 47 1662 1738
+call(
+  stack
+)
+type(
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1761 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1762
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1796 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1765 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1788
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1789 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1791
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1765 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1791
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1796 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1821
+type(
+  (u8, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer -> Prims.unit
+)
+ident(
+  int_ref update_frozen_until_alloc "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 19 650 655 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 19 650 680
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1822 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1823
+type(
+  (u8, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 44 1555 1565 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 44 1555 1566
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1796 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1823
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1825 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 44 1555 1565 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 44 1555 1566
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1796 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1757 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 44 1555 1561 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 43 1509 1515 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 42 1493 1497 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+type(
+  u32 -> buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 41 1481 1483 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 49 1751 1826
+type(
+  Prims.unit -> u32 -> buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 52 1859 1864 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 52 1859 1870
+type(
+  u32 -> buffer
+)
+ident(
+  def alloca "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 61 2200 2200 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 53 1890 1896 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 53 1890 1899
+type(
+  u32
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1908 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1912 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1914
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h0 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 55 1948 1952 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1917 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1940
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1941 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1943
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1917 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1943
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 55 1948 1956 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 55 1948 1957
+type(
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2127 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 1966 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 1998
+type(
+  FStar_UInt8.uint8 ->
+  FStar_UInt32.t ->
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.malloca
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 2000 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 2021
+type(
+  Prims.int -> FStar_UInt8.uint8
+)
+ident(
+  ext_ref FStar_UInt8.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 2022 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 2036
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 1999 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 2037
+call(
+  stack
+)
+type(
+  FStar_UInt8.uint8
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2047 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2063
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.add
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2064 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2067
+type(
+  u32
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 53 1890 1896 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 53 1890 1899
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2069 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2091
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2093 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2105
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2106 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2109
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2092 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2110
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2068 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2111
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2046 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2112
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 56 1960 1966 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 57 2038 2112
+call(
+  stack
+)
+type(
+  (FStar_UInt8.uint8, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2131 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2132
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2166 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2135 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2158
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2159 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2161
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2135 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2161
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2166 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2191
+type(
+  (u8, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer -> Prims.unit
+)
+ident(
+  int_ref update_frozen_until_alloc "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 19 650 655 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 19 650 680
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2192 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2193
+type(
+  (u8, (Prims.unit, Prims.unit) prefix_freezable_preorder,
+   (Prims.unit, Prims.unit) prefix_freezable_preorder)
+  LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 55 1948 1956 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 55 1948 1957
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2166 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2193
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2195 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 55 1948 1956 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 55 1948 1957
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2166 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2127 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 55 1948 1952 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 54 1904 1908 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+type(
+  buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 53 1890 1892 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 59 2123 2196
+type(
+  u32 -> buffer
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 61 2200 2205 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 61 2200 2208
+type(
+  buffer -> u32 -> u8 -> Prims.unit
+)
+ident(
+  def upd "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 70 2432 2432 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 62 2242 2248 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 62 2242 2249
+type(
+  buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 63 2254 2258 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2427
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 63 2254 2262 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 63 2254 2263
+type(
+  u32
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 64 2268 2274 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2427
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 64 2268 2278 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 64 2268 2280
+type(
+  u8
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2293 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2427
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2293 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2326
+type(
+  buffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.recall_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2327 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2328
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 62 2242 2248 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 62 2242 2249
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2329 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2331
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2293 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2331
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2346 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2347
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2390 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2426
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2350 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2373
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2374 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2376
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2350 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2376
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2390 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2419
+type(
+  buffer -> FStar_UInt32.t -> u8 -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.upd'
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2420 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2421
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 62 2242 2248 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 62 2242 2249
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2422 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2423
+type(
+  u32
+)
+ident(
+  int_ref i "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 63 2254 2262 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 63 2254 2263
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2424 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2426
+type(
+  u8
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 64 2268 2278 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 64 2268 2280
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2390 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2426
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 66 2333 2341 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2427
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 65 2285 2293 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2427
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 64 2268 2274 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2427
+type(
+  u8 -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 63 2254 2258 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2427
+type(
+  u32 -> u8 -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 62 2242 2244 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 67 2381 2427
+type(
+  buffer -> u32 -> u8 -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 70 2432 2437 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 70 2432 2443
+type(
+  buffer -> u32 -> Prims.unit
+)
+ident(
+  def freeze "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 78 2683 2683 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2477 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2478
+type(
+  buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 72 2483 2487 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2679
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 72 2483 2491 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 72 2483 2492
+type(
+  u32
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2503 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2679
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2503 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2536
+type(
+  buffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.recall_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2537 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2538
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2477 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2478
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2539 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2541
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2503 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2541
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 74 2543 2549 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 74 2543 2580
+type(
+  buffer -> FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Endianness.store32_le_i
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 74 2543 2581 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 74 2543 2582
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2477 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2478
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2592 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2614
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2615 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2629
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2591 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2630
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2631 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2632
+type(
+  u32
+)
+ident(
+  int_ref i "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 72 2483 2491 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 72 2483 2492
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 74 2543 2549 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 75 2583 2632
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2640 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2674
+type(
+  buffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.witness_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2675 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2676
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2477 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2478
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2677 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2679
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2640 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2679
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 74 2543 2549 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2679
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 73 2497 2503 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2679
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 72 2483 2487 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2679
+type(
+  u32 -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 71 2471 2473 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 76 2634 2679
+type(
+  buffer -> u32 -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 78 2683 2688 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 78 2683 2703
+type(
+  buffer -> u32
+)
+ident(
+  def frozen_until_st "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 82 2815 2815 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 79 2723 2729 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 79 2723 2730
+type(
+  buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2739 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2811
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2739 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2769
+type(
+  buffer -> FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  ext_ref LowStar_Endianness.load32_le_i
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2770 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2771
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 79 2723 2729 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 79 2723 2730
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2773 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2795
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2796 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2810
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2772 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2811
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2739 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2811
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 79 2723 2725 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 80 2735 2811
+type(
+  buffer -> u32
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 82 2815 2820 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 82 2815 2833
+type(
+  buffer -> u32 -> u32 -> Prims.unit -> Prims.unit
+)
+ident(
+  def witness_slice "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 86 2968 2968 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 83 2876 2882 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 83 2876 2883
+type(
+  buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2892 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2896 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2897
+type(
+  u32
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2902 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2906 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2907
+type(
+  u32
+)
+ident(
+  def j "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2912 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2916 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2920
+type(
+  Prims.unit
+)
+ident(
+  def snap "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2925 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2925 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2959
+type(
+  buffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.witness_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2960 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2961
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 83 2876 2882 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 83 2876 2883
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2962 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2925 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2912 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2902 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+type(
+  u32 -> Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2892 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+type(
+  u32 -> u32 -> Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 83 2876 2878 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 84 2888 2964
+type(
+  buffer -> u32 -> u32 -> Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 86 2968 2973 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 86 2968 2985
+type(
+  buffer -> u32 -> u32 -> Prims.unit -> Prims.unit
+)
+ident(
+  def recall_slice "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 90 3119 3119 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 87 3028 3034 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 87 3028 3035
+type(
+  buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3044 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3048 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3049
+type(
+  u32
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3054 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3058 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3059
+type(
+  u32
+)
+ident(
+  def j "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3064 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3068 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3072
+type(
+  Prims.unit
+)
+ident(
+  def snap "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3077 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3077 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3110
+type(
+  buffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.recall_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3111 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3112
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 87 3028 3034 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 87 3028 3035
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3113 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3077 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3064 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3054 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+type(
+  u32 -> Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3044 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+type(
+  u32 -> u32 -> Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 87 3028 3030 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 88 3040 3115
+type(
+  buffer -> u32 -> u32 -> Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 90 3119 3124 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 90 3119 3144
+type(
+  buffer -> Prims.nat -> Prims.unit
+)
+ident(
+  def witness_frozen_until "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 92 3242 3242 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3184 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3185
+type(
+  buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3190 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3240
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3194 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3196
+type(
+  Prims.nat
+)
+ident(
+  def n1 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3201 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3240
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3201 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3235
+type(
+  buffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.witness_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3236 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3237
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3184 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3185
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3238 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3240
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3201 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3240
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3190 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3240
+type(
+  Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3180 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 91 3178 3240
+type(
+  buffer -> Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 92 3242 3247 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 92 3242 3266
+type(
+  buffer -> Prims.nat -> Prims.unit
+)
+ident(
+  def recall_frozen_until "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 94 3363 3363 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3306 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3307
+type(
+  buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3312 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3361
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3316 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3318
+type(
+  Prims.nat
+)
+ident(
+  def n1 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3323 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3361
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3323 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3356
+type(
+  buffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.recall_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3357 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3358
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3306 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3307
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3359 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3361
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3323 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3361
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3312 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3361
+type(
+  Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3302 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 93 3300 3361
+type(
+  buffer -> Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 94 3363 3368 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 94 3363 3395
+type(
+  buffer -> Prims.unit
+)
+ident(
+  def recall_frozen_until_default "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3466 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3422 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3423
+type(
+  buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3428 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3466
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3428 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3461
+type(
+  buffer -> Prims.unit -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.recall_p
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3462 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3463
+type(
+  buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3422 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3423
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3464 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3466
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3428 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3466
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3418 "ulib/ml/extracted/LowStar_PrefixFreezableBuffer.ml" 95 3416 3466
+type(
+  buffer -> Prims.unit
+)

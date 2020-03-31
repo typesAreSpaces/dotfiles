@@ -1,0 +1,1157 @@
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 5 158 162 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 5 158 189
+type(
+  'Aa 'Ab. Prims.unit -> ('Aa, 'Ab) partial_dependent_map
+)
+ident(
+  def empty_partial_dependent_map "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 10 339 339 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 7 246 252 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 7 246 260
+type(
+  Prims.unit
+)
+ident(
+  def uu____56 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 269 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 335
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 269 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 294
+type(
+  ('Aa -> 'Ab FStar_Pervasives_Native.option) ->
+  ('Aa, 'Ab) partial_dependent_map
+)
+ident(
+  ext_ref FStar_DependentMap.create
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 300 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 301
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 306 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 334
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 306 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 334
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 295 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 335
+type(
+  'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 269 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 335
+call(
+  tail
+)
+type(
+  ('Aa, 'Ab) partial_dependent_map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 7 246 248 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 8 265 335
+type(
+  Prims.unit -> ('Aa, 'Ab) partial_dependent_map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 400 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 405
+type(
+  'Aa 'Ab. Prims.unit -> ('Aa, 'Ab) map
+)
+ident(
+  def empty "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 13 464 464 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 446 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 455
+type(
+  Prims.unit
+)
+ident(
+  def uu____123 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 460 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 462
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 460 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 462
+type(
+  ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 442 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 12 396 462
+type(
+  Prims.unit -> ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 13 464 472 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 13 464 475
+type(
+  'Aa 'Ab. ('Aa, 'Ab) map -> 'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+ident(
+  def sel "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 13 464 464 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 15 551 557 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 15 551 558
+type(
+  ('Aa, 'Ab) map
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 16 563 567 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 16 563 571 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 16 563 572
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 17 577 583 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 17 577 589 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 17 577 590
+type(
+  ('Aa, 'Ab) map
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 15 551 557 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 15 551 558
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 18 596 604 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 18 596 606
+type(
+  ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 18 596 610 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 18 596 638
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 665 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 667
+type(
+  'Aa
+)
+ident(
+  def x' "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 690 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 668 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 669
+type(
+  'Ab
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 690 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 647 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 671
+type(
+  ('Aa, 'Ab) Prims.dtuple2
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 673 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 676
+type(
+  ('Aa, 'Ab) Prims.dtuple2 list
+)
+ident(
+  def tl1 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 690 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 647 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 676
+type(
+  ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 693 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 694
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 16 563 571 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 16 563 572
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 695 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 696
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 697 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 699
+type(
+  'Aa
+)
+ident(
+  int_ref x' "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 665 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 667
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 693 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 699
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 734 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 735
+type(
+  'Ab
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 668 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 669
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 705 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 735
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 741 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 744
+type(
+  ('Aa, 'Ab) map -> 'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+ident(
+  int_ref sel "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 13 464 472 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 13 464 475
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 745 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 748
+type(
+  ('Aa, 'Ab) map
+)
+ident(
+  int_ref tl1 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 673 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 19 639 676
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 749 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 16 563 571 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 16 563 572
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 741 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+call(
+  tail
+)
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 690 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 17 577 583 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 16 563 567 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+type(
+  'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 15 551 553 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 20 680 750
+type(
+  ('Aa, 'Ab) map -> 'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 22 754 758 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 22 754 761
+type(
+  'Aa 'Ab. ('Aa, 'Ab) map -> 'Aa -> 'Ab -> ('Aa, 'Ab) map
+)
+ident(
+  def upd "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 24 884 884 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 827 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 828
+type(
+  ('Aa, 'Ab) map
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 833 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 882
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 837 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 838
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 843 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 882
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 847 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 848
+type(
+  'Ab
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 853 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 882
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 871 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 872
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 837 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 838
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 874 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 875
+type(
+  'Ab
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 847 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 848
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 853 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 877
+type(
+  ('Aa, 'Ab) Prims.dtuple2
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 881 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 882
+type(
+  ('Aa, 'Ab) map
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 827 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 828
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 853 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 882
+type(
+  ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 843 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 882
+type(
+  'Ab -> ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 833 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 882
+type(
+  'Aa -> 'Ab -> ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 823 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 23 821 882
+type(
+  ('Aa, 'Ab) map -> 'Aa -> 'Ab -> ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 35 1282 1286 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 35 1282 1291
+type(
+  'Aa 'Ab 'Ainv. Prims.unit -> Prims.unit -> (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  def alloc "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 37 1416 1416 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1357 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1358
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1363 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1414
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1367 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1377
+type(
+  Prims.unit
+)
+ident(
+  def uu____2842 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1382 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1414
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1382 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1408
+type(
+  Prims.unit ->
+  ('Aa, 'Ab, 'Ainv) imap -> ('Aa, 'Ab, 'Ainv) imap FStar_HyperStack.reference
+)
+ident(
+  ext_ref FStar_HyperStack_ST.ralloc
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1409 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1411
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1412 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1414
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1382 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1414
+call(
+  tail
+)
+type(
+  ('Aa, 'Ab, 'Ainv) imap FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1363 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1414
+type(
+  Prims.unit -> (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1353 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 36 1351 1414
+type(
+  Prims.unit -> Prims.unit -> (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 37 1416 1420 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 37 1416 1426
+type(
+  'Aa 'Ab 'Ainv.
+    Prims.unit -> (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> 'Aa -> 'Ab -> Prims.unit
+)
+ident(
+  def extend "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 48 1793 1793 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 39 1502 1508 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 39 1502 1509
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1518 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1522 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1523
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  def t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 41 1528 1534 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 41 1528 1538 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 41 1528 1539
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 42 1544 1552 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 42 1544 1556 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 42 1544 1557
+type(
+  'Ab
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 43 1562 1572 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 43 1562 1572 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 43 1562 1598
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.recall
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 43 1562 1599 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 43 1562 1600
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  int_ref t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1522 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1523
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 43 1562 1572 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 43 1562 1600
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1617 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1620
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  def cur "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1668 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1788
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1623 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1650
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1651 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1652
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  int_ref t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1522 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1523
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1623 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1652
+call(
+  stack
+)
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1668 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1703
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> ('Aa, 'Ab, 'Ainv) imap -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Colon_Equals
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1704 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1705
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  int_ref t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1522 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1523
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1707 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1710
+type(
+  ('Aa, 'Ab) map -> 'Aa -> 'Ab -> ('Aa, 'Ab) map
+)
+ident(
+  int_ref upd "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 22 754 758 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 22 754 761
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1711 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1714
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  int_ref cur "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1617 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1620
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1715 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1716
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 41 1528 1538 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 41 1528 1539
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1717 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1718
+type(
+  'Ab
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 42 1544 1556 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 42 1544 1557
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1706 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1719
+call(
+  stack
+)
+type(
+  ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1668 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1719
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1732 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1762
+type(
+  unit -> unit -> unit -> '_a -> unit -> Prims.unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1763 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1765
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1766 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1768
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1769 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1771
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1773 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1782
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> '_a
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1783 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1784
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  int_ref t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1522 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1523
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1772 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1785
+type(
+  '_a
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1786 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1788
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1732 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1788
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 45 1657 1668 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1788
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 44 1602 1612 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 43 1562 1572 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 42 1544 1552 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+type(
+  'Ab -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 41 1528 1534 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+type(
+  'Aa -> 'Ab -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 40 1514 1518 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> 'Aa -> 'Ab -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 39 1502 1504 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 46 1721 1789
+type(
+  Prims.unit -> (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> 'Aa -> 'Ab -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 48 1793 1797 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 48 1793 1803
+type(
+  'Aa 'Ab 'Ainv.
+    Prims.unit ->
+    (Prims.unit, 'Aa, 'Ab, 'Ainv) t ->
+    'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+ident(
+  def lookup "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 63 2221 2221 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 53 1914 1920 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 53 1914 1921
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 54 1926 1930 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 54 1926 1934 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 54 1926 1935
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  def t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 55 1940 1946 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 55 1940 1950 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 55 1940 1951
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1964 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1968 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1969
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2014 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1972 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1999
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 2000 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 2001
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  int_ref t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 54 1926 1934 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 54 1926 1935
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1972 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 2001
+call(
+  stack
+)
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2018 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2019
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 58 2034 2042 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2022 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2025
+type(
+  ('Aa, 'Ab) map -> 'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+ident(
+  int_ref sel "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 13 464 472 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 13 464 475
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2026 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2027
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1968 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1969
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2028 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2029
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 55 1940 1950 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 55 1940 1951
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2022 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2029
+call(
+  stack
+)
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 58 2034 2048 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 58 2034 2049
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2018 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2019
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 59 2055 2065 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 59 2055 2093
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 59 2055 2098 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 59 2055 2099
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2018 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2019
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 60 2100 2139 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 60 2100 2140
+type(
+  'Ab
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2156 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 60 2100 2110 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 60 2100 2140
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2157 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2187
+type(
+  unit -> unit -> unit -> '_a -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2188 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2190
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2191 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2193
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2194 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2196
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2198 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2207
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> '_a
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2208 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2209
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  int_ref t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 54 1926 1934 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 54 1926 1935
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2197 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2210
+type(
+  '_a
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2211 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2213
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2157 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2213
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2215 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2216
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2018 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2019
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2156 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 58 2034 2042 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 57 2006 2014 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 56 1956 1964 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 55 1940 1946 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+type(
+  'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 54 1926 1930 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t ->
+  'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 53 1914 1916 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 61 2144 2217
+type(
+  Prims.unit ->
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t ->
+  'Aa -> 'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 64 2277 2281 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 64 2277 2286
+type(
+  'Aa 'Ab 'Ac.
+    ('Aa -> 'Ab -> 'Ac) ->
+    'Aa ->
+    'Ab FStar_Pervasives_Native.option -> 'Ac FStar_Pervasives_Native.option
+)
+ident(
+  def f_opt "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 79 2673 2673 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 71 2440 2446 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 71 2440 2447
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 72 2452 2456 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 72 2452 2460 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 72 2452 2461
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 73 2466 2472 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 73 2466 2476 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 73 2466 2477
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 74 2482 2490 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 74 2482 2496 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 74 2482 2497
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 73 2466 2476 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 73 2466 2477
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 75 2503 2513 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 75 2503 2541
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 75 2503 2546 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 75 2503 2574
+type(
+  'Ac FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 76 2575 2614 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 76 2575 2616
+type(
+  'Ab
+)
+ident(
+  def y1 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2632 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 76 2575 2585 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 76 2575 2616
+type(
+  'Ab FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2662 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2663
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 71 2440 2446 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 71 2440 2447
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2664 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2665
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 72 2452 2460 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 72 2452 2461
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2666 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2668
+type(
+  'Ab
+)
+ident(
+  int_ref y1 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 76 2575 2614 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 76 2575 2616
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2661 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+call(
+  stack
+)
+type(
+  'Ac
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2632 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+type(
+  'Ac FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 74 2482 2490 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+type(
+  'Ac FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 73 2466 2472 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+type(
+  'Ab FStar_Pervasives_Native.option -> 'Ac FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 72 2452 2456 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+type(
+  'Aa ->
+  'Ab FStar_Pervasives_Native.option -> 'Ac FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 71 2440 2442 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 77 2620 2669
+type(
+  ('Aa -> 'Ab -> 'Ac) ->
+  'Aa ->
+  'Ab FStar_Pervasives_Native.option -> 'Ac FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 79 2673 2681 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 79 2673 2687
+type(
+  'Aa 'Ab 'Ac. ('Aa, 'Ab) map -> ('Aa -> 'Ab -> 'Ac) -> ('Aa, 'Ac) map
+)
+ident(
+  def mmap_f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 79 2673 2673 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 81 2762 2768 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 81 2762 2769
+type(
+  ('Aa, 'Ab) map
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 82 2774 2778 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 82 2774 2782 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 82 2774 2783
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 83 2788 2794 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 83 2788 2800 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 83 2788 2801
+type(
+  ('Aa, 'Ab) map
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 81 2762 2768 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 81 2762 2769
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 84 2807 2815 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 84 2807 2817
+type(
+  ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 84 2807 2821 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 84 2807 2823
+type(
+  ('Aa, 'Ac) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2850 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2851
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2864 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2852 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2853
+type(
+  'Ab
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2864 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2832 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2855
+type(
+  ('Aa, 'Ab) Prims.dtuple2
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2857 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2860
+type(
+  ('Aa, 'Ab) Prims.dtuple2 list
+)
+ident(
+  def tl1 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2864 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2832 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2860
+type(
+  ('Aa, 'Ab) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2882 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2883
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2850 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2851
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2886 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2887
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 82 2774 2782 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 82 2774 2783
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2888 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2889
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2850 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2851
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2890 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2891
+type(
+  'Ab
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2852 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2853
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2885 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2892
+call(
+  stack
+)
+type(
+  'Ac
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2864 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2894
+type(
+  ('Aa, 'Ac) Prims.dtuple2
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2909 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2915
+type(
+  ('Aa, 'Ab) map -> ('Aa -> 'Ab -> 'Ac) -> ('Aa, 'Ac) map
+)
+ident(
+  int_ref mmap_f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 79 2673 2681 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 79 2673 2687
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2916 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2919
+type(
+  ('Aa, 'Ab) map
+)
+ident(
+  int_ref tl1 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2857 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2860
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2920 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2921
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 82 2774 2782 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 82 2774 2783
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2908 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+call(
+  stack
+)
+type(
+  ('Aa, 'Ac) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 85 2824 2864 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+type(
+  ('Aa, 'Ac) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 83 2788 2794 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+type(
+  ('Aa, 'Ac) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 82 2774 2778 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+type(
+  ('Aa -> 'Ab -> 'Ac) -> ('Aa, 'Ac) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 81 2762 2764 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 86 2898 2922
+type(
+  ('Aa, 'Ab) map -> ('Aa -> 'Ab -> 'Ac) -> ('Aa, 'Ac) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 88 2926 2930 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 88 2926 2935
+type(
+  'Aa 'Ab 'Ac 'Ainv 'Ainv'.
+    Prims.unit ->
+    Prims.unit ->
+    (Prims.unit, 'Aa, 'Ab, 'Ainv) t ->
+    ('Aa -> 'Ab -> 'Ac) -> (Prims.unit, 'Aa, 'Ac, 'Ainv') t
+)
+ident(
+  def map_f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 95 3088 3094 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 95 3088 3095
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 96 3100 3104 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 96 3100 3108 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 96 3100 3110
+type(
+  Prims.unit
+)
+ident(
+  def r' "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 97 3115 3121 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 97 3115 3125 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 97 3115 3126
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  def t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 98 3131 3139 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 98 3131 3143 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 98 3131 3144
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3159 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3163 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3164
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3211 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3167 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3194
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t -> ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3195 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3196
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t
+)
+ident(
+  int_ref t "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 97 3115 3125 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 97 3115 3126
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3167 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3196
+call(
+  stack
+)
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3211 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3237
+type(
+  Prims.unit -> ('Aa, 'Ac) map -> ('Aa, 'Ac) map FStar_HyperStack.reference
+)
+ident(
+  ext_ref FStar_HyperStack_ST.ralloc
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3238 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3240
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3242 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3248
+type(
+  ('Aa, 'Ab) map -> ('Aa -> 'Ab -> 'Ac) -> ('Aa, 'Ac) map
+)
+ident(
+  int_ref mmap_f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 79 2673 2681 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 79 2673 2687
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3249 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3250
+type(
+  ('Aa, 'Ab, 'Ainv) imap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3163 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3164
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3251 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3252
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 98 3131 3143 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 98 3131 3144
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3241 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+call(
+  stack
+)
+type(
+  ('Aa, 'Ac) map
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3211 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+call(
+  tail
+)
+type(
+  ('Aa, 'Ac) map FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 99 3149 3159 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+type(
+  ('Aa, 'Ac) map FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 98 3131 3139 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+type(
+  ('Aa -> 'Ab -> 'Ac) -> (Prims.unit, 'Aa, 'Ac, 'Ainv') t
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 97 3115 3121 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+type(
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t ->
+  ('Aa -> 'Ab -> 'Ac) -> (Prims.unit, 'Aa, 'Ac, 'Ainv') t
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 96 3100 3104 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+type(
+  Prims.unit ->
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t ->
+  ('Aa -> 'Ab -> 'Ac) -> (Prims.unit, 'Aa, 'Ac, 'Ainv') t
+)
+"ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 95 3088 3090 "ulib/ml/extracted/FStar_Monotonic_DependentMap.ml" 100 3201 3253
+type(
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, 'Aa, 'Ab, 'Ainv) t ->
+  ('Aa -> 'Ab -> 'Ac) -> (Prims.unit, 'Aa, 'Ac, 'Ainv') t
+)

@@ -1,0 +1,270 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 225 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 231
+type(
+  'Aa. 'Aa FStar_ST.ref -> Prims.unit
+)
+ident(
+  def recall "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 296 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 271 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 272
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 277 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 294
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 277 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 292
+type(
+  'Aa FStar_ST.ref -> Prims.unit
+)
+ident(
+  ext_ref FStar_ST.recall
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 293 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 294
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 271 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 272
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 277 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 294
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 267 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 11 221 294
+type(
+  'Aa FStar_ST.ref -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 300 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 305
+type(
+  'Aa. 'Aa -> 'Aa FStar_ST.ref
+)
+ident(
+  def alloc "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 374 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 348
+type(
+  'Aa
+)
+ident(
+  def init "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 353 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 372
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 353 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 367
+type(
+  'Aa -> 'Aa FStar_ST.ref
+)
+ident(
+  ext_ref FStar_ST.alloc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 368 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 372
+type(
+  'Aa
+)
+ident(
+  int_ref init "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 348
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 353 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 372
+call(
+  tail
+)
+type(
+  'Aa FStar_ST.ref
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 340 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 12 296 372
+type(
+  'Aa -> 'Aa FStar_ST.ref
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 378 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 382
+type(
+  'Aa. 'Aa FStar_ST.ref -> 'Aa
+)
+ident(
+  def read "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 14 444 444 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 421 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 422
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 427 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 442
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 427 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 440
+type(
+  'Aa FStar_ST.ref -> 'Aa
+)
+ident(
+  ext_ref FStar_ST.read
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 441 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 442
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 421 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 422
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 427 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 442
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 417 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 442
+type(
+  'Aa FStar_ST.ref -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 14 444 448 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 14 444 453
+type(
+  'Aa. 'Aa FStar_ST.ref -> 'Aa -> Prims.unit
+)
+ident(
+  def write "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 538 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 502 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 503
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 536
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 513
+type(
+  'Aa
+)
+ident(
+  def v "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 518 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 536
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 518 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 532
+type(
+  'Aa FStar_ST.ref -> 'Aa -> Prims.unit
+)
+ident(
+  ext_ref FStar_ST.write
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 533 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 534
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 502 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 503
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 535 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 536
+type(
+  'Aa
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 513
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 518 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 536
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 536
+type(
+  'Aa -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 498 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 15 496 536
+type(
+  'Aa FStar_ST.ref -> 'Aa -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 542 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 549
+type(
+  'Aa. 'Aa FStar_ST.ref -> 'Aa
+)
+ident(
+  def op_Bang "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 17 602 602 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 589
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 594 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 600
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 594 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 598
+type(
+  'Aa FStar_ST.ref -> 'Aa
+)
+ident(
+  int_ref read "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 378 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 13 374 382
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 599 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 600
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 589
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 594 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 600
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 584 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 16 538 600
+type(
+  'Aa FStar_ST.ref -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 17 602 606 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 17 602 621
+type(
+  'Aa. 'Aa FStar_ST.ref -> 'Aa -> Prims.unit
+)
+ident(
+  def op_Colon_Equals "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 695 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 670 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 671
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 676 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 695
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 680 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 681
+type(
+  'Aa
+)
+ident(
+  def v "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 686 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 695
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 686 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 691
+type(
+  'Aa FStar_ST.ref -> 'Aa -> Prims.unit
+)
+ident(
+  int_ref write "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 14 444 448 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 14 444 453
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 692 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 693
+type(
+  'Aa FStar_ST.ref
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 670 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 671
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 694 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 695
+type(
+  'Aa
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 680 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 681
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 686 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 695
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 676 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 695
+type(
+  'Aa -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 666 "ulib/tactics_ml/fstarlib_leftovers/FStar_Ref.ml" 18 664 695
+type(
+  'Aa FStar_ST.ref -> 'Aa -> Prims.unit
+)

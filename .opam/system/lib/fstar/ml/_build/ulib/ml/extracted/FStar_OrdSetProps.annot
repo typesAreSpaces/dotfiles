@@ -1,0 +1,544 @@
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 2 11 19 "ulib/ml/extracted/FStar_OrdSetProps.ml" 2 11 23
+type(
+  'Aa 'Ab.
+    'Aa FStar_OrdSet.cmp ->
+    ('Aa -> 'Ab -> 'Ab) ->
+    ('Aa, Prims.unit) FStar_OrdSet.ordset -> 'Ab -> 'Ab
+)
+ident(
+  def fold "ulib/ml/extracted/FStar_OrdSetProps.ml" 2 11 11 "ulib/ml/extracted/FStar_OrdSetProps.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 150 "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 151
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdSetProps.ml" 8 156 160 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 8 156 164 "ulib/ml/extracted/FStar_OrdSetProps.ml" 8 156 165
+type(
+  'Aa -> 'Ab -> 'Ab
+)
+ident(
+  def g "ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 176 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 180 "ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 181
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def s "ulib/ml/extracted/FStar_OrdSetProps.ml" 10 186 194 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 10 186 198 "ulib/ml/extracted/FStar_OrdSetProps.ml" 10 186 199
+type(
+  'Ab
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 214 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 217 "ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 218
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 180 "ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 181
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 219 "ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 220
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 222 "ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 240
+type(
+  'Aa FStar_OrdSet.cmp -> ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  ext_ref FStar_OrdSet.empty
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 241 "ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 242
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 150 "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 151
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 221 "ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 243
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 217 "ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 243
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 12 244 259 "ulib/ml/extracted/FStar_OrdSetProps.ml" 12 244 260
+type(
+  'Ab
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdSetProps.ml" 10 186 198 "ulib/ml/extracted/FStar_OrdSetProps.ml" 10 186 199
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 293 "ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 302
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def uu____187 "ulib/ml/extracted/FStar_OrdSetProps.ml" 15 333 346 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 516
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 305 "ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 324
+type(
+  'Aa FStar_OrdSet.cmp ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  ext_ref FStar_OrdSet.choose
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 325 "ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 326
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 150 "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 151
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 327 "ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 328
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 180 "ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 181
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 305 "ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 328
+call(
+  stack
+)
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 15 333 352 "ulib/ml/extracted/FStar_OrdSetProps.ml" 15 333 361
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref uu____187 "ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 293 "ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 302
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 16 367 411 "ulib/ml/extracted/FStar_OrdSetProps.ml" 16 367 412
+type(
+  'Aa
+)
+ident(
+  def e "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 433 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 516
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 16 367 382 "ulib/ml/extracted/FStar_OrdSetProps.ml" 16 367 412
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 437 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 443
+type(
+  'Ab
+)
+ident(
+  def a_rest "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 506 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 516
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 446 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 450
+type(
+  'Aa FStar_OrdSet.cmp ->
+  ('Aa -> 'Ab -> 'Ab) -> ('Aa, Prims.unit) FStar_OrdSet.ordset -> 'Ab -> 'Ab
+)
+ident(
+  int_ref fold "ulib/ml/extracted/FStar_OrdSetProps.ml" 2 11 19 "ulib/ml/extracted/FStar_OrdSetProps.ml" 2 11 23
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 451 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 452
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 150 "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 151
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 453 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 454
+type(
+  'Aa -> 'Ab -> 'Ab
+)
+ident(
+  int_ref g "ulib/ml/extracted/FStar_OrdSetProps.ml" 8 156 164 "ulib/ml/extracted/FStar_OrdSetProps.ml" 8 156 165
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 456 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 475
+type(
+  'Aa FStar_OrdSet.cmp ->
+  'Aa ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  ext_ref FStar_OrdSet.remove
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 476 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 477
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 150 "ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 151
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 478 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 479
+type(
+  'Aa
+)
+ident(
+  int_ref e "ulib/ml/extracted/FStar_OrdSetProps.ml" 16 367 411 "ulib/ml/extracted/FStar_OrdSetProps.ml" 16 367 412
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 480 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 481
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 180 "ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 181
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 455 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 482
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 483 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 484
+type(
+  'Ab
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdSetProps.ml" 10 186 198 "ulib/ml/extracted/FStar_OrdSetProps.ml" 10 186 199
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 446 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 484
+call(
+  stack
+)
+type(
+  'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 506 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 507
+type(
+  'Aa -> 'Ab -> 'Ab
+)
+ident(
+  int_ref g "ulib/ml/extracted/FStar_OrdSetProps.ml" 8 156 164 "ulib/ml/extracted/FStar_OrdSetProps.ml" 8 156 165
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 508 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 509
+type(
+  'Aa
+)
+ident(
+  int_ref e "ulib/ml/extracted/FStar_OrdSetProps.ml" 16 367 411 "ulib/ml/extracted/FStar_OrdSetProps.ml" 16 367 412
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 510 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 516
+type(
+  'Ab
+)
+ident(
+  int_ref a_rest "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 437 "ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 443
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 506 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 516
+call(
+  tail
+)
+type(
+  'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 17 416 433 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 516
+type(
+  'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 15 333 346 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 516
+type(
+  'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 14 276 288 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+type(
+  'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 11 204 214 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+type(
+  'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 10 186 194 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+type(
+  'Ab -> 'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 9 170 176 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset -> 'Ab -> 'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 8 156 160 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+type(
+  ('Aa -> 'Ab -> 'Ab) -> ('Aa, Prims.unit) FStar_OrdSet.ordset -> 'Ab -> 'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 7 144 146 "ulib/ml/extracted/FStar_OrdSetProps.ml" 18 489 517
+type(
+  'Aa FStar_OrdSet.cmp ->
+  ('Aa -> 'Ab -> 'Ab) -> ('Aa, Prims.unit) FStar_OrdSet.ordset -> 'Ab -> 'Ab
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 20 521 525 "ulib/ml/extracted/FStar_OrdSetProps.ml" 20 521 531
+type(
+  'Aa.
+    'Aa FStar_OrdSet.cmp ->
+    'Aa ->
+    ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+    ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def insert "ulib/ml/extracted/FStar_OrdSetProps.ml" 28 743 743 "ulib/ml/extracted/FStar_OrdSetProps.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 25 652 658 "ulib/ml/extracted/FStar_OrdSetProps.ml" 25 652 659
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 668 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 739
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 672 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 673
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 678 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 739
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 682 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 683
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def s "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 688 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 739
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 688 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 706
+type(
+  'Aa FStar_OrdSet.cmp ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  ext_ref FStar_OrdSet.union
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 707 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 708
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdSetProps.ml" 25 652 658 "ulib/ml/extracted/FStar_OrdSetProps.ml" 25 652 659
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 710 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 732
+type(
+  'Aa FStar_OrdSet.cmp -> 'Aa -> ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  ext_ref FStar_OrdSet.singleton
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 733 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 734
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdSetProps.ml" 25 652 658 "ulib/ml/extracted/FStar_OrdSetProps.ml" 25 652 659
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 735 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 736
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 672 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 673
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 709 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 737
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 738 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 739
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 682 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 683
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 688 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 739
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 678 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 739
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 668 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 739
+type(
+  'Aa ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 25 652 654 "ulib/ml/extracted/FStar_OrdSetProps.ml" 26 664 739
+type(
+  'Aa FStar_OrdSet.cmp ->
+  'Aa ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 28 743 747 "ulib/ml/extracted/FStar_OrdSetProps.ml" 28 743 753
+type(
+  'Aa.
+    'Aa FStar_OrdSet.cmp ->
+    ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+    ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+    ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def union' "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994 "ulib/ml/extracted/FStar_OrdSetProps.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 34 909 915 "ulib/ml/extracted/FStar_OrdSetProps.ml" 34 909 916
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 925 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 929 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 931
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def s1 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 936 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 940 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 942
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def s2 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 947 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 947 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 951
+type(
+  'Aa FStar_OrdSet.cmp ->
+  ('Aa ->
+   ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+   ('Aa, Prims.unit) FStar_OrdSet.ordset) ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref fold "ulib/ml/extracted/FStar_OrdSetProps.ml" 2 11 19 "ulib/ml/extracted/FStar_OrdSetProps.ml" 2 11 23
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 952 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 953
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdSetProps.ml" 34 909 915 "ulib/ml/extracted/FStar_OrdSetProps.ml" 34 909 916
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 959 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 960
+type(
+  'Aa
+)
+ident(
+  def e "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 965 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 987
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 969 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 970
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def s "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 975 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 987
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 975 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 981
+type(
+  'Aa FStar_OrdSet.cmp ->
+  'Aa ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref insert "ulib/ml/extracted/FStar_OrdSetProps.ml" 20 521 525 "ulib/ml/extracted/FStar_OrdSetProps.ml" 20 521 531
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 982 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 983
+type(
+  'Aa FStar_OrdSet.cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdSetProps.ml" 34 909 915 "ulib/ml/extracted/FStar_OrdSetProps.ml" 34 909 916
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 984 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 985
+type(
+  'Aa
+)
+ident(
+  int_ref e "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 959 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 960
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 986 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 987
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 969 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 970
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 975 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 987
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 965 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 987
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 954 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 988
+type(
+  'Aa ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 989 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 991
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s1 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 929 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 931
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 992 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s2 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 940 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 942
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 947 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 936 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 925 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdSetProps.ml" 34 909 911 "ulib/ml/extracted/FStar_OrdSetProps.ml" 35 921 994
+type(
+  'Aa FStar_OrdSet.cmp ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)

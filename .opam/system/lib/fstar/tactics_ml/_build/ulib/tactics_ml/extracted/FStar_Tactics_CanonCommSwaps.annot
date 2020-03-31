@@ -1,0 +1,1156 @@
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 3 37 45 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 3 37 59
+type(
+  'Aa. Prims.nat -> 'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+ident(
+  def apply_swap_aux "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 3 37 37 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 5 131 137 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 5 131 138
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 147 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 151 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 153
+type(
+  'Aa Prims.list
+)
+ident(
+  def xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 7 158 164 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 7 158 168 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 7 158 169
+type(
+  Prims.unit swap
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 8 174 182 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 8 174 188 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 8 174 190
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 151 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 153
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 9 196 206 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 9 196 208
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 9 196 212 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 9 196 214
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 151 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 153
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 225 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 233
+type(
+  'Aa
+)
+ident(
+  def uu____55 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 241 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 243
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 235 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 237
+type(
+  'Aa list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 225 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 237
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 241 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 10 215 243
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 151 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 153
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 254 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 256
+type(
+  'Aa
+)
+ident(
+  def x1 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 281 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 258 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 260
+type(
+  'Aa
+)
+ident(
+  def x2 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 281 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 262 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 265
+type(
+  'Aa list
+)
+ident(
+  def xs' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 281 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 258 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 265
+type(
+  'Aa list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 254 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 265
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 284 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 285
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 5 131 137 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 5 131 138
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 286 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 287
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 288 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 289
+type(
+  Prims.unit swap
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 7 158 168 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 7 158 169
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 284 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 289
+type(
+  bool
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 307 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 309
+type(
+  'Aa
+)
+ident(
+  int_ref x2 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 258 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 260
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 313 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 315
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 254 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 256
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 319 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 322
+type(
+  'Aa list
+)
+ident(
+  int_ref xs' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 262 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 265
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 313 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 322
+type(
+  'Aa list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 307 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 13 290 322
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 340 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 342
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 254 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 256
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 347 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 361
+type(
+  Prims.nat -> 'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+ident(
+  int_ref apply_swap_aux "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 3 37 45 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 3 37 59
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 363 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 364
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 5 131 137 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 5 131 138
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 365 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 366
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 367 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 380
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 362 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 381
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 383 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 385
+type(
+  'Aa
+)
+ident(
+  int_ref x2 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 258 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 260
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 389 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 392
+type(
+  'Aa list
+)
+ident(
+  int_ref xs' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 262 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 11 244 265
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 382 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 393
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 394 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 395
+type(
+  Prims.unit swap
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 7 158 168 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 7 158 169
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 346 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 340 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 12 269 281 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 8 174 182 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 7 158 164 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+type(
+  Prims.unit swap -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 6 143 147 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+type(
+  'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 5 131 133 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 14 323 396
+type(
+  Prims.nat -> 'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 16 400 404 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 16 400 414
+type(
+  'Aa. Prims.unit -> 'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+ident(
+  def apply_swap "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 18 529 529 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 485 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 493
+type(
+  Prims.unit
+)
+ident(
+  def uu____87 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 498 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 527
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 498 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 512
+type(
+  Prims.nat -> 'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+ident(
+  int_ref apply_swap_aux "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 3 37 45 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 3 37 59
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 513 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 527
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 498 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 527
+call(
+  tail
+)
+type(
+  'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 481 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 17 477 527
+type(
+  Prims.unit -> 'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 18 529 537 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 18 529 548
+type(
+  'Aa. 'Aa Prims.list -> Prims.unit swap Prims.list -> 'Aa Prims.list
+)
+ident(
+  def apply_swaps "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 18 529 529 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 20 618 624 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 20 618 626
+type(
+  'Aa Prims.list
+)
+ident(
+  def xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 21 631 635 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 21 631 639 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 21 631 641
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  def ss "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 22 646 652 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 22 646 658 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 22 646 660
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 21 631 639 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 21 631 641
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 23 666 674 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 23 666 676
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 23 666 680 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 23 666 682
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 20 618 624 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 20 618 626
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 691 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 692
+type(
+  Prims.unit swap
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 701 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 694 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 697
+type(
+  Prims.unit swap list
+)
+ident(
+  def ss' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 701 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 691 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 697
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 701 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 712
+type(
+  'Aa Prims.list -> Prims.unit swap Prims.list -> 'Aa Prims.list
+)
+ident(
+  int_ref apply_swaps "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 18 529 537 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 18 529 548
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 715 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 725
+type(
+  Prims.unit -> 'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+ident(
+  int_ref apply_swap "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 16 400 404 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 16 400 414
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 726 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 728
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 714 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 729
+type(
+  'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 730 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 732
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 20 618 624 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 20 618 626
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 733 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 734
+type(
+  Prims.unit swap
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 691 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 692
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 713 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 735
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 736 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 694 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 697
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 701 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+call(
+  tail
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 22 646 652 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 21 631 635 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+type(
+  Prims.unit swap Prims.list -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 20 618 620 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 24 683 739
+type(
+  'Aa Prims.list -> Prims.unit swap Prims.list -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 882 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 897
+type(
+  'Aa.
+    'Aa ->
+    'Aa Prims.list ->
+    Prims.unit swap Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  def lift_swaps_cons "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 874 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 36 982 988 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 36 982 989
+type(
+  'Aa
+)
+ident(
+  def h "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 37 994 998 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 37 994 1002 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 37 994 1004
+type(
+  'Aa Prims.list
+)
+ident(
+  def xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 38 1009 1015 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 38 1009 1019 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 38 1009 1021
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  def ss "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 39 1026 1034 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 39 1026 1040 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 39 1026 1042
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 38 1009 1019 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 38 1009 1021
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 40 1048 1058 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 40 1048 1060
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 40 1048 1064 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 40 1048 1066
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1077 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1078
+type(
+  Prims.unit swap
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1086 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1080 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1082
+type(
+  Prims.unit swap list
+)
+ident(
+  def st "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1086 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1077 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1082
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1087 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1088
+type(
+  Prims.unit swap
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1077 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1078
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1089 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1090
+type(
+  Prims.unit swap -> Z.t -> Prims.unit swap
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1091 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1104
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1086 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1105
+call(
+  stack
+)
+type(
+  Prims.unit swap
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1122 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1137
+type(
+  'Aa ->
+  'Aa Prims.list -> Prims.unit swap Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  int_ref lift_swaps_cons "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 882 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 897
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1138 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1139
+type(
+  'Aa
+)
+ident(
+  int_ref h "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 36 982 988 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 36 982 989
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1142 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1152
+type(
+  Prims.unit -> 'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+ident(
+  int_ref apply_swap "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 16 400 404 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 16 400 414
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1153 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1155
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1141 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1156
+type(
+  'Aa Prims.list -> Prims.unit swap -> 'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1157 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1159
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 37 994 1002 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 37 994 1004
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1160 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1161
+type(
+  Prims.unit swap
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1077 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1078
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1140 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1162
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1163 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1165
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref st "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1080 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1082
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1121 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+call(
+  stack
+)
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 41 1067 1086 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 39 1026 1034 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 38 1009 1015 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+type(
+  Prims.unit swap Prims.list -> Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 37 994 998 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+type(
+  'Aa Prims.list -> Prims.unit swap Prims.list -> Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 36 982 984 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 42 1109 1166
+type(
+  'Aa ->
+  'Aa Prims.list -> Prims.unit swap Prims.list -> Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 44 1170 1178 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 44 1170 1191
+type(
+  'Aa. 'Aa -> 'Aa Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  def swap_to_front "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 44 1170 1170 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 45 1248 1254 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 45 1248 1255
+type(
+  'Aa
+)
+ident(
+  def h "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 46 1260 1264 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 46 1260 1268 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 46 1260 1270
+type(
+  'Aa Prims.list
+)
+ident(
+  def xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 47 1275 1281 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 47 1275 1287 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 47 1275 1289
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 46 1260 1268 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 46 1260 1270
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 48 1295 1303 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 48 1295 1305
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 48 1295 1309 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 48 1295 1311
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1320 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1321
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1339 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1323 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1325
+type(
+  'Aa list
+)
+ident(
+  def xt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1339 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1320 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1325
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1342 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1343
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1320 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1321
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1344 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1345
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1346 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1347
+type(
+  'Aa
+)
+ident(
+  int_ref h "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 45 1248 1254 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 45 1248 1255
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1342 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1347
+type(
+  bool
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 51 1348 1363 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 51 1348 1365
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1398 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1400
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  def ss "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1439 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1550
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1403 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1416
+type(
+  'Aa -> 'Aa Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  int_ref swap_to_front "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 44 1170 1178 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 44 1170 1191
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1417 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1418
+type(
+  'Aa
+)
+ident(
+  int_ref h "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 45 1248 1254 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 45 1248 1255
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1419 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1421
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1323 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1325
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1403 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1421
+call(
+  stack
+)
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1443 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1446
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  def ss' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1490 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1550
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1449 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1464
+type(
+  'Aa ->
+  'Aa Prims.list -> Prims.unit swap Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  int_ref lift_swaps_cons "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 882 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 897
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1465 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1466
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1320 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1321
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1467 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1469
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1323 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 49 1312 1325
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1470 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1472
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1398 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1400
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1449 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1472
+call(
+  stack
+)
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1494 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1495
+type(
+  Z.t
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1517 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1550
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1498 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1512
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1517 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1542
+type(
+  Prims.unit swap Prims.list ->
+  Prims.unit swap list -> Prims.unit swap Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.op_At
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1543 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1546
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1443 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1446
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1548 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1549
+type(
+  Prims.unit swap
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1494 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1495
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1547 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1550
+type(
+  Prims.unit swap list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1517 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1550
+call(
+  tail
+)
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1490 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1550
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 54 1426 1439 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1550
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 53 1381 1393 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 50 1329 1339 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 47 1275 1281 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 46 1260 1264 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+type(
+  'Aa Prims.list -> Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 45 1248 1250 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 55 1477 1551
+type(
+  'Aa -> 'Aa Prims.list -> Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 57 1555 1563 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 57 1555 1589
+type(
+  'Aa. 'Aa Prims.list -> 'Aa Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  def equal_counts_implies_swaps "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 57 1555 1555 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1665 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1667
+type(
+  'Aa Prims.list
+)
+ident(
+  def xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 60 1672 1676 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 60 1672 1680 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 60 1672 1682
+type(
+  'Aa Prims.list
+)
+ident(
+  def ys "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 61 1687 1693 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 61 1687 1699 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 61 1687 1701
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref ys "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 60 1672 1680 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 60 1672 1682
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1715 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1717
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1728 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1730
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1665 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1667
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1738 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1740
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1744 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1746
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1749 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1750
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1758 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1760
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1752 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1754
+type(
+  'Aa list
+)
+ident(
+  def xt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1758 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1760
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1749 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1754
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1758 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1760
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1721 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 62 1707 1761
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1770 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1771
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1789 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1773 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1775
+type(
+  'Aa list
+)
+ident(
+  def yt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1789 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1770 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1775
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1793 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1796
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  def ss0 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1832 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1799 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1812
+type(
+  'Aa -> 'Aa Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  int_ref swap_to_front "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 44 1170 1178 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 44 1170 1191
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1813 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1814
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1770 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1771
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1815 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1817
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1665 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1667
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1799 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1817
+call(
+  stack
+)
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1836 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1839
+type(
+  'Aa Prims.list
+)
+ident(
+  def xs' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1875 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1842 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1853
+type(
+  'Aa Prims.list -> Prims.unit swap Prims.list -> 'Aa Prims.list
+)
+ident(
+  int_ref apply_swaps "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 18 529 537 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 18 529 548
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1854 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1856
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1665 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1667
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1857 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1860
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss0 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1793 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1796
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1842 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1860
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1879 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1881
+type(
+  'Aa list
+)
+ident(
+  def xt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1925 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1884 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1906
+type(
+  'Aa Prims.list -> 'Aa list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.tl
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1907 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1910
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1836 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1839
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1884 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1910
+call(
+  stack
+)
+type(
+  'Aa list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1929 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1932
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  def ss1 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 1982 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1935 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1961
+type(
+  'Aa Prims.list -> 'Aa Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  int_ref equal_counts_implies_swaps "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 57 1555 1563 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 57 1555 1589
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1962 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1964
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1879 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1881
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1965 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1967
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref yt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1773 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1775
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1935 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1967
+call(
+  stack
+)
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 1986 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 1990
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  def ss1' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2032 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 1993 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 2008
+type(
+  'Aa ->
+  'Aa Prims.list -> Prims.unit swap Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  int_ref lift_swaps_cons "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 882 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 33 874 897
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 2009 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 2010
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1770 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 63 1762 1771
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 2011 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 2013
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xt "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1879 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1881
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 2014 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 2017
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss1 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1929 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1932
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 1993 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 2017
+call(
+  stack
+)
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2032 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2057
+type(
+  Prims.unit swap Prims.list ->
+  Prims.unit swap Prims.list -> Prims.unit swap Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.op_At
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2058 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2061
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss0 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1793 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1796
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2062 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  Prims.unit swap Prims.list
+)
+ident(
+  int_ref ss1' "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 1986 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 1990
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2032 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+call(
+  tail
+)
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 68 1972 1982 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 67 1915 1925 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 66 1865 1875 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 65 1822 1832 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 64 1779 1789 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 61 1687 1693 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 60 1672 1676 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  'Aa Prims.list -> Prims.unit swap Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 59 1659 1661 "ulib/tactics_ml/extracted/FStar_Tactics_CanonCommSwaps.ml" 69 2022 2066
+type(
+  'Aa Prims.list -> 'Aa Prims.list -> Prims.unit swap Prims.list
+)

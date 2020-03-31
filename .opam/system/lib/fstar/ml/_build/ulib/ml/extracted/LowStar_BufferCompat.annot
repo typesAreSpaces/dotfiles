@@ -1,0 +1,298 @@
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 3 81 85 "ulib/ml/extracted/LowStar_BufferCompat.ml" 3 81 90
+type(
+  'Aa. 'Aa LowStar_Buffer.buffer -> Prims.unit
+)
+ident(
+  def rfree "ulib/ml/extracted/LowStar_BufferCompat.ml" 5 180 180 "ulib/ml/extracted/LowStar_BufferCompat.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 141 "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 142
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 147 "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 178
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 147 "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 176
+type(
+  'Aa LowStar_Buffer.buffer -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.free
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 177 "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 178
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 141 "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 142
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 147 "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 178
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 137 "ulib/ml/extracted/LowStar_BufferCompat.ml" 4 135 178
+type(
+  'Aa LowStar_Buffer.buffer -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 5 180 184 "ulib/ml/extracted/LowStar_BufferCompat.ml" 5 180 191
+type(
+  'Aa. Prims.unit -> 'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+ident(
+  def rcreate "ulib/ml/extracted/LowStar_BufferCompat.ml" 12 384 384 "ulib/ml/extracted/LowStar_BufferCompat.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 7 263 269 "ulib/ml/extracted/LowStar_BufferCompat.ml" 7 263 270
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/LowStar_BufferCompat.ml" 8 275 279 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 8 275 283 "ulib/ml/extracted/LowStar_BufferCompat.ml" 8 275 288
+type(
+  'Aa
+)
+ident(
+  def init1 "ulib/ml/extracted/LowStar_BufferCompat.ml" 9 293 299 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 9 293 303 "ulib/ml/extracted/LowStar_BufferCompat.ml" 9 293 306
+type(
+  FStar_UInt32.t
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 319 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 323 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 324
+type(
+  ('Aa, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 379 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 327 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 361
+type(
+  Prims.unit ->
+  'Aa -> FStar_UInt32.t -> ('Aa, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.mgcmalloc
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 362 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 364
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 365 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 370
+type(
+  'Aa
+)
+ident(
+  int_ref init1 "ulib/ml/extracted/LowStar_BufferCompat.ml" 8 275 283 "ulib/ml/extracted/LowStar_BufferCompat.ml" 8 275 288
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 371 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 374
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_BufferCompat.ml" 9 293 303 "ulib/ml/extracted/LowStar_BufferCompat.ml" 9 293 306
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 327 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 374
+call(
+  tail
+)
+type(
+  ('Aa, 'a, 'a) LowStar_Monotonic_Buffer.mbuffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 379 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 323 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 324
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 319 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+type(
+  'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 9 293 299 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+type(
+  FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 8 275 279 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+type(
+  'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 7 263 265 "ulib/ml/extracted/LowStar_BufferCompat.ml" 10 311 380
+type(
+  Prims.unit -> 'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 12 384 388 "ulib/ml/extracted/LowStar_BufferCompat.ml" 12 384 398
+type(
+  'Aa. Prims.unit -> 'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+ident(
+  def rcreate_mm "ulib/ml/extracted/LowStar_BufferCompat.ml" 17 561 561 "ulib/ml/extracted/LowStar_BufferCompat.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 14 470 476 "ulib/ml/extracted/LowStar_BufferCompat.ml" 14 470 477
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 486 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 557
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 490 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 495
+type(
+  'Aa
+)
+ident(
+  def init1 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 500 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 557
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 504 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 507
+type(
+  FStar_UInt32.t
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 512 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 557
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 512 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 544
+type(
+  Prims.unit -> 'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.mmalloc
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 545 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 547
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 548 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 553
+type(
+  'Aa
+)
+ident(
+  int_ref init1 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 490 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 495
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 554 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 557
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 504 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 507
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 512 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 557
+call(
+  tail
+)
+type(
+  'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 500 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 557
+type(
+  FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 486 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 557
+type(
+  'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 14 470 472 "ulib/ml/extracted/LowStar_BufferCompat.ml" 15 482 557
+type(
+  Prims.unit -> 'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 17 561 565 "ulib/ml/extracted/LowStar_BufferCompat.ml" 17 561 571
+type(
+  'Aa. 'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+ident(
+  def create "ulib/ml/extracted/LowStar_BufferCompat.ml" 19 705 705 "ulib/ml/extracted/LowStar_BufferCompat.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 639 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 644
+type(
+  'Aa
+)
+ident(
+  def init1 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 649 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 703
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 653 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 656
+type(
+  FStar_UInt32.t
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 661 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 703
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 661 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 693
+type(
+  'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.malloca
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 694 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 699
+type(
+  'Aa
+)
+ident(
+  int_ref init1 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 639 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 644
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 700 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 703
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 653 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 656
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 661 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 703
+call(
+  tail
+)
+type(
+  'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 649 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 703
+type(
+  FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 635 "ulib/ml/extracted/LowStar_BufferCompat.ml" 18 633 703
+type(
+  'Aa -> FStar_UInt32.t -> 'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 20 742 746 "ulib/ml/extracted/LowStar_BufferCompat.ml" 20 742 753
+type(
+  'Aa. 'Aa Prims.list -> 'Aa LowStar_Buffer.buffer
+)
+ident(
+  def createL "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 870 "ulib/ml/extracted/LowStar_BufferCompat.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 814 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 819
+type(
+  'Aa Prims.list
+)
+ident(
+  def init1 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 824 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 870
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 824 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 864
+type(
+  'Aa Prims.list -> 'Aa LowStar_Buffer.buffer
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.malloca_of_list
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 865 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 870
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref init1 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 814 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 819
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 824 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 870
+call(
+  tail
+)
+type(
+  'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 810 "ulib/ml/extracted/LowStar_BufferCompat.ml" 21 808 870
+type(
+  'Aa Prims.list -> 'Aa LowStar_Buffer.buffer
+)

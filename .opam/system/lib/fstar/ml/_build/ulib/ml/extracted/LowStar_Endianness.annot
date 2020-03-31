@@ -1,0 +1,3051 @@
+"ulib/ml/extracted/LowStar_Endianness.ml" 7 141 146 "ulib/ml/extracted/LowStar_Endianness.ml" 7 141 153
+type(
+  FStar_UInt16.t -> FStar_UInt16.t
+)
+ident(
+  def htole16 "ulib/ml/extracted/LowStar_Endianness.ml" 9 250 250 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 8 192 198 "ulib/ml/extracted/LowStar_Endianness.ml" 8 192 205
+type(
+  FStar_UInt16.t
+)
+ident(
+  def uu____9 "ulib/ml/extracted/LowStar_Endianness.ml" 8 192 210 "ulib/ml/extracted/LowStar_Endianness.ml" 8 192 248
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 8 192 210 "ulib/ml/extracted/LowStar_Endianness.ml" 8 192 218
+type(
+  string -> FStar_UInt16.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 8 192 219 "ulib/ml/extracted/LowStar_Endianness.ml" 8 192 248
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 8 192 210 "ulib/ml/extracted/LowStar_Endianness.ml" 8 192 248
+call(
+  tail
+)
+type(
+  FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 8 192 194 "ulib/ml/extracted/LowStar_Endianness.ml" 8 192 248
+type(
+  FStar_UInt16.t -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 9 250 255 "ulib/ml/extracted/LowStar_Endianness.ml" 9 250 262
+type(
+  FStar_UInt16.t -> FStar_UInt16.t
+)
+ident(
+  def le16toh "ulib/ml/extracted/LowStar_Endianness.ml" 11 360 360 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 10 301 307 "ulib/ml/extracted/LowStar_Endianness.ml" 10 301 315
+type(
+  FStar_UInt16.t
+)
+ident(
+  def uu____19 "ulib/ml/extracted/LowStar_Endianness.ml" 10 301 320 "ulib/ml/extracted/LowStar_Endianness.ml" 10 301 358
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 10 301 320 "ulib/ml/extracted/LowStar_Endianness.ml" 10 301 328
+type(
+  string -> FStar_UInt16.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 10 301 329 "ulib/ml/extracted/LowStar_Endianness.ml" 10 301 358
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 10 301 320 "ulib/ml/extracted/LowStar_Endianness.ml" 10 301 358
+call(
+  tail
+)
+type(
+  FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 10 301 303 "ulib/ml/extracted/LowStar_Endianness.ml" 10 301 358
+type(
+  FStar_UInt16.t -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 11 360 365 "ulib/ml/extracted/LowStar_Endianness.ml" 11 360 372
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  def htole32 "ulib/ml/extracted/LowStar_Endianness.ml" 13 470 470 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 12 411 417 "ulib/ml/extracted/LowStar_Endianness.ml" 12 411 425
+type(
+  FStar_UInt32.t
+)
+ident(
+  def uu____29 "ulib/ml/extracted/LowStar_Endianness.ml" 12 411 430 "ulib/ml/extracted/LowStar_Endianness.ml" 12 411 468
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 12 411 430 "ulib/ml/extracted/LowStar_Endianness.ml" 12 411 438
+type(
+  string -> FStar_UInt32.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 12 411 439 "ulib/ml/extracted/LowStar_Endianness.ml" 12 411 468
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 12 411 430 "ulib/ml/extracted/LowStar_Endianness.ml" 12 411 468
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 12 411 413 "ulib/ml/extracted/LowStar_Endianness.ml" 12 411 468
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 13 470 475 "ulib/ml/extracted/LowStar_Endianness.ml" 13 470 482
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  def le32toh "ulib/ml/extracted/LowStar_Endianness.ml" 15 580 580 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 14 521 527 "ulib/ml/extracted/LowStar_Endianness.ml" 14 521 535
+type(
+  FStar_UInt32.t
+)
+ident(
+  def uu____39 "ulib/ml/extracted/LowStar_Endianness.ml" 14 521 540 "ulib/ml/extracted/LowStar_Endianness.ml" 14 521 578
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 14 521 540 "ulib/ml/extracted/LowStar_Endianness.ml" 14 521 548
+type(
+  string -> FStar_UInt32.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 14 521 549 "ulib/ml/extracted/LowStar_Endianness.ml" 14 521 578
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 14 521 540 "ulib/ml/extracted/LowStar_Endianness.ml" 14 521 578
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 14 521 523 "ulib/ml/extracted/LowStar_Endianness.ml" 14 521 578
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 15 580 585 "ulib/ml/extracted/LowStar_Endianness.ml" 15 580 592
+type(
+  FStar_UInt64.t -> FStar_UInt64.t
+)
+ident(
+  def htole64 "ulib/ml/extracted/LowStar_Endianness.ml" 17 690 690 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 16 631 637 "ulib/ml/extracted/LowStar_Endianness.ml" 16 631 645
+type(
+  FStar_UInt64.t
+)
+ident(
+  def uu____49 "ulib/ml/extracted/LowStar_Endianness.ml" 16 631 650 "ulib/ml/extracted/LowStar_Endianness.ml" 16 631 688
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 16 631 650 "ulib/ml/extracted/LowStar_Endianness.ml" 16 631 658
+type(
+  string -> FStar_UInt64.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 16 631 659 "ulib/ml/extracted/LowStar_Endianness.ml" 16 631 688
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 16 631 650 "ulib/ml/extracted/LowStar_Endianness.ml" 16 631 688
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 16 631 633 "ulib/ml/extracted/LowStar_Endianness.ml" 16 631 688
+type(
+  FStar_UInt64.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 17 690 695 "ulib/ml/extracted/LowStar_Endianness.ml" 17 690 702
+type(
+  FStar_UInt64.t -> FStar_UInt64.t
+)
+ident(
+  def le64toh "ulib/ml/extracted/LowStar_Endianness.ml" 19 800 800 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 18 741 747 "ulib/ml/extracted/LowStar_Endianness.ml" 18 741 755
+type(
+  FStar_UInt64.t
+)
+ident(
+  def uu____59 "ulib/ml/extracted/LowStar_Endianness.ml" 18 741 760 "ulib/ml/extracted/LowStar_Endianness.ml" 18 741 798
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 18 741 760 "ulib/ml/extracted/LowStar_Endianness.ml" 18 741 768
+type(
+  string -> FStar_UInt64.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 18 741 769 "ulib/ml/extracted/LowStar_Endianness.ml" 18 741 798
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 18 741 760 "ulib/ml/extracted/LowStar_Endianness.ml" 18 741 798
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 18 741 743 "ulib/ml/extracted/LowStar_Endianness.ml" 18 741 798
+type(
+  FStar_UInt64.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 19 800 805 "ulib/ml/extracted/LowStar_Endianness.ml" 19 800 812
+type(
+  FStar_UInt16.t -> FStar_UInt16.t
+)
+ident(
+  def htobe16 "ulib/ml/extracted/LowStar_Endianness.ml" 21 910 910 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 20 851 857 "ulib/ml/extracted/LowStar_Endianness.ml" 20 851 865
+type(
+  FStar_UInt16.t
+)
+ident(
+  def uu____69 "ulib/ml/extracted/LowStar_Endianness.ml" 20 851 870 "ulib/ml/extracted/LowStar_Endianness.ml" 20 851 908
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 20 851 870 "ulib/ml/extracted/LowStar_Endianness.ml" 20 851 878
+type(
+  string -> FStar_UInt16.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 20 851 879 "ulib/ml/extracted/LowStar_Endianness.ml" 20 851 908
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 20 851 870 "ulib/ml/extracted/LowStar_Endianness.ml" 20 851 908
+call(
+  tail
+)
+type(
+  FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 20 851 853 "ulib/ml/extracted/LowStar_Endianness.ml" 20 851 908
+type(
+  FStar_UInt16.t -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 21 910 915 "ulib/ml/extracted/LowStar_Endianness.ml" 21 910 922
+type(
+  FStar_UInt16.t -> FStar_UInt16.t
+)
+ident(
+  def be16toh "ulib/ml/extracted/LowStar_Endianness.ml" 23 1020 1020 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 22 961 967 "ulib/ml/extracted/LowStar_Endianness.ml" 22 961 975
+type(
+  FStar_UInt16.t
+)
+ident(
+  def uu____79 "ulib/ml/extracted/LowStar_Endianness.ml" 22 961 980 "ulib/ml/extracted/LowStar_Endianness.ml" 22 961 1018
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 22 961 980 "ulib/ml/extracted/LowStar_Endianness.ml" 22 961 988
+type(
+  string -> FStar_UInt16.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 22 961 989 "ulib/ml/extracted/LowStar_Endianness.ml" 22 961 1018
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 22 961 980 "ulib/ml/extracted/LowStar_Endianness.ml" 22 961 1018
+call(
+  tail
+)
+type(
+  FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 22 961 963 "ulib/ml/extracted/LowStar_Endianness.ml" 22 961 1018
+type(
+  FStar_UInt16.t -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 23 1020 1025 "ulib/ml/extracted/LowStar_Endianness.ml" 23 1020 1032
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  def htobe32 "ulib/ml/extracted/LowStar_Endianness.ml" 25 1130 1130 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1077 "ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1085
+type(
+  FStar_UInt32.t
+)
+ident(
+  def uu____89 "ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1090 "ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1128
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1090 "ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1098
+type(
+  string -> FStar_UInt32.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1099 "ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1128
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1090 "ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1128
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1073 "ulib/ml/extracted/LowStar_Endianness.ml" 24 1071 1128
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 25 1130 1135 "ulib/ml/extracted/LowStar_Endianness.ml" 25 1130 1142
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  def be32toh "ulib/ml/extracted/LowStar_Endianness.ml" 27 1240 1240 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1187 "ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1195
+type(
+  FStar_UInt32.t
+)
+ident(
+  def uu____99 "ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1200 "ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1238
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1200 "ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1208
+type(
+  string -> FStar_UInt32.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1209 "ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1238
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1200 "ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1238
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1183 "ulib/ml/extracted/LowStar_Endianness.ml" 26 1181 1238
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 27 1240 1245 "ulib/ml/extracted/LowStar_Endianness.ml" 27 1240 1252
+type(
+  FStar_UInt64.t -> FStar_UInt64.t
+)
+ident(
+  def htobe64 "ulib/ml/extracted/LowStar_Endianness.ml" 29 1351 1351 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1297 "ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1306
+type(
+  FStar_UInt64.t
+)
+ident(
+  def uu____109 "ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1311 "ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1349
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1311 "ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1319
+type(
+  string -> FStar_UInt64.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1320 "ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1349
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1311 "ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1349
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1293 "ulib/ml/extracted/LowStar_Endianness.ml" 28 1291 1349
+type(
+  FStar_UInt64.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 29 1351 1356 "ulib/ml/extracted/LowStar_Endianness.ml" 29 1351 1363
+type(
+  FStar_UInt64.t -> FStar_UInt64.t
+)
+ident(
+  def be64toh "ulib/ml/extracted/LowStar_Endianness.ml" 31 1462 1462 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1408 "ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1417
+type(
+  FStar_UInt64.t
+)
+ident(
+  def uu____119 "ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1422 "ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1460
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1422 "ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1430
+type(
+  string -> FStar_UInt64.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1431 "ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1460
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1422 "ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1460
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1404 "ulib/ml/extracted/LowStar_Endianness.ml" 30 1402 1460
+type(
+  FStar_UInt64.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 34 1621 1625 "ulib/ml/extracted/LowStar_Endianness.ml" 34 1621 1637
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt16.t -> Prims.unit
+)
+ident(
+  def store16_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 39 1852 1852 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1781 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1782
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1787 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1850
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1791 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1792
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1797 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1850
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1801 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1802
+type(
+  FStar_UInt16.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1807 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1850
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1807 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1815
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1816 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1850
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1807 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1850
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1797 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1850
+type(
+  FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1787 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1850
+type(
+  FStar_UInt32.t -> FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1777 "ulib/ml/extracted/LowStar_Endianness.ml" 38 1773 1850
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 39 1852 1856 "ulib/ml/extracted/LowStar_Endianness.ml" 39 1852 1867
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt16.t
+)
+ident(
+  def load16_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 44 2063 2063 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2003 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2004
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2009 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2061
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2013 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2014
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2019 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2061
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2019 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2027
+type(
+  string -> FStar_UInt16.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2028 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2061
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2019 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2061
+call(
+  tail
+)
+type(
+  FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2009 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2061
+type(
+  FStar_UInt32.t -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 1999 "ulib/ml/extracted/LowStar_Endianness.ml" 43 1995 2061
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 44 2063 2067 "ulib/ml/extracted/LowStar_Endianness.ml" 44 2063 2079
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt16.t -> Prims.unit
+)
+ident(
+  def store16_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 49 2294 2294 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2223 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2224
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2229 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2292
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2233 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2234
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2239 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2292
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2243 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2244
+type(
+  FStar_UInt16.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2249 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2292
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2249 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2257
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2258 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2292
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2249 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2292
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2239 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2292
+type(
+  FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2229 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2292
+type(
+  FStar_UInt32.t -> FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2219 "ulib/ml/extracted/LowStar_Endianness.ml" 48 2215 2292
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 49 2294 2298 "ulib/ml/extracted/LowStar_Endianness.ml" 49 2294 2309
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt16.t
+)
+ident(
+  def load16_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 54 2505 2505 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2445 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2446
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2451 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2503
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2455 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2456
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2461 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2503
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2461 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2469
+type(
+  string -> FStar_UInt16.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2470 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2503
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2461 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2503
+call(
+  tail
+)
+type(
+  FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2451 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2503
+type(
+  FStar_UInt32.t -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2441 "ulib/ml/extracted/LowStar_Endianness.ml" 53 2437 2503
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 54 2505 2509 "ulib/ml/extracted/LowStar_Endianness.ml" 54 2505 2521
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  def store32_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 59 2736 2736 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2665 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2666
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2671 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2734
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2675 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2676
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2681 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2734
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2685 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2686
+type(
+  FStar_UInt32.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2691 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2734
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2691 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2699
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2700 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2734
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2691 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2734
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2681 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2734
+type(
+  FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2671 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2734
+type(
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2661 "ulib/ml/extracted/LowStar_Endianness.ml" 58 2657 2734
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 59 2736 2740 "ulib/ml/extracted/LowStar_Endianness.ml" 59 2736 2751
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  def load32_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 64 2947 2947 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2887 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2888
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2893 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2945
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2897 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2898
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2903 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2945
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2903 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2911
+type(
+  string -> FStar_UInt32.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2912 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2945
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2903 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2945
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2893 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2945
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2883 "ulib/ml/extracted/LowStar_Endianness.ml" 63 2879 2945
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 64 2947 2951 "ulib/ml/extracted/LowStar_Endianness.ml" 64 2947 2963
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  def store32_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 69 3178 3178 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3107 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3108
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3113 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3176
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3117 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3118
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3123 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3176
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3127 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3128
+type(
+  FStar_UInt32.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3133 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3176
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3133 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3141
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3142 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3176
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3133 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3176
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3123 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3176
+type(
+  FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3113 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3176
+type(
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3103 "ulib/ml/extracted/LowStar_Endianness.ml" 68 3099 3176
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 69 3178 3182 "ulib/ml/extracted/LowStar_Endianness.ml" 69 3178 3193
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  def load32_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 74 3389 3389 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3329 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3330
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3335 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3387
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3339 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3340
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3345 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3387
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3345 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3353
+type(
+  string -> FStar_UInt32.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3354 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3387
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3345 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3387
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3335 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3387
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3325 "ulib/ml/extracted/LowStar_Endianness.ml" 73 3321 3387
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 74 3389 3393 "ulib/ml/extracted/LowStar_Endianness.ml" 74 3389 3405
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt64.t -> Prims.unit
+)
+ident(
+  def store64_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 79 3620 3620 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3549 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3550
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3555 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3618
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3559 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3560
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3565 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3618
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3569 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3570
+type(
+  FStar_UInt64.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3575 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3618
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3575 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3583
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3584 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3618
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3575 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3618
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3565 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3618
+type(
+  FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3555 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3618
+type(
+  FStar_UInt32.t -> FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3545 "ulib/ml/extracted/LowStar_Endianness.ml" 78 3541 3618
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 79 3620 3624 "ulib/ml/extracted/LowStar_Endianness.ml" 79 3620 3635
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt64.t
+)
+ident(
+  def load64_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 84 3831 3831 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3771 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3772
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3777 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3829
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3781 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3782
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3787 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3829
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3787 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3795
+type(
+  string -> FStar_UInt64.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3796 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3829
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3787 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3829
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3777 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3829
+type(
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3767 "ulib/ml/extracted/LowStar_Endianness.ml" 83 3763 3829
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 84 3831 3835 "ulib/ml/extracted/LowStar_Endianness.ml" 84 3831 3847
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt64.t -> Prims.unit
+)
+ident(
+  def store64_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 89 4062 4062 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 3991 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 3992
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 3997 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4060
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4001 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4002
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4007 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4060
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4011 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4012
+type(
+  FStar_UInt64.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4017 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4060
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4017 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4025
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4026 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4060
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4017 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4060
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4007 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4060
+type(
+  FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 3997 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4060
+type(
+  FStar_UInt32.t -> FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 3987 "ulib/ml/extracted/LowStar_Endianness.ml" 88 3983 4060
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 89 4062 4066 "ulib/ml/extracted/LowStar_Endianness.ml" 89 4062 4077
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt64.t
+)
+ident(
+  def load64_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 94 4273 4273 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4213 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4214
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4219 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4271
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4223 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4224
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4229 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4271
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4229 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4237
+type(
+  string -> FStar_UInt64.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4238 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4271
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4229 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4271
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4219 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4271
+type(
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4209 "ulib/ml/extracted/LowStar_Endianness.ml" 93 4205 4271
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 94 4273 4277 "ulib/ml/extracted/LowStar_Endianness.ml" 94 4273 4290
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt128.t -> Prims.unit
+)
+ident(
+  def store128_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 100 4509 4509 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4437 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4438
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4443 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4507
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4447 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4448
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4453 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4507
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4457 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4458
+type(
+  FStar_UInt128.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4463 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4507
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4463 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4471
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4472 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4507
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4463 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4507
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4453 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4507
+type(
+  FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4443 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4507
+type(
+  FStar_UInt32.t -> FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4433 "ulib/ml/extracted/LowStar_Endianness.ml" 99 4431 4507
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 100 4509 4513 "ulib/ml/extracted/LowStar_Endianness.ml" 100 4509 4525
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt128.t
+)
+ident(
+  def load128_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 105 4723 4723 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4662 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4663
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4668 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4721
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4672 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4673
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4678 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4721
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4678 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4686
+type(
+  string -> FStar_UInt128.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4687 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4721
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4678 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4721
+call(
+  tail
+)
+type(
+  FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4668 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4721
+type(
+  FStar_UInt32.t -> FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4658 "ulib/ml/extracted/LowStar_Endianness.ml" 104 4654 4721
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 105 4723 4727 "ulib/ml/extracted/LowStar_Endianness.ml" 105 4723 4740
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt128.t -> Prims.unit
+)
+ident(
+  def store128_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 111 4959 4959 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4887 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4888
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4893 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4957
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4897 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4898
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4903 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4957
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4907 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4908
+type(
+  FStar_UInt128.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4913 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4957
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4913 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4921
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4922 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4957
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4913 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4957
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4903 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4957
+type(
+  FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4893 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4957
+type(
+  FStar_UInt32.t -> FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4883 "ulib/ml/extracted/LowStar_Endianness.ml" 110 4881 4957
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 111 4959 4963 "ulib/ml/extracted/LowStar_Endianness.ml" 111 4959 4975
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt128.t
+)
+ident(
+  def load128_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 116 5173 5173 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5112 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5113
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5118 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5171
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5122 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5123
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5128 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5171
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5128 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5136
+type(
+  string -> FStar_UInt128.t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5137 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5171
+type(
+  string
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5128 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5171
+call(
+  tail
+)
+type(
+  FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5118 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5171
+type(
+  FStar_UInt32.t -> FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5108 "ulib/ml/extracted/LowStar_Endianness.ml" 115 5104 5171
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 116 5173 5178 "ulib/ml/extracted/LowStar_Endianness.ml" 116 5173 5188
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt16.t -> Prims.unit
+)
+ident(
+  def store16_le "ulib/ml/extracted/LowStar_Endianness.ml" 121 5344 5344 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 118 5258 5264 "ulib/ml/extracted/LowStar_Endianness.ml" 118 5258 5265
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5274 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5340
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5278 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5279
+type(
+  FStar_UInt16.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5284 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5340
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5284 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5296
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> FStar_UInt16.t -> Prims.unit
+)
+ident(
+  int_ref store16_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 34 1621 1625 "ulib/ml/extracted/LowStar_Endianness.ml" 34 1621 1637
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5297 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5298
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 118 5258 5264 "ulib/ml/extracted/LowStar_Endianness.ml" 118 5258 5265
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5300 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5322
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5323 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5337
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5299 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5338
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5339 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5340
+type(
+  FStar_UInt16.t
+)
+ident(
+  int_ref z "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5278 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5279
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5284 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5340
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5274 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5340
+type(
+  FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 118 5258 5260 "ulib/ml/extracted/LowStar_Endianness.ml" 119 5270 5340
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 121 5344 5349 "ulib/ml/extracted/LowStar_Endianness.ml" 121 5344 5358
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt16.t
+)
+ident(
+  def load16_le "ulib/ml/extracted/LowStar_Endianness.ml" 123 5485 5485 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5424 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5425
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5430 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5483
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5430 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5441
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt16.t
+)
+ident(
+  int_ref load16_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 39 1852 1856 "ulib/ml/extracted/LowStar_Endianness.ml" 39 1852 1867
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5442 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5443
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5424 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5425
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5445 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5467
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5468 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5482
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5444 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5483
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5430 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5483
+call(
+  tail
+)
+type(
+  FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5420 "ulib/ml/extracted/LowStar_Endianness.ml" 122 5418 5483
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 123 5485 5490 "ulib/ml/extracted/LowStar_Endianness.ml" 123 5485 5500
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt16.t -> Prims.unit
+)
+ident(
+  def store16_be "ulib/ml/extracted/LowStar_Endianness.ml" 128 5656 5656 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 125 5570 5576 "ulib/ml/extracted/LowStar_Endianness.ml" 125 5570 5577
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5586 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5652
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5590 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5591
+type(
+  FStar_UInt16.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5596 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5652
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5596 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5608
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> FStar_UInt16.t -> Prims.unit
+)
+ident(
+  int_ref store16_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 44 2063 2067 "ulib/ml/extracted/LowStar_Endianness.ml" 44 2063 2079
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5609 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5610
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 125 5570 5576 "ulib/ml/extracted/LowStar_Endianness.ml" 125 5570 5577
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5612 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5634
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5635 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5649
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5611 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5650
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5651 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5652
+type(
+  FStar_UInt16.t
+)
+ident(
+  int_ref z "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5590 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5591
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5596 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5652
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5586 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5652
+type(
+  FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 125 5570 5572 "ulib/ml/extracted/LowStar_Endianness.ml" 126 5582 5652
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt16.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 128 5656 5661 "ulib/ml/extracted/LowStar_Endianness.ml" 128 5656 5670
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt16.t
+)
+ident(
+  def load16_be "ulib/ml/extracted/LowStar_Endianness.ml" 130 5797 5797 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5736 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5737
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5742 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5795
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5742 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5753
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt16.t
+)
+ident(
+  int_ref load16_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 49 2294 2298 "ulib/ml/extracted/LowStar_Endianness.ml" 49 2294 2309
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5754 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5755
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5736 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5737
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5757 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5779
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5780 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5794
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5756 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5795
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5742 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5795
+call(
+  tail
+)
+type(
+  FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5732 "ulib/ml/extracted/LowStar_Endianness.ml" 129 5730 5795
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt16.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 130 5797 5802 "ulib/ml/extracted/LowStar_Endianness.ml" 130 5797 5812
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  def store32_le "ulib/ml/extracted/LowStar_Endianness.ml" 135 5968 5968 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 132 5882 5888 "ulib/ml/extracted/LowStar_Endianness.ml" 132 5882 5889
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5898 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5964
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5902 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5903
+type(
+  FStar_UInt32.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5908 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5964
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5908 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5920
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  int_ref store32_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 54 2505 2509 "ulib/ml/extracted/LowStar_Endianness.ml" 54 2505 2521
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5921 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5922
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 132 5882 5888 "ulib/ml/extracted/LowStar_Endianness.ml" 132 5882 5889
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5924 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5946
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5947 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5961
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5923 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5962
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5963 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5964
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref z "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5902 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5903
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5908 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5964
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5898 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5964
+type(
+  FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 132 5882 5884 "ulib/ml/extracted/LowStar_Endianness.ml" 133 5894 5964
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 135 5968 5973 "ulib/ml/extracted/LowStar_Endianness.ml" 135 5968 5982
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t
+)
+ident(
+  def load32_le "ulib/ml/extracted/LowStar_Endianness.ml" 137 6109 6109 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6048 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6049
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6054 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6107
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6054 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6065
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  int_ref load32_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 59 2736 2740 "ulib/ml/extracted/LowStar_Endianness.ml" 59 2736 2751
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6066 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6067
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6048 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6049
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6069 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6091
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6092 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6106
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6068 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6107
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6054 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6107
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6044 "ulib/ml/extracted/LowStar_Endianness.ml" 136 6042 6107
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 137 6109 6114 "ulib/ml/extracted/LowStar_Endianness.ml" 137 6109 6124
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  def store32_be "ulib/ml/extracted/LowStar_Endianness.ml" 142 6280 6280 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 139 6194 6200 "ulib/ml/extracted/LowStar_Endianness.ml" 139 6194 6201
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6210 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6276
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6214 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6215
+type(
+  FStar_UInt32.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6220 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6276
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6220 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6232
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  int_ref store32_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 64 2947 2951 "ulib/ml/extracted/LowStar_Endianness.ml" 64 2947 2963
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6233 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6234
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 139 6194 6200 "ulib/ml/extracted/LowStar_Endianness.ml" 139 6194 6201
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6236 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6258
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6259 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6273
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6235 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6274
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6275 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6276
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref z "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6214 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6215
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6220 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6276
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6210 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6276
+type(
+  FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 139 6194 6196 "ulib/ml/extracted/LowStar_Endianness.ml" 140 6206 6276
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 142 6280 6285 "ulib/ml/extracted/LowStar_Endianness.ml" 142 6280 6294
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t
+)
+ident(
+  def load32_be "ulib/ml/extracted/LowStar_Endianness.ml" 144 6421 6421 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6360 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6361
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6366 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6419
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6366 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6377
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  int_ref load32_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 69 3178 3182 "ulib/ml/extracted/LowStar_Endianness.ml" 69 3178 3193
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6378 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6379
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6360 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6361
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6381 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6403
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6404 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6418
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6380 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6419
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6366 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6419
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6356 "ulib/ml/extracted/LowStar_Endianness.ml" 143 6354 6419
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 144 6421 6426 "ulib/ml/extracted/LowStar_Endianness.ml" 144 6421 6436
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt64.t -> Prims.unit
+)
+ident(
+  def store64_le "ulib/ml/extracted/LowStar_Endianness.ml" 149 6592 6592 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 146 6506 6512 "ulib/ml/extracted/LowStar_Endianness.ml" 146 6506 6513
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6522 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6588
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6526 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6527
+type(
+  FStar_UInt64.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6532 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6588
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6532 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6544
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> FStar_UInt64.t -> Prims.unit
+)
+ident(
+  int_ref store64_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 74 3389 3393 "ulib/ml/extracted/LowStar_Endianness.ml" 74 3389 3405
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6545 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6546
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 146 6506 6512 "ulib/ml/extracted/LowStar_Endianness.ml" 146 6506 6513
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6548 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6570
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6571 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6585
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6547 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6586
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6587 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6588
+type(
+  FStar_UInt64.t
+)
+ident(
+  int_ref z "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6526 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6527
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6532 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6588
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6522 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6588
+type(
+  FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 146 6506 6508 "ulib/ml/extracted/LowStar_Endianness.ml" 147 6518 6588
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 149 6592 6597 "ulib/ml/extracted/LowStar_Endianness.ml" 149 6592 6606
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt64.t
+)
+ident(
+  def load64_le "ulib/ml/extracted/LowStar_Endianness.ml" 151 6733 6733 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6672 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6673
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6678 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6731
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6678 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6689
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt64.t
+)
+ident(
+  int_ref load64_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 79 3620 3624 "ulib/ml/extracted/LowStar_Endianness.ml" 79 3620 3635
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6690 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6691
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6672 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6673
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6693 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6715
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6716 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6730
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6692 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6731
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6678 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6731
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6668 "ulib/ml/extracted/LowStar_Endianness.ml" 150 6666 6731
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 151 6733 6738 "ulib/ml/extracted/LowStar_Endianness.ml" 151 6733 6747
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt64.t
+)
+ident(
+  def load64_be "ulib/ml/extracted/LowStar_Endianness.ml" 153 6874 6874 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6813 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6814
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6819 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6872
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6819 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6830
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt64.t
+)
+ident(
+  int_ref load64_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 89 4062 4066 "ulib/ml/extracted/LowStar_Endianness.ml" 89 4062 4077
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6831 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6832
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6813 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6814
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6834 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6856
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6857 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6871
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6833 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6872
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6819 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6872
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6809 "ulib/ml/extracted/LowStar_Endianness.ml" 152 6807 6872
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 153 6874 6879 "ulib/ml/extracted/LowStar_Endianness.ml" 153 6874 6889
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt64.t -> Prims.unit
+)
+ident(
+  def store64_be "ulib/ml/extracted/LowStar_Endianness.ml" 158 7045 7045 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 155 6959 6965 "ulib/ml/extracted/LowStar_Endianness.ml" 155 6959 6966
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6975 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7041
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6979 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6980
+type(
+  FStar_UInt64.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6985 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7041
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6985 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6997
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> FStar_UInt64.t -> Prims.unit
+)
+ident(
+  int_ref store64_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 84 3831 3835 "ulib/ml/extracted/LowStar_Endianness.ml" 84 3831 3847
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6998 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6999
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 155 6959 6965 "ulib/ml/extracted/LowStar_Endianness.ml" 155 6959 6966
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7001 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7023
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7024 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7038
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7000 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7039
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7040 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7041
+type(
+  FStar_UInt64.t
+)
+ident(
+  int_ref z "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6979 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6980
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6985 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7041
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 6975 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7041
+type(
+  FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 155 6959 6961 "ulib/ml/extracted/LowStar_Endianness.ml" 156 6971 7041
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt64.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 158 7045 7050 "ulib/ml/extracted/LowStar_Endianness.ml" 158 7045 7060
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt128.t
+)
+ident(
+  def load128_le "ulib/ml/extracted/LowStar_Endianness.ml" 160 7189 7189 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7127 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7128
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7133 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7187
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7133 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7145
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt128.t
+)
+ident(
+  int_ref load128_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 100 4509 4513 "ulib/ml/extracted/LowStar_Endianness.ml" 100 4509 4525
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7146 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7147
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7127 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7128
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7149 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7171
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7172 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7186
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7148 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7187
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7133 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7187
+call(
+  tail
+)
+type(
+  FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7123 "ulib/ml/extracted/LowStar_Endianness.ml" 159 7121 7187
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 160 7189 7194 "ulib/ml/extracted/LowStar_Endianness.ml" 160 7189 7205
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt128.t -> Prims.unit
+)
+ident(
+  def store128_le "ulib/ml/extracted/LowStar_Endianness.ml" 165 7363 7363 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 162 7276 7282 "ulib/ml/extracted/LowStar_Endianness.ml" 162 7276 7283
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7292 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7359
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7296 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7297
+type(
+  FStar_UInt128.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7302 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7359
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7302 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7315
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> FStar_UInt128.t -> Prims.unit
+)
+ident(
+  int_ref store128_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 94 4273 4277 "ulib/ml/extracted/LowStar_Endianness.ml" 94 4273 4290
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7316 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7317
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 162 7276 7282 "ulib/ml/extracted/LowStar_Endianness.ml" 162 7276 7283
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7319 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7341
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7342 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7356
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7318 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7357
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7358 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7359
+type(
+  FStar_UInt128.t
+)
+ident(
+  int_ref z "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7296 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7297
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7302 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7359
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7292 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7359
+type(
+  FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 162 7276 7278 "ulib/ml/extracted/LowStar_Endianness.ml" 163 7288 7359
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 165 7363 7368 "ulib/ml/extracted/LowStar_Endianness.ml" 165 7363 7378
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt128.t
+)
+ident(
+  def load128_be "ulib/ml/extracted/LowStar_Endianness.ml" 167 7507 7507 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7445 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7446
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7451 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7505
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7451 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7463
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt128.t
+)
+ident(
+  int_ref load128_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 111 4959 4963 "ulib/ml/extracted/LowStar_Endianness.ml" 111 4959 4975
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7464 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7465
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7445 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7446
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7467 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7489
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7490 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7504
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7466 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7505
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7451 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7505
+call(
+  tail
+)
+type(
+  FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7441 "ulib/ml/extracted/LowStar_Endianness.ml" 166 7439 7505
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt128.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 167 7507 7512 "ulib/ml/extracted/LowStar_Endianness.ml" 167 7507 7523
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt128.t -> Prims.unit
+)
+ident(
+  def store128_be "ulib/ml/extracted/LowStar_Endianness.ml" 172 7681 7681 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 169 7594 7600 "ulib/ml/extracted/LowStar_Endianness.ml" 169 7594 7601
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7610 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7677
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7614 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7615
+type(
+  FStar_UInt128.t
+)
+ident(
+  def z "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7620 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7677
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7620 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7633
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> FStar_UInt128.t -> Prims.unit
+)
+ident(
+  int_ref store128_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 105 4723 4727 "ulib/ml/extracted/LowStar_Endianness.ml" 105 4723 4740
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7634 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7635
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 169 7594 7600 "ulib/ml/extracted/LowStar_Endianness.ml" 169 7594 7601
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7637 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7659
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7660 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7674
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7636 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7675
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7676 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7677
+type(
+  FStar_UInt128.t
+)
+ident(
+  int_ref z "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7614 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7615
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7620 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7677
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7610 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7677
+type(
+  FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 169 7594 7596 "ulib/ml/extracted/LowStar_Endianness.ml" 170 7606 7677
+type(
+  FStar_UInt8.t LowStar_Buffer.buffer -> FStar_UInt128.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 172 7681 7685 "ulib/ml/extracted/LowStar_Endianness.ml" 172 7681 7696
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  def index_32_be "ulib/ml/extracted/LowStar_Endianness.ml" 182 7950 7950 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 177 7828 7834 "ulib/ml/extracted/LowStar_Endianness.ml" 177 7828 7835
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 178 7840 7844 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7946
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 178 7840 7848 "ulib/ml/extracted/LowStar_Endianness.ml" 178 7840 7849
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 179 7854 7860 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7946
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 179 7854 7860 "ulib/ml/extracted/LowStar_Endianness.ml" 179 7854 7871
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  int_ref load32_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 69 3178 3182 "ulib/ml/extracted/LowStar_Endianness.ml" 69 3178 3193
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 179 7854 7872 "ulib/ml/extracted/LowStar_Endianness.ml" 179 7854 7873
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 177 7828 7834 "ulib/ml/extracted/LowStar_Endianness.ml" 177 7828 7835
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7883 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7899
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.mul
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7901 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7923
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7925 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7937
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7938 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7941
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7924 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7942
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7900 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7943
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7944 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7945
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref i "ulib/ml/extracted/LowStar_Endianness.ml" 178 7840 7848 "ulib/ml/extracted/LowStar_Endianness.ml" 178 7840 7849
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7882 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7946
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 179 7854 7860 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7946
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 178 7840 7844 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7946
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 177 7828 7830 "ulib/ml/extracted/LowStar_Endianness.ml" 180 7874 7946
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 182 7950 7954 "ulib/ml/extracted/LowStar_Endianness.ml" 182 7950 7965
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  def index_32_le "ulib/ml/extracted/LowStar_Endianness.ml" 192 8219 8219 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 187 8097 8103 "ulib/ml/extracted/LowStar_Endianness.ml" 187 8097 8104
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 188 8109 8113 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8215
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 188 8109 8117 "ulib/ml/extracted/LowStar_Endianness.ml" 188 8109 8118
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 189 8123 8129 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8215
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 189 8123 8129 "ulib/ml/extracted/LowStar_Endianness.ml" 189 8123 8140
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+ident(
+  int_ref load32_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 59 2736 2740 "ulib/ml/extracted/LowStar_Endianness.ml" 59 2736 2751
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 189 8123 8141 "ulib/ml/extracted/LowStar_Endianness.ml" 189 8123 8142
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 187 8097 8103 "ulib/ml/extracted/LowStar_Endianness.ml" 187 8097 8104
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8152 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8168
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.mul
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8170 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8192
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8194 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8206
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8207 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8210
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8193 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8211
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8169 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8212
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8213 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8214
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref i "ulib/ml/extracted/LowStar_Endianness.ml" 188 8109 8117 "ulib/ml/extracted/LowStar_Endianness.ml" 188 8109 8118
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8151 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8215
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 189 8123 8129 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8215
+call(
+  tail
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 188 8109 8113 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8215
+type(
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 187 8097 8099 "ulib/ml/extracted/LowStar_Endianness.ml" 190 8143 8215
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 192 8219 8223 "ulib/ml/extracted/LowStar_Endianness.ml" 192 8219 8234
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt64.t
+)
+ident(
+  def index_64_be "ulib/ml/extracted/LowStar_Endianness.ml" 202 8488 8488 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 197 8366 8372 "ulib/ml/extracted/LowStar_Endianness.ml" 197 8366 8373
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 198 8378 8382 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8484
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 198 8378 8386 "ulib/ml/extracted/LowStar_Endianness.ml" 198 8378 8387
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 199 8392 8398 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8484
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 199 8392 8398 "ulib/ml/extracted/LowStar_Endianness.ml" 199 8392 8409
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+ident(
+  int_ref load64_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 89 4062 4066 "ulib/ml/extracted/LowStar_Endianness.ml" 89 4062 4077
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 199 8392 8410 "ulib/ml/extracted/LowStar_Endianness.ml" 199 8392 8411
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 197 8366 8372 "ulib/ml/extracted/LowStar_Endianness.ml" 197 8366 8373
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8421 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8437
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.mul
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8439 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8461
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8463 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8475
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8476 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8479
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8462 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8480
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8438 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8481
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8482 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8483
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref i "ulib/ml/extracted/LowStar_Endianness.ml" 198 8378 8386 "ulib/ml/extracted/LowStar_Endianness.ml" 198 8378 8387
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8420 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8484
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 199 8392 8398 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8484
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 198 8378 8382 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8484
+type(
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 197 8366 8368 "ulib/ml/extracted/LowStar_Endianness.ml" 200 8412 8484
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 202 8488 8492 "ulib/ml/extracted/LowStar_Endianness.ml" 202 8488 8503
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt64.t
+)
+ident(
+  def index_64_le "ulib/ml/extracted/LowStar_Endianness.ml" 213 8758 8758 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 207 8635 8641 "ulib/ml/extracted/LowStar_Endianness.ml" 207 8635 8642
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 208 8647 8651 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8753
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 208 8647 8655 "ulib/ml/extracted/LowStar_Endianness.ml" 208 8647 8656
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 209 8661 8667 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8753
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 209 8661 8667 "ulib/ml/extracted/LowStar_Endianness.ml" 209 8661 8678
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+ident(
+  int_ref load64_le_i "ulib/ml/extracted/LowStar_Endianness.ml" 79 3620 3624 "ulib/ml/extracted/LowStar_Endianness.ml" 79 3620 3635
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 209 8661 8679 "ulib/ml/extracted/LowStar_Endianness.ml" 209 8661 8680
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 207 8635 8641 "ulib/ml/extracted/LowStar_Endianness.ml" 207 8635 8642
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8690 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8706
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.mul
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8708 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8730
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8732 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8744
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8745 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8748
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8731 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8749
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8707 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8750
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8751 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8752
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref i "ulib/ml/extracted/LowStar_Endianness.ml" 208 8647 8655 "ulib/ml/extracted/LowStar_Endianness.ml" 208 8647 8656
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8689 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8753
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 209 8661 8667 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8753
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 208 8647 8651 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8753
+type(
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 207 8635 8637 "ulib/ml/extracted/LowStar_Endianness.ml" 210 8681 8753
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt64.t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 213 8758 8762 "ulib/ml/extracted/LowStar_Endianness.ml" 213 8758 8771
+type(
+  'Arrel 'Arel.
+    (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  def upd_32_be "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156 "ulib/ml/extracted/LowStar_Endianness.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 218 8911 8917 "ulib/ml/extracted/LowStar_Endianness.ml" 218 8911 8918
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_Endianness.ml" 219 8923 8927 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 219 8923 8931 "ulib/ml/extracted/LowStar_Endianness.ml" 219 8923 8932
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_Endianness.ml" 220 8937 8943 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 220 8937 8947 "ulib/ml/extracted/LowStar_Endianness.ml" 220 8937 8949
+type(
+  FStar_UInt32.t
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8962 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8966 "ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8968
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h0 "ulib/ml/extracted/LowStar_Endianness.ml" 222 9002 9010 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8971 "ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8994
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8995 "ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8997
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8971 "ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8997
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 222 9002 9010 "ulib/ml/extracted/LowStar_Endianness.ml" 222 9002 9022
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  int_ref store32_be_i "ulib/ml/extracted/LowStar_Endianness.ml" 64 2947 2951 "ulib/ml/extracted/LowStar_Endianness.ml" 64 2947 2963
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 222 9002 9023 "ulib/ml/extracted/LowStar_Endianness.ml" 222 9002 9024
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_Endianness.ml" 218 8911 8917 "ulib/ml/extracted/LowStar_Endianness.ml" 218 8911 8918
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9036 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9052
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.mul
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9054 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9076
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9078 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9090
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9091 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9094
+type(
+  int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9077 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9095
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9053 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9096
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9097 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9098
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref i "ulib/ml/extracted/LowStar_Endianness.ml" 219 8923 8931 "ulib/ml/extracted/LowStar_Endianness.ml" 219 8923 8932
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9035 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9099
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9100 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9102
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_Endianness.ml" 220 8937 8947 "ulib/ml/extracted/LowStar_Endianness.ml" 220 8937 8949
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 222 9002 9010 "ulib/ml/extracted/LowStar_Endianness.ml" 223 9025 9102
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9117 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9119
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h1 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9153 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9155
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9122 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9145
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9146 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9148
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9122 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9148
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9153 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9155
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9112 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 222 9002 9010 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 221 8954 8962 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 220 8937 8943 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+type(
+  FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 219 8923 8927 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+type(
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_Endianness.ml" 218 8911 8913 "ulib/ml/extracted/LowStar_Endianness.ml" 224 9104 9156
+type(
+  (FStar_UInt8.t, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)

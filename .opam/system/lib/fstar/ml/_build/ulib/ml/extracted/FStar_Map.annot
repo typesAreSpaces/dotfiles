@@ -1,0 +1,972 @@
+"ulib/ml/extracted/FStar_Map.ml" 6 146 150 "ulib/ml/extracted/FStar_Map.ml" 6 146 177
+type(
+  'Akey 'Avalue.
+    ('Akey, 'Avalue) t ->
+    ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  def __proj__Mkt__item__mappings "ulib/ml/extracted/FStar_Map.ml" 12 371 371 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 11 293 299 "ulib/ml/extracted/FStar_Map.ml" 11 293 308
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Map.ml" 11 293 313 "ulib/ml/extracted/FStar_Map.ml" 11 293 369
+)
+"ulib/ml/extracted/FStar_Map.ml" 11 293 319 "ulib/ml/extracted/FStar_Map.ml" 11 293 328
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Map.ml" 11 293 299 "ulib/ml/extracted/FStar_Map.ml" 11 293 308
+)
+"ulib/ml/extracted/FStar_Map.ml" 11 293 338 "ulib/ml/extracted/FStar_Map.ml" 11 293 346
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  def mappings "ulib/ml/extracted/FStar_Map.ml" 11 293 361 "ulib/ml/extracted/FStar_Map.ml" 11 293 369
+)
+"ulib/ml/extracted/FStar_Map.ml" 11 293 348 "ulib/ml/extracted/FStar_Map.ml" 11 293 354
+type(
+  'Akey FStar_Set.set
+)
+ident(
+  def domain "ulib/ml/extracted/FStar_Map.ml" 11 293 361 "ulib/ml/extracted/FStar_Map.ml" 11 293 369
+)
+"ulib/ml/extracted/FStar_Map.ml" 11 293 336 "ulib/ml/extracted/FStar_Map.ml" 11 293 357
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 11 293 361 "ulib/ml/extracted/FStar_Map.ml" 11 293 369
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  int_ref mappings "ulib/ml/extracted/FStar_Map.ml" 11 293 338 "ulib/ml/extracted/FStar_Map.ml" 11 293 346
+)
+"ulib/ml/extracted/FStar_Map.ml" 11 293 313 "ulib/ml/extracted/FStar_Map.ml" 11 293 369
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 11 293 295 "ulib/ml/extracted/FStar_Map.ml" 11 293 369
+type(
+  ('Akey, 'Avalue) t ->
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 12 371 375 "ulib/ml/extracted/FStar_Map.ml" 12 371 400
+type(
+  'Akey 'Avalue. ('Akey, 'Avalue) t -> 'Akey FStar_Set.set
+)
+ident(
+  def __proj__Mkt__item__domain "ulib/ml/extracted/FStar_Map.ml" 15 540 540 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 14 464 470 "ulib/ml/extracted/FStar_Map.ml" 14 464 479
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Map.ml" 14 464 484 "ulib/ml/extracted/FStar_Map.ml" 14 464 538
+)
+"ulib/ml/extracted/FStar_Map.ml" 14 464 490 "ulib/ml/extracted/FStar_Map.ml" 14 464 499
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Map.ml" 14 464 470 "ulib/ml/extracted/FStar_Map.ml" 14 464 479
+)
+"ulib/ml/extracted/FStar_Map.ml" 14 464 509 "ulib/ml/extracted/FStar_Map.ml" 14 464 517
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  def mappings "ulib/ml/extracted/FStar_Map.ml" 14 464 532 "ulib/ml/extracted/FStar_Map.ml" 14 464 538
+)
+"ulib/ml/extracted/FStar_Map.ml" 14 464 519 "ulib/ml/extracted/FStar_Map.ml" 14 464 525
+type(
+  'Akey FStar_Set.set
+)
+ident(
+  def domain "ulib/ml/extracted/FStar_Map.ml" 14 464 532 "ulib/ml/extracted/FStar_Map.ml" 14 464 538
+)
+"ulib/ml/extracted/FStar_Map.ml" 14 464 507 "ulib/ml/extracted/FStar_Map.ml" 14 464 528
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 14 464 532 "ulib/ml/extracted/FStar_Map.ml" 14 464 538
+type(
+  'Akey FStar_Set.set
+)
+ident(
+  int_ref domain "ulib/ml/extracted/FStar_Map.ml" 14 464 519 "ulib/ml/extracted/FStar_Map.ml" 14 464 525
+)
+"ulib/ml/extracted/FStar_Map.ml" 14 464 484 "ulib/ml/extracted/FStar_Map.ml" 14 464 538
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 14 464 466 "ulib/ml/extracted/FStar_Map.ml" 14 464 538
+type(
+  ('Akey, 'Avalue) t -> 'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 15 540 544 "ulib/ml/extracted/FStar_Map.ml" 15 540 547
+type(
+  'Akey 'Avalue. ('Akey, 'Avalue) t -> 'Akey -> 'Avalue
+)
+ident(
+  def sel "ulib/ml/extracted/FStar_Map.ml" 17 642 642 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 16 606 612 "ulib/ml/extracted/FStar_Map.ml" 16 606 613
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Map.ml" 16 606 618 "ulib/ml/extracted/FStar_Map.ml" 16 606 640
+)
+"ulib/ml/extracted/FStar_Map.ml" 16 606 622 "ulib/ml/extracted/FStar_Map.ml" 16 606 623
+type(
+  'Akey
+)
+ident(
+  def k "ulib/ml/extracted/FStar_Map.ml" 16 606 628 "ulib/ml/extracted/FStar_Map.ml" 16 606 640
+)
+"ulib/ml/extracted/FStar_Map.ml" 16 606 628 "ulib/ml/extracted/FStar_Map.ml" 16 606 629
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 16 606 612 "ulib/ml/extracted/FStar_Map.ml" 16 606 613
+)
+"ulib/ml/extracted/FStar_Map.ml" 16 606 628 "ulib/ml/extracted/FStar_Map.ml" 16 606 638
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 16 606 639 "ulib/ml/extracted/FStar_Map.ml" 16 606 640
+type(
+  'Akey
+)
+ident(
+  int_ref k "ulib/ml/extracted/FStar_Map.ml" 16 606 622 "ulib/ml/extracted/FStar_Map.ml" 16 606 623
+)
+"ulib/ml/extracted/FStar_Map.ml" 16 606 628 "ulib/ml/extracted/FStar_Map.ml" 16 606 640
+call(
+  tail
+)
+type(
+  'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 16 606 618 "ulib/ml/extracted/FStar_Map.ml" 16 606 640
+type(
+  'Akey -> 'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 16 606 608 "ulib/ml/extracted/FStar_Map.ml" 16 606 640
+type(
+  ('Akey, 'Avalue) t -> 'Akey -> 'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 17 642 646 "ulib/ml/extracted/FStar_Map.ml" 17 642 649
+type(
+  'Akey 'Avalue. ('Akey, 'Avalue) t -> 'Akey -> 'Avalue -> ('Akey, 'Avalue) t
+)
+ident(
+  def upd "ulib/ml/extracted/FStar_Map.ml" 30 1006 1006 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 20 733 739 "ulib/ml/extracted/FStar_Map.ml" 20 733 740
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Map.ml" 21 745 749 "ulib/ml/extracted/FStar_Map.ml" 28 993 1002
+)
+"ulib/ml/extracted/FStar_Map.ml" 21 745 753 "ulib/ml/extracted/FStar_Map.ml" 21 745 754
+type(
+  'Akey
+)
+ident(
+  def k "ulib/ml/extracted/FStar_Map.ml" 22 759 765 "ulib/ml/extracted/FStar_Map.ml" 28 993 1002
+)
+"ulib/ml/extracted/FStar_Map.ml" 22 759 769 "ulib/ml/extracted/FStar_Map.ml" 22 759 770
+type(
+  'Avalue
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Map.ml" 23 775 783 "ulib/ml/extracted/FStar_Map.ml" 28 993 1002
+)
+"ulib/ml/extracted/FStar_Map.ml" 25 806 819 "ulib/ml/extracted/FStar_Map.ml" 25 806 859
+type(
+  ('Akey -> 'Avalue) ->
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 880 "ulib/ml/extracted/FStar_Map.ml" 26 860 881
+type(
+  'Akey
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Map.ml" 26 860 886 "ulib/ml/extracted/FStar_Map.ml" 26 860 919
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 889 "ulib/ml/extracted/FStar_Map.ml" 26 860 890
+type(
+  'Akey
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Map.ml" 26 860 880 "ulib/ml/extracted/FStar_Map.ml" 26 860 881
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 891 "ulib/ml/extracted/FStar_Map.ml" 26 860 892
+type(
+  'Akey -> 'Akey -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 893 "ulib/ml/extracted/FStar_Map.ml" 26 860 894
+type(
+  'Akey
+)
+ident(
+  int_ref k "ulib/ml/extracted/FStar_Map.ml" 21 745 753 "ulib/ml/extracted/FStar_Map.ml" 21 745 754
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 889 "ulib/ml/extracted/FStar_Map.ml" 26 860 894
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 900 "ulib/ml/extracted/FStar_Map.ml" 26 860 901
+type(
+  'Avalue
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Map.ml" 22 759 769 "ulib/ml/extracted/FStar_Map.ml" 22 759 770
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 907 "ulib/ml/extracted/FStar_Map.ml" 26 860 908
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 20 733 739 "ulib/ml/extracted/FStar_Map.ml" 20 733 740
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 907 "ulib/ml/extracted/FStar_Map.ml" 26 860 917
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 918 "ulib/ml/extracted/FStar_Map.ml" 26 860 919
+type(
+  'Akey
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Map.ml" 26 860 880 "ulib/ml/extracted/FStar_Map.ml" 26 860 881
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 907 "ulib/ml/extracted/FStar_Map.ml" 26 860 919
+call(
+  tail
+)
+type(
+  'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 886 "ulib/ml/extracted/FStar_Map.ml" 26 860 919
+type(
+  'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 26 860 875 "ulib/ml/extracted/FStar_Map.ml" 26 860 920
+type(
+  'Akey -> 'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 25 806 818 "ulib/ml/extracted/FStar_Map.ml" 26 860 921
+call(
+  stack
+)
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 27 923 943 "ulib/ml/extracted/FStar_Map.ml" 27 923 958
+type(
+  'Akey FStar_Set.set -> 'Akey BatSet.t -> 'Akey FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.union
+)
+"ulib/ml/extracted/FStar_Map.ml" 27 923 959 "ulib/ml/extracted/FStar_Map.ml" 27 923 960
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 20 733 739 "ulib/ml/extracted/FStar_Map.ml" 20 733 740
+)
+"ulib/ml/extracted/FStar_Map.ml" 27 923 959 "ulib/ml/extracted/FStar_Map.ml" 27 923 967
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 27 923 969 "ulib/ml/extracted/FStar_Map.ml" 27 923 988
+type(
+  'Akey -> 'Akey BatSet.t
+)
+ident(
+  ext_ref FStar_Set.singleton
+)
+"ulib/ml/extracted/FStar_Map.ml" 27 923 989 "ulib/ml/extracted/FStar_Map.ml" 27 923 990
+type(
+  'Akey
+)
+ident(
+  int_ref k "ulib/ml/extracted/FStar_Map.ml" 21 745 753 "ulib/ml/extracted/FStar_Map.ml" 21 745 754
+)
+"ulib/ml/extracted/FStar_Map.ml" 27 923 968 "ulib/ml/extracted/FStar_Map.ml" 27 923 991
+call(
+  stack
+)
+type(
+  'Akey BatSet.t
+)
+"ulib/ml/extracted/FStar_Map.ml" 27 923 942 "ulib/ml/extracted/FStar_Map.ml" 27 923 992
+call(
+  stack
+)
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 23 775 783 "ulib/ml/extracted/FStar_Map.ml" 28 993 1002
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 22 759 765 "ulib/ml/extracted/FStar_Map.ml" 28 993 1002
+type(
+  'Avalue -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 21 745 749 "ulib/ml/extracted/FStar_Map.ml" 28 993 1002
+type(
+  'Akey -> 'Avalue -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 20 733 735 "ulib/ml/extracted/FStar_Map.ml" 28 993 1002
+type(
+  ('Akey, 'Avalue) t -> 'Akey -> 'Avalue -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 30 1006 1010 "ulib/ml/extracted/FStar_Map.ml" 30 1006 1015
+type(
+  'Akey 'Avalue. 'Avalue -> ('Akey, 'Avalue) t
+)
+ident(
+  def const "ulib/ml/extracted/FStar_Map.ml" 38 1242 1242 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 31 1065 1071 "ulib/ml/extracted/FStar_Map.ml" 31 1065 1072
+type(
+  'Avalue
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Map.ml" 32 1077 1081 "ulib/ml/extracted/FStar_Map.ml" 36 1233 1238
+)
+"ulib/ml/extracted/FStar_Map.ml" 34 1100 1109 "ulib/ml/extracted/FStar_Map.ml" 34 1100 1149
+type(
+  ('Akey -> 'Avalue) ->
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/ml/extracted/FStar_Map.ml" 34 1100 1155 "ulib/ml/extracted/FStar_Map.ml" 34 1100 1164
+type(
+  'Akey
+)
+ident(
+  def uu____257 "ulib/ml/extracted/FStar_Map.ml" 34 1100 1169 "ulib/ml/extracted/FStar_Map.ml" 34 1100 1170
+)
+"ulib/ml/extracted/FStar_Map.ml" 34 1100 1169 "ulib/ml/extracted/FStar_Map.ml" 34 1100 1170
+type(
+  'Avalue
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Map.ml" 31 1065 1071 "ulib/ml/extracted/FStar_Map.ml" 31 1065 1072
+)
+"ulib/ml/extracted/FStar_Map.ml" 34 1100 1150 "ulib/ml/extracted/FStar_Map.ml" 34 1100 1171
+type(
+  'Akey -> 'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 34 1100 1108 "ulib/ml/extracted/FStar_Map.ml" 34 1100 1172
+call(
+  stack
+)
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 35 1174 1190 "ulib/ml/extracted/FStar_Map.ml" 35 1174 1210
+type(
+  '_a BatSet.t -> 'Akey FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.complement
+)
+"ulib/ml/extracted/FStar_Map.ml" 35 1174 1212 "ulib/ml/extracted/FStar_Map.ml" 35 1174 1227
+type(
+  unit -> '_a BatSet.t
+)
+ident(
+  ext_ref FStar_Set.empty
+)
+"ulib/ml/extracted/FStar_Map.ml" 35 1174 1228 "ulib/ml/extracted/FStar_Map.ml" 35 1174 1230
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Map.ml" 35 1174 1211 "ulib/ml/extracted/FStar_Map.ml" 35 1174 1231
+call(
+  stack
+)
+type(
+  '_a BatSet.t
+)
+"ulib/ml/extracted/FStar_Map.ml" 35 1174 1189 "ulib/ml/extracted/FStar_Map.ml" 35 1174 1232
+call(
+  stack
+)
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 32 1077 1081 "ulib/ml/extracted/FStar_Map.ml" 36 1233 1238
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 31 1065 1067 "ulib/ml/extracted/FStar_Map.ml" 36 1233 1238
+type(
+  'Avalue -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 38 1242 1246 "ulib/ml/extracted/FStar_Map.ml" 38 1242 1252
+type(
+  'Akey 'Avalue. ('Akey, 'Avalue) t -> 'Akey FStar_Set.set
+)
+ident(
+  def domain "ulib/ml/extracted/FStar_Map.ml" 40 1336 1336 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 39 1314 1320 "ulib/ml/extracted/FStar_Map.ml" 39 1314 1321
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Map.ml" 39 1314 1326 "ulib/ml/extracted/FStar_Map.ml" 39 1314 1334
+)
+"ulib/ml/extracted/FStar_Map.ml" 39 1314 1326 "ulib/ml/extracted/FStar_Map.ml" 39 1314 1327
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 39 1314 1320 "ulib/ml/extracted/FStar_Map.ml" 39 1314 1321
+)
+"ulib/ml/extracted/FStar_Map.ml" 39 1314 1326 "ulib/ml/extracted/FStar_Map.ml" 39 1314 1334
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 39 1314 1316 "ulib/ml/extracted/FStar_Map.ml" 39 1314 1334
+type(
+  ('Akey, 'Avalue) t -> 'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 40 1336 1340 "ulib/ml/extracted/FStar_Map.ml" 40 1336 1348
+type(
+  'Akey 'Avalue. ('Akey, 'Avalue) t -> 'Akey -> Prims.bool
+)
+ident(
+  def contains "ulib/ml/extracted/FStar_Map.ml" 42 1458 1458 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1416 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1417
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Map.ml" 41 1410 1422 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1456
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1426 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1427
+type(
+  'Akey
+)
+ident(
+  def k "ulib/ml/extracted/FStar_Map.ml" 41 1410 1432 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1456
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1432 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1445
+type(
+  'Akey -> 'Akey FStar_Set.set -> Prims.bool
+)
+ident(
+  ext_ref FStar_Set.mem
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1446 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1447
+type(
+  'Akey
+)
+ident(
+  int_ref k "ulib/ml/extracted/FStar_Map.ml" 41 1410 1426 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1427
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1448 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1449
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 41 1410 1416 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1417
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1448 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1456
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1432 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1456
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1422 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1456
+type(
+  'Akey -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Map.ml" 41 1410 1412 "ulib/ml/extracted/FStar_Map.ml" 41 1410 1456
+type(
+  ('Akey, 'Avalue) t -> 'Akey -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Map.ml" 42 1458 1462 "ulib/ml/extracted/FStar_Map.ml" 42 1458 1468
+type(
+  'Akey 'Avalue.
+    ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+ident(
+  def concat "ulib/ml/extracted/FStar_Map.ml" 57 1868 1868 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 45 1553 1559 "ulib/ml/extracted/FStar_Map.ml" 45 1553 1561
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m1 "ulib/ml/extracted/FStar_Map.ml" 46 1566 1570 "ulib/ml/extracted/FStar_Map.ml" 55 1857 1864
+)
+"ulib/ml/extracted/FStar_Map.ml" 46 1566 1574 "ulib/ml/extracted/FStar_Map.ml" 46 1566 1576
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m2 "ulib/ml/extracted/FStar_Map.ml" 47 1581 1587 "ulib/ml/extracted/FStar_Map.ml" 55 1857 1864
+)
+"ulib/ml/extracted/FStar_Map.ml" 49 1608 1619 "ulib/ml/extracted/FStar_Map.ml" 49 1608 1659
+type(
+  ('Akey -> 'Avalue) ->
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/ml/extracted/FStar_Map.ml" 50 1660 1678 "ulib/ml/extracted/FStar_Map.ml" 50 1660 1679
+type(
+  'Akey
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Map.ml" 51 1684 1700 "ulib/ml/extracted/FStar_Map.ml" 53 1764 1798
+)
+"ulib/ml/extracted/FStar_Map.ml" 51 1684 1703 "ulib/ml/extracted/FStar_Map.ml" 51 1684 1716
+type(
+  'Akey -> 'Akey FStar_Set.set -> bool
+)
+ident(
+  ext_ref FStar_Set.mem
+)
+"ulib/ml/extracted/FStar_Map.ml" 51 1684 1717 "ulib/ml/extracted/FStar_Map.ml" 51 1684 1718
+type(
+  'Akey
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Map.ml" 50 1660 1678 "ulib/ml/extracted/FStar_Map.ml" 50 1660 1679
+)
+"ulib/ml/extracted/FStar_Map.ml" 51 1684 1719 "ulib/ml/extracted/FStar_Map.ml" 51 1684 1721
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m2 "ulib/ml/extracted/FStar_Map.ml" 46 1566 1574 "ulib/ml/extracted/FStar_Map.ml" 46 1566 1576
+)
+"ulib/ml/extracted/FStar_Map.ml" 51 1684 1719 "ulib/ml/extracted/FStar_Map.ml" 51 1684 1728
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 51 1684 1703 "ulib/ml/extracted/FStar_Map.ml" 51 1684 1728
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Map.ml" 52 1729 1750 "ulib/ml/extracted/FStar_Map.ml" 52 1729 1752
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m2 "ulib/ml/extracted/FStar_Map.ml" 46 1566 1574 "ulib/ml/extracted/FStar_Map.ml" 46 1566 1576
+)
+"ulib/ml/extracted/FStar_Map.ml" 52 1729 1750 "ulib/ml/extracted/FStar_Map.ml" 52 1729 1761
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 52 1729 1762 "ulib/ml/extracted/FStar_Map.ml" 52 1729 1763
+type(
+  'Akey
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Map.ml" 50 1660 1678 "ulib/ml/extracted/FStar_Map.ml" 50 1660 1679
+)
+"ulib/ml/extracted/FStar_Map.ml" 52 1729 1750 "ulib/ml/extracted/FStar_Map.ml" 52 1729 1763
+call(
+  tail
+)
+type(
+  'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 53 1764 1785 "ulib/ml/extracted/FStar_Map.ml" 53 1764 1787
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m1 "ulib/ml/extracted/FStar_Map.ml" 45 1553 1559 "ulib/ml/extracted/FStar_Map.ml" 45 1553 1561
+)
+"ulib/ml/extracted/FStar_Map.ml" 53 1764 1785 "ulib/ml/extracted/FStar_Map.ml" 53 1764 1796
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 53 1764 1797 "ulib/ml/extracted/FStar_Map.ml" 53 1764 1798
+type(
+  'Akey
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Map.ml" 50 1660 1678 "ulib/ml/extracted/FStar_Map.ml" 50 1660 1679
+)
+"ulib/ml/extracted/FStar_Map.ml" 53 1764 1785 "ulib/ml/extracted/FStar_Map.ml" 53 1764 1798
+call(
+  tail
+)
+type(
+  'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 51 1684 1700 "ulib/ml/extracted/FStar_Map.ml" 53 1764 1798
+type(
+  'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 50 1660 1673 "ulib/ml/extracted/FStar_Map.ml" 53 1764 1799
+type(
+  'Akey -> 'Avalue
+)
+"ulib/ml/extracted/FStar_Map.ml" 49 1608 1618 "ulib/ml/extracted/FStar_Map.ml" 53 1764 1800
+call(
+  stack
+)
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 54 1802 1820 "ulib/ml/extracted/FStar_Map.ml" 54 1802 1835
+type(
+  'Akey FStar_Set.set -> 'Akey FStar_Set.set -> 'Akey FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.union
+)
+"ulib/ml/extracted/FStar_Map.ml" 54 1802 1836 "ulib/ml/extracted/FStar_Map.ml" 54 1802 1838
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m1 "ulib/ml/extracted/FStar_Map.ml" 45 1553 1559 "ulib/ml/extracted/FStar_Map.ml" 45 1553 1561
+)
+"ulib/ml/extracted/FStar_Map.ml" 54 1802 1836 "ulib/ml/extracted/FStar_Map.ml" 54 1802 1845
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 54 1802 1846 "ulib/ml/extracted/FStar_Map.ml" 54 1802 1848
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m2 "ulib/ml/extracted/FStar_Map.ml" 46 1566 1574 "ulib/ml/extracted/FStar_Map.ml" 46 1566 1576
+)
+"ulib/ml/extracted/FStar_Map.ml" 54 1802 1846 "ulib/ml/extracted/FStar_Map.ml" 54 1802 1855
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 54 1802 1819 "ulib/ml/extracted/FStar_Map.ml" 54 1802 1856
+call(
+  stack
+)
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 47 1581 1587 "ulib/ml/extracted/FStar_Map.ml" 55 1857 1864
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 46 1566 1570 "ulib/ml/extracted/FStar_Map.ml" 55 1857 1864
+type(
+  ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 45 1553 1555 "ulib/ml/extracted/FStar_Map.ml" 55 1857 1864
+type(
+  ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 57 1868 1872 "ulib/ml/extracted/FStar_Map.ml" 57 1868 1879
+type(
+  'Auu____403 'Auu____404.
+    ('Auu____403 -> 'Auu____404) ->
+    Prims.unit -> (Obj.t, 'Auu____403) t -> (Obj.t, 'Auu____404) t
+)
+ident(
+  def map_val "ulib/ml/extracted/FStar_Map.ml" 72 2229 2229 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 62 2011 2017 "ulib/ml/extracted/FStar_Map.ml" 62 2011 2018
+type(
+  'Auu____403 -> 'Auu____404
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Map.ml" 63 2023 2027 "ulib/ml/extracted/FStar_Map.ml" 70 2216 2225
+)
+"ulib/ml/extracted/FStar_Map.ml" 63 2023 2031 "ulib/ml/extracted/FStar_Map.ml" 63 2023 2034
+type(
+  Prims.unit
+)
+ident(
+  def key "ulib/ml/extracted/FStar_Map.ml" 64 2039 2045 "ulib/ml/extracted/FStar_Map.ml" 70 2216 2225
+)
+"ulib/ml/extracted/FStar_Map.ml" 64 2039 2049 "ulib/ml/extracted/FStar_Map.ml" 64 2039 2050
+type(
+  (Obj.t, 'Auu____403) t
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Map.ml" 65 2055 2063 "ulib/ml/extracted/FStar_Map.ml" 70 2216 2225
+)
+"ulib/ml/extracted/FStar_Map.ml" 67 2086 2099 "ulib/ml/extracted/FStar_Map.ml" 67 2086 2139
+type(
+  (Obj.t -> 'Auu____404) ->
+  (Obj.t, 'Auu____404) FStar_FunctionalExtensionality.restricted_t
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/ml/extracted/FStar_Map.ml" 68 2140 2160 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2161
+type(
+  Obj.t
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Map.ml" 68 2140 2166 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2182
+)
+"ulib/ml/extracted/FStar_Map.ml" 68 2140 2166 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2167
+type(
+  'Auu____403 -> 'Auu____404
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Map.ml" 62 2011 2017 "ulib/ml/extracted/FStar_Map.ml" 62 2011 2018
+)
+"ulib/ml/extracted/FStar_Map.ml" 68 2140 2169 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2170
+type(
+  (Obj.t, 'Auu____403) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 64 2039 2049 "ulib/ml/extracted/FStar_Map.ml" 64 2039 2050
+)
+"ulib/ml/extracted/FStar_Map.ml" 68 2140 2169 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2179
+type(
+  (Obj.t, 'Auu____403) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 68 2140 2180 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2181
+type(
+  Obj.t
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Map.ml" 68 2140 2160 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2161
+)
+"ulib/ml/extracted/FStar_Map.ml" 68 2140 2168 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2182
+call(
+  stack
+)
+type(
+  'Auu____403
+)
+"ulib/ml/extracted/FStar_Map.ml" 68 2140 2166 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2182
+call(
+  tail
+)
+type(
+  'Auu____404
+)
+"ulib/ml/extracted/FStar_Map.ml" 68 2140 2155 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2183
+type(
+  Obj.t -> 'Auu____404
+)
+"ulib/ml/extracted/FStar_Map.ml" 67 2086 2098 "ulib/ml/extracted/FStar_Map.ml" 68 2140 2184
+call(
+  stack
+)
+type(
+  (Obj.t, 'Auu____404) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 69 2186 2206 "ulib/ml/extracted/FStar_Map.ml" 69 2186 2207
+type(
+  (Obj.t, 'Auu____403) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 64 2039 2049 "ulib/ml/extracted/FStar_Map.ml" 64 2039 2050
+)
+"ulib/ml/extracted/FStar_Map.ml" 69 2186 2205 "ulib/ml/extracted/FStar_Map.ml" 69 2186 2215
+type(
+  Obj.t FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 65 2055 2063 "ulib/ml/extracted/FStar_Map.ml" 70 2216 2225
+type(
+  (Obj.t, 'Auu____404) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 64 2039 2045 "ulib/ml/extracted/FStar_Map.ml" 70 2216 2225
+type(
+  (Obj.t, 'Auu____403) t -> (Obj.t, 'Auu____404) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 63 2023 2027 "ulib/ml/extracted/FStar_Map.ml" 70 2216 2225
+type(
+  Prims.unit -> (Obj.t, 'Auu____403) t -> (Obj.t, 'Auu____404) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 62 2011 2013 "ulib/ml/extracted/FStar_Map.ml" 70 2216 2225
+type(
+  ('Auu____403 -> 'Auu____404) ->
+  Prims.unit -> (Obj.t, 'Auu____403) t -> (Obj.t, 'Auu____404) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 72 2229 2233 "ulib/ml/extracted/FStar_Map.ml" 72 2229 2241
+type(
+  'Akey 'Avalue.
+    'Akey FStar_Set.set -> ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+ident(
+  def restrict "ulib/ml/extracted/FStar_Map.ml" 80 2438 2438 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 76 2332 2338 "ulib/ml/extracted/FStar_Map.ml" 76 2332 2339
+type(
+  'Akey FStar_Set.set
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Map.ml" 77 2344 2348 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2434
+)
+"ulib/ml/extracted/FStar_Map.ml" 77 2344 2352 "ulib/ml/extracted/FStar_Map.ml" 77 2344 2353
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Map.ml" 78 2358 2364 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2434
+)
+"ulib/ml/extracted/FStar_Map.ml" 78 2358 2378 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2379
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 77 2344 2352 "ulib/ml/extracted/FStar_Map.ml" 77 2344 2353
+)
+"ulib/ml/extracted/FStar_Map.ml" 78 2358 2377 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2389
+type(
+  ('Akey, 'Avalue) FStar_FunctionalExtensionality.restricted_t
+)
+"ulib/ml/extracted/FStar_Map.ml" 78 2358 2401 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2420
+type(
+  'Akey FStar_Set.set -> 'Akey FStar_Set.set -> 'Akey FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.intersect
+)
+"ulib/ml/extracted/FStar_Map.ml" 78 2358 2421 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2422
+type(
+  'Akey FStar_Set.set
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Map.ml" 76 2332 2338 "ulib/ml/extracted/FStar_Map.ml" 76 2332 2339
+)
+"ulib/ml/extracted/FStar_Map.ml" 78 2358 2423 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2424
+type(
+  ('Akey, 'Avalue) t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Map.ml" 77 2344 2352 "ulib/ml/extracted/FStar_Map.ml" 77 2344 2353
+)
+"ulib/ml/extracted/FStar_Map.ml" 78 2358 2423 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2431
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 78 2358 2400 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2432
+call(
+  stack
+)
+type(
+  'Akey FStar_Set.set
+)
+"ulib/ml/extracted/FStar_Map.ml" 78 2358 2364 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2434
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 77 2344 2348 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2434
+type(
+  ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 76 2332 2334 "ulib/ml/extracted/FStar_Map.ml" 78 2358 2434
+type(
+  'Akey FStar_Set.set -> ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 80 2438 2442 "ulib/ml/extracted/FStar_Map.ml" 80 2438 2450
+type(
+  'Akey 'Avalue. 'Akey FStar_Set.set -> 'Avalue -> ('Akey, 'Avalue) t
+)
+ident(
+  def const_on "ulib/ml/extracted/FStar_Map.ml" 83 2573 2573 "ulib/ml/extracted/FStar_Map.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2531 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2534
+type(
+  'Akey FStar_Set.set
+)
+ident(
+  def dom "ulib/ml/extracted/FStar_Map.ml" 82 2525 2539 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2571
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2543 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2544
+type(
+  'Avalue
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Map.ml" 82 2525 2549 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2571
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2549 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2557
+type(
+  'Akey FStar_Set.set -> ('Akey, 'Avalue) t -> ('Akey, 'Avalue) t
+)
+ident(
+  int_ref restrict "ulib/ml/extracted/FStar_Map.ml" 72 2229 2233 "ulib/ml/extracted/FStar_Map.ml" 72 2229 2241
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2558 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2561
+type(
+  'Akey FStar_Set.set
+)
+ident(
+  int_ref dom "ulib/ml/extracted/FStar_Map.ml" 82 2525 2531 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2534
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2563 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2568
+type(
+  'Avalue -> ('Akey, 'Avalue) t
+)
+ident(
+  int_ref const "ulib/ml/extracted/FStar_Map.ml" 30 1006 1010 "ulib/ml/extracted/FStar_Map.ml" 30 1006 1015
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2569 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2570
+type(
+  'Avalue
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Map.ml" 82 2525 2543 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2544
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2562 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2571
+call(
+  stack
+)
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2549 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2571
+call(
+  tail
+)
+type(
+  ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2539 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2571
+type(
+  'Avalue -> ('Akey, 'Avalue) t
+)
+"ulib/ml/extracted/FStar_Map.ml" 82 2525 2527 "ulib/ml/extracted/FStar_Map.ml" 82 2525 2571
+type(
+  'Akey FStar_Set.set -> 'Avalue -> ('Akey, 'Avalue) t
+)

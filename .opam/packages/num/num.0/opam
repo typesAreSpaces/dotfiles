@@ -1,0 +1,9 @@
+opam-version: "1.2"
+maintainer: "Xavier Leroy <xavier.leroy@inria.fr>"
+authors: ["Valérie Ménissier-Morain" "Pierre Weis" "Xavier Leroy"]
+homepage: "https://github.com/ocaml/ocaml"
+bug-reports: "http://caml.inria.fr/mantis/"
+license: "LGPL-2 with OCaml linking exception"
+dev-repo: "https://github.com/ocaml/ocaml.git"
+depends: "base-num"
+available: [ocaml-version < "4.06.0"]

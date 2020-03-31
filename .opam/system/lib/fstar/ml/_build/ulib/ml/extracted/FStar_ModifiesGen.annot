@@ -1,0 +1,1653 @@
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 134 "ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 145
+type(
+  'Aaloc. 'Aaloc cls -> Prims.bool
+)
+ident(
+  def uu___is_Cls "ulib/ml/extracted/FStar_ModifiesGen.ml" 7 208 208 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 188 "ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 197
+type(
+  'Aaloc cls
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 202 "ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 206
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 202 "ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 206
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 184 "ulib/ml/extracted/FStar_ModifiesGen.ml" 6 130 206
+type(
+  'Aaloc cls -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 22 608 612 "ulib/ml/extracted/FStar_ModifiesGen.ml" 22 608 624
+type(
+  'Aal. 'Aal cls -> ('Aal, Prims.unit) aloc -> Prims.bool
+)
+ident(
+  def uu___is_ALoc "ulib/ml/extracted/FStar_ModifiesGen.ml" 25 716 716 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 685 "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 686
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 691 "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 713
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 695 "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 704
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 709 "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 713
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 709 "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 713
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 691 "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 713
+type(
+  ('Aal, Prims.unit) aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 681 "ulib/ml/extracted/FStar_ModifiesGen.ml" 23 679 713
+type(
+  'Aal cls -> ('Aal, Prims.unit) aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 25 716 720 "ulib/ml/extracted/FStar_ModifiesGen.ml" 25 716 744
+type(
+  'Aal. 'Aal cls -> ('Aal, Prims.unit) aloc -> Prims.nat
+)
+ident(
+  def __proj__ALoc__item__addr "ulib/ml/extracted/FStar_ModifiesGen.ml" 30 891 891 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 27 800 806 "ulib/ml/extracted/FStar_ModifiesGen.ml" 27 800 807
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 816 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 820 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 829
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 834 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 840 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 849
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 820 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 829
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 863 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 869
+type(
+  Prims.unit
+)
+ident(
+  def region "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 883 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 870 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 874
+type(
+  Prims.nat
+)
+ident(
+  def addr "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 883 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 875 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 878
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+ident(
+  def loc "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 883 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 857 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 879
+type(
+  ('Aal, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 883 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+type(
+  Prims.nat
+)
+ident(
+  int_ref addr "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 870 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 874
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 834 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 816 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+type(
+  ('Aal, Prims.unit) aloc -> Prims.nat
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 27 800 802 "ulib/ml/extracted/FStar_ModifiesGen.ml" 28 812 887
+type(
+  'Aal cls -> ('Aal, Prims.unit) aloc -> Prims.nat
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 30 891 895 "ulib/ml/extracted/FStar_ModifiesGen.ml" 30 891 918
+type(
+  'Aal.
+    'Aal cls ->
+    ('Aal, Prims.unit) aloc -> 'Aal FStar_Pervasives_Native.option
+)
+ident(
+  def __proj__ALoc__item__loc "ulib/ml/extracted/FStar_ModifiesGen.ml" 37 1093 1093 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 33 1002 1008 "ulib/ml/extracted/FStar_ModifiesGen.ml" 33 1002 1009
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1018 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1022 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1031
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1036 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1042 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1051
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1022 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1031
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1065 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1071
+type(
+  Prims.unit
+)
+ident(
+  def region "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1085 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1072 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1076
+type(
+  Prims.nat
+)
+ident(
+  def addr "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1085 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1077 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1080
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+ident(
+  def loc "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1085 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1059 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1081
+type(
+  ('Aal, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1085 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+ident(
+  int_ref loc "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1077 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1080
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1036 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1018 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+type(
+  ('Aal, Prims.unit) aloc -> 'Aal FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 33 1002 1004 "ulib/ml/extracted/FStar_ModifiesGen.ml" 34 1014 1088
+type(
+  'Aal cls -> ('Aal, Prims.unit) aloc -> 'Aal FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 44 1391 1395 "ulib/ml/extracted/FStar_ModifiesGen.ml" 44 1391 1406
+type(
+  'Aal. 'Aal cls -> ('Aal, Prims.unit) loc' -> Prims.bool
+)
+ident(
+  def uu___is_Loc "ulib/ml/extracted/FStar_ModifiesGen.ml" 51 1502 1502 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1467 "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1468
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1473 "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1495
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1477 "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1486
+type(
+  ('Aal, Prims.unit) loc'
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1491 "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1495
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1491 "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1495
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1473 "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1495
+type(
+  ('Aal, Prims.unit) loc' -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1463 "ulib/ml/extracted/FStar_ModifiesGen.ml" 45 1461 1495
+type(
+  'Aal cls -> ('Aal, Prims.unit) loc' -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 54 1547 1551 "ulib/ml/extracted/FStar_ModifiesGen.ml" 54 1547 1559
+type(
+  'Aa. 'Aa cls -> ('Aa, Prims.unit) loc
+)
+ident(
+  def loc_none "ulib/ml/extracted/FStar_ModifiesGen.ml" 64 1642 1642 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1602 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1603
+type(
+  'Aa cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1608 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1632
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1613 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1615
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1617 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1619
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1621 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1623
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1625 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1627
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1629 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1631
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1608 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1632
+type(
+  ('Aa, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1598 "ulib/ml/extracted/FStar_ModifiesGen.ml" 55 1596 1632
+type(
+  'Aa cls -> ('Aa, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 141 2360 2364 "ulib/ml/extracted/FStar_ModifiesGen.ml" 141 2360 2397
+type(
+  'Aal. 'Aal cls -> ('Aal, Prims.unit) loc
+)
+ident(
+  def address_liveness_insensitive_locs "ulib/ml/extracted/FStar_ModifiesGen.ml" 145 2477 2477 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2443 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2444
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2449 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2473
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2454 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2456
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2458 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2460
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2462 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2464
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2466 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2468
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2470 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2472
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2449 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2473
+type(
+  ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2439 "ulib/ml/extracted/FStar_ModifiesGen.ml" 142 2437 2473
+type(
+  'Aal cls -> ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 145 2477 2481 "ulib/ml/extracted/FStar_ModifiesGen.ml" 145 2477 2513
+type(
+  'Aal. 'Aal cls -> ('Aal, Prims.unit) loc
+)
+ident(
+  def region_liveness_insensitive_locs "ulib/ml/extracted/FStar_ModifiesGen.ml" 151 2595 2595 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2559 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2560
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2565 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2589
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2570 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2572
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2574 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2576
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2578 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2580
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2582 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2584
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2586 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2588
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2565 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2589
+type(
+  ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2555 "ulib/ml/extracted/FStar_ModifiesGen.ml" 146 2553 2589
+type(
+  'Aal cls -> ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 231 3264 3268 "ulib/ml/extracted/FStar_ModifiesGen.ml" 231 3264 3286
+type(
+  'Aal.
+    Prims.unit ->
+    Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+ident(
+  def uu___is_ALOC_FALSE "ulib/ml/extracted/FStar_ModifiesGen.ml" 238 3495 3495 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 233 3367 3373 "ulib/ml/extracted/FStar_ModifiesGen.ml" 233 3367 3374
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_ModifiesGen.ml" 234 3379 3383 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 234 3379 3387 "ulib/ml/extracted/FStar_ModifiesGen.ml" 234 3379 3388
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_ModifiesGen.ml" 235 3393 3399 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 235 3393 3403 "ulib/ml/extracted/FStar_ModifiesGen.ml" 235 3393 3412
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3425 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3431 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3440
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 235 3393 3403 "ulib/ml/extracted/FStar_ModifiesGen.ml" 235 3393 3412
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3459 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3461
+type(
+  'Aal
+)
+ident(
+  def _0 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3465 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3469
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3448 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3461
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3465 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3469
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3472 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3482
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def uu____4522 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3486 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3486 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3425 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 235 3393 3399 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 234 3379 3383 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+type(
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 233 3367 3369 "ulib/ml/extracted/FStar_ModifiesGen.ml" 236 3417 3491
+type(
+  Prims.unit ->
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 238 3495 3499 "ulib/ml/extracted/FStar_ModifiesGen.ml" 238 3495 3527
+type(
+  'Aal.
+    Prims.unit ->
+    Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+ident(
+  def __proj__ALOC_FALSE__item___0 "ulib/ml/extracted/FStar_ModifiesGen.ml" 243 3692 3692 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 240 3602 3608 "ulib/ml/extracted/FStar_ModifiesGen.ml" 240 3602 3609
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3618 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3622 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3623
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3628 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3632 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3641
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3646 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3652 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3661
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3632 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3641
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3680 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3682
+type(
+  'Aal
+)
+ident(
+  def _0 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3686 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3669 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3682
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3686 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+type(
+  'Aal
+)
+ident(
+  int_ref _0 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3680 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3682
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3646 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+type(
+  'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3628 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3618 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+type(
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 240 3602 3604 "ulib/ml/extracted/FStar_ModifiesGen.ml" 241 3614 3688
+type(
+  Prims.unit ->
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 243 3692 3696 "ulib/ml/extracted/FStar_ModifiesGen.ml" 243 3692 3713
+type(
+  'Aal.
+    Prims.unit ->
+    Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+ident(
+  def uu___is_ALOC_TRUE "ulib/ml/extracted/FStar_ModifiesGen.ml" 250 3921 3921 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 245 3794 3800 "ulib/ml/extracted/FStar_ModifiesGen.ml" 245 3794 3801
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_ModifiesGen.ml" 246 3806 3810 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 246 3806 3814 "ulib/ml/extracted/FStar_ModifiesGen.ml" 246 3806 3815
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_ModifiesGen.ml" 247 3820 3826 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 247 3820 3830 "ulib/ml/extracted/FStar_ModifiesGen.ml" 247 3820 3839
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3852 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3858 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3867
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 247 3820 3830 "ulib/ml/extracted/FStar_ModifiesGen.ml" 247 3820 3839
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3885 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3887
+type(
+  'Aal
+)
+ident(
+  def _0 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3891 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3895
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3875 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3887
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3891 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3895
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3898 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3908
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def uu____4666 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3912 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3912 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3852 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 247 3820 3826 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 246 3806 3810 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+type(
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 245 3794 3796 "ulib/ml/extracted/FStar_ModifiesGen.ml" 248 3844 3917
+type(
+  Prims.unit ->
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 250 3921 3925 "ulib/ml/extracted/FStar_ModifiesGen.ml" 250 3921 3952
+type(
+  'Aal.
+    Prims.unit ->
+    Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+ident(
+  def __proj__ALOC_TRUE__item___0 "ulib/ml/extracted/FStar_ModifiesGen.ml" 255 4116 4116 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 252 4027 4033 "ulib/ml/extracted/FStar_ModifiesGen.ml" 252 4027 4034
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4043 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4047 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4048
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4053 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4057 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4066
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4071 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4077 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4086
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4057 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4066
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4104 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4106
+type(
+  'Aal
+)
+ident(
+  def _0 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4110 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4094 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4106
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4110 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+type(
+  'Aal
+)
+ident(
+  int_ref _0 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4104 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4106
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4071 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+type(
+  'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4053 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4043 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+type(
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 252 4027 4029 "ulib/ml/extracted/FStar_ModifiesGen.ml" 253 4039 4112
+type(
+  Prims.unit ->
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 255 4116 4120 "ulib/ml/extracted/FStar_ModifiesGen.ml" 255 4116 4142
+type(
+  'Aal.
+    Prims.unit ->
+    Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+ident(
+  def bool_of_cls_union_aloc "ulib/ml/extracted/FStar_ModifiesGen.ml" 264 4369 4369 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 257 4223 4229 "ulib/ml/extracted/FStar_ModifiesGen.ml" 257 4223 4230
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_ModifiesGen.ml" 258 4235 4239 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 258 4235 4243 "ulib/ml/extracted/FStar_ModifiesGen.ml" 258 4235 4244
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_ModifiesGen.ml" 259 4249 4255 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 259 4249 4259 "ulib/ml/extracted/FStar_ModifiesGen.ml" 259 4249 4260
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def l "ulib/ml/extracted/FStar_ModifiesGen.ml" 260 4265 4273 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 260 4265 4279 "ulib/ml/extracted/FStar_ModifiesGen.ml" 260 4265 4280
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_ModifiesGen.ml" 259 4249 4259 "ulib/ml/extracted/FStar_ModifiesGen.ml" 259 4249 4260
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 261 4286 4307 "ulib/ml/extracted/FStar_ModifiesGen.ml" 261 4286 4317
+type(
+  'Aal
+)
+ident(
+  def uu____4811 "ulib/ml/extracted/FStar_ModifiesGen.ml" 261 4286 4321 "ulib/ml/extracted/FStar_ModifiesGen.ml" 261 4286 4326
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 261 4286 4296 "ulib/ml/extracted/FStar_ModifiesGen.ml" 261 4286 4317
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 261 4286 4321 "ulib/ml/extracted/FStar_ModifiesGen.ml" 261 4286 4326
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4347 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4357
+type(
+  'Aal
+)
+ident(
+  def uu____4813 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4361 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4337 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4357
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4361 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 260 4265 4273 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 259 4249 4255 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 258 4235 4239 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+type(
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 257 4223 4225 "ulib/ml/extracted/FStar_ModifiesGen.ml" 262 4327 4365
+type(
+  Prims.unit ->
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 264 4369 4373 "ulib/ml/extracted/FStar_ModifiesGen.ml" 264 4369 4395
+type(
+  'Aal.
+    Prims.unit ->
+    Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+ident(
+  def aloc_of_cls_union_aloc "ulib/ml/extracted/FStar_ModifiesGen.ml" 269 4561 4561 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 266 4470 4476 "ulib/ml/extracted/FStar_ModifiesGen.ml" 266 4470 4477
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4486 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4490 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4491
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4496 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4500 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4501
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def l "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4506 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4512 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4513
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4500 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4501
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4532 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4533
+type(
+  'Aal
+)
+ident(
+  def x "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4537 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4538
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4521 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4533
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4537 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4538
+type(
+  'Aal
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4532 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4533
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4551 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4552
+type(
+  'Aal
+)
+ident(
+  def x "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4556 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4541 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4552
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4556 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+type(
+  'Aal
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4551 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4552
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4506 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+type(
+  'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4496 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4486 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+type(
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 266 4470 4472 "ulib/ml/extracted/FStar_ModifiesGen.ml" 267 4482 4557
+type(
+  Prims.unit ->
+  Prims.nat -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc -> 'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 269 4561 4565 "ulib/ml/extracted/FStar_ModifiesGen.ml" 269 4561 4584
+type(
+  'Aal.
+    Prims.bool ->
+    Prims.unit ->
+    Prims.nat -> 'Aal -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+ident(
+  def make_cls_union_aloc "ulib/ml/extracted/FStar_ModifiesGen.ml" 277 4774 4774 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 274 4685 4691 "ulib/ml/extracted/FStar_ModifiesGen.ml" 274 4685 4692
+type(
+  Prims.bool
+)
+ident(
+  def b "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4701 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4705 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4706
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4711 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4715 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4716
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4721 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4725 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4726
+type(
+  'Aal
+)
+ident(
+  def l "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4731 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4734 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4735
+type(
+  Prims.bool
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_ModifiesGen.ml" 274 4685 4691 "ulib/ml/extracted/FStar_ModifiesGen.ml" 274 4685 4692
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4751 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4752
+type(
+  'Aal
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4725 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4726
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4741 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4752
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4769 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+type(
+  'Aal
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4725 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4726
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4758 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4731 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+type(
+  ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4721 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+type(
+  'Aal -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4711 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+type(
+  Prims.nat -> 'Aal -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4701 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+type(
+  Prims.unit ->
+  Prims.nat -> 'Aal -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 274 4685 4687 "ulib/ml/extracted/FStar_ModifiesGen.ml" 275 4697 4770
+type(
+  Prims.bool ->
+  Prims.unit ->
+  Prims.nat -> 'Aal -> ('Aal, Prims.unit, Prims.unit) cls_union_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 282 5093 5097 "ulib/ml/extracted/FStar_ModifiesGen.ml" 282 5093 5106
+type(
+  'Aal.
+    (Prims.bool -> 'Aal cls) -> ('Aal, Prims.unit, Prims.unit) aloc_union cls
+)
+ident(
+  def cls_union "ulib/ml/extracted/FStar_ModifiesGen.ml" 312 5265 5265 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5186 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5187
+type(
+  Prims.bool -> 'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5192 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5236
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5197 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5199
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5201 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5203
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5205 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5207
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5209 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5211
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5213 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5215
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5217 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5219
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5221 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5223
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5225 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5227
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5229 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5231
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5233 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5235
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5192 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5236
+type(
+  ('Aal, Prims.unit, Prims.unit) aloc_union cls
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5182 "ulib/ml/extracted/FStar_ModifiesGen.ml" 284 5180 5236
+type(
+  (Prims.bool -> 'Aal cls) -> ('Aal, Prims.unit, Prims.unit) aloc_union cls
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 313 5326 5330 "ulib/ml/extracted/FStar_ModifiesGen.ml" 313 5326 5339
+type(
+  'Aal. 'Aal cls -> ('Aal, Prims.unit, Prims.unit) raise_aloc cls
+)
+ident(
+  def raise_cls "ulib/ml/extracted/FStar_ModifiesGen.ml" 315 5453 5453 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5401 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5402
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5407 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5451
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5412 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5414
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5416 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5418
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5420 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5422
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5424 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5426
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5428 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5430
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5432 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5434
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5436 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5438
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5440 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5442
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5444 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5446
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5448 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5450
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5407 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5451
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc cls
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5397 "ulib/ml/extracted/FStar_ModifiesGen.ml" 314 5395 5451
+type(
+  'Aal cls -> ('Aal, Prims.unit, Prims.unit) raise_aloc cls
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 315 5453 5457 "ulib/ml/extracted/FStar_ModifiesGen.ml" 315 5453 5471
+type(
+  'Aal.
+    'Aal cls ->
+    (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc ->
+    ('Aal, Prims.unit) aloc
+)
+ident(
+  def downgrade_aloc "ulib/ml/extracted/FStar_ModifiesGen.ml" 333 6015 6015 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 319 5563 5569 "ulib/ml/extracted/FStar_ModifiesGen.ml" 319 5563 5570
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 320 5575 5579 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 320 5575 5583 "ulib/ml/extracted/FStar_ModifiesGen.ml" 320 5575 5584
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+ident(
+  def a "ulib/ml/extracted/FStar_ModifiesGen.ml" 321 5589 5595 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 321 5589 5599 "ulib/ml/extracted/FStar_ModifiesGen.ml" 321 5589 5609
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+ident(
+  def uu____6353 "ulib/ml/extracted/FStar_ModifiesGen.ml" 322 5618 5624 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 321 5589 5612 "ulib/ml/extracted/FStar_ModifiesGen.ml" 321 5589 5613
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_ModifiesGen.ml" 320 5575 5583 "ulib/ml/extracted/FStar_ModifiesGen.ml" 320 5575 5584
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 322 5618 5630 "ulib/ml/extracted/FStar_ModifiesGen.ml" 322 5618 5640
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+ident(
+  int_ref uu____6353 "ulib/ml/extracted/FStar_ModifiesGen.ml" 321 5589 5599 "ulib/ml/extracted/FStar_ModifiesGen.ml" 321 5589 5609
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5660 "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5666
+type(
+  Prims.unit
+)
+ident(
+  def region "ulib/ml/extracted/FStar_ModifiesGen.ml" 324 5678 5688 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5667 "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5671
+type(
+  Prims.nat
+)
+ident(
+  def addr "ulib/ml/extracted/FStar_ModifiesGen.ml" 324 5678 5688 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5672 "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5673
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc FStar_Pervasives_Native.option
+)
+ident(
+  def x "ulib/ml/extracted/FStar_ModifiesGen.ml" 324 5678 5688 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5654 "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5674
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 325 5693 5706 "ulib/ml/extracted/FStar_ModifiesGen.ml" 325 5693 5708
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 325 5693 5710 "ulib/ml/extracted/FStar_ModifiesGen.ml" 325 5693 5714
+type(
+  Prims.nat
+)
+ident(
+  int_ref addr "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5667 "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5671
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 326 5716 5734 "ulib/ml/extracted/FStar_ModifiesGen.ml" 326 5716 5770
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc FStar_Pervasives_Native.option ->
+  bool
+)
+ident(
+  ext_ref FStar_Pervasives_Native.uu___is_None
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 326 5716 5771 "ulib/ml/extracted/FStar_ModifiesGen.ml" 326 5716 5772
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc FStar_Pervasives_Native.option
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5672 "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5673
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 326 5716 5734 "ulib/ml/extracted/FStar_ModifiesGen.ml" 326 5716 5772
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 327 5773 5793 "ulib/ml/extracted/FStar_ModifiesGen.ml" 327 5773 5821
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 330 5888 5908 "ulib/ml/extracted/FStar_ModifiesGen.ml" 330 5888 5936
+type(
+  'Aal FStar_Universe.raise_t -> 'Aal
+)
+ident(
+  ext_ref FStar_Universe.downgrade_val
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 5960 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6005
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc FStar_Pervasives_Native.option ->
+  ('Aal, Prims.unit, Prims.unit) raise_aloc
+)
+ident(
+  ext_ref FStar_Pervasives_Native.__proj__Some__item__v
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6006 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6007
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc FStar_Pervasives_Native.option
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5672 "ulib/ml/extracted/FStar_ModifiesGen.ml" 323 5646 5673
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 5959 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6008
+call(
+  stack
+)
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 330 5888 5907 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6009
+call(
+  stack
+)
+type(
+  'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 329 5842 5859 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6009
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 326 5716 5730 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6010
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 324 5678 5688 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+type(
+  ('Aal, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 322 5618 5624 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+type(
+  ('Aal, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 321 5589 5595 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+type(
+  ('Aal, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 320 5575 5579 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc ->
+  ('Aal, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 319 5563 5565 "ulib/ml/extracted/FStar_ModifiesGen.ml" 331 5937 6011
+type(
+  'Aal cls ->
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc ->
+  ('Aal, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 333 6015 6019 "ulib/ml/extracted/FStar_ModifiesGen.ml" 333 6015 6031
+type(
+  'Aal.
+    'Aal cls ->
+    ('Aal, Prims.unit) aloc ->
+    (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+ident(
+  def upgrade_aloc "ulib/ml/extracted/FStar_ModifiesGen.ml" 354 6574 6574 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 337 6123 6129 "ulib/ml/extracted/FStar_ModifiesGen.ml" 337 6123 6130
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 338 6135 6139 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 338 6135 6143 "ulib/ml/extracted/FStar_ModifiesGen.ml" 338 6135 6144
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  def a "ulib/ml/extracted/FStar_ModifiesGen.ml" 339 6149 6155 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 339 6149 6159 "ulib/ml/extracted/FStar_ModifiesGen.ml" 339 6149 6169
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  def uu____6504 "ulib/ml/extracted/FStar_ModifiesGen.ml" 340 6178 6184 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 339 6149 6172 "ulib/ml/extracted/FStar_ModifiesGen.ml" 339 6149 6173
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_ModifiesGen.ml" 338 6135 6143 "ulib/ml/extracted/FStar_ModifiesGen.ml" 338 6135 6144
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 340 6178 6190 "ulib/ml/extracted/FStar_ModifiesGen.ml" 340 6178 6200
+type(
+  ('Aal, Prims.unit) aloc
+)
+ident(
+  int_ref uu____6504 "ulib/ml/extracted/FStar_ModifiesGen.ml" 339 6149 6159 "ulib/ml/extracted/FStar_ModifiesGen.ml" 339 6149 6169
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6220 "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6226
+type(
+  Prims.unit
+)
+ident(
+  def region "ulib/ml/extracted/FStar_ModifiesGen.ml" 342 6238 6248 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6227 "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6231
+type(
+  Prims.nat
+)
+ident(
+  def addr "ulib/ml/extracted/FStar_ModifiesGen.ml" 342 6238 6248 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6232 "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6233
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+ident(
+  def x "ulib/ml/extracted/FStar_ModifiesGen.ml" 342 6238 6248 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6214 "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6234
+type(
+  ('Aal, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 343 6253 6266 "ulib/ml/extracted/FStar_ModifiesGen.ml" 343 6253 6268
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 343 6253 6270 "ulib/ml/extracted/FStar_ModifiesGen.ml" 343 6253 6274
+type(
+  Prims.nat
+)
+ident(
+  int_ref addr "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6227 "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6231
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 344 6276 6294 "ulib/ml/extracted/FStar_ModifiesGen.ml" 344 6276 6330
+type(
+  'Aal FStar_Pervasives_Native.option -> bool
+)
+ident(
+  ext_ref FStar_Pervasives_Native.uu___is_None
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 344 6276 6331 "ulib/ml/extracted/FStar_ModifiesGen.ml" 344 6276 6332
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6232 "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6233
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 344 6276 6294 "ulib/ml/extracted/FStar_ModifiesGen.ml" 344 6276 6332
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 345 6333 6353 "ulib/ml/extracted/FStar_ModifiesGen.ml" 345 6333 6381
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 348 6448 6468 "ulib/ml/extracted/FStar_ModifiesGen.ml" 348 6448 6492
+type(
+  'Aal -> 'Aal FStar_Universe.raise_t
+)
+ident(
+  ext_ref FStar_Universe.raise_val
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6516 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6561
+type(
+  'Aal FStar_Pervasives_Native.option -> 'Aal
+)
+ident(
+  ext_ref FStar_Pervasives_Native.__proj__Some__item__v
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6562 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6563
+type(
+  'Aal FStar_Pervasives_Native.option
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6232 "ulib/ml/extracted/FStar_ModifiesGen.ml" 341 6206 6233
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6515 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6564
+call(
+  stack
+)
+type(
+  'Aal
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 348 6448 6467 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6565
+call(
+  stack
+)
+type(
+  'Aal FStar_Universe.raise_t
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 347 6402 6419 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6565
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 344 6276 6290 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6566
+type(
+  ('Aal, Prims.unit, Prims.unit) raise_aloc FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 342 6238 6248 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 340 6178 6184 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 339 6149 6155 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 338 6135 6139 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+type(
+  ('Aal, Prims.unit) aloc ->
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 337 6123 6125 "ulib/ml/extracted/FStar_ModifiesGen.ml" 349 6493 6567
+type(
+  'Aal cls ->
+  ('Aal, Prims.unit) aloc ->
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) aloc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 354 6574 6578 "ulib/ml/extracted/FStar_ModifiesGen.ml" 354 6574 6587
+type(
+  'Aal.
+    'Aal cls ->
+    ('Aal, Prims.unit) loc ->
+    (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+ident(
+  def raise_loc "ulib/ml/extracted/FStar_ModifiesGen.ml" 373 6882 6882 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 358 6677 6683 "ulib/ml/extracted/FStar_ModifiesGen.ml" 358 6677 6684
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 359 6689 6693 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 359 6689 6697 "ulib/ml/extracted/FStar_ModifiesGen.ml" 359 6689 6698
+type(
+  ('Aal, Prims.unit) loc
+)
+ident(
+  def l "ulib/ml/extracted/FStar_ModifiesGen.ml" 360 6703 6709 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 360 6703 6713 "ulib/ml/extracted/FStar_ModifiesGen.ml" 360 6703 6723
+type(
+  ('Aal, Prims.unit) loc
+)
+ident(
+  def uu____6649 "ulib/ml/extracted/FStar_ModifiesGen.ml" 361 6732 6738 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 360 6703 6726 "ulib/ml/extracted/FStar_ModifiesGen.ml" 360 6703 6727
+type(
+  ('Aal, Prims.unit) loc
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_ModifiesGen.ml" 359 6689 6697 "ulib/ml/extracted/FStar_ModifiesGen.ml" 359 6689 6698
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 361 6732 6744 "ulib/ml/extracted/FStar_ModifiesGen.ml" 361 6732 6754
+type(
+  ('Aal, Prims.unit) loc
+)
+ident(
+  int_ref uu____6649 "ulib/ml/extracted/FStar_ModifiesGen.ml" 360 6703 6713 "ulib/ml/extracted/FStar_ModifiesGen.ml" 360 6703 6723
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6773 "ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6780
+type(
+  Prims.unit
+)
+ident(
+  def regions "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6846 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6781 "ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6801
+type(
+  Prims.unit
+)
+ident(
+  def region_liveness_tags "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6846 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6802 "ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6816
+type(
+  Prims.unit
+)
+ident(
+  def non_live_addrs "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6846 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6817 "ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6827
+type(
+  Prims.unit
+)
+ident(
+  def live_addrs "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6846 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6828 "ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6831
+type(
+  Prims.unit
+)
+ident(
+  def aux "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6846 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6768 "ulib/ml/extracted/FStar_ModifiesGen.ml" 362 6760 6832
+type(
+  ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6851 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6853
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6855 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6857
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6859 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6861
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6863 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6865
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6867 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6869
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6846 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 361 6732 6738 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 360 6703 6709 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 359 6689 6693 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+type(
+  ('Aal, Prims.unit) loc ->
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 358 6677 6679 "ulib/ml/extracted/FStar_ModifiesGen.ml" 363 6836 6870
+type(
+  'Aal cls ->
+  ('Aal, Prims.unit) loc ->
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 373 6882 6886 "ulib/ml/extracted/FStar_ModifiesGen.ml" 373 6882 6895
+type(
+  'Aal.
+    'Aal cls ->
+    (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc ->
+    ('Aal, Prims.unit) loc
+)
+ident(
+  def lower_loc "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178 "ulib/ml/extracted/FStar_ModifiesGen.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 377 6985 6991 "ulib/ml/extracted/FStar_ModifiesGen.ml" 377 6985 6992
+type(
+  'Aal cls
+)
+ident(
+  def c "ulib/ml/extracted/FStar_ModifiesGen.ml" 378 6997 7001 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 378 6997 7005 "ulib/ml/extracted/FStar_ModifiesGen.ml" 378 6997 7006
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+ident(
+  def l "ulib/ml/extracted/FStar_ModifiesGen.ml" 379 7011 7017 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 379 7011 7021 "ulib/ml/extracted/FStar_ModifiesGen.ml" 379 7011 7031
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+ident(
+  def uu____6815 "ulib/ml/extracted/FStar_ModifiesGen.ml" 380 7040 7046 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 379 7011 7034 "ulib/ml/extracted/FStar_ModifiesGen.ml" 379 7011 7035
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+ident(
+  int_ref l "ulib/ml/extracted/FStar_ModifiesGen.ml" 378 6997 7005 "ulib/ml/extracted/FStar_ModifiesGen.ml" 378 6997 7006
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 380 7040 7052 "ulib/ml/extracted/FStar_ModifiesGen.ml" 380 7040 7062
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+ident(
+  int_ref uu____6815 "ulib/ml/extracted/FStar_ModifiesGen.ml" 379 7011 7021 "ulib/ml/extracted/FStar_ModifiesGen.ml" 379 7011 7031
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7081 "ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7088
+type(
+  Prims.unit
+)
+ident(
+  def regions "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7154 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7089 "ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7109
+type(
+  Prims.unit
+)
+ident(
+  def region_liveness_tags "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7154 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7110 "ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7124
+type(
+  Prims.unit
+)
+ident(
+  def non_live_addrs "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7154 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7125 "ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7135
+type(
+  Prims.unit
+)
+ident(
+  def live_addrs "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7154 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7136 "ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7139
+type(
+  Prims.unit
+)
+ident(
+  def aux "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7154 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7076 "ulib/ml/extracted/FStar_ModifiesGen.ml" 381 7068 7140
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7159 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7161
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7163 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7165
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7167 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7169
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7171 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7173
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7175 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7177
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7154 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+type(
+  ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 380 7040 7046 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+type(
+  ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 379 7011 7017 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+type(
+  ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 378 6997 7001 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+type(
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc ->
+  ('Aal, Prims.unit) loc
+)
+"ulib/ml/extracted/FStar_ModifiesGen.ml" 377 6985 6987 "ulib/ml/extracted/FStar_ModifiesGen.ml" 382 7144 7178
+type(
+  'Aal cls ->
+  (('Aal, Prims.unit, Prims.unit) raise_aloc, Prims.unit) loc ->
+  ('Aal, Prims.unit) loc
+)

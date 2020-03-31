@@ -1,0 +1,2194 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 4 52 56 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 4 52 65
+type(
+  'Aa 'Ab. ('Aa, 'Ab) rel -> Prims.bool
+)
+ident(
+  def uu___is_R "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 6 134 134 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 5 108 114 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 5 108 123
+type(
+  ('Aa, 'Ab) rel
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 5 108 128 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 5 108 132
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 5 108 128 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 5 108 132
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 5 108 110 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 5 108 132
+type(
+  ('Aa, 'Ab) rel -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 6 134 138 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 6 134 156
+type(
+  'Aa 'Ab. ('Aa, 'Ab) rel -> 'Aa
+)
+ident(
+  def __proj__R__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 8 249 249 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 198 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 207
+type(
+  ('Aa, 'Ab) rel
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 212 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 247
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 218 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 227
+type(
+  ('Aa, 'Ab) rel
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 198 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 207
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 238 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 239
+type(
+  'Aa
+)
+ident(
+  def l "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 247
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 241
+type(
+  'Ab
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 247
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 235 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 242
+type(
+  ('Aa, 'Ab) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 247
+type(
+  'Aa
+)
+ident(
+  int_ref l "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 238 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 239
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 212 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 247
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 194 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 7 192 247
+type(
+  ('Aa, 'Ab) rel -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 8 249 253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 8 249 271
+type(
+  'Aa 'Ab. ('Aa, 'Ab) rel -> 'Ab
+)
+ident(
+  def __proj__R__item__r "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 10 364 364 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 313 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 322
+type(
+  ('Aa, 'Ab) rel
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 327 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 362
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 342
+type(
+  ('Aa, 'Ab) rel
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 313 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 322
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 353 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 354
+type(
+  'Aa
+)
+ident(
+  def l "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 361 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 362
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 355 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 356
+type(
+  'Ab
+)
+ident(
+  def r "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 361 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 362
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 350 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 357
+type(
+  ('Aa, 'Ab) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 361 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 362
+type(
+  'Ab
+)
+ident(
+  int_ref r "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 355 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 327 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 362
+type(
+  'Ab
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 309 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 9 307 362
+type(
+  ('Aa, 'Ab) rel -> 'Ab
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 12 421 425 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 12 421 430
+type(
+  'Auu____127. 'Auu____127 -> ('Auu____127, 'Auu____127) rel
+)
+ident(
+  def twice "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 516 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 500 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 501
+type(
+  'Auu____127
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 506 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 514
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 509 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 510
+type(
+  'Auu____127
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 500 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 501
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 512 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 513
+type(
+  'Auu____127
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 500 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 501
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 506 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 514
+type(
+  ('Auu____127, 'Auu____127) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 496 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 13 494 514
+type(
+  'Auu____127 -> ('Auu____127, 'Auu____127) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 521 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 523
+type(
+  (Prims.unit, Prims.unit) rel
+)
+ident(
+  def tu "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 15 555 555 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 545 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 550
+type(
+  Prims.unit -> (Prims.unit, Prims.unit) rel
+)
+ident(
+  int_ref twice "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 12 421 425 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 12 421 430
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 551 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 553
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 545 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 14 516 553
+call(
+  stack
+)
+type(
+  (Prims.unit, Prims.unit) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 15 555 559 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 15 555 568
+type(
+  'a 'b. ('a -> 'b) -> 'a double -> 'b double
+)
+ident(
+  def rel_map1T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 19 710 710 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 16 618 624 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 16 618 625
+type(
+  'a -> 'b
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 634 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 706
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 638 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 647
+type(
+  'a double
+)
+ident(
+  def uu____176 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 706
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 658 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 667
+type(
+  'a double
+)
+ident(
+  int_ref uu____176 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 638 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 647
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 678 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 680
+type(
+  'a
+)
+ident(
+  def x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 688 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 706
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 681 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 683
+type(
+  'a
+)
+ident(
+  def x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 688 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 706
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 675 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 684
+type(
+  'a double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 692 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 693
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 16 618 624 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 16 618 625
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 694 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 696
+type(
+  'a
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 678 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 680
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 697
+call(
+  stack
+)
+type(
+  'b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 700 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 701
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 16 618 624 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 16 618 625
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 702 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 704
+type(
+  'a
+)
+ident(
+  int_ref x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 681 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 683
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 699 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 705
+call(
+  stack
+)
+type(
+  'b
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 688 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 706
+type(
+  'b double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 652 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 706
+type(
+  'b double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 634 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 706
+type(
+  'a double -> 'b double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 16 618 620 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 17 630 706
+type(
+  ('a -> 'b) -> 'a double -> 'b double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 19 710 714 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 19 710 725
+type(
+  'Aa 'Ab 'Ac. ('Aa -> 'Ab -> 'Ac) -> 'Aa double -> 'Ab double -> 'Ac double
+)
+ident(
+  def rel_map2Teq "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 973 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 22 810 816 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 22 810 817
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 23 822 826 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 23 822 830 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 23 822 839
+type(
+  'Aa double
+)
+ident(
+  def uu____236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 24 844 850 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 24 844 854 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 24 844 863
+type(
+  'Ab double
+)
+ident(
+  def uu____237 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 25 868 876 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 25 868 883 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 25 868 892
+type(
+  'Aa double
+)
+ident(
+  int_ref uu____236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 23 822 830 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 23 822 839
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 25 868 894 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 25 868 903
+type(
+  'Ab double
+)
+ident(
+  int_ref uu____237 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 24 844 854 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 24 844 863
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 25 868 882 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 25 868 904
+type(
+  'Aa double * 'Ab double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 924 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 926
+type(
+  'Aa
+)
+ident(
+  def x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 927 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 929
+type(
+  'Aa
+)
+ident(
+  def x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 921 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 930
+type(
+  'Aa double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 934 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 936
+type(
+  'Ab
+)
+ident(
+  def y1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 937 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 939
+type(
+  'Ab
+)
+ident(
+  def y2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 931 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 940
+type(
+  'Ab double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 920 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 941
+type(
+  'Aa double * 'Ab double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 949 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 950
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 22 810 816 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 22 810 817
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 951 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 953
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 924 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 926
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 954 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 956
+type(
+  'Ab
+)
+ident(
+  int_ref y1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 934 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 936
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 948 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 957
+call(
+  stack
+)
+type(
+  'Ac
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 960 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 961
+type(
+  'Aa -> 'Ab -> 'Ac
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 22 810 816 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 22 810 817
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 962 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 964
+type(
+  'Aa
+)
+ident(
+  int_ref x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 927 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 929
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 965 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 967
+type(
+  'Ab
+)
+ident(
+  int_ref y2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 937 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 939
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 959 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 968
+call(
+  stack
+)
+type(
+  'Ac
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+type(
+  'Ac double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 25 868 876 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+type(
+  'Ac double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 24 844 850 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+type(
+  'Ab double -> 'Ac double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 23 822 826 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+type(
+  'Aa double -> 'Ab double -> 'Ac double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 22 810 812 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 26 910 969
+type(
+  ('Aa -> 'Ab -> 'Ac) -> 'Aa double -> 'Ab double -> 'Ac double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 977 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 986
+type(
+  'a 'b 'c. ('a -> 'b -> 'c) -> 'a double -> 'b double -> 'c double
+)
+ident(
+  def rel_map2T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 37 1224 1224 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 30 1060 1066 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 30 1060 1067
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 31 1072 1076 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 31 1072 1080 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 31 1072 1089
+type(
+  'a double
+)
+ident(
+  def uu____319 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 32 1094 1100 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 32 1094 1104 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 32 1094 1113
+type(
+  'b double
+)
+ident(
+  def uu____320 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 33 1118 1126 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 33 1118 1133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 33 1118 1142
+type(
+  'a double
+)
+ident(
+  int_ref uu____319 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 31 1072 1080 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 31 1072 1089
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 33 1118 1144 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 33 1118 1153
+type(
+  'b double
+)
+ident(
+  int_ref uu____320 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 32 1094 1104 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 32 1094 1113
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 33 1118 1132 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 33 1118 1154
+type(
+  'a double * 'b double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1174 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1176
+type(
+  'a
+)
+ident(
+  def x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1195 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1177 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1179
+type(
+  'a
+)
+ident(
+  def x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1195 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1171 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1180
+type(
+  'a double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1184 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1186
+type(
+  'b
+)
+ident(
+  def y1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1195 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1187 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1189
+type(
+  'b
+)
+ident(
+  def y2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1195 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1181 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1190
+type(
+  'b double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1170 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1191
+type(
+  'a double * 'b double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1199 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1200
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 30 1060 1066 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 30 1060 1067
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1201 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1203
+type(
+  'a
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1174 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1176
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1204 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1206
+type(
+  'b
+)
+ident(
+  int_ref y1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1184 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1186
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1198 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1207
+call(
+  stack
+)
+type(
+  'c
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1210 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1211
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 30 1060 1066 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 30 1060 1067
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1212 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1214
+type(
+  'a
+)
+ident(
+  int_ref x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1177 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1179
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1215 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1217
+type(
+  'b
+)
+ident(
+  int_ref y2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1187 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1189
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1209 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1218
+call(
+  stack
+)
+type(
+  'c
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1195 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+type(
+  'c double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 33 1118 1126 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+type(
+  'c double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 32 1094 1100 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+type(
+  'b double -> 'c double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 31 1072 1076 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+type(
+  'a double -> 'b double -> 'c double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 30 1060 1062 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 34 1160 1219
+type(
+  ('a -> 'b -> 'c) -> 'a double -> 'b double -> 'c double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 37 1224 1228 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 37 1224 1237
+type(
+  'a 'b 'c 'd.
+    ('a -> 'b -> 'c -> 'd) ->
+    'a double -> 'b double -> 'c double -> 'd double
+)
+ident(
+  def rel_map3T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 50 1566 1566 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 42 1345 1351 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 42 1345 1352
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 43 1357 1361 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 43 1357 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 43 1357 1374
+type(
+  'a double
+)
+ident(
+  def uu____440 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 44 1379 1385 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 44 1379 1389 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 44 1379 1398
+type(
+  'b double
+)
+ident(
+  def uu____441 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 45 1403 1411 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 45 1403 1415 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 45 1403 1424
+type(
+  'c double
+)
+ident(
+  def uu____442 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1439 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1446 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1455
+type(
+  'a double
+)
+ident(
+  int_ref uu____440 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 43 1357 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 43 1357 1374
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1457 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1466
+type(
+  'b double
+)
+ident(
+  int_ref uu____441 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 44 1379 1389 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 44 1379 1398
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1468 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1477
+type(
+  'c double
+)
+ident(
+  int_ref uu____442 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 45 1403 1415 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 45 1403 1424
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1445 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1478
+type(
+  'a double * 'b double * 'c double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1500 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1502
+type(
+  'a
+)
+ident(
+  def x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1531 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1503 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1505
+type(
+  'a
+)
+ident(
+  def x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1531 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1497 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1506
+type(
+  'a double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1510 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1512
+type(
+  'b
+)
+ident(
+  def y1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1531 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1513 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1515
+type(
+  'b
+)
+ident(
+  def y2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1531 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1507 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1516
+type(
+  'b double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1520 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1522
+type(
+  'c
+)
+ident(
+  def z1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1531 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1523 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1525
+type(
+  'c
+)
+ident(
+  def z2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1531 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1517 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1526
+type(
+  'c double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1496 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1527
+type(
+  'a double * 'b double * 'c double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1535 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1536
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 42 1345 1351 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 42 1345 1352
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1537 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1539
+type(
+  'a
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1500 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1502
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1540 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1542
+type(
+  'b
+)
+ident(
+  int_ref y1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1510 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1512
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1543 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1545
+type(
+  'c
+)
+ident(
+  int_ref z1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1520 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1522
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1534 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1546
+call(
+  stack
+)
+type(
+  'd
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1549 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1550
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 42 1345 1351 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 42 1345 1352
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1551 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1553
+type(
+  'a
+)
+ident(
+  int_ref x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1503 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1505
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1554 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1556
+type(
+  'b
+)
+ident(
+  int_ref y2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1513 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1515
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1557 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1559
+type(
+  'c
+)
+ident(
+  int_ref z2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1523 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1525
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1548 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1560
+call(
+  stack
+)
+type(
+  'd
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1531 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+type(
+  'd double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 46 1429 1439 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+type(
+  'd double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 45 1403 1411 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+type(
+  'c double -> 'd double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 44 1379 1385 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+type(
+  'b double -> 'c double -> 'd double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 43 1357 1361 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+type(
+  'a double -> 'b double -> 'c double -> 'd double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 42 1345 1347 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 47 1484 1561
+type(
+  ('a -> 'b -> 'c -> 'd) -> 'a double -> 'b double -> 'c double -> 'd double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 50 1566 1571 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 50 1566 1582
+type(
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+ident(
+  def op_Hat_Plus "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 52 1686 1686 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1647 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1656
+type(
+  (Prims.int -> Prims.int -> Prims.int) ->
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+ident(
+  int_ref rel_map2T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 977 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 986
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1662 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1663
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1668 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1683
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1672 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1673
+type(
+  Prims.int
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1678 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1683
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1678 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1679
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1662 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1663
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1680 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1681
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1682 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1683
+type(
+  Prims.int
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1672 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1673
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1678 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1683
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1668 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1683
+type(
+  Prims.int -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1657 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1684
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1647 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 51 1643 1684
+call(
+  stack
+)
+type(
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 52 1686 1691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 52 1686 1703
+type(
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+ident(
+  def op_Hat_Minus "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 54 1807 1807 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1768 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1777
+type(
+  (Prims.int -> Prims.int -> Prims.int) ->
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+ident(
+  int_ref rel_map2T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 977 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 986
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1783 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1784
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1789 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1804
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1793 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1794
+type(
+  Prims.int
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1799 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1804
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1799 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1800
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1783 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1784
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1801 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1802
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1803 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1804
+type(
+  Prims.int
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1793 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1794
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1799 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1804
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1789 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1804
+type(
+  Prims.int -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1778 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1805
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1768 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 53 1764 1805
+call(
+  stack
+)
+type(
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 54 1807 1812 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 54 1807 1823
+type(
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+ident(
+  def op_Hat_Star "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 56 1927 1927 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1888 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1897
+type(
+  (Prims.int -> Prims.int -> Prims.int) ->
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+ident(
+  int_ref rel_map2T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 977 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 986
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1903 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1904
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1909 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1924
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1913 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1914
+type(
+  Prims.int
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1919 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1924
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1919 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1920
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1903 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1904
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1921 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1922
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1923 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1924
+type(
+  Prims.int
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1913 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1914
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1919 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1924
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1909 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1924
+type(
+  Prims.int -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1898 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1925
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1888 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 55 1884 1925
+call(
+  stack
+)
+type(
+  Prims.int double -> Prims.int double -> Prims.int double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 56 1927 1932 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 56 1927 1944
+type(
+  Prims.int double -> Prims.nonzero double -> Prims.int double
+)
+ident(
+  def op_Hat_Slash "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 59 2054 2054 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2015 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2024
+type(
+  (Prims.int -> Prims.nonzero -> Prims.int) ->
+  Prims.int double -> Prims.nonzero double -> Prims.int double
+)
+ident(
+  int_ref rel_map2T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 977 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 986
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2030 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2031
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2036 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2051
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2040 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2041
+type(
+  Prims.nonzero
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2046 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2051
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2046 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2047
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2030 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2031
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2048 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2049
+type(
+  Prims.int -> Prims.nonzero -> Prims.int
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2050 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2051
+type(
+  Prims.nonzero
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2040 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2041
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2046 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2051
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2036 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2051
+type(
+  Prims.nonzero -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2025 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2052
+type(
+  Prims.int -> Prims.nonzero -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2015 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 58 2013 2052
+call(
+  stack
+)
+type(
+  Prims.int double -> Prims.nonzero double -> Prims.int double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 59 2054 2058 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 59 2054 2064
+type(
+  'Aa. 'Aa Prims.list double -> 'Aa Prims.list double
+)
+ident(
+  def tl_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 63 2218 2218 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 60 2122 2128 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 60 2122 2137
+type(
+  'Aa Prims.list double
+)
+ident(
+  def uu____648 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2146 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2214
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2152 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2161
+type(
+  'Aa Prims.list double
+)
+ident(
+  int_ref uu____648 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 60 2122 2128 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 60 2122 2137
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2172 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2181
+type(
+  'Aa
+)
+ident(
+  def uu____653 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2204 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2214
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2183 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2185
+type(
+  'Aa list
+)
+ident(
+  def xs "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2204 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2214
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2172 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2185
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2186 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2195
+type(
+  'Aa
+)
+ident(
+  def uu____655 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2204 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2214
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2199
+type(
+  'Aa list
+)
+ident(
+  def ys "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2204 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2214
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2186 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2199
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2169 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2200
+type(
+  'Aa Prims.list double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2207 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2209
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2183 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2185
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2211 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2213
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref ys "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2199
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2204 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2214
+type(
+  'Aa Prims.list double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2146 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2214
+type(
+  'Aa Prims.list double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 60 2122 2124 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 61 2142 2214
+type(
+  'Aa Prims.list double -> 'Aa Prims.list double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 63 2218 2222 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 63 2218 2230
+type(
+  'Auu____686 'Auu____687.
+    ('Auu____686, 'Auu____687) rel ->
+    ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel ->
+    ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+ident(
+  def cons_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 74 2564 2564 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 69 2423 2429 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 69 2423 2438
+type(
+  ('Auu____686, 'Auu____687) rel
+)
+ident(
+  def uu____716 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 70 2443 2447 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 70 2443 2451 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 70 2443 2460
+type(
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+ident(
+  def uu____717 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 71 2465 2471 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 71 2465 2478 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 71 2465 2487
+type(
+  ('Auu____686, 'Auu____687) rel
+)
+ident(
+  int_ref uu____716 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 69 2423 2429 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 69 2423 2438
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 71 2465 2489 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 71 2465 2498
+type(
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+ident(
+  int_ref uu____717 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 70 2443 2451 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 70 2443 2460
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 71 2465 2477 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 71 2465 2499
+type(
+  ('Auu____686, 'Auu____687) rel *
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2517 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2518
+type(
+  'Auu____686
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2536 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2519 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2520
+type(
+  'Auu____687
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2536 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2514 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2521
+type(
+  ('Auu____686, 'Auu____687) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2525 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2527
+type(
+  'Auu____686 Prims.list
+)
+ident(
+  def xs "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2536 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2528 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2530
+type(
+  'Auu____687 Prims.list
+)
+ident(
+  def ys "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2536 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2522 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2531
+type(
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2513 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2532
+type(
+  ('Auu____686, 'Auu____687) rel *
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2540 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2541
+type(
+  'Auu____686
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2517 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2518
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2545 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2547
+type(
+  'Auu____686 Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2525 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2527
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2539 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2548
+type(
+  'Auu____686 Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2551 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2552
+type(
+  'Auu____687
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2519 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2520
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2556 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2558
+type(
+  'Auu____687 Prims.list
+)
+ident(
+  int_ref ys "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2528 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2530
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2550 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2559
+type(
+  'Auu____687 Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2536 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+type(
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 71 2465 2471 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+type(
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 70 2443 2447 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+type(
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel ->
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 69 2423 2425 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 72 2505 2560
+type(
+  ('Auu____686, 'Auu____687) rel ->
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel ->
+  ('Auu____686 Prims.list, 'Auu____687 Prims.list) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 74 2564 2568 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 74 2564 2576
+type(
+  'Auu____793 'Auu____794 'Auu____795 'Auu____796.
+    ('Auu____793, 'Auu____794) rel ->
+    ('Auu____795, 'Auu____796) rel ->
+    ('Auu____793 * 'Auu____795, 'Auu____794 * 'Auu____796) rel
+)
+ident(
+  def pair_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 85 2914 2914 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 80 2781 2787 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 80 2781 2796
+type(
+  ('Auu____793, 'Auu____794) rel
+)
+ident(
+  def uu____825 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 81 2801 2805 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 81 2801 2809 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 81 2801 2818
+type(
+  ('Auu____795, 'Auu____796) rel
+)
+ident(
+  def uu____826 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 82 2823 2829 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 82 2823 2836 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 82 2823 2845
+type(
+  ('Auu____793, 'Auu____794) rel
+)
+ident(
+  int_ref uu____825 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 80 2781 2787 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 80 2781 2796
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 82 2823 2847 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 82 2823 2856
+type(
+  ('Auu____795, 'Auu____796) rel
+)
+ident(
+  int_ref uu____826 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 81 2801 2809 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 81 2801 2818
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 82 2823 2835 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 82 2823 2857
+type(
+  ('Auu____793, 'Auu____794) rel * ('Auu____795, 'Auu____796) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2875 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2876
+type(
+  'Auu____793
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2892 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2877 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2878
+type(
+  'Auu____794
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2892 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2872 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2879
+type(
+  ('Auu____793, 'Auu____794) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2883 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2884
+type(
+  'Auu____795
+)
+ident(
+  def c "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2892 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2885 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2886
+type(
+  'Auu____796
+)
+ident(
+  def d "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2892 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2880 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2887
+type(
+  ('Auu____795, 'Auu____796) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2871 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2888
+type(
+  ('Auu____793, 'Auu____794) rel * ('Auu____795, 'Auu____796) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2896 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2897
+type(
+  'Auu____793
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2875 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2876
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2899 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2900
+type(
+  'Auu____795
+)
+ident(
+  int_ref c "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2883 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2884
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2895 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2901
+type(
+  'Auu____793 * 'Auu____795
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2904 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2905
+type(
+  'Auu____794
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2877 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2878
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2907 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2908
+type(
+  'Auu____796
+)
+ident(
+  int_ref d "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2885 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2886
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2903 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2909
+type(
+  'Auu____794 * 'Auu____796
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2892 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+type(
+  ('Auu____793 * 'Auu____795, 'Auu____794 * 'Auu____796) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 82 2823 2829 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+type(
+  ('Auu____793 * 'Auu____795, 'Auu____794 * 'Auu____796) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 81 2801 2805 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+type(
+  ('Auu____795, 'Auu____796) rel ->
+  ('Auu____793 * 'Auu____795, 'Auu____794 * 'Auu____796) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 80 2781 2783 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 83 2863 2910
+type(
+  ('Auu____793, 'Auu____794) rel ->
+  ('Auu____795, 'Auu____796) rel ->
+  ('Auu____793 * 'Auu____795, 'Auu____794 * 'Auu____796) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 85 2914 2918 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 85 2914 2928
+type(
+  'Auu____897 'Auu____898 'Auu____899 'Auu____900 'Auu____901 'Auu____902.
+    ('Auu____897, 'Auu____898) rel ->
+    ('Auu____899, 'Auu____900) rel ->
+    ('Auu____901, 'Auu____902) rel ->
+    ('Auu____897 * 'Auu____899 * 'Auu____901,
+     'Auu____898 * 'Auu____900 * 'Auu____902)
+    rel
+)
+ident(
+  def triple_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 101 3536 3536 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 95 3350 3356 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 95 3350 3365
+type(
+  ('Auu____897, 'Auu____898) rel
+)
+ident(
+  def uu____943 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 96 3370 3374 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 96 3370 3378 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 96 3370 3387
+type(
+  ('Auu____899, 'Auu____900) rel
+)
+ident(
+  def uu____944 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 97 3392 3398 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 97 3392 3402 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 97 3392 3411
+type(
+  ('Auu____901, 'Auu____902) rel
+)
+ident(
+  def uu____945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3424 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3431 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3440
+type(
+  ('Auu____897, 'Auu____898) rel
+)
+ident(
+  int_ref uu____943 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 95 3350 3356 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 95 3350 3365
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3442 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3451
+type(
+  ('Auu____899, 'Auu____900) rel
+)
+ident(
+  int_ref uu____944 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 96 3370 3378 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 96 3370 3387
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3453 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3462
+type(
+  ('Auu____901, 'Auu____902) rel
+)
+ident(
+  int_ref uu____945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 97 3392 3402 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 97 3392 3411
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3430 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3463
+type(
+  ('Auu____897, 'Auu____898) rel * ('Auu____899, 'Auu____900) rel *
+  ('Auu____901, 'Auu____902) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3483 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3484
+type(
+  'Auu____897
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3485 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3486
+type(
+  'Auu____898
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3480 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3487
+type(
+  ('Auu____897, 'Auu____898) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3491 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3492
+type(
+  'Auu____899
+)
+ident(
+  def c "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3493 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3494
+type(
+  'Auu____900
+)
+ident(
+  def d "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3495
+type(
+  ('Auu____899, 'Auu____900) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3499 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3500
+type(
+  'Auu____901
+)
+ident(
+  def e "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3501 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3502
+type(
+  'Auu____902
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3496 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3503
+type(
+  ('Auu____901, 'Auu____902) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3479 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3504
+type(
+  ('Auu____897, 'Auu____898) rel * ('Auu____899, 'Auu____900) rel *
+  ('Auu____901, 'Auu____902) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3512 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3513
+type(
+  'Auu____897
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3483 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3484
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3515 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3516
+type(
+  'Auu____899
+)
+ident(
+  int_ref c "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3491 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3492
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3518 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3519
+type(
+  'Auu____901
+)
+ident(
+  int_ref e "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3499 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3500
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3511 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3520
+type(
+  'Auu____897 * 'Auu____899 * 'Auu____901
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3523 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3524
+type(
+  'Auu____898
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3485 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3486
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3526 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3527
+type(
+  'Auu____900
+)
+ident(
+  int_ref d "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3493 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3494
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3529 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3530
+type(
+  'Auu____902
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3501 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3502
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3522 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3531
+type(
+  'Auu____898 * 'Auu____900 * 'Auu____902
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3508 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+type(
+  ('Auu____897 * 'Auu____899 * 'Auu____901,
+   'Auu____898 * 'Auu____900 * 'Auu____902)
+  rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 98 3416 3424 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+type(
+  ('Auu____897 * 'Auu____899 * 'Auu____901,
+   'Auu____898 * 'Auu____900 * 'Auu____902)
+  rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 97 3392 3398 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+type(
+  ('Auu____901, 'Auu____902) rel ->
+  ('Auu____897 * 'Auu____899 * 'Auu____901,
+   'Auu____898 * 'Auu____900 * 'Auu____902)
+  rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 96 3370 3374 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+type(
+  ('Auu____899, 'Auu____900) rel ->
+  ('Auu____901, 'Auu____902) rel ->
+  ('Auu____897 * 'Auu____899 * 'Auu____901,
+   'Auu____898 * 'Auu____900 * 'Auu____902)
+  rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 95 3350 3352 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 99 3469 3532
+type(
+  ('Auu____897, 'Auu____898) rel ->
+  ('Auu____899, 'Auu____900) rel ->
+  ('Auu____901, 'Auu____902) rel ->
+  ('Auu____897 * 'Auu____899 * 'Auu____901,
+   'Auu____898 * 'Auu____900 * 'Auu____902)
+  rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 101 3536 3540 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 101 3536 3547
+type(
+  'Auu____1009 'Auu____1010.
+    Prims.unit -> ('Auu____1009 * 'Auu____1010) double -> 'Auu____1009 double
+)
+ident(
+  def fst_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 105 3714 3714 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3660 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3670
+type(
+  Prims.unit
+)
+ident(
+  def uu____1022 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3675 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3712
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3675 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3684
+type(
+  ('Auu____1009 * 'Auu____1010 -> 'Auu____1009) ->
+  ('Auu____1009 * 'Auu____1010) double -> 'Auu____1009 double
+)
+ident(
+  int_ref rel_map1T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 15 555 559 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 15 555 568
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3685 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3712
+type(
+  'Auu____1009 * 'Auu____1010 -> 'Auu____1009
+)
+ident(
+  ext_ref FStar_Pervasives_Native.fst
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3675 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3712
+call(
+  tail
+)
+type(
+  ('Auu____1009 * 'Auu____1010) double -> 'Auu____1009 double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3656 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 104 3652 3712
+type(
+  Prims.unit -> ('Auu____1009 * 'Auu____1010) double -> 'Auu____1009 double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 105 3714 3718 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 105 3714 3725
+type(
+  'Auu____1036 'Auu____1037.
+    Prims.unit -> ('Auu____1036 * 'Auu____1037) double -> 'Auu____1037 double
+)
+ident(
+  def snd_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 109 3892 3892 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3838 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3848
+type(
+  Prims.unit
+)
+ident(
+  def uu____1049 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3853 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3890
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3853 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3862
+type(
+  ('Auu____1036 * 'Auu____1037 -> 'Auu____1037) ->
+  ('Auu____1036 * 'Auu____1037) double -> 'Auu____1037 double
+)
+ident(
+  int_ref rel_map1T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 15 555 559 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 15 555 568
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3863 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3890
+type(
+  'Auu____1036 * 'Auu____1037 -> 'Auu____1037
+)
+ident(
+  ext_ref FStar_Pervasives_Native.snd
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3853 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3890
+call(
+  tail
+)
+type(
+  ('Auu____1036 * 'Auu____1037) double -> 'Auu____1037 double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3834 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 108 3830 3890
+type(
+  Prims.unit -> ('Auu____1036 * 'Auu____1037) double -> 'Auu____1037 double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 109 3892 3897 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 109 3892 3904
+type(
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+ident(
+  def and_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 111 4012 4012 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3972 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3981
+type(
+  (Prims.bool -> Prims.bool -> Prims.bool) ->
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+ident(
+  int_ref rel_map2T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 977 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 986
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3987 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3988
+type(
+  Prims.bool
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3993 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4009
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3997 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3998
+type(
+  Prims.bool
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4003 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4009
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4003 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4004
+type(
+  Prims.bool
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3987 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3988
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4005 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4007
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4008 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4009
+type(
+  Prims.bool
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3997 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3998
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4003 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4009
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3993 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4009
+type(
+  Prims.bool -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3982 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4010
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 3972 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 110 3970 4010
+call(
+  stack
+)
+type(
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 111 4012 4017 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 111 4012 4023
+type(
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+ident(
+  def or_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 113 4131 4131 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4091 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4100
+type(
+  (Prims.bool -> Prims.bool -> Prims.bool) ->
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+ident(
+  int_ref rel_map2T "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 977 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 28 973 986
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4106 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4107
+type(
+  Prims.bool
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4112 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4128
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4116 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4117
+type(
+  Prims.bool
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4122 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4128
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4122 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4123
+type(
+  Prims.bool
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4106 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4107
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4124 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4126
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4127 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4128
+type(
+  Prims.bool
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4116 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4117
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4122 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4128
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4112 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4128
+type(
+  Prims.bool -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4101 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4129
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4091 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 112 4089 4129
+call(
+  stack
+)
+type(
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 113 4131 4136 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 113 4131 4142
+type(
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+ident(
+  def eq_rel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 115 4251 4251 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4210 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4221
+type(
+  (Prims.bool -> Prims.bool -> Prims.bool) ->
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+ident(
+  int_ref rel_map2Teq "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 19 710 714 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 19 710 725
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4227 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4228
+type(
+  Prims.bool
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4233 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4237 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4238
+type(
+  Prims.bool
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4243 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4243 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4244
+type(
+  Prims.bool
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4227 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4228
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4245 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4246
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4247 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4248
+type(
+  Prims.bool
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4237 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4238
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4243 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4248
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4233 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4248
+type(
+  Prims.bool -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4222 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4249
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4210 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 114 4208 4249
+call(
+  stack
+)
+type(
+  Prims.bool double -> Prims.bool double -> Prims.bool double
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 115 4251 4256 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 115 4251 4264
+type(
+  (Prims.bool, Prims.bool) rel -> Prims.bool
+)
+ident(
+  def and_irel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 117 4376 4376 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4328
+type(
+  (Prims.bool, Prims.bool) rel
+)
+ident(
+  def uu____1157 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4374
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4339 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4349
+type(
+  (Prims.bool, Prims.bool) rel
+)
+ident(
+  int_ref uu____1157 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4318 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4328
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4360 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4361
+type(
+  Prims.bool
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4368 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4374
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4362 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4363
+type(
+  Prims.bool
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4368 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4374
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4357 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4364
+type(
+  (Prims.bool, Prims.bool) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4368 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4369
+type(
+  Prims.bool
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4360 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4361
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4370 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4372
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4373 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4374
+type(
+  Prims.bool
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4362 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4363
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4368 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4374
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4374
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4314 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 116 4312 4374
+type(
+  (Prims.bool, Prims.bool) rel -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 117 4376 4381 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 117 4376 4388
+type(
+  (Prims.bool, Prims.bool) rel -> Prims.bool
+)
+ident(
+  def or_irel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 119 4500 4500 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4442 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4452
+type(
+  (Prims.bool, Prims.bool) rel
+)
+ident(
+  def uu____1185 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4457 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4498
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4463 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4473
+type(
+  (Prims.bool, Prims.bool) rel
+)
+ident(
+  int_ref uu____1185 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4442 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4452
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4484 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4485
+type(
+  Prims.bool
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4498
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4486 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4487
+type(
+  Prims.bool
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4498
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4481 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4488
+type(
+  (Prims.bool, Prims.bool) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4493
+type(
+  Prims.bool
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4484 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4485
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4494 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4496
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4497 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4498
+type(
+  Prims.bool
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4486 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4487
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4498
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4457 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4498
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4438 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 118 4436 4498
+type(
+  (Prims.bool, Prims.bool) rel -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 119 4500 4504 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 119 4500 4511
+type(
+  'At. ('At, 'At) rel -> Prims.bool
+)
+ident(
+  def eq_irel "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4593 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4556 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4557
+type(
+  ('At, 'At) rel
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4562 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4593
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4568 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4569
+type(
+  ('At, 'At) rel
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4556 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4557
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4580 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4581
+type(
+  'At
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4593
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4582 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4583
+type(
+  'At
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4593
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4577 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4584
+type(
+  ('At, 'At) rel
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4589
+type(
+  'At
+)
+ident(
+  int_ref a "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4580 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4581
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4590 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4591
+type(
+  'At -> 'At -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4592 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4593
+type(
+  'At
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4582 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4583
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4593
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4562 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4593
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4552 "ulib/tactics_ml/fstarlib_leftovers/FStar_Relational_Relational.ml" 120 4550 4593
+type(
+  ('At, 'At) rel -> Prims.bool
+)

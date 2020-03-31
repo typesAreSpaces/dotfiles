@@ -1,0 +1,3349 @@
+"ulib/ml/extracted/LowStar_RVector.ml" 4 71 75 "ulib/ml/extracted/LowStar_RVector.ml" 4 71 86
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional -> ('Aa, Prims.unit) copyable -> Prims.bool
+)
+ident(
+  def uu___is_Cpy "ulib/ml/extracted/LowStar_RVector.ml" 7 203 203 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 6 166 172 "ulib/ml/extracted/LowStar_RVector.ml" 6 166 174
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 6 166 179 "ulib/ml/extracted/LowStar_RVector.ml" 6 166 201
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 6 166 183 "ulib/ml/extracted/LowStar_RVector.ml" 6 166 192
+type(
+  ('Aa, Prims.unit) copyable
+)
+ident(
+  def projectee "ulib/ml/extracted/LowStar_RVector.ml" 6 166 197 "ulib/ml/extracted/LowStar_RVector.ml" 6 166 201
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 6 166 197 "ulib/ml/extracted/LowStar_RVector.ml" 6 166 201
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 6 166 179 "ulib/ml/extracted/LowStar_RVector.ml" 6 166 201
+type(
+  ('Aa, Prims.unit) copyable -> Prims.bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 6 166 168 "ulib/ml/extracted/LowStar_RVector.ml" 6 166 201
+type(
+  'Aa LowStar_Regional.regional -> ('Aa, Prims.unit) copyable -> Prims.bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 7 203 207 "ulib/ml/extracted/LowStar_RVector.ml" 7 203 230
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) copyable -> 'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  def __proj__Cpy__item__copy "ulib/ml/extracted/LowStar_RVector.ml" 12 400 400 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 334 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 336
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 11 326 341 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 398
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 345 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 354
+type(
+  ('Aa, Prims.unit) copyable
+)
+ident(
+  def projectee "ulib/ml/extracted/LowStar_RVector.ml" 11 326 359 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 398
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 365 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 374
+type(
+  ('Aa, Prims.unit) copyable
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/LowStar_RVector.ml" 11 326 345 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 354
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 386 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 390
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  def copy "ulib/ml/extracted/LowStar_RVector.ml" 11 326 394 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 398
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 382 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 390
+type(
+  ('Aa, Prims.unit) copyable
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 394 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 398
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  int_ref copy "ulib/ml/extracted/LowStar_RVector.ml" 11 326 386 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 390
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 359 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 398
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 341 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 398
+type(
+  ('Aa, Prims.unit) copyable -> 'Aa -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 11 326 330 "ulib/ml/extracted/LowStar_RVector.ml" 11 326 398
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) copyable -> 'Aa -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 61 876 880 "ulib/ml/extracted/LowStar_RVector.ml" 61 876 891
+type(
+  'Aa. 'Aa LowStar_Regional.regional -> ('Aa, Prims.unit) rvector
+)
+ident(
+  def alloc_empty "ulib/ml/extracted/LowStar_RVector.ml" 68 1135 1135 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 62 954 960 "ulib/ml/extracted/LowStar_RVector.ml" 62 954 962
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 63 967 971 "ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1131
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 64 990 998 "ulib/ml/extracted/LowStar_RVector.ml" 64 990 1020
+type(
+  Prims.int -> LowStar_Vector.uint32_t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 64 990 1021 "ulib/ml/extracted/LowStar_RVector.ml" 64 990 1035
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 64 990 997 "ulib/ml/extracted/LowStar_RVector.ml" 64 990 1036
+call(
+  stack
+)
+type(
+  LowStar_Vector.uint32_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 65 1038 1047 "ulib/ml/extracted/LowStar_RVector.ml" 65 1038 1069
+type(
+  Prims.int -> LowStar_Vector.uint32_t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 65 1038 1070 "ulib/ml/extracted/LowStar_RVector.ml" 65 1038 1084
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 65 1038 1046 "ulib/ml/extracted/LowStar_RVector.ml" 65 1038 1085
+call(
+  stack
+)
+type(
+  LowStar_Vector.uint32_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1096 "ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1126
+type(
+  Prims.unit -> 'Aa LowStar_Buffer.buffer
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.mnull
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1127 "ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1129
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1095 "ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1130
+call(
+  stack
+)
+type(
+  'Aa LowStar_Buffer.buffer
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 63 967 971 "ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1131
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 62 954 956 "ulib/ml/extracted/LowStar_RVector.ml" 66 1087 1131
+type(
+  'Aa LowStar_Regional.regional -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 68 1135 1143 "ulib/ml/extracted/LowStar_RVector.ml" 68 1135 1149
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  def alloc_ "ulib/ml/extracted/LowStar_RVector.ml" 68 1135 1135 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 73 1261 1267 "ulib/ml/extracted/LowStar_RVector.ml" 73 1261 1269
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 74 1274 1278 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 74 1274 1282 "ulib/ml/extracted/LowStar_RVector.ml" 74 1274 1284
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1295 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1299 "ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1303
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def cidx "ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1316 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1320 "ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1323
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1365 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1326 "ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1349
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1350 "ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1352
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1326 "ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1352
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1368 "ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1372
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref cidx "ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1299 "ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1303
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1373 "ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1374
+type(
+  LowStar_Vector.uint32_t -> LowStar_Vector.uint32_t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1376 "ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1398
+type(
+  Prims.int -> LowStar_Vector.uint32_t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1399 "ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1413
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1375 "ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1414
+call(
+  stack
+)
+type(
+  LowStar_Vector.uint32_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1368 "ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1414
+type(
+  bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 78 1415 1428 "ulib/ml/extracted/LowStar_RVector.ml" 78 1415 1430
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 80 1444 1455 "ulib/ml/extracted/LowStar_RVector.ml" 80 1444 1485
+type(
+  unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.new_region
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 80 1444 1486 "ulib/ml/extracted/LowStar_RVector.ml" 80 1444 1488
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 80 1444 1455 "ulib/ml/extracted/LowStar_RVector.ml" 80 1444 1488
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1506 "ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1508
+type(
+  'Aa
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1577 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1968
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1511 "ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1554
+type(
+  'Aa LowStar_Regional.regional -> Prims.unit -> 'Aa
+)
+ident(
+  ext_ref LowStar_Regional.__proj__Rgl__item__r_alloc
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1555 "ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1557
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 73 1261 1267 "ulib/ml/extracted/LowStar_RVector.ml" 73 1261 1269
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1558 "ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1560
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1511 "ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1560
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1581 "ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1584
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 83 1618 1630 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1968
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1587 "ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1610
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1611 "ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1613
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1587 "ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1613
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 83 1618 1630 "ulib/ml/extracted/LowStar_RVector.ml" 83 1618 1651
+type(
+  'Aa LowStar_Vector.vector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Vector.assign
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 83 1618 1652 "ulib/ml/extracted/LowStar_RVector.ml" 83 1618 1654
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 74 1274 1282 "ulib/ml/extracted/LowStar_RVector.ml" 74 1274 1284
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1670 "ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1686
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.sub
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1687 "ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1691
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref cidx "ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1299 "ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1303
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1693 "ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1715
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1716 "ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1729
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1692 "ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1730
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1669 "ulib/ml/extracted/LowStar_RVector.ml" 84 1655 1731
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 85 1732 1746 "ulib/ml/extracted/LowStar_RVector.ml" 85 1732 1748
+type(
+  'Aa
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1506 "ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1508
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 83 1618 1630 "ulib/ml/extracted/LowStar_RVector.ml" 85 1732 1748
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1767 "ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1770
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh2 "ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1817 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1967
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1773 "ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1796
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1797 "ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1799
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1773 "ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1799
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1817 "ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1823
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  int_ref alloc_ "ulib/ml/extracted/LowStar_RVector.ml" 68 1135 1143 "ulib/ml/extracted/LowStar_RVector.ml" 68 1135 1149
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1824 "ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1826
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 73 1261 1267 "ulib/ml/extracted/LowStar_RVector.ml" 73 1261 1269
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1827 "ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1829
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 74 1274 1282 "ulib/ml/extracted/LowStar_RVector.ml" 74 1274 1284
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1846 "ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1862
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.sub
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1863 "ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1867
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref cidx "ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1299 "ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1303
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1869 "ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1891
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1892 "ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1905
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1868 "ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1906
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1845 "ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1907
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1817 "ulib/ml/extracted/LowStar_RVector.ml" 88 1830 1907
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1927 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1930
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh3 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1964 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1966
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1933 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1956
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1957 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1959
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1933 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1959
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1964 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1966
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1922 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1967
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 87 1804 1817 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1967
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 86 1750 1762 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1968
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 83 1618 1630 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1968
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 82 1565 1577 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1968
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 81 1490 1501 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1969
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 80 1444 1454 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 77 1357 1365 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 76 1308 1316 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 75 1289 1295 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+type(
+  LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 74 1274 1278 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+type(
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 73 1261 1263 "ulib/ml/extracted/LowStar_RVector.ml" 89 1909 1970
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 91 1974 1978 "ulib/ml/extracted/LowStar_RVector.ml" 91 1974 1987
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    LowStar_Vector.uint32_t -> Prims.unit -> ('Aa, Prims.unit) rvector
+)
+ident(
+  def alloc_rid "ulib/ml/extracted/LowStar_RVector.ml" 105 2313 2313 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 96 2099 2105 "ulib/ml/extracted/LowStar_RVector.ml" 96 2099 2107
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 97 2112 2116 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 97 2112 2120 "ulib/ml/extracted/LowStar_RVector.ml" 97 2112 2123
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_RVector.ml" 98 2128 2134 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 98 2128 2138 "ulib/ml/extracted/LowStar_RVector.ml" 98 2128 2141
+type(
+  Prims.unit
+)
+ident(
+  def rid "ulib/ml/extracted/LowStar_RVector.ml" 99 2146 2154 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 99 2146 2158 "ulib/ml/extracted/LowStar_RVector.ml" 99 2146 2161
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  def vec "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2287 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 100 2164 2174 "ulib/ml/extracted/LowStar_RVector.ml" 100 2164 2198
+type(
+  LowStar_Vector.uint32_t -> 'Aa -> Prims.unit -> 'Aa LowStar_Vector.vector
+)
+ident(
+  ext_ref LowStar_Vector.alloc_rid
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 100 2164 2199 "ulib/ml/extracted/LowStar_RVector.ml" 100 2164 2202
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_RVector.ml" 97 2112 2120 "ulib/ml/extracted/LowStar_RVector.ml" 97 2112 2123
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2216 "ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2257
+type(
+  'Aa LowStar_Regional.regional -> 'Aa
+)
+ident(
+  ext_ref LowStar_Regional.__proj__Rgl__item__dummy
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2258 "ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2260
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 96 2099 2105 "ulib/ml/extracted/LowStar_RVector.ml" 96 2099 2107
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2215 "ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2261
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2262 "ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2264
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 100 2164 2174 "ulib/ml/extracted/LowStar_RVector.ml" 101 2203 2264
+call(
+  stack
+)
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2287 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2293
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  int_ref alloc_ "ulib/ml/extracted/LowStar_RVector.ml" 68 1135 1143 "ulib/ml/extracted/LowStar_RVector.ml" 68 1135 1149
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2294 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2296
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 96 2099 2105 "ulib/ml/extracted/LowStar_RVector.ml" 96 2099 2107
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2297 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2300
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  int_ref vec "ulib/ml/extracted/LowStar_RVector.ml" 99 2146 2158 "ulib/ml/extracted/LowStar_RVector.ml" 99 2146 2161
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2301 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2304
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_RVector.ml" 97 2112 2120 "ulib/ml/extracted/LowStar_RVector.ml" 97 2112 2123
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2287 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2304
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2306 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  int_ref vec "ulib/ml/extracted/LowStar_RVector.ml" 99 2146 2158 "ulib/ml/extracted/LowStar_RVector.ml" 99 2146 2161
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2287 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 99 2146 2154 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 98 2128 2134 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+type(
+  Prims.unit -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 97 2112 2116 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+type(
+  LowStar_Vector.uint32_t -> Prims.unit -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 96 2099 2101 "ulib/ml/extracted/LowStar_RVector.ml" 103 2279 2309
+type(
+  'Aa LowStar_Regional.regional ->
+  LowStar_Vector.uint32_t -> Prims.unit -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 105 2313 2317 "ulib/ml/extracted/LowStar_RVector.ml" 105 2313 2330
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    LowStar_Vector.uint32_t -> Prims.unit -> ('Aa, Prims.unit) rvector
+)
+ident(
+  def alloc_reserve "ulib/ml/extracted/LowStar_RVector.ml" 116 2593 2593 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 110 2442 2448 "ulib/ml/extracted/LowStar_RVector.ml" 110 2442 2450
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 111 2455 2459 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2589
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 111 2455 2463 "ulib/ml/extracted/LowStar_RVector.ml" 111 2455 2466
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_RVector.ml" 112 2471 2477 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2589
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 112 2471 2481 "ulib/ml/extracted/LowStar_RVector.ml" 112 2471 2484
+type(
+  Prims.unit
+)
+ident(
+  def rid "ulib/ml/extracted/LowStar_RVector.ml" 113 2489 2497 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2589
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 113 2489 2497 "ulib/ml/extracted/LowStar_RVector.ml" 113 2489 2525
+type(
+  LowStar_Vector.uint32_t -> 'Aa -> Prims.unit -> 'Aa LowStar_Vector.vector
+)
+ident(
+  ext_ref LowStar_Vector.alloc_reserve
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 113 2489 2526 "ulib/ml/extracted/LowStar_RVector.ml" 113 2489 2529
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_RVector.ml" 111 2455 2463 "ulib/ml/extracted/LowStar_RVector.ml" 111 2455 2466
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2541 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2582
+type(
+  'Aa LowStar_Regional.regional -> 'Aa
+)
+ident(
+  ext_ref LowStar_Regional.__proj__Rgl__item__dummy
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2583 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2585
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 110 2442 2448 "ulib/ml/extracted/LowStar_RVector.ml" 110 2442 2450
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2540 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2586
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2587 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2589
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 113 2489 2497 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2589
+call(
+  tail
+)
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 112 2471 2477 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2589
+type(
+  Prims.unit -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 111 2455 2459 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2589
+type(
+  LowStar_Vector.uint32_t -> Prims.unit -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 110 2442 2444 "ulib/ml/extracted/LowStar_RVector.ml" 114 2530 2589
+type(
+  'Aa LowStar_Regional.regional ->
+  LowStar_Vector.uint32_t -> Prims.unit -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 116 2593 2597 "ulib/ml/extracted/LowStar_RVector.ml" 116 2593 2602
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+ident(
+  def alloc "ulib/ml/extracted/LowStar_RVector.ml" 124 2793 2793 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 121 2706 2712 "ulib/ml/extracted/LowStar_RVector.ml" 121 2706 2714
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2723 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2789
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2727 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2730
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def len "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2735 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2789
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2735 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2765
+type(
+  unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.new_region
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2766 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2768
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2735 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2768
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2770 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2779
+type(
+  'Aa LowStar_Regional.regional ->
+  LowStar_Vector.uint32_t -> Prims.unit -> ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref alloc_rid "ulib/ml/extracted/LowStar_RVector.ml" 91 1974 1978 "ulib/ml/extracted/LowStar_RVector.ml" 91 1974 1987
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2780 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2782
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 121 2706 2712 "ulib/ml/extracted/LowStar_RVector.ml" 121 2706 2714
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2783 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2786
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref len "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2727 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2730
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2787 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2789
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2770 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2789
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2735 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2789
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2723 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2789
+type(
+  LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 121 2706 2708 "ulib/ml/extracted/LowStar_RVector.ml" 122 2719 2789
+type(
+  'Aa LowStar_Regional.regional ->
+  LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 124 2793 2797 "ulib/ml/extracted/LowStar_RVector.ml" 124 2793 2803
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) rvector -> 'Aa -> ('Aa, Prims.unit) rvector
+)
+ident(
+  def insert "ulib/ml/extracted/LowStar_RVector.ml" 136 3109 3109 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 129 2909 2915 "ulib/ml/extracted/LowStar_RVector.ml" 129 2909 2917
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 130 2922 2926 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 130 2922 2930 "ulib/ml/extracted/LowStar_RVector.ml" 130 2922 2932
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 131 2937 2943 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 131 2937 2947 "ulib/ml/extracted/LowStar_RVector.ml" 131 2937 2949
+type(
+  'Aa
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2962 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2966 "ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2969
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3011 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2972 "ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2995
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2996 "ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2998
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2972 "ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2998
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3015 "ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3018
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  def irv "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3061 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3021 "ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3042
+type(
+  'Aa LowStar_Vector.vector -> 'Aa -> 'Aa LowStar_Vector.vector
+)
+ident(
+  ext_ref LowStar_Vector.insert
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3043 "ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3045
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 130 2922 2930 "ulib/ml/extracted/LowStar_RVector.ml" 130 2922 2932
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3046 "ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3048
+type(
+  'Aa
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_RVector.ml" 131 2937 2947 "ulib/ml/extracted/LowStar_RVector.ml" 131 2937 2949
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3021 "ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3048
+call(
+  stack
+)
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3065 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3068
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3102 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3071 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3094
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3095 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3097
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3071 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3097
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3102 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  int_ref irv "ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3015 "ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3018
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3061 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 133 3003 3011 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 132 2954 2962 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 131 2937 2943 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+type(
+  'Aa -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 130 2922 2926 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+type(
+  ('Aa, Prims.unit) rvector -> 'Aa -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 129 2909 2911 "ulib/ml/extracted/LowStar_RVector.ml" 134 3053 3105
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> 'Aa -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 136 3109 3113 "ulib/ml/extracted/LowStar_RVector.ml" 136 3109 3124
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) copyable ->
+    ('Aa, Prims.unit) rvector -> 'Aa -> ('Aa, Prims.unit) rvector
+)
+ident(
+  def insert_copy "ulib/ml/extracted/LowStar_RVector.ml" 153 3692 3692 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3259 "ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3261
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 142 3266 3270 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 142 3266 3274 "ulib/ml/extracted/LowStar_RVector.ml" 142 3266 3276
+type(
+  ('Aa, Prims.unit) copyable
+)
+ident(
+  def cp "ulib/ml/extracted/LowStar_RVector.ml" 143 3281 3287 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 143 3281 3291 "ulib/ml/extracted/LowStar_RVector.ml" 143 3281 3293
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 144 3298 3306 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 144 3298 3310 "ulib/ml/extracted/LowStar_RVector.ml" 144 3298 3312
+type(
+  'Aa
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3327 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3331 "ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3334
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 146 3368 3378 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3337 "ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3360
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3361 "ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3363
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3337 "ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3363
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 146 3368 3378 "ulib/ml/extracted/LowStar_RVector.ml" 146 3368 3408
+type(
+  unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.new_region
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 146 3368 3409 "ulib/ml/extracted/LowStar_RVector.ml" 146 3368 3411
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 146 3368 3378 "ulib/ml/extracted/LowStar_RVector.ml" 146 3368 3411
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3428 "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3430
+type(
+  'Aa
+)
+ident(
+  def nv "ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3498 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3687
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3433 "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3476
+type(
+  'Aa LowStar_Regional.regional -> Prims.unit -> 'Aa
+)
+ident(
+  ext_ref LowStar_Regional.__proj__Rgl__item__r_alloc
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3477 "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3479
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3259 "ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3261
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3480 "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3482
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3433 "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3482
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3502 "ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3505
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3550 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3687
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3508 "ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3531
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3532 "ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3534
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3508 "ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3534
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3554 "ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3558
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  def copy "ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3606 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3687
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3561 "ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3584
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) copyable -> 'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  int_ref __proj__Cpy__item__copy "ulib/ml/extracted/LowStar_RVector.ml" 7 203 207 "ulib/ml/extracted/LowStar_RVector.ml" 7 203 230
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3585 "ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3587
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3259 "ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3261
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3588 "ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3590
+type(
+  ('Aa, Prims.unit) copyable
+)
+ident(
+  int_ref cp "ulib/ml/extracted/LowStar_RVector.ml" 142 3266 3274 "ulib/ml/extracted/LowStar_RVector.ml" 142 3266 3276
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3561 "ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3590
+call(
+  stack
+)
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3606 "ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3610
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  int_ref copy "ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3554 "ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3558
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3611 "ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3613
+type(
+  'Aa
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_RVector.ml" 144 3298 3310 "ulib/ml/extracted/LowStar_RVector.ml" 144 3298 3312
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3614 "ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3616
+type(
+  'Aa
+)
+ident(
+  int_ref nv "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3428 "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3430
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3606 "ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3616
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3634 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3637
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh2 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3671 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3686
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3640 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3663
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3664 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3666
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3640 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3666
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3671 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3677
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> 'Aa -> ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref insert "ulib/ml/extracted/LowStar_RVector.ml" 124 2793 2797 "ulib/ml/extracted/LowStar_RVector.ml" 124 2793 2803
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3678 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3680
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3259 "ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3261
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3681 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3683
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 143 3281 3291 "ulib/ml/extracted/LowStar_RVector.ml" 143 3281 3293
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3684 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3686
+type(
+  'Aa
+)
+ident(
+  int_ref nv "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3428 "ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3430
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3671 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3686
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3629 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3687
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 150 3595 3606 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3687
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 149 3539 3550 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3687
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 148 3487 3498 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3687
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 147 3413 3423 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 146 3368 3378 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 145 3317 3327 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 144 3298 3306 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+type(
+  'Aa -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 143 3281 3287 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+type(
+  ('Aa, Prims.unit) rvector -> 'Aa -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 142 3266 3270 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+type(
+  ('Aa, Prims.unit) copyable ->
+  ('Aa, Prims.unit) rvector -> 'Aa -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 141 3253 3255 "ulib/ml/extracted/LowStar_RVector.ml" 151 3618 3688
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) copyable ->
+  ('Aa, Prims.unit) rvector -> 'Aa -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 153 3692 3696 "ulib/ml/extracted/LowStar_RVector.ml" 153 3692 3702
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+ident(
+  def assign "ulib/ml/extracted/LowStar_RVector.ml" 167 4038 4038 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 158 3821 3827 "ulib/ml/extracted/LowStar_RVector.ml" 158 3821 3829
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 159 3834 3838 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 159 3834 3842 "ulib/ml/extracted/LowStar_RVector.ml" 159 3834 3844
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 160 3849 3855 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 160 3849 3859 "ulib/ml/extracted/LowStar_RVector.ml" 160 3849 3861
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def i1 "ulib/ml/extracted/LowStar_RVector.ml" 161 3866 3874 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 161 3866 3878 "ulib/ml/extracted/LowStar_RVector.ml" 161 3866 3880
+type(
+  'Aa
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3895 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3899 "ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3902
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3946 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3905 "ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3928
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3929 "ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3931
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3905 "ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3931
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3946 "ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3967
+type(
+  'Aa LowStar_Vector.vector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Vector.assign
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3968 "ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3970
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 159 3834 3842 "ulib/ml/extracted/LowStar_RVector.ml" 159 3834 3844
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3971 "ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3973
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref i1 "ulib/ml/extracted/LowStar_RVector.ml" 160 3849 3859 "ulib/ml/extracted/LowStar_RVector.ml" 160 3849 3861
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3974 "ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3976
+type(
+  'Aa
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_RVector.ml" 161 3866 3878 "ulib/ml/extracted/LowStar_RVector.ml" 161 3866 3880
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3946 "ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3976
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 164 3978 3993 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 3996
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4030 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4032
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 164 3978 3999 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4022
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4023 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4025
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 164 3978 3999 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4025
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4030 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4032
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 164 3978 3988 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 163 3936 3946 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 162 3885 3895 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 161 3866 3874 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+type(
+  'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 160 3849 3855 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+type(
+  LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 159 3834 3838 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+type(
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 158 3821 3823 "ulib/ml/extracted/LowStar_RVector.ml" 164 3978 4033
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 167 4038 4042 "ulib/ml/extracted/LowStar_RVector.ml" 167 4038 4053
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) copyable ->
+    ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+ident(
+  def assign_copy "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4554 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 173 4203 4209 "ulib/ml/extracted/LowStar_RVector.ml" 173 4203 4211
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 174 4216 4220 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 174 4216 4224 "ulib/ml/extracted/LowStar_RVector.ml" 174 4216 4226
+type(
+  ('Aa, Prims.unit) copyable
+)
+ident(
+  def cp "ulib/ml/extracted/LowStar_RVector.ml" 175 4231 4237 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 175 4231 4241 "ulib/ml/extracted/LowStar_RVector.ml" 175 4231 4243
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 176 4248 4256 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 176 4248 4260 "ulib/ml/extracted/LowStar_RVector.ml" 176 4248 4262
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def i1 "ulib/ml/extracted/LowStar_RVector.ml" 177 4267 4277 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 177 4267 4281 "ulib/ml/extracted/LowStar_RVector.ml" 177 4267 4283
+type(
+  'Aa
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4300 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4304 "ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4307
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4353 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4310 "ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4333
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4334 "ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4336
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4310 "ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4336
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4357 "ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4361
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  def copy "ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4410 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4364 "ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4387
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) copyable -> 'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  int_ref __proj__Cpy__item__copy "ulib/ml/extracted/LowStar_RVector.ml" 7 203 207 "ulib/ml/extracted/LowStar_RVector.ml" 7 203 230
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4388 "ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4390
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 173 4203 4209 "ulib/ml/extracted/LowStar_RVector.ml" 173 4203 4211
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4391 "ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4393
+type(
+  ('Aa, Prims.unit) copyable
+)
+ident(
+  int_ref cp "ulib/ml/extracted/LowStar_RVector.ml" 174 4216 4224 "ulib/ml/extracted/LowStar_RVector.ml" 174 4216 4226
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4364 "ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4393
+call(
+  stack
+)
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4415 "ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4425
+type(
+  'Aa
+)
+ident(
+  def uu____2241 "ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4472 "ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4490
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4428 "ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4448
+type(
+  'Aa LowStar_Vector.vector -> LowStar_Vector.uint32_t -> 'Aa
+)
+ident(
+  ext_ref LowStar_Vector.index
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4449 "ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4451
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 175 4231 4241 "ulib/ml/extracted/LowStar_RVector.ml" 175 4231 4243
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4452 "ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4454
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref i1 "ulib/ml/extracted/LowStar_RVector.ml" 176 4248 4260 "ulib/ml/extracted/LowStar_RVector.ml" 176 4248 4262
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4428 "ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4454
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4472 "ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4476
+type(
+  'Aa -> 'Aa -> Prims.unit
+)
+ident(
+  int_ref copy "ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4357 "ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4361
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4477 "ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4479
+type(
+  'Aa
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_RVector.ml" 177 4267 4281 "ulib/ml/extracted/LowStar_RVector.ml" 177 4267 4283
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4480 "ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4490
+type(
+  'Aa
+)
+ident(
+  int_ref uu____2241 "ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4415 "ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4425
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4472 "ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4490
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4410 "ulib/ml/extracted/LowStar_RVector.ml" 181 4459 4491
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4510 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4513
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4547 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4549
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4516 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4539
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4540 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4542
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4516 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4542
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4547 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4549
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4505 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 180 4398 4410 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 179 4341 4353 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 178 4288 4300 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 177 4267 4277 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 176 4248 4256 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 175 4231 4237 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 174 4216 4220 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  ('Aa, Prims.unit) copyable ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 173 4203 4205 "ulib/ml/extracted/LowStar_RVector.ml" 182 4493 4550
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) copyable ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4562 "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4572
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  def free_elems "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4554 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 189 4684 4690 "ulib/ml/extracted/LowStar_RVector.ml" 189 4684 4692
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 190 4697 4701 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 190 4697 4705 "ulib/ml/extracted/LowStar_RVector.ml" 190 4697 4707
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4718 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4722 "ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4725
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def idx "ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4738 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4742 "ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4745
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4787 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4748 "ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4771
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4772 "ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4774
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4748 "ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4774
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4792 "ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4802
+type(
+  'Aa
+)
+ident(
+  def uu____2295 "ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4846 "ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4902
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4805 "ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4825
+type(
+  'Aa LowStar_Vector.vector -> LowStar_Vector.uint32_t -> 'Aa
+)
+ident(
+  ext_ref LowStar_Vector.index
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4826 "ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4828
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 190 4697 4705 "ulib/ml/extracted/LowStar_RVector.ml" 190 4697 4707
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4829 "ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4832
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref idx "ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4722 "ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4725
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4805 "ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4832
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4846 "ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4888
+type(
+  'Aa LowStar_Regional.regional -> 'Aa -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Regional.__proj__Rgl__item__r_free
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4889 "ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4891
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 189 4684 4690 "ulib/ml/extracted/LowStar_RVector.ml" 189 4684 4692
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4892 "ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4902
+type(
+  'Aa
+)
+ident(
+  int_ref uu____2295 "ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4792 "ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4802
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4846 "ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4902
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4787 "ulib/ml/extracted/LowStar_RVector.ml" 194 4837 4903
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4918 "ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4921
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4964 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5147
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4924 "ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4947
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4948 "ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4950
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4924 "ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4950
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4967 "ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4970
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref idx "ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4722 "ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4725
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4971 "ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4973
+type(
+  LowStar_Vector.uint32_t -> LowStar_Vector.uint32_t -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4975 "ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4997
+type(
+  Prims.int -> LowStar_Vector.uint32_t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4998 "ulib/ml/extracted/LowStar_RVector.ml" 196 4955 5012
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4974 "ulib/ml/extracted/LowStar_RVector.ml" 196 4955 5013
+call(
+  stack
+)
+type(
+  LowStar_Vector.uint32_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4967 "ulib/ml/extracted/LowStar_RVector.ml" 196 4955 5013
+type(
+  bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 198 5028 5039 "ulib/ml/extracted/LowStar_RVector.ml" 198 5028 5049
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  int_ref free_elems "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4562 "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4572
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 198 5028 5050 "ulib/ml/extracted/LowStar_RVector.ml" 198 5028 5052
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 189 4684 4690 "ulib/ml/extracted/LowStar_RVector.ml" 189 4684 4692
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 198 5028 5053 "ulib/ml/extracted/LowStar_RVector.ml" 198 5028 5055
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 190 4697 4705 "ulib/ml/extracted/LowStar_RVector.ml" 190 4697 4707
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5070 "ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5086
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.sub
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5087 "ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5090
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref idx "ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4722 "ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4725
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5092 "ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5114
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5115 "ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5128
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5091 "ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5129
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5069 "ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5130
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 198 5028 5039 "ulib/ml/extracted/LowStar_RVector.ml" 199 5056 5130
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5145 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5147
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 196 4955 4964 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5147
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 195 4905 4913 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 193 4779 4787 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 192 4730 4738 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 191 4712 4718 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+type(
+  LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 190 4697 4701 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+type(
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 189 4684 4686 "ulib/ml/extracted/LowStar_RVector.ml" 200 5131 5148
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 202 5152 5156 "ulib/ml/extracted/LowStar_RVector.ml" 202 5152 5161
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) rvector ->
+    LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+ident(
+  def flush "ulib/ml/extracted/LowStar_RVector.ml" 223 5807 5807 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 207 5287 5293 "ulib/ml/extracted/LowStar_RVector.ml" 207 5287 5295
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 208 5300 5304 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 208 5300 5308 "ulib/ml/extracted/LowStar_RVector.ml" 208 5300 5310
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5321 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5325 "ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5327
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def i1 "ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5340 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5344 "ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5347
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5389 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5350 "ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5373
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5374 "ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5376
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5350 "ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5376
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5392 "ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5394
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref i1 "ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5325 "ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5327
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5395 "ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5396
+type(
+  LowStar_Vector.uint32_t -> LowStar_Vector.uint32_t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5398 "ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5420
+type(
+  Prims.int -> LowStar_Vector.uint32_t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5421 "ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5435
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5397 "ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5436
+call(
+  stack
+)
+type(
+  LowStar_Vector.uint32_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5392 "ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5436
+type(
+  bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 212 5437 5450 "ulib/ml/extracted/LowStar_RVector.ml" 212 5437 5452
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 214 5466 5476 "ulib/ml/extracted/LowStar_RVector.ml" 214 5466 5486
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  int_ref free_elems "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4562 "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4572
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 214 5466 5487 "ulib/ml/extracted/LowStar_RVector.ml" 214 5466 5489
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 207 5287 5293 "ulib/ml/extracted/LowStar_RVector.ml" 207 5287 5295
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 214 5466 5490 "ulib/ml/extracted/LowStar_RVector.ml" 214 5466 5492
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 208 5300 5308 "ulib/ml/extracted/LowStar_RVector.ml" 208 5300 5310
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5506 "ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5522
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.sub
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5523 "ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5525
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref i1 "ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5325 "ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5327
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5527 "ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5549
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5550 "ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5563
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5526 "ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5564
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5505 "ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5565
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 214 5466 5476 "ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5565
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5389 "ulib/ml/extracted/LowStar_RVector.ml" 215 5493 5565
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5580 "ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5583
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 217 5617 5626 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5802
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5586 "ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5609
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5610 "ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5612
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5586 "ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5612
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 217 5617 5630 "ulib/ml/extracted/LowStar_RVector.ml" 217 5617 5633
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  def frv "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5758 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5802
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 218 5636 5647 "ulib/ml/extracted/LowStar_RVector.ml" 218 5636 5667
+type(
+  'Aa LowStar_Vector.vector ->
+  'Aa -> LowStar_Vector.uint32_t -> 'Aa LowStar_Vector.vector
+)
+ident(
+  ext_ref LowStar_Vector.flush
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 218 5636 5668 "ulib/ml/extracted/LowStar_RVector.ml" 218 5636 5670
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 208 5300 5308 "ulib/ml/extracted/LowStar_RVector.ml" 208 5300 5310
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5685 "ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5726
+type(
+  'Aa LowStar_Regional.regional -> 'Aa
+)
+ident(
+  ext_ref LowStar_Regional.__proj__Rgl__item__dummy
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5727 "ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5729
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 207 5287 5293 "ulib/ml/extracted/LowStar_RVector.ml" 207 5287 5295
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5684 "ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5730
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5731 "ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5733
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref i1 "ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5325 "ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5327
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 218 5636 5647 "ulib/ml/extracted/LowStar_RVector.ml" 219 5671 5733
+call(
+  stack
+)
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5762 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5765
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh2 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5799 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5802
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5768 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5791
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5792 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5794
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5768 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5794
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5799 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5802
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  int_ref frv "ulib/ml/extracted/LowStar_RVector.ml" 217 5617 5630 "ulib/ml/extracted/LowStar_RVector.ml" 217 5617 5633
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5758 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5802
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 217 5617 5626 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5802
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 216 5567 5575 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 211 5381 5389 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 210 5332 5340 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 209 5315 5321 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+type(
+  LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 208 5300 5304 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+type(
+  ('Aa, Prims.unit) rvector ->
+  LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 207 5287 5289 "ulib/ml/extracted/LowStar_RVector.ml" 221 5749 5803
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector ->
+  LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 223 5807 5815 "ulib/ml/extracted/LowStar_RVector.ml" 223 5807 5830
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  def free_elems_from "ulib/ml/extracted/LowStar_RVector.ml" 223 5807 5807 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 228 5942 5948 "ulib/ml/extracted/LowStar_RVector.ml" 228 5942 5950
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5959 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5963 "ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5965
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5976 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5980 "ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5983
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def idx "ulib/ml/extracted/LowStar_RVector.ml" 231 5988 5996 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 231 5988 6000 "ulib/ml/extracted/LowStar_RVector.ml" 231 5988 6003
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6045 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 231 5988 6006 "ulib/ml/extracted/LowStar_RVector.ml" 231 5988 6029
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 231 5988 6030 "ulib/ml/extracted/LowStar_RVector.ml" 231 5988 6032
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 231 5988 6006 "ulib/ml/extracted/LowStar_RVector.ml" 231 5988 6032
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6050 "ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6060
+type(
+  'Aa
+)
+ident(
+  def uu____2458 "ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6104 "ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6160
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6063 "ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6083
+type(
+  'Aa LowStar_Vector.vector -> LowStar_Vector.uint32_t -> 'Aa
+)
+ident(
+  ext_ref LowStar_Vector.index
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6084 "ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6086
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5963 "ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5965
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6087 "ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6090
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref idx "ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5980 "ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5983
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6063 "ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6090
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6104 "ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6146
+type(
+  'Aa LowStar_Regional.regional -> 'Aa -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Regional.__proj__Rgl__item__r_free
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6147 "ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6149
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 228 5942 5948 "ulib/ml/extracted/LowStar_RVector.ml" 228 5942 5950
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6150 "ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6160
+type(
+  'Aa
+)
+ident(
+  int_ref uu____2458 "ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6050 "ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6060
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6104 "ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6160
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6045 "ulib/ml/extracted/LowStar_RVector.ml" 233 6095 6161
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6176 "ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6179
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 235 6213 6222 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6533
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6182 "ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6205
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6206 "ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6208
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6182 "ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6208
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 236 6225 6236 "ulib/ml/extracted/LowStar_RVector.ml" 236 6225 6251
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> bool
+)
+ident(
+  ext_ref FStar_UInt32.lt
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6266 "ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6282
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.add
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6283 "ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6286
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref idx "ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5980 "ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5983
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6288 "ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6310
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6311 "ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6324
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6287 "ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6325
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6265 "ulib/ml/extracted/LowStar_RVector.ml" 237 6252 6326
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6347 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6349
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5963 "ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5965
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6377 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6379
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def sz "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6391 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6393
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6380 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6383
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def cap "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6391 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6393
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6384 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6386
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def vs "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6391 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6393
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6357 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6387
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6391 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6393
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref sz "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6377 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6379
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6340 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6394
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 236 6225 6236 "ulib/ml/extracted/LowStar_RVector.ml" 238 6327 6394
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 240 6409 6420 "ulib/ml/extracted/LowStar_RVector.ml" 240 6409 6435
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  int_ref free_elems_from "ulib/ml/extracted/LowStar_RVector.ml" 223 5807 5815 "ulib/ml/extracted/LowStar_RVector.ml" 223 5807 5830
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 240 6409 6436 "ulib/ml/extracted/LowStar_RVector.ml" 240 6409 6438
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 228 5942 5948 "ulib/ml/extracted/LowStar_RVector.ml" 228 5942 5950
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 240 6409 6439 "ulib/ml/extracted/LowStar_RVector.ml" 240 6409 6441
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5963 "ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5965
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6456 "ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6472
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.add
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6473 "ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6476
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref idx "ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5980 "ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5983
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6478 "ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6500
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6501 "ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6514
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6477 "ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6515
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6455 "ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6516
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 240 6409 6420 "ulib/ml/extracted/LowStar_RVector.ml" 241 6442 6516
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6531 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6533
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 235 6213 6222 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6533
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 234 6163 6171 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 232 6037 6045 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 231 5988 5996 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 230 5970 5976 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+type(
+  LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 229 5955 5959 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+type(
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 228 5942 5944 "ulib/ml/extracted/LowStar_RVector.ml" 242 6517 6534
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 244 6538 6542 "ulib/ml/extracted/LowStar_RVector.ml" 244 6538 6548
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional ->
+    ('Aa, Prims.unit) rvector ->
+    LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+ident(
+  def shrink "ulib/ml/extracted/LowStar_RVector.ml" 262 7139 7139 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 249 6674 6680 "ulib/ml/extracted/LowStar_RVector.ml" 249 6674 6682
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6691 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6695 "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6697
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6708 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6712 "ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6720
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def new_size "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6733 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6737 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6741
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def size "ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6809 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6750 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6752
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6695 "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6697
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6780 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6782
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def sz "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6794 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6796
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6783 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6786
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def cap "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6794 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6796
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6787 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6789
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def vs "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6794 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6796
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6760 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6790
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6794 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6796
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref sz "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6780 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6782
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6744 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6796
+type(
+  LowStar_Vector.uint32_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6813 "ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6816
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6858 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6819 "ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6842
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6843 "ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6845
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6819 "ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6845
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6861 "ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6877
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> bool
+)
+ident(
+  ext_ref FStar_UInt32.gte
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6878 "ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6886
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref new_size "ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6712 "ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6720
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6887 "ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6891
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref size "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6737 "ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6741
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6861 "ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6891
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 255 6892 6905 "ulib/ml/extracted/LowStar_RVector.ml" 255 6892 6907
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6695 "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6697
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6932 "ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6947
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  int_ref free_elems_from "ulib/ml/extracted/LowStar_RVector.ml" 223 5807 5815 "ulib/ml/extracted/LowStar_RVector.ml" 223 5807 5830
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6948 "ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6950
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 249 6674 6680 "ulib/ml/extracted/LowStar_RVector.ml" 249 6674 6682
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6951 "ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6953
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6695 "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6697
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6954 "ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6962
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref new_size "ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6712 "ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6720
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6932 "ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6962
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 258 6964 6980 "ulib/ml/extracted/LowStar_RVector.ml" 258 6964 6983
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7029 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7133
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 258 6964 6986 "ulib/ml/extracted/LowStar_RVector.ml" 258 6964 7009
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 258 6964 7010 "ulib/ml/extracted/LowStar_RVector.ml" 258 6964 7012
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 258 6964 6986 "ulib/ml/extracted/LowStar_RVector.ml" 258 6964 7012
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7033 "ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7036
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  def frv "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7089 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7133
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7039 "ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7060
+type(
+  'Aa LowStar_Vector.vector ->
+  LowStar_Vector.uint32_t -> 'Aa LowStar_Vector.vector
+)
+ident(
+  ext_ref LowStar_Vector.shrink
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7061 "ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7063
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6695 "ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6697
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7064 "ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7072
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref new_size "ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6712 "ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6720
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7039 "ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7072
+call(
+  stack
+)
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7093 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7096
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh2 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7130 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7133
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7099 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7122
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7123 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7125
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7099 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7125
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7130 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7133
+type(
+  'Aa LowStar_Vector.vector
+)
+ident(
+  int_ref frv "ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7033 "ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7036
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7089 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7133
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 259 7017 7029 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7133
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 258 6964 6975 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7134
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 257 6921 6931 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+type(
+  'Aa LowStar_Vector.vector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 254 6850 6858 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 253 6801 6809 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 252 6725 6733 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 251 6702 6708 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+type(
+  LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 250 6687 6691 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+type(
+  ('Aa, Prims.unit) rvector ->
+  LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 249 6674 6676 "ulib/ml/extracted/LowStar_RVector.ml" 260 7077 7135
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector ->
+  LowStar_Vector.uint32_t -> ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 262 7139 7143 "ulib/ml/extracted/LowStar_RVector.ml" 262 7139 7147
+type(
+  'Aa.
+    'Aa LowStar_Regional.regional -> ('Aa, Prims.unit) rvector -> Prims.unit
+)
+ident(
+  def free "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690 "ulib/ml/extracted/LowStar_RVector.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 264 7220 7226 "ulib/ml/extracted/LowStar_RVector.ml" 264 7220 7228
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  def rg "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7237 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7241 "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7243
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  def rv "ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7254 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7258 "ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7261
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh0 "ulib/ml/extracted/LowStar_RVector.ml" 267 7295 7301 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7264 "ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7287
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7288 "ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7290
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7264 "ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7290
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7319 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7321
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7241 "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7243
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7349 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7351
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def sz "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7363 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7365
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7352 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7355
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def cap "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7363 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7365
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7356 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7358
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def vs "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7363 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7365
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7329 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7359
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7363 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7365
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref sz "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7349 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7351
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7312 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7366
+type(
+  LowStar_Vector.uint32_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7367 "ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7368
+type(
+  LowStar_Vector.uint32_t -> LowStar_Vector.uint32_t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 269 7369 7380 "ulib/ml/extracted/LowStar_RVector.ml" 269 7369 7402
+type(
+  Prims.int -> LowStar_Vector.uint32_t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 269 7369 7403 "ulib/ml/extracted/LowStar_RVector.ml" 269 7369 7417
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 269 7369 7379 "ulib/ml/extracted/LowStar_RVector.ml" 269 7369 7418
+call(
+  stack
+)
+type(
+  LowStar_Vector.uint32_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 268 7304 7312 "ulib/ml/extracted/LowStar_RVector.ml" 269 7369 7418
+type(
+  bool
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 270 7419 7430 "ulib/ml/extracted/LowStar_RVector.ml" 270 7419 7432
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 272 7444 7452 "ulib/ml/extracted/LowStar_RVector.ml" 272 7444 7462
+type(
+  'Aa LowStar_Regional.regional ->
+  ('Aa, Prims.unit) rvector -> LowStar_Vector.uint32_t -> Prims.unit
+)
+ident(
+  int_ref free_elems "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4562 "ulib/ml/extracted/LowStar_RVector.ml" 184 4554 4572
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 272 7444 7463 "ulib/ml/extracted/LowStar_RVector.ml" 272 7444 7465
+type(
+  'Aa LowStar_Regional.regional
+)
+ident(
+  int_ref rg "ulib/ml/extracted/LowStar_RVector.ml" 264 7220 7226 "ulib/ml/extracted/LowStar_RVector.ml" 264 7220 7228
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 272 7444 7466 "ulib/ml/extracted/LowStar_RVector.ml" 272 7444 7468
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7241 "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7243
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 273 7469 7480 "ulib/ml/extracted/LowStar_RVector.ml" 273 7469 7496
+type(
+  FStar_UInt32.uint32 -> FStar_UInt32.uint32 -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.sub
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7517 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7519
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7241 "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7243
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7547 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7549
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def sz "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7561 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7563
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7550 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7553
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  def cap "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7561 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7563
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7554 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7556
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def vs "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7561 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7563
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7527 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7557
+type(
+  ('Aa, Prims.unit) rvector
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7561 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7563
+type(
+  LowStar_Vector.uint32_t
+)
+ident(
+  int_ref sz "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7547 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7549
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7510 "ulib/ml/extracted/LowStar_RVector.ml" 274 7497 7564
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7579 "ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7601
+type(
+  Prims.int -> FStar_UInt32.uint32
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7602 "ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7615
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7578 "ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7616
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 273 7469 7479 "ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7617
+call(
+  stack
+)
+type(
+  FStar_UInt32.uint32
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 272 7444 7452 "ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7617
+call(
+  stack
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 267 7295 7301 "ulib/ml/extracted/LowStar_RVector.ml" 275 7565 7617
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7630 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7633
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def hh1 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7667 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7689
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7636 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7659
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7660 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7662
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7636 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7662
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7667 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7686
+type(
+  'Aa LowStar_Vector.vector -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Vector.free
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7687 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7689
+type(
+  ('Aa, Prims.unit) rvector
+)
+ident(
+  int_ref rv "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7241 "ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7243
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7667 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7689
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7625 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 267 7295 7301 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 266 7248 7254 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 265 7233 7237 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690
+type(
+  ('Aa, Prims.unit) rvector -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_RVector.ml" 264 7220 7222 "ulib/ml/extracted/LowStar_RVector.ml" 276 7619 7690
+type(
+  'Aa LowStar_Regional.regional -> ('Aa, Prims.unit) rvector -> Prims.unit
+)

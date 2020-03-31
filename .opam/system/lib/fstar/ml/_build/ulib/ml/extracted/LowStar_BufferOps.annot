@@ -1,0 +1,348 @@
+"ulib/ml/extracted/LowStar_BufferOps.ml" 2 11 15 "ulib/ml/extracted/LowStar_BufferOps.ml" 2 11 30
+type(
+  'Aa 'Arrel 'Arel.
+    Prims.unit ->
+    ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> 'Aa
+)
+ident(
+  def op_Array_Access "ulib/ml/extracted/LowStar_BufferOps.ml" 8 210 210 "ulib/ml/extracted/LowStar_BufferOps.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 7 157 165 "ulib/ml/extracted/LowStar_BufferOps.ml" 7 157 173
+type(
+  Prims.unit
+)
+ident(
+  def uu____60 "ulib/ml/extracted/LowStar_BufferOps.ml" 7 157 178 "ulib/ml/extracted/LowStar_BufferOps.ml" 7 157 208
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 7 157 178 "ulib/ml/extracted/LowStar_BufferOps.ml" 7 157 208
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> 'Aa
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.index
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 7 157 161 "ulib/ml/extracted/LowStar_BufferOps.ml" 7 157 208
+type(
+  Prims.unit ->
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> 'Aa
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 8 210 214 "ulib/ml/extracted/LowStar_BufferOps.ml" 8 210 233
+type(
+  'Aa 'Arrel 'Arel.
+    ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> 'Aa -> Prims.unit
+)
+ident(
+  def op_Array_Assignment "ulib/ml/extracted/LowStar_BufferOps.ml" 19 494 494 "ulib/ml/extracted/LowStar_BufferOps.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 13 356 362 "ulib/ml/extracted/LowStar_BufferOps.ml" 13 356 363
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def b "ulib/ml/extracted/LowStar_BufferOps.ml" 14 368 372 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 14 368 376 "ulib/ml/extracted/LowStar_BufferOps.ml" 14 368 377
+type(
+  FStar_UInt32.t
+)
+ident(
+  def i "ulib/ml/extracted/LowStar_BufferOps.ml" 15 382 388 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 15 382 392 "ulib/ml/extracted/LowStar_BufferOps.ml" 15 382 394
+type(
+  'Aa
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 407 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 411 "ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 412
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 454 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 415 "ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 438
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 439 "ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 441
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 415 "ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 441
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 454 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 483
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> 'Aa -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.upd'
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 484 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 485
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref b "ulib/ml/extracted/LowStar_BufferOps.ml" 13 356 362 "ulib/ml/extracted/LowStar_BufferOps.ml" 13 356 363
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 486 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 487
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref i "ulib/ml/extracted/LowStar_BufferOps.ml" 14 368 376 "ulib/ml/extracted/LowStar_BufferOps.ml" 14 368 377
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 488 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+type(
+  'Aa
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_BufferOps.ml" 15 382 392 "ulib/ml/extracted/LowStar_BufferOps.ml" 15 382 394
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 454 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 16 399 407 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 15 382 388 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+type(
+  'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 14 368 372 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+type(
+  FStar_UInt32.t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 13 356 358 "ulib/ml/extracted/LowStar_BufferOps.ml" 17 446 490
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 19 494 498 "ulib/ml/extracted/LowStar_BufferOps.ml" 19 494 510
+type(
+  'Aa 'Arrel 'Arel.
+    ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer -> 'Aa
+)
+ident(
+  def op_Bang_Star "ulib/ml/extracted/LowStar_BufferOps.ml" 26 693 693 "ulib/ml/extracted/LowStar_BufferOps.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 23 601 607 "ulib/ml/extracted/LowStar_BufferOps.ml" 23 601 608
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def p "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 617 "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 689
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 617 "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 647
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> 'Aa
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.index
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 648 "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 649
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref p "ulib/ml/extracted/LowStar_BufferOps.ml" 23 601 607 "ulib/ml/extracted/LowStar_BufferOps.ml" 23 601 608
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 651 "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 673
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 674 "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 688
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 650 "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 689
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 617 "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 689
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 23 601 603 "ulib/ml/extracted/LowStar_BufferOps.ml" 24 613 689
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer -> 'Aa
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 26 693 697 "ulib/ml/extracted/LowStar_BufferOps.ml" 26 693 711
+type(
+  'Aa 'Arrel 'Arel.
+    ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+    'Aa -> Prims.unit
+)
+ident(
+  def op_Star_Equals "ulib/ml/extracted/LowStar_BufferOps.ml" 36 974 974 "ulib/ml/extracted/LowStar_BufferOps.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 30 810 816 "ulib/ml/extracted/LowStar_BufferOps.ml" 30 810 817
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  def p "ulib/ml/extracted/LowStar_BufferOps.ml" 31 822 826 "ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 970
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 31 822 830 "ulib/ml/extracted/LowStar_BufferOps.ml" 31 822 832
+type(
+  'Aa
+)
+ident(
+  def v1 "ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 843 "ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 970
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 847 "ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 848
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h "ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 888 "ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 970
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 851 "ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 874
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 875 "ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 877
+type(
+  unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 851 "ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 877
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 888 "ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 917
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> 'Aa -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.upd'
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 918 "ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 919
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer
+)
+ident(
+  int_ref p "ulib/ml/extracted/LowStar_BufferOps.ml" 30 810 816 "ulib/ml/extracted/LowStar_BufferOps.ml" 30 810 817
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 921 "ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 943
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 944 "ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 958
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 920 "ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 959
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 968 "ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 970
+type(
+  'Aa
+)
+ident(
+  int_ref v1 "ulib/ml/extracted/LowStar_BufferOps.ml" 31 822 830 "ulib/ml/extracted/LowStar_BufferOps.ml" 31 822 832
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 33 882 888 "ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 970
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 32 837 843 "ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 970
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 31 822 826 "ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 970
+type(
+  'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 30 810 812 "ulib/ml/extracted/LowStar_BufferOps.ml" 34 960 970
+type(
+  ('Aa, 'Arrel, 'Arel) LowStar_Monotonic_Buffer.mbuffer -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 36 974 978 "ulib/ml/extracted/LowStar_BufferOps.ml" 36 974 982
+type(
+  'Aa 'Arrel1 'Arel1 'Arrel2 'Arel2.
+    Prims.unit ->
+    ('Aa, 'Arrel1, 'Arrel2) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t ->
+    ('Aa, 'Arel1, 'Arel2) LowStar_Monotonic_Buffer.mbuffer ->
+    FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  def blit "ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1295 "ulib/ml/extracted/LowStar_BufferOps.ml" 1 0 -1
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1252 "ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1261
+type(
+  Prims.unit
+)
+ident(
+  def uu____500 "ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1266 "ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1295
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1266 "ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1295
+type(
+  ('Aa, 'Arrel1, 'Arrel2) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t ->
+  ('Aa, 'Arel1, 'Arel2) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.blit
+)
+"ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1248 "ulib/ml/extracted/LowStar_BufferOps.ml" 43 1244 1295
+type(
+  Prims.unit ->
+  ('Aa, 'Arrel1, 'Arrel2) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t ->
+  ('Aa, 'Arel1, 'Arel2) LowStar_Monotonic_Buffer.mbuffer ->
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)

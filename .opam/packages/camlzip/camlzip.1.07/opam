@@ -1,0 +1,25 @@
+opam-version: "1.2"
+maintainer: "Etienne Millon <etienne@cryptosense.com>"
+authors: "Xavier Leroy"
+homepage: "https://github.com/xavierleroy/camlzip"
+bug-reports: "https://github.com/xavierleroy/camlzip/issues"
+license: "LGPL-2.1+ with OCaml linking exception"
+build: [
+  [make "all"]
+  [make "allopt"]
+]
+install: [make "install-findlib"]
+remove: [
+  ["ocamlfind" "remove" "zip"]
+  ["ocamlfind" "remove" "camlzip"]
+]
+depends: "ocamlfind"
+depexts: [
+  [["alpine"] ["zlib-dev"]]
+  [["centos"] ["zlib-devel"]]
+  [["debian"] ["zlib1g-dev"]]
+  [["fedora"] ["zlib-devel"]]
+  [["rhel"] ["zlib-devel"]]
+  [["ubuntu"] ["zlib1g-dev"]]
+]
+available: [ocaml-version >= "4.02.0"]

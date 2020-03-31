@@ -1,0 +1,3217 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 4 85 93 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 4 85 99
+type(
+  'Aa. 'Aa cmp -> 'Aa Prims.list -> Prims.bool
+)
+ident(
+  def sorted "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 4 85 85 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 5 150 156 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 5 150 157
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 6 162 166 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 6 162 170 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 6 162 171
+type(
+  'Aa Prims.list
+)
+ident(
+  def l "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 7 176 182 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 7 176 188 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 7 176 189
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref l "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 6 162 170 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 6 162 171
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 8 195 203 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 8 195 205
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 8 195 209 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 8 195 213
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 222 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 223
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 231 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 235
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 225 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 227
+type(
+  'Aa list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 222 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 227
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 231 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 9 214 235
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 244 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 245
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 257 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 247 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 248
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 257 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 250 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 253
+type(
+  'Aa list
+)
+ident(
+  def tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 257 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 247 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 253
+type(
+  'Aa list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 244 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 253
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 259 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 260
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 5 150 156 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 5 150 157
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 261 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 262
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 244 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 245
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 263 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 264
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 247 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 258 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 265
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 266 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 268
+type(
+  Prims.bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 270 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 271
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 244 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 245
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 272 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 274
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 275 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 276
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 247 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 269 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 277
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 257 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 278
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 279 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 281
+type(
+  bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 283 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 289
+type(
+  'Aa cmp -> 'Aa Prims.list -> Prims.bool
+)
+ident(
+  int_ref sorted "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 4 85 93 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 4 85 99
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 290 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 291
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 5 150 156 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 5 150 157
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 293 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 294
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 247 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 298 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 301
+type(
+  'Aa list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 250 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 253
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 292 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 302
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 282 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 257 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 7 176 182 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 6 162 166 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+type(
+  'Aa Prims.list -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 5 150 152 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 10 236 303
+type(
+  'Aa cmp -> 'Aa Prims.list -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 14 347 351 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 14 347 358
+type(
+  'Aa. 'Aa cmp -> ('Aa, Prims.unit) ordset -> 'Aa Prims.list
+)
+ident(
+  def as_list "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 16 441 441 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 422 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 423
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 428 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 439
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 432 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 433
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 438 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 439
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 438 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 439
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 432 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 433
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 428 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 439
+type(
+  ('Aa, Prims.unit) ordset -> 'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 418 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 15 416 439
+type(
+  'Aa cmp -> ('Aa, Prims.unit) ordset -> 'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 16 441 445 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 16 441 448
+type(
+  'Aa. 'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  def mem "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 572 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 515 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 516
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 521 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 568
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 525 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 526
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 531 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 568
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 535 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 536
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 541 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 568
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 541 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 564
+type(
+  'Aa -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  ext_ref FStar_List_Tot_Base.mem
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 565 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 566
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 525 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 526
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 567 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 568
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 535 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 536
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 541 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 568
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 531 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 568
+type(
+  ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 521 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 568
+type(
+  'Aa -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 511 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 17 509 568
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 576 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 581
+type(
+  'Aa. 'Aa cmp -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def empty "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 635 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 625 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 626
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 631 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 633
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 631 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 633
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 621 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 633
+type(
+  'Aa cmp -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 643 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 650
+type(
+  'Aa. 'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def insert' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 635 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 23 720 726 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 23 720 727
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 736 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 741
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 25 746 752 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 25 746 756 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 25 746 757
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 26 762 770 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 26 762 776 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 26 762 777
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 25 746 756 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 25 746 757
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 27 783 793 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 27 783 795
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 27 783 800 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 27 783 801
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 741
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 27 783 799 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 27 783 802
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 813 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 816
+type(
+  'Aa
+)
+ident(
+  def hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 837 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 818 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 821
+type(
+  'Aa list
+)
+ident(
+  def tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 837 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 813 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 821
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 840 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 841
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 741
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 842 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 843
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 844 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 847
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 813 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 816
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 840 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 847
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 30 848 865 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 30 848 868
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 813 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 816
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 30 848 872 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 30 848 875
+type(
+  'Aa list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 818 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 821
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 30 848 865 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 30 848 875
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 910 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 911
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 23 720 726 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 23 720 727
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 912 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 913
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 741
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 914 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 917
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 813 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 816
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 910 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 917
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 923 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 924
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 741
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 928 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 931
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 813 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 816
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 935 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 938
+type(
+  'Aa list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 818 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 821
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 928 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 938
+type(
+  'Aa list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 923 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 938
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 944 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 947
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 813 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 816
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 952 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 959
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref insert' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 643 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 650
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 960 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 961
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 23 720 726 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 23 720 727
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 962 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 963
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 741
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 964 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 967
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 818 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 28 803 821
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 951 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 944 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 907 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 29 825 837 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 26 762 770 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 25 746 752 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 24 732 736 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+type(
+  'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 23 720 722 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 32 893 968
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 34 972 980 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 34 972 985
+type(
+  'Aa.
+    'Aa cmp ->
+    ('Aa, Prims.unit) ordset ->
+    ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def union "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 34 972 972 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 38 1075 1081 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 38 1075 1082
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 39 1087 1091 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 39 1087 1095 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 39 1087 1097
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 40 1102 1108 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 40 1102 1112 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 40 1102 1114
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1127 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1133 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1135
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 39 1087 1095 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 39 1087 1097
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1143 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1145
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1149 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1151
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 40 1102 1112 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 40 1102 1114
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1154 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1157
+type(
+  'Aa
+)
+ident(
+  def hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1166 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1159 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1162
+type(
+  'Aa list
+)
+ident(
+  def tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1166 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1154 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1162
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1166 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1171
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref union "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 34 972 980 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 34 972 985
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1172 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1173
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 38 1075 1081 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 38 1075 1082
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1174 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1177
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1159 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1162
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1179 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1186
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref insert' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 643 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 650
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1187 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1188
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 38 1075 1081 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 38 1075 1082
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1189 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1192
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1154 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1157
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1193 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1195
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 40 1102 1112 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 40 1102 1114
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1178 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1166 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1127 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 40 1102 1108 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 39 1087 1091 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+type(
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 38 1075 1077 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 41 1119 1196
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1208 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1217
+type(
+  'Aa.
+    'Aa cmp ->
+    ('Aa, Prims.unit) ordset ->
+    ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def intersect "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1200 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1313 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1314
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 48 1319 1323 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 48 1319 1327 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 48 1319 1329
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1340 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1346
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 50 1351 1359 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 50 1351 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 50 1351 1367
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 48 1319 1327 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 48 1319 1329
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 51 1373 1383 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 51 1373 1385
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 51 1373 1389 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 51 1373 1391
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1402 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1405
+type(
+  'Aa
+)
+ident(
+  def hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1426 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1407 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1410
+type(
+  'Aa list
+)
+ident(
+  def tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1426 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1402 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1410
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1432
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  int_ref mem "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 16 441 445 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 16 441 448
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1433 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1434
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1313 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1314
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1435 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1438
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1402 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1405
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1439 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1441
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1346
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1441
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1459 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1466
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref insert' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 643 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 21 635 650
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1467 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1468
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1313 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1314
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1469 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1472
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1402 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1405
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1474 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1483
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref intersect "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1208 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1217
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1484 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1485
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1313 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1314
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1486 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1489
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1407 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1410
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1490 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1492
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1346
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1473 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1493
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1459 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 54 1442 1493
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1511 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1520
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref intersect "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1208 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1217
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1521 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1522
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1313 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1314
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1523 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1526
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1407 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 52 1392 1410
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1527 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1346
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1511 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 53 1414 1426 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 50 1351 1359 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 49 1334 1340 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 48 1319 1323 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+type(
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 47 1307 1309 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 55 1494 1529
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 57 1533 1537 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 57 1533 1545
+type(
+  'Aa.
+    'Aa cmp ->
+    ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  def disjoint "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 60 1689 1689 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1628 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1629
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1634 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1687
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1638 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1640
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1645 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1687
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1649 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1651
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1656 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1687
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1657 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1666
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref intersect "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1208 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 43 1200 1217
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1667 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1668
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1628 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1629
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1669 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1671
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1638 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1640
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1672 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1674
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1649 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1651
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1656 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1675
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1676 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1677
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1679 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1684
+type(
+  'Aa cmp -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref empty "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 576 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 20 572 581
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1685 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1686
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1628 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1629
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1678 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1687
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1656 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1687
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1645 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1687
+type(
+  ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1634 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1687
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1624 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 59 1622 1687
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 60 1689 1693 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 60 1689 1699
+type(
+  'Aa.
+    'Aa cmp -> ('Aa, Prims.unit) ordset -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def choose "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 68 1926 1926 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 62 1779 1785 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 62 1779 1786
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 63 1791 1795 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 63 1791 1799 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 63 1791 1800
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 64 1805 1811 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 64 1805 1817 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 64 1805 1818
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 63 1791 1799 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 63 1791 1800
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 65 1824 1832 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 65 1824 1834
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 65 1824 1838 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 65 1824 1866
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1875 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1876
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1892 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1878 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1888
+type(
+  'Aa list
+)
+ident(
+  def uu____1430 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1892 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1875 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1888
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1921 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1875 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1876
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1892 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 64 1805 1811 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 63 1791 1795 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+type(
+  ('Aa, Prims.unit) ordset -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 62 1779 1781 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 66 1867 1922
+type(
+  'Aa cmp -> ('Aa, Prims.unit) ordset -> 'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 68 1926 1934 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 68 1926 1941
+type(
+  'Aa. 'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def remove' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 68 1926 1926 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 70 2011 2017 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 70 2011 2018
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 71 2023 2027 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 71 2023 2031 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 71 2023 2032
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 72 2037 2043 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 72 2037 2047 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 72 2037 2048
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 73 2053 2061 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 73 2053 2067 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 73 2053 2068
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 72 2037 2047 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 72 2037 2048
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 74 2074 2084 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 74 2074 2086
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 74 2074 2090 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 74 2074 2092
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2103 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2106
+type(
+  'Aa
+)
+ident(
+  def hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2115 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2108 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2111
+type(
+  'Aa list
+)
+ident(
+  def tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2115 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2103 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2111
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2118 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2119
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 71 2023 2031 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 71 2023 2032
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2120 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2121
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2122 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2125
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2103 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2106
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2118 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2125
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2131 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2134
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2108 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2111
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2140 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2143
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2103 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2106
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2148 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2155
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref remove' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 68 1926 1934 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 68 1926 1941
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2156 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2157
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 70 2011 2017 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 70 2011 2018
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2158 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2159
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 71 2023 2031 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 71 2023 2032
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2160 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2163
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2108 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2111
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2147 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2140 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2115 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 73 2053 2061 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 72 2037 2043 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 71 2023 2027 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+type(
+  'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 70 2011 2013 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 75 2093 2164
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 77 2168 2172 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 77 2168 2178
+type(
+  'Aa. 'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def remove "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 79 2293 2293 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2252 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2253
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2258 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2291
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2262 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2263
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2268 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2291
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2272 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2273
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2278 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2291
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2278 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2285
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref remove' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 68 1926 1934 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 68 1926 1941
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2286 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2287
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2252 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2253
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2288 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2289
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2262 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2263
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2290 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2291
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2272 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2273
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2278 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2291
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2268 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2291
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2258 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2291
+type(
+  'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2248 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 78 2246 2291
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 79 2293 2297 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 79 2293 2301
+type(
+  'Aa. 'Aa cmp -> ('Aa, Prims.unit) ordset -> Prims.nat
+)
+ident(
+  def size "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2406 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2360 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2361
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2366 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2404
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2370 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2371
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2376 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2404
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2376 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2402
+type(
+  ('Aa, Prims.unit) ordset -> Prims.nat
+)
+ident(
+  ext_ref FStar_List_Tot_Base.length
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2403 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2404
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2370 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2371
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2376 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2404
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2366 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2404
+type(
+  ('Aa, Prims.unit) ordset -> Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2356 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 80 2354 2404
+type(
+  'Aa cmp -> ('Aa, Prims.unit) ordset -> Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2414 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2420
+type(
+  'Aa.
+    'Aa cmp ->
+    ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  def subset "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2406 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2503 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2504
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 84 2509 2513 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 84 2509 2517 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 84 2509 2519
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 85 2524 2530 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 85 2524 2534 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 85 2524 2536
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 86 2541 2549 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 86 2541 2556 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 86 2541 2558
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 84 2509 2517 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 84 2509 2519
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 86 2541 2560 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 86 2541 2562
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 85 2524 2534 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 85 2524 2536
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 86 2541 2555 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 86 2541 2563
+type(
+  ('Aa, Prims.unit) ordset * ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2580 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2582
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2583 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2593
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def uu____2073 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2598 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2602
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2579 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2594
+type(
+  ('Aa, Prims.unit) ordset * ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2598 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 87 2569 2602
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2614 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2617
+type(
+  'Aa
+)
+ident(
+  def hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2648 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2852
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2619 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2622
+type(
+  'Aa list
+)
+ident(
+  def tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2648 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2852
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2614 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2622
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2623 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2626
+type(
+  'Aa
+)
+ident(
+  def hd' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2648 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2852
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2628 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2631
+type(
+  'Aa list
+)
+ident(
+  def tl' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2648 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2852
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2623 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2631
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2613 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2632
+type(
+  ('Aa, Prims.unit) ordset * ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2652 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2653
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2503 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2504
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2654 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2657
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2614 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2617
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2658 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2661
+type(
+  'Aa
+)
+ident(
+  int_ref hd' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2623 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2626
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2651 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2662
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2663 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2665
+type(
+  Prims.bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2667 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2670
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2614 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2617
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2671 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2672
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2673 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2676
+type(
+  'Aa
+)
+ident(
+  int_ref hd' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2623 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2626
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2666 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2677
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2651 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2677
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2695 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2701
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  int_ref subset "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2414 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2420
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2702 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2703
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2503 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2504
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2704 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2707
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2619 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2622
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2708 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2711
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2628 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2631
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2695 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 90 2678 2711
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2747 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2748
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2503 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2504
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2749 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2752
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2614 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2617
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2753 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2756
+type(
+  'Aa
+)
+ident(
+  int_ref hd' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2623 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2626
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2746 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2757
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2758 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2760
+type(
+  Prims.bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2762 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2779
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Prims.op_Negation
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2781 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2784
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2614 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2617
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2785 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2786
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2787 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2790
+type(
+  'Aa
+)
+ident(
+  int_ref hd' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2623 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2626
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2780 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2791
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2761 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2792
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2746 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2792
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 93 2793 2812 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 93 2793 2817
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2837 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2843
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  int_ref subset "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2414 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2420
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2844 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2845
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2503 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2504
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2846 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2848
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 84 2509 2517 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 84 2509 2519
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2849 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2852
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2628 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 88 2603 2631
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2837 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2852
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 92 2729 2743 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2852
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 89 2636 2648 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 94 2818 2852
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2864 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2874
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def uu____2100 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2890 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2875 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2885
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def uu____2101 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2890 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2863 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2886
+type(
+  ('Aa, Prims.unit) ordset * ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2890 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 86 2541 2549 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 85 2524 2530 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+type(
+  ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 84 2509 2513 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 83 2497 2499 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 95 2853 2895
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 97 2899 2903 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 97 2899 2912
+type(
+  'Aa. 'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def singleton "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 99 2986 2986 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2965 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2966
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2971 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2984
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2975 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2976
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2981 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2984
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2982 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2983
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2975 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2976
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2981 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2984
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2971 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2984
+type(
+  'Aa -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2961 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 98 2959 2984
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 118 3042 3046 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 118 3042 3050
+type(
+  'Aa 'Aacc.
+    'Aa cmp ->
+    ('Aacc -> 'Aa -> 'Aacc) -> 'Aacc -> ('Aa, Prims.unit) ordset -> 'Aacc
+)
+ident(
+  def fold "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 125 3242 3242 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 122 3149 3155 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 122 3149 3156
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3165 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3169 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3170
+type(
+  'Aacc -> 'Aa -> 'Aacc
+)
+ident(
+  def g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3175 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3179 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3184
+type(
+  'Aacc
+)
+ident(
+  def init1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3189 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3193 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3194
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3199 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3199 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3228
+type(
+  ('Aacc -> 'Aa -> 'Aacc) -> 'Aacc -> ('Aa, Prims.unit) ordset -> 'Aacc
+)
+ident(
+  ext_ref FStar_List_Tot_Base.fold_left
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3229 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3230
+type(
+  'Aacc -> 'Aa -> 'Aacc
+)
+ident(
+  int_ref g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3169 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3170
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3231 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3236
+type(
+  'Aacc
+)
+ident(
+  int_ref init1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3179 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3184
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3237 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3193 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3194
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3199 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+call(
+  tail
+)
+type(
+  'Aacc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3189 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+type(
+  ('Aa, Prims.unit) ordset -> 'Aacc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3175 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+type(
+  'Aacc -> ('Aa, Prims.unit) ordset -> 'Aacc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3165 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+type(
+  ('Aacc -> 'Aa -> 'Aacc) -> 'Aacc -> ('Aa, Prims.unit) ordset -> 'Aacc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 122 3149 3151 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 123 3161 3238
+type(
+  'Aa cmp ->
+  ('Aacc -> 'Aa -> 'Aacc) -> 'Aacc -> ('Aa, Prims.unit) ordset -> 'Aacc
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 125 3242 3250 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 125 3242 3262
+type(
+  'Aa 'Ab.
+    'Aa cmp ->
+    'Ab cmp ->
+    ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+ident(
+  def map_internal "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 125 3242 3242 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 130 3368 3374 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 130 3368 3376
+type(
+  'Aa cmp
+)
+ident(
+  def fa "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 131 3381 3385 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 131 3381 3389 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 131 3381 3391
+type(
+  'Ab cmp
+)
+ident(
+  def fb "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 132 3396 3402 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 132 3396 3406 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 132 3396 3407
+type(
+  'Aa -> 'Ab
+)
+ident(
+  def g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 133 3412 3420 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 133 3412 3424 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 133 3412 3426
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def sa "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 134 3431 3441 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 134 3431 3447 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 134 3431 3449
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref sa "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 133 3412 3424 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 133 3412 3426
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 135 3455 3467 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 135 3455 3469
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 135 3455 3473 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 135 3455 3475
+type(
+  ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3488 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3489
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3511 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3491 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3493
+type(
+  'Aa list
+)
+ident(
+  def xs "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3511 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3488 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3493
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3515 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3516
+type(
+  'Ab
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3541 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3519 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3520
+type(
+  'Aa -> 'Ab
+)
+ident(
+  int_ref g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 132 3396 3406 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 132 3396 3407
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3521 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3522
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3488 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3489
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3519 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3522
+call(
+  stack
+)
+type(
+  'Ab
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3545 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3547
+type(
+  ('Ab, Prims.unit) ordset
+)
+ident(
+  def ys "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 139 3578 3592 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3550 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3562
+type(
+  'Aa cmp ->
+  'Ab cmp ->
+  ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+ident(
+  int_ref map_internal "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 125 3242 3250 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 125 3242 3262
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3563 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3565
+type(
+  'Aa cmp
+)
+ident(
+  int_ref fa "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 130 3368 3374 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 130 3368 3376
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3566 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3568
+type(
+  'Ab cmp
+)
+ident(
+  int_ref fb "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 131 3381 3389 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 131 3381 3391
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3569 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3570
+type(
+  'Aa -> 'Ab
+)
+ident(
+  int_ref g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 132 3396 3406 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 132 3396 3407
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3571 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3573
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref xs "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3491 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 136 3476 3493
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3550 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3573
+call(
+  stack
+)
+type(
+  ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3612 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3629
+type(
+  Prims.bool -> bool
+)
+ident(
+  ext_ref Prims.op_Negation
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3631 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3649
+type(
+  'Ab Prims.list -> Prims.bool
+)
+ident(
+  ext_ref Prims.uu___is_Cons
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3650 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3652
+type(
+  ('Ab, Prims.unit) ordset
+)
+ident(
+  int_ref ys "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3545 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3547
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3630 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3653
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3611 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3654
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3655 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3657
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3678 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3706
+type(
+  'Ab Prims.list -> 'Ab
+)
+ident(
+  ext_ref Prims.__proj__Cons__item__hd
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3707 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3709
+type(
+  ('Ab, Prims.unit) ordset
+)
+ident(
+  int_ref ys "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3545 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3547
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3677 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3710
+call(
+  stack
+)
+type(
+  'Ab
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3711 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3713
+type(
+  'Ab -> 'Ab -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3714 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3715
+type(
+  'Ab
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3515 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3516
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3676 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3716
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 140 3595 3611 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 141 3658 3716
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 142 3717 3736 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 142 3717 3737
+type(
+  'Ab
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3515 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3516
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 142 3717 3741 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 142 3717 3743
+type(
+  ('Ab, Prims.unit) ordset
+)
+ident(
+  int_ref ys "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3545 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3547
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 142 3717 3736 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 142 3717 3743
+type(
+  ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3763 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  ('Ab, Prims.unit) ordset
+)
+ident(
+  int_ref ys "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3545 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3547
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 139 3578 3592 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 138 3527 3541 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 137 3497 3511 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 134 3431 3441 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 133 3412 3420 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 132 3396 3402 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 131 3381 3385 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  'Ab cmp ->
+  ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 130 3368 3370 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 143 3744 3765
+type(
+  'Aa cmp ->
+  'Ab cmp ->
+  ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 145 3769 3773 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 145 3769 3776
+type(
+  'Aa 'Ab.
+    'Aa cmp ->
+    'Ab cmp ->
+    ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+ident(
+  def map "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3950 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3886 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3888
+type(
+  'Aa cmp
+)
+ident(
+  def fa "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3893 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3897 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3899
+type(
+  'Ab cmp
+)
+ident(
+  def fb "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3904 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3908 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3909
+type(
+  'Aa -> 'Ab
+)
+ident(
+  def g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3914 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3918 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3920
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def sa "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3925 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3925 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3937
+type(
+  'Aa cmp ->
+  'Ab cmp ->
+  ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+ident(
+  int_ref map_internal "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 125 3242 3250 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 125 3242 3262
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3938 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3940
+type(
+  'Aa cmp
+)
+ident(
+  int_ref fa "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3886 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3888
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3941 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3943
+type(
+  'Ab cmp
+)
+ident(
+  int_ref fb "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3897 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3899
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3944 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3945
+type(
+  'Aa -> 'Ab
+)
+ident(
+  int_ref g "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3908 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3909
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3946 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref sa "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3918 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3920
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3925 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+call(
+  tail
+)
+type(
+  ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3914 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+type(
+  ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3904 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+type(
+  ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3893 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+type(
+  'Ab cmp ->
+  ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3882 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 149 3878 3948
+type(
+  'Aa cmp ->
+  'Ab cmp ->
+  ('Aa -> 'Ab) -> ('Aa, Prims.unit) ordset -> ('Ab, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3958 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3967
+type(
+  'Aa. 'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def remove_le "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3950 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 152 4037 4043 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 152 4037 4044
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4053 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4057 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4058
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 154 4063 4069 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 154 4063 4073 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 154 4063 4074
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 155 4079 4087 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 155 4079 4093 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 155 4079 4094
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 154 4063 4073 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 154 4063 4074
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 156 4100 4110 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 156 4100 4112
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 156 4100 4116 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 156 4100 4118
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4129 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4130
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4138 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4132 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4134
+type(
+  'Aa list
+)
+ident(
+  def ys "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4138 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4129 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4134
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4142 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4143
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 152 4037 4043 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 152 4037 4044
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4144 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4145
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4057 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4058
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4146 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4147
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4129 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4130
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4141 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4148
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4149 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4151
+type(
+  Prims.bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4153 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4154
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4057 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4058
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4155 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4157
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4158 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4159
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4129 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4130
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4152 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4160
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4141 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4160
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4166 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4167
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 154 4063 4073 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 154 4063 4074
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4173 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4182
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref remove_le "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3958 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3967
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4183 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4184
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 152 4037 4043 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 152 4037 4044
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4185 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4186
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4057 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4058
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4187 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref ys "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4132 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4134
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4173 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4138 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 155 4079 4087 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 154 4063 4069 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 153 4049 4053 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+type(
+  'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 152 4037 4039 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 157 4119 4189
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4201 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4207
+type(
+  'Aa.
+    'Aa cmp ->
+    'Aa ->
+    ('Aa, Prims.unit) ordset ->
+    ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def minus' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4193 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4316 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4317
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 165 4322 4326 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 165 4322 4330 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 165 4322 4331
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 166 4336 4342 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 166 4336 4346 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 166 4336 4348
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 167 4353 4361 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 167 4353 4365 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 167 4353 4367
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 168 4372 4382 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 168 4372 4388 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 168 4372 4390
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 166 4336 4346 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 166 4336 4348
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 169 4396 4408 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 169 4396 4410
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 169 4396 4414 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 169 4396 4416
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4429 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4431
+type(
+  'Aa
+)
+ident(
+  def x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 171 4440 4454 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4433 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4436
+type(
+  'Aa list
+)
+ident(
+  def xs1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 171 4440 4454 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4429 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4436
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 171 4440 4461 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 171 4440 4463
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 167 4353 4365 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 167 4353 4367
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 172 4469 4486 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 172 4469 4488
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 172 4469 4492 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 172 4469 4494
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 166 4336 4346 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 166 4336 4348
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4512 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4514
+type(
+  'Aa
+)
+ident(
+  def x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4542 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4663
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4516 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4519
+type(
+  'Aa list
+)
+ident(
+  def xs2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4542 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4663
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4512 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4519
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4545 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4547
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4429 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4431
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4548 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4549
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4550 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4552
+type(
+  'Aa
+)
+ident(
+  int_ref x2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4512 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4514
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4545 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4552
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4577 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4583
+type(
+  'Aa cmp ->
+  'Aa ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref minus' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4201 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4207
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4584 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4585
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4316 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4317
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4586 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4587
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 165 4322 4330 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 165 4322 4331
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4588 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4591
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref xs1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4433 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4436
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4592 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4595
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref xs2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4516 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 173 4495 4519
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4577 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 175 4553 4595
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4620 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4622
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4429 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4431
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4627 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4633
+type(
+  'Aa cmp ->
+  'Aa ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref minus' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4201 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4207
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4634 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4635
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4316 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4317
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4636 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4638
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4429 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4431
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4639 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4642
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref xs1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4433 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4436
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4644 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4653
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref remove_le "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3958 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3967
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4654 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4655
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4316 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4317
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4656 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4658
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4429 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 170 4417 4431
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4659 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4661
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 167 4353 4365 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 167 4353 4367
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4643 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4662
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4626 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4663
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4620 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4663
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 174 4523 4542 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4663
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 171 4440 4454 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 168 4372 4382 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 167 4353 4361 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 166 4336 4342 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+type(
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 165 4322 4326 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+type(
+  'Aa ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 164 4310 4312 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 176 4596 4664
+type(
+  'Aa cmp ->
+  'Aa ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 178 4668 4672 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 178 4668 4677
+type(
+  'Aa.
+    'Aa cmp ->
+    ('Aa, Prims.unit) ordset ->
+    ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  def minus "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 189 4912 4912 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 182 4767 4773 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 182 4767 4774
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 183 4779 4783 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 183 4779 4787 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 183 4779 4789
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 184 4794 4800 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 184 4794 4804 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 184 4794 4806
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 185 4811 4819 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 185 4811 4825 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 185 4811 4827
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 183 4779 4787 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 183 4779 4789
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 186 4833 4843 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 186 4833 4845
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 186 4833 4849 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 186 4833 4851
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4862 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4864
+type(
+  'Aa
+)
+ident(
+  def x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4873 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4866 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4869
+type(
+  'Aa list
+)
+ident(
+  def xs1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4873 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4862 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4869
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4873 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4879
+type(
+  'Aa cmp ->
+  'Aa ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref minus' "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4201 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 159 4193 4207
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4880 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4881
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 182 4767 4773 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 182 4767 4774
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4882 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4884
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4862 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4864
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4885 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4888
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref xs1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4866 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4869
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4890 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4899
+type(
+  'Aa cmp -> 'Aa -> ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref remove_le "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3958 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 150 3950 3967
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4900 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4901
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 182 4767 4773 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 182 4767 4774
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4902 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4904
+type(
+  'Aa
+)
+ident(
+  int_ref x1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4862 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4864
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4905 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4907
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 184 4794 4804 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 184 4794 4806
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4889 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4873 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 185 4811 4819 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 184 4794 4800 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 183 4779 4783 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+type(
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 182 4767 4769 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 187 4852 4908
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 189 4912 4916 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 189 4912 4929
+type(
+  'Aa.
+    'Aa cmp ->
+    ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  def strict_subset "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 203 5083 5083 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5012 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5013
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5018 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5070
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5022 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5024
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5029 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5070
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5033 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5035
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5040 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5070
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5041 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5043
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5022 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5044 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5046
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5047 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5049
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5033 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5035
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5040 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5050
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5051 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5053
+type(
+  bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5055 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5061
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+ident(
+  int_ref subset "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2414 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 81 2406 2420
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5062 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5063
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5012 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5013
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5064 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5066
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5022 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5024
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5067 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5069
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5033 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5035
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5054 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5070
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5040 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5070
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5029 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5070
+type(
+  ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5018 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5070
+type(
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5008 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 191 5006 5070
+type(
+  'Aa cmp ->
+  ('Aa, Prims.unit) ordset -> ('Aa, Prims.unit) ordset -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 203 5083 5091 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 203 5083 5097
+type(
+  'Aa. 'Aa cmp -> ('Aa, Prims.unit) ordset -> 'Aa FStar_Set.set
+)
+ident(
+  def as_set "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 203 5083 5083 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 204 5158 5164 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 204 5158 5165
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 205 5170 5174 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 205 5170 5178 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 205 5170 5179
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 206 5184 5190 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 206 5184 5196 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 206 5184 5197
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 205 5170 5178 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 205 5170 5179
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 207 5203 5211 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 207 5203 5213
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 207 5203 5217 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 207 5203 5232
+type(
+  unit -> 'Aa FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.empty
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 207 5203 5233 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 207 5203 5235
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 207 5203 5217 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 207 5203 5235
+call(
+  tail
+)
+type(
+  'Aa FStar_Set.set
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5244 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5247
+type(
+  'Aa
+)
+ident(
+  def hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5256 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5249 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5252
+type(
+  'Aa list
+)
+ident(
+  def tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5256 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5244 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5252
+type(
+  ('Aa, Prims.unit) ordset
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5256 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5271
+type(
+  'Aa BatSet.t -> 'Aa FStar_Set.set -> 'Aa FStar_Set.set
+)
+ident(
+  ext_ref FStar_Set.union
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5273 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5292
+type(
+  'Aa -> 'Aa BatSet.t
+)
+ident(
+  ext_ref FStar_Set.singleton
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5293 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5296
+type(
+  'Aa
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5244 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5247
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5272 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5297
+call(
+  stack
+)
+type(
+  'Aa BatSet.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5299 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5305
+type(
+  'Aa cmp -> ('Aa, Prims.unit) ordset -> 'Aa FStar_Set.set
+)
+ident(
+  int_ref as_set "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 203 5083 5091 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 203 5083 5097
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5306 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5307
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 204 5158 5164 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 204 5158 5165
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5308 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5311
+type(
+  ('Aa, Prims.unit) ordset
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5249 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5252
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5298 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+call(
+  stack
+)
+type(
+  'Aa FStar_Set.set
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5256 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+call(
+  tail
+)
+type(
+  'Aa FStar_Set.set
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 206 5184 5190 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+type(
+  'Aa FStar_Set.set
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 205 5170 5174 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+type(
+  ('Aa, Prims.unit) ordset -> 'Aa FStar_Set.set
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 204 5158 5160 "ulib/tactics_ml/fstarlib_leftovers/FStar_OrdSet.ml" 208 5236 5312
+type(
+  'Aa cmp -> ('Aa, Prims.unit) ordset -> 'Aa FStar_Set.set
+)

@@ -1,0 +1,324 @@
+"ulib/ml/FStar_Monotonic_Heap.ml" 11 175 179 "ulib/ml/FStar_Monotonic_Heap.ml" 11 175 182
+type(
+  unit
+)
+ident(
+  def emp "ulib/ml/FStar_Monotonic_Heap.ml" 17 309 309 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 12 185 187 "ulib/ml/FStar_Monotonic_Heap.ml" 12 185 189
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 17 309 313 "ulib/ml/FStar_Monotonic_Heap.ml" 17 309 320
+type(
+  'a -> 'b
+)
+ident(
+  def addr_of "ulib/ml/FStar_Monotonic_Heap.ml" 18 338 338 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 17 309 321 "ulib/ml/FStar_Monotonic_Heap.ml" 17 309 322
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 17 309 325 "ulib/ml/FStar_Monotonic_Heap.ml" 17 309 334
+type(
+  unit -> 'b
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 17 309 335 "ulib/ml/FStar_Monotonic_Heap.ml" 17 309 337
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 17 309 325 "ulib/ml/FStar_Monotonic_Heap.ml" 17 309 337
+type(
+  'b
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 18 338 342 "ulib/ml/FStar_Monotonic_Heap.ml" 18 338 347
+type(
+  'a -> 'b
+)
+ident(
+  def is_mm "ulib/ml/FStar_Monotonic_Heap.ml" 22 391 391 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 18 338 348 "ulib/ml/FStar_Monotonic_Heap.ml" 18 338 349
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 18 338 352 "ulib/ml/FStar_Monotonic_Heap.ml" 18 338 361
+type(
+  unit -> 'b
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 18 338 362 "ulib/ml/FStar_Monotonic_Heap.ml" 18 338 364
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 18 338 352 "ulib/ml/FStar_Monotonic_Heap.ml" 18 338 364
+type(
+  'b
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 25 483 487 "ulib/ml/FStar_Monotonic_Heap.ml" 25 483 492
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def fresh "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 515 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 25 483 493 "ulib/ml/FStar_Monotonic_Heap.ml" 25 483 494
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 25 483 495 "ulib/ml/FStar_Monotonic_Heap.ml" 25 483 496
+type(
+  'b
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 25 483 497 "ulib/ml/FStar_Monotonic_Heap.ml" 25 483 498
+type(
+  'c
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 25 483 501 "ulib/ml/FStar_Monotonic_Heap.ml" 25 483 510
+type(
+  unit -> 'd
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 25 483 511 "ulib/ml/FStar_Monotonic_Heap.ml" 25 483 513
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 25 483 501 "ulib/ml/FStar_Monotonic_Heap.ml" 25 483 513
+type(
+  'd
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 27 515 519 "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 522
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def sel "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 542 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 27 515 523 "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 524
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 27 515 525 "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 526
+type(
+  'b
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 27 515 529 "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 538
+type(
+  unit -> 'c
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 27 515 539 "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 541
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 27 515 529 "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 541
+type(
+  'c
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 28 542 546 "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 549
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def upd "ulib/ml/FStar_Monotonic_Heap.ml" 29 571 571 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 28 542 550 "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 551
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 28 542 552 "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 553
+type(
+  'b
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 28 542 554 "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 555
+type(
+  'c
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 28 542 558 "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 567
+type(
+  unit -> 'd
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 28 542 568 "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 570
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 28 542 558 "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 570
+type(
+  'd
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 29 571 575 "ulib/ml/FStar_Monotonic_Heap.ml" 29 571 580
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def alloc "ulib/ml/FStar_Monotonic_Heap.ml" 31 603 603 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 29 571 581 "ulib/ml/FStar_Monotonic_Heap.ml" 29 571 582
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 29 571 583 "ulib/ml/FStar_Monotonic_Heap.ml" 29 571 584
+type(
+  'b
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 29 571 585 "ulib/ml/FStar_Monotonic_Heap.ml" 29 571 586
+type(
+  'c
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 29 571 589 "ulib/ml/FStar_Monotonic_Heap.ml" 29 571 598
+type(
+  unit -> 'd
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 29 571 599 "ulib/ml/FStar_Monotonic_Heap.ml" 29 571 601
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 29 571 589 "ulib/ml/FStar_Monotonic_Heap.ml" 29 571 601
+type(
+  'd
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 31 603 607 "ulib/ml/FStar_Monotonic_Heap.ml" 31 603 614
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def free_mm "ulib/ml/FStar_Monotonic_Heap.ml" 32 634 634 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 31 603 615 "ulib/ml/FStar_Monotonic_Heap.ml" 31 603 616
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 31 603 617 "ulib/ml/FStar_Monotonic_Heap.ml" 31 603 618
+type(
+  'b
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 31 603 621 "ulib/ml/FStar_Monotonic_Heap.ml" 31 603 630
+type(
+  unit -> 'c
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 31 603 631 "ulib/ml/FStar_Monotonic_Heap.ml" 31 603 633
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 31 603 621 "ulib/ml/FStar_Monotonic_Heap.ml" 31 603 633
+type(
+  'c
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 32 634 638 "ulib/ml/FStar_Monotonic_Heap.ml" 32 634 645
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def sel_tot "ulib/ml/FStar_Monotonic_Heap.ml" 33 652 652 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 32 634 648 "ulib/ml/FStar_Monotonic_Heap.ml" 32 634 651
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  int_ref sel "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 519 "ulib/ml/FStar_Monotonic_Heap.ml" 27 515 522
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 33 652 656 "ulib/ml/FStar_Monotonic_Heap.ml" 33 652 663
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  def upd_tot "ulib/ml/FStar_Monotonic_Heap.ml" 36 720 720 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 33 652 666 "ulib/ml/FStar_Monotonic_Heap.ml" 33 652 669
+type(
+  'a -> 'b -> 'c -> 'd
+)
+ident(
+  int_ref upd "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 546 "ulib/ml/FStar_Monotonic_Heap.ml" 28 542 549
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 38 758 762 "ulib/ml/FStar_Monotonic_Heap.ml" 38 758 772
+type(
+  aref
+)
+ident(
+  def dummy_aref "ulib/ml/FStar_Monotonic_Heap.ml" 39 788 788 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 38 758 780 "ulib/ml/FStar_Monotonic_Heap.ml" 38 758 782
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 38 758 784 "ulib/ml/FStar_Monotonic_Heap.ml" 38 758 786
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 38 758 779 "ulib/ml/FStar_Monotonic_Heap.ml" 38 758 787
+type(
+  unit * unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 38 758 775 "ulib/ml/FStar_Monotonic_Heap.ml" 38 758 787
+type(
+  aref
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 39 788 792 "ulib/ml/FStar_Monotonic_Heap.ml" 39 788 799
+type(
+  'a -> aref
+)
+ident(
+  def aref_of "ulib/ml/FStar_Monotonic_Heap.ml" 40 815 815 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 39 788 800 "ulib/ml/FStar_Monotonic_Heap.ml" 39 788 801
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 39 788 804 "ulib/ml/FStar_Monotonic_Heap.ml" 39 788 814
+type(
+  aref
+)
+ident(
+  int_ref dummy_aref "ulib/ml/FStar_Monotonic_Heap.ml" 38 758 762 "ulib/ml/FStar_Monotonic_Heap.ml" 38 758 772
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 40 815 819 "ulib/ml/FStar_Monotonic_Heap.ml" 40 815 825
+type(
+  'a -> 'b -> 'c
+)
+ident(
+  def ref_of "ulib/ml/FStar_Monotonic_Heap.ml" 40 815 844 "ulib/ml/FStar_Monotonic_Heap.ml" 1 0 -1
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 40 815 826 "ulib/ml/FStar_Monotonic_Heap.ml" 40 815 827
+type(
+  'a
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 40 815 828 "ulib/ml/FStar_Monotonic_Heap.ml" 40 815 829
+type(
+  'b
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 40 815 832 "ulib/ml/FStar_Monotonic_Heap.ml" 40 815 841
+type(
+  unit -> 'c
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 40 815 842 "ulib/ml/FStar_Monotonic_Heap.ml" 40 815 844
+type(
+  unit
+)
+"ulib/ml/FStar_Monotonic_Heap.ml" 40 815 832 "ulib/ml/FStar_Monotonic_Heap.ml" 40 815 844
+type(
+  'c
+)

@@ -1,0 +1,26 @@
+opam-version: "1.2"
+maintainer: "nbraud"
+authors: "nbraud"
+homepage: "http://gmplib.org/"
+bug-reports: "https://github.com/ocaml/opam-repository/issues"
+license: "GPL"
+build: [
+  ["sh" "-exc" "cc -c $CFLAGS -I/usr/local/include test.c"] {os != "darwin"}
+  [
+    "sh"
+    "-exc"
+    "cc -c $CFLAGS -I/opt/local/include -I/usr/local/include test.c"
+  ]
+    {os = "darwin"}
+]
+depexts: [
+  [["alpine"] ["gmp-dev"]]
+  [["centos"] ["gmp" "gmp-devel"]]
+  [["debian"] ["libgmp-dev"]]
+  [["fedora"] ["gmp" "gmp-devel"]]
+  [["freebsd"] ["gmp"]]
+  [["homebrew" "osx"] ["gmp"]]
+  [["openbsd"] ["gmp"]]
+  [["opensuse"] ["gmp-devel"]]
+  [["ubuntu"] ["libgmp-dev"]]
+]

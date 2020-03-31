@@ -1,0 +1,15 @@
+opam-version: "1.2"
+maintainer: "martin@mjambon.com"
+authors: "Martin Jambon"
+homepage: "https://github.com/mjambon/biniou"
+bug-reports: "https://github.com/mjambon/biniou/issues"
+license: "BSD-3-Clause"
+dev-repo: "https://github.com/mjambon/biniou.git"
+build: ["jbuilder" "build" "-p" name "-j" jobs]
+build-test: ["jbuilder" "runtest" "-p" name]
+depends: [
+  "conf-which" {build}
+  "jbuilder" {build & >= "1.0+beta7"}
+  "easy-format"
+]
+available: [ocaml-version >= "4.02.3"]

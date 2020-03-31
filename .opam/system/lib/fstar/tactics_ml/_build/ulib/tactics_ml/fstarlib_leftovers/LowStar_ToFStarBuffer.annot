@@ -1,0 +1,1099 @@
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+type(
+  'At. 'At LowStar_Buffer.buffer -> 'At FStar_Buffer.buffer
+)
+ident(
+  def new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 5 152 152 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 100 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 101
+type(
+  'At LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 106 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 150
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 106 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 114
+type(
+  string -> 'At FStar_Buffer.buffer
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 115 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 150
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 106 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 150
+call(
+  tail
+)
+type(
+  'At FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 96 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 4 94 150
+type(
+  'At LowStar_Buffer.buffer -> 'At FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 5 152 156 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 5 152 169
+type(
+  'At. 'At FStar_Buffer.buffer -> 'At LowStar_Buffer.buffer
+)
+ident(
+  def old_to_new_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 8 293 293 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 241 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 242
+type(
+  'At FStar_Buffer.buffer
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 247 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 291
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 247 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 255
+type(
+  string -> 'At LowStar_Buffer.buffer
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 256 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 291
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 247 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 291
+call(
+  tail
+)
+type(
+  'At LowStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 237 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 7 235 291
+type(
+  'At FStar_Buffer.buffer -> 'At LowStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 9 356 361 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 9 356 375
+type(
+  Prims.bool -> Obj.t FStar_ModifiesGen.cls
+)
+ident(
+  def old_and_new_cl "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 19 668 668 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 10 423 429 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 10 423 431
+type(
+  Prims.bool
+)
+ident(
+  def a1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 11 436 440 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 664
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 11 436 445 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 11 436 451
+type(
+  Prims.bool
+)
+ident(
+  def is_new "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 12 456 463 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 660
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 12 456 466 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 12 456 472
+type(
+  Prims.bool
+)
+ident(
+  int_ref is_new "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 11 436 445 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 11 436 451
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 14 485 494 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 14 485 503
+type(
+  Obj.t -> Obj.t FStar_ModifiesGen.cls
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 15 504 516 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 15 504 524
+type(
+  (Prims.unit, Prims.unit, Prims.unit) FStar_ModifiesGen.raise_aloc
+  FStar_ModifiesGen.cls -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 16 525 540 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 16 525 567
+type(
+  Prims.unit FStar_ModifiesGen.cls ->
+  (Prims.unit, Prims.unit, Prims.unit) FStar_ModifiesGen.raise_aloc
+  FStar_ModifiesGen.cls
+)
+ident(
+  ext_ref FStar_ModifiesGen.raise_cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 16 525 568 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 16 525 601
+type(
+  Prims.unit FStar_ModifiesGen.cls
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.cloc_cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 16 525 539 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 16 525 602
+call(
+  tail
+)
+type(
+  (Prims.unit, Prims.unit, Prims.unit) FStar_ModifiesGen.raise_aloc
+  FStar_ModifiesGen.cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 15 504 515 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 16 525 603
+type(
+  Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 14 485 494 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 16 525 603
+type(
+  Obj.t FStar_ModifiesGen.cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 616 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 625
+type(
+  Obj.t -> Obj.t FStar_ModifiesGen.cls
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 627 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 635
+type(
+  (Prims.unit, Prims.unit) FStar_Modifies.cloc_aloc FStar_ModifiesGen.cls ->
+  Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 636 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 659
+type(
+  (Prims.unit, Prims.unit) FStar_Modifies.cloc_aloc FStar_ModifiesGen.cls
+)
+ident(
+  ext_ref FStar_Modifies.cloc_cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 626 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 660
+type(
+  Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 616 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 660
+type(
+  Obj.t FStar_ModifiesGen.cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 12 456 463 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 660
+type(
+  Obj.t FStar_ModifiesGen.cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 11 436 440 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 661
+type(
+  Prims.bool -> Obj.t FStar_ModifiesGen.cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 662 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 664
+type(
+  Prims.bool
+)
+ident(
+  int_ref a1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 10 423 429 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 10 423 431
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 11 436 440 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 664
+type(
+  Obj.t FStar_ModifiesGen.cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 10 423 425 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 17 604 664
+type(
+  Prims.bool -> Obj.t FStar_ModifiesGen.cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 19 668 673 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 19 668 693
+type(
+  (Obj.t, Prims.unit, Prims.unit) FStar_ModifiesGen.aloc_union
+  FStar_ModifiesGen.cls
+)
+ident(
+  def old_and_new_cl_union "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 830 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 21 770 772 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 21 770 799
+type(
+  (Prims.bool -> Obj.t FStar_ModifiesGen.cls) ->
+  (Obj.t, Prims.unit, Prims.unit) FStar_ModifiesGen.aloc_union
+  FStar_ModifiesGen.cls
+)
+ident(
+  ext_ref FStar_ModifiesGen.cls_union
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 21 770 800 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 21 770 814
+type(
+  Prims.bool -> Obj.t FStar_ModifiesGen.cls
+)
+ident(
+  int_ref old_and_new_cl "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 9 356 361 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 9 356 375
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 21 770 772 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 21 770 814
+call(
+  stack
+)
+type(
+  (Obj.t, Prims.unit, Prims.unit) FStar_ModifiesGen.aloc_union
+  FStar_ModifiesGen.cls
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 834 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 840
+type(
+  'At2 'At1. 'At1 -> 'At2
+)
+ident(
+  def coerce "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 44 916 916 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 874 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 876
+type(
+  'At1
+)
+ident(
+  def a2 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 881 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 907
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 886 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 887
+type(
+  'At1
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 892 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 903
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 892 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 901
+type(
+  'At1 -> 'At2
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 902 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 903
+type(
+  'At1
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 886 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 887
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 892 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 903
+type(
+  'At2
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 881 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 904
+type(
+  'At1 -> 'At2
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 905 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 907
+type(
+  'At1
+)
+ident(
+  int_ref a2 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 874 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 876
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 881 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 907
+type(
+  'At2
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 870 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 36 830 907
+type(
+  'At1 -> 'At2
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 44 916 920 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 44 916 923
+type(
+  'Aa.
+    Prims.nat LowStar_Buffer.buffer ->
+    'Aa LowStar_Buffer.buffer -> Prims.unit
+)
+ident(
+  def ex1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 53 1163 1163 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 47 1007 1013 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 47 1007 1014
+type(
+  Prims.nat LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 48 1019 1023 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1159
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 48 1019 1027 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 48 1019 1029
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def b1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1040 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1159
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1044 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1047
+type(
+  Prims.nat FStar_Buffer.buffer
+)
+ident(
+  def old "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1076 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1159
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1050 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1063
+type(
+  Prims.nat LowStar_Buffer.buffer -> Prims.nat FStar_Buffer.buffer
+)
+ident(
+  int_ref new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1064 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1065
+type(
+  Prims.nat LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 47 1007 1013 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 47 1007 1014
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1050 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1065
+call(
+  stack
+)
+type(
+  Prims.nat FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1076 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1092
+type(
+  Prims.nat FStar_Buffer.buffer -> int -> Prims.nat -> Prims.unit
+)
+ident(
+  ext_ref FStar_Buffer.upd
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1093 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1096
+type(
+  Prims.nat FStar_Buffer.buffer
+)
+ident(
+  int_ref old "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1044 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1047
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1098 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1120
+type(
+  Prims.int -> int
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1121 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1135
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1097 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1136
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1145 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1159
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 50 1070 1076 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1159
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 49 1034 1040 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1159
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 48 1019 1023 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1159
+type(
+  'Aa LowStar_Buffer.buffer -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 47 1007 1009 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 51 1137 1159
+type(
+  Prims.nat LowStar_Buffer.buffer -> 'Aa LowStar_Buffer.buffer -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 53 1163 1167 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 53 1163 1174
+type(
+  'Aa.
+    'Aa LowStar_Buffer.buffer ->
+    'Aa LowStar_Buffer.buffer -> FStar_UInt32.t -> Prims.bool
+)
+ident(
+  def new_eqb "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 64 1442 1442 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 58 1286 1292 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 58 1286 1294
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def b1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 59 1299 1303 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 59 1299 1307 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 59 1299 1309
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def b2 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 60 1314 1320 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 60 1314 1324 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 60 1314 1327
+type(
+  FStar_UInt32.t
+)
+ident(
+  def len "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1340 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1344 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1347
+type(
+  'Aa FStar_Buffer.buffer
+)
+ident(
+  def b1' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1379 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1350 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1363
+type(
+  'Aa LowStar_Buffer.buffer -> 'Aa FStar_Buffer.buffer
+)
+ident(
+  int_ref new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1364 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1366
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  int_ref b1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 58 1286 1292 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 58 1286 1294
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1350 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1366
+call(
+  stack
+)
+type(
+  'Aa FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1383 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1386
+type(
+  'Aa FStar_Buffer.buffer
+)
+ident(
+  def b2' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1410 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1389 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1402
+type(
+  'Aa LowStar_Buffer.buffer -> 'Aa FStar_Buffer.buffer
+)
+ident(
+  int_ref new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1403 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1405
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  int_ref b2 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 59 1299 1307 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 59 1299 1309
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1389 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1405
+call(
+  stack
+)
+type(
+  'Aa FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1410 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1426
+type(
+  'Aa FStar_Buffer.buffer ->
+  'Aa FStar_Buffer.buffer -> FStar_UInt32.t -> Prims.bool
+)
+ident(
+  ext_ref FStar_Buffer.eqb
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1427 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1430
+type(
+  'Aa FStar_Buffer.buffer
+)
+ident(
+  int_ref b1' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1344 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1347
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1431 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1434
+type(
+  'Aa FStar_Buffer.buffer
+)
+ident(
+  int_ref b2' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1383 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1386
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1435 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 60 1314 1324 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 60 1314 1327
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1410 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1379 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 61 1332 1340 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 60 1314 1320 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+type(
+  FStar_UInt32.t -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 59 1299 1303 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+type(
+  'Aa LowStar_Buffer.buffer -> FStar_UInt32.t -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 58 1286 1288 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 62 1371 1438
+type(
+  'Aa LowStar_Buffer.buffer ->
+  'Aa LowStar_Buffer.buffer -> FStar_UInt32.t -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 64 1442 1446 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 64 1442 1454
+type(
+  'At.
+    'At LowStar_Buffer.buffer ->
+    FStar_UInt32.t ->
+    'At LowStar_Buffer.buffer ->
+    FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  def new_blit "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 79 1855 1855 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 70 1604 1610 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 70 1604 1613
+type(
+  'At LowStar_Buffer.buffer
+)
+ident(
+  def src "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 71 1618 1622 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 71 1618 1626 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 71 1618 1633
+type(
+  FStar_UInt32.t
+)
+ident(
+  def idx_src "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 72 1638 1644 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 72 1638 1648 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 72 1638 1651
+type(
+  'At LowStar_Buffer.buffer
+)
+ident(
+  def dst "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 73 1656 1664 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 73 1656 1668 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 73 1656 1675
+type(
+  FStar_UInt32.t
+)
+ident(
+  def idx_dst "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 74 1680 1690 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 74 1680 1694 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 74 1680 1697
+type(
+  FStar_UInt32.t
+)
+ident(
+  def len "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1714 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1718 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1722
+type(
+  'At FStar_Buffer.buffer
+)
+ident(
+  def src' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1759 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1725 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1738
+type(
+  'At LowStar_Buffer.buffer -> 'At FStar_Buffer.buffer
+)
+ident(
+  int_ref new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1739 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1742
+type(
+  'At LowStar_Buffer.buffer
+)
+ident(
+  int_ref src "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 70 1604 1610 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 70 1604 1613
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1725 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1742
+call(
+  stack
+)
+type(
+  'At FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1763 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1767
+type(
+  'At FStar_Buffer.buffer
+)
+ident(
+  def dst' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1804 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1770 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1783
+type(
+  'At LowStar_Buffer.buffer -> 'At FStar_Buffer.buffer
+)
+ident(
+  int_ref new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1784 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1787
+type(
+  'At LowStar_Buffer.buffer
+)
+ident(
+  int_ref dst "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 72 1638 1648 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 72 1638 1651
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1770 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1787
+call(
+  stack
+)
+type(
+  'At FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1804 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1821
+type(
+  'At FStar_Buffer.buffer ->
+  FStar_UInt32.t ->
+  'At FStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  ext_ref FStar_Buffer.blit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1822 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1826
+type(
+  'At FStar_Buffer.buffer
+)
+ident(
+  int_ref src' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1718 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1722
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1827 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1834
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref idx_src "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 71 1618 1626 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 71 1618 1633
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1835 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1839
+type(
+  'At FStar_Buffer.buffer
+)
+ident(
+  int_ref dst' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1763 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1767
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1840 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1847
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref idx_dst "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 73 1656 1668 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 73 1656 1675
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1848 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 74 1680 1694 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 74 1680 1697
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1804 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 76 1747 1759 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 75 1702 1714 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 74 1680 1690 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+type(
+  FStar_UInt32.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 73 1656 1664 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+type(
+  FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 72 1638 1644 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+type(
+  'At LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 71 1618 1622 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+type(
+  FStar_UInt32.t ->
+  'At LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 70 1604 1606 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 77 1792 1851
+type(
+  'At LowStar_Buffer.buffer ->
+  FStar_UInt32.t ->
+  'At LowStar_Buffer.buffer -> FStar_UInt32.t -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 79 1855 1859 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 79 1855 1867
+type(
+  'At. 'At LowStar_Buffer.buffer -> 'At -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  def new_fill "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 85 2042 2042 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 81 1939 1945 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 81 1939 1946
+type(
+  'At LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 82 1951 1955 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 82 1951 1959 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 82 1951 1960
+type(
+  'At
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1971 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1975 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1978
+type(
+  FStar_UInt32.t
+)
+ident(
+  def len "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1983 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1987 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1989
+type(
+  'At FStar_Buffer.buffer
+)
+ident(
+  def b' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2012 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1992 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2005
+type(
+  'At LowStar_Buffer.buffer -> 'At FStar_Buffer.buffer
+)
+ident(
+  int_ref new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2006 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2007
+type(
+  'At LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 81 1939 1945 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 81 1939 1946
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1992 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2007
+call(
+  stack
+)
+type(
+  'At FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2012 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2029
+type(
+  'At FStar_Buffer.buffer -> 'At -> FStar_UInt32.t -> Prims.unit
+)
+ident(
+  ext_ref FStar_Buffer.fill
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2030 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2032
+type(
+  'At FStar_Buffer.buffer
+)
+ident(
+  int_ref b' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1987 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1989
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2033 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2034
+type(
+  'At
+)
+ident(
+  int_ref z "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 82 1951 1959 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 82 1951 1960
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2035 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+type(
+  FStar_UInt32.t
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1975 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1978
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2012 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1983 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 1971 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+type(
+  FStar_UInt32.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 82 1951 1955 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+type(
+  'At -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 81 1939 1941 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 83 1965 2038
+type(
+  'At LowStar_Buffer.buffer -> 'At -> FStar_UInt32.t -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 85 2042 2046 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 85 2042 2050
+type(
+  'Aa. Prims.nat FStar_Buffer.buffer -> 'Aa FStar_Buffer.buffer -> Prims.unit
+)
+ident(
+  def ex1' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 94 2340 2340 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 87 2128 2134 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 87 2128 2135
+type(
+  Prims.nat FStar_Buffer.buffer
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 88 2140 2144 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 88 2140 2148 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 88 2140 2150
+type(
+  'Aa FStar_Buffer.buffer
+)
+ident(
+  def b1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2161 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2165 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2167
+type(
+  Prims.nat LowStar_Buffer.buffer
+)
+ident(
+  def ne "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2196 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2170 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2183
+type(
+  Prims.nat FStar_Buffer.buffer -> Prims.nat LowStar_Buffer.buffer
+)
+ident(
+  int_ref old_to_new_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 5 152 156 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 5 152 169
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2184 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2185
+type(
+  Prims.nat FStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 87 2128 2134 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 87 2128 2135
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2170 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2185
+call(
+  stack
+)
+type(
+  Prims.nat LowStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2200 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2201
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 91 2235 2241 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2204 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2227
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2228 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2230
+type(
+  unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2204 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2230
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 91 2235 2241 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 91 2235 2270
+type(
+  Prims.nat LowStar_Buffer.buffer ->
+  FStar_UInt32.t -> Prims.nat -> Prims.unit
+)
+ident(
+  ext_ref LowStar_Monotonic_Buffer.upd'
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 91 2235 2271 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 91 2235 2273
+type(
+  Prims.nat LowStar_Buffer.buffer
+)
+ident(
+  int_ref ne "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2165 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2167
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2283 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2305
+type(
+  Prims.int -> FStar_UInt32.t
+)
+ident(
+  ext_ref FStar_UInt32.uint_to_t
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2306 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2320
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2282 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2321
+call(
+  stack
+)
+type(
+  FStar_UInt32.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2322 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 91 2235 2241 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 90 2190 2196 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 89 2155 2161 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 88 2140 2144 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+type(
+  'Aa FStar_Buffer.buffer -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 87 2128 2130 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 92 2274 2336
+type(
+  Prims.nat FStar_Buffer.buffer -> 'Aa FStar_Buffer.buffer -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 94 2340 2344 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 94 2340 2349
+type(
+  'Aa.
+    Prims.nat LowStar_Buffer.buffer ->
+    'Aa LowStar_Buffer.buffer -> Prims.unit
+)
+ident(
+  def ex1'' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 97 2433 2439 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 97 2433 2440
+type(
+  Prims.nat LowStar_Buffer.buffer
+)
+ident(
+  def b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 98 2445 2449 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 98 2445 2453 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 98 2445 2455
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  def b1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2466 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2470 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2473
+type(
+  Prims.nat FStar_Buffer.buffer
+)
+ident(
+  def old "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2502 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2476 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2489
+type(
+  Prims.nat LowStar_Buffer.buffer -> Prims.nat FStar_Buffer.buffer
+)
+ident(
+  int_ref new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2490 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2491
+type(
+  Prims.nat LowStar_Buffer.buffer
+)
+ident(
+  int_ref b "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 97 2433 2439 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 97 2433 2440
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2476 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2491
+call(
+  stack
+)
+type(
+  Prims.nat FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2506 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2510
+type(
+  'Aa FStar_Buffer.buffer
+)
+ident(
+  def old1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2534 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2513 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2526
+type(
+  'Aa LowStar_Buffer.buffer -> 'Aa FStar_Buffer.buffer
+)
+ident(
+  int_ref new_to_old_st "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 15 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 2 11 28
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2527 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2529
+type(
+  'Aa LowStar_Buffer.buffer
+)
+ident(
+  int_ref b1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 98 2445 2453 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 98 2445 2455
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2513 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2529
+call(
+  stack
+)
+type(
+  'Aa FStar_Buffer.buffer
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2534 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2538
+type(
+  Prims.nat FStar_Buffer.buffer -> 'Aa FStar_Buffer.buffer -> Prims.unit
+)
+ident(
+  int_ref ex1' "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 85 2042 2046 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 85 2042 2050
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2539 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2542
+type(
+  Prims.nat FStar_Buffer.buffer
+)
+ident(
+  int_ref old "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2470 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2473
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2543 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+type(
+  'Aa FStar_Buffer.buffer
+)
+ident(
+  int_ref old1 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2506 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2510
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2534 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2502 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 99 2460 2466 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 98 2445 2449 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+type(
+  'Aa LowStar_Buffer.buffer -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 97 2433 2435 "ulib/tactics_ml/fstarlib_leftovers/LowStar_ToFStarBuffer.ml" 100 2496 2547
+type(
+  Prims.nat LowStar_Buffer.buffer -> 'Aa LowStar_Buffer.buffer -> Prims.unit
+)

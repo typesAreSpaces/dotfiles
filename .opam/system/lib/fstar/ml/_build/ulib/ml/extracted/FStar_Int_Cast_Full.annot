@@ -1,0 +1,78 @@
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 2 11 16 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 2 11 33
+type(
+  FStar_UInt64.t -> FStar_UInt128.t
+)
+ident(
+  def uint64_to_uint128 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 4 120 120 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 79 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 80
+type(
+  FStar_UInt64.t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 85 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 118
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 85 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 116
+type(
+  FStar_UInt64.t -> FStar_UInt128.t
+)
+ident(
+  ext_ref FStar_UInt128.uint64_to_uint128
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 117 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 118
+type(
+  FStar_UInt64.t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 79 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 80
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 85 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 118
+call(
+  tail
+)
+type(
+  FStar_UInt128.t
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 75 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 3 73 118
+type(
+  FStar_UInt64.t -> FStar_UInt128.t
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 4 120 125 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 4 120 142
+type(
+  FStar_UInt128.t -> FStar_UInt64.t
+)
+ident(
+  def uint128_to_uint64 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 227 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 188 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 189
+type(
+  FStar_UInt128.t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 194 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 227
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 194 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 225
+type(
+  FStar_UInt128.t -> FStar_UInt64.t
+)
+ident(
+  ext_ref FStar_UInt128.uint128_to_uint64
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 226 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 227
+type(
+  FStar_UInt128.t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 188 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 189
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 194 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 227
+call(
+  tail
+)
+type(
+  FStar_UInt64.t
+)
+"ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 184 "ulib/ml/extracted/FStar_Int_Cast_Full.ml" 5 182 227
+type(
+  FStar_UInt128.t -> FStar_UInt64.t
+)

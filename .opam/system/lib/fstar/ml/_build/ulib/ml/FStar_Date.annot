@@ -1,0 +1,440 @@
+"ulib/ml/FStar_Date.ml" 3 60 66 "ulib/ml/FStar_Date.ml" 3 60 69
+type(
+  unit -> dateTime
+)
+ident(
+  def now "ulib/ml/FStar_Date.ml" 4 100 102 "ulib/ml/FStar_Date.ml" 1 0 -1
+)
+"ulib/ml/FStar_Date.ml" 3 60 70 "ulib/ml/FStar_Date.ml" 3 60 72
+type(
+  unit
+)
+"ulib/ml/FStar_Date.ml" 3 60 79 "ulib/ml/FStar_Date.ml" 3 60 96
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.gettimeofday
+)
+"ulib/ml/FStar_Date.ml" 3 60 96 "ulib/ml/FStar_Date.ml" 3 60 98
+type(
+  unit
+)
+"ulib/ml/FStar_Date.ml" 3 60 78 "ulib/ml/FStar_Date.ml" 3 60 99
+call(
+  stack
+)
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 3 60 75 "ulib/ml/FStar_Date.ml" 3 60 99
+type(
+  dateTime
+)
+"ulib/ml/FStar_Date.ml" 4 100 106 "ulib/ml/FStar_Date.ml" 4 100 121
+type(
+  unit -> Z.t
+)
+ident(
+  def secondsFromDawn "ulib/ml/FStar_Date.ml" 5 170 172 "ulib/ml/FStar_Date.ml" 1 0 -1
+)
+"ulib/ml/FStar_Date.ml" 4 100 122 "ulib/ml/FStar_Date.ml" 4 100 124
+type(
+  unit
+)
+"ulib/ml/FStar_Date.ml" 4 100 127 "ulib/ml/FStar_Date.ml" 4 100 141
+type(
+  float -> int64
+)
+ident(
+  ext_ref Int64.of_float
+)
+"ulib/ml/FStar_Date.ml" 4 100 143 "ulib/ml/FStar_Date.ml" 4 100 152
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.time
+)
+"ulib/ml/FStar_Date.ml" 4 100 152 "ulib/ml/FStar_Date.ml" 4 100 154
+type(
+  unit
+)
+"ulib/ml/FStar_Date.ml" 4 100 142 "ulib/ml/FStar_Date.ml" 4 100 155
+call(
+  stack
+)
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 4 100 127 "ulib/ml/FStar_Date.ml" 4 100 155
+type(
+  int64
+)
+"ulib/ml/FStar_Date.ml" 4 100 156 "ulib/ml/FStar_Date.ml" 4 100 158
+type(
+  int64 -> (int64 -> Z.t) -> Z.t
+)
+ident(
+  ext_ref Pervasives.( |> )
+)
+"ulib/ml/FStar_Date.ml" 4 100 159 "ulib/ml/FStar_Date.ml" 4 100 169
+type(
+  int64 -> Z.t
+)
+ident(
+  ext_ref Z.of_int64
+)
+"ulib/ml/FStar_Date.ml" 4 100 127 "ulib/ml/FStar_Date.ml" 4 100 169
+type(
+  Z.t
+)
+"ulib/ml/FStar_Date.ml" 5 170 176 "ulib/ml/FStar_Date.ml" 5 170 187
+type(
+  Z.t -> Z.t -> Z.t -> Z.t -> timeSpan
+)
+ident(
+  def newTimeSpan "ulib/ml/FStar_Date.ml" 6 354 356 "ulib/ml/FStar_Date.ml" 1 0 -1
+)
+"ulib/ml/FStar_Date.ml" 5 170 188 "ulib/ml/FStar_Date.ml" 5 170 189
+type(
+  Z.t
+)
+ident(
+  def d "ulib/ml/FStar_Date.ml" 5 170 190 "ulib/ml/FStar_Date.ml" 5 170 353
+)
+"ulib/ml/FStar_Date.ml" 5 170 190 "ulib/ml/FStar_Date.ml" 5 170 191
+type(
+  Z.t
+)
+ident(
+  def h "ulib/ml/FStar_Date.ml" 5 170 192 "ulib/ml/FStar_Date.ml" 5 170 353
+)
+"ulib/ml/FStar_Date.ml" 5 170 192 "ulib/ml/FStar_Date.ml" 5 170 193
+type(
+  Z.t
+)
+ident(
+  def m "ulib/ml/FStar_Date.ml" 5 170 194 "ulib/ml/FStar_Date.ml" 5 170 353
+)
+"ulib/ml/FStar_Date.ml" 5 170 194 "ulib/ml/FStar_Date.ml" 5 170 195
+type(
+  Z.t
+)
+ident(
+  def s "ulib/ml/FStar_Date.ml" 5 170 198 "ulib/ml/FStar_Date.ml" 5 170 353
+)
+"ulib/ml/FStar_Date.ml" 5 170 206 "ulib/ml/FStar_Date.ml" 5 170 218
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"ulib/ml/FStar_Date.ml" 5 170 220 "ulib/ml/FStar_Date.ml" 5 170 228
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Date.ml" 5 170 229 "ulib/ml/FStar_Date.ml" 5 170 230
+type(
+  Z.t
+)
+ident(
+  int_ref d "ulib/ml/FStar_Date.ml" 5 170 188 "ulib/ml/FStar_Date.ml" 5 170 189
+)
+"ulib/ml/FStar_Date.ml" 5 170 219 "ulib/ml/FStar_Date.ml" 5 170 231
+type(
+  int
+)
+"ulib/ml/FStar_Date.ml" 5 170 205 "ulib/ml/FStar_Date.ml" 5 170 232
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 233 "ulib/ml/FStar_Date.ml" 5 170 235
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"ulib/ml/FStar_Date.ml" 5 170 236 "ulib/ml/FStar_Date.ml" 5 170 240
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 204 "ulib/ml/FStar_Date.ml" 5 170 241
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 242 "ulib/ml/FStar_Date.ml" 5 170 244
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"ulib/ml/FStar_Date.ml" 5 170 246 "ulib/ml/FStar_Date.ml" 5 170 258
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"ulib/ml/FStar_Date.ml" 5 170 260 "ulib/ml/FStar_Date.ml" 5 170 268
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Date.ml" 5 170 269 "ulib/ml/FStar_Date.ml" 5 170 270
+type(
+  Z.t
+)
+ident(
+  int_ref h "ulib/ml/FStar_Date.ml" 5 170 190 "ulib/ml/FStar_Date.ml" 5 170 191
+)
+"ulib/ml/FStar_Date.ml" 5 170 259 "ulib/ml/FStar_Date.ml" 5 170 271
+type(
+  int
+)
+"ulib/ml/FStar_Date.ml" 5 170 245 "ulib/ml/FStar_Date.ml" 5 170 272
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 203 "ulib/ml/FStar_Date.ml" 5 170 273
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 274 "ulib/ml/FStar_Date.ml" 5 170 276
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"ulib/ml/FStar_Date.ml" 5 170 277 "ulib/ml/FStar_Date.ml" 5 170 281
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 203 "ulib/ml/FStar_Date.ml" 5 170 281
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 282 "ulib/ml/FStar_Date.ml" 5 170 284
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"ulib/ml/FStar_Date.ml" 5 170 286 "ulib/ml/FStar_Date.ml" 5 170 298
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"ulib/ml/FStar_Date.ml" 5 170 300 "ulib/ml/FStar_Date.ml" 5 170 308
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Date.ml" 5 170 309 "ulib/ml/FStar_Date.ml" 5 170 310
+type(
+  Z.t
+)
+ident(
+  int_ref m "ulib/ml/FStar_Date.ml" 5 170 192 "ulib/ml/FStar_Date.ml" 5 170 193
+)
+"ulib/ml/FStar_Date.ml" 5 170 299 "ulib/ml/FStar_Date.ml" 5 170 311
+type(
+  int
+)
+"ulib/ml/FStar_Date.ml" 5 170 285 "ulib/ml/FStar_Date.ml" 5 170 312
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 202 "ulib/ml/FStar_Date.ml" 5 170 313
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 314 "ulib/ml/FStar_Date.ml" 5 170 316
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( *. )
+)
+"ulib/ml/FStar_Date.ml" 5 170 317 "ulib/ml/FStar_Date.ml" 5 170 321
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 202 "ulib/ml/FStar_Date.ml" 5 170 321
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 322 "ulib/ml/FStar_Date.ml" 5 170 324
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"ulib/ml/FStar_Date.ml" 5 170 326 "ulib/ml/FStar_Date.ml" 5 170 338
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"ulib/ml/FStar_Date.ml" 5 170 340 "ulib/ml/FStar_Date.ml" 5 170 348
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Date.ml" 5 170 349 "ulib/ml/FStar_Date.ml" 5 170 350
+type(
+  Z.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_Date.ml" 5 170 194 "ulib/ml/FStar_Date.ml" 5 170 195
+)
+"ulib/ml/FStar_Date.ml" 5 170 339 "ulib/ml/FStar_Date.ml" 5 170 351
+type(
+  int
+)
+"ulib/ml/FStar_Date.ml" 5 170 325 "ulib/ml/FStar_Date.ml" 5 170 352
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 201 "ulib/ml/FStar_Date.ml" 5 170 353
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 5 170 198 "ulib/ml/FStar_Date.ml" 5 170 353
+type(
+  timeSpan
+)
+"ulib/ml/FStar_Date.ml" 6 354 360 "ulib/ml/FStar_Date.ml" 6 354 371
+type(
+  dateTime -> timeSpan -> dateTime
+)
+ident(
+  def addTimeSpan "ulib/ml/FStar_Date.ml" 7 402 404 "ulib/ml/FStar_Date.ml" 1 0 -1
+)
+"ulib/ml/FStar_Date.ml" 6 354 376 "ulib/ml/FStar_Date.ml" 6 354 377
+ident(
+  def a "ulib/ml/FStar_Date.ml" 6 354 380 "ulib/ml/FStar_Date.ml" 6 354 401
+)
+"ulib/ml/FStar_Date.ml" 6 354 375 "ulib/ml/FStar_Date.ml" 6 354 378
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 6 354 372 "ulib/ml/FStar_Date.ml" 6 354 379
+type(
+  dateTime
+)
+"ulib/ml/FStar_Date.ml" 6 354 384 "ulib/ml/FStar_Date.ml" 6 354 385
+ident(
+  def b "ulib/ml/FStar_Date.ml" 6 354 390 "ulib/ml/FStar_Date.ml" 6 354 401
+)
+"ulib/ml/FStar_Date.ml" 6 354 383 "ulib/ml/FStar_Date.ml" 6 354 386
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 6 354 380 "ulib/ml/FStar_Date.ml" 6 354 387
+type(
+  timeSpan
+)
+"ulib/ml/FStar_Date.ml" 6 354 394 "ulib/ml/FStar_Date.ml" 6 354 395
+type(
+  float
+)
+ident(
+  int_ref a "ulib/ml/FStar_Date.ml" 6 354 375 "ulib/ml/FStar_Date.ml" 6 354 378
+)
+"ulib/ml/FStar_Date.ml" 6 354 396 "ulib/ml/FStar_Date.ml" 6 354 398
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"ulib/ml/FStar_Date.ml" 6 354 399 "ulib/ml/FStar_Date.ml" 6 354 400
+type(
+  float
+)
+ident(
+  int_ref b "ulib/ml/FStar_Date.ml" 6 354 383 "ulib/ml/FStar_Date.ml" 6 354 386
+)
+"ulib/ml/FStar_Date.ml" 6 354 393 "ulib/ml/FStar_Date.ml" 6 354 401
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 6 354 390 "ulib/ml/FStar_Date.ml" 6 354 401
+type(
+  dateTime
+)
+"ulib/ml/FStar_Date.ml" 7 402 408 "ulib/ml/FStar_Date.ml" 7 402 423
+type(
+  dateTime -> dateTime -> bool
+)
+ident(
+  def greaterDateTime "ulib/ml/FStar_Date.ml" 7 402 447 "ulib/ml/FStar_Date.ml" 1 0 -1
+)
+"ulib/ml/FStar_Date.ml" 7 402 428 "ulib/ml/FStar_Date.ml" 7 402 429
+ident(
+  def a "ulib/ml/FStar_Date.ml" 7 402 432 "ulib/ml/FStar_Date.ml" 7 402 447
+)
+"ulib/ml/FStar_Date.ml" 7 402 427 "ulib/ml/FStar_Date.ml" 7 402 430
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 7 402 424 "ulib/ml/FStar_Date.ml" 7 402 431
+type(
+  dateTime
+)
+"ulib/ml/FStar_Date.ml" 7 402 436 "ulib/ml/FStar_Date.ml" 7 402 437
+ident(
+  def b "ulib/ml/FStar_Date.ml" 7 402 442 "ulib/ml/FStar_Date.ml" 7 402 447
+)
+"ulib/ml/FStar_Date.ml" 7 402 435 "ulib/ml/FStar_Date.ml" 7 402 438
+type(
+  float
+)
+"ulib/ml/FStar_Date.ml" 7 402 432 "ulib/ml/FStar_Date.ml" 7 402 439
+type(
+  dateTime
+)
+"ulib/ml/FStar_Date.ml" 7 402 442 "ulib/ml/FStar_Date.ml" 7 402 443
+type(
+  float
+)
+ident(
+  int_ref a "ulib/ml/FStar_Date.ml" 7 402 427 "ulib/ml/FStar_Date.ml" 7 402 430
+)
+"ulib/ml/FStar_Date.ml" 7 402 444 "ulib/ml/FStar_Date.ml" 7 402 445
+type(
+  float -> float -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ulib/ml/FStar_Date.ml" 7 402 446 "ulib/ml/FStar_Date.ml" 7 402 447
+type(
+  float
+)
+ident(
+  int_ref b "ulib/ml/FStar_Date.ml" 7 402 435 "ulib/ml/FStar_Date.ml" 7 402 438
+)
+"ulib/ml/FStar_Date.ml" 7 402 442 "ulib/ml/FStar_Date.ml" 7 402 447
+type(
+  bool
+)

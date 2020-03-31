@@ -1,0 +1,153 @@
+"src/FileUtilStr.ml" 28 1759 1763 "src/FileUtilStr.ml" 28 1759 1776
+type(
+  string -> string -> bool
+)
+ident(
+  def match_compile "src/FileUtilStr.ml" 35 1887 1887 "src/FileUtilStr.ml" 1 0 -1
+)
+"src/FileUtilStr.ml" 28 1759 1777 "src/FileUtilStr.ml" 28 1759 1780
+type(
+  string
+)
+ident(
+  def str "src/FileUtilStr.ml" 29 1783 1785 "src/FileUtilStr.ml" 30 1815 1854
+)
+"src/FileUtilStr.ml" 29 1783 1789 "src/FileUtilStr.ml" 29 1783 1794
+type(
+  Str.regexp
+)
+ident(
+  def regex "src/FileUtilStr.ml" 30 1815 1817 "src/FileUtilStr.ml" 30 1815 1854
+)
+"src/FileUtilStr.ml" 29 1783 1797 "src/FileUtilStr.ml" 29 1783 1807
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/FileUtilStr.ml" 29 1783 1808 "src/FileUtilStr.ml" 29 1783 1811
+type(
+  string
+)
+ident(
+  int_ref str "src/FileUtilStr.ml" 28 1759 1777 "src/FileUtilStr.ml" 28 1759 1780
+)
+"src/FileUtilStr.ml" 29 1783 1797 "src/FileUtilStr.ml" 29 1783 1811
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/FileUtilStr.ml" 30 1815 1821 "src/FileUtilStr.ml" 30 1815 1823
+type(
+  string
+)
+ident(
+  def fn "src/FileUtilStr.ml" 30 1815 1827 "src/FileUtilStr.ml" 30 1815 1854
+)
+"src/FileUtilStr.ml" 30 1815 1827 "src/FileUtilStr.ml" 30 1815 1843
+type(
+  Str.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref Str.string_match
+)
+"src/FileUtilStr.ml" 30 1815 1844 "src/FileUtilStr.ml" 30 1815 1849
+type(
+  Str.regexp
+)
+ident(
+  int_ref regex "src/FileUtilStr.ml" 29 1783 1789 "src/FileUtilStr.ml" 29 1783 1794
+)
+"src/FileUtilStr.ml" 30 1815 1850 "src/FileUtilStr.ml" 30 1815 1852
+type(
+  string
+)
+ident(
+  int_ref fn "src/FileUtilStr.ml" 30 1815 1821 "src/FileUtilStr.ml" 30 1815 1823
+)
+"src/FileUtilStr.ml" 30 1815 1853 "src/FileUtilStr.ml" 30 1815 1854
+type(
+  int
+)
+"src/FileUtilStr.ml" 30 1815 1827 "src/FileUtilStr.ml" 30 1815 1854
+call(
+  tail
+)
+type(
+  bool
+)
+"src/FileUtilStr.ml" 30 1815 1817 "src/FileUtilStr.ml" 30 1815 1854
+type(
+  string -> bool
+)
+"src/FileUtilStr.ml" 29 1783 1785 "src/FileUtilStr.ml" 30 1815 1854
+type(
+  string -> bool
+)
+"src/FileUtilStr.ml" 35 1887 1891 "src/FileUtilStr.ml" 35 1887 1895
+type(
+  FileUtil.test_file -> FilePath.filename -> bool
+)
+ident(
+  def test "src/FileUtilStr.ml" 40 1973 1973 "src/FileUtilStr.ml" 1 0 -1
+)
+"src/FileUtilStr.ml" 35 1887 1898 "src/FileUtilStr.ml" 35 1887 1911
+type(
+  ?match_compile:(FilePath.filename -> FilePath.filename -> bool) ->
+  FileUtil.test_file -> FilePath.filename -> bool
+)
+ident(
+  ext_ref FileUtil.test
+)
+"src/FileUtilStr.ml" 35 1887 1927 "src/FileUtilStr.ml" 35 1887 1940
+type(
+  FilePath.filename -> FilePath.filename -> bool
+)
+ident(
+  int_ref match_compile "src/FileUtilStr.ml" 28 1759 1763 "src/FileUtilStr.ml" 28 1759 1776
+)
+"src/FileUtilStr.ml" 35 1887 1898 "src/FileUtilStr.ml" 35 1887 1940
+call(
+  stack
+)
+type(
+  FileUtil.test_file -> FilePath.filename -> bool
+)
+"src/FileUtilStr.ml" 40 1973 1977 "src/FileUtilStr.ml" 40 1973 1981
+type(
+  ?follow:FileUtil.action_link ->
+  FileUtil.test_file ->
+  FilePath.filename -> ('a -> FilePath.filename -> 'a) -> 'a -> 'a
+)
+ident(
+  def find "src/FileUtilStr.ml" 40 1973 2026 "src/FileUtilStr.ml" 1 0 -1
+)
+"src/FileUtilStr.ml" 40 1973 1984 "src/FileUtilStr.ml" 40 1973 1997
+type(
+  ?follow:FileUtil.action_link ->
+  ?match_compile:(FilePath.filename -> FilePath.filename -> bool) ->
+  FileUtil.test_file ->
+  FilePath.filename -> ('a -> FilePath.filename -> 'a) -> 'a -> 'a
+)
+ident(
+  ext_ref FileUtil.find
+)
+"src/FileUtilStr.ml" 40 1973 2013 "src/FileUtilStr.ml" 40 1973 2026
+type(
+  FilePath.filename -> FilePath.filename -> bool
+)
+ident(
+  int_ref match_compile "src/FileUtilStr.ml" 28 1759 1763 "src/FileUtilStr.ml" 28 1759 1776
+)
+"src/FileUtilStr.ml" 40 1973 1984 "src/FileUtilStr.ml" 40 1973 2026
+call(
+  tail
+)
+type(
+  ?follow:FileUtil.action_link ->
+  FileUtil.test_file ->
+  FilePath.filename -> ('a -> FilePath.filename -> 'a) -> 'a -> 'a
+)

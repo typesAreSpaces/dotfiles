@@ -1,0 +1,296 @@
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 9 225 229 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 9 225 235
+type(
+  'Aa. rid -> (Prims.unit, 'Aa) rref -> 'Aa FStar_Heap.ref
+)
+ident(
+  def as_ref "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 11 318 318 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 297 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 300
+type(
+  rid
+)
+ident(
+  def id1 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 305 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 316
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 309 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 310
+type(
+  (Prims.unit, 'Aa) rref
+)
+ident(
+  def r "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 315 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 316
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 315 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 316
+type(
+  (Prims.unit, 'Aa) rref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 309 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 310
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 305 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 316
+type(
+  (Prims.unit, 'Aa) rref -> 'Aa FStar_Heap.ref
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 293 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 10 291 316
+type(
+  rid -> (Prims.unit, 'Aa) rref -> 'Aa FStar_Heap.ref
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 11 318 322 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 11 318 333
+type(
+  'Aa. rid -> 'Aa FStar_Heap.ref -> (Prims.unit, 'Aa) rref
+)
+ident(
+  def ref_as_rref "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 14 415 415 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 395 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 396
+type(
+  rid
+)
+ident(
+  def i "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 401 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 412
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 405 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 406
+type(
+  'Aa FStar_Heap.ref
+)
+ident(
+  def r "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 411 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 412
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 411 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 412
+type(
+  'Aa FStar_Heap.ref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 405 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 406
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 401 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 412
+type(
+  'Aa FStar_Heap.ref -> (Prims.unit, 'Aa) rref
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 391 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 12 389 412
+type(
+  rid -> 'Aa FStar_Heap.ref -> (Prims.unit, 'Aa) rref
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 14 415 420 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 14 415 430
+type(
+  Prims.unit -> rid
+)
+ident(
+  def new_region "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 18 513 513 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 454 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 463
+type(
+  Prims.unit
+)
+ident(
+  def uu____118 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 468 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 509
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 468 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 476
+type(
+  string -> rid
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 477 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 509
+type(
+  string
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 468 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 509
+call(
+  tail
+)
+type(
+  rid
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 450 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 15 448 509
+type(
+  Prims.unit -> rid
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 18 513 517 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 18 513 523
+type(
+  'Aa. rid -> 'Aa -> (Prims.unit, 'Aa) rref
+)
+ident(
+  def ralloc "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 20 628 628 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 570 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 571
+type(
+  rid
+)
+ident(
+  def i "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 576 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 626
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 580 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 584
+type(
+  'Aa
+)
+ident(
+  def init "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 589 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 626
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 589 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 597
+type(
+  string -> (Prims.unit, 'Aa) rref
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 598 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 626
+type(
+  string
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 589 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 626
+call(
+  tail
+)
+type(
+  (Prims.unit, 'Aa) rref
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 576 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 626
+type(
+  'Aa -> (Prims.unit, 'Aa) rref
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 566 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 19 564 626
+type(
+  rid -> 'Aa -> (Prims.unit, 'Aa) rref
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 20 628 632 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 20 628 647
+type(
+  'Aa. rid -> (Prims.unit, 'Aa) rref -> 'Aa -> Prims.unit
+)
+ident(
+  def op_Colon_Equals "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 24 782 782 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 21 696 702 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 21 696 703
+type(
+  rid
+)
+ident(
+  def i "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 712 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 778
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 716 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 717
+type(
+  (Prims.unit, 'Aa) rref
+)
+ident(
+  def r "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 722 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 778
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 726 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 727
+type(
+  'Aa
+)
+ident(
+  def v "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 732 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 778
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 732 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 740
+type(
+  string -> Prims.unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 741 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 778
+type(
+  string
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 732 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 778
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 722 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 778
+type(
+  'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 712 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 778
+type(
+  (Prims.unit, 'Aa) rref -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 21 696 698 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 22 708 778
+type(
+  rid -> (Prims.unit, 'Aa) rref -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 24 782 786 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 24 782 793
+type(
+  'Aa. rid -> (Prims.unit, 'Aa) rref -> 'Aa
+)
+ident(
+  def op_Bang "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 896 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 840 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 841
+type(
+  rid
+)
+ident(
+  def i "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 846 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 894
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 850 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 851
+type(
+  (Prims.unit, 'Aa) rref
+)
+ident(
+  def r "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 856 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 894
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 856 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 864
+type(
+  string -> 'Aa
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 865 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 894
+type(
+  string
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 856 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 894
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 846 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 894
+type(
+  (Prims.unit, 'Aa) rref -> 'Aa
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 836 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 25 834 894
+type(
+  rid -> (Prims.unit, 'Aa) rref -> 'Aa
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 901 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 904
+type(
+  Prims.unit -> t
+)
+ident(
+  def get "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 27 974 974 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 924 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 933
+type(
+  Prims.unit
+)
+ident(
+  def uu____289 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 938 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 972
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 938 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 946
+type(
+  string -> t
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 947 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 972
+type(
+  string
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 938 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 972
+call(
+  tail
+)
+type(
+  t
+)
+"ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 920 "ulib/ml/extracted/FStar_TwoLevelHeap.ml" 26 896 972
+type(
+  Prims.unit -> t
+)

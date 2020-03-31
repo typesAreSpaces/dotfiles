@@ -1,0 +1,1545 @@
+"ulib/ml/FStar_String.ml" 1 0 4 "ulib/ml/FStar_String.ml" 1 0 8
+type(
+  Z.t -> int -> BatUTF8.t
+)
+ident(
+  def make "ulib/ml/FStar_String.ml" 2 67 67 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 1 0 9 "ulib/ml/FStar_String.ml" 1 0 10
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_String.ml" 1 0 11 "ulib/ml/FStar_String.ml" 1 0 66
+)
+"ulib/ml/FStar_String.ml" 1 0 11 "ulib/ml/FStar_String.ml" 1 0 12
+type(
+  int
+)
+ident(
+  def c "ulib/ml/FStar_String.ml" 1 0 15 "ulib/ml/FStar_String.ml" 1 0 66
+)
+"ulib/ml/FStar_String.ml" 1 0 15 "ulib/ml/FStar_String.ml" 1 0 27
+type(
+  int -> (int -> BatUChar.t) -> BatUTF8.t
+)
+ident(
+  ext_ref BatUTF8.init
+)
+"ulib/ml/FStar_String.ml" 1 0 29 "ulib/ml/FStar_String.ml" 1 0 37
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_String.ml" 1 0 38 "ulib/ml/FStar_String.ml" 1 0 39
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_String.ml" 1 0 9 "ulib/ml/FStar_String.ml" 1 0 10
+)
+"ulib/ml/FStar_String.ml" 1 0 28 "ulib/ml/FStar_String.ml" 1 0 40
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 1 0 46 "ulib/ml/FStar_String.ml" 1 0 47
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 1 0 51 "ulib/ml/FStar_String.ml" 1 0 63
+type(
+  int -> BatUChar.t
+)
+ident(
+  ext_ref BatUChar.chr
+)
+"ulib/ml/FStar_String.ml" 1 0 64 "ulib/ml/FStar_String.ml" 1 0 65
+type(
+  int
+)
+ident(
+  int_ref c "ulib/ml/FStar_String.ml" 1 0 11 "ulib/ml/FStar_String.ml" 1 0 12
+)
+"ulib/ml/FStar_String.ml" 1 0 51 "ulib/ml/FStar_String.ml" 1 0 65
+call(
+  tail
+)
+type(
+  BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 1 0 41 "ulib/ml/FStar_String.ml" 1 0 66
+type(
+  int -> BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 1 0 15 "ulib/ml/FStar_String.ml" 1 0 66
+call(
+  tail
+)
+type(
+  BatUTF8.t
+)
+"ulib/ml/FStar_String.ml" 2 67 71 "ulib/ml/FStar_String.ml" 2 67 77
+type(
+  string -> string -> string
+)
+ident(
+  def strcat "ulib/ml/FStar_String.ml" 3 90 90 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 2 67 78 "ulib/ml/FStar_String.ml" 2 67 79
+type(
+  string
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 2 67 80 "ulib/ml/FStar_String.ml" 2 67 89
+)
+"ulib/ml/FStar_String.ml" 2 67 80 "ulib/ml/FStar_String.ml" 2 67 81
+type(
+  string
+)
+ident(
+  def t "ulib/ml/FStar_String.ml" 2 67 84 "ulib/ml/FStar_String.ml" 2 67 89
+)
+"ulib/ml/FStar_String.ml" 2 67 84 "ulib/ml/FStar_String.ml" 2 67 85
+type(
+  string
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 2 67 78 "ulib/ml/FStar_String.ml" 2 67 79
+)
+"ulib/ml/FStar_String.ml" 2 67 86 "ulib/ml/FStar_String.ml" 2 67 87
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ulib/ml/FStar_String.ml" 2 67 88 "ulib/ml/FStar_String.ml" 2 67 89
+type(
+  string
+)
+ident(
+  int_ref t "ulib/ml/FStar_String.ml" 2 67 80 "ulib/ml/FStar_String.ml" 2 67 81
+)
+"ulib/ml/FStar_String.ml" 2 67 84 "ulib/ml/FStar_String.ml" 2 67 89
+call(
+  tail
+)
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 3 90 94 "ulib/ml/FStar_String.ml" 3 90 100
+type(
+  string -> string -> string
+)
+ident(
+  def op_Hat "ulib/ml/FStar_String.ml" 7 247 247 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 3 90 101 "ulib/ml/FStar_String.ml" 3 90 102
+type(
+  string
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 3 90 103 "ulib/ml/FStar_String.ml" 3 90 118
+)
+"ulib/ml/FStar_String.ml" 3 90 103 "ulib/ml/FStar_String.ml" 3 90 104
+type(
+  string
+)
+ident(
+  def t "ulib/ml/FStar_String.ml" 3 90 108 "ulib/ml/FStar_String.ml" 3 90 118
+)
+"ulib/ml/FStar_String.ml" 3 90 108 "ulib/ml/FStar_String.ml" 3 90 114
+type(
+  string -> string -> string
+)
+ident(
+  int_ref strcat "ulib/ml/FStar_String.ml" 2 67 71 "ulib/ml/FStar_String.ml" 2 67 77
+)
+"ulib/ml/FStar_String.ml" 3 90 115 "ulib/ml/FStar_String.ml" 3 90 116
+type(
+  string
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 3 90 101 "ulib/ml/FStar_String.ml" 3 90 102
+)
+"ulib/ml/FStar_String.ml" 3 90 117 "ulib/ml/FStar_String.ml" 3 90 118
+type(
+  string
+)
+ident(
+  int_ref t "ulib/ml/FStar_String.ml" 3 90 103 "ulib/ml/FStar_String.ml" 3 90 104
+)
+"ulib/ml/FStar_String.ml" 3 90 108 "ulib/ml/FStar_String.ml" 3 90 118
+call(
+  tail
+)
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 7 247 251 "ulib/ml/FStar_String.ml" 7 247 267
+type(
+  string -> string -> string list
+)
+ident(
+  def batstring_nsplit "ulib/ml/FStar_String.ml" 10 321 321 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 7 247 268 "ulib/ml/FStar_String.ml" 7 247 269
+type(
+  string
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 7 247 270 "ulib/ml/FStar_String.ml" 8 274 319
+)
+"ulib/ml/FStar_String.ml" 7 247 270 "ulib/ml/FStar_String.ml" 7 247 271
+type(
+  string
+)
+ident(
+  def t "ulib/ml/FStar_String.ml" 8 274 276 "ulib/ml/FStar_String.ml" 8 274 319
+)
+"ulib/ml/FStar_String.ml" 8 274 279 "ulib/ml/FStar_String.ml" 8 274 280
+type(
+  string
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 7 247 268 "ulib/ml/FStar_String.ml" 7 247 269
+)
+"ulib/ml/FStar_String.ml" 8 274 281 "ulib/ml/FStar_String.ml" 8 274 282
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/FStar_String.ml" 8 274 283 "ulib/ml/FStar_String.ml" 8 274 285
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 8 274 279 "ulib/ml/FStar_String.ml" 8 274 285
+type(
+  bool
+)
+"ulib/ml/FStar_String.ml" 8 274 291 "ulib/ml/FStar_String.ml" 8 274 293
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 8 274 299 "ulib/ml/FStar_String.ml" 8 274 315
+type(
+  string -> by:string -> string list
+)
+ident(
+  ext_ref BatString.nsplit
+)
+"ulib/ml/FStar_String.ml" 8 274 316 "ulib/ml/FStar_String.ml" 8 274 317
+type(
+  string
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 7 247 268 "ulib/ml/FStar_String.ml" 7 247 269
+)
+"ulib/ml/FStar_String.ml" 8 274 318 "ulib/ml/FStar_String.ml" 8 274 319
+type(
+  string
+)
+ident(
+  int_ref t "ulib/ml/FStar_String.ml" 7 247 270 "ulib/ml/FStar_String.ml" 7 247 271
+)
+"ulib/ml/FStar_String.ml" 8 274 299 "ulib/ml/FStar_String.ml" 8 274 319
+call(
+  tail
+)
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 8 274 276 "ulib/ml/FStar_String.ml" 8 274 319
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 10 321 325 "ulib/ml/FStar_String.ml" 10 321 330
+type(
+  int list -> string -> string list
+)
+ident(
+  def split "ulib/ml/FStar_String.ml" 18 618 618 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 10 321 331 "ulib/ml/FStar_String.ml" 10 321 335
+type(
+  int list
+)
+ident(
+  def seps "ulib/ml/FStar_String.ml" 10 321 336 "ulib/ml/FStar_String.ml" 17 594 617
+)
+"ulib/ml/FStar_String.ml" 10 321 336 "ulib/ml/FStar_String.ml" 10 321 337
+type(
+  string
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 11 340 342 "ulib/ml/FStar_String.ml" 17 594 617
+)
+"ulib/ml/FStar_String.ml" 11 340 350 "ulib/ml/FStar_String.ml" 11 340 362
+type(
+  string list -> int list -> string list
+)
+ident(
+  def repeat_split "ulib/ml/FStar_String.ml" 11 340 342 "ulib/ml/FStar_String.ml" 17 594 617
+)
+"ulib/ml/FStar_String.ml" 11 340 363 "ulib/ml/FStar_String.ml" 11 340 366
+type(
+  string list
+)
+ident(
+  def acc "ulib/ml/FStar_String.ml" 11 340 369 "ulib/ml/FStar_String.ml" 16 564 590
+)
+"ulib/ml/FStar_String.ml" 12 378 384 "ulib/ml/FStar_String.ml" 12 378 386
+type(
+  int list
+)
+"ulib/ml/FStar_String.ml" 12 378 390 "ulib/ml/FStar_String.ml" 12 378 393
+type(
+  string list
+)
+ident(
+  int_ref acc "ulib/ml/FStar_String.ml" 11 340 363 "ulib/ml/FStar_String.ml" 11 340 366
+)
+"ulib/ml/FStar_String.ml" 13 394 400 "ulib/ml/FStar_String.ml" 13 394 403
+type(
+  int
+)
+ident(
+  def sep "ulib/ml/FStar_String.ml" 14 413 420 "ulib/ml/FStar_String.ml" 16 564 590
+)
+"ulib/ml/FStar_String.ml" 13 394 405 "ulib/ml/FStar_String.ml" 13 394 409
+type(
+  int list
+)
+ident(
+  def seps "ulib/ml/FStar_String.ml" 14 413 420 "ulib/ml/FStar_String.ml" 16 564 590
+)
+"ulib/ml/FStar_String.ml" 13 394 400 "ulib/ml/FStar_String.ml" 13 394 409
+type(
+  int list
+)
+"ulib/ml/FStar_String.ml" 14 413 424 "ulib/ml/FStar_String.ml" 14 413 428
+type(
+  BatUTF8.t
+)
+ident(
+  def usep "ulib/ml/FStar_String.ml" 15 477 484 "ulib/ml/FStar_String.ml" 16 564 590
+)
+"ulib/ml/FStar_String.ml" 14 413 431 "ulib/ml/FStar_String.ml" 14 413 443
+type(
+  int -> (int -> BatUChar.t) -> BatUTF8.t
+)
+ident(
+  ext_ref BatUTF8.init
+)
+"ulib/ml/FStar_String.ml" 14 413 444 "ulib/ml/FStar_String.ml" 14 413 445
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 14 413 451 "ulib/ml/FStar_String.ml" 14 413 452
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 14 413 456 "ulib/ml/FStar_String.ml" 14 413 468
+type(
+  int -> BatUChar.t
+)
+ident(
+  ext_ref BatUChar.chr
+)
+"ulib/ml/FStar_String.ml" 14 413 469 "ulib/ml/FStar_String.ml" 14 413 472
+type(
+  int
+)
+ident(
+  int_ref sep "ulib/ml/FStar_String.ml" 13 394 400 "ulib/ml/FStar_String.ml" 13 394 403
+)
+"ulib/ml/FStar_String.ml" 14 413 456 "ulib/ml/FStar_String.ml" 14 413 472
+call(
+  tail
+)
+type(
+  BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 14 413 446 "ulib/ml/FStar_String.ml" 14 413 473
+type(
+  int -> BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 14 413 431 "ulib/ml/FStar_String.ml" 14 413 473
+call(
+  stack
+)
+type(
+  BatUTF8.t
+)
+"ulib/ml/FStar_String.ml" 15 477 488 "ulib/ml/FStar_String.ml" 15 477 489
+type(
+  string list
+)
+ident(
+  def l "ulib/ml/FStar_String.ml" 16 564 571 "ulib/ml/FStar_String.ml" 16 564 590
+)
+"ulib/ml/FStar_String.ml" 15 477 492 "ulib/ml/FStar_String.ml" 15 477 507
+type(
+  string list list -> string list
+)
+ident(
+  ext_ref BatList.flatten
+)
+"ulib/ml/FStar_String.ml" 15 477 509 "ulib/ml/FStar_String.ml" 15 477 520
+type(
+  (string -> string list) -> string list -> string list list
+)
+ident(
+  ext_ref BatList.map
+)
+"ulib/ml/FStar_String.ml" 15 477 526 "ulib/ml/FStar_String.ml" 15 477 527
+type(
+  string
+)
+ident(
+  def x "ulib/ml/FStar_String.ml" 15 477 531 "ulib/ml/FStar_String.ml" 15 477 554
+)
+"ulib/ml/FStar_String.ml" 15 477 531 "ulib/ml/FStar_String.ml" 15 477 547
+type(
+  string -> BatUTF8.t -> string list
+)
+ident(
+  int_ref batstring_nsplit "ulib/ml/FStar_String.ml" 7 247 251 "ulib/ml/FStar_String.ml" 7 247 267
+)
+"ulib/ml/FStar_String.ml" 15 477 548 "ulib/ml/FStar_String.ml" 15 477 549
+type(
+  string
+)
+ident(
+  int_ref x "ulib/ml/FStar_String.ml" 15 477 526 "ulib/ml/FStar_String.ml" 15 477 527
+)
+"ulib/ml/FStar_String.ml" 15 477 550 "ulib/ml/FStar_String.ml" 15 477 554
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref usep "ulib/ml/FStar_String.ml" 14 413 424 "ulib/ml/FStar_String.ml" 14 413 428
+)
+"ulib/ml/FStar_String.ml" 15 477 531 "ulib/ml/FStar_String.ml" 15 477 554
+call(
+  tail
+)
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 15 477 521 "ulib/ml/FStar_String.ml" 15 477 555
+type(
+  string -> string list
+)
+"ulib/ml/FStar_String.ml" 15 477 556 "ulib/ml/FStar_String.ml" 15 477 559
+type(
+  string list
+)
+ident(
+  int_ref acc "ulib/ml/FStar_String.ml" 11 340 363 "ulib/ml/FStar_String.ml" 11 340 366
+)
+"ulib/ml/FStar_String.ml" 15 477 508 "ulib/ml/FStar_String.ml" 15 477 560
+call(
+  stack
+)
+type(
+  string list list
+)
+"ulib/ml/FStar_String.ml" 15 477 492 "ulib/ml/FStar_String.ml" 15 477 560
+call(
+  stack
+)
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 16 564 571 "ulib/ml/FStar_String.ml" 16 564 583
+type(
+  string list -> int list -> string list
+)
+ident(
+  int_ref repeat_split "ulib/ml/FStar_String.ml" 11 340 350 "ulib/ml/FStar_String.ml" 11 340 362
+)
+"ulib/ml/FStar_String.ml" 16 564 584 "ulib/ml/FStar_String.ml" 16 564 585
+type(
+  string list
+)
+ident(
+  int_ref l "ulib/ml/FStar_String.ml" 15 477 488 "ulib/ml/FStar_String.ml" 15 477 489
+)
+"ulib/ml/FStar_String.ml" 16 564 586 "ulib/ml/FStar_String.ml" 16 564 590
+type(
+  int list
+)
+ident(
+  int_ref seps "ulib/ml/FStar_String.ml" 13 394 405 "ulib/ml/FStar_String.ml" 13 394 409
+)
+"ulib/ml/FStar_String.ml" 16 564 571 "ulib/ml/FStar_String.ml" 16 564 590
+call(
+  tail
+)
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 15 477 484 "ulib/ml/FStar_String.ml" 16 564 590
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 14 413 420 "ulib/ml/FStar_String.ml" 16 564 590
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 11 340 369 "ulib/ml/FStar_String.ml" 16 564 590
+type(
+  int list -> string list
+)
+"ulib/ml/FStar_String.ml" 17 594 596 "ulib/ml/FStar_String.ml" 17 594 608
+type(
+  string list -> int list -> string list
+)
+ident(
+  int_ref repeat_split "ulib/ml/FStar_String.ml" 11 340 350 "ulib/ml/FStar_String.ml" 11 340 362
+)
+"ulib/ml/FStar_String.ml" 17 594 610 "ulib/ml/FStar_String.ml" 17 594 611
+type(
+  string
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 10 321 336 "ulib/ml/FStar_String.ml" 10 321 337
+)
+"ulib/ml/FStar_String.ml" 17 594 609 "ulib/ml/FStar_String.ml" 17 594 612
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 17 594 613 "ulib/ml/FStar_String.ml" 17 594 617
+type(
+  int list
+)
+ident(
+  int_ref seps "ulib/ml/FStar_String.ml" 10 321 331 "ulib/ml/FStar_String.ml" 10 321 335
+)
+"ulib/ml/FStar_String.ml" 17 594 596 "ulib/ml/FStar_String.ml" 17 594 617
+call(
+  tail
+)
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 11 340 342 "ulib/ml/FStar_String.ml" 17 594 617
+type(
+  string list
+)
+"ulib/ml/FStar_String.ml" 18 618 622 "ulib/ml/FStar_String.ml" 18 618 629
+type(
+  BatString.t -> BatString.t -> Z.t
+)
+ident(
+  def compare "ulib/ml/FStar_String.ml" 19 669 669 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 18 618 630 "ulib/ml/FStar_String.ml" 18 618 631
+type(
+  BatString.t
+)
+ident(
+  def x "ulib/ml/FStar_String.ml" 18 618 632 "ulib/ml/FStar_String.ml" 18 618 668
+)
+"ulib/ml/FStar_String.ml" 18 618 632 "ulib/ml/FStar_String.ml" 18 618 633
+type(
+  BatString.t
+)
+ident(
+  def y "ulib/ml/FStar_String.ml" 18 618 636 "ulib/ml/FStar_String.ml" 18 618 668
+)
+"ulib/ml/FStar_String.ml" 18 618 636 "ulib/ml/FStar_String.ml" 18 618 644
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Z.of_int
+)
+"ulib/ml/FStar_String.ml" 18 618 646 "ulib/ml/FStar_String.ml" 18 618 663
+type(
+  BatString.t -> BatString.t -> int
+)
+ident(
+  ext_ref BatString.compare
+)
+"ulib/ml/FStar_String.ml" 18 618 664 "ulib/ml/FStar_String.ml" 18 618 665
+type(
+  BatString.t
+)
+ident(
+  int_ref x "ulib/ml/FStar_String.ml" 18 618 630 "ulib/ml/FStar_String.ml" 18 618 631
+)
+"ulib/ml/FStar_String.ml" 18 618 666 "ulib/ml/FStar_String.ml" 18 618 667
+type(
+  BatString.t
+)
+ident(
+  int_ref y "ulib/ml/FStar_String.ml" 18 618 632 "ulib/ml/FStar_String.ml" 18 618 633
+)
+"ulib/ml/FStar_String.ml" 18 618 645 "ulib/ml/FStar_String.ml" 18 618 668
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 18 618 636 "ulib/ml/FStar_String.ml" 18 618 668
+type(
+  Z.t
+)
+"ulib/ml/FStar_String.ml" 20 697 701 "ulib/ml/FStar_String.ml" 20 697 707
+type(
+  string -> string list -> string
+)
+ident(
+  def concat "ulib/ml/FStar_String.ml" 21 727 727 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 20 697 710 "ulib/ml/FStar_String.ml" 20 697 726
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref BatString.concat
+)
+"ulib/ml/FStar_String.ml" 21 727 731 "ulib/ml/FStar_String.ml" 21 727 737
+type(
+  BatUTF8.t -> Z.t
+)
+ident(
+  def length "ulib/ml/FStar_String.ml" 22 770 770 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 21 727 738 "ulib/ml/FStar_String.ml" 21 727 739
+type(
+  BatUTF8.t
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 21 727 742 "ulib/ml/FStar_String.ml" 21 727 769
+)
+"ulib/ml/FStar_String.ml" 21 727 742 "ulib/ml/FStar_String.ml" 21 727 750
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Z.of_int
+)
+"ulib/ml/FStar_String.ml" 21 727 752 "ulib/ml/FStar_String.ml" 21 727 766
+type(
+  BatUTF8.t -> int
+)
+ident(
+  ext_ref BatUTF8.length
+)
+"ulib/ml/FStar_String.ml" 21 727 767 "ulib/ml/FStar_String.ml" 21 727 768
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 21 727 738 "ulib/ml/FStar_String.ml" 21 727 739
+)
+"ulib/ml/FStar_String.ml" 21 727 751 "ulib/ml/FStar_String.ml" 21 727 769
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 21 727 742 "ulib/ml/FStar_String.ml" 21 727 769
+type(
+  Z.t
+)
+"ulib/ml/FStar_String.ml" 22 770 774 "ulib/ml/FStar_String.ml" 22 770 780
+type(
+  BatUTF8.t -> Z.t
+)
+ident(
+  def strlen "ulib/ml/FStar_String.ml" 24 795 795 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 22 770 781 "ulib/ml/FStar_String.ml" 22 770 782
+type(
+  BatUTF8.t
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 22 770 785 "ulib/ml/FStar_String.ml" 22 770 793
+)
+"ulib/ml/FStar_String.ml" 22 770 785 "ulib/ml/FStar_String.ml" 22 770 791
+type(
+  BatUTF8.t -> Z.t
+)
+ident(
+  int_ref length "ulib/ml/FStar_String.ml" 21 727 731 "ulib/ml/FStar_String.ml" 21 727 737
+)
+"ulib/ml/FStar_String.ml" 22 770 792 "ulib/ml/FStar_String.ml" 22 770 793
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 22 770 781 "ulib/ml/FStar_String.ml" 22 770 782
+)
+"ulib/ml/FStar_String.ml" 22 770 785 "ulib/ml/FStar_String.ml" 22 770 793
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/ml/FStar_String.ml" 24 795 799 "ulib/ml/FStar_String.ml" 24 795 808
+type(
+  BatUTF8.t -> Z.t -> Z.t -> BatUTF8.t
+)
+ident(
+  def substring "ulib/ml/FStar_String.ml" 26 887 887 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 24 795 809 "ulib/ml/FStar_String.ml" 24 795 810
+type(
+  BatUTF8.t
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 24 795 811 "ulib/ml/FStar_String.ml" 25 817 886
+)
+"ulib/ml/FStar_String.ml" 24 795 811 "ulib/ml/FStar_String.ml" 24 795 812
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_String.ml" 24 795 813 "ulib/ml/FStar_String.ml" 25 817 886
+)
+"ulib/ml/FStar_String.ml" 24 795 813 "ulib/ml/FStar_String.ml" 24 795 814
+type(
+  Z.t
+)
+ident(
+  def j "ulib/ml/FStar_String.ml" 25 817 819 "ulib/ml/FStar_String.ml" 25 817 886
+)
+"ulib/ml/FStar_String.ml" 25 817 819 "ulib/ml/FStar_String.ml" 25 817 831
+type(
+  int -> (int -> BatUChar.t) -> BatUTF8.t
+)
+ident(
+  ext_ref BatUTF8.init
+)
+"ulib/ml/FStar_String.ml" 25 817 833 "ulib/ml/FStar_String.ml" 25 817 841
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_String.ml" 25 817 842 "ulib/ml/FStar_String.ml" 25 817 843
+type(
+  Z.t
+)
+ident(
+  int_ref j "ulib/ml/FStar_String.ml" 24 795 813 "ulib/ml/FStar_String.ml" 24 795 814
+)
+"ulib/ml/FStar_String.ml" 25 817 832 "ulib/ml/FStar_String.ml" 25 817 844
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 25 817 850 "ulib/ml/FStar_String.ml" 25 817 851
+type(
+  int
+)
+ident(
+  def k "ulib/ml/FStar_String.ml" 25 817 855 "ulib/ml/FStar_String.ml" 25 817 885
+)
+"ulib/ml/FStar_String.ml" 25 817 855 "ulib/ml/FStar_String.ml" 25 817 866
+type(
+  BatUTF8.t -> int -> BatUChar.t
+)
+ident(
+  ext_ref BatUTF8.get
+)
+"ulib/ml/FStar_String.ml" 25 817 867 "ulib/ml/FStar_String.ml" 25 817 868
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 24 795 809 "ulib/ml/FStar_String.ml" 24 795 810
+)
+"ulib/ml/FStar_String.ml" 25 817 870 "ulib/ml/FStar_String.ml" 25 817 871
+type(
+  int
+)
+ident(
+  int_ref k "ulib/ml/FStar_String.ml" 25 817 850 "ulib/ml/FStar_String.ml" 25 817 851
+)
+"ulib/ml/FStar_String.ml" 25 817 872 "ulib/ml/FStar_String.ml" 25 817 873
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ulib/ml/FStar_String.ml" 25 817 874 "ulib/ml/FStar_String.ml" 25 817 882
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_String.ml" 25 817 883 "ulib/ml/FStar_String.ml" 25 817 884
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_String.ml" 24 795 811 "ulib/ml/FStar_String.ml" 24 795 812
+)
+"ulib/ml/FStar_String.ml" 25 817 874 "ulib/ml/FStar_String.ml" 25 817 884
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 25 817 869 "ulib/ml/FStar_String.ml" 25 817 885
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 25 817 855 "ulib/ml/FStar_String.ml" 25 817 885
+call(
+  tail
+)
+type(
+  BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 25 817 845 "ulib/ml/FStar_String.ml" 25 817 886
+type(
+  int -> BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 25 817 819 "ulib/ml/FStar_String.ml" 25 817 886
+call(
+  tail
+)
+type(
+  BatUTF8.t
+)
+"ulib/ml/FStar_String.ml" 26 887 891 "ulib/ml/FStar_String.ml" 26 887 894
+type(
+  BatUTF8.t -> Z.t -> Z.t -> BatUTF8.t
+)
+ident(
+  def sub "ulib/ml/FStar_String.ml" 28 908 908 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 26 887 897 "ulib/ml/FStar_String.ml" 26 887 906
+type(
+  BatUTF8.t -> Z.t -> Z.t -> BatUTF8.t
+)
+ident(
+  int_ref substring "ulib/ml/FStar_String.ml" 24 795 799 "ulib/ml/FStar_String.ml" 24 795 808
+)
+"ulib/ml/FStar_String.ml" 28 908 912 "ulib/ml/FStar_String.ml" 28 908 915
+type(
+  BatUTF8.t -> Z.t -> int
+)
+ident(
+  def get "ulib/ml/FStar_String.ml" 29 965 965 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 28 908 916 "ulib/ml/FStar_String.ml" 28 908 917
+type(
+  BatUTF8.t
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 28 908 918 "ulib/ml/FStar_String.ml" 28 908 964
+)
+"ulib/ml/FStar_String.ml" 28 908 918 "ulib/ml/FStar_String.ml" 28 908 919
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_String.ml" 28 908 922 "ulib/ml/FStar_String.ml" 28 908 964
+)
+"ulib/ml/FStar_String.ml" 28 908 922 "ulib/ml/FStar_String.ml" 28 908 935
+type(
+  BatUChar.t -> int
+)
+ident(
+  ext_ref BatUChar.code
+)
+"ulib/ml/FStar_String.ml" 28 908 937 "ulib/ml/FStar_String.ml" 28 908 948
+type(
+  BatUTF8.t -> int -> BatUChar.t
+)
+ident(
+  ext_ref BatUTF8.get
+)
+"ulib/ml/FStar_String.ml" 28 908 949 "ulib/ml/FStar_String.ml" 28 908 950
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 28 908 916 "ulib/ml/FStar_String.ml" 28 908 917
+)
+"ulib/ml/FStar_String.ml" 28 908 952 "ulib/ml/FStar_String.ml" 28 908 960
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_String.ml" 28 908 961 "ulib/ml/FStar_String.ml" 28 908 962
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_String.ml" 28 908 918 "ulib/ml/FStar_String.ml" 28 908 919
+)
+"ulib/ml/FStar_String.ml" 28 908 951 "ulib/ml/FStar_String.ml" 28 908 963
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 28 908 936 "ulib/ml/FStar_String.ml" 28 908 964
+call(
+  tail
+)
+type(
+  BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 28 908 922 "ulib/ml/FStar_String.ml" 28 908 964
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 29 965 969 "ulib/ml/FStar_String.ml" 29 965 976
+type(
+  (int -> string) -> BatUTF8.t -> string
+)
+ident(
+  def collect "ulib/ml/FStar_String.ml" 32 1065 1065 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 29 965 977 "ulib/ml/FStar_String.ml" 29 965 978
+type(
+  int -> string
+)
+ident(
+  def f "ulib/ml/FStar_String.ml" 29 965 979 "ulib/ml/FStar_String.ml" 31 1003 1064
+)
+"ulib/ml/FStar_String.ml" 29 965 979 "ulib/ml/FStar_String.ml" 29 965 980
+type(
+  BatUTF8.t
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 30 983 985 "ulib/ml/FStar_String.ml" 31 1003 1064
+)
+"ulib/ml/FStar_String.ml" 30 983 989 "ulib/ml/FStar_String.ml" 30 983 990
+type(
+  string ref
+)
+ident(
+  def r "ulib/ml/FStar_String.ml" 31 1003 1005 "ulib/ml/FStar_String.ml" 31 1003 1064
+)
+"ulib/ml/FStar_String.ml" 30 983 993 "ulib/ml/FStar_String.ml" 30 983 996
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"ulib/ml/FStar_String.ml" 30 983 997 "ulib/ml/FStar_String.ml" 30 983 999
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 30 983 993 "ulib/ml/FStar_String.ml" 30 983 999
+type(
+  string ref
+)
+"ulib/ml/FStar_String.ml" 31 1003 1005 "ulib/ml/FStar_String.ml" 31 1003 1017
+type(
+  (BatUChar.t -> unit) -> BatUTF8.t -> unit
+)
+ident(
+  ext_ref BatUTF8.iter
+)
+"ulib/ml/FStar_String.ml" 31 1003 1023 "ulib/ml/FStar_String.ml" 31 1003 1024
+type(
+  BatUChar.t
+)
+ident(
+  def c "ulib/ml/FStar_String.ml" 31 1003 1028 "ulib/ml/FStar_String.ml" 31 1003 1057
+)
+"ulib/ml/FStar_String.ml" 31 1003 1028 "ulib/ml/FStar_String.ml" 31 1003 1029
+type(
+  string ref
+)
+ident(
+  int_ref r "ulib/ml/FStar_String.ml" 30 983 989 "ulib/ml/FStar_String.ml" 30 983 990
+)
+"ulib/ml/FStar_String.ml" 31 1003 1030 "ulib/ml/FStar_String.ml" 31 1003 1032
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"ulib/ml/FStar_String.ml" 31 1003 1033 "ulib/ml/FStar_String.ml" 31 1003 1034
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ulib/ml/FStar_String.ml" 31 1003 1034 "ulib/ml/FStar_String.ml" 31 1003 1035
+type(
+  string ref
+)
+ident(
+  int_ref r "ulib/ml/FStar_String.ml" 30 983 989 "ulib/ml/FStar_String.ml" 30 983 990
+)
+"ulib/ml/FStar_String.ml" 31 1003 1033 "ulib/ml/FStar_String.ml" 31 1003 1035
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 31 1003 1036 "ulib/ml/FStar_String.ml" 31 1003 1037
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ulib/ml/FStar_String.ml" 31 1003 1038 "ulib/ml/FStar_String.ml" 31 1003 1039
+type(
+  int -> string
+)
+ident(
+  int_ref f "ulib/ml/FStar_String.ml" 29 965 977 "ulib/ml/FStar_String.ml" 29 965 978
+)
+"ulib/ml/FStar_String.ml" 31 1003 1041 "ulib/ml/FStar_String.ml" 31 1003 1054
+type(
+  BatUChar.t -> int
+)
+ident(
+  ext_ref BatUChar.code
+)
+"ulib/ml/FStar_String.ml" 31 1003 1055 "ulib/ml/FStar_String.ml" 31 1003 1056
+type(
+  BatUChar.t
+)
+ident(
+  int_ref c "ulib/ml/FStar_String.ml" 31 1003 1023 "ulib/ml/FStar_String.ml" 31 1003 1024
+)
+"ulib/ml/FStar_String.ml" 31 1003 1040 "ulib/ml/FStar_String.ml" 31 1003 1057
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 31 1003 1038 "ulib/ml/FStar_String.ml" 31 1003 1057
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 31 1003 1033 "ulib/ml/FStar_String.ml" 31 1003 1057
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 31 1003 1028 "ulib/ml/FStar_String.ml" 31 1003 1057
+type(
+  unit
+)
+"ulib/ml/FStar_String.ml" 31 1003 1018 "ulib/ml/FStar_String.ml" 31 1003 1058
+type(
+  BatUChar.t -> unit
+)
+"ulib/ml/FStar_String.ml" 31 1003 1059 "ulib/ml/FStar_String.ml" 31 1003 1060
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 29 965 979 "ulib/ml/FStar_String.ml" 29 965 980
+)
+"ulib/ml/FStar_String.ml" 31 1003 1005 "ulib/ml/FStar_String.ml" 31 1003 1060
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/FStar_String.ml" 31 1003 1062 "ulib/ml/FStar_String.ml" 31 1003 1063
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"ulib/ml/FStar_String.ml" 31 1003 1063 "ulib/ml/FStar_String.ml" 31 1003 1064
+type(
+  string ref
+)
+ident(
+  int_ref r "ulib/ml/FStar_String.ml" 30 983 989 "ulib/ml/FStar_String.ml" 30 983 990
+)
+"ulib/ml/FStar_String.ml" 31 1003 1062 "ulib/ml/FStar_String.ml" 31 1003 1064
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 31 1003 1005 "ulib/ml/FStar_String.ml" 31 1003 1064
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 30 983 985 "ulib/ml/FStar_String.ml" 31 1003 1064
+type(
+  string
+)
+"ulib/ml/FStar_String.ml" 32 1065 1069 "ulib/ml/FStar_String.ml" 32 1065 1078
+type(
+  string -> string
+)
+ident(
+  def lowercase "ulib/ml/FStar_String.ml" 33 1101 1101 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 32 1065 1081 "ulib/ml/FStar_String.ml" 32 1065 1100
+type(
+  string -> string
+)
+ident(
+  ext_ref BatString.lowercase
+)
+"ulib/ml/FStar_String.ml" 33 1101 1105 "ulib/ml/FStar_String.ml" 33 1101 1114
+type(
+  string -> string
+)
+ident(
+  def uppercase "ulib/ml/FStar_String.ml" 34 1137 1137 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 33 1101 1117 "ulib/ml/FStar_String.ml" 33 1101 1136
+type(
+  string -> string
+)
+ident(
+  ext_ref BatString.uppercase
+)
+"ulib/ml/FStar_String.ml" 34 1137 1141 "ulib/ml/FStar_String.ml" 34 1137 1148
+type(
+  string -> string
+)
+ident(
+  def escaped "ulib/ml/FStar_String.ml" 35 1169 1169 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 34 1137 1151 "ulib/ml/FStar_String.ml" 34 1137 1168
+type(
+  string -> string
+)
+ident(
+  ext_ref BatString.escaped
+)
+"ulib/ml/FStar_String.ml" 35 1169 1173 "ulib/ml/FStar_String.ml" 35 1169 1178
+type(
+  BatUTF8.t -> Z.t -> int
+)
+ident(
+  def index "ulib/ml/FStar_String.ml" 36 1185 1185 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 35 1169 1181 "ulib/ml/FStar_String.ml" 35 1169 1184
+type(
+  BatUTF8.t -> Z.t -> int
+)
+ident(
+  int_ref get "ulib/ml/FStar_String.ml" 28 908 912 "ulib/ml/FStar_String.ml" 28 908 915
+)
+"ulib/ml/FStar_String.ml" 37 1208 1212 "ulib/ml/FStar_String.ml" 37 1208 1220
+type(
+  BatUTF8.t -> int -> Z.t
+)
+ident(
+  def index_of "ulib/ml/FStar_String.ml" 41 1390 1390 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 37 1208 1221 "ulib/ml/FStar_String.ml" 37 1208 1222
+type(
+  BatUTF8.t
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 37 1208 1223 "ulib/ml/FStar_String.ml" 40 1359 1389
+)
+"ulib/ml/FStar_String.ml" 37 1208 1223 "ulib/ml/FStar_String.ml" 37 1208 1224
+type(
+  int
+)
+ident(
+  def c "ulib/ml/FStar_String.ml" 38 1227 1231 "ulib/ml/FStar_String.ml" 40 1359 1389
+)
+"ulib/ml/FStar_String.ml" 38 1227 1235 "ulib/ml/FStar_String.ml" 38 1227 1236
+type(
+  BatUChar.t
+)
+ident(
+  def c "ulib/ml/FStar_String.ml" 39 1257 1261 "ulib/ml/FStar_String.ml" 40 1359 1389
+)
+"ulib/ml/FStar_String.ml" 38 1227 1239 "ulib/ml/FStar_String.ml" 38 1227 1251
+type(
+  int -> BatUChar.t
+)
+ident(
+  ext_ref BatUChar.chr
+)
+"ulib/ml/FStar_String.ml" 38 1227 1252 "ulib/ml/FStar_String.ml" 38 1227 1253
+type(
+  int
+)
+ident(
+  int_ref c "ulib/ml/FStar_String.ml" 37 1208 1223 "ulib/ml/FStar_String.ml" 37 1208 1224
+)
+"ulib/ml/FStar_String.ml" 38 1227 1239 "ulib/ml/FStar_String.ml" 38 1227 1253
+call(
+  stack
+)
+type(
+  BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 39 1257 1269 "ulib/ml/FStar_String.ml" 39 1257 1270
+type(
+  unit
+)
+"ulib/ml/FStar_String.ml" 39 1257 1273 "ulib/ml/FStar_String.ml" 39 1257 1286
+type(
+  (BatUChar.t -> int -> unit) -> BatUTF8.t -> unit
+)
+ident(
+  ext_ref BatUTF8.iteri
+)
+"ulib/ml/FStar_String.ml" 39 1257 1292 "ulib/ml/FStar_String.ml" 39 1257 1294
+type(
+  BatUChar.t
+)
+ident(
+  def c' "ulib/ml/FStar_String.ml" 39 1257 1295 "ulib/ml/FStar_String.ml" 39 1257 1338
+)
+"ulib/ml/FStar_String.ml" 39 1257 1295 "ulib/ml/FStar_String.ml" 39 1257 1296
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_String.ml" 39 1257 1300 "ulib/ml/FStar_String.ml" 39 1257 1338
+)
+"ulib/ml/FStar_String.ml" 39 1257 1303 "ulib/ml/FStar_String.ml" 39 1257 1304
+type(
+  BatUChar.t
+)
+ident(
+  int_ref c "ulib/ml/FStar_String.ml" 38 1227 1235 "ulib/ml/FStar_String.ml" 38 1227 1236
+)
+"ulib/ml/FStar_String.ml" 39 1257 1305 "ulib/ml/FStar_String.ml" 39 1257 1306
+type(
+  BatUChar.t -> BatUChar.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/FStar_String.ml" 39 1257 1307 "ulib/ml/FStar_String.ml" 39 1257 1309
+type(
+  BatUChar.t
+)
+ident(
+  int_ref c' "ulib/ml/FStar_String.ml" 39 1257 1292 "ulib/ml/FStar_String.ml" 39 1257 1294
+)
+"ulib/ml/FStar_String.ml" 39 1257 1303 "ulib/ml/FStar_String.ml" 39 1257 1309
+type(
+  bool
+)
+"ulib/ml/FStar_String.ml" 39 1257 1315 "ulib/ml/FStar_String.ml" 39 1257 1320
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"ulib/ml/FStar_String.ml" 39 1257 1328 "ulib/ml/FStar_String.ml" 39 1257 1329
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_String.ml" 39 1257 1295 "ulib/ml/FStar_String.ml" 39 1257 1296
+)
+"ulib/ml/FStar_String.ml" 39 1257 1321 "ulib/ml/FStar_String.ml" 39 1257 1330
+type(
+  exn
+)
+"ulib/ml/FStar_String.ml" 39 1257 1315 "ulib/ml/FStar_String.ml" 39 1257 1330
+type(
+  unit
+)
+"ulib/ml/FStar_String.ml" 39 1257 1336 "ulib/ml/FStar_String.ml" 39 1257 1338
+type(
+  unit
+)
+"ulib/ml/FStar_String.ml" 39 1257 1300 "ulib/ml/FStar_String.ml" 39 1257 1338
+type(
+  unit
+)
+"ulib/ml/FStar_String.ml" 39 1257 1287 "ulib/ml/FStar_String.ml" 39 1257 1339
+type(
+  BatUChar.t -> int -> unit
+)
+"ulib/ml/FStar_String.ml" 39 1257 1340 "ulib/ml/FStar_String.ml" 39 1257 1341
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 37 1208 1221 "ulib/ml/FStar_String.ml" 37 1208 1222
+)
+"ulib/ml/FStar_String.ml" 39 1257 1273 "ulib/ml/FStar_String.ml" 39 1257 1341
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/FStar_String.ml" 39 1257 1345 "ulib/ml/FStar_String.ml" 39 1257 1353
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Z.of_int
+)
+"ulib/ml/FStar_String.ml" 39 1257 1354 "ulib/ml/FStar_String.ml" 39 1257 1358
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 39 1257 1345 "ulib/ml/FStar_String.ml" 39 1257 1358
+type(
+  Z.t
+)
+"ulib/ml/FStar_String.ml" 39 1257 1265 "ulib/ml/FStar_String.ml" 39 1257 1358
+type(
+  Z.t
+)
+"ulib/ml/FStar_String.ml" 40 1359 1374 "ulib/ml/FStar_String.ml" 40 1359 1375
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_String.ml" 40 1359 1379 "ulib/ml/FStar_String.ml" 40 1359 1389
+)
+"ulib/ml/FStar_String.ml" 40 1359 1368 "ulib/ml/FStar_String.ml" 40 1359 1375
+type(
+  exn
+)
+"ulib/ml/FStar_String.ml" 40 1359 1379 "ulib/ml/FStar_String.ml" 40 1359 1387
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Z.of_int
+)
+"ulib/ml/FStar_String.ml" 40 1359 1388 "ulib/ml/FStar_String.ml" 40 1359 1389
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_String.ml" 40 1359 1374 "ulib/ml/FStar_String.ml" 40 1359 1375
+)
+"ulib/ml/FStar_String.ml" 40 1359 1379 "ulib/ml/FStar_String.ml" 40 1359 1389
+type(
+  Z.t
+)
+"ulib/ml/FStar_String.ml" 39 1257 1261 "ulib/ml/FStar_String.ml" 40 1359 1389
+type(
+  Z.t
+)
+"ulib/ml/FStar_String.ml" 38 1227 1231 "ulib/ml/FStar_String.ml" 40 1359 1389
+type(
+  Z.t
+)
+"ulib/ml/FStar_String.ml" 41 1390 1394 "ulib/ml/FStar_String.ml" 41 1390 1408
+type(
+  BatUTF8.t -> int list
+)
+ident(
+  def list_of_string "ulib/ml/FStar_String.ml" 42 1488 1488 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 41 1390 1409 "ulib/ml/FStar_String.ml" 41 1390 1410
+type(
+  BatUTF8.t
+)
+ident(
+  def s "ulib/ml/FStar_String.ml" 41 1390 1413 "ulib/ml/FStar_String.ml" 41 1390 1487
+)
+"ulib/ml/FStar_String.ml" 41 1390 1413 "ulib/ml/FStar_String.ml" 41 1390 1425
+type(
+  int -> (int -> int) -> int list
+)
+ident(
+  ext_ref BatList.init
+)
+"ulib/ml/FStar_String.ml" 41 1390 1427 "ulib/ml/FStar_String.ml" 41 1390 1441
+type(
+  BatUTF8.t -> int
+)
+ident(
+  ext_ref BatUTF8.length
+)
+"ulib/ml/FStar_String.ml" 41 1390 1442 "ulib/ml/FStar_String.ml" 41 1390 1443
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 41 1390 1409 "ulib/ml/FStar_String.ml" 41 1390 1410
+)
+"ulib/ml/FStar_String.ml" 41 1390 1426 "ulib/ml/FStar_String.ml" 41 1390 1444
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 41 1390 1450 "ulib/ml/FStar_String.ml" 41 1390 1451
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_String.ml" 41 1390 1455 "ulib/ml/FStar_String.ml" 41 1390 1486
+)
+"ulib/ml/FStar_String.ml" 41 1390 1455 "ulib/ml/FStar_String.ml" 41 1390 1468
+type(
+  BatUChar.t -> int
+)
+ident(
+  ext_ref BatUChar.code
+)
+"ulib/ml/FStar_String.ml" 41 1390 1470 "ulib/ml/FStar_String.ml" 41 1390 1481
+type(
+  BatUTF8.t -> int -> BatUChar.t
+)
+ident(
+  ext_ref BatUTF8.get
+)
+"ulib/ml/FStar_String.ml" 41 1390 1482 "ulib/ml/FStar_String.ml" 41 1390 1483
+type(
+  BatUTF8.t
+)
+ident(
+  int_ref s "ulib/ml/FStar_String.ml" 41 1390 1409 "ulib/ml/FStar_String.ml" 41 1390 1410
+)
+"ulib/ml/FStar_String.ml" 41 1390 1484 "ulib/ml/FStar_String.ml" 41 1390 1485
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_String.ml" 41 1390 1450 "ulib/ml/FStar_String.ml" 41 1390 1451
+)
+"ulib/ml/FStar_String.ml" 41 1390 1469 "ulib/ml/FStar_String.ml" 41 1390 1486
+call(
+  tail
+)
+type(
+  BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 41 1390 1455 "ulib/ml/FStar_String.ml" 41 1390 1486
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 41 1390 1445 "ulib/ml/FStar_String.ml" 41 1390 1487
+type(
+  int -> int
+)
+"ulib/ml/FStar_String.ml" 41 1390 1413 "ulib/ml/FStar_String.ml" 41 1390 1487
+call(
+  tail
+)
+type(
+  int list
+)
+"ulib/ml/FStar_String.ml" 42 1488 1492 "ulib/ml/FStar_String.ml" 42 1488 1506
+type(
+  int list -> BatUTF8.t
+)
+ident(
+  def string_of_list "ulib/ml/FStar_String.ml" 42 1488 1583 "ulib/ml/FStar_String.ml" 1 0 -1
+)
+"ulib/ml/FStar_String.ml" 42 1488 1507 "ulib/ml/FStar_String.ml" 42 1488 1508
+type(
+  int list
+)
+ident(
+  def l "ulib/ml/FStar_String.ml" 42 1488 1511 "ulib/ml/FStar_String.ml" 42 1488 1583
+)
+"ulib/ml/FStar_String.ml" 42 1488 1511 "ulib/ml/FStar_String.ml" 42 1488 1523
+type(
+  int -> (int -> BatUChar.t) -> BatUTF8.t
+)
+ident(
+  ext_ref BatUTF8.init
+)
+"ulib/ml/FStar_String.ml" 42 1488 1525 "ulib/ml/FStar_String.ml" 42 1488 1539
+type(
+  int list -> int
+)
+ident(
+  ext_ref BatList.length
+)
+"ulib/ml/FStar_String.ml" 42 1488 1540 "ulib/ml/FStar_String.ml" 42 1488 1541
+type(
+  int list
+)
+ident(
+  int_ref l "ulib/ml/FStar_String.ml" 42 1488 1507 "ulib/ml/FStar_String.ml" 42 1488 1508
+)
+"ulib/ml/FStar_String.ml" 42 1488 1524 "ulib/ml/FStar_String.ml" 42 1488 1542
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 42 1488 1548 "ulib/ml/FStar_String.ml" 42 1488 1549
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_String.ml" 42 1488 1553 "ulib/ml/FStar_String.ml" 42 1488 1582
+)
+"ulib/ml/FStar_String.ml" 42 1488 1553 "ulib/ml/FStar_String.ml" 42 1488 1565
+type(
+  int -> BatUChar.t
+)
+ident(
+  ext_ref BatUChar.chr
+)
+"ulib/ml/FStar_String.ml" 42 1488 1567 "ulib/ml/FStar_String.ml" 42 1488 1577
+type(
+  int list -> int -> int
+)
+ident(
+  ext_ref BatList.at
+)
+"ulib/ml/FStar_String.ml" 42 1488 1578 "ulib/ml/FStar_String.ml" 42 1488 1579
+type(
+  int list
+)
+ident(
+  int_ref l "ulib/ml/FStar_String.ml" 42 1488 1507 "ulib/ml/FStar_String.ml" 42 1488 1508
+)
+"ulib/ml/FStar_String.ml" 42 1488 1580 "ulib/ml/FStar_String.ml" 42 1488 1581
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_String.ml" 42 1488 1548 "ulib/ml/FStar_String.ml" 42 1488 1549
+)
+"ulib/ml/FStar_String.ml" 42 1488 1566 "ulib/ml/FStar_String.ml" 42 1488 1582
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_String.ml" 42 1488 1553 "ulib/ml/FStar_String.ml" 42 1488 1582
+call(
+  tail
+)
+type(
+  BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 42 1488 1543 "ulib/ml/FStar_String.ml" 42 1488 1583
+type(
+  int -> BatUChar.t
+)
+"ulib/ml/FStar_String.ml" 42 1488 1511 "ulib/ml/FStar_String.ml" 42 1488 1583
+call(
+  tail
+)
+type(
+  BatUTF8.t
+)

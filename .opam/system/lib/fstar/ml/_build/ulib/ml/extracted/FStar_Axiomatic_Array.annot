@@ -1,0 +1,365 @@
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 3 37 41 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 3 37 46
+type(
+  'Aa. 'Aa seq -> Prims.int -> 'Aa
+)
+ident(
+  def index "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 5 159 159 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 91 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 99
+type(
+  'Aa seq
+)
+ident(
+  def uu____32 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 104 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 157
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 108 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 116
+type(
+  Prims.int
+)
+ident(
+  def uu____33 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 121 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 157
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 121 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 129
+type(
+  string -> 'Aa
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 130 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 157
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 121 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 157
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 104 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 157
+type(
+  Prims.int -> 'Aa
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 87 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 4 85 157
+type(
+  'Aa seq -> Prims.int -> 'Aa
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 5 159 163 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 5 159 169
+type(
+  'Aa. 'Aa seq -> Prims.int -> 'Aa -> 'Aa seq
+)
+ident(
+  def update "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 9 317 317 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 6 219 225 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 6 219 233
+type(
+  'Aa seq
+)
+ident(
+  def uu____77 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 242 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 313
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 246 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 254
+type(
+  Prims.int
+)
+ident(
+  def uu____78 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 259 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 313
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 263 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 271
+type(
+  'Aa
+)
+ident(
+  def uu____79 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 276 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 313
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 276 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 284
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 285 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 313
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 276 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 313
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 259 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 313
+type(
+  'Aa -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 242 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 313
+type(
+  Prims.int -> 'Aa -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 6 219 221 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 7 238 313
+type(
+  'Aa seq -> Prims.int -> 'Aa -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 9 317 321 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 9 317 324
+type(
+  'Aa. Prims.unit -> 'Aa seq
+)
+ident(
+  def emp "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 11 406 406 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 357 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 365
+type(
+  Prims.unit
+)
+ident(
+  def uu____95 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 370 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 404
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 370 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 378
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 379 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 404
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 370 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 404
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 353 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 10 351 404
+type(
+  Prims.unit -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 11 406 410 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 11 406 416
+type(
+  'Aa. Prims.int -> 'Aa -> 'Aa seq
+)
+ident(
+  def create "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 13 532 532 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 461 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 470
+type(
+  Prims.int
+)
+ident(
+  def uu____127 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 475 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 530
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 479 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 488
+type(
+  'Aa
+)
+ident(
+  def uu____128 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 493 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 530
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 493 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 501
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 502 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 530
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 493 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 530
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 475 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 530
+type(
+  'Aa -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 457 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 12 455 530
+type(
+  Prims.int -> 'Aa -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 13 532 536 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 13 532 542
+type(
+  'Aa. 'Aa seq -> Prims.nat
+)
+ident(
+  def length "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 15 633 633 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 580 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 589
+type(
+  'Aa seq
+)
+ident(
+  def uu____151 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 594 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 631
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 594 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 602
+type(
+  string -> Prims.nat
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 603 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 631
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 594 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 631
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 576 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 14 574 631
+type(
+  'Aa seq -> Prims.nat
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 15 633 637 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 15 633 642
+type(
+  'Aa. 'Aa seq -> Prims.int -> Prims.int -> 'Aa seq
+)
+ident(
+  def slice "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 19 798 798 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 16 698 704 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 16 698 713
+type(
+  'Aa seq
+)
+ident(
+  def uu____195 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 722 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 794
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 726 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 735
+type(
+  Prims.int
+)
+ident(
+  def uu____196 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 740 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 794
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 744 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 753
+type(
+  Prims.int
+)
+ident(
+  def uu____197 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 758 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 794
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 758 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 766
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 767 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 794
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 758 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 794
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 740 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 794
+type(
+  Prims.int -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 722 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 794
+type(
+  Prims.int -> Prims.int -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 16 698 700 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 17 718 794
+type(
+  'Aa seq -> Prims.int -> Prims.int -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 19 798 802 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 19 798 808
+type(
+  'Aa. 'Aa seq -> 'Aa seq -> 'Aa seq
+)
+ident(
+  def append "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 21 926 926 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 855 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 864
+type(
+  'Aa seq
+)
+ident(
+  def uu____236 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 869 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 924
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 873 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 882
+type(
+  'Aa seq
+)
+ident(
+  def uu____237 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 887 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 924
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 887 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 895
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 896 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 924
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 887 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 924
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 869 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 924
+type(
+  'Aa seq -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 851 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 20 849 924
+type(
+  'Aa seq -> 'Aa seq -> 'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 21 926 930 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 21 926 939
+type(
+  'Aa. 'Aa FStar_Pervasives_Native.option seq -> 'Aa seq
+)
+ident(
+  def proj_some "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 23 1062 1062 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1006 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1015
+type(
+  'Aa FStar_Pervasives_Native.option seq
+)
+ident(
+  def uu____267 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1020 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1060
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1020 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1028
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1029 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1060
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1020 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1060
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1002 "ulib/ml/extracted/FStar_Axiomatic_Array.ml" 22 1000 1060
+type(
+  'Aa FStar_Pervasives_Native.option seq -> 'Aa seq
+)

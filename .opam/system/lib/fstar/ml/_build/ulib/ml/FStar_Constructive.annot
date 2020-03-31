@@ -1,0 +1,805 @@
+"ulib/ml/FStar_Constructive.ml" 4 58 62 "ulib/ml/FStar_Constructive.ml" 4 58 74
+type(
+  'a -> bool
+)
+ident(
+  def uu___is_Conj "ulib/ml/FStar_Constructive.ml" 5 92 92 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 4 58 75 "ulib/ml/FStar_Constructive.ml" 4 58 84
+type(
+  'a
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 4 58 87 "ulib/ml/FStar_Constructive.ml" 4 58 91
+)
+"ulib/ml/FStar_Constructive.ml" 4 58 87 "ulib/ml/FStar_Constructive.ml" 4 58 91
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 5 92 96 "ulib/ml/FStar_Constructive.ml" 5 92 118
+type(
+  ('a, 'b) cand -> 'a
+)
+ident(
+  def __proj__Conj__item__h1 "ulib/ml/FStar_Constructive.ml" 7 175 175 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 5 92 119 "ulib/ml/FStar_Constructive.ml" 5 92 128
+type(
+  ('a, 'b) cand
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 6 131 133 "ulib/ml/FStar_Constructive.ml" 6 131 174
+)
+"ulib/ml/FStar_Constructive.ml" 6 131 139 "ulib/ml/FStar_Constructive.ml" 6 131 148
+type(
+  ('a, 'b) cand
+)
+ident(
+  int_ref projectee "ulib/ml/FStar_Constructive.ml" 5 92 119 "ulib/ml/FStar_Constructive.ml" 5 92 128
+)
+"ulib/ml/FStar_Constructive.ml" 6 131 162 "ulib/ml/FStar_Constructive.ml" 6 131 164
+type(
+  'a
+)
+ident(
+  def h1 "ulib/ml/FStar_Constructive.ml" 6 131 172 "ulib/ml/FStar_Constructive.ml" 6 131 174
+)
+"ulib/ml/FStar_Constructive.ml" 6 131 165 "ulib/ml/FStar_Constructive.ml" 6 131 167
+type(
+  'b
+)
+ident(
+  def h2 "ulib/ml/FStar_Constructive.ml" 6 131 172 "ulib/ml/FStar_Constructive.ml" 6 131 174
+)
+"ulib/ml/FStar_Constructive.ml" 6 131 156 "ulib/ml/FStar_Constructive.ml" 6 131 168
+type(
+  ('a, 'b) cand
+)
+"ulib/ml/FStar_Constructive.ml" 6 131 172 "ulib/ml/FStar_Constructive.ml" 6 131 174
+type(
+  'a
+)
+ident(
+  int_ref h1 "ulib/ml/FStar_Constructive.ml" 6 131 162 "ulib/ml/FStar_Constructive.ml" 6 131 164
+)
+"ulib/ml/FStar_Constructive.ml" 6 131 133 "ulib/ml/FStar_Constructive.ml" 6 131 174
+type(
+  'a
+)
+"ulib/ml/FStar_Constructive.ml" 7 175 179 "ulib/ml/FStar_Constructive.ml" 7 175 201
+type(
+  ('a, 'b) cand -> 'b
+)
+ident(
+  def __proj__Conj__item__h2 "ulib/ml/FStar_Constructive.ml" 9 258 258 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 7 175 202 "ulib/ml/FStar_Constructive.ml" 7 175 211
+type(
+  ('a, 'b) cand
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 8 214 216 "ulib/ml/FStar_Constructive.ml" 8 214 257
+)
+"ulib/ml/FStar_Constructive.ml" 8 214 222 "ulib/ml/FStar_Constructive.ml" 8 214 231
+type(
+  ('a, 'b) cand
+)
+ident(
+  int_ref projectee "ulib/ml/FStar_Constructive.ml" 7 175 202 "ulib/ml/FStar_Constructive.ml" 7 175 211
+)
+"ulib/ml/FStar_Constructive.ml" 8 214 245 "ulib/ml/FStar_Constructive.ml" 8 214 247
+type(
+  'a
+)
+ident(
+  def h1 "ulib/ml/FStar_Constructive.ml" 8 214 255 "ulib/ml/FStar_Constructive.ml" 8 214 257
+)
+"ulib/ml/FStar_Constructive.ml" 8 214 248 "ulib/ml/FStar_Constructive.ml" 8 214 250
+type(
+  'b
+)
+ident(
+  def h2 "ulib/ml/FStar_Constructive.ml" 8 214 255 "ulib/ml/FStar_Constructive.ml" 8 214 257
+)
+"ulib/ml/FStar_Constructive.ml" 8 214 239 "ulib/ml/FStar_Constructive.ml" 8 214 251
+type(
+  ('a, 'b) cand
+)
+"ulib/ml/FStar_Constructive.ml" 8 214 255 "ulib/ml/FStar_Constructive.ml" 8 214 257
+type(
+  'b
+)
+ident(
+  int_ref h2 "ulib/ml/FStar_Constructive.ml" 8 214 248 "ulib/ml/FStar_Constructive.ml" 8 214 250
+)
+"ulib/ml/FStar_Constructive.ml" 8 214 216 "ulib/ml/FStar_Constructive.ml" 8 214 257
+type(
+  'b
+)
+"ulib/ml/FStar_Constructive.ml" 12 319 323 "ulib/ml/FStar_Constructive.ml" 12 319 337
+type(
+  ('a, 'b) cor -> bool
+)
+ident(
+  def uu___is_IntroL "ulib/ml/FStar_Constructive.ml" 14 413 413 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 12 319 338 "ulib/ml/FStar_Constructive.ml" 12 319 347
+type(
+  ('a, 'b) cor
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 13 350 352 "ulib/ml/FStar_Constructive.ml" 13 350 412
+)
+"ulib/ml/FStar_Constructive.ml" 13 350 358 "ulib/ml/FStar_Constructive.ml" 13 350 367
+type(
+  ('a, 'b) cor
+)
+ident(
+  int_ref projectee "ulib/ml/FStar_Constructive.ml" 12 319 338 "ulib/ml/FStar_Constructive.ml" 12 319 347
+)
+"ulib/ml/FStar_Constructive.ml" 13 350 382 "ulib/ml/FStar_Constructive.ml" 13 350 383
+type(
+  'a
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 13 350 387 "ulib/ml/FStar_Constructive.ml" 13 350 391
+)
+"ulib/ml/FStar_Constructive.ml" 13 350 375 "ulib/ml/FStar_Constructive.ml" 13 350 383
+type(
+  ('a, 'b) cor
+)
+"ulib/ml/FStar_Constructive.ml" 13 350 387 "ulib/ml/FStar_Constructive.ml" 13 350 391
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 13 350 394 "ulib/ml/FStar_Constructive.ml" 13 350 403
+type(
+  ('a, 'b) cor
+)
+ident(
+  def uu____104 "ulib/ml/FStar_Constructive.ml" 13 350 407 "ulib/ml/FStar_Constructive.ml" 13 350 412
+)
+"ulib/ml/FStar_Constructive.ml" 13 350 407 "ulib/ml/FStar_Constructive.ml" 13 350 412
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 13 350 352 "ulib/ml/FStar_Constructive.ml" 13 350 412
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 14 413 417 "ulib/ml/FStar_Constructive.ml" 14 413 440
+type(
+  ('a, 'b) cor -> 'a
+)
+ident(
+  def __proj__IntroL__item__h "ulib/ml/FStar_Constructive.ml" 15 490 490 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 14 413 441 "ulib/ml/FStar_Constructive.ml" 14 413 450
+type(
+  ('a, 'b) cor
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 14 413 453 "ulib/ml/FStar_Constructive.ml" 14 413 489
+)
+"ulib/ml/FStar_Constructive.ml" 14 413 459 "ulib/ml/FStar_Constructive.ml" 14 413 468
+type(
+  ('a, 'b) cor
+)
+ident(
+  int_ref projectee "ulib/ml/FStar_Constructive.ml" 14 413 441 "ulib/ml/FStar_Constructive.ml" 14 413 450
+)
+"ulib/ml/FStar_Constructive.ml" 14 413 483 "ulib/ml/FStar_Constructive.ml" 14 413 484
+type(
+  'a
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 14 413 488 "ulib/ml/FStar_Constructive.ml" 14 413 489
+)
+"ulib/ml/FStar_Constructive.ml" 14 413 476 "ulib/ml/FStar_Constructive.ml" 14 413 484
+type(
+  ('a, 'b) cor
+)
+"ulib/ml/FStar_Constructive.ml" 14 413 488 "ulib/ml/FStar_Constructive.ml" 14 413 489
+type(
+  'a
+)
+ident(
+  int_ref h "ulib/ml/FStar_Constructive.ml" 14 413 483 "ulib/ml/FStar_Constructive.ml" 14 413 484
+)
+"ulib/ml/FStar_Constructive.ml" 14 413 453 "ulib/ml/FStar_Constructive.ml" 14 413 489
+type(
+  'a
+)
+"ulib/ml/FStar_Constructive.ml" 15 490 494 "ulib/ml/FStar_Constructive.ml" 15 490 508
+type(
+  ('a, 'b) cor -> bool
+)
+ident(
+  def uu___is_IntroR "ulib/ml/FStar_Constructive.ml" 17 584 584 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 15 490 509 "ulib/ml/FStar_Constructive.ml" 15 490 518
+type(
+  ('a, 'b) cor
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 16 521 523 "ulib/ml/FStar_Constructive.ml" 16 521 583
+)
+"ulib/ml/FStar_Constructive.ml" 16 521 529 "ulib/ml/FStar_Constructive.ml" 16 521 538
+type(
+  ('a, 'b) cor
+)
+ident(
+  int_ref projectee "ulib/ml/FStar_Constructive.ml" 15 490 509 "ulib/ml/FStar_Constructive.ml" 15 490 518
+)
+"ulib/ml/FStar_Constructive.ml" 16 521 553 "ulib/ml/FStar_Constructive.ml" 16 521 554
+type(
+  'b
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 16 521 558 "ulib/ml/FStar_Constructive.ml" 16 521 562
+)
+"ulib/ml/FStar_Constructive.ml" 16 521 546 "ulib/ml/FStar_Constructive.ml" 16 521 554
+type(
+  ('a, 'b) cor
+)
+"ulib/ml/FStar_Constructive.ml" 16 521 558 "ulib/ml/FStar_Constructive.ml" 16 521 562
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 16 521 565 "ulib/ml/FStar_Constructive.ml" 16 521 574
+type(
+  ('a, 'b) cor
+)
+ident(
+  def uu____148 "ulib/ml/FStar_Constructive.ml" 16 521 578 "ulib/ml/FStar_Constructive.ml" 16 521 583
+)
+"ulib/ml/FStar_Constructive.ml" 16 521 578 "ulib/ml/FStar_Constructive.ml" 16 521 583
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 16 521 523 "ulib/ml/FStar_Constructive.ml" 16 521 583
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 17 584 588 "ulib/ml/FStar_Constructive.ml" 17 584 611
+type(
+  ('a, 'b) cor -> 'b
+)
+ident(
+  def __proj__IntroR__item__h "ulib/ml/FStar_Constructive.ml" 18 661 661 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 17 584 612 "ulib/ml/FStar_Constructive.ml" 17 584 621
+type(
+  ('a, 'b) cor
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 17 584 624 "ulib/ml/FStar_Constructive.ml" 17 584 660
+)
+"ulib/ml/FStar_Constructive.ml" 17 584 630 "ulib/ml/FStar_Constructive.ml" 17 584 639
+type(
+  ('a, 'b) cor
+)
+ident(
+  int_ref projectee "ulib/ml/FStar_Constructive.ml" 17 584 612 "ulib/ml/FStar_Constructive.ml" 17 584 621
+)
+"ulib/ml/FStar_Constructive.ml" 17 584 654 "ulib/ml/FStar_Constructive.ml" 17 584 655
+type(
+  'b
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 17 584 659 "ulib/ml/FStar_Constructive.ml" 17 584 660
+)
+"ulib/ml/FStar_Constructive.ml" 17 584 647 "ulib/ml/FStar_Constructive.ml" 17 584 655
+type(
+  ('a, 'b) cor
+)
+"ulib/ml/FStar_Constructive.ml" 17 584 659 "ulib/ml/FStar_Constructive.ml" 17 584 660
+type(
+  'b
+)
+ident(
+  int_ref h "ulib/ml/FStar_Constructive.ml" 17 584 654 "ulib/ml/FStar_Constructive.ml" 17 584 655
+)
+"ulib/ml/FStar_Constructive.ml" 17 584 624 "ulib/ml/FStar_Constructive.ml" 17 584 660
+type(
+  'b
+)
+"ulib/ml/FStar_Constructive.ml" 22 802 806 "ulib/ml/FStar_Constructive.ml" 22 802 821
+type(
+  'a -> bool
+)
+ident(
+  def uu___is_ExIntro "ulib/ml/FStar_Constructive.ml" 23 839 839 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 22 802 822 "ulib/ml/FStar_Constructive.ml" 22 802 831
+type(
+  'a
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 22 802 834 "ulib/ml/FStar_Constructive.ml" 22 802 838
+)
+"ulib/ml/FStar_Constructive.ml" 22 802 834 "ulib/ml/FStar_Constructive.ml" 22 802 838
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 23 839 843 "ulib/ml/FStar_Constructive.ml" 23 839 867
+type(
+  ('a, 'b) cexists -> 'a
+)
+ident(
+  def __proj__ExIntro__item__x "ulib/ml/FStar_Constructive.ml" 25 924 924 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 23 839 868 "ulib/ml/FStar_Constructive.ml" 23 839 877
+type(
+  ('a, 'b) cexists
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 24 880 882 "ulib/ml/FStar_Constructive.ml" 24 880 923
+)
+"ulib/ml/FStar_Constructive.ml" 24 880 888 "ulib/ml/FStar_Constructive.ml" 24 880 897
+type(
+  ('a, 'b) cexists
+)
+ident(
+  int_ref projectee "ulib/ml/FStar_Constructive.ml" 23 839 868 "ulib/ml/FStar_Constructive.ml" 23 839 877
+)
+"ulib/ml/FStar_Constructive.ml" 24 880 914 "ulib/ml/FStar_Constructive.ml" 24 880 915
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 24 880 922 "ulib/ml/FStar_Constructive.ml" 24 880 923
+)
+"ulib/ml/FStar_Constructive.ml" 24 880 916 "ulib/ml/FStar_Constructive.ml" 24 880 917
+type(
+  'b
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 24 880 922 "ulib/ml/FStar_Constructive.ml" 24 880 923
+)
+"ulib/ml/FStar_Constructive.ml" 24 880 905 "ulib/ml/FStar_Constructive.ml" 24 880 918
+type(
+  ('a, 'b) cexists
+)
+"ulib/ml/FStar_Constructive.ml" 24 880 922 "ulib/ml/FStar_Constructive.ml" 24 880 923
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_Constructive.ml" 24 880 914 "ulib/ml/FStar_Constructive.ml" 24 880 915
+)
+"ulib/ml/FStar_Constructive.ml" 24 880 882 "ulib/ml/FStar_Constructive.ml" 24 880 923
+type(
+  'a
+)
+"ulib/ml/FStar_Constructive.ml" 25 924 928 "ulib/ml/FStar_Constructive.ml" 25 924 952
+type(
+  ('a, 'b) cexists -> 'b
+)
+ident(
+  def __proj__ExIntro__item__h "ulib/ml/FStar_Constructive.ml" 27 1009 1009 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 25 924 953 "ulib/ml/FStar_Constructive.ml" 25 924 962
+type(
+  ('a, 'b) cexists
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 26 965 967 "ulib/ml/FStar_Constructive.ml" 26 965 1008
+)
+"ulib/ml/FStar_Constructive.ml" 26 965 973 "ulib/ml/FStar_Constructive.ml" 26 965 982
+type(
+  ('a, 'b) cexists
+)
+ident(
+  int_ref projectee "ulib/ml/FStar_Constructive.ml" 25 924 953 "ulib/ml/FStar_Constructive.ml" 25 924 962
+)
+"ulib/ml/FStar_Constructive.ml" 26 965 999 "ulib/ml/FStar_Constructive.ml" 26 965 1000
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 26 965 1007 "ulib/ml/FStar_Constructive.ml" 26 965 1008
+)
+"ulib/ml/FStar_Constructive.ml" 26 965 1001 "ulib/ml/FStar_Constructive.ml" 26 965 1002
+type(
+  'b
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 26 965 1007 "ulib/ml/FStar_Constructive.ml" 26 965 1008
+)
+"ulib/ml/FStar_Constructive.ml" 26 965 990 "ulib/ml/FStar_Constructive.ml" 26 965 1003
+type(
+  ('a, 'b) cexists
+)
+"ulib/ml/FStar_Constructive.ml" 26 965 1007 "ulib/ml/FStar_Constructive.ml" 26 965 1008
+type(
+  'b
+)
+ident(
+  int_ref h "ulib/ml/FStar_Constructive.ml" 26 965 1001 "ulib/ml/FStar_Constructive.ml" 26 965 1002
+)
+"ulib/ml/FStar_Constructive.ml" 26 965 967 "ulib/ml/FStar_Constructive.ml" 26 965 1008
+type(
+  'b
+)
+"ulib/ml/FStar_Constructive.ml" 29 1048 1052 "ulib/ml/FStar_Constructive.ml" 29 1048 1064
+type(
+  'a -> 'b -> 'c -> bool
+)
+ident(
+  def uu___is_Refl "ulib/ml/FStar_Constructive.ml" 30 1094 1094 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 29 1048 1065 "ulib/ml/FStar_Constructive.ml" 29 1048 1066
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 29 1048 1067 "ulib/ml/FStar_Constructive.ml" 29 1048 1093
+)
+"ulib/ml/FStar_Constructive.ml" 29 1048 1067 "ulib/ml/FStar_Constructive.ml" 29 1048 1076
+type(
+  'b
+)
+ident(
+  def uu____306 "ulib/ml/FStar_Constructive.ml" 29 1048 1077 "ulib/ml/FStar_Constructive.ml" 29 1048 1093
+)
+"ulib/ml/FStar_Constructive.ml" 29 1048 1077 "ulib/ml/FStar_Constructive.ml" 29 1048 1086
+type(
+  'c
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 29 1048 1089 "ulib/ml/FStar_Constructive.ml" 29 1048 1093
+)
+"ulib/ml/FStar_Constructive.ml" 29 1048 1089 "ulib/ml/FStar_Constructive.ml" 29 1048 1093
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 32 1138 1142 "ulib/ml/FStar_Constructive.ml" 32 1138 1158
+type(
+  'a -> bool
+)
+ident(
+  def uu___is_ReflType "ulib/ml/FStar_Constructive.ml" 33 1176 1176 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 32 1138 1159 "ulib/ml/FStar_Constructive.ml" 32 1138 1168
+type(
+  'a
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 32 1138 1171 "ulib/ml/FStar_Constructive.ml" 32 1138 1175
+)
+"ulib/ml/FStar_Constructive.ml" 32 1138 1171 "ulib/ml/FStar_Constructive.ml" 32 1138 1175
+type(
+  bool
+)
+"ulib/ml/FStar_Constructive.ml" 33 1176 1180 "ulib/ml/FStar_Constructive.ml" 33 1176 1186
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> 'c
+)
+ident(
+  def eq_ind "ulib/ml/FStar_Constructive.ml" 34 1209 1209 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 33 1176 1187 "ulib/ml/FStar_Constructive.ml" 33 1176 1188
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 33 1176 1189 "ulib/ml/FStar_Constructive.ml" 33 1176 1208
+)
+"ulib/ml/FStar_Constructive.ml" 33 1176 1189 "ulib/ml/FStar_Constructive.ml" 33 1176 1190
+type(
+  'b
+)
+ident(
+  def p "ulib/ml/FStar_Constructive.ml" 33 1176 1191 "ulib/ml/FStar_Constructive.ml" 33 1176 1208
+)
+"ulib/ml/FStar_Constructive.ml" 33 1176 1191 "ulib/ml/FStar_Constructive.ml" 33 1176 1192
+type(
+  'c
+)
+ident(
+  def f "ulib/ml/FStar_Constructive.ml" 33 1176 1193 "ulib/ml/FStar_Constructive.ml" 33 1176 1208
+)
+"ulib/ml/FStar_Constructive.ml" 33 1176 1193 "ulib/ml/FStar_Constructive.ml" 33 1176 1194
+type(
+  'd
+)
+ident(
+  def y "ulib/ml/FStar_Constructive.ml" 33 1176 1195 "ulib/ml/FStar_Constructive.ml" 33 1176 1208
+)
+"ulib/ml/FStar_Constructive.ml" 33 1176 1195 "ulib/ml/FStar_Constructive.ml" 33 1176 1204
+type(
+  'e
+)
+ident(
+  def uu____369 "ulib/ml/FStar_Constructive.ml" 33 1176 1207 "ulib/ml/FStar_Constructive.ml" 33 1176 1208
+)
+"ulib/ml/FStar_Constructive.ml" 33 1176 1207 "ulib/ml/FStar_Constructive.ml" 33 1176 1208
+type(
+  'c
+)
+ident(
+  int_ref f "ulib/ml/FStar_Constructive.ml" 33 1176 1191 "ulib/ml/FStar_Constructive.ml" 33 1176 1192
+)
+"ulib/ml/FStar_Constructive.ml" 34 1209 1213 "ulib/ml/FStar_Constructive.ml" 34 1209 1219
+type(
+  'a -> 'b -> 'c -> unit
+)
+ident(
+  def ceq_eq "ulib/ml/FStar_Constructive.ml" 35 1231 1231 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 34 1209 1220 "ulib/ml/FStar_Constructive.ml" 34 1209 1221
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 34 1209 1222 "ulib/ml/FStar_Constructive.ml" 34 1209 1230
+)
+"ulib/ml/FStar_Constructive.ml" 34 1209 1222 "ulib/ml/FStar_Constructive.ml" 34 1209 1223
+type(
+  'b
+)
+ident(
+  def y "ulib/ml/FStar_Constructive.ml" 34 1209 1224 "ulib/ml/FStar_Constructive.ml" 34 1209 1230
+)
+"ulib/ml/FStar_Constructive.ml" 34 1209 1224 "ulib/ml/FStar_Constructive.ml" 34 1209 1225
+type(
+  'c
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 34 1209 1228 "ulib/ml/FStar_Constructive.ml" 34 1209 1230
+)
+"ulib/ml/FStar_Constructive.ml" 34 1209 1228 "ulib/ml/FStar_Constructive.ml" 34 1209 1230
+type(
+  unit
+)
+"ulib/ml/FStar_Constructive.ml" 35 1231 1235 "ulib/ml/FStar_Constructive.ml" 35 1231 1249
+type(
+  'a -> 'b -> 'c -> 'd -> 'e
+)
+ident(
+  def ceq_congruence "ulib/ml/FStar_Constructive.ml" 36 1273 1273 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 35 1231 1250 "ulib/ml/FStar_Constructive.ml" 35 1231 1251
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 35 1231 1252 "ulib/ml/FStar_Constructive.ml" 35 1231 1272
+)
+"ulib/ml/FStar_Constructive.ml" 35 1231 1252 "ulib/ml/FStar_Constructive.ml" 35 1231 1253
+type(
+  'b
+)
+ident(
+  def y "ulib/ml/FStar_Constructive.ml" 35 1231 1254 "ulib/ml/FStar_Constructive.ml" 35 1231 1272
+)
+"ulib/ml/FStar_Constructive.ml" 35 1231 1254 "ulib/ml/FStar_Constructive.ml" 35 1231 1255
+type(
+  'c
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 35 1231 1256 "ulib/ml/FStar_Constructive.ml" 35 1231 1272
+)
+"ulib/ml/FStar_Constructive.ml" 35 1231 1256 "ulib/ml/FStar_Constructive.ml" 35 1231 1257
+type(
+  'd
+)
+ident(
+  def f "ulib/ml/FStar_Constructive.ml" 35 1231 1260 "ulib/ml/FStar_Constructive.ml" 35 1231 1272
+)
+"ulib/ml/FStar_Constructive.ml" 35 1231 1260 "ulib/ml/FStar_Constructive.ml" 35 1231 1269
+type(
+  unit -> 'e
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Constructive.ml" 35 1231 1270 "ulib/ml/FStar_Constructive.ml" 35 1231 1272
+type(
+  unit
+)
+"ulib/ml/FStar_Constructive.ml" 35 1231 1260 "ulib/ml/FStar_Constructive.ml" 35 1231 1272
+type(
+  'e
+)
+"ulib/ml/FStar_Constructive.ml" 36 1273 1277 "ulib/ml/FStar_Constructive.ml" 36 1273 1285
+type(
+  'a -> 'b -> 'c -> ('d, 'e, 'f) ceq
+)
+ident(
+  def ceq_symm "ulib/ml/FStar_Constructive.ml" 37 1299 1299 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 36 1273 1286 "ulib/ml/FStar_Constructive.ml" 36 1273 1287
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 36 1273 1288 "ulib/ml/FStar_Constructive.ml" 36 1273 1298
+)
+"ulib/ml/FStar_Constructive.ml" 36 1273 1288 "ulib/ml/FStar_Constructive.ml" 36 1273 1289
+type(
+  'b
+)
+ident(
+  def y "ulib/ml/FStar_Constructive.ml" 36 1273 1290 "ulib/ml/FStar_Constructive.ml" 36 1273 1298
+)
+"ulib/ml/FStar_Constructive.ml" 36 1273 1290 "ulib/ml/FStar_Constructive.ml" 36 1273 1291
+type(
+  'c
+)
+ident(
+  def h "ulib/ml/FStar_Constructive.ml" 36 1273 1294 "ulib/ml/FStar_Constructive.ml" 36 1273 1298
+)
+"ulib/ml/FStar_Constructive.ml" 36 1273 1294 "ulib/ml/FStar_Constructive.ml" 36 1273 1298
+type(
+  ('d, 'e, 'f) ceq
+)
+"ulib/ml/FStar_Constructive.ml" 37 1299 1303 "ulib/ml/FStar_Constructive.ml" 37 1299 1312
+type(
+  'a -> 'b -> 'c -> 'd -> 'e -> ('f, 'g, 'h) ceq
+)
+ident(
+  def ceq_trans "ulib/ml/FStar_Constructive.ml" 38 1334 1334 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 37 1299 1313 "ulib/ml/FStar_Constructive.ml" 37 1299 1314
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 37 1299 1315 "ulib/ml/FStar_Constructive.ml" 37 1299 1333
+)
+"ulib/ml/FStar_Constructive.ml" 37 1299 1315 "ulib/ml/FStar_Constructive.ml" 37 1299 1316
+type(
+  'b
+)
+ident(
+  def y "ulib/ml/FStar_Constructive.ml" 37 1299 1317 "ulib/ml/FStar_Constructive.ml" 37 1299 1333
+)
+"ulib/ml/FStar_Constructive.ml" 37 1299 1317 "ulib/ml/FStar_Constructive.ml" 37 1299 1318
+type(
+  'c
+)
+ident(
+  def z "ulib/ml/FStar_Constructive.ml" 37 1299 1319 "ulib/ml/FStar_Constructive.ml" 37 1299 1333
+)
+"ulib/ml/FStar_Constructive.ml" 37 1299 1319 "ulib/ml/FStar_Constructive.ml" 37 1299 1322
+type(
+  'd
+)
+ident(
+  def hxy "ulib/ml/FStar_Constructive.ml" 37 1299 1323 "ulib/ml/FStar_Constructive.ml" 37 1299 1333
+)
+"ulib/ml/FStar_Constructive.ml" 37 1299 1323 "ulib/ml/FStar_Constructive.ml" 37 1299 1326
+type(
+  'e
+)
+ident(
+  def hyz "ulib/ml/FStar_Constructive.ml" 37 1299 1329 "ulib/ml/FStar_Constructive.ml" 37 1299 1333
+)
+"ulib/ml/FStar_Constructive.ml" 37 1299 1329 "ulib/ml/FStar_Constructive.ml" 37 1299 1333
+type(
+  ('f, 'g, 'h) ceq
+)
+"ulib/ml/FStar_Constructive.ml" 40 1353 1357 "ulib/ml/FStar_Constructive.ml" 40 1353 1366
+type(
+  ctrue -> Prims.bool
+)
+ident(
+  def uu___is_I "ulib/ml/FStar_Constructive.ml" 41 1413 1413 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 40 1353 1394 "ulib/ml/FStar_Constructive.ml" 40 1353 1403
+type(
+  ctrue
+)
+ident(
+  def projectee "ulib/ml/FStar_Constructive.ml" 40 1353 1408 "ulib/ml/FStar_Constructive.ml" 40 1353 1412
+)
+"ulib/ml/FStar_Constructive.ml" 40 1353 1408 "ulib/ml/FStar_Constructive.ml" 40 1353 1412
+type(
+  Prims.bool
+)
+"ulib/ml/FStar_Constructive.ml" 40 1353 1390 "ulib/ml/FStar_Constructive.ml" 40 1353 1412
+type(
+  ctrue -> Prims.bool
+)
+type(
+  ctrue -> Prims.bool
+)
+"ulib/ml/FStar_Constructive.ml" 42 1425 1429 "ulib/ml/FStar_Constructive.ml" 42 1425 1440
+type(
+  'a
+)
+ident(
+  def cfalse_elim "ulib/ml/FStar_Constructive.ml" 43 1468 1468 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 42 1425 1443 "ulib/ml/FStar_Constructive.ml" 42 1425 1452
+type(
+  ('_b -> unit) -> 'a
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/FStar_Constructive.ml" 42 1425 1458 "ulib/ml/FStar_Constructive.ml" 42 1425 1459
+type(
+  '_b
+)
+ident(
+  def f "ulib/ml/FStar_Constructive.ml" 42 1425 1464 "ulib/ml/FStar_Constructive.ml" 42 1425 1466
+)
+"ulib/ml/FStar_Constructive.ml" 42 1425 1464 "ulib/ml/FStar_Constructive.ml" 42 1425 1466
+type(
+  unit
+)
+"ulib/ml/FStar_Constructive.ml" 42 1425 1453 "ulib/ml/FStar_Constructive.ml" 42 1425 1467
+type(
+  '_b -> unit
+)
+"ulib/ml/FStar_Constructive.ml" 42 1425 1443 "ulib/ml/FStar_Constructive.ml" 42 1425 1467
+type(
+  'a
+)
+"ulib/ml/FStar_Constructive.ml" 43 1468 1472 "ulib/ml/FStar_Constructive.ml" 43 1468 1483
+type(
+  'a -> 'b
+)
+ident(
+  def false_elim2 "ulib/ml/FStar_Constructive.ml" 44 1519 1519 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 43 1468 1484 "ulib/ml/FStar_Constructive.ml" 43 1468 1485
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Constructive.ml" 43 1468 1488 "ulib/ml/FStar_Constructive.ml" 43 1468 1518
+)
+"ulib/ml/FStar_Constructive.ml" 43 1468 1488 "ulib/ml/FStar_Constructive.ml" 43 1468 1515
+type(
+  Prims.unit -> 'b
+)
+ident(
+  ext_ref FStar_Pervasives.false_elim
+)
+"ulib/ml/FStar_Constructive.ml" 43 1468 1516 "ulib/ml/FStar_Constructive.ml" 43 1468 1518
+type(
+  Prims.unit
+)
+"ulib/ml/FStar_Constructive.ml" 43 1468 1488 "ulib/ml/FStar_Constructive.ml" 43 1468 1518
+call(
+  tail
+)
+type(
+  'b
+)
+"ulib/ml/FStar_Constructive.ml" 44 1519 1523 "ulib/ml/FStar_Constructive.ml" 44 1519 1533
+type(
+  'a -> 'b
+)
+ident(
+  def false_elim "ulib/ml/FStar_Constructive.ml" 45 1569 1569 "ulib/ml/FStar_Constructive.ml" 1 0 -1
+)
+"ulib/ml/FStar_Constructive.ml" 44 1519 1534 "ulib/ml/FStar_Constructive.ml" 44 1519 1535
+type(
+  'a
+)
+ident(
+  def u "ulib/ml/FStar_Constructive.ml" 44 1519 1538 "ulib/ml/FStar_Constructive.ml" 44 1519 1568
+)
+"ulib/ml/FStar_Constructive.ml" 44 1519 1538 "ulib/ml/FStar_Constructive.ml" 44 1519 1565
+type(
+  Prims.unit -> 'b
+)
+ident(
+  ext_ref FStar_Pervasives.false_elim
+)
+"ulib/ml/FStar_Constructive.ml" 44 1519 1566 "ulib/ml/FStar_Constructive.ml" 44 1519 1568
+type(
+  Prims.unit
+)
+"ulib/ml/FStar_Constructive.ml" 44 1519 1538 "ulib/ml/FStar_Constructive.ml" 44 1519 1568
+call(
+  tail
+)
+type(
+  'b
+)

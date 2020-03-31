@@ -1,0 +1,5716 @@
+"ulib/ml/prims.ml" 1 0 24 "ulib/ml/prims.ml" 1 0 34
+type(
+  Format.formatter -> Z.t -> unit
+)
+ident(
+  ext_ref Z.pp_print
+)
+"ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 52
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  int -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 52
+)
+type(
+  Format.formatter -> int -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_int "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 52
+)
+type(
+  ((Format.formatter -> int -> Ppx_deriving_runtime.unit) ->
+   int -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> int -> Ppx_deriving_runtime.unit) ->
+   int -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> int -> Ppx_deriving_runtime.unit) ->
+  int -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  int
+)
+ident(
+  def x "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 52
+)
+type(
+  Format.formatter -> int -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> int -> Ppx_deriving_runtime.unit
+)
+type(
+  int -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 52
+)
+type(
+  Format.formatter -> int -> Ppx_deriving_runtime.unit
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> int -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref __0 "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 52
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 52
+)
+type(
+  unit -> Format.formatter -> Z.t -> unit
+)
+type(
+  Format.formatter -> Z.t -> unit
+)
+type(
+  Format.formatter -> ('a, Format.formatter, unit) format -> 'a
+)
+ident(
+  ext_ref Format.fprintf
+)
+type(
+  Format.formatter -> ('a, Format.formatter, unit) format -> 'a
+)
+ident(
+  def fprintf "ulib/ml/prims.ml" 1 0 24 "ulib/ml/prims.ml" 1 0 34
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> Z.t -> unit
+)
+ident(
+  def __0 "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 52
+)
+type(
+  int -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_int "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Format.formatter -> int -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_int "ulib/ml/prims.ml" 1 0 0 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 2 53 57 "ulib/ml/prims.ml" 2 53 63
+type(
+  int -> Z.t
+)
+ident(
+  def of_int "ulib/ml/prims.ml" 3 75 75 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 2 53 66 "ulib/ml/prims.ml" 2 53 74
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Z.of_int
+)
+"ulib/ml/prims.ml" 3 75 79 "ulib/ml/prims.ml" 3 75 87
+type(
+  Z.t
+)
+ident(
+  def int_zero "ulib/ml/prims.ml" 4 97 97 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 3 75 90 "ulib/ml/prims.ml" 3 75 96
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.zero
+)
+"ulib/ml/prims.ml" 4 97 101 "ulib/ml/prims.ml" 4 97 108
+type(
+  Z.t
+)
+ident(
+  def int_one "ulib/ml/prims.ml" 5 117 117 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 4 97 111 "ulib/ml/prims.ml" 4 97 116
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.one
+)
+"ulib/ml/prims.ml" 5 117 121 "ulib/ml/prims.ml" 5 117 130
+type(
+  string -> Z.t
+)
+ident(
+  def parse_int "ulib/ml/prims.ml" 6 145 145 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 5 117 133 "ulib/ml/prims.ml" 5 117 144
+type(
+  string -> Z.t
+)
+ident(
+  ext_ref Z.of_string
+)
+"ulib/ml/prims.ml" 6 145 149 "ulib/ml/prims.ml" 6 145 158
+type(
+  Z.t -> string
+)
+ident(
+  def to_string "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 6 145 161 "ulib/ml/prims.ml" 6 145 172
+type(
+  Z.t -> string
+)
+ident(
+  ext_ref Z.to_string
+)
+"ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 8 174 211
+type(
+  Yojson.Safe.json -> tmp Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  (tmp, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  tmp
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 8 174 211
+)
+type(
+  (tmp, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  tmp
+)
+ident(
+  def x "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 8 174 211
+)
+type(
+  tmp -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Ppx_deriving_runtime.string
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 8 174 211
+)
+type(
+  Ppx_deriving_runtime.string
+)
+ident(
+  def x "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 8 174 211
+)
+type(
+  Yojson.Safe.json -> tmp Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def tmp_of_yojson "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  tmp -> Yojson.Safe.json
+)
+ident(
+  def tmp_to_yojson "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 9 212 216 "ulib/ml/prims.ml" 9 212 229
+type(
+  Z.t -> Yojson.Safe.json
+)
+ident(
+  def int_to_yojson "ulib/ml/prims.ml" 10 262 262 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 9 212 230 "ulib/ml/prims.ml" 9 212 231
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 9 212 234 "ulib/ml/prims.ml" 9 212 261
+)
+"ulib/ml/prims.ml" 9 212 234 "ulib/ml/prims.ml" 9 212 247
+type(
+  tmp -> Yojson.Safe.json
+)
+ident(
+  int_ref tmp_to_yojson "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 8 174 211
+)
+"ulib/ml/prims.ml" 9 212 249 "ulib/ml/prims.ml" 9 212 258
+type(
+  Z.t -> tmp
+)
+ident(
+  int_ref to_string "ulib/ml/prims.ml" 6 145 149 "ulib/ml/prims.ml" 6 145 158
+)
+"ulib/ml/prims.ml" 9 212 259 "ulib/ml/prims.ml" 9 212 260
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 9 212 230 "ulib/ml/prims.ml" 9 212 231
+)
+"ulib/ml/prims.ml" 9 212 248 "ulib/ml/prims.ml" 9 212 261
+call(
+  stack
+)
+type(
+  tmp
+)
+"ulib/ml/prims.ml" 9 212 234 "ulib/ml/prims.ml" 9 212 261
+call(
+  tail
+)
+type(
+  Yojson.Safe.json
+)
+"ulib/ml/prims.ml" 10 262 266 "ulib/ml/prims.ml" 10 262 279
+type(
+  Yojson.Safe.json -> (Z.t, string) result
+)
+ident(
+  def int_of_yojson "ulib/ml/prims.ml" 15 366 366 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 10 262 280 "ulib/ml/prims.ml" 10 262 281
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "ulib/ml/prims.ml" 11 284 286 "ulib/ml/prims.ml" 13 342 364
+)
+"ulib/ml/prims.ml" 11 284 292 "ulib/ml/prims.ml" 11 284 305
+type(
+  Yojson.Safe.json -> tmp Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref tmp_of_yojson "ulib/ml/prims.ml" 8 174 174 "ulib/ml/prims.ml" 8 174 211
+)
+"ulib/ml/prims.ml" 11 284 306 "ulib/ml/prims.ml" 11 284 307
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 10 262 280 "ulib/ml/prims.ml" 10 262 281
+)
+"ulib/ml/prims.ml" 11 284 292 "ulib/ml/prims.ml" 11 284 307
+call(
+  stack
+)
+type(
+  tmp Ppx_deriving_yojson_runtime.error_or
+)
+"ulib/ml/prims.ml" 12 313 320 "ulib/ml/prims.ml" 12 313 321
+type(
+  tmp
+)
+ident(
+  def x "ulib/ml/prims.ml" 12 313 325 "ulib/ml/prims.ml" 12 313 341
+)
+"ulib/ml/prims.ml" 12 313 317 "ulib/ml/prims.ml" 12 313 321
+type(
+  tmp Ppx_deriving_yojson_runtime.error_or
+)
+"ulib/ml/prims.ml" 12 313 329 "ulib/ml/prims.ml" 12 313 338
+type(
+  tmp -> Z.t
+)
+ident(
+  int_ref parse_int "ulib/ml/prims.ml" 5 117 121 "ulib/ml/prims.ml" 5 117 130
+)
+"ulib/ml/prims.ml" 12 313 339 "ulib/ml/prims.ml" 12 313 340
+type(
+  tmp
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 12 313 320 "ulib/ml/prims.ml" 12 313 321
+)
+"ulib/ml/prims.ml" 12 313 328 "ulib/ml/prims.ml" 12 313 341
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 12 313 325 "ulib/ml/prims.ml" 12 313 341
+type(
+  (Z.t, string) result
+)
+"ulib/ml/prims.ml" 13 342 352 "ulib/ml/prims.ml" 13 342 353
+type(
+  string
+)
+ident(
+  def x "ulib/ml/prims.ml" 13 342 357 "ulib/ml/prims.ml" 13 342 364
+)
+"ulib/ml/prims.ml" 13 342 346 "ulib/ml/prims.ml" 13 342 353
+type(
+  tmp Ppx_deriving_yojson_runtime.error_or
+)
+"ulib/ml/prims.ml" 13 342 363 "ulib/ml/prims.ml" 13 342 364
+type(
+  string
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 13 342 352 "ulib/ml/prims.ml" 13 342 353
+)
+"ulib/ml/prims.ml" 13 342 357 "ulib/ml/prims.ml" 13 342 364
+type(
+  (Z.t, string) result
+)
+"ulib/ml/prims.ml" 11 284 286 "ulib/ml/prims.ml" 13 342 364
+type(
+  (Z.t, string) result
+)
+"ulib/ml/prims.ml" 16 388 393 "ulib/ml/prims.ml" 16 388 396
+type(
+  attribute
+)
+ident(
+  def cps "ulib/ml/prims.ml" 17 415 415 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 16 388 412 "ulib/ml/prims.ml" 16 388 414
+type(
+  attribute
+)
+"ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  bool' -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  bool'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  Format.formatter -> bool' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_bool' "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  ((Format.formatter -> bool' -> Ppx_deriving_runtime.unit) ->
+   bool' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> bool' -> Ppx_deriving_runtime.unit) ->
+   bool' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> bool' -> Ppx_deriving_runtime.unit) ->
+  bool' -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  bool'
+)
+ident(
+  def x "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  Format.formatter -> bool' -> Ppx_deriving_runtime.unit
+)
+type(
+  bool' -> Ppx_deriving_runtime.unit
+)
+type(
+  (bool' -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  Format.formatter ->
+  (bool' -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format -> bool' -> Ppx_deriving_runtime.unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  bool' -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_bool' "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Format.formatter -> bool' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_bool' "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> bool' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  (bool', string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  bool'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  (bool', string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  bool'
+)
+ident(
+  def x "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  bool' -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Ppx_deriving_runtime.bool
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  Ppx_deriving_runtime.bool
+)
+ident(
+  def x "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  Yojson.Safe.json -> bool' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def bool'_of_yojson "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  bool' -> Yojson.Safe.json
+)
+ident(
+  def bool'_to_yojson "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  bool -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  bool
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  Format.formatter -> bool -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_bool "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  ((Format.formatter -> bool -> Ppx_deriving_runtime.unit) ->
+   bool -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> bool -> Ppx_deriving_runtime.unit) ->
+   bool -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> bool -> Ppx_deriving_runtime.unit) ->
+  bool -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  bool
+)
+ident(
+  def x "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  Format.formatter -> bool -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> bool -> Ppx_deriving_runtime.unit
+)
+type(
+  bool -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  Format.formatter -> bool -> Ppx_deriving_runtime.unit
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> bool -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref __0 "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  unit -> Format.formatter -> bool' -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> bool' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_bool' "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> bool' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def __0 "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  bool -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_bool "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Format.formatter -> bool -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_bool "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> bool Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  bool' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  Yojson.Safe.json -> bool' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref bool'_of_yojson "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  bool -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  bool
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  bool' -> Yojson.Safe.json
+)
+ident(
+  int_ref bool'_to_yojson "ulib/ml/prims.ml" 19 462 462 "ulib/ml/prims.ml" 20 480 504
+)
+type(
+  bool
+)
+ident(
+  def x "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 22 523 547
+)
+type(
+  Yojson.Safe.json -> bool Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def bool_of_yojson "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  bool -> Yojson.Safe.json
+)
+ident(
+  def bool_to_yojson "ulib/ml/prims.ml" 21 505 505 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 28 757 762 "ulib/ml/prims.ml" 28 757 771
+type(
+  c_True -> bool
+)
+ident(
+  def uu___is_T "ulib/ml/prims.ml" 29 815 815 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 28 757 796 "ulib/ml/prims.ml" 28 757 805
+type(
+  c_True
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 28 757 810 "ulib/ml/prims.ml" 28 757 814
+)
+"ulib/ml/prims.ml" 28 757 810 "ulib/ml/prims.ml" 28 757 814
+type(
+  bool
+)
+"ulib/ml/prims.ml" 28 757 792 "ulib/ml/prims.ml" 28 757 814
+type(
+  c_True -> bool
+)
+"ulib/ml/prims.ml" 36 971 975 "ulib/ml/prims.ml" 36 971 987
+type(
+  'Aa. 'Aa -> 'Aa -> ('Aa, unit, unit) equals -> bool
+)
+ident(
+  def uu___is_Refl "ulib/ml/prims.ml" 38 1095 1095 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 37 1043 1049 "ulib/ml/prims.ml" 37 1043 1050
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/prims.ml" 37 1043 1055 "ulib/ml/prims.ml" 37 1043 1094
+)
+"ulib/ml/prims.ml" 37 1043 1059 "ulib/ml/prims.ml" 37 1043 1067
+type(
+  'Aa
+)
+ident(
+  def uu____65 "ulib/ml/prims.ml" 37 1043 1072 "ulib/ml/prims.ml" 37 1043 1094
+)
+"ulib/ml/prims.ml" 37 1043 1076 "ulib/ml/prims.ml" 37 1043 1085
+type(
+  ('Aa, unit, unit) equals
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 37 1043 1090 "ulib/ml/prims.ml" 37 1043 1094
+)
+"ulib/ml/prims.ml" 37 1043 1090 "ulib/ml/prims.ml" 37 1043 1094
+type(
+  bool
+)
+"ulib/ml/prims.ml" 37 1043 1072 "ulib/ml/prims.ml" 37 1043 1094
+type(
+  ('Aa, unit, unit) equals -> bool
+)
+"ulib/ml/prims.ml" 37 1043 1055 "ulib/ml/prims.ml" 37 1043 1094
+type(
+  'Aa -> ('Aa, unit, unit) equals -> bool
+)
+"ulib/ml/prims.ml" 37 1043 1045 "ulib/ml/prims.ml" 37 1043 1094
+type(
+  'Aa -> 'Aa -> ('Aa, unit, unit) equals -> bool
+)
+"ulib/ml/prims.ml" 41 1179 1183 "ulib/ml/prims.ml" 41 1179 1196
+type(
+  'Aa. 'Aa -> unit -> Obj.t -> ('Aa, unit, Obj.t, unit) h_equals -> bool
+)
+ident(
+  def uu___is_HRefl "ulib/ml/prims.ml" 44 1335 1335 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 43 1270 1278 "ulib/ml/prims.ml" 43 1270 1279
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/prims.ml" 43 1270 1284 "ulib/ml/prims.ml" 43 1270 1334
+)
+"ulib/ml/prims.ml" 43 1270 1288 "ulib/ml/prims.ml" 43 1270 1289
+type(
+  unit
+)
+ident(
+  def b "ulib/ml/prims.ml" 43 1270 1294 "ulib/ml/prims.ml" 43 1270 1334
+)
+"ulib/ml/prims.ml" 43 1270 1298 "ulib/ml/prims.ml" 43 1270 1307
+type(
+  Obj.t
+)
+ident(
+  def uu____141 "ulib/ml/prims.ml" 43 1270 1312 "ulib/ml/prims.ml" 43 1270 1334
+)
+"ulib/ml/prims.ml" 43 1270 1316 "ulib/ml/prims.ml" 43 1270 1325
+type(
+  ('Aa, unit, Obj.t, unit) h_equals
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 43 1270 1330 "ulib/ml/prims.ml" 43 1270 1334
+)
+"ulib/ml/prims.ml" 43 1270 1330 "ulib/ml/prims.ml" 43 1270 1334
+type(
+  bool
+)
+"ulib/ml/prims.ml" 43 1270 1312 "ulib/ml/prims.ml" 43 1270 1334
+type(
+  ('Aa, unit, Obj.t, unit) h_equals -> bool
+)
+"ulib/ml/prims.ml" 43 1270 1294 "ulib/ml/prims.ml" 43 1270 1334
+type(
+  Obj.t -> ('Aa, unit, Obj.t, unit) h_equals -> bool
+)
+"ulib/ml/prims.ml" 43 1270 1284 "ulib/ml/prims.ml" 43 1270 1334
+type(
+  unit -> Obj.t -> ('Aa, unit, Obj.t, unit) h_equals -> bool
+)
+"ulib/ml/prims.ml" 43 1270 1274 "ulib/ml/prims.ml" 43 1270 1334
+type(
+  'Aa -> unit -> Obj.t -> ('Aa, unit, Obj.t, unit) h_equals -> bool
+)
+"ulib/ml/prims.ml" 49 1487 1491 "ulib/ml/prims.ml" 49 1487 1502
+type(
+  'Ap 'Aq. ('Ap, 'Aq) c_and -> bool
+)
+ident(
+  def uu___is_And "ulib/ml/prims.ml" 51 1566 1566 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 50 1541 1547 "ulib/ml/prims.ml" 50 1541 1556
+type(
+  ('Ap, 'Aq) c_and
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 50 1541 1561 "ulib/ml/prims.ml" 50 1541 1565
+)
+"ulib/ml/prims.ml" 50 1541 1561 "ulib/ml/prims.ml" 50 1541 1565
+type(
+  bool
+)
+"ulib/ml/prims.ml" 50 1541 1543 "ulib/ml/prims.ml" 50 1541 1565
+type(
+  ('Ap, 'Aq) c_and -> bool
+)
+"ulib/ml/prims.ml" 51 1566 1570 "ulib/ml/prims.ml" 51 1566 1591
+type(
+  'Ap 'Aq. ('Ap, 'Aq) c_and -> 'Ap
+)
+ident(
+  def __proj__And__item___0 "ulib/ml/prims.ml" 53 1690 1690 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 52 1629 1635 "ulib/ml/prims.ml" 52 1629 1644
+type(
+  ('Ap, 'Aq) c_and
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 52 1629 1649 "ulib/ml/prims.ml" 52 1629 1689
+)
+"ulib/ml/prims.ml" 52 1629 1655 "ulib/ml/prims.ml" 52 1629 1664
+type(
+  ('Ap, 'Aq) c_and
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 52 1629 1635 "ulib/ml/prims.ml" 52 1629 1644
+)
+"ulib/ml/prims.ml" 52 1629 1677 "ulib/ml/prims.ml" 52 1629 1679
+type(
+  'Ap
+)
+ident(
+  def _0 "ulib/ml/prims.ml" 52 1629 1687 "ulib/ml/prims.ml" 52 1629 1689
+)
+"ulib/ml/prims.ml" 52 1629 1680 "ulib/ml/prims.ml" 52 1629 1682
+type(
+  'Aq
+)
+ident(
+  def _1 "ulib/ml/prims.ml" 52 1629 1687 "ulib/ml/prims.ml" 52 1629 1689
+)
+"ulib/ml/prims.ml" 52 1629 1672 "ulib/ml/prims.ml" 52 1629 1683
+type(
+  ('Ap, 'Aq) c_and
+)
+"ulib/ml/prims.ml" 52 1629 1687 "ulib/ml/prims.ml" 52 1629 1689
+type(
+  'Ap
+)
+ident(
+  int_ref _0 "ulib/ml/prims.ml" 52 1629 1677 "ulib/ml/prims.ml" 52 1629 1679
+)
+"ulib/ml/prims.ml" 52 1629 1649 "ulib/ml/prims.ml" 52 1629 1689
+type(
+  'Ap
+)
+"ulib/ml/prims.ml" 52 1629 1631 "ulib/ml/prims.ml" 52 1629 1689
+type(
+  ('Ap, 'Aq) c_and -> 'Ap
+)
+"ulib/ml/prims.ml" 53 1690 1694 "ulib/ml/prims.ml" 53 1690 1715
+type(
+  'Ap 'Aq. ('Ap, 'Aq) c_and -> 'Aq
+)
+ident(
+  def __proj__And__item___1 "ulib/ml/prims.ml" 55 1814 1814 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 54 1753 1759 "ulib/ml/prims.ml" 54 1753 1768
+type(
+  ('Ap, 'Aq) c_and
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 54 1753 1773 "ulib/ml/prims.ml" 54 1753 1813
+)
+"ulib/ml/prims.ml" 54 1753 1779 "ulib/ml/prims.ml" 54 1753 1788
+type(
+  ('Ap, 'Aq) c_and
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 54 1753 1759 "ulib/ml/prims.ml" 54 1753 1768
+)
+"ulib/ml/prims.ml" 54 1753 1801 "ulib/ml/prims.ml" 54 1753 1803
+type(
+  'Ap
+)
+ident(
+  def _0 "ulib/ml/prims.ml" 54 1753 1811 "ulib/ml/prims.ml" 54 1753 1813
+)
+"ulib/ml/prims.ml" 54 1753 1804 "ulib/ml/prims.ml" 54 1753 1806
+type(
+  'Aq
+)
+ident(
+  def _1 "ulib/ml/prims.ml" 54 1753 1811 "ulib/ml/prims.ml" 54 1753 1813
+)
+"ulib/ml/prims.ml" 54 1753 1796 "ulib/ml/prims.ml" 54 1753 1807
+type(
+  ('Ap, 'Aq) c_and
+)
+"ulib/ml/prims.ml" 54 1753 1811 "ulib/ml/prims.ml" 54 1753 1813
+type(
+  'Aq
+)
+ident(
+  int_ref _1 "ulib/ml/prims.ml" 54 1753 1804 "ulib/ml/prims.ml" 54 1753 1806
+)
+"ulib/ml/prims.ml" 54 1753 1773 "ulib/ml/prims.ml" 54 1753 1813
+type(
+  'Aq
+)
+"ulib/ml/prims.ml" 54 1753 1755 "ulib/ml/prims.ml" 54 1753 1813
+type(
+  ('Ap, 'Aq) c_and -> 'Aq
+)
+"ulib/ml/prims.ml" 59 1897 1901 "ulib/ml/prims.ml" 59 1897 1913
+type(
+  'Ap 'Aq. ('Ap, 'Aq) c_or -> bool
+)
+ident(
+  def uu___is_Left "ulib/ml/prims.ml" 63 2036 2036 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 60 1951 1957 "ulib/ml/prims.ml" 60 1951 1966
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 61 1971 1975 "ulib/ml/prims.ml" 61 1971 2034
+)
+"ulib/ml/prims.ml" 61 1971 1981 "ulib/ml/prims.ml" 61 1971 1990
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 60 1951 1957 "ulib/ml/prims.ml" 60 1951 1966
+)
+"ulib/ml/prims.ml" 61 1971 2003 "ulib/ml/prims.ml" 61 1971 2005
+type(
+  'Ap
+)
+ident(
+  def _0 "ulib/ml/prims.ml" 61 1971 2009 "ulib/ml/prims.ml" 61 1971 2013
+)
+"ulib/ml/prims.ml" 61 1971 1998 "ulib/ml/prims.ml" 61 1971 2005
+type(
+  ('Ap, 'Aq) c_or
+)
+"ulib/ml/prims.ml" 61 1971 2009 "ulib/ml/prims.ml" 61 1971 2013
+type(
+  bool
+)
+"ulib/ml/prims.ml" 61 1971 2016 "ulib/ml/prims.ml" 61 1971 2025
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  def uu____344 "ulib/ml/prims.ml" 61 1971 2029 "ulib/ml/prims.ml" 61 1971 2034
+)
+"ulib/ml/prims.ml" 61 1971 2029 "ulib/ml/prims.ml" 61 1971 2034
+type(
+  bool
+)
+"ulib/ml/prims.ml" 61 1971 1975 "ulib/ml/prims.ml" 61 1971 2034
+type(
+  bool
+)
+"ulib/ml/prims.ml" 60 1951 1953 "ulib/ml/prims.ml" 61 1971 2034
+type(
+  ('Ap, 'Aq) c_or -> bool
+)
+"ulib/ml/prims.ml" 63 2036 2040 "ulib/ml/prims.ml" 63 2036 2062
+type(
+  'Ap 'Aq. ('Ap, 'Aq) c_or -> 'Ap
+)
+ident(
+  def __proj__Left__item___0 "ulib/ml/prims.ml" 65 2156 2156 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 64 2099 2105 "ulib/ml/prims.ml" 64 2099 2114
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 64 2099 2119 "ulib/ml/prims.ml" 64 2099 2155
+)
+"ulib/ml/prims.ml" 64 2099 2125 "ulib/ml/prims.ml" 64 2099 2134
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 64 2099 2105 "ulib/ml/prims.ml" 64 2099 2114
+)
+"ulib/ml/prims.ml" 64 2099 2147 "ulib/ml/prims.ml" 64 2099 2149
+type(
+  'Ap
+)
+ident(
+  def _0 "ulib/ml/prims.ml" 64 2099 2153 "ulib/ml/prims.ml" 64 2099 2155
+)
+"ulib/ml/prims.ml" 64 2099 2142 "ulib/ml/prims.ml" 64 2099 2149
+type(
+  ('Ap, 'Aq) c_or
+)
+"ulib/ml/prims.ml" 64 2099 2153 "ulib/ml/prims.ml" 64 2099 2155
+type(
+  'Ap
+)
+ident(
+  int_ref _0 "ulib/ml/prims.ml" 64 2099 2147 "ulib/ml/prims.ml" 64 2099 2149
+)
+"ulib/ml/prims.ml" 64 2099 2119 "ulib/ml/prims.ml" 64 2099 2155
+type(
+  'Ap
+)
+"ulib/ml/prims.ml" 64 2099 2101 "ulib/ml/prims.ml" 64 2099 2155
+type(
+  ('Ap, 'Aq) c_or -> 'Ap
+)
+"ulib/ml/prims.ml" 65 2156 2160 "ulib/ml/prims.ml" 65 2156 2173
+type(
+  'Ap 'Aq. ('Ap, 'Aq) c_or -> bool
+)
+ident(
+  def uu___is_Right "ulib/ml/prims.ml" 69 2297 2297 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 66 2211 2217 "ulib/ml/prims.ml" 66 2211 2226
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 67 2231 2235 "ulib/ml/prims.ml" 67 2231 2295
+)
+"ulib/ml/prims.ml" 67 2231 2241 "ulib/ml/prims.ml" 67 2231 2250
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 66 2211 2217 "ulib/ml/prims.ml" 66 2211 2226
+)
+"ulib/ml/prims.ml" 67 2231 2264 "ulib/ml/prims.ml" 67 2231 2266
+type(
+  'Aq
+)
+ident(
+  def _0 "ulib/ml/prims.ml" 67 2231 2270 "ulib/ml/prims.ml" 67 2231 2274
+)
+"ulib/ml/prims.ml" 67 2231 2258 "ulib/ml/prims.ml" 67 2231 2266
+type(
+  ('Ap, 'Aq) c_or
+)
+"ulib/ml/prims.ml" 67 2231 2270 "ulib/ml/prims.ml" 67 2231 2274
+type(
+  bool
+)
+"ulib/ml/prims.ml" 67 2231 2277 "ulib/ml/prims.ml" 67 2231 2286
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  def uu____404 "ulib/ml/prims.ml" 67 2231 2290 "ulib/ml/prims.ml" 67 2231 2295
+)
+"ulib/ml/prims.ml" 67 2231 2290 "ulib/ml/prims.ml" 67 2231 2295
+type(
+  bool
+)
+"ulib/ml/prims.ml" 67 2231 2235 "ulib/ml/prims.ml" 67 2231 2295
+type(
+  bool
+)
+"ulib/ml/prims.ml" 66 2211 2213 "ulib/ml/prims.ml" 67 2231 2295
+type(
+  ('Ap, 'Aq) c_or -> bool
+)
+"ulib/ml/prims.ml" 69 2297 2301 "ulib/ml/prims.ml" 69 2297 2324
+type(
+  'Ap 'Aq. ('Ap, 'Aq) c_or -> 'Aq
+)
+ident(
+  def __proj__Right__item___0 "ulib/ml/prims.ml" 71 2419 2419 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 70 2361 2367 "ulib/ml/prims.ml" 70 2361 2376
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 70 2361 2381 "ulib/ml/prims.ml" 70 2361 2418
+)
+"ulib/ml/prims.ml" 70 2361 2387 "ulib/ml/prims.ml" 70 2361 2396
+type(
+  ('Ap, 'Aq) c_or
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 70 2361 2367 "ulib/ml/prims.ml" 70 2361 2376
+)
+"ulib/ml/prims.ml" 70 2361 2410 "ulib/ml/prims.ml" 70 2361 2412
+type(
+  'Aq
+)
+ident(
+  def _0 "ulib/ml/prims.ml" 70 2361 2416 "ulib/ml/prims.ml" 70 2361 2418
+)
+"ulib/ml/prims.ml" 70 2361 2404 "ulib/ml/prims.ml" 70 2361 2412
+type(
+  ('Ap, 'Aq) c_or
+)
+"ulib/ml/prims.ml" 70 2361 2416 "ulib/ml/prims.ml" 70 2361 2418
+type(
+  'Aq
+)
+ident(
+  int_ref _0 "ulib/ml/prims.ml" 70 2361 2410 "ulib/ml/prims.ml" 70 2361 2412
+)
+"ulib/ml/prims.ml" 70 2361 2381 "ulib/ml/prims.ml" 70 2361 2418
+type(
+  'Aq
+)
+"ulib/ml/prims.ml" 70 2361 2363 "ulib/ml/prims.ml" 70 2361 2418
+type(
+  ('Ap, 'Aq) c_or -> 'Aq
+)
+"ulib/ml/prims.ml" 82 2762 2766 "ulib/ml/prims.ml" 82 2762 2783
+type(
+  'Aa 'Ab. ('Aa, 'Ab) dtuple2 -> bool
+)
+ident(
+  def uu___is_Mkdtuple2 "ulib/ml/prims.ml" 84 2849 2849 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 83 2824 2830 "ulib/ml/prims.ml" 83 2824 2839
+type(
+  ('Aa, 'Ab) dtuple2
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 83 2824 2844 "ulib/ml/prims.ml" 83 2824 2848
+)
+"ulib/ml/prims.ml" 83 2824 2844 "ulib/ml/prims.ml" 83 2824 2848
+type(
+  bool
+)
+"ulib/ml/prims.ml" 83 2824 2826 "ulib/ml/prims.ml" 83 2824 2848
+type(
+  ('Aa, 'Ab) dtuple2 -> bool
+)
+"ulib/ml/prims.ml" 84 2849 2853 "ulib/ml/prims.ml" 84 2849 2880
+type(
+  'Aa 'Ab. ('Aa, 'Ab) dtuple2 -> 'Aa
+)
+ident(
+  def __proj__Mkdtuple2__item___1 "ulib/ml/prims.ml" 86 2987 2987 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 85 2920 2926 "ulib/ml/prims.ml" 85 2920 2935
+type(
+  ('Aa, 'Ab) dtuple2
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 85 2920 2940 "ulib/ml/prims.ml" 85 2920 2986
+)
+"ulib/ml/prims.ml" 85 2920 2946 "ulib/ml/prims.ml" 85 2920 2955
+type(
+  ('Aa, 'Ab) dtuple2
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 85 2920 2926 "ulib/ml/prims.ml" 85 2920 2935
+)
+"ulib/ml/prims.ml" 85 2920 2974 "ulib/ml/prims.ml" 85 2920 2976
+type(
+  'Aa
+)
+ident(
+  def _1 "ulib/ml/prims.ml" 85 2920 2984 "ulib/ml/prims.ml" 85 2920 2986
+)
+"ulib/ml/prims.ml" 85 2920 2977 "ulib/ml/prims.ml" 85 2920 2979
+type(
+  'Ab
+)
+ident(
+  def _2 "ulib/ml/prims.ml" 85 2920 2984 "ulib/ml/prims.ml" 85 2920 2986
+)
+"ulib/ml/prims.ml" 85 2920 2963 "ulib/ml/prims.ml" 85 2920 2980
+type(
+  ('Aa, 'Ab) dtuple2
+)
+"ulib/ml/prims.ml" 85 2920 2984 "ulib/ml/prims.ml" 85 2920 2986
+type(
+  'Aa
+)
+ident(
+  int_ref _1 "ulib/ml/prims.ml" 85 2920 2974 "ulib/ml/prims.ml" 85 2920 2976
+)
+"ulib/ml/prims.ml" 85 2920 2940 "ulib/ml/prims.ml" 85 2920 2986
+type(
+  'Aa
+)
+"ulib/ml/prims.ml" 85 2920 2922 "ulib/ml/prims.ml" 85 2920 2986
+type(
+  ('Aa, 'Ab) dtuple2 -> 'Aa
+)
+"ulib/ml/prims.ml" 86 2987 2991 "ulib/ml/prims.ml" 86 2987 3018
+type(
+  'Aa 'Ab. ('Aa, 'Ab) dtuple2 -> 'Ab
+)
+ident(
+  def __proj__Mkdtuple2__item___2 "ulib/ml/prims.ml" 88 3125 3125 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 87 3058 3064 "ulib/ml/prims.ml" 87 3058 3073
+type(
+  ('Aa, 'Ab) dtuple2
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 87 3058 3078 "ulib/ml/prims.ml" 87 3058 3124
+)
+"ulib/ml/prims.ml" 87 3058 3084 "ulib/ml/prims.ml" 87 3058 3093
+type(
+  ('Aa, 'Ab) dtuple2
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 87 3058 3064 "ulib/ml/prims.ml" 87 3058 3073
+)
+"ulib/ml/prims.ml" 87 3058 3112 "ulib/ml/prims.ml" 87 3058 3114
+type(
+  'Aa
+)
+ident(
+  def _1 "ulib/ml/prims.ml" 87 3058 3122 "ulib/ml/prims.ml" 87 3058 3124
+)
+"ulib/ml/prims.ml" 87 3058 3115 "ulib/ml/prims.ml" 87 3058 3117
+type(
+  'Ab
+)
+ident(
+  def _2 "ulib/ml/prims.ml" 87 3058 3122 "ulib/ml/prims.ml" 87 3058 3124
+)
+"ulib/ml/prims.ml" 87 3058 3101 "ulib/ml/prims.ml" 87 3058 3118
+type(
+  ('Aa, 'Ab) dtuple2
+)
+"ulib/ml/prims.ml" 87 3058 3122 "ulib/ml/prims.ml" 87 3058 3124
+type(
+  'Ab
+)
+ident(
+  int_ref _2 "ulib/ml/prims.ml" 87 3058 3115 "ulib/ml/prims.ml" 87 3058 3117
+)
+"ulib/ml/prims.ml" 87 3058 3078 "ulib/ml/prims.ml" 87 3058 3124
+type(
+  'Ab
+)
+"ulib/ml/prims.ml" 87 3058 3060 "ulib/ml/prims.ml" 87 3058 3124
+type(
+  ('Aa, 'Ab) dtuple2 -> 'Ab
+)
+"ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  string' -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  string'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  Format.formatter -> string' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_string' "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  ((Format.formatter -> string' -> Ppx_deriving_runtime.unit) ->
+   string' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> string' -> Ppx_deriving_runtime.unit) ->
+   string' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> string' -> Ppx_deriving_runtime.unit) ->
+  string' -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  string'
+)
+ident(
+  def x "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  Format.formatter -> string' -> Ppx_deriving_runtime.unit
+)
+type(
+  string' -> Ppx_deriving_runtime.unit
+)
+type(
+  (string' -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  Format.formatter ->
+  (string' -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format -> string' -> Ppx_deriving_runtime.unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  string' -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_string' "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Format.formatter -> string' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_string' "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> string' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  (string', string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  string'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  (string', string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  string'
+)
+ident(
+  def x "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  string' -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Ppx_deriving_runtime.string
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  Ppx_deriving_runtime.string
+)
+ident(
+  def x "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  Yojson.Safe.json -> string' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def string'_of_yojson "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  string' -> Yojson.Safe.json
+)
+ident(
+  def string'_to_yojson "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  string -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  string
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  Format.formatter -> string -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_string "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  ((Format.formatter -> string -> Ppx_deriving_runtime.unit) ->
+   string -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> string -> Ppx_deriving_runtime.unit) ->
+   string -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> string -> Ppx_deriving_runtime.unit) ->
+  string -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  string
+)
+ident(
+  def x "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  Format.formatter -> string -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> string -> Ppx_deriving_runtime.unit
+)
+type(
+  string -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  Format.formatter -> string -> Ppx_deriving_runtime.unit
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> string -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref __0 "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  unit -> Format.formatter -> string' -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> string' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_string' "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  unit
+)
+type(
+  unit -> Format.formatter -> string' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def __0 "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  string -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_string "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Format.formatter -> string -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_string "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> string Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  Yojson.Safe.json -> string' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref string'_of_yojson "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  string -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  string
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  string' -> Yojson.Safe.json
+)
+ident(
+  int_ref string'_to_yojson "ulib/ml/prims.ml" 92 3236 3236 "ulib/ml/prims.ml" 92 3236 3281
+)
+type(
+  string
+)
+ident(
+  def x "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 93 3282 3327
+)
+type(
+  Yojson.Safe.json -> string Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def string_of_yojson "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  string -> Yojson.Safe.json
+)
+ident(
+  def string_to_yojson "ulib/ml/prims.ml" 93 3282 3282 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  (Format.formatter -> 'Aa -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Ap -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_then -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.string
+)
+type(
+  (Format.formatter -> 'Ap -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_then -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.string
+)
+type(
+  (Format.formatter -> 'Awp_then -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.string
+)
+type(
+  (Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.string
+)
+type(
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.string
+)
+type(
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_Apost "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_Awp_else "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  (Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'Awp_then -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_Awp_then "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  (Format.formatter -> 'Awp_then -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'Ap -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_Ap "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  (Format.formatter -> 'Ap -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_then -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'Aa -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_Aa "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  (Format.formatter -> 'Aa -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Ap -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_then -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_pure_if_then_else "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  ((Format.formatter ->
+    ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+    Ppx_deriving_runtime.unit) ->
+   ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+   Ppx_deriving_runtime.string, Format.formatter, Ppx_deriving_runtime.unit,
+   Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter ->
+    ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+    Ppx_deriving_runtime.unit) ->
+   ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+   Ppx_deriving_runtime.string, Format.formatter, Ppx_deriving_runtime.unit,
+   Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter ->
+   ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+   Ppx_deriving_runtime.unit) ->
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else ->
+  Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  ('Aa, 'Ap, 'Awp_then, 'Awp_else, 'Apost) pure_if_then_else
+)
+ident(
+  def x "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Apost -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Apost "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Awp_else -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Awp_else "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Awp_then -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Awp_then "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Ap -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Ap "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Aa -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Aa "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  (Format.formatter -> 'Aa0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Ap0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_then0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa0, 'Ap0, 'Awp_then0, 'Awp_else0, 'Apost0) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  (Format.formatter -> 'Ap0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_then0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa0, 'Ap0, 'Awp_then0, 'Awp_else0, 'Apost0) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  (Format.formatter -> 'Awp_then0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Awp_else0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa0, 'Ap0, 'Awp_then0, 'Awp_else0, 'Apost0) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  (Format.formatter -> 'Awp_else0 -> Ppx_deriving_runtime.unit) ->
+  (Format.formatter -> 'Apost0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa0, 'Ap0, 'Awp_then0, 'Awp_else0, 'Apost0) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  (Format.formatter -> 'Apost0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter ->
+  ('Aa0, 'Ap0, 'Awp_then0, 'Awp_else0, 'Apost0) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter ->
+  ('Aa0, 'Ap0, 'Awp_then0, 'Awp_else0, 'Apost0) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  ('Aa0, 'Ap0, 'Awp_then0, 'Awp_else0, 'Apost0) pure_if_then_else ->
+  Ppx_deriving_runtime.unit
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  string
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> string -> Ppx_deriving_runtime.unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.pp_print_string
+)
+type(
+  ('Aa0, 'Ap0, 'Awp_then0, 'Awp_else0, 'Apost0) pure_if_then_else
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Apost0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Apost "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Awp_else0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Awp_else "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Awp_then0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Awp_then "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Ap0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Ap "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Format.formatter -> 'Aa0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_Aa "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  'Aa1 'Ap1 'Awp_then1 'Awp_else1 'Apost1.
+    (Format.formatter -> 'Aa1 -> Ppx_deriving_runtime.unit) ->
+    (Format.formatter -> 'Ap1 -> Ppx_deriving_runtime.unit) ->
+    (Format.formatter -> 'Awp_then1 -> Ppx_deriving_runtime.unit) ->
+    (Format.formatter -> 'Awp_else1 -> Ppx_deriving_runtime.unit) ->
+    (Format.formatter -> 'Apost1 -> Ppx_deriving_runtime.unit) ->
+    ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else ->
+    Ppx_deriving_runtime.string
+)
+ident(
+  def show_pure_if_then_else "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'Aa1 'Ap1 'Awp_then1 'Awp_else1 'Apost1.
+    (Format.formatter -> 'Aa1 -> Ppx_deriving_runtime.unit) ->
+    (Format.formatter -> 'Ap1 -> Ppx_deriving_runtime.unit) ->
+    (Format.formatter -> 'Awp_then1 -> Ppx_deriving_runtime.unit) ->
+    (Format.formatter -> 'Awp_else1 -> Ppx_deriving_runtime.unit) ->
+    (Format.formatter -> 'Apost1 -> Ppx_deriving_runtime.unit) ->
+    Format.formatter ->
+    ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else ->
+    Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_pure_if_then_else "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  (Yojson.Safe.json -> 'Aa1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Ap1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Awp_then1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Awp_else1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Apost1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json ->
+  ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else
+  Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  (Yojson.Safe.json -> 'Ap1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Awp_then1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Awp_else1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Apost1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json ->
+  ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else
+  Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  (Yojson.Safe.json -> 'Awp_then1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Awp_else1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Apost1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json ->
+  ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else
+  Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  (Yojson.Safe.json -> 'Awp_else1 Ppx_deriving_yojson_runtime.error_or) ->
+  (Yojson.Safe.json -> 'Apost1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json ->
+  ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else
+  Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  (Yojson.Safe.json -> 'Apost1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json ->
+  ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else
+  Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json ->
+  ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else
+  Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  (('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else, string)
+  Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  ('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else
+)
+type(
+  (('Aa1, 'Ap1, 'Awp_then1, 'Awp_else1, 'Apost1) pure_if_then_else, string)
+  Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json -> 'Apost1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_Apost "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Yojson.Safe.json -> 'Awp_else1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_Awp_else "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Yojson.Safe.json -> 'Awp_then1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_Awp_then "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Yojson.Safe.json -> 'Ap1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_Ap "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  Yojson.Safe.json -> 'Aa1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_Aa "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  ('Aa2 -> Yojson.Safe.json) ->
+  ('Ap2 -> Yojson.Safe.json) ->
+  ('Awp_then2 -> Yojson.Safe.json) ->
+  ('Awp_else2 -> Yojson.Safe.json) ->
+  ('Apost2 -> Yojson.Safe.json) ->
+  ('Aa2, 'Ap2, 'Awp_then2, 'Awp_else2, 'Apost2) pure_if_then_else ->
+  Yojson.Safe.json
+)
+type(
+  ('Ap2 -> Yojson.Safe.json) ->
+  ('Awp_then2 -> Yojson.Safe.json) ->
+  ('Awp_else2 -> Yojson.Safe.json) ->
+  ('Apost2 -> Yojson.Safe.json) ->
+  ('Aa2, 'Ap2, 'Awp_then2, 'Awp_else2, 'Apost2) pure_if_then_else ->
+  Yojson.Safe.json
+)
+type(
+  ('Awp_then2 -> Yojson.Safe.json) ->
+  ('Awp_else2 -> Yojson.Safe.json) ->
+  ('Apost2 -> Yojson.Safe.json) ->
+  ('Aa2, 'Ap2, 'Awp_then2, 'Awp_else2, 'Apost2) pure_if_then_else ->
+  Yojson.Safe.json
+)
+type(
+  ('Awp_else2 -> Yojson.Safe.json) ->
+  ('Apost2 -> Yojson.Safe.json) ->
+  ('Aa2, 'Ap2, 'Awp_then2, 'Awp_else2, 'Apost2) pure_if_then_else ->
+  Yojson.Safe.json
+)
+type(
+  ('Apost2 -> Yojson.Safe.json) ->
+  ('Aa2, 'Ap2, 'Awp_then2, 'Awp_else2, 'Apost2) pure_if_then_else ->
+  Yojson.Safe.json
+)
+type(
+  ('Aa2, 'Ap2, 'Awp_then2, 'Awp_else2, 'Apost2) pure_if_then_else ->
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+ident(
+  def x "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  'Apost2 -> Yojson.Safe.json
+)
+ident(
+  def poly_Apost "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  'Awp_else2 -> Yojson.Safe.json
+)
+ident(
+  def poly_Awp_else "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  'Awp_then2 -> Yojson.Safe.json
+)
+ident(
+  def poly_Awp_then "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  'Ap2 -> Yojson.Safe.json
+)
+ident(
+  def poly_Ap "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  'Aa2 -> Yojson.Safe.json
+)
+ident(
+  def poly_Aa "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 101 3564 3654
+)
+type(
+  'Aa3 'Ap3 'Awp_then3 'Awp_else3 'Apost3.
+    (Yojson.Safe.json -> 'Aa3 Ppx_deriving_yojson_runtime.error_or) ->
+    (Yojson.Safe.json -> 'Ap3 Ppx_deriving_yojson_runtime.error_or) ->
+    (Yojson.Safe.json -> 'Awp_then3 Ppx_deriving_yojson_runtime.error_or) ->
+    (Yojson.Safe.json -> 'Awp_else3 Ppx_deriving_yojson_runtime.error_or) ->
+    (Yojson.Safe.json -> 'Apost3 Ppx_deriving_yojson_runtime.error_or) ->
+    Yojson.Safe.json ->
+    ('Aa3, 'Ap3, 'Awp_then3, 'Awp_else3, 'Apost3) pure_if_then_else
+    Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def pure_if_then_else_of_yojson "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'Aa3 'Ap3 'Awp_then3 'Awp_else3 'Apost3.
+    ('Aa3 -> Yojson.Safe.json) ->
+    ('Ap3 -> Yojson.Safe.json) ->
+    ('Awp_then3 -> Yojson.Safe.json) ->
+    ('Awp_else3 -> Yojson.Safe.json) ->
+    ('Apost3 -> Yojson.Safe.json) ->
+    ('Aa3, 'Ap3, 'Awp_then3, 'Awp_else3, 'Apost3) pure_if_then_else ->
+    Yojson.Safe.json
+)
+ident(
+  def pure_if_then_else_to_yojson "ulib/ml/prims.ml" 101 3564 3564 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 111 4033 4037 "ulib/ml/prims.ml" 111 4033 4045
+type(
+  string -> int -> int -> int -> int -> range
+)
+ident(
+  def mk_range "ulib/ml/prims.ml" 112 4104 4104 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 111 4033 4046 "ulib/ml/prims.ml" 111 4033 4047
+type(
+  string
+)
+ident(
+  def f "ulib/ml/prims.ml" 111 4033 4048 "ulib/ml/prims.ml" 111 4033 4103
+)
+"ulib/ml/prims.ml" 111 4033 4048 "ulib/ml/prims.ml" 111 4033 4049
+type(
+  int
+)
+ident(
+  def a "ulib/ml/prims.ml" 111 4033 4050 "ulib/ml/prims.ml" 111 4033 4103
+)
+"ulib/ml/prims.ml" 111 4033 4050 "ulib/ml/prims.ml" 111 4033 4051
+type(
+  int
+)
+ident(
+  def b "ulib/ml/prims.ml" 111 4033 4052 "ulib/ml/prims.ml" 111 4033 4103
+)
+"ulib/ml/prims.ml" 111 4033 4052 "ulib/ml/prims.ml" 111 4033 4053
+type(
+  int
+)
+ident(
+  def c "ulib/ml/prims.ml" 111 4033 4054 "ulib/ml/prims.ml" 111 4033 4103
+)
+"ulib/ml/prims.ml" 111 4033 4054 "ulib/ml/prims.ml" 111 4033 4055
+type(
+  int
+)
+ident(
+  def d "ulib/ml/prims.ml" 111 4033 4056 "ulib/ml/prims.ml" 111 4033 4103
+)
+"ulib/ml/prims.ml" 111 4033 4070 "ulib/ml/prims.ml" 111 4033 4071
+type(
+  string * (int * int) * (int * int)
+)
+ident(
+  def r "ulib/ml/prims.ml" 111 4033 4097 "ulib/ml/prims.ml" 111 4033 4103
+)
+"ulib/ml/prims.ml" 111 4033 4075 "ulib/ml/prims.ml" 111 4033 4076
+type(
+  string
+)
+ident(
+  int_ref f "ulib/ml/prims.ml" 111 4033 4046 "ulib/ml/prims.ml" 111 4033 4047
+)
+"ulib/ml/prims.ml" 111 4033 4079 "ulib/ml/prims.ml" 111 4033 4080
+type(
+  int
+)
+ident(
+  int_ref a "ulib/ml/prims.ml" 111 4033 4048 "ulib/ml/prims.ml" 111 4033 4049
+)
+"ulib/ml/prims.ml" 111 4033 4082 "ulib/ml/prims.ml" 111 4033 4083
+type(
+  int
+)
+ident(
+  int_ref b "ulib/ml/prims.ml" 111 4033 4050 "ulib/ml/prims.ml" 111 4033 4051
+)
+"ulib/ml/prims.ml" 111 4033 4078 "ulib/ml/prims.ml" 111 4033 4084
+type(
+  int * int
+)
+"ulib/ml/prims.ml" 111 4033 4087 "ulib/ml/prims.ml" 111 4033 4088
+type(
+  int
+)
+ident(
+  int_ref c "ulib/ml/prims.ml" 111 4033 4052 "ulib/ml/prims.ml" 111 4033 4053
+)
+"ulib/ml/prims.ml" 111 4033 4090 "ulib/ml/prims.ml" 111 4033 4091
+type(
+  int
+)
+ident(
+  int_ref d "ulib/ml/prims.ml" 111 4033 4054 "ulib/ml/prims.ml" 111 4033 4055
+)
+"ulib/ml/prims.ml" 111 4033 4086 "ulib/ml/prims.ml" 111 4033 4092
+type(
+  int * int
+)
+"ulib/ml/prims.ml" 111 4033 4074 "ulib/ml/prims.ml" 111 4033 4093
+type(
+  string * (int * int) * (int * int)
+)
+"ulib/ml/prims.ml" 111 4033 4098 "ulib/ml/prims.ml" 111 4033 4099
+type(
+  _rng
+)
+ident(
+  int_ref r "ulib/ml/prims.ml" 111 4033 4070 "ulib/ml/prims.ml" 111 4033 4071
+)
+"ulib/ml/prims.ml" 111 4033 4101 "ulib/ml/prims.ml" 111 4033 4102
+type(
+  _rng
+)
+ident(
+  int_ref r "ulib/ml/prims.ml" 111 4033 4070 "ulib/ml/prims.ml" 111 4033 4071
+)
+"ulib/ml/prims.ml" 111 4033 4097 "ulib/ml/prims.ml" 111 4033 4103
+type(
+  range
+)
+"ulib/ml/prims.ml" 111 4033 4066 "ulib/ml/prims.ml" 111 4033 4103
+type(
+  range
+)
+type(
+  range
+)
+"ulib/ml/prims.ml" 112 4104 4108 "ulib/ml/prims.ml" 112 4104 4115
+type(
+  range
+)
+ident(
+  def range_0 "ulib/ml/prims.ml" 115 4180 4180 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 112 4104 4130 "ulib/ml/prims.ml" 112 4104 4131
+type(
+  Z.t
+)
+ident(
+  def z "ulib/ml/prims.ml" 112 4104 4151 "ulib/ml/prims.ml" 112 4104 4177
+)
+"ulib/ml/prims.ml" 112 4104 4134 "ulib/ml/prims.ml" 112 4104 4143
+type(
+  string -> Z.t
+)
+ident(
+  int_ref parse_int "ulib/ml/prims.ml" 5 117 121 "ulib/ml/prims.ml" 5 117 130
+)
+"ulib/ml/prims.ml" 112 4104 4144 "ulib/ml/prims.ml" 112 4104 4147
+type(
+  string
+)
+"ulib/ml/prims.ml" 112 4104 4134 "ulib/ml/prims.ml" 112 4104 4147
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 112 4104 4151 "ulib/ml/prims.ml" 112 4104 4159
+type(
+  string -> int -> int -> int -> int -> range
+)
+ident(
+  int_ref mk_range "ulib/ml/prims.ml" 111 4033 4037 "ulib/ml/prims.ml" 111 4033 4045
+)
+"ulib/ml/prims.ml" 112 4104 4160 "ulib/ml/prims.ml" 112 4104 4169
+type(
+  string
+)
+"ulib/ml/prims.ml" 112 4104 4170 "ulib/ml/prims.ml" 112 4104 4171
+type(
+  int
+)
+ident(
+  int_ref z "ulib/ml/prims.ml" 112 4104 4130 "ulib/ml/prims.ml" 112 4104 4131
+)
+"ulib/ml/prims.ml" 112 4104 4172 "ulib/ml/prims.ml" 112 4104 4173
+type(
+  int
+)
+ident(
+  int_ref z "ulib/ml/prims.ml" 112 4104 4130 "ulib/ml/prims.ml" 112 4104 4131
+)
+"ulib/ml/prims.ml" 112 4104 4174 "ulib/ml/prims.ml" 112 4104 4175
+type(
+  int
+)
+ident(
+  int_ref z "ulib/ml/prims.ml" 112 4104 4130 "ulib/ml/prims.ml" 112 4104 4131
+)
+"ulib/ml/prims.ml" 112 4104 4176 "ulib/ml/prims.ml" 112 4104 4177
+type(
+  int
+)
+ident(
+  int_ref z "ulib/ml/prims.ml" 112 4104 4130 "ulib/ml/prims.ml" 112 4104 4131
+)
+"ulib/ml/prims.ml" 112 4104 4151 "ulib/ml/prims.ml" 112 4104 4177
+call(
+  stack
+)
+type(
+  range
+)
+"ulib/ml/prims.ml" 112 4104 4126 "ulib/ml/prims.ml" 112 4104 4177
+type(
+  range
+)
+type(
+  range
+)
+"ulib/ml/prims.ml" 115 4180 4184 "ulib/ml/prims.ml" 115 4180 4193
+type(
+  bool -> bool -> bool
+)
+ident(
+  def op_AmpAmp "ulib/ml/prims.ml" 116 4207 4207 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 115 4180 4194 "ulib/ml/prims.ml" 115 4180 4195
+type(
+  bool
+)
+ident(
+  def x "ulib/ml/prims.ml" 115 4180 4196 "ulib/ml/prims.ml" 115 4180 4206
+)
+"ulib/ml/prims.ml" 115 4180 4196 "ulib/ml/prims.ml" 115 4180 4197
+type(
+  bool
+)
+ident(
+  def y "ulib/ml/prims.ml" 115 4180 4200 "ulib/ml/prims.ml" 115 4180 4206
+)
+"ulib/ml/prims.ml" 115 4180 4200 "ulib/ml/prims.ml" 115 4180 4201
+type(
+  bool
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 115 4180 4194 "ulib/ml/prims.ml" 115 4180 4195
+)
+"ulib/ml/prims.ml" 115 4180 4202 "ulib/ml/prims.ml" 115 4180 4204
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/prims.ml" 115 4180 4205 "ulib/ml/prims.ml" 115 4180 4206
+type(
+  bool
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 115 4180 4196 "ulib/ml/prims.ml" 115 4180 4197
+)
+"ulib/ml/prims.ml" 115 4180 4200 "ulib/ml/prims.ml" 115 4180 4206
+type(
+  bool
+)
+"ulib/ml/prims.ml" 116 4207 4211 "ulib/ml/prims.ml" 116 4207 4220
+type(
+  bool -> bool -> bool
+)
+ident(
+  def op_BarBar "ulib/ml/prims.ml" 117 4235 4235 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 116 4207 4221 "ulib/ml/prims.ml" 116 4207 4222
+type(
+  bool
+)
+ident(
+  def x "ulib/ml/prims.ml" 116 4207 4223 "ulib/ml/prims.ml" 116 4207 4234
+)
+"ulib/ml/prims.ml" 116 4207 4223 "ulib/ml/prims.ml" 116 4207 4224
+type(
+  bool
+)
+ident(
+  def y "ulib/ml/prims.ml" 116 4207 4228 "ulib/ml/prims.ml" 116 4207 4234
+)
+"ulib/ml/prims.ml" 116 4207 4228 "ulib/ml/prims.ml" 116 4207 4229
+type(
+  bool
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 116 4207 4221 "ulib/ml/prims.ml" 116 4207 4222
+)
+"ulib/ml/prims.ml" 116 4207 4230 "ulib/ml/prims.ml" 116 4207 4232
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/ml/prims.ml" 116 4207 4233 "ulib/ml/prims.ml" 116 4207 4234
+type(
+  bool
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 116 4207 4223 "ulib/ml/prims.ml" 116 4207 4224
+)
+"ulib/ml/prims.ml" 116 4207 4228 "ulib/ml/prims.ml" 116 4207 4234
+type(
+  bool
+)
+"ulib/ml/prims.ml" 117 4235 4239 "ulib/ml/prims.ml" 117 4235 4250
+type(
+  bool -> bool
+)
+ident(
+  def op_Negation "ulib/ml/prims.ml" 119 4262 4262 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 117 4235 4251 "ulib/ml/prims.ml" 117 4235 4252
+type(
+  bool
+)
+ident(
+  def x "ulib/ml/prims.ml" 117 4235 4255 "ulib/ml/prims.ml" 117 4235 4260
+)
+"ulib/ml/prims.ml" 117 4235 4255 "ulib/ml/prims.ml" 117 4235 4258
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"ulib/ml/prims.ml" 117 4235 4259 "ulib/ml/prims.ml" 117 4235 4260
+type(
+  bool
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 117 4235 4251 "ulib/ml/prims.ml" 117 4235 4252
+)
+"ulib/ml/prims.ml" 117 4235 4255 "ulib/ml/prims.ml" 117 4235 4260
+type(
+  bool
+)
+"ulib/ml/prims.ml" 119 4262 4266 "ulib/ml/prims.ml" 119 4262 4271
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def + "ulib/ml/prims.ml" 120 4284 4284 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 119 4262 4278 "ulib/ml/prims.ml" 119 4262 4283
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.add
+)
+"ulib/ml/prims.ml" 120 4284 4288 "ulib/ml/prims.ml" 120 4284 4293
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def - "ulib/ml/prims.ml" 121 4306 4306 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 120 4284 4300 "ulib/ml/prims.ml" 120 4284 4305
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.sub
+)
+"ulib/ml/prims.ml" 121 4306 4310 "ulib/ml/prims.ml" 121 4306 4315
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def * "ulib/ml/prims.ml" 122 4328 4328 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 121 4306 4322 "ulib/ml/prims.ml" 121 4306 4327
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.mul
+)
+"ulib/ml/prims.ml" 122 4328 4332 "ulib/ml/prims.ml" 122 4328 4337
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def / "ulib/ml/prims.ml" 123 4351 4351 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 122 4328 4344 "ulib/ml/prims.ml" 122 4328 4350
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.ediv
+)
+"ulib/ml/prims.ml" 123 4351 4355 "ulib/ml/prims.ml" 123 4351 4361
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def <= "ulib/ml/prims.ml" 124 4373 4373 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 123 4351 4367 "ulib/ml/prims.ml" 123 4351 4372
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Z.leq
+)
+"ulib/ml/prims.ml" 124 4373 4377 "ulib/ml/prims.ml" 124 4373 4383
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def >= "ulib/ml/prims.ml" 125 4395 4395 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 124 4373 4389 "ulib/ml/prims.ml" 124 4373 4394
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Z.geq
+)
+"ulib/ml/prims.ml" 125 4395 4399 "ulib/ml/prims.ml" 125 4395 4404
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def < "ulib/ml/prims.ml" 126 4416 4416 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 125 4395 4411 "ulib/ml/prims.ml" 125 4395 4415
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Z.lt
+)
+"ulib/ml/prims.ml" 126 4416 4420 "ulib/ml/prims.ml" 126 4416 4425
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def > "ulib/ml/prims.ml" 127 4437 4437 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 126 4416 4432 "ulib/ml/prims.ml" 126 4416 4436
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Z.gt
+)
+"ulib/ml/prims.ml" 127 4437 4441 "ulib/ml/prims.ml" 127 4437 4448
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def mod "ulib/ml/prims.ml" 128 4460 4460 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 127 4437 4453 "ulib/ml/prims.ml" 127 4437 4459
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.erem
+)
+"ulib/ml/prims.ml" 128 4460 4464 "ulib/ml/prims.ml" 128 4460 4470
+type(
+  Z.t -> Z.t
+)
+ident(
+  def ~- "ulib/ml/prims.ml" 129 4482 4482 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 128 4460 4476 "ulib/ml/prims.ml" 128 4460 4481
+type(
+  Z.t -> Z.t
+)
+ident(
+  ext_ref Z.neg
+)
+"ulib/ml/prims.ml" 129 4482 4486 "ulib/ml/prims.ml" 129 4482 4489
+type(
+  Z.t -> Z.t
+)
+ident(
+  def abs "ulib/ml/prims.ml" 131 4505 4505 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 129 4482 4498 "ulib/ml/prims.ml" 129 4482 4503
+type(
+  Z.t -> Z.t
+)
+ident(
+  ext_ref Z.abs
+)
+"ulib/ml/prims.ml" 131 4505 4509 "ulib/ml/prims.ml" 131 4505 4520
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def op_Multiply "ulib/ml/prims.ml" 132 4533 4533 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 131 4505 4521 "ulib/ml/prims.ml" 131 4505 4522
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 131 4505 4523 "ulib/ml/prims.ml" 131 4505 4532
+)
+"ulib/ml/prims.ml" 131 4505 4523 "ulib/ml/prims.ml" 131 4505 4524
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 131 4505 4527 "ulib/ml/prims.ml" 131 4505 4532
+)
+"ulib/ml/prims.ml" 131 4505 4527 "ulib/ml/prims.ml" 131 4505 4528
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 131 4505 4521 "ulib/ml/prims.ml" 131 4505 4522
+)
+"ulib/ml/prims.ml" 131 4505 4529 "ulib/ml/prims.ml" 131 4505 4530
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref * "ulib/ml/prims.ml" 121 4306 4310 "ulib/ml/prims.ml" 121 4306 4315
+)
+"ulib/ml/prims.ml" 131 4505 4531 "ulib/ml/prims.ml" 131 4505 4532
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 131 4505 4523 "ulib/ml/prims.ml" 131 4505 4524
+)
+"ulib/ml/prims.ml" 131 4505 4527 "ulib/ml/prims.ml" 131 4505 4532
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 132 4533 4537 "ulib/ml/prims.ml" 132 4533 4551
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def op_Subtraction "ulib/ml/prims.ml" 133 4564 4564 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 132 4533 4552 "ulib/ml/prims.ml" 132 4533 4553
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 132 4533 4554 "ulib/ml/prims.ml" 132 4533 4563
+)
+"ulib/ml/prims.ml" 132 4533 4554 "ulib/ml/prims.ml" 132 4533 4555
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 132 4533 4558 "ulib/ml/prims.ml" 132 4533 4563
+)
+"ulib/ml/prims.ml" 132 4533 4558 "ulib/ml/prims.ml" 132 4533 4559
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 132 4533 4552 "ulib/ml/prims.ml" 132 4533 4553
+)
+"ulib/ml/prims.ml" 132 4533 4560 "ulib/ml/prims.ml" 132 4533 4561
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref - "ulib/ml/prims.ml" 120 4284 4288 "ulib/ml/prims.ml" 120 4284 4293
+)
+"ulib/ml/prims.ml" 132 4533 4562 "ulib/ml/prims.ml" 132 4533 4563
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 132 4533 4554 "ulib/ml/prims.ml" 132 4533 4555
+)
+"ulib/ml/prims.ml" 132 4533 4558 "ulib/ml/prims.ml" 132 4533 4563
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 133 4564 4568 "ulib/ml/prims.ml" 133 4564 4579
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def op_Addition "ulib/ml/prims.ml" 134 4592 4592 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 133 4564 4580 "ulib/ml/prims.ml" 133 4564 4581
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 133 4564 4582 "ulib/ml/prims.ml" 133 4564 4591
+)
+"ulib/ml/prims.ml" 133 4564 4582 "ulib/ml/prims.ml" 133 4564 4583
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 133 4564 4586 "ulib/ml/prims.ml" 133 4564 4591
+)
+"ulib/ml/prims.ml" 133 4564 4586 "ulib/ml/prims.ml" 133 4564 4587
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 133 4564 4580 "ulib/ml/prims.ml" 133 4564 4581
+)
+"ulib/ml/prims.ml" 133 4564 4588 "ulib/ml/prims.ml" 133 4564 4589
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref + "ulib/ml/prims.ml" 119 4262 4266 "ulib/ml/prims.ml" 119 4262 4271
+)
+"ulib/ml/prims.ml" 133 4564 4590 "ulib/ml/prims.ml" 133 4564 4591
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 133 4564 4582 "ulib/ml/prims.ml" 133 4564 4583
+)
+"ulib/ml/prims.ml" 133 4564 4586 "ulib/ml/prims.ml" 133 4564 4591
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 134 4592 4596 "ulib/ml/prims.ml" 134 4592 4604
+type(
+  Z.t -> Z.t
+)
+ident(
+  def op_Minus "ulib/ml/prims.ml" 135 4612 4612 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 134 4592 4605 "ulib/ml/prims.ml" 134 4592 4606
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 134 4592 4609 "ulib/ml/prims.ml" 134 4592 4611
+)
+"ulib/ml/prims.ml" 134 4592 4609 "ulib/ml/prims.ml" 134 4592 4610
+type(
+  Z.t -> Z.t
+)
+ident(
+  int_ref ~- "ulib/ml/prims.ml" 128 4460 4464 "ulib/ml/prims.ml" 128 4460 4470
+)
+"ulib/ml/prims.ml" 134 4592 4610 "ulib/ml/prims.ml" 134 4592 4611
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 134 4592 4605 "ulib/ml/prims.ml" 134 4592 4606
+)
+"ulib/ml/prims.ml" 134 4592 4609 "ulib/ml/prims.ml" 134 4592 4611
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 135 4612 4616 "ulib/ml/prims.ml" 135 4612 4627
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def op_LessThan "ulib/ml/prims.ml" 136 4640 4640 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 135 4612 4628 "ulib/ml/prims.ml" 135 4612 4629
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 135 4612 4630 "ulib/ml/prims.ml" 135 4612 4639
+)
+"ulib/ml/prims.ml" 135 4612 4630 "ulib/ml/prims.ml" 135 4612 4631
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 135 4612 4634 "ulib/ml/prims.ml" 135 4612 4639
+)
+"ulib/ml/prims.ml" 135 4612 4634 "ulib/ml/prims.ml" 135 4612 4635
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 135 4612 4628 "ulib/ml/prims.ml" 135 4612 4629
+)
+"ulib/ml/prims.ml" 135 4612 4636 "ulib/ml/prims.ml" 135 4612 4637
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  int_ref < "ulib/ml/prims.ml" 125 4395 4399 "ulib/ml/prims.ml" 125 4395 4404
+)
+"ulib/ml/prims.ml" 135 4612 4638 "ulib/ml/prims.ml" 135 4612 4639
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 135 4612 4630 "ulib/ml/prims.ml" 135 4612 4631
+)
+"ulib/ml/prims.ml" 135 4612 4634 "ulib/ml/prims.ml" 135 4612 4639
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/prims.ml" 136 4640 4644 "ulib/ml/prims.ml" 136 4640 4662
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def op_LessThanOrEqual "ulib/ml/prims.ml" 137 4676 4676 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 136 4640 4663 "ulib/ml/prims.ml" 136 4640 4664
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 136 4640 4665 "ulib/ml/prims.ml" 136 4640 4675
+)
+"ulib/ml/prims.ml" 136 4640 4665 "ulib/ml/prims.ml" 136 4640 4666
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 136 4640 4669 "ulib/ml/prims.ml" 136 4640 4675
+)
+"ulib/ml/prims.ml" 136 4640 4669 "ulib/ml/prims.ml" 136 4640 4670
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 136 4640 4663 "ulib/ml/prims.ml" 136 4640 4664
+)
+"ulib/ml/prims.ml" 136 4640 4671 "ulib/ml/prims.ml" 136 4640 4673
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  int_ref <= "ulib/ml/prims.ml" 123 4351 4355 "ulib/ml/prims.ml" 123 4351 4361
+)
+"ulib/ml/prims.ml" 136 4640 4674 "ulib/ml/prims.ml" 136 4640 4675
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 136 4640 4665 "ulib/ml/prims.ml" 136 4640 4666
+)
+"ulib/ml/prims.ml" 136 4640 4669 "ulib/ml/prims.ml" 136 4640 4675
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/prims.ml" 137 4676 4680 "ulib/ml/prims.ml" 137 4676 4694
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def op_GreaterThan "ulib/ml/prims.ml" 138 4707 4707 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 137 4676 4695 "ulib/ml/prims.ml" 137 4676 4696
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 137 4676 4697 "ulib/ml/prims.ml" 137 4676 4706
+)
+"ulib/ml/prims.ml" 137 4676 4697 "ulib/ml/prims.ml" 137 4676 4698
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 137 4676 4701 "ulib/ml/prims.ml" 137 4676 4706
+)
+"ulib/ml/prims.ml" 137 4676 4701 "ulib/ml/prims.ml" 137 4676 4702
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 137 4676 4695 "ulib/ml/prims.ml" 137 4676 4696
+)
+"ulib/ml/prims.ml" 137 4676 4703 "ulib/ml/prims.ml" 137 4676 4704
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  int_ref > "ulib/ml/prims.ml" 126 4416 4420 "ulib/ml/prims.ml" 126 4416 4425
+)
+"ulib/ml/prims.ml" 137 4676 4705 "ulib/ml/prims.ml" 137 4676 4706
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 137 4676 4697 "ulib/ml/prims.ml" 137 4676 4698
+)
+"ulib/ml/prims.ml" 137 4676 4701 "ulib/ml/prims.ml" 137 4676 4706
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/prims.ml" 138 4707 4711 "ulib/ml/prims.ml" 138 4707 4732
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  def op_GreaterThanOrEqual "ulib/ml/prims.ml" 139 4746 4746 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 138 4707 4733 "ulib/ml/prims.ml" 138 4707 4734
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 138 4707 4735 "ulib/ml/prims.ml" 138 4707 4745
+)
+"ulib/ml/prims.ml" 138 4707 4735 "ulib/ml/prims.ml" 138 4707 4736
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 138 4707 4739 "ulib/ml/prims.ml" 138 4707 4745
+)
+"ulib/ml/prims.ml" 138 4707 4739 "ulib/ml/prims.ml" 138 4707 4740
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 138 4707 4733 "ulib/ml/prims.ml" 138 4707 4734
+)
+"ulib/ml/prims.ml" 138 4707 4741 "ulib/ml/prims.ml" 138 4707 4743
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  int_ref >= "ulib/ml/prims.ml" 124 4373 4377 "ulib/ml/prims.ml" 124 4373 4383
+)
+"ulib/ml/prims.ml" 138 4707 4744 "ulib/ml/prims.ml" 138 4707 4745
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 138 4707 4735 "ulib/ml/prims.ml" 138 4707 4736
+)
+"ulib/ml/prims.ml" 138 4707 4739 "ulib/ml/prims.ml" 138 4707 4745
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/prims.ml" 139 4746 4750 "ulib/ml/prims.ml" 139 4746 4761
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def op_Equality "ulib/ml/prims.ml" 140 4774 4774 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 139 4746 4762 "ulib/ml/prims.ml" 139 4746 4763
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/prims.ml" 139 4746 4764 "ulib/ml/prims.ml" 139 4746 4773
+)
+"ulib/ml/prims.ml" 139 4746 4764 "ulib/ml/prims.ml" 139 4746 4765
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/prims.ml" 139 4746 4768 "ulib/ml/prims.ml" 139 4746 4773
+)
+"ulib/ml/prims.ml" 139 4746 4768 "ulib/ml/prims.ml" 139 4746 4769
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 139 4746 4762 "ulib/ml/prims.ml" 139 4746 4763
+)
+"ulib/ml/prims.ml" 139 4746 4770 "ulib/ml/prims.ml" 139 4746 4771
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/prims.ml" 139 4746 4772 "ulib/ml/prims.ml" 139 4746 4773
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 139 4746 4764 "ulib/ml/prims.ml" 139 4746 4765
+)
+"ulib/ml/prims.ml" 139 4746 4768 "ulib/ml/prims.ml" 139 4746 4773
+type(
+  bool
+)
+"ulib/ml/prims.ml" 140 4774 4778 "ulib/ml/prims.ml" 140 4774 4792
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def op_disEquality "ulib/ml/prims.ml" 142 4805 4805 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 140 4774 4793 "ulib/ml/prims.ml" 140 4774 4794
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/prims.ml" 140 4774 4795 "ulib/ml/prims.ml" 140 4774 4803
+)
+"ulib/ml/prims.ml" 140 4774 4795 "ulib/ml/prims.ml" 140 4774 4796
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/prims.ml" 140 4774 4799 "ulib/ml/prims.ml" 140 4774 4803
+)
+"ulib/ml/prims.ml" 140 4774 4799 "ulib/ml/prims.ml" 140 4774 4800
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 140 4774 4793 "ulib/ml/prims.ml" 140 4774 4794
+)
+"ulib/ml/prims.ml" 140 4774 4800 "ulib/ml/prims.ml" 140 4774 4802
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/ml/prims.ml" 140 4774 4802 "ulib/ml/prims.ml" 140 4774 4803
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 140 4774 4795 "ulib/ml/prims.ml" 140 4774 4796
+)
+"ulib/ml/prims.ml" 140 4774 4799 "ulib/ml/prims.ml" 140 4774 4803
+type(
+  bool
+)
+"ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  (Format.formatter -> 'a -> Ppx_deriving_runtime.unit) ->
+  'a array' -> Ppx_deriving_runtime.string
+)
+type(
+  'a array' -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  'a array'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Format.formatter -> 'a array' -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'a -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  (Format.formatter -> 'a -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a array' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_array' "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  ((Format.formatter -> 'a array' -> Ppx_deriving_runtime.unit) ->
+   'a array' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> 'a array' -> Ppx_deriving_runtime.unit) ->
+   'a array' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> 'a array' -> Ppx_deriving_runtime.unit) ->
+  'a array' -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  'a array'
+)
+ident(
+  def x "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Format.formatter -> 'a -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 array' -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'a0 array' -> Ppx_deriving_runtime.unit
+)
+type(
+  'a0 array' -> Ppx_deriving_runtime.unit
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  (Ppx_deriving_runtime.unit, Format.formatter, Ppx_deriving_runtime.unit)
+  format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Format.formatter ->
+  (Ppx_deriving_runtime.unit, Format.formatter, Ppx_deriving_runtime.unit)
+  format -> Ppx_deriving_runtime.unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  unit
+)
+type(
+  bool
+)
+type(
+  'a0 array'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  bool
+)
+type(
+  bool -> 'a0 -> bool
+)
+type(
+  'a0 -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  'a0
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  'a0 -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  bool
+)
+ident(
+  int_ref sep "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  'a0
+)
+ident(
+  def x "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  bool
+)
+ident(
+  def sep "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  (bool -> 'a0 -> bool) -> bool -> 'a0 array' -> bool
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Array.fold_left
+)
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.ignore
+)
+type(
+  unit
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  'a0 array'
+)
+ident(
+  def x "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  'a1.
+    (Format.formatter -> 'a1 -> Ppx_deriving_runtime.unit) ->
+    'a1 array' -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_array' "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'a1.
+    (Format.formatter -> 'a1 -> Ppx_deriving_runtime.unit) ->
+    Format.formatter -> 'a1 array' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_array' "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  (Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json -> 'a1 array' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 array' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  ('a1 array', string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  'a1 array' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  'a1 list -> 'a1 array'
+)
+ident(
+  ext_ref Ppx_deriving_yojson_runtime.Array.of_list
+)
+type(
+  'a1 list Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json list
+)
+ident(
+  int_ref xs "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  'a1 list
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  (Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or) ->
+  'a1 list ->
+  Yojson.Safe.json list -> 'a1 list Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  ext_ref Ppx_deriving_yojson_runtime.map_bind
+)
+type(
+  'a1 list Ppx_deriving_yojson_runtime.error_or ->
+  ('a1 list -> 'a1 array') -> 'a1 array' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  ext_ref Ppx_deriving_yojson_runtime.( >|= )
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json list
+)
+ident(
+  def xs "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  ('a2 -> Yojson.Safe.json) -> 'a2 array' -> Yojson.Safe.json
+)
+type(
+  'a2 array' -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json list
+)
+type(
+  Yojson.Safe.json array
+)
+type(
+  'a2 array'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  ('a2 -> Yojson.Safe.json) -> 'a2 array' -> Yojson.Safe.json array
+)
+ident(
+  ext_ref Ppx_deriving_yojson_runtime.Array.map
+)
+type(
+  Yojson.Safe.json array -> Yojson.Safe.json list
+)
+ident(
+  ext_ref Ppx_deriving_yojson_runtime.Array.to_list
+)
+type(
+  'a2 array'
+)
+ident(
+  def x "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  'a3.
+    (Yojson.Safe.json -> 'a3 Ppx_deriving_yojson_runtime.error_or) ->
+    Yojson.Safe.json -> 'a3 array' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def array'_of_yojson "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'a3. ('a3 -> Yojson.Safe.json) -> 'a3 array' -> Yojson.Safe.json
+)
+ident(
+  def array'_to_yojson "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  (Format.formatter -> 'a -> Ppx_deriving_runtime.unit) ->
+  'a array -> Ppx_deriving_runtime.string
+)
+type(
+  'a array -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  'a array
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Format.formatter -> 'a array -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'a -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  (Format.formatter -> 'a -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a array -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_array "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  ((Format.formatter -> 'a array -> Ppx_deriving_runtime.unit) ->
+   'a array -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> 'a array -> Ppx_deriving_runtime.unit) ->
+   'a array -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> 'a array -> Ppx_deriving_runtime.unit) ->
+  'a array -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  'a array
+)
+ident(
+  def x "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Format.formatter -> 'a -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 array -> Ppx_deriving_runtime.unit
+)
+type(
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 array -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'a0 array -> Ppx_deriving_runtime.unit
+)
+type(
+  'a0 array -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+type(
+  'a0 -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 array -> Ppx_deriving_runtime.unit
+)
+type(
+  unit
+)
+type(
+  unit ->
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 array -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref __0 "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  unit ->
+  (Format.formatter -> 'b -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'b array' -> Ppx_deriving_runtime.unit
+)
+type(
+  (Format.formatter -> 'b -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'b array' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_array' "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  unit
+)
+type(
+  unit ->
+  (Format.formatter -> 'b -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'b array' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def __0 "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  'a1.
+    (Format.formatter -> 'a1 -> Ppx_deriving_runtime.unit) ->
+    'a1 array -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_array "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'a1.
+    (Format.formatter -> 'a1 -> Ppx_deriving_runtime.unit) ->
+    Format.formatter -> 'a1 array -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_array "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  (Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json -> 'a1 array Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 array Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  'a1 array' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Yojson.Safe.json -> 'a1 array' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  (Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json -> 'a1 array' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref array'_of_yojson "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  ('a2 -> Yojson.Safe.json) -> 'a2 array -> Yojson.Safe.json
+)
+type(
+  'a2 array -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  'a2 array
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  'a2 array' -> Yojson.Safe.json
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  ('a2 -> Yojson.Safe.json) -> 'a2 array' -> Yojson.Safe.json
+)
+ident(
+  int_ref array'_to_yojson "ulib/ml/prims.ml" 143 4827 4827 "ulib/ml/prims.ml" 143 4827 4876
+)
+type(
+  'a2 array
+)
+ident(
+  def x "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 144 4877 4926
+)
+type(
+  'a3.
+    (Yojson.Safe.json -> 'a3 Ppx_deriving_yojson_runtime.error_or) ->
+    Yojson.Safe.json -> 'a3 array Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def array_of_yojson "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'a3. ('a3 -> Yojson.Safe.json) -> 'a3 array -> Yojson.Safe.json
+)
+ident(
+  def array_to_yojson "ulib/ml/prims.ml" 144 4877 4877 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 145 4927 4931 "ulib/ml/prims.ml" 145 4927 4937
+type(
+  string -> string -> string
+)
+ident(
+  def strcat "ulib/ml/prims.ml" 146 4950 4950 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 145 4927 4938 "ulib/ml/prims.ml" 145 4927 4939
+type(
+  string
+)
+ident(
+  def x "ulib/ml/prims.ml" 145 4927 4940 "ulib/ml/prims.ml" 145 4927 4949
+)
+"ulib/ml/prims.ml" 145 4927 4940 "ulib/ml/prims.ml" 145 4927 4941
+type(
+  string
+)
+ident(
+  def y "ulib/ml/prims.ml" 145 4927 4944 "ulib/ml/prims.ml" 145 4927 4949
+)
+"ulib/ml/prims.ml" 145 4927 4944 "ulib/ml/prims.ml" 145 4927 4945
+type(
+  string
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 145 4927 4938 "ulib/ml/prims.ml" 145 4927 4939
+)
+"ulib/ml/prims.ml" 145 4927 4946 "ulib/ml/prims.ml" 145 4927 4947
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ulib/ml/prims.ml" 145 4927 4948 "ulib/ml/prims.ml" 145 4927 4949
+type(
+  string
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 145 4927 4940 "ulib/ml/prims.ml" 145 4927 4941
+)
+"ulib/ml/prims.ml" 145 4927 4944 "ulib/ml/prims.ml" 145 4927 4949
+call(
+  tail
+)
+type(
+  string
+)
+"ulib/ml/prims.ml" 146 4950 4954 "ulib/ml/prims.ml" 146 4950 4960
+type(
+  string -> string -> string
+)
+ident(
+  def op_Hat "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 146 4950 4961 "ulib/ml/prims.ml" 146 4950 4962
+type(
+  string
+)
+ident(
+  def x "ulib/ml/prims.ml" 146 4950 4963 "ulib/ml/prims.ml" 146 4950 4972
+)
+"ulib/ml/prims.ml" 146 4950 4963 "ulib/ml/prims.ml" 146 4950 4964
+type(
+  string
+)
+ident(
+  def y "ulib/ml/prims.ml" 146 4950 4967 "ulib/ml/prims.ml" 146 4950 4972
+)
+"ulib/ml/prims.ml" 146 4950 4967 "ulib/ml/prims.ml" 146 4950 4968
+type(
+  string
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 146 4950 4961 "ulib/ml/prims.ml" 146 4950 4962
+)
+"ulib/ml/prims.ml" 146 4950 4969 "ulib/ml/prims.ml" 146 4950 4970
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"ulib/ml/prims.ml" 146 4950 4971 "ulib/ml/prims.ml" 146 4950 4972
+type(
+  string
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 146 4950 4963 "ulib/ml/prims.ml" 146 4950 4964
+)
+"ulib/ml/prims.ml" 146 4950 4967 "ulib/ml/prims.ml" 146 4950 4972
+call(
+  tail
+)
+type(
+  string
+)
+"ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+type(
+  (Format.formatter -> 'a -> Ppx_deriving_runtime.unit) ->
+  'a list' -> Ppx_deriving_runtime.string
+)
+type(
+  'a list' -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  'a list'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Format.formatter -> 'a list' -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'a -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  (Format.formatter -> 'a -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a list' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_list' "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  ((Format.formatter -> 'a list' -> Ppx_deriving_runtime.unit) ->
+   'a list' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> 'a list' -> Ppx_deriving_runtime.unit) ->
+   'a list' -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> 'a list' -> Ppx_deriving_runtime.unit) ->
+  'a list' -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  'a list'
+)
+ident(
+  def x "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Format.formatter -> 'a -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 list' -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'a0 list' -> Ppx_deriving_runtime.unit
+)
+type(
+  'a0 list' -> Ppx_deriving_runtime.unit
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  (Ppx_deriving_runtime.unit, Format.formatter, Ppx_deriving_runtime.unit)
+  format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Format.formatter ->
+  (Ppx_deriving_runtime.unit, Format.formatter, Ppx_deriving_runtime.unit)
+  format -> Ppx_deriving_runtime.unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  unit
+)
+type(
+  bool
+)
+type(
+  'a0 list'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  bool
+)
+type(
+  bool -> 'a0 -> bool
+)
+type(
+  'a0 -> bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Ppx_deriving_runtime.unit
+)
+type(
+  'a0
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  'a0 -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  bool
+)
+ident(
+  int_ref sep "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  'a0
+)
+ident(
+  def x "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  bool
+)
+ident(
+  def sep "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  (bool -> 'a0 -> bool) -> bool -> 'a0 list' -> bool
+)
+ident(
+  ext_ref Ppx_deriving_runtime.List.fold_left
+)
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.ignore
+)
+type(
+  unit
+)
+type(
+  (unit, Format.formatter, unit) format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  'a0 list'
+)
+ident(
+  def x "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  'a1.
+    (Format.formatter -> 'a1 -> Ppx_deriving_runtime.unit) ->
+    'a1 list' -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_list' "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'a1.
+    (Format.formatter -> 'a1 -> Ppx_deriving_runtime.unit) ->
+    Format.formatter -> 'a1 list' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_list' "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  (Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json -> 'a1 list' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 list' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  ('a1 list', string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  'a1 list' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json list
+)
+ident(
+  int_ref xs "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  'a1 list
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  (Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or) ->
+  'a1 list ->
+  Yojson.Safe.json list -> 'a1 list' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  ext_ref Ppx_deriving_yojson_runtime.map_bind
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json list
+)
+ident(
+  def xs "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  ('a2 -> Yojson.Safe.json) -> 'a2 list' -> Yojson.Safe.json
+)
+type(
+  'a2 list' -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json list
+)
+type(
+  'a2 list'
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  ('a2 -> Yojson.Safe.json) -> 'a2 list' -> Yojson.Safe.json list
+)
+ident(
+  ext_ref Ppx_deriving_yojson_runtime.List.map
+)
+type(
+  'a2 list'
+)
+ident(
+  def x "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  'a3.
+    (Yojson.Safe.json -> 'a3 Ppx_deriving_yojson_runtime.error_or) ->
+    Yojson.Safe.json -> 'a3 list' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def list'_of_yojson "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'a3. ('a3 -> Yojson.Safe.json) -> 'a3 list' -> Yojson.Safe.json
+)
+ident(
+  def list'_to_yojson "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  (Format.formatter -> 'a -> Ppx_deriving_runtime.unit) ->
+  'a list -> Ppx_deriving_runtime.string
+)
+type(
+  'a list -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  'a list
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Format.formatter -> 'a list -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'a -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  (Format.formatter -> 'a -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a list -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_list "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  ((Format.formatter -> 'a list -> Ppx_deriving_runtime.unit) ->
+   'a list -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> 'a list -> Ppx_deriving_runtime.unit) ->
+   'a list -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> 'a list -> Ppx_deriving_runtime.unit) ->
+  'a list -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  'a list
+)
+ident(
+  def x "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Format.formatter -> 'a -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 list -> Ppx_deriving_runtime.unit
+)
+type(
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 list -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter -> 'a0 list -> Ppx_deriving_runtime.unit
+)
+type(
+  'a0 list -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+type(
+  'a0 -> Ppx_deriving_runtime.unit
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 list -> Ppx_deriving_runtime.unit
+)
+type(
+  unit
+)
+type(
+  unit ->
+  (Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'a0 list -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref __0 "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Format.formatter -> 'a0 -> Ppx_deriving_runtime.unit
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  unit ->
+  (Format.formatter -> 'b -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'b list' -> Ppx_deriving_runtime.unit
+)
+type(
+  (Format.formatter -> 'b -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'b list' -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_list' "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  unit
+)
+type(
+  unit ->
+  (Format.formatter -> 'b -> Ppx_deriving_runtime.unit) ->
+  Format.formatter -> 'b list' -> Ppx_deriving_runtime.unit
+)
+ident(
+  def __0 "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  'a1.
+    (Format.formatter -> 'a1 -> Ppx_deriving_runtime.unit) ->
+    'a1 list -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_list "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'a1.
+    (Format.formatter -> 'a1 -> Ppx_deriving_runtime.unit) ->
+    Format.formatter -> 'a1 list -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_list "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  (Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json -> 'a1 list Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 list Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  'a1 list' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Yojson.Safe.json -> 'a1 list' Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  (Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or) ->
+  Yojson.Safe.json -> 'a1 list' Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  int_ref list'_of_yojson "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  Yojson.Safe.json -> 'a1 Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  ('a2 -> Yojson.Safe.json) -> 'a2 list -> Yojson.Safe.json
+)
+type(
+  'a2 list -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  'a2 list
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  'a2 list' -> Yojson.Safe.json
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+ident(
+  int_ref poly_a "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  ('a2 -> Yojson.Safe.json) -> 'a2 list' -> Yojson.Safe.json
+)
+ident(
+  int_ref list'_to_yojson "ulib/ml/prims.ml" 148 4974 4974 "ulib/ml/prims.ml" 148 4974 5021
+)
+type(
+  'a2 list
+)
+ident(
+  def x "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  'a2 -> Yojson.Safe.json
+)
+ident(
+  def poly_a "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 149 5022 5069
+)
+type(
+  'a3.
+    (Yojson.Safe.json -> 'a3 Ppx_deriving_yojson_runtime.error_or) ->
+    Yojson.Safe.json -> 'a3 list Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def list_of_yojson "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 1 0 -1
+)
+type(
+  'a3. ('a3 -> Yojson.Safe.json) -> 'a3 list -> Yojson.Safe.json
+)
+ident(
+  def list_to_yojson "ulib/ml/prims.ml" 149 5022 5022 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 150 5070 5074 "ulib/ml/prims.ml" 150 5070 5085
+type(
+  'Aa. 'Aa list -> bool
+)
+ident(
+  def uu___is_Nil "ulib/ml/prims.ml" 152 5190 5190 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 151 5113 5119 "ulib/ml/prims.ml" 151 5113 5128
+type(
+  'Aa list
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 151 5113 5133 "ulib/ml/prims.ml" 151 5113 5189
+)
+"ulib/ml/prims.ml" 151 5113 5139 "ulib/ml/prims.ml" 151 5113 5148
+type(
+  'Aa list
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 151 5113 5119 "ulib/ml/prims.ml" 151 5113 5128
+)
+"ulib/ml/prims.ml" 151 5113 5156 "ulib/ml/prims.ml" 151 5113 5158
+type(
+  'Aa list
+)
+"ulib/ml/prims.ml" 151 5113 5163 "ulib/ml/prims.ml" 151 5113 5167
+type(
+  bool
+)
+"ulib/ml/prims.ml" 151 5113 5170 "ulib/ml/prims.ml" 151 5113 5180
+type(
+  'Aa list
+)
+ident(
+  def uu____1190 "ulib/ml/prims.ml" 151 5113 5184 "ulib/ml/prims.ml" 151 5113 5189
+)
+"ulib/ml/prims.ml" 151 5113 5184 "ulib/ml/prims.ml" 151 5113 5189
+type(
+  bool
+)
+"ulib/ml/prims.ml" 151 5113 5133 "ulib/ml/prims.ml" 151 5113 5189
+type(
+  bool
+)
+"ulib/ml/prims.ml" 151 5113 5115 "ulib/ml/prims.ml" 151 5113 5189
+type(
+  'Aa list -> bool
+)
+"ulib/ml/prims.ml" 152 5190 5194 "ulib/ml/prims.ml" 152 5190 5206
+type(
+  'Aa. 'Aa list -> bool
+)
+ident(
+  def uu___is_Cons "ulib/ml/prims.ml" 156 5319 5319 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 153 5234 5240 "ulib/ml/prims.ml" 153 5234 5249
+type(
+  'Aa list
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 154 5254 5258 "ulib/ml/prims.ml" 154 5254 5317
+)
+"ulib/ml/prims.ml" 154 5254 5264 "ulib/ml/prims.ml" 154 5254 5273
+type(
+  'Aa list
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 153 5234 5240 "ulib/ml/prims.ml" 153 5234 5249
+)
+"ulib/ml/prims.ml" 154 5254 5281 "ulib/ml/prims.ml" 154 5254 5283
+type(
+  'Aa
+)
+ident(
+  def hd "ulib/ml/prims.ml" 154 5254 5291 "ulib/ml/prims.ml" 154 5254 5295
+)
+"ulib/ml/prims.ml" 154 5254 5285 "ulib/ml/prims.ml" 154 5254 5287
+type(
+  'Aa list
+)
+ident(
+  def tl "ulib/ml/prims.ml" 154 5254 5291 "ulib/ml/prims.ml" 154 5254 5295
+)
+"ulib/ml/prims.ml" 154 5254 5281 "ulib/ml/prims.ml" 154 5254 5287
+type(
+  'Aa list
+)
+"ulib/ml/prims.ml" 154 5254 5291 "ulib/ml/prims.ml" 154 5254 5295
+type(
+  bool
+)
+"ulib/ml/prims.ml" 154 5254 5298 "ulib/ml/prims.ml" 154 5254 5308
+type(
+  'Aa list
+)
+ident(
+  def uu____1216 "ulib/ml/prims.ml" 154 5254 5312 "ulib/ml/prims.ml" 154 5254 5317
+)
+"ulib/ml/prims.ml" 154 5254 5312 "ulib/ml/prims.ml" 154 5254 5317
+type(
+  bool
+)
+"ulib/ml/prims.ml" 154 5254 5258 "ulib/ml/prims.ml" 154 5254 5317
+type(
+  bool
+)
+"ulib/ml/prims.ml" 153 5234 5236 "ulib/ml/prims.ml" 154 5254 5317
+type(
+  'Aa list -> bool
+)
+"ulib/ml/prims.ml" 156 5319 5323 "ulib/ml/prims.ml" 156 5319 5345
+type(
+  'Aa. 'Aa list -> 'Aa
+)
+ident(
+  def __proj__Cons__item__hd "ulib/ml/prims.ml" 158 5428 5428 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 157 5372 5378 "ulib/ml/prims.ml" 157 5372 5387
+type(
+  'Aa list
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 157 5372 5392 "ulib/ml/prims.ml" 157 5372 5427
+)
+"ulib/ml/prims.ml" 157 5372 5398 "ulib/ml/prims.ml" 157 5372 5407
+type(
+  'Aa list
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 157 5372 5378 "ulib/ml/prims.ml" 157 5372 5387
+)
+"ulib/ml/prims.ml" 157 5372 5415 "ulib/ml/prims.ml" 157 5372 5417
+type(
+  'Aa
+)
+ident(
+  def hd "ulib/ml/prims.ml" 157 5372 5425 "ulib/ml/prims.ml" 157 5372 5427
+)
+"ulib/ml/prims.ml" 157 5372 5419 "ulib/ml/prims.ml" 157 5372 5421
+type(
+  'Aa list
+)
+ident(
+  def tl "ulib/ml/prims.ml" 157 5372 5425 "ulib/ml/prims.ml" 157 5372 5427
+)
+"ulib/ml/prims.ml" 157 5372 5415 "ulib/ml/prims.ml" 157 5372 5421
+type(
+  'Aa list
+)
+"ulib/ml/prims.ml" 157 5372 5425 "ulib/ml/prims.ml" 157 5372 5427
+type(
+  'Aa
+)
+ident(
+  int_ref hd "ulib/ml/prims.ml" 157 5372 5415 "ulib/ml/prims.ml" 157 5372 5417
+)
+"ulib/ml/prims.ml" 157 5372 5392 "ulib/ml/prims.ml" 157 5372 5427
+type(
+  'Aa
+)
+"ulib/ml/prims.ml" 157 5372 5374 "ulib/ml/prims.ml" 157 5372 5427
+type(
+  'Aa list -> 'Aa
+)
+"ulib/ml/prims.ml" 158 5428 5432 "ulib/ml/prims.ml" 158 5428 5454
+type(
+  'Aa. 'Aa list -> 'Aa list
+)
+ident(
+  def __proj__Cons__item__tl "ulib/ml/prims.ml" 160 5542 5542 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 159 5486 5492 "ulib/ml/prims.ml" 159 5486 5501
+type(
+  'Aa list
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 159 5486 5506 "ulib/ml/prims.ml" 159 5486 5541
+)
+"ulib/ml/prims.ml" 159 5486 5512 "ulib/ml/prims.ml" 159 5486 5521
+type(
+  'Aa list
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 159 5486 5492 "ulib/ml/prims.ml" 159 5486 5501
+)
+"ulib/ml/prims.ml" 159 5486 5529 "ulib/ml/prims.ml" 159 5486 5531
+type(
+  'Aa
+)
+ident(
+  def hd "ulib/ml/prims.ml" 159 5486 5539 "ulib/ml/prims.ml" 159 5486 5541
+)
+"ulib/ml/prims.ml" 159 5486 5533 "ulib/ml/prims.ml" 159 5486 5535
+type(
+  'Aa list
+)
+ident(
+  def tl "ulib/ml/prims.ml" 159 5486 5539 "ulib/ml/prims.ml" 159 5486 5541
+)
+"ulib/ml/prims.ml" 159 5486 5529 "ulib/ml/prims.ml" 159 5486 5535
+type(
+  'Aa list
+)
+"ulib/ml/prims.ml" 159 5486 5539 "ulib/ml/prims.ml" 159 5486 5541
+type(
+  'Aa list
+)
+ident(
+  int_ref tl "ulib/ml/prims.ml" 159 5486 5533 "ulib/ml/prims.ml" 159 5486 5535
+)
+"ulib/ml/prims.ml" 159 5486 5506 "ulib/ml/prims.ml" 159 5486 5541
+type(
+  'Aa list
+)
+"ulib/ml/prims.ml" 159 5486 5488 "ulib/ml/prims.ml" 159 5486 5541
+type(
+  'Aa list -> 'Aa list
+)
+"ulib/ml/prims.ml" 164 5605 5609 "ulib/ml/prims.ml" 164 5605 5616
+type(
+  'Aa. 'Aa -> 'Aa
+)
+ident(
+  def returnM "ulib/ml/prims.ml" 165 5650 5650 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 164 5605 5642 "ulib/ml/prims.ml" 164 5605 5643
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/prims.ml" 164 5605 5648 "ulib/ml/prims.ml" 164 5605 5649
+)
+"ulib/ml/prims.ml" 164 5605 5648 "ulib/ml/prims.ml" 164 5605 5649
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 164 5605 5642 "ulib/ml/prims.ml" 164 5605 5643
+)
+"ulib/ml/prims.ml" 164 5605 5638 "ulib/ml/prims.ml" 164 5605 5649
+type(
+  'Aa -> 'Aa
+)
+"ulib/ml/prims.ml" 168 5710 5715 "ulib/ml/prims.ml" 168 5710 5729
+type(
+  lex_t -> bool
+)
+ident(
+  def uu___is_LexTop "ulib/ml/prims.ml" 172 5835 5835 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 169 5749 5755 "ulib/ml/prims.ml" 169 5749 5764
+type(
+  lex_t
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 170 5769 5773 "ulib/ml/prims.ml" 170 5769 5833
+)
+"ulib/ml/prims.ml" 170 5769 5779 "ulib/ml/prims.ml" 170 5769 5788
+type(
+  lex_t
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 169 5749 5755 "ulib/ml/prims.ml" 169 5749 5764
+)
+"ulib/ml/prims.ml" 170 5769 5796 "ulib/ml/prims.ml" 170 5769 5802
+type(
+  lex_t
+)
+"ulib/ml/prims.ml" 170 5769 5807 "ulib/ml/prims.ml" 170 5769 5811
+type(
+  bool
+)
+"ulib/ml/prims.ml" 170 5769 5814 "ulib/ml/prims.ml" 170 5769 5824
+type(
+  lex_t
+)
+ident(
+  def uu____1313 "ulib/ml/prims.ml" 170 5769 5828 "ulib/ml/prims.ml" 170 5769 5833
+)
+"ulib/ml/prims.ml" 170 5769 5828 "ulib/ml/prims.ml" 170 5769 5833
+type(
+  bool
+)
+"ulib/ml/prims.ml" 170 5769 5773 "ulib/ml/prims.ml" 170 5769 5833
+type(
+  bool
+)
+"ulib/ml/prims.ml" 169 5749 5751 "ulib/ml/prims.ml" 170 5769 5833
+type(
+  lex_t -> bool
+)
+"ulib/ml/prims.ml" 172 5835 5840 "ulib/ml/prims.ml" 172 5835 5855
+type(
+  lex_t -> bool
+)
+ident(
+  def uu___is_LexCons "ulib/ml/prims.ml" 176 5971 5971 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 173 5875 5881 "ulib/ml/prims.ml" 173 5875 5890
+type(
+  lex_t
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 174 5895 5899 "ulib/ml/prims.ml" 174 5895 5969
+)
+"ulib/ml/prims.ml" 174 5895 5905 "ulib/ml/prims.ml" 174 5895 5914
+type(
+  lex_t
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 173 5875 5881 "ulib/ml/prims.ml" 173 5875 5890
+)
+"ulib/ml/prims.ml" 174 5895 5931 "ulib/ml/prims.ml" 174 5895 5932
+type(
+  unit
+)
+ident(
+  def a "ulib/ml/prims.ml" 174 5895 5943 "ulib/ml/prims.ml" 174 5895 5947
+)
+"ulib/ml/prims.ml" 174 5895 5933 "ulib/ml/prims.ml" 174 5895 5935
+type(
+  Obj.t
+)
+ident(
+  def _1 "ulib/ml/prims.ml" 174 5895 5943 "ulib/ml/prims.ml" 174 5895 5947
+)
+"ulib/ml/prims.ml" 174 5895 5936 "ulib/ml/prims.ml" 174 5895 5938
+type(
+  lex_t
+)
+ident(
+  def _2 "ulib/ml/prims.ml" 174 5895 5943 "ulib/ml/prims.ml" 174 5895 5947
+)
+"ulib/ml/prims.ml" 174 5895 5922 "ulib/ml/prims.ml" 174 5895 5939
+type(
+  lex_t
+)
+"ulib/ml/prims.ml" 174 5895 5943 "ulib/ml/prims.ml" 174 5895 5947
+type(
+  bool
+)
+"ulib/ml/prims.ml" 174 5895 5950 "ulib/ml/prims.ml" 174 5895 5960
+type(
+  lex_t
+)
+ident(
+  def uu____1327 "ulib/ml/prims.ml" 174 5895 5964 "ulib/ml/prims.ml" 174 5895 5969
+)
+"ulib/ml/prims.ml" 174 5895 5964 "ulib/ml/prims.ml" 174 5895 5969
+type(
+  bool
+)
+"ulib/ml/prims.ml" 174 5895 5899 "ulib/ml/prims.ml" 174 5895 5969
+type(
+  bool
+)
+"ulib/ml/prims.ml" 173 5875 5877 "ulib/ml/prims.ml" 174 5895 5969
+type(
+  lex_t -> bool
+)
+"ulib/ml/prims.ml" 177 6021 6026 "ulib/ml/prims.ml" 177 6021 6051
+type(
+  lex_t -> Obj.t
+)
+ident(
+  def __proj__LexCons__item___1 "ulib/ml/prims.ml" 179 6139 6139 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 178 6072 6078 "ulib/ml/prims.ml" 178 6072 6087
+type(
+  lex_t
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 178 6072 6092 "ulib/ml/prims.ml" 178 6072 6138
+)
+"ulib/ml/prims.ml" 178 6072 6098 "ulib/ml/prims.ml" 178 6072 6107
+type(
+  lex_t
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 178 6072 6078 "ulib/ml/prims.ml" 178 6072 6087
+)
+"ulib/ml/prims.ml" 178 6072 6124 "ulib/ml/prims.ml" 178 6072 6125
+type(
+  unit
+)
+ident(
+  def a "ulib/ml/prims.ml" 178 6072 6136 "ulib/ml/prims.ml" 178 6072 6138
+)
+"ulib/ml/prims.ml" 178 6072 6126 "ulib/ml/prims.ml" 178 6072 6128
+type(
+  Obj.t
+)
+ident(
+  def _1 "ulib/ml/prims.ml" 178 6072 6136 "ulib/ml/prims.ml" 178 6072 6138
+)
+"ulib/ml/prims.ml" 178 6072 6129 "ulib/ml/prims.ml" 178 6072 6131
+type(
+  lex_t
+)
+ident(
+  def _2 "ulib/ml/prims.ml" 178 6072 6136 "ulib/ml/prims.ml" 178 6072 6138
+)
+"ulib/ml/prims.ml" 178 6072 6115 "ulib/ml/prims.ml" 178 6072 6132
+type(
+  lex_t
+)
+"ulib/ml/prims.ml" 178 6072 6136 "ulib/ml/prims.ml" 178 6072 6138
+type(
+  Obj.t
+)
+ident(
+  int_ref _1 "ulib/ml/prims.ml" 178 6072 6126 "ulib/ml/prims.ml" 178 6072 6128
+)
+"ulib/ml/prims.ml" 178 6072 6092 "ulib/ml/prims.ml" 178 6072 6138
+type(
+  Obj.t
+)
+"ulib/ml/prims.ml" 178 6072 6074 "ulib/ml/prims.ml" 178 6072 6138
+type(
+  lex_t -> Obj.t
+)
+"ulib/ml/prims.ml" 179 6139 6144 "ulib/ml/prims.ml" 179 6139 6169
+type(
+  lex_t -> lex_t
+)
+ident(
+  def __proj__LexCons__item___2 "ulib/ml/prims.ml" 181 6257 6257 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 180 6190 6196 "ulib/ml/prims.ml" 180 6190 6205
+type(
+  lex_t
+)
+ident(
+  def projectee "ulib/ml/prims.ml" 180 6190 6210 "ulib/ml/prims.ml" 180 6190 6256
+)
+"ulib/ml/prims.ml" 180 6190 6216 "ulib/ml/prims.ml" 180 6190 6225
+type(
+  lex_t
+)
+ident(
+  int_ref projectee "ulib/ml/prims.ml" 180 6190 6196 "ulib/ml/prims.ml" 180 6190 6205
+)
+"ulib/ml/prims.ml" 180 6190 6242 "ulib/ml/prims.ml" 180 6190 6243
+type(
+  unit
+)
+ident(
+  def a "ulib/ml/prims.ml" 180 6190 6254 "ulib/ml/prims.ml" 180 6190 6256
+)
+"ulib/ml/prims.ml" 180 6190 6244 "ulib/ml/prims.ml" 180 6190 6246
+type(
+  Obj.t
+)
+ident(
+  def _1 "ulib/ml/prims.ml" 180 6190 6254 "ulib/ml/prims.ml" 180 6190 6256
+)
+"ulib/ml/prims.ml" 180 6190 6247 "ulib/ml/prims.ml" 180 6190 6249
+type(
+  lex_t
+)
+ident(
+  def _2 "ulib/ml/prims.ml" 180 6190 6254 "ulib/ml/prims.ml" 180 6190 6256
+)
+"ulib/ml/prims.ml" 180 6190 6233 "ulib/ml/prims.ml" 180 6190 6250
+type(
+  lex_t
+)
+"ulib/ml/prims.ml" 180 6190 6254 "ulib/ml/prims.ml" 180 6190 6256
+type(
+  lex_t
+)
+ident(
+  int_ref _2 "ulib/ml/prims.ml" 180 6190 6247 "ulib/ml/prims.ml" 180 6190 6249
+)
+"ulib/ml/prims.ml" 180 6190 6210 "ulib/ml/prims.ml" 180 6190 6256
+type(
+  lex_t
+)
+"ulib/ml/prims.ml" 180 6190 6192 "ulib/ml/prims.ml" 180 6190 6256
+type(
+  lex_t -> lex_t
+)
+"ulib/ml/prims.ml" 183 6330 6334 "ulib/ml/prims.ml" 183 6330 6339
+type(
+  unit -> 'a
+)
+ident(
+  def admit "ulib/ml/prims.ml" 184 6388 6388 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 183 6330 6340 "ulib/ml/prims.ml" 183 6330 6342
+type(
+  unit
+)
+"ulib/ml/prims.ml" 183 6330 6345 "ulib/ml/prims.ml" 183 6330 6353
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/prims.ml" 183 6330 6354 "ulib/ml/prims.ml" 183 6330 6387
+type(
+  string
+)
+"ulib/ml/prims.ml" 183 6330 6345 "ulib/ml/prims.ml" 183 6330 6387
+call(
+  tail
+)
+type(
+  'a
+)
+"ulib/ml/prims.ml" 184 6388 6392 "ulib/ml/prims.ml" 184 6388 6397
+type(
+  unit -> 'a
+)
+ident(
+  def magic "ulib/ml/prims.ml" 185 6446 6446 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 184 6388 6398 "ulib/ml/prims.ml" 184 6388 6400
+type(
+  unit
+)
+"ulib/ml/prims.ml" 184 6388 6403 "ulib/ml/prims.ml" 184 6388 6411
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/prims.ml" 184 6388 6412 "ulib/ml/prims.ml" 184 6388 6445
+type(
+  string
+)
+"ulib/ml/prims.ml" 184 6388 6403 "ulib/ml/prims.ml" 184 6388 6445
+call(
+  tail
+)
+type(
+  'a
+)
+"ulib/ml/prims.ml" 185 6446 6450 "ulib/ml/prims.ml" 185 6446 6463
+type(
+  'Aa 'Ab. 'Aa -> 'Ab
+)
+ident(
+  def unsafe_coerce "ulib/ml/prims.ml" 188 6513 6513 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 186 6489 6495 "ulib/ml/prims.ml" 186 6489 6496
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/prims.ml" 186 6489 6500 "ulib/ml/prims.ml" 186 6489 6511
+)
+"ulib/ml/prims.ml" 186 6489 6500 "ulib/ml/prims.ml" 186 6489 6509
+type(
+  'Aa -> 'Ab
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/prims.ml" 186 6489 6510 "ulib/ml/prims.ml" 186 6489 6511
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 186 6489 6495 "ulib/ml/prims.ml" 186 6489 6496
+)
+"ulib/ml/prims.ml" 186 6489 6500 "ulib/ml/prims.ml" 186 6489 6511
+type(
+  'Ab
+)
+"ulib/ml/prims.ml" 186 6489 6491 "ulib/ml/prims.ml" 186 6489 6511
+type(
+  'Aa -> 'Ab
+)
+"ulib/ml/prims.ml" 194 6587 6591 "ulib/ml/prims.ml" 194 6587 6601
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def op_Modulus "ulib/ml/prims.ml" 195 6616 6616 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 194 6587 6602 "ulib/ml/prims.ml" 194 6587 6603
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 194 6587 6604 "ulib/ml/prims.ml" 194 6587 6615
+)
+"ulib/ml/prims.ml" 194 6587 6604 "ulib/ml/prims.ml" 194 6587 6605
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 194 6587 6608 "ulib/ml/prims.ml" 194 6587 6615
+)
+"ulib/ml/prims.ml" 194 6587 6608 "ulib/ml/prims.ml" 194 6587 6609
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 194 6587 6602 "ulib/ml/prims.ml" 194 6587 6603
+)
+"ulib/ml/prims.ml" 194 6587 6610 "ulib/ml/prims.ml" 194 6587 6613
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref mod "ulib/ml/prims.ml" 127 4437 4441 "ulib/ml/prims.ml" 127 4437 4448
+)
+"ulib/ml/prims.ml" 194 6587 6614 "ulib/ml/prims.ml" 194 6587 6615
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 194 6587 6604 "ulib/ml/prims.ml" 194 6587 6605
+)
+"ulib/ml/prims.ml" 194 6587 6608 "ulib/ml/prims.ml" 194 6587 6615
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 195 6616 6620 "ulib/ml/prims.ml" 195 6616 6631
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def op_Division "ulib/ml/prims.ml" 196 6644 6644 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 195 6616 6632 "ulib/ml/prims.ml" 195 6616 6633
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/prims.ml" 195 6616 6634 "ulib/ml/prims.ml" 195 6616 6643
+)
+"ulib/ml/prims.ml" 195 6616 6634 "ulib/ml/prims.ml" 195 6616 6635
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/prims.ml" 195 6616 6638 "ulib/ml/prims.ml" 195 6616 6643
+)
+"ulib/ml/prims.ml" 195 6616 6638 "ulib/ml/prims.ml" 195 6616 6639
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 195 6616 6632 "ulib/ml/prims.ml" 195 6616 6633
+)
+"ulib/ml/prims.ml" 195 6616 6640 "ulib/ml/prims.ml" 195 6616 6641
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref / "ulib/ml/prims.ml" 122 4328 4332 "ulib/ml/prims.ml" 122 4328 4337
+)
+"ulib/ml/prims.ml" 195 6616 6642 "ulib/ml/prims.ml" 195 6616 6643
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 195 6616 6634 "ulib/ml/prims.ml" 195 6616 6635
+)
+"ulib/ml/prims.ml" 195 6616 6638 "ulib/ml/prims.ml" 195 6616 6643
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 196 6644 6653 "ulib/ml/prims.ml" 196 6644 6657
+type(
+  nat -> pos
+)
+ident(
+  def pow2 "ulib/ml/prims.ml" 196 6644 6644 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 197 6674 6680 "ulib/ml/prims.ml" 197 6674 6681
+type(
+  nat
+)
+ident(
+  def x "ulib/ml/prims.ml" 198 6686 6690 "ulib/ml/prims.ml" 202 6817 6868
+)
+"ulib/ml/prims.ml" 198 6686 6696 "ulib/ml/prims.ml" 198 6686 6697
+type(
+  nat
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 197 6674 6680 "ulib/ml/prims.ml" 197 6674 6681
+)
+"ulib/ml/prims.ml" 199 6703 6709 "ulib/ml/prims.ml" 199 6703 6713
+type(
+  nat
+)
+ident(
+  def _0_2 "ulib/ml/prims.ml" 199 6703 6719 "ulib/ml/prims.ml" 199 6703 6760
+)
+"ulib/ml/prims.ml" 199 6703 6719 "ulib/ml/prims.ml" 199 6703 6723
+type(
+  nat
+)
+ident(
+  int_ref _0_2 "ulib/ml/prims.ml" 199 6703 6709 "ulib/ml/prims.ml" 199 6703 6713
+)
+"ulib/ml/prims.ml" 199 6703 6724 "ulib/ml/prims.ml" 199 6703 6725
+type(
+  nat -> nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/prims.ml" 199 6703 6727 "ulib/ml/prims.ml" 199 6703 6736
+type(
+  string -> nat
+)
+ident(
+  int_ref parse_int "ulib/ml/prims.ml" 5 117 121 "ulib/ml/prims.ml" 5 117 130
+)
+"ulib/ml/prims.ml" 199 6703 6737 "ulib/ml/prims.ml" 199 6703 6740
+type(
+  string
+)
+"ulib/ml/prims.ml" 199 6703 6726 "ulib/ml/prims.ml" 199 6703 6741
+call(
+  stack
+)
+type(
+  nat
+)
+"ulib/ml/prims.ml" 199 6703 6719 "ulib/ml/prims.ml" 199 6703 6741
+type(
+  bool
+)
+"ulib/ml/prims.ml" 199 6703 6746 "ulib/ml/prims.ml" 199 6703 6755
+type(
+  string -> pos
+)
+ident(
+  int_ref parse_int "ulib/ml/prims.ml" 5 117 121 "ulib/ml/prims.ml" 5 117 130
+)
+"ulib/ml/prims.ml" 199 6703 6756 "ulib/ml/prims.ml" 199 6703 6759
+type(
+  string
+)
+"ulib/ml/prims.ml" 199 6703 6745 "ulib/ml/prims.ml" 199 6703 6760
+call(
+  tail
+)
+type(
+  pos
+)
+"ulib/ml/prims.ml" 200 6761 6767 "ulib/ml/prims.ml" 200 6761 6777
+type(
+  nat
+)
+ident(
+  def uu____1577 "ulib/ml/prims.ml" 201 6781 6789 "ulib/ml/prims.ml" 202 6817 6868
+)
+"ulib/ml/prims.ml" 201 6781 6789 "ulib/ml/prims.ml" 201 6781 6800
+type(
+  Z.t -> pos -> pos
+)
+ident(
+  int_ref op_Multiply "ulib/ml/prims.ml" 131 4505 4509 "ulib/ml/prims.ml" 131 4505 4520
+)
+"ulib/ml/prims.ml" 201 6781 6802 "ulib/ml/prims.ml" 201 6781 6811
+type(
+  string -> Z.t
+)
+ident(
+  int_ref parse_int "ulib/ml/prims.ml" 5 117 121 "ulib/ml/prims.ml" 5 117 130
+)
+"ulib/ml/prims.ml" 201 6781 6812 "ulib/ml/prims.ml" 201 6781 6815
+type(
+  string
+)
+"ulib/ml/prims.ml" 201 6781 6801 "ulib/ml/prims.ml" 201 6781 6816
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 202 6817 6828 "ulib/ml/prims.ml" 202 6817 6832
+type(
+  nat -> pos
+)
+ident(
+  int_ref pow2 "ulib/ml/prims.ml" 196 6644 6653 "ulib/ml/prims.ml" 196 6644 6657
+)
+"ulib/ml/prims.ml" 202 6817 6834 "ulib/ml/prims.ml" 202 6817 6848
+type(
+  nat -> Z.t -> nat
+)
+ident(
+  int_ref op_Subtraction "ulib/ml/prims.ml" 132 4533 4537 "ulib/ml/prims.ml" 132 4533 4551
+)
+"ulib/ml/prims.ml" 202 6817 6849 "ulib/ml/prims.ml" 202 6817 6850
+type(
+  nat
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 197 6674 6680 "ulib/ml/prims.ml" 197 6674 6681
+)
+"ulib/ml/prims.ml" 202 6817 6852 "ulib/ml/prims.ml" 202 6817 6861
+type(
+  string -> Z.t
+)
+ident(
+  int_ref parse_int "ulib/ml/prims.ml" 5 117 121 "ulib/ml/prims.ml" 5 117 130
+)
+"ulib/ml/prims.ml" 202 6817 6862 "ulib/ml/prims.ml" 202 6817 6865
+type(
+  string
+)
+"ulib/ml/prims.ml" 202 6817 6851 "ulib/ml/prims.ml" 202 6817 6866
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 202 6817 6833 "ulib/ml/prims.ml" 202 6817 6867
+call(
+  stack
+)
+type(
+  nat
+)
+"ulib/ml/prims.ml" 202 6817 6827 "ulib/ml/prims.ml" 202 6817 6868
+call(
+  stack
+)
+type(
+  pos
+)
+"ulib/ml/prims.ml" 201 6781 6789 "ulib/ml/prims.ml" 202 6817 6868
+call(
+  tail
+)
+type(
+  pos
+)
+"ulib/ml/prims.ml" 198 6686 6690 "ulib/ml/prims.ml" 202 6817 6868
+type(
+  pos
+)
+"ulib/ml/prims.ml" 197 6674 6676 "ulib/ml/prims.ml" 202 6817 6868
+type(
+  nat -> pos
+)
+"ulib/ml/prims.ml" 204 6870 6875 "ulib/ml/prims.ml" 204 6870 6878
+type(
+  int -> int -> int
+)
+ident(
+  def min "ulib/ml/prims.ml" 206 6948 6948 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 205 6902 6908 "ulib/ml/prims.ml" 205 6902 6909
+type(
+  int
+)
+ident(
+  def x "ulib/ml/prims.ml" 205 6902 6914 "ulib/ml/prims.ml" 205 6902 6947
+)
+"ulib/ml/prims.ml" 205 6902 6918 "ulib/ml/prims.ml" 205 6902 6919
+type(
+  int
+)
+ident(
+  def y "ulib/ml/prims.ml" 205 6902 6924 "ulib/ml/prims.ml" 205 6902 6947
+)
+"ulib/ml/prims.ml" 205 6902 6927 "ulib/ml/prims.ml" 205 6902 6928
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 205 6902 6908 "ulib/ml/prims.ml" 205 6902 6909
+)
+"ulib/ml/prims.ml" 205 6902 6929 "ulib/ml/prims.ml" 205 6902 6931
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref <= "ulib/ml/prims.ml" 123 4351 4355 "ulib/ml/prims.ml" 123 4351 4361
+)
+"ulib/ml/prims.ml" 205 6902 6932 "ulib/ml/prims.ml" 205 6902 6933
+type(
+  int
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 205 6902 6918 "ulib/ml/prims.ml" 205 6902 6919
+)
+"ulib/ml/prims.ml" 205 6902 6927 "ulib/ml/prims.ml" 205 6902 6933
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/prims.ml" 205 6902 6939 "ulib/ml/prims.ml" 205 6902 6940
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 205 6902 6908 "ulib/ml/prims.ml" 205 6902 6909
+)
+"ulib/ml/prims.ml" 205 6902 6946 "ulib/ml/prims.ml" 205 6902 6947
+type(
+  int
+)
+ident(
+  int_ref y "ulib/ml/prims.ml" 205 6902 6918 "ulib/ml/prims.ml" 205 6902 6919
+)
+"ulib/ml/prims.ml" 205 6902 6924 "ulib/ml/prims.ml" 205 6902 6947
+type(
+  int
+)
+"ulib/ml/prims.ml" 205 6902 6914 "ulib/ml/prims.ml" 205 6902 6947
+type(
+  int -> int
+)
+"ulib/ml/prims.ml" 205 6902 6904 "ulib/ml/prims.ml" 205 6902 6947
+type(
+  int -> int -> int
+)
+"ulib/ml/prims.ml" 206 6948 6953 "ulib/ml/prims.ml" 206 6948 6956
+type(
+  int -> int
+)
+ident(
+  def abs "ulib/ml/prims.ml" 208 7032 7032 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 207 6973 6979 "ulib/ml/prims.ml" 207 6973 6980
+type(
+  int
+)
+ident(
+  def x "ulib/ml/prims.ml" 207 6973 6985 "ulib/ml/prims.ml" 207 6973 7031
+)
+"ulib/ml/prims.ml" 207 6973 6988 "ulib/ml/prims.ml" 207 6973 6989
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 207 6973 6979 "ulib/ml/prims.ml" 207 6973 6980
+)
+"ulib/ml/prims.ml" 207 6973 6990 "ulib/ml/prims.ml" 207 6973 6992
+type(
+  int -> Z.t -> bool
+)
+ident(
+  int_ref >= "ulib/ml/prims.ml" 124 4373 4377 "ulib/ml/prims.ml" 124 4373 4383
+)
+"ulib/ml/prims.ml" 207 6973 6994 "ulib/ml/prims.ml" 207 6973 7003
+type(
+  string -> Z.t
+)
+ident(
+  int_ref parse_int "ulib/ml/prims.ml" 5 117 121 "ulib/ml/prims.ml" 5 117 130
+)
+"ulib/ml/prims.ml" 207 6973 7004 "ulib/ml/prims.ml" 207 6973 7007
+type(
+  string
+)
+"ulib/ml/prims.ml" 207 6973 6993 "ulib/ml/prims.ml" 207 6973 7008
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/prims.ml" 207 6973 6988 "ulib/ml/prims.ml" 207 6973 7008
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/prims.ml" 207 6973 7014 "ulib/ml/prims.ml" 207 6973 7015
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 207 6973 6979 "ulib/ml/prims.ml" 207 6973 6980
+)
+"ulib/ml/prims.ml" 207 6973 7021 "ulib/ml/prims.ml" 207 6973 7029
+type(
+  int -> int
+)
+ident(
+  int_ref op_Minus "ulib/ml/prims.ml" 134 4592 4596 "ulib/ml/prims.ml" 134 4592 4604
+)
+"ulib/ml/prims.ml" 207 6973 7030 "ulib/ml/prims.ml" 207 6973 7031
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/prims.ml" 207 6973 6979 "ulib/ml/prims.ml" 207 6973 6980
+)
+"ulib/ml/prims.ml" 207 6973 7021 "ulib/ml/prims.ml" 207 6973 7031
+call(
+  tail
+)
+type(
+  int
+)
+"ulib/ml/prims.ml" 207 6973 6985 "ulib/ml/prims.ml" 207 6973 7031
+type(
+  int
+)
+"ulib/ml/prims.ml" 207 6973 6975 "ulib/ml/prims.ml" 207 6973 7031
+type(
+  int -> int
+)
+"ulib/ml/prims.ml" 208 7032 7036 "ulib/ml/prims.ml" 208 7032 7050
+type(
+  bool -> string
+)
+ident(
+  def string_of_bool "ulib/ml/prims.ml" 209 7068 7068 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 208 7032 7053 "ulib/ml/prims.ml" 208 7032 7067
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"ulib/ml/prims.ml" 209 7068 7072 "ulib/ml/prims.ml" 209 7068 7085
+type(
+  Z.t -> string
+)
+ident(
+  def string_of_int "ulib/ml/prims.ml" 211 7099 7099 "ulib/ml/prims.ml" 1 0 -1
+)
+"ulib/ml/prims.ml" 209 7068 7088 "ulib/ml/prims.ml" 209 7068 7097
+type(
+  Z.t -> string
+)
+ident(
+  int_ref to_string "ulib/ml/prims.ml" 6 145 149 "ulib/ml/prims.ml" 6 145 158
+)

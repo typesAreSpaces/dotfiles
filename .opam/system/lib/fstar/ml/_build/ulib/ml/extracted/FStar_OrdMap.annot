@@ -1,0 +1,1530 @@
+"ulib/ml/extracted/FStar_OrdMap.ml" 9 309 313 "ulib/ml/extracted/FStar_OrdMap.ml" 9 309 327
+type(
+  'Ak 'Av. 'Ak cmp -> ('Ak, 'Av, Prims.unit) ordmap -> Prims.bool
+)
+ident(
+  def uu___is_Mk_map "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 425 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 10 387 395 "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 396
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 401 "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 423
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 10 387 405 "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 414
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 419 "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 423
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 10 387 419 "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 423
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 10 387 401 "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 423
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> Prims.bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 10 387 391 "ulib/ml/extracted/FStar_OrdMap.ml" 10 387 423
+type(
+  'Ak cmp -> ('Ak, 'Av, Prims.unit) ordmap -> Prims.bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 11 425 429 "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 452
+type(
+  'Ak 'Av.
+    'Ak cmp ->
+    ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def __proj__Mk_map__item__d "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 612 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 546 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 547
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 552 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 610
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 556 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 565
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 570 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 610
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 576 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 585
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 556 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 565
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 601 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 602
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def d "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 609 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 610
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 603 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 604
+type(
+  ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 609 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 610
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 593 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 605
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 609 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 610
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref d "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 601 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 602
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 570 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 610
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 552 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 610
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 14 538 542 "ulib/ml/extracted/FStar_OrdMap.ml" 14 538 610
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 15 612 616 "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 639
+type(
+  'Ak 'Av.
+    'Ak cmp ->
+    ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  def __proj__Mk_map__item__m "ulib/ml/extracted/FStar_OrdMap.ml" 18 790 790 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 724 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 725
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 730 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 788
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 734 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 743
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 748 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 788
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 754 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 763
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 734 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 743
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 779 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 780
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def d "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 787 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 788
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 781 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 782
+type(
+  ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 787 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 788
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 771 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 783
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 787 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 788
+type(
+  ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 781 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 782
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 748 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 788
+type(
+  ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 730 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 788
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 17 718 720 "ulib/ml/extracted/FStar_OrdMap.ml" 17 718 788
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 18 790 794 "ulib/ml/extracted/FStar_OrdMap.ml" 18 790 799
+type(
+  'Ak 'Av. 'Ak cmp -> ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def empty "ulib/ml/extracted/FStar_OrdMap.ml" 27 1035 1035 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 19 847 853 "ulib/ml/extracted/FStar_OrdMap.ml" 19 847 854
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 20 859 863 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1031
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 20 859 867 "ulib/ml/extracted/FStar_OrdMap.ml" 20 859 868
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def d "ulib/ml/extracted/FStar_OrdMap.ml" 21 896 900 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1031
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 20 859 871 "ulib/ml/extracted/FStar_OrdMap.ml" 20 859 889
+type(
+  'Ak FStar_OrdSet.cmp -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  ext_ref FStar_OrdSet.empty
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 20 859 890 "ulib/ml/extracted/FStar_OrdMap.ml" 20 859 891
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 19 847 853 "ulib/ml/extracted/FStar_OrdMap.ml" 19 847 854
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 20 859 871 "ulib/ml/extracted/FStar_OrdMap.ml" 20 859 891
+call(
+  stack
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 21 896 904 "ulib/ml/extracted/FStar_OrdMap.ml" 21 896 905
+type(
+  'Ak -> 'a FStar_Pervasives_Native.option
+)
+ident(
+  def g "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1018 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1031
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 22 908 914 "ulib/ml/extracted/FStar_OrdMap.ml" 22 908 954
+type(
+  ('Ak -> 'a FStar_Pervasives_Native.option) ->
+  'Ak -> 'a FStar_Pervasives_Native.option
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 23 955 968 "ulib/ml/extracted/FStar_OrdMap.ml" 23 955 969
+type(
+  'Ak
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdMap.ml" 23 955 974 "ulib/ml/extracted/FStar_OrdMap.ml" 23 955 1002
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 23 955 974 "ulib/ml/extracted/FStar_OrdMap.ml" 23 955 1002
+type(
+  'a FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 23 955 963 "ulib/ml/extracted/FStar_OrdMap.ml" 23 955 1003
+type(
+  'Ak -> 'a FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 22 908 914 "ulib/ml/extracted/FStar_OrdMap.ml" 23 955 1003
+call(
+  stack
+)
+type(
+  'Ak -> 'a FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1026 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1027
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref d "ulib/ml/extracted/FStar_OrdMap.ml" 20 859 867 "ulib/ml/extracted/FStar_OrdMap.ml" 20 859 868
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1029 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1030
+type(
+  ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref g "ulib/ml/extracted/FStar_OrdMap.ml" 21 896 904 "ulib/ml/extracted/FStar_OrdMap.ml" 21 896 905
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1018 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1031
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 21 896 900 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1031
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 20 859 863 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1031
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 19 847 849 "ulib/ml/extracted/FStar_OrdMap.ml" 25 1014 1031
+type(
+  'Ak cmp -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 27 1035 1039 "ulib/ml/extracted/FStar_OrdMap.ml" 27 1035 1047
+type(
+  'Ak 'Av.
+    'Ak cmp ->
+    ('Ak, Prims.unit) FStar_OrdSet.ordset ->
+    'Av -> ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def const_on "ulib/ml/extracted/FStar_OrdMap.ml" 43 1457 1457 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 31 1144 1150 "ulib/ml/extracted/FStar_OrdMap.ml" 31 1144 1151
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 32 1156 1160 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 32 1156 1164 "ulib/ml/extracted/FStar_OrdMap.ml" 32 1156 1165
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def d "ulib/ml/extracted/FStar_OrdMap.ml" 33 1170 1176 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 33 1170 1180 "ulib/ml/extracted/FStar_OrdMap.ml" 33 1170 1181
+type(
+  'Av
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdMap.ml" 34 1186 1194 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 34 1186 1198 "ulib/ml/extracted/FStar_OrdMap.ml" 34 1186 1199
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+ident(
+  def g "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1440 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 35 1202 1212 "ulib/ml/extracted/FStar_OrdMap.ml" 35 1202 1252
+type(
+  ('Ak -> 'Av FStar_Pervasives_Native.option) ->
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 36 1253 1270 "ulib/ml/extracted/FStar_OrdMap.ml" 36 1253 1271
+type(
+  'Ak
+)
+ident(
+  def y "ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1291 "ulib/ml/extracted/FStar_OrdMap.ml" 39 1368 1416
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1294 "ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1310
+type(
+  'Ak FStar_OrdSet.cmp ->
+  'Ak -> ('Ak, Prims.unit) FStar_OrdSet.ordset -> Prims.bool
+)
+ident(
+  ext_ref FStar_OrdSet.mem
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1311 "ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1312
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 31 1144 1150 "ulib/ml/extracted/FStar_OrdMap.ml" 31 1144 1151
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1313 "ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1314
+type(
+  'Ak
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_OrdMap.ml" 36 1253 1270 "ulib/ml/extracted/FStar_OrdMap.ml" 36 1253 1271
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1315 "ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1316
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref d "ulib/ml/extracted/FStar_OrdMap.ml" 32 1156 1164 "ulib/ml/extracted/FStar_OrdMap.ml" 32 1156 1165
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1294 "ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1316
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 38 1317 1366 "ulib/ml/extracted/FStar_OrdMap.ml" 38 1317 1367
+type(
+  'Av
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 33 1170 1180 "ulib/ml/extracted/FStar_OrdMap.ml" 33 1170 1181
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 38 1317 1337 "ulib/ml/extracted/FStar_OrdMap.ml" 38 1317 1367
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 39 1368 1388 "ulib/ml/extracted/FStar_OrdMap.ml" 39 1368 1416
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 37 1276 1291 "ulib/ml/extracted/FStar_OrdMap.ml" 39 1368 1416
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 36 1253 1265 "ulib/ml/extracted/FStar_OrdMap.ml" 39 1368 1417
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 35 1202 1212 "ulib/ml/extracted/FStar_OrdMap.ml" 39 1368 1417
+call(
+  stack
+)
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1448 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1449
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref d "ulib/ml/extracted/FStar_OrdMap.ml" 32 1156 1164 "ulib/ml/extracted/FStar_OrdMap.ml" 32 1156 1165
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1451 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1452
+type(
+  ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref g "ulib/ml/extracted/FStar_OrdMap.ml" 34 1186 1198 "ulib/ml/extracted/FStar_OrdMap.ml" 34 1186 1199
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1440 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 34 1186 1194 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 33 1170 1176 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+type(
+  'Av -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 32 1156 1160 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset ->
+  'Av -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 31 1144 1146 "ulib/ml/extracted/FStar_OrdMap.ml" 41 1432 1453
+type(
+  'Ak cmp ->
+  ('Ak, Prims.unit) FStar_OrdSet.ordset ->
+  'Av -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 43 1457 1461 "ulib/ml/extracted/FStar_OrdMap.ml" 43 1457 1467
+type(
+  'Ak 'Av.
+    'Ak cmp ->
+    'Ak ->
+    ('Ak, 'Av, Prims.unit) ordmap -> 'Av FStar_Pervasives_Native.option
+)
+ident(
+  def select "ulib/ml/extracted/FStar_OrdMap.ml" 48 1635 1635 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1578 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1579
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1584 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1633
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1588 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1589
+type(
+  'Ak
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1594 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1633
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1598 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1599
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1604 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1633
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1604 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1627
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref __proj__Mk_map__item__m "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 616 "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 639
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1628 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1629
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1578 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1579
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1630 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1631
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1598 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1599
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1632 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1633
+type(
+  'Ak
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1588 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1589
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1604 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1633
+call(
+  tail
+)
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1594 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1633
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1584 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1633
+type(
+  'Ak -> ('Ak, 'Av, Prims.unit) ordmap -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1574 "ulib/ml/extracted/FStar_OrdMap.ml" 47 1570 1633
+type(
+  'Ak cmp ->
+  'Ak -> ('Ak, 'Av, Prims.unit) ordmap -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 48 1635 1639 "ulib/ml/extracted/FStar_OrdMap.ml" 48 1635 1645
+type(
+  'Aa.
+    'Aa cmp ->
+    'Aa ->
+    ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+    ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def insert "ulib/ml/extracted/FStar_OrdMap.ml" 56 1844 1844 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 53 1753 1759 "ulib/ml/extracted/FStar_OrdMap.ml" 53 1753 1760
+type(
+  'Aa cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1769 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1840
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1773 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1774
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1779 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1840
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1783 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1784
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def s "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1789 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1840
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1789 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1807
+type(
+  'Aa FStar_OrdSet.cmp ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  ext_ref FStar_OrdSet.union
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1808 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1809
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 53 1753 1759 "ulib/ml/extracted/FStar_OrdMap.ml" 53 1753 1760
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1811 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1833
+type(
+  'Aa FStar_OrdSet.cmp -> 'Aa -> ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  ext_ref FStar_OrdSet.singleton
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1834 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1835
+type(
+  'Aa cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 53 1753 1759 "ulib/ml/extracted/FStar_OrdMap.ml" 53 1753 1760
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1836 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1837
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1773 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1774
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1810 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1838
+call(
+  stack
+)
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1839 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1840
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1783 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1784
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1789 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1840
+call(
+  tail
+)
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1779 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1840
+type(
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1769 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1840
+type(
+  'Aa ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 53 1753 1755 "ulib/ml/extracted/FStar_OrdMap.ml" 54 1765 1840
+type(
+  'Aa cmp ->
+  'Aa ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset ->
+  ('Aa, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 56 1844 1848 "ulib/ml/extracted/FStar_OrdMap.ml" 56 1844 1854
+type(
+  'Ak 'Av.
+    'Ak cmp ->
+    'Ak ->
+    'Av -> ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def update "ulib/ml/extracted/FStar_OrdMap.ml" 74 2350 2350 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1955 "ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1956
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 61 1961 1965 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 61 1961 1969 "ulib/ml/extracted/FStar_OrdMap.ml" 61 1961 1970
+type(
+  'Ak
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdMap.ml" 62 1975 1981 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 62 1975 1985 "ulib/ml/extracted/FStar_OrdMap.ml" 62 1975 1986
+type(
+  'Av
+)
+ident(
+  def y "ulib/ml/extracted/FStar_OrdMap.ml" 63 1991 1999 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 63 1991 2003 "ulib/ml/extracted/FStar_OrdMap.ml" 63 1991 2004
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2019 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2023 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2025
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def s' "ulib/ml/extracted/FStar_OrdMap.ml" 65 2073 2083 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2028 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2034
+type(
+  'Ak cmp ->
+  'Ak ->
+  ('Ak, Prims.unit) FStar_OrdSet.ordset ->
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref insert "ulib/ml/extracted/FStar_OrdMap.ml" 48 1635 1639 "ulib/ml/extracted/FStar_OrdMap.ml" 48 1635 1645
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2035 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2036
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1955 "ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1956
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2037 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2038
+type(
+  'Ak
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 61 1961 1969 "ulib/ml/extracted/FStar_OrdMap.ml" 61 1961 1970
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2040 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2063
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref __proj__Mk_map__item__d "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 429 "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 452
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2064 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2065
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1955 "ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1956
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2066 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2067
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 63 1991 2003 "ulib/ml/extracted/FStar_OrdMap.ml" 63 1991 2004
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2039 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2068
+call(
+  stack
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2028 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2068
+call(
+  stack
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 65 2073 2087 "ulib/ml/extracted/FStar_OrdMap.ml" 65 2073 2089
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+ident(
+  def g' "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2331 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 66 2092 2104 "ulib/ml/extracted/FStar_OrdMap.ml" 66 2092 2144
+type(
+  ('Ak -> 'Av FStar_Pervasives_Native.option) ->
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 67 2145 2164 "ulib/ml/extracted/FStar_OrdMap.ml" 67 2145 2166
+type(
+  'Ak
+)
+ident(
+  def x' "ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2188 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2303
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2191 "ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2193
+type(
+  'Ak
+)
+ident(
+  int_ref x' "ulib/ml/extracted/FStar_OrdMap.ml" 67 2145 2164 "ulib/ml/extracted/FStar_OrdMap.ml" 67 2145 2166
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2194 "ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2195
+type(
+  'Ak -> 'Ak -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2196 "ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2197
+type(
+  'Ak
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 61 1961 1969 "ulib/ml/extracted/FStar_OrdMap.ml" 61 1961 1970
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2191 "ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2197
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 69 2198 2249 "ulib/ml/extracted/FStar_OrdMap.ml" 69 2198 2250
+type(
+  'Av
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_OrdMap.ml" 62 1975 1985 "ulib/ml/extracted/FStar_OrdMap.ml" 62 1975 1986
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 69 2198 2220 "ulib/ml/extracted/FStar_OrdMap.ml" 69 2198 2250
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2273 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2296
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref __proj__Mk_map__item__m "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 616 "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 639
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2297 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2298
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1955 "ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1956
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2299 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2300
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 63 1991 2003 "ulib/ml/extracted/FStar_OrdMap.ml" 63 1991 2004
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2301 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2303
+type(
+  'Ak
+)
+ident(
+  int_ref x' "ulib/ml/extracted/FStar_OrdMap.ml" 67 2145 2164 "ulib/ml/extracted/FStar_OrdMap.ml" 67 2145 2166
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2273 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2303
+call(
+  tail
+)
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 68 2171 2188 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2303
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 67 2145 2159 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2304
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 66 2092 2104 "ulib/ml/extracted/FStar_OrdMap.ml" 70 2251 2304
+call(
+  stack
+)
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2339 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2341
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s' "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2023 "ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2025
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2343 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2345
+type(
+  ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref g' "ulib/ml/extracted/FStar_OrdMap.ml" 65 2073 2087 "ulib/ml/extracted/FStar_OrdMap.ml" 65 2073 2089
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2331 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 65 2073 2083 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 64 2009 2019 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 63 1991 1999 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 62 1975 1981 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+type(
+  'Av -> ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 61 1961 1965 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+type(
+  'Ak ->
+  'Av -> ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 60 1949 1951 "ulib/ml/extracted/FStar_OrdMap.ml" 72 2321 2346
+type(
+  'Ak cmp ->
+  'Ak ->
+  'Av -> ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 74 2350 2354 "ulib/ml/extracted/FStar_OrdMap.ml" 74 2350 2362
+type(
+  'Ak 'Av. 'Ak cmp -> 'Ak -> ('Ak, 'Av, Prims.unit) ordmap -> Prims.bool
+)
+ident(
+  def contains "ulib/ml/extracted/FStar_OrdMap.ml" 79 2523 2523 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 76 2433 2439 "ulib/ml/extracted/FStar_OrdMap.ml" 76 2433 2440
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2449 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2519
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2453 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2454
+type(
+  'Ak
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2459 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2519
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2463 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2464
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2469 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2519
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2469 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2485
+type(
+  'Ak FStar_OrdSet.cmp ->
+  'Ak -> ('Ak, Prims.unit) FStar_OrdSet.ordset -> Prims.bool
+)
+ident(
+  ext_ref FStar_OrdSet.mem
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2486 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2487
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 76 2433 2439 "ulib/ml/extracted/FStar_OrdMap.ml" 76 2433 2440
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2488 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2489
+type(
+  'Ak
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2453 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2454
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2491 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2514
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref __proj__Mk_map__item__d "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 429 "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 452
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2515 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2516
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 76 2433 2439 "ulib/ml/extracted/FStar_OrdMap.ml" 76 2433 2440
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2517 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2518
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2463 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2464
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2490 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2519
+call(
+  stack
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2469 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2519
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2459 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2519
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> Prims.bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2449 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2519
+type(
+  'Ak -> ('Ak, 'Av, Prims.unit) ordmap -> Prims.bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 76 2433 2435 "ulib/ml/extracted/FStar_OrdMap.ml" 77 2445 2519
+type(
+  'Ak cmp -> 'Ak -> ('Ak, 'Av, Prims.unit) ordmap -> Prims.bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 79 2523 2527 "ulib/ml/extracted/FStar_OrdMap.ml" 79 2523 2530
+type(
+  'Ak 'Av.
+    'Ak cmp ->
+    ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def dom "ulib/ml/extracted/FStar_OrdMap.ml" 83 2669 2669 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2624 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2625
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2630 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2667
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2634 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2635
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2640 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2667
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2640 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2663
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref __proj__Mk_map__item__d "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 429 "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 452
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2664 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2665
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2624 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2625
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2666 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2667
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2634 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2635
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2640 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2667
+call(
+  tail
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2630 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2667
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2620 "ulib/ml/extracted/FStar_OrdMap.ml" 82 2616 2667
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 83 2669 2673 "ulib/ml/extracted/FStar_OrdMap.ml" 83 2669 2679
+type(
+  'Ak 'Av.
+    'Ak cmp ->
+    'Ak -> ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def remove "ulib/ml/extracted/FStar_OrdMap.ml" 99 3139 3139 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2769 "ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2770
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 87 2775 2779 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 87 2775 2783 "ulib/ml/extracted/FStar_OrdMap.ml" 87 2775 2784
+type(
+  'Ak
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdMap.ml" 88 2789 2795 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 88 2789 2799 "ulib/ml/extracted/FStar_OrdMap.ml" 88 2789 2800
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2813 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2817 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2819
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  def s' "ulib/ml/extracted/FStar_OrdMap.ml" 90 2880 2888 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2822 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2841
+type(
+  'Ak FStar_OrdSet.cmp ->
+  'Ak ->
+  ('Ak, Prims.unit) FStar_OrdSet.ordset ->
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  ext_ref FStar_OrdSet.remove
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2842 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2843
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2769 "ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2770
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2844 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2845
+type(
+  'Ak
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 87 2775 2783 "ulib/ml/extracted/FStar_OrdMap.ml" 87 2775 2784
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2847 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2870
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref __proj__Mk_map__item__d "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 429 "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 452
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2871 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2872
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2769 "ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2770
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2873 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2874
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 88 2789 2799 "ulib/ml/extracted/FStar_OrdMap.ml" 88 2789 2800
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2846 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2875
+call(
+  stack
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2822 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2875
+call(
+  stack
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 90 2880 2892 "ulib/ml/extracted/FStar_OrdMap.ml" 90 2880 2894
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+ident(
+  def g' "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3120 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 91 2897 2907 "ulib/ml/extracted/FStar_OrdMap.ml" 91 2897 2947
+type(
+  ('Ak -> 'Av FStar_Pervasives_Native.option) ->
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+ident(
+  ext_ref FStar_FunctionalExtensionality.on_domain
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 92 2948 2965 "ulib/ml/extracted/FStar_OrdMap.ml" 92 2948 2967
+type(
+  'Ak
+)
+ident(
+  def x' "ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2987 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3096
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2990 "ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2992
+type(
+  'Ak
+)
+ident(
+  int_ref x' "ulib/ml/extracted/FStar_OrdMap.ml" 92 2948 2965 "ulib/ml/extracted/FStar_OrdMap.ml" 92 2948 2967
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2993 "ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2994
+type(
+  'Ak -> 'Ak -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2995 "ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2996
+type(
+  'Ak
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 87 2775 2783 "ulib/ml/extracted/FStar_OrdMap.ml" 87 2775 2784
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2990 "ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2996
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 94 2997 3017 "ulib/ml/extracted/FStar_OrdMap.ml" 94 2997 3045
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3066 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3089
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref __proj__Mk_map__item__m "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 616 "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 639
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3090 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3091
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2769 "ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2770
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3092 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3093
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 88 2789 2799 "ulib/ml/extracted/FStar_OrdMap.ml" 88 2789 2800
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3094 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3096
+type(
+  'Ak
+)
+ident(
+  int_ref x' "ulib/ml/extracted/FStar_OrdMap.ml" 92 2948 2965 "ulib/ml/extracted/FStar_OrdMap.ml" 92 2948 2967
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3066 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3096
+call(
+  tail
+)
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 93 2972 2987 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3096
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 92 2948 2960 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3097
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 91 2897 2907 "ulib/ml/extracted/FStar_OrdMap.ml" 95 3046 3097
+call(
+  stack
+)
+type(
+  'Ak -> 'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3128 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3130
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref s' "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2817 "ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2819
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3132 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3134
+type(
+  ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref g' "ulib/ml/extracted/FStar_OrdMap.ml" 90 2880 2892 "ulib/ml/extracted/FStar_OrdMap.ml" 90 2880 2894
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3120 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 90 2880 2888 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 89 2805 2813 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 88 2789 2795 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 87 2775 2779 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+type(
+  'Ak -> ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 86 2763 2765 "ulib/ml/extracted/FStar_OrdMap.ml" 97 3112 3135
+type(
+  'Ak cmp ->
+  'Ak -> ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit) ordmap
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 99 3139 3143 "ulib/ml/extracted/FStar_OrdMap.ml" 99 3139 3149
+type(
+  'Ak 'Av.
+    'Ak cmp ->
+    ('Ak, 'Av, Prims.unit) ordmap ->
+    ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+ident(
+  def choose "ulib/ml/extracted/FStar_OrdMap.ml" 114 3634 3634 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3263 "ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3264
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 105 3269 3273 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3630
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 105 3269 3277 "ulib/ml/extracted/FStar_OrdMap.ml" 105 3269 3278
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3289 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3630
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3295 "ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3314
+type(
+  'Ak FStar_OrdSet.cmp ->
+  ('Ak, Prims.unit) FStar_OrdSet.ordset -> 'Ak FStar_Pervasives_Native.option
+)
+ident(
+  ext_ref FStar_OrdSet.choose
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3315 "ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3316
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3263 "ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3264
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3318 "ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3341
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref __proj__Mk_map__item__d "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 429 "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 452
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3342 "ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3343
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3263 "ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3264
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3344 "ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3345
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 105 3269 3277 "ulib/ml/extracted/FStar_OrdMap.ml" 105 3269 3278
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3317 "ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3346
+call(
+  stack
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3295 "ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3346
+call(
+  stack
+)
+type(
+  'Ak FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 107 3352 3360 "ulib/ml/extracted/FStar_OrdMap.ml" 107 3352 3388
+type(
+  'Ak FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 107 3352 3393 "ulib/ml/extracted/FStar_OrdMap.ml" 107 3352 3421
+type(
+  ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 108 3422 3459 "ulib/ml/extracted/FStar_OrdMap.ml" 108 3422 3460
+type(
+  'Ak
+)
+ident(
+  def x "ulib/ml/extracted/FStar_OrdMap.ml" 109 3464 3474 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3630
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 108 3422 3430 "ulib/ml/extracted/FStar_OrdMap.ml" 108 3422 3460
+type(
+  'Ak FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 110 3503 3516 "ulib/ml/extracted/FStar_OrdMap.ml" 110 3503 3517
+type(
+  'Ak
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 108 3422 3459 "ulib/ml/extracted/FStar_OrdMap.ml" 108 3422 3460
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 111 3519 3534 "ulib/ml/extracted/FStar_OrdMap.ml" 111 3519 3579
+type(
+  'Av FStar_Pervasives_Native.option -> 'Av
+)
+ident(
+  ext_ref FStar_Pervasives_Native.__proj__Some__item__v
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3598 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3621
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, 'Av, Prims.unit, Prims.unit) map_t
+)
+ident(
+  int_ref __proj__Mk_map__item__m "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 616 "ulib/ml/extracted/FStar_OrdMap.ml" 15 612 639
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3622 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3623
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3263 "ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3264
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3624 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3625
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 105 3269 3277 "ulib/ml/extracted/FStar_OrdMap.ml" 105 3269 3278
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3626 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3627
+type(
+  'Ak
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_OrdMap.ml" 108 3422 3459 "ulib/ml/extracted/FStar_OrdMap.ml" 108 3422 3460
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3597 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3628
+call(
+  stack
+)
+type(
+  'Av FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 111 3519 3533 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3629
+call(
+  stack
+)
+type(
+  'Av
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 110 3503 3515 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3630
+type(
+  'Ak * 'Av
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 109 3464 3474 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3630
+type(
+  ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 106 3283 3289 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3630
+type(
+  ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 105 3269 3273 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3630
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 104 3257 3259 "ulib/ml/extracted/FStar_OrdMap.ml" 112 3580 3630
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak * 'Av) FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 114 3634 3638 "ulib/ml/extracted/FStar_OrdMap.ml" 114 3634 3642
+type(
+  'Ak 'Av. 'Ak cmp -> ('Ak, 'Av, Prims.unit) ordmap -> Prims.nat
+)
+ident(
+  def size "ulib/ml/extracted/FStar_OrdMap.ml" 116 3776 3776 "ulib/ml/extracted/FStar_OrdMap.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3709 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3710
+type(
+  'Ak cmp
+)
+ident(
+  def f "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3715 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3774
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3719 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3720
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  def m "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3725 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3774
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3725 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3742
+type(
+  'Ak FStar_OrdSet.cmp -> ('Ak, Prims.unit) FStar_OrdSet.ordset -> Prims.nat
+)
+ident(
+  ext_ref FStar_OrdSet.size
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3743 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3744
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3709 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3710
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3746 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3769
+type(
+  'Ak cmp ->
+  ('Ak, 'Av, Prims.unit) ordmap -> ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+ident(
+  int_ref __proj__Mk_map__item__d "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 429 "ulib/ml/extracted/FStar_OrdMap.ml" 11 425 452
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3770 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3771
+type(
+  'Ak cmp
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3709 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3710
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3772 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3773
+type(
+  ('Ak, 'Av, Prims.unit) ordmap
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3719 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3720
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3745 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3774
+call(
+  stack
+)
+type(
+  ('Ak, Prims.unit) FStar_OrdSet.ordset
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3725 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3774
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3715 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3774
+type(
+  ('Ak, 'Av, Prims.unit) ordmap -> Prims.nat
+)
+"ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3705 "ulib/ml/extracted/FStar_OrdMap.ml" 115 3703 3774
+type(
+  'Ak cmp -> ('Ak, 'Av, Prims.unit) ordmap -> Prims.nat
+)

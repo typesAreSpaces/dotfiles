@@ -1,0 +1,8 @@
+description = "ocplib-simplex: A library implementing a simplex algorithm, in a functional style, for solving systems of linear inequalities"
+version = "0.3"
+archive(byte) = "ocplibSimplex.cma"
+archive(native) = "ocplibSimplex.cmxa"
+archive(native, plugin) = "ocplibSimplex.cmxs"
+archive(byte, plugin) = "ocplibSimplex.cma"
+requires = ""
+exists_if = "ocplibSimplex.cma"

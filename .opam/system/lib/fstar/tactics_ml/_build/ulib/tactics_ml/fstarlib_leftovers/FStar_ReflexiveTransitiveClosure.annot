@@ -1,0 +1,1099 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 7 197 201 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 7 197 213
+type(
+  'Aa 'Ar.
+    'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+ident(
+  def uu___is_Refl "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 14 423 423 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 9 287 293 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 9 287 302
+type(
+  'Aa
+)
+ident(
+  def uu____147 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 10 307 311 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 10 307 315 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 10 307 324
+type(
+  'Aa
+)
+ident(
+  def uu____148 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 11 329 335 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 11 329 339 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 11 329 348
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 361 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 367 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 376
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 11 329 339 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 11 329 348
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 389 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 390
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 394 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 398
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 384 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 390
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 394 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 398
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 401 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 410
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def uu____162 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 414 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 414 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 361 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 11 329 335 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 10 307 311 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 9 287 289 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 12 353 419
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 14 423 427 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 14 423 448
+type(
+  'Aa 'Ar. 'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+ident(
+  def __proj__Refl__item__x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 19 613 613 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 16 515 521 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 16 515 530
+type(
+  'Aa
+)
+ident(
+  def uu____215 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 539 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 543 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 552
+type(
+  'Aa
+)
+ident(
+  def uu____216 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 557 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 570
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 575 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 581 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 590
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 561 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 570
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 603 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 604
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 608 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 598 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 604
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 608 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 603 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 604
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 575 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 557 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 539 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 16 515 517 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 17 535 609
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 19 613 617 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 19 613 629
+type(
+  'Aa 'Ar.
+    'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+ident(
+  def uu___is_Step "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 26 846 846 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 21 703 709 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 21 703 718
+type(
+  'Aa
+)
+ident(
+  def uu____274 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 22 723 727 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 22 723 731 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 22 723 740
+type(
+  'Aa
+)
+ident(
+  def uu____275 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 23 745 751 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 23 745 755 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 23 745 764
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 777 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 783 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 792
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 23 745 755 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 23 745 764
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 806 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 807
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 817 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 821
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 808 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 809
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 817 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 821
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 810 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 812
+type(
+  'Ar
+)
+ident(
+  def _2 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 817 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 821
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 800 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 813
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 817 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 821
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 824 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 833
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def uu____291 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 837 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 837 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 777 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 23 745 751 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 22 723 727 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 21 703 705 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 24 769 842
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 26 846 850 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 26 846 871
+type(
+  'Aa 'Ar. 'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+ident(
+  def __proj__Step__item__x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 32 1049 1049 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 28 938 944 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 28 938 953
+type(
+  'Aa
+)
+ident(
+  def uu____346 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 29 958 962 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 29 958 966 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 29 958 975
+type(
+  'Aa
+)
+ident(
+  def uu____347 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 986 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 990 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 999
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1004 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1010 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1019
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 990 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 999
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1033 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1034
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1044 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1035 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1036
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1044 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1037 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1039
+type(
+  'Ar
+)
+ident(
+  def _2 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1044 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1027 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1040
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1044 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1033 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1034
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1004 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 986 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 29 958 962 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 28 938 940 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 30 980 1045
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 32 1049 1053 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 32 1049 1074
+type(
+  'Aa 'Ar. 'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+ident(
+  def __proj__Step__item__y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 38 1252 1252 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 34 1141 1147 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 34 1141 1156
+type(
+  'Aa
+)
+ident(
+  def uu____405 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 35 1161 1165 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 35 1161 1169 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 35 1161 1178
+type(
+  'Aa
+)
+ident(
+  def uu____406 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1189 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1193 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1202
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1207 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1213 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1222
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1193 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1202
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1236 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1237
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1247 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1238 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1239
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1247 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1240 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1242
+type(
+  'Ar
+)
+ident(
+  def _2 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1247 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1230 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1243
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1247 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1238 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1239
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1207 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1189 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 35 1161 1165 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 34 1141 1143 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 36 1183 1248
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 38 1252 1256 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 38 1252 1278
+type(
+  'Aa 'Ar. 'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Ar
+)
+ident(
+  def __proj__Step__item___2 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 44 1457 1457 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 40 1345 1351 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 40 1345 1360
+type(
+  'Aa
+)
+ident(
+  def uu____464 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 41 1365 1369 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 41 1365 1373 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 41 1365 1382
+type(
+  'Aa
+)
+ident(
+  def uu____465 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1393 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1397 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1406
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1411 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1417 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1426
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1397 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1406
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1440 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1441
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1451 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1442 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1443
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1451 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1444 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1446
+type(
+  'Ar
+)
+ident(
+  def _2 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1451 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1434 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1447
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1451 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+type(
+  'Ar
+)
+ident(
+  int_ref _2 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1444 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1446
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1411 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+type(
+  'Ar
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1393 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Ar
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 41 1365 1369 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Ar
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 40 1345 1347 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 42 1387 1453
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Ar
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 44 1457 1461 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 44 1457 1476
+type(
+  'Aa 'Ar.
+    'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+ident(
+  def uu___is_Closure "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 53 1717 1717 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 46 1550 1556 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 46 1550 1565
+type(
+  'Aa
+)
+ident(
+  def uu____527 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 47 1570 1574 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 47 1570 1578 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 47 1570 1587
+type(
+  'Aa
+)
+ident(
+  def uu____528 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 48 1592 1598 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 48 1592 1602 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 48 1592 1611
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 49 1616 1624 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 49 1616 1630 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 49 1616 1639
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 48 1592 1602 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 48 1592 1611
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1664 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1665
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1680 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1684
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1666 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1667
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1680 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1684
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1668 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1669
+type(
+  'Aa
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1680 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1684
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1670 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1672
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _3 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1680 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1684
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1673 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1675
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _4 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1680 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1684
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1655 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1676
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1680 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 50 1645 1684
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1695 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1704
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def uu____566 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1708 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1708 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 49 1616 1624 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 48 1592 1598 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 47 1570 1574 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 46 1550 1552 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 51 1685 1713
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 53 1717 1721 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 53 1717 1745
+type(
+  'Aa 'Ar. 'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+ident(
+  def __proj__Closure__item__x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 59 1931 1931 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 55 1812 1818 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 55 1812 1827
+type(
+  'Aa
+)
+ident(
+  def uu____623 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 56 1832 1836 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 56 1832 1840 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 56 1832 1849
+type(
+  'Aa
+)
+ident(
+  def uu____624 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1860 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1864 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1873
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1878 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1884 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1893
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1864 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1873
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1910 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1911
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1926 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1912 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1913
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1926 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1914 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1915
+type(
+  'Aa
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1926 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1916 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1918
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _3 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1926 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1919 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1921
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _4 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1926 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1901 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1922
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1926 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1910 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1911
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1878 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1860 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 56 1832 1836 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 55 1812 1814 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 57 1854 1927
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 59 1931 1935 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 59 1931 1959
+type(
+  'Aa 'Ar. 'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+ident(
+  def __proj__Closure__item__y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 65 2145 2145 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 61 2026 2032 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 61 2026 2041
+type(
+  'Aa
+)
+ident(
+  def uu____706 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 62 2046 2050 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 62 2046 2054 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 62 2046 2063
+type(
+  'Aa
+)
+ident(
+  def uu____707 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2074 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2078 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2087
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2092 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2098 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2107
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2078 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2087
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2124 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2125
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2140 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2126 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2127
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2140 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2128 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2129
+type(
+  'Aa
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2140 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2130 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2132
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _3 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2140 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2133 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2135
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _4 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2140 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2115 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2136
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2140 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+type(
+  'Aa
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2126 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2127
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2092 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2074 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 62 2046 2050 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 61 2026 2028 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 63 2068 2141
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 65 2145 2149 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 65 2145 2173
+type(
+  'Aa 'Ar. 'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+ident(
+  def __proj__Closure__item__z "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 71 2359 2359 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 67 2240 2246 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 67 2240 2255
+type(
+  'Aa
+)
+ident(
+  def uu____789 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 68 2260 2264 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 68 2260 2268 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 68 2260 2277
+type(
+  'Aa
+)
+ident(
+  def uu____790 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2288 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2292 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2301
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2306 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2312 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2321
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2292 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2301
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2338 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2339
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2354 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2340 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2341
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2354 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2342 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2343
+type(
+  'Aa
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2354 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2344 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2346
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _3 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2354 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2347 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2349
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _4 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2354 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2329 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2350
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2354 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+type(
+  'Aa
+)
+ident(
+  int_ref z "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2342 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2343
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2306 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2288 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 68 2260 2264 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 67 2240 2242 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 69 2282 2355
+type(
+  'Aa -> 'Aa -> ('Aa, 'Ar, Prims.unit, Prims.unit) _closure -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 71 2359 2363 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 71 2359 2388
+type(
+  'Aa 'Ar.
+    'Aa ->
+    'Aa ->
+    ('Aa, 'Ar, Prims.unit, Prims.unit) _closure ->
+    ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def __proj__Closure__item___3 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 80 2612 2612 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 76 2492 2498 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 76 2492 2507
+type(
+  'Aa
+)
+ident(
+  def uu____882 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 77 2512 2516 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 77 2512 2520 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 77 2512 2529
+type(
+  'Aa
+)
+ident(
+  def uu____883 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2540 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2544 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2553
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2558 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2564 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2573
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2544 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2553
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2590 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2591
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2606 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2592 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2593
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2606 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2594 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2595
+type(
+  'Aa
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2606 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2596 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2598
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _3 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2606 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2599 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2601
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _4 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2606 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2581 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2602
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2606 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref _3 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2596 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2598
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2558 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2540 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 77 2512 2516 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+type(
+  'Aa ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 76 2492 2494 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 78 2534 2608
+type(
+  'Aa ->
+  'Aa ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 80 2612 2616 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 80 2612 2641
+type(
+  'Aa 'Ar.
+    'Aa ->
+    'Aa ->
+    ('Aa, 'Ar, Prims.unit, Prims.unit) _closure ->
+    ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def __proj__Closure__item___4 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 91 2867 2867 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 85 2745 2751 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 85 2745 2760
+type(
+  'Aa
+)
+ident(
+  def uu____975 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 86 2765 2769 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 86 2765 2773 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 86 2765 2782
+type(
+  'Aa
+)
+ident(
+  def uu____976 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2793 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2797 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2806
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2811 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2817 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2826
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2797 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2806
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2843 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2844
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2859 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2845 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2846
+type(
+  'Aa
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2859 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2847 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2848
+type(
+  'Aa
+)
+ident(
+  def z "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2859 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2849 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2851
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _3 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2859 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2852 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2854
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  def _4 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2859 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2834 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2855
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2859 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+ident(
+  int_ref _4 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2852 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2854
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2811 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2793 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+type(
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 86 2765 2769 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+type(
+  'Aa ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 85 2745 2747 "ulib/tactics_ml/fstarlib_leftovers/FStar_ReflexiveTransitiveClosure.ml" 87 2787 2861
+type(
+  'Aa ->
+  'Aa ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure ->
+  ('Aa, 'Ar, Prims.unit, Prims.unit) _closure
+)

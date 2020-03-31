@@ -1,0 +1,408 @@
+"ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+call(
+  tail
+)
+call(
+  tail
+)
+type(
+  char -> Ppx_deriving_runtime.string
+)
+type(
+  Ppx_deriving_runtime.string
+)
+type(
+  char
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  Format.formatter -> char -> Ppx_deriving_runtime.unit
+)
+ident(
+  int_ref pp_char "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  ((Format.formatter -> char -> Ppx_deriving_runtime.unit) ->
+   char -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4
+)
+type(
+  ((Format.formatter -> char -> Ppx_deriving_runtime.unit) ->
+   char -> Ppx_deriving_runtime.string, Format.formatter,
+   Ppx_deriving_runtime.unit, Ppx_deriving_runtime.string)
+  format4 ->
+  (Format.formatter -> char -> Ppx_deriving_runtime.unit) ->
+  char -> Ppx_deriving_runtime.string
+)
+ident(
+  ext_ref Format.asprintf
+)
+type(
+  char
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  Format.formatter -> char -> Ppx_deriving_runtime.unit
+)
+type(
+  char -> Ppx_deriving_runtime.unit
+)
+type(
+  (char -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format
+)
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  Format.formatter ->
+  (char -> Ppx_deriving_runtime.unit, Format.formatter,
+   Ppx_deriving_runtime.unit)
+  format -> char -> Ppx_deriving_runtime.unit
+)
+ident(
+  ext_ref Ppx_deriving_runtime.Format.fprintf
+)
+type(
+  Format.formatter
+)
+ident(
+  def fmt "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  char -> Ppx_deriving_runtime.string
+)
+ident(
+  def show_char "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+type(
+  Format.formatter -> char -> Ppx_deriving_runtime.unit
+)
+ident(
+  def pp_char "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+type(
+  Yojson.Safe.json -> char Ppx_deriving_yojson_runtime.error_or
+)
+type(
+  string
+)
+type(
+  (char, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  char
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  (char, string) Ppx_deriving_yojson_runtime.Result.result
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  char
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  char -> Yojson.Safe.json
+)
+type(
+  Yojson.Safe.json
+)
+type(
+  Ppx_deriving_runtime.int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  Ppx_deriving_runtime.int
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 3 25 64
+)
+type(
+  Yojson.Safe.json -> char Ppx_deriving_yojson_runtime.error_or
+)
+ident(
+  def char_of_yojson "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+type(
+  char -> Yojson.Safe.json
+)
+ident(
+  def char_to_yojson "ulib/ml/FStar_Char.ml" 3 25 25 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+"ulib/ml/FStar_Char.ml" 7 175 179 "ulib/ml/FStar_Char.ml" 7 175 188
+type(
+  int -> int
+)
+ident(
+  def lowercase "ulib/ml/FStar_Char.ml" 10 259 259 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+"ulib/ml/FStar_Char.ml" 7 175 189 "ulib/ml/FStar_Char.ml" 7 175 190
+type(
+  int
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 8 193 195 "ulib/ml/FStar_Char.ml" 9 245 258
+)
+"ulib/ml/FStar_Char.ml" 8 193 199 "ulib/ml/FStar_Char.ml" 8 193 208
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"ulib/ml/FStar_Char.ml" 8 193 210 "ulib/ml/FStar_Char.ml" 8 193 230
+type(
+  char -> char
+)
+ident(
+  ext_ref Char.lowercase_ascii
+)
+"ulib/ml/FStar_Char.ml" 8 193 232 "ulib/ml/FStar_Char.ml" 8 193 240
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"ulib/ml/FStar_Char.ml" 8 193 241 "ulib/ml/FStar_Char.ml" 8 193 242
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 7 175 189 "ulib/ml/FStar_Char.ml" 7 175 190
+)
+"ulib/ml/FStar_Char.ml" 8 193 231 "ulib/ml/FStar_Char.ml" 8 193 243
+call(
+  stack
+)
+type(
+  char
+)
+"ulib/ml/FStar_Char.ml" 8 193 209 "ulib/ml/FStar_Char.ml" 8 193 244
+call(
+  stack
+)
+type(
+  char
+)
+"ulib/ml/FStar_Char.ml" 8 193 199 "ulib/ml/FStar_Char.ml" 8 193 244
+type(
+  int
+)
+"ulib/ml/FStar_Char.ml" 9 245 252 "ulib/ml/FStar_Char.ml" 9 245 253
+type(
+  exn
+)
+"ulib/ml/FStar_Char.ml" 9 245 257 "ulib/ml/FStar_Char.ml" 9 245 258
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 7 175 189 "ulib/ml/FStar_Char.ml" 7 175 190
+)
+"ulib/ml/FStar_Char.ml" 8 193 195 "ulib/ml/FStar_Char.ml" 9 245 258
+type(
+  int
+)
+"ulib/ml/FStar_Char.ml" 10 259 263 "ulib/ml/FStar_Char.ml" 10 259 272
+type(
+  int -> int
+)
+ident(
+  def uppercase "ulib/ml/FStar_Char.ml" 13 343 343 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+"ulib/ml/FStar_Char.ml" 10 259 273 "ulib/ml/FStar_Char.ml" 10 259 274
+type(
+  int
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 11 277 279 "ulib/ml/FStar_Char.ml" 12 329 342
+)
+"ulib/ml/FStar_Char.ml" 11 277 283 "ulib/ml/FStar_Char.ml" 11 277 292
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"ulib/ml/FStar_Char.ml" 11 277 294 "ulib/ml/FStar_Char.ml" 11 277 314
+type(
+  char -> char
+)
+ident(
+  ext_ref Char.uppercase_ascii
+)
+"ulib/ml/FStar_Char.ml" 11 277 316 "ulib/ml/FStar_Char.ml" 11 277 324
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"ulib/ml/FStar_Char.ml" 11 277 325 "ulib/ml/FStar_Char.ml" 11 277 326
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 10 259 273 "ulib/ml/FStar_Char.ml" 10 259 274
+)
+"ulib/ml/FStar_Char.ml" 11 277 315 "ulib/ml/FStar_Char.ml" 11 277 327
+call(
+  stack
+)
+type(
+  char
+)
+"ulib/ml/FStar_Char.ml" 11 277 293 "ulib/ml/FStar_Char.ml" 11 277 328
+call(
+  stack
+)
+type(
+  char
+)
+"ulib/ml/FStar_Char.ml" 11 277 283 "ulib/ml/FStar_Char.ml" 11 277 328
+type(
+  int
+)
+"ulib/ml/FStar_Char.ml" 12 329 336 "ulib/ml/FStar_Char.ml" 12 329 337
+type(
+  exn
+)
+"ulib/ml/FStar_Char.ml" 12 329 341 "ulib/ml/FStar_Char.ml" 12 329 342
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 10 259 273 "ulib/ml/FStar_Char.ml" 10 259 274
+)
+"ulib/ml/FStar_Char.ml" 11 277 279 "ulib/ml/FStar_Char.ml" 12 329 342
+type(
+  int
+)
+"ulib/ml/FStar_Char.ml" 13 343 347 "ulib/ml/FStar_Char.ml" 13 343 358
+type(
+  int -> Z.t
+)
+ident(
+  def int_of_char "ulib/ml/FStar_Char.ml" 14 374 374 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+"ulib/ml/FStar_Char.ml" 13 343 359 "ulib/ml/FStar_Char.ml" 13 343 360
+type(
+  int
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 13 343 363 "ulib/ml/FStar_Char.ml" 13 343 373
+)
+"ulib/ml/FStar_Char.ml" 13 343 363 "ulib/ml/FStar_Char.ml" 13 343 371
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Z.of_int
+)
+"ulib/ml/FStar_Char.ml" 13 343 372 "ulib/ml/FStar_Char.ml" 13 343 373
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 13 343 359 "ulib/ml/FStar_Char.ml" 13 343 360
+)
+"ulib/ml/FStar_Char.ml" 13 343 363 "ulib/ml/FStar_Char.ml" 13 343 373
+type(
+  Z.t
+)
+"ulib/ml/FStar_Char.ml" 14 374 378 "ulib/ml/FStar_Char.ml" 14 374 389
+type(
+  Z.t -> int
+)
+ident(
+  def char_of_int "ulib/ml/FStar_Char.ml" 15 405 405 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+"ulib/ml/FStar_Char.ml" 14 374 390 "ulib/ml/FStar_Char.ml" 14 374 391
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 14 374 394 "ulib/ml/FStar_Char.ml" 14 374 404
+)
+"ulib/ml/FStar_Char.ml" 14 374 394 "ulib/ml/FStar_Char.ml" 14 374 402
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Char.ml" 14 374 403 "ulib/ml/FStar_Char.ml" 14 374 404
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 14 374 390 "ulib/ml/FStar_Char.ml" 14 374 391
+)
+"ulib/ml/FStar_Char.ml" 14 374 394 "ulib/ml/FStar_Char.ml" 14 374 404
+type(
+  int
+)
+"ulib/ml/FStar_Char.ml" 15 405 409 "ulib/ml/FStar_Char.ml" 15 405 420
+type(
+  'a -> 'a
+)
+ident(
+  def u32_of_char "ulib/ml/FStar_Char.ml" 16 427 427 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+"ulib/ml/FStar_Char.ml" 15 405 421 "ulib/ml/FStar_Char.ml" 15 405 422
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 15 405 425 "ulib/ml/FStar_Char.ml" 15 405 426
+)
+"ulib/ml/FStar_Char.ml" 15 405 425 "ulib/ml/FStar_Char.ml" 15 405 426
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 15 405 421 "ulib/ml/FStar_Char.ml" 15 405 422
+)
+"ulib/ml/FStar_Char.ml" 16 427 431 "ulib/ml/FStar_Char.ml" 16 427 442
+type(
+  'a -> 'a
+)
+ident(
+  def char_of_u32 "ulib/ml/FStar_Char.ml" 16 427 448 "ulib/ml/FStar_Char.ml" 1 0 -1
+)
+"ulib/ml/FStar_Char.ml" 16 427 443 "ulib/ml/FStar_Char.ml" 16 427 444
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Char.ml" 16 427 447 "ulib/ml/FStar_Char.ml" 16 427 448
+)
+"ulib/ml/FStar_Char.ml" 16 427 447 "ulib/ml/FStar_Char.ml" 16 427 448
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/FStar_Char.ml" 16 427 443 "ulib/ml/FStar_Char.ml" 16 427 444
+)

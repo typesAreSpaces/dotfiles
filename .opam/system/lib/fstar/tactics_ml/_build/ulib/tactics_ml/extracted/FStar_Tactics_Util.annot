@@ -1,0 +1,3880 @@
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 2 11 19 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 2 11 22
+type(
+  'a 'b.
+    ('a -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+    'a Prims.list ->
+    ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def map "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 2 11 11 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 8 188 194 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 8 188 195
+type(
+  'a -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 9 200 204 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3424
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 9 200 208 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 9 200 209
+type(
+  'a Prims.list
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 10 214 220 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3424
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 10 214 226 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 10 214 227
+type(
+  'a Prims.list
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 9 200 208 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 9 200 209
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 241 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 243
+type(
+  'a Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 252 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 253
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 258 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 294
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 288 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 290
+type(
+  'b Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 292 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 293
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 252 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 253
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 287 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 294
+type(
+  'b Prims.list * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 258 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 294
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 247 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 11 233 295
+type(
+  FStar_Tactics_Types.proofstate ->
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 304 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 305
+type(
+  'a
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 13 314 324 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3424
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 307 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 310
+type(
+  'a list
+)
+ident(
+  def tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 13 314 324 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3424
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 304 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 310
+type(
+  'a Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 13 314 329 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 13 314 331
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 349 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3423
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 356 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 357
+type(
+  'a -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 8 188 194 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 8 188 195
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 358 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 359
+type(
+  'a
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 304 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 305
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 355 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 360
+type(
+  ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 15 361 383 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 15 361 413
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 16 414 439 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 16 414 479
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 16 414 480 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 16 414 482
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 13 314 329 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 13 314 331
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 17 483 511 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 17 483 543
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 18 544 575 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 18 544 589
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 18 544 590 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 18 544 614
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 649 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 661
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 662 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 666
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 648 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 667
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 669 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 681
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 682 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 686
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 668 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 19 615 687
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 722 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 734
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 735 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 739
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 721 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 740
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 742 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 754
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 755 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 759
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 741 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 760
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 18 544 574 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 761
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 17 483 510 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 762
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 16 414 438 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 763
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 15 361 382 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 764
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 355 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 20 688 764
+call(
+  stack
+)
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 828 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 830
+type(
+  'b
+)
+ident(
+  def a1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 23 839 856 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3315
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 831 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 834
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 23 839 856 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3315
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 827 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 835
+type(
+  'b * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 798 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 835
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 23 839 863 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 23 839 865
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 24 871 891 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 24 871 893
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 927 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 930
+type(
+  ('a -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref map "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 2 11 19 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 2 11 22
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 931 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 932
+type(
+  'a -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 8 188 194 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 8 188 195
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 933 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 936
+type(
+  'a Prims.list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 307 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 12 296 310
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 926 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 937
+type(
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 26 938 970 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 26 938 1000
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 27 1001 1036 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 27 1001 1076
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 28 1077 1115 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 28 1077 1145
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 29 1146 1187 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 29 1146 1227
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 30 1228 1271 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 30 1228 1274
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 831 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 834
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 31 1275 1319 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 31 1275 1351
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 32 1352 1399 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 32 1352 1413
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 33 1414 1463 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 33 1414 1487
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 34 1488 1538 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 34 1488 1550
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 34 1488 1551 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 34 1488 1555
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 34 1488 1537 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 34 1488 1556
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 35 1557 1607 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 35 1557 1619
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 35 1557 1620 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 35 1557 1624
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 35 1557 1606 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 35 1557 1625
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 36 1626 1676 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 36 1626 1688
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 36 1626 1689 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 36 1626 1693
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 36 1626 1675 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 36 1626 1694
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1745 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1757
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1758 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1762
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1744 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1763
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 32 1352 1398 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1764
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 31 1275 1318 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1765
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 29 1146 1186 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1766
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 28 1077 1114 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 37 1695 1767
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 38 1768 1806 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 38 1768 1838
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 39 1839 1880 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 39 1839 1894
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 40 1895 1938 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 40 1895 1962
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 41 1963 2007 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 41 1963 2019
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 41 1963 2020 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 41 1963 2024
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 41 1963 2006 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 41 1963 2025
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 42 2026 2070 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 42 2026 2082
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 42 2026 2083 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 42 2026 2087
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 42 2026 2069 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 42 2026 2088
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 43 2089 2133 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 43 2089 2145
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 43 2089 2146 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 43 2089 2150
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 43 2089 2132 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 43 2089 2151
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2196 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2208
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2209 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2213
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2195 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2214
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 39 1839 1879 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2215
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 38 1768 1805 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2216
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 27 1001 1035 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2217
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 26 938 969 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2218
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 926 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 44 2152 2218
+call(
+  stack
+)
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2302 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2304
+type(
+  'b Prims.list
+)
+ident(
+  def a2 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 47 2314 2341 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3183
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2305 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2309
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps'1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 47 2314 2341 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3183
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2301 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2310
+type(
+  'b Prims.list * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2272 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2310
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 47 2314 2348 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 47 2314 2350
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 48 2356 2386 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 48 2356 2388
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 50 2453 2489 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 50 2453 2491
+type(
+  'b
+)
+ident(
+  int_ref a1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 828 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 22 783 830
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 50 2453 2495 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 50 2453 2497
+type(
+  'b Prims.list
+)
+ident(
+  int_ref a2 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2302 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2304
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 50 2453 2488 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 50 2453 2498
+type(
+  'b Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 51 2500 2537 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 51 2500 2567
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 52 2568 2608 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 52 2568 2648
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 53 2649 2691 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 53 2649 2695
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps'1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2305 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 46 2247 2309
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 54 2696 2739 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 54 2696 2771
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 55 2772 2818 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 55 2772 2832
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 56 2833 2881 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 56 2833 2905
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 57 2906 2955 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 57 2906 2967
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 57 2906 2968 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 57 2906 2972
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 57 2906 2954 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 57 2906 2973
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 58 2974 3023 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 58 2974 3035
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 58 2974 3036 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 58 2974 3040
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 58 2974 3022 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 58 2974 3041
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 59 3042 3091 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 59 3042 3103
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 59 3042 3104 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 59 3042 3108
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 59 3042 3090 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 59 3042 3109
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3159 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3171
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3172 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3176
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3158 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3177
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 55 2772 2817 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3178
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 54 2696 2738 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3179
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 52 2568 2607 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3180
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 51 2500 2536 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3181
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 50 2453 2487 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3182
+type(
+  'b Prims.list * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 49 2392 2424 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3182
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 47 2314 2341 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 60 3110 3183
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3238 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3239
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3276 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3313
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3240 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3244
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps'1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3276 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3313
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3237 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3245
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3209 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3245
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3305 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3306
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3238 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3239
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3308 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3312
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps'1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3240 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 61 3184 3244
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3304 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3313
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3276 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3313
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 25 897 919 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3314
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 23 839 856 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 62 3249 3315
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3360 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3361
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3387 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3423
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3362 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3365
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3387 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3423
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3359 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3366
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3331 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3366
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3416 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3417
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3360 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3361
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3419 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3422
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3362 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 63 3316 3365
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3415 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3423
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3387 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3423
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 14 336 349 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3423
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 13 314 324 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3424
+type(
+  FStar_Tactics_Types.proofstate ->
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 10 214 220 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3424
+type(
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 9 200 204 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3424
+type(
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 8 188 190 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 64 3370 3424
+type(
+  ('a -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 66 3428 3436 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 66 3428 3440
+type(
+  'a.
+    ('a -> (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+    'a Prims.list ->
+    (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def iter "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 66 3428 3428 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 71 3588 3594 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 71 3588 3595
+type(
+  'a -> (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 72 3600 3604 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4864
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 72 3600 3608 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 72 3600 3609
+type(
+  'a Prims.list
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 73 3614 3620 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4864
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 73 3614 3626 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 73 3614 3627
+type(
+  'a Prims.list
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 72 3600 3608 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 72 3600 3609
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3641 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3643
+type(
+  'a Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3652 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3653
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3658 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3694
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3688 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3690
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3692 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3693
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3652 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3653
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3687 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3694
+type(
+  Prims.unit * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3658 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3694
+type(
+  Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3647 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 74 3633 3695
+type(
+  FStar_Tactics_Types.proofstate -> Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3704 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3705
+type(
+  'a
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 76 3714 3724 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4864
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3707 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3710
+type(
+  'a list
+)
+ident(
+  def tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 76 3714 3724 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4864
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3704 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3710
+type(
+  'a Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 76 3714 3729 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 76 3714 3731
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3749 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4863
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3756 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3757
+type(
+  'a -> (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 71 3588 3594 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 71 3588 3595
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3758 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3759
+type(
+  'a
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3704 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3705
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3755 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3760
+type(
+  (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 78 3761 3783 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 78 3761 3813
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 79 3814 3839 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 79 3814 3879
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 79 3814 3880 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 79 3814 3882
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 76 3714 3729 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 76 3714 3731
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 80 3883 3911 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 80 3883 3943
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 81 3944 3975 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 81 3944 3989
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 81 3944 3990 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 81 3944 4014
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4049 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4061
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4062 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4066
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4048 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4067
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4069 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4081
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4082 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4086
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4068 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 82 4015 4087
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4122 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4134
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4135 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4139
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4121 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4140
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4142 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4154
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4155 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4159
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4141 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4160
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 81 3944 3974 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4161
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 80 3883 3910 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4162
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 79 3814 3838 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4163
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 78 3761 3782 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4164
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3755 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 83 4088 4164
+call(
+  stack
+)
+type(
+  Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4228 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4230
+type(
+  Prims.unit
+)
+ident(
+  def a1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 86 4239 4256 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4755
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4231 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4234
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 86 4239 4256 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4755
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4227 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4235
+type(
+  Prims.unit * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4198 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4235
+type(
+  Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 86 4239 4263 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 86 4239 4265
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 87 4271 4291 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 87 4271 4293
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4320 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4324
+type(
+  ('a -> (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a Prims.list ->
+  (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref iter "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 66 3428 3436 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 66 3428 3440
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4325 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4326
+type(
+  'a -> (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 71 3588 3594 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 71 3588 3595
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4327 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4330
+type(
+  'a Prims.list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3707 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 75 3696 3710
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4319 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4331
+type(
+  (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 89 4332 4357 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 89 4332 4387
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 90 4388 4416 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 90 4388 4456
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 90 4388 4457 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 90 4388 4460
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4231 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 85 4183 4234
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 91 4461 4492 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 91 4461 4524
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 92 4525 4559 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 92 4525 4573
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 92 4525 4574 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 92 4525 4598
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4636 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4648
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4649 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4653
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4635 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4654
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4656 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4668
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4669 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4673
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4655 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 93 4599 4674
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4712 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4724
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4725 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4729
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4711 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4730
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4732 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4744
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4745 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4749
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4731 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4750
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 92 4525 4558 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4751
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 91 4461 4491 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4752
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 90 4388 4415 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4753
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 89 4332 4356 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4754
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 88 4297 4319 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4754
+call(
+  tail
+)
+type(
+  Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 86 4239 4256 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 94 4675 4755
+type(
+  Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4800 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4801
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4827 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4863
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4802 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4805
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4827 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4863
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4799 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4806
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4771 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4806
+type(
+  Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4856 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4857
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4800 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4801
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4859 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4862
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4802 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 95 4756 4805
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4855 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4863
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4827 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4863
+type(
+  Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 77 3736 3749 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4863
+type(
+  Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 76 3714 3724 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4864
+type(
+  FStar_Tactics_Types.proofstate -> Prims.unit FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 73 3614 3620 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4864
+type(
+  (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 72 3600 3604 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4864
+type(
+  'a Prims.list ->
+  (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 71 3588 3590 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 96 4810 4864
+type(
+  ('a -> (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a Prims.list ->
+  (Prims.unit, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 98 4868 4876 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 98 4868 4885
+type(
+  'a 'b.
+    ('a -> 'b -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+    'a ->
+    'b Prims.list -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def fold_left "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 98 4868 4868 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 103 5044 5050 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 103 5044 5051
+type(
+  'a -> 'b -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 104 5056 5060 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 104 5056 5064 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 104 5056 5065
+type(
+  'a
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 105 5070 5076 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 105 5070 5080 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 105 5070 5081
+type(
+  'b Prims.list
+)
+ident(
+  def l "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 106 5086 5094 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 106 5086 5100 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 106 5086 5101
+type(
+  'b Prims.list
+)
+ident(
+  int_ref l "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 105 5070 5080 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 105 5070 5081
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5117 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5119
+type(
+  'b Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5128 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5129
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5134 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5169
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5164 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5165
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 104 5056 5064 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 104 5056 5065
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5167 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5168
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5128 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5129
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5163 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5169
+type(
+  'a * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5134 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5169
+type(
+  'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5123 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 107 5107 5170
+type(
+  FStar_Tactics_Types.proofstate -> 'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5181 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5184
+type(
+  'b
+)
+ident(
+  def hd1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 109 5193 5205 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5186 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5189
+type(
+  'b list
+)
+ident(
+  def tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 109 5193 5205 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5181 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5189
+type(
+  'b Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 109 5193 5210 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 109 5193 5212
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5232 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6394
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5239 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5240
+type(
+  'a -> 'b -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 103 5044 5050 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 103 5044 5051
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5241 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5242
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 104 5056 5064 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 104 5056 5065
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5243 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5246
+type(
+  'b
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5181 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5184
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5238 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5247
+type(
+  ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 111 5248 5272 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 111 5248 5302
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 112 5303 5330 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 112 5303 5370
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 112 5303 5371 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 112 5303 5373
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 109 5193 5210 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 109 5193 5212
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 113 5374 5404 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 113 5374 5436
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 114 5437 5470 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 114 5437 5484
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 114 5437 5485 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 114 5437 5509
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5546 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5558
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5559 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5563
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5545 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5564
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5566 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5578
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5579 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5583
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5565 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 115 5510 5584
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5621 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5633
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5634 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5638
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5620 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5639
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5641 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5653
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5654 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5658
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5640 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5659
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 114 5437 5469 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5660
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 113 5374 5403 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5661
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 112 5303 5329 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5662
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 111 5248 5271 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5663
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5238 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 116 5585 5663
+call(
+  stack
+)
+type(
+  'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5731 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5732
+type(
+  'a
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 119 5741 5760 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6282
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5733 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5736
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 119 5741 5760 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6282
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5730 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5737
+type(
+  'a * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5701 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5737
+type(
+  'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 119 5741 5767 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 119 5741 5769
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 120 5775 5797 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 120 5775 5799
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5828 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5837
+type(
+  ('a -> 'b -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a -> 'b Prims.list -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref fold_left "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 98 4868 4876 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 98 4868 4885
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5838 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5839
+type(
+  'a -> 'b -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 103 5044 5050 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 103 5044 5051
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5840 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5841
+type(
+  'a
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5731 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5732
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5842 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5845
+type(
+  'b Prims.list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5186 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 108 5171 5189
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5827 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5846
+type(
+  ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 122 5847 5874 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 122 5847 5904
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 123 5905 5935 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 123 5905 5975
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 123 5905 5976 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 123 5905 5979
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5733 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 118 5684 5736
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 124 5980 6013 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 124 5980 6045
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 125 6046 6082 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 125 6046 6096
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 125 6046 6097 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 125 6046 6121
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6161 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6173
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6174 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6178
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6160 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6179
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6181 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6193
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6194 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6198
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6180 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 126 6122 6199
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6239 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6251
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6252 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6256
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6238 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6257
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6259 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6271
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6272 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6276
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6258 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6277
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 125 6046 6081 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6278
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 124 5980 6012 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6279
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 123 5905 5934 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6280
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 122 5847 5873 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6281
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 121 5803 5827 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6281
+call(
+  tail
+)
+type(
+  'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 119 5741 5760 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 127 6200 6282
+type(
+  'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6329 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6330
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6358 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6394
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6331 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6334
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6358 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6394
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6328 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6335
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6300 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6335
+type(
+  'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6387 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6388
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6329 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6330
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6390 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6393
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6331 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 128 6283 6334
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6386 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6394
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6358 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6394
+type(
+  'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 110 5217 5232 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6394
+type(
+  'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 109 5193 5205 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+type(
+  FStar_Tactics_Types.proofstate -> 'a FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 106 5086 5094 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+type(
+  ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 105 5070 5076 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+type(
+  'b Prims.list -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 104 5056 5060 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+type(
+  'a -> 'b Prims.list -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 103 5044 5046 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 129 6339 6395
+type(
+  ('a -> 'b -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a -> 'b Prims.list -> ('a, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 131 6399 6407 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 131 6399 6417
+type(
+  'a 'b.
+    ('a -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+    'a Prims.list ->
+    'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def fold_right "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 131 6399 6399 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 136 6576 6582 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 136 6576 6583
+type(
+  'a -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 137 6588 6592 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 137 6588 6596 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 137 6588 6597
+type(
+  'a Prims.list
+)
+ident(
+  def l "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 138 6602 6608 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 138 6602 6612 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 138 6602 6613
+type(
+  'b
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 139 6618 6626 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 139 6618 6632 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 139 6618 6633
+type(
+  'a Prims.list
+)
+ident(
+  int_ref l "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 137 6588 6596 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 137 6588 6597
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6649 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6651
+type(
+  'a Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6660 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6661
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6666 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6701
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6696 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6697
+type(
+  'b
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 138 6602 6612 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 138 6602 6613
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6699 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6700
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6660 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6661
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6695 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6701
+type(
+  'b * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6666 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6701
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6655 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 140 6639 6702
+type(
+  FStar_Tactics_Types.proofstate -> 'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6713 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6716
+type(
+  'a
+)
+ident(
+  def hd1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 142 6725 6737 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6718 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6721
+type(
+  'a list
+)
+ident(
+  def tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 142 6725 6737 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6713 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6721
+type(
+  'a Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 142 6725 6742 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 142 6725 6744
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6764 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7927
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6771 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6781
+type(
+  ('a -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a Prims.list -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref fold_right "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 131 6399 6407 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 131 6399 6417
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6782 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6783
+type(
+  'a -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 136 6576 6582 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 136 6576 6583
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6784 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6787
+type(
+  'a Prims.list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6718 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6721
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6788 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6789
+type(
+  'b
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 138 6602 6612 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 138 6602 6613
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6770 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6790
+type(
+  ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 144 6791 6815 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 144 6791 6845
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 145 6846 6873 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 145 6846 6913
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 145 6846 6914 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 145 6846 6916
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 142 6725 6742 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 142 6725 6744
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 146 6917 6947 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 146 6917 6979
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 147 6980 7013 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 147 6980 7027
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 147 6980 7028 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 147 6980 7052
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7089 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7101
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7102 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7106
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7088 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7107
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7109 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7121
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7122 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7126
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7108 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 148 7053 7127
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7164 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7176
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7177 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7181
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7163 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7182
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7184 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7196
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7197 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7201
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7183 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7202
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 147 6980 7012 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7203
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 146 6917 6946 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7204
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 145 6846 6872 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7205
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 144 6791 6814 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7206
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6770 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 149 7128 7206
+call(
+  stack
+)
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7274 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7275
+type(
+  'b
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 152 7284 7303 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7815
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7276 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7279
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 152 7284 7303 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7815
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7273 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7280
+type(
+  'b * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7244 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7280
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 152 7284 7310 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 152 7284 7312
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 153 7318 7340 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 153 7318 7342
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7371 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7372
+type(
+  'a -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 136 6576 6582 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 136 6576 6583
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7373 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7376
+type(
+  'a
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6713 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 141 6703 6716
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7377 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7378
+type(
+  'b
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7274 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7275
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7370 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7379
+type(
+  ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 155 7380 7407 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 155 7380 7437
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 156 7438 7468 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 156 7438 7508
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 156 7438 7509 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 156 7438 7512
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7276 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 151 7227 7279
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 157 7513 7546 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 157 7513 7578
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 158 7579 7615 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 158 7579 7629
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 158 7579 7630 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 158 7579 7654
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7694 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7706
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7707 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7711
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7693 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7712
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7714 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7726
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7727 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7731
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7713 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 159 7655 7732
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7772 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7784
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7785 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7789
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7771 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7790
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7792 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7804
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7805 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7809
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7791 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7810
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 158 7579 7614 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7811
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 157 7513 7545 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7812
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 156 7438 7467 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7813
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 155 7380 7406 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7814
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 154 7346 7370 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7814
+call(
+  tail
+)
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 152 7284 7303 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 160 7733 7815
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7862 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7863
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7891 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7927
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7864 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7867
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7891 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7927
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7861 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7868
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7833 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7868
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7920 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7921
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7862 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7863
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7923 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7926
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7864 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 161 7816 7867
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7919 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7927
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7891 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7927
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 143 6749 6764 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7927
+type(
+  'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 142 6725 6737 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+type(
+  FStar_Tactics_Types.proofstate -> 'b FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 139 6618 6626 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+type(
+  ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 138 6602 6608 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+type(
+  'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 137 6588 6592 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+type(
+  'a Prims.list -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 136 6576 6578 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 162 7872 7928
+type(
+  ('a -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a Prims.list -> 'b -> ('b, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 164 7932 7940 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 164 7932 7943
+type(
+  'Aa 'Ab.
+    'Aa Prims.list ->
+    'Ab Prims.list ->
+    (('Aa * 'Ab) Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def zip "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 164 7932 7932 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 170 8082 8088 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 170 8082 8090
+type(
+  'Aa Prims.list
+)
+ident(
+  def l1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 171 8095 8099 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9455
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 171 8095 8103 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 171 8095 8105
+type(
+  'Ab Prims.list
+)
+ident(
+  def l2 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 172 8110 8116 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9455
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 172 8110 8123 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 172 8110 8125
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref l1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 170 8082 8088 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 170 8082 8090
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 172 8110 8127 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 172 8110 8129
+type(
+  'Ab Prims.list
+)
+ident(
+  int_ref l2 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 171 8095 8103 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 171 8095 8105
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 172 8110 8122 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 172 8110 8130
+type(
+  'Aa Prims.list * 'Ab Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8145 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8146
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8171 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9385
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8148 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8150
+type(
+  'Aa list
+)
+ident(
+  def xs "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8171 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9385
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8145 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8150
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8151 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8152
+type(
+  'Ab
+)
+ident(
+  def y "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8171 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9385
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8154 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8156
+type(
+  'Ab list
+)
+ident(
+  def ys "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8171 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9385
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8151 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8156
+type(
+  'Ab Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8144 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8157
+type(
+  'Aa Prims.list * 'Ab Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8176 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8178
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8196 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9384
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8203 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8206
+type(
+  'Aa Prims.list ->
+  'Ab Prims.list ->
+  (('Aa * 'Ab) Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref zip "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 164 7932 7940 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 164 7932 7943
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8207 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8209
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref xs "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8148 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8150
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8210 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8212
+type(
+  'Ab Prims.list
+)
+ident(
+  int_ref ys "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8154 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8156
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8202 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8213
+type(
+  (('Aa * 'Ab) Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 176 8214 8236 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 176 8214 8266
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 177 8267 8292 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 177 8267 8332
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 177 8267 8333 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 177 8267 8335
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8176 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8178
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 178 8336 8364 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 178 8336 8396
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 179 8397 8428 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 179 8397 8442
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 179 8397 8443 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 179 8397 8467
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8502 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8514
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8515 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8519
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8501 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8520
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8522 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8534
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8535 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8539
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8521 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 180 8468 8540
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8575 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8587
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8588 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8592
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8574 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8593
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8595 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8607
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8608 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8612
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8594 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8613
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 179 8397 8427 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8614
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 178 8336 8363 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8615
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 177 8267 8291 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8616
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 176 8214 8235 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8617
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8202 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 181 8541 8617
+call(
+  stack
+)
+type(
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8681 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8682
+type(
+  ('Aa * 'Ab) Prims.list
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 184 8691 8708 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9276
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8683 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8686
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 184 8691 8708 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9276
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8680 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8687
+type(
+  ('Aa * 'Ab) Prims.list * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8651 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8687
+type(
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 184 8691 8715 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 184 8691 8717
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 185 8723 8743 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 185 8723 8745
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8827 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8828
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8145 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8146
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8830 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8831
+type(
+  'Ab
+)
+ident(
+  int_ref y "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8151 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 173 8136 8152
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8826 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8832
+type(
+  'Aa * 'Ab
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8836 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8837
+type(
+  ('Aa * 'Ab) Prims.list
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8681 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8682
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8825 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8838
+type(
+  ('Aa * 'Ab) Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 188 8840 8867 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 188 8840 8897
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 189 8898 8928 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 189 8898 8968
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 189 8898 8969 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 189 8898 8972
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8683 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 183 8636 8686
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 190 8973 9006 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 190 8973 9038
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 191 9039 9075 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 191 9039 9089
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 191 9039 9090 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 191 9039 9114
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9154 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9166
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9167 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9171
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9153 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9172
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9174 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9186
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9187 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9191
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9173 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 192 9115 9192
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9232 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9244
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9245 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9249
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9231 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9250
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9252 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9264
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9265 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9269
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9251 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9270
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 191 9039 9074 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9271
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 190 8973 9005 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9272
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 189 8898 8927 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9273
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 188 8840 8866 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9274
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 187 8800 8824 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9275
+type(
+  ('Aa * 'Ab) Prims.list * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 186 8749 8771 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9275
+type(
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 184 8691 8708 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 193 9193 9276
+type(
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9321 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9322
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9348 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9384
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9323 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9326
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9348 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9384
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9320 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9327
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9292 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9327
+type(
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9377 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9378
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9321 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9322
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9380 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9383
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9323 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 194 9277 9326
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9376 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9384
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9348 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9384
+type(
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 175 8183 8196 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9384
+type(
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 174 8161 8171 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 195 9331 9385
+type(
+  FStar_Tactics_Types.proofstate ->
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9394 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9403
+type(
+  'Aa Prims.list * 'Ab Prims.list
+)
+ident(
+  def uu____877 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9407 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9455
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9412 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9413
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9418 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9454
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9448 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9450
+type(
+  ('Aa * 'Ab) Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9452 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9453
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9412 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9413
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9447 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9454
+type(
+  ('Aa * 'Ab) Prims.list * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9418 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9454
+type(
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9407 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9455
+type(
+  FStar_Tactics_Types.proofstate ->
+  ('Aa * 'Ab) Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 172 8110 8116 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9455
+type(
+  (('Aa * 'Ab) Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 171 8095 8099 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9455
+type(
+  'Ab Prims.list ->
+  (('Aa * 'Ab) Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 170 8082 8084 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 196 9386 9455
+type(
+  'Aa Prims.list ->
+  'Ab Prims.list ->
+  (('Aa * 'Ab) Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9467 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9481
+type(
+  'a 'b.
+    ('a ->
+     ('b FStar_Pervasives_Native.option, Prims.unit)
+     FStar_Tactics_Effect._dm4f_TAC_repr) ->
+    'b Prims.list ->
+    'a Prims.list ->
+    ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def filter_map_acc "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9459 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9733 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9734
+type(
+  'a ->
+  ('b FStar_Pervasives_Native.option, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9743 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9747 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9750
+type(
+  'b Prims.list
+)
+ident(
+  def acc "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 210 9755 9761 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 210 9755 9765 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 210 9755 9766
+type(
+  'a Prims.list
+)
+ident(
+  def l "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 211 9771 9779 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 211 9771 9785 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 211 9771 9786
+type(
+  'a Prims.list
+)
+ident(
+  int_ref l "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 210 9755 9765 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 210 9755 9766
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 212 9792 9802 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 212 9792 9804
+type(
+  'a Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 213 9808 9825 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 213 9808 9826
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 214 9831 9846 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9926
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9894 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9917
+type(
+  'b Prims.list -> 'b Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.rev
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9918 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9921
+type(
+  'b Prims.list
+)
+ident(
+  int_ref acc "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9747 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9750
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9893 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9922
+call(
+  stack
+)
+type(
+  'b Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9924 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9925
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref s "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 213 9808 9825 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 213 9808 9826
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9892 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9926
+type(
+  'b Prims.list * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 214 9831 9846 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9926
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 213 9808 9820 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 215 9875 9927
+type(
+  FStar_Tactics_Types.proofstate ->
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9938 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9941
+type(
+  'a
+)
+ident(
+  def hd1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 217 9950 9962 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9943 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9946
+type(
+  'a list
+)
+ident(
+  def tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 217 9950 9962 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9938 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9946
+type(
+  'a Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 217 9950 9967 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 217 9950 9969
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 9989 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11389
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 9996 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 9997
+type(
+  'a ->
+  ('b FStar_Pervasives_Native.option, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9733 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9734
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 9998 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 10001
+type(
+  'a
+)
+ident(
+  int_ref hd1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9938 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9941
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 9995 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 10002
+type(
+  ('b FStar_Pervasives_Native.option, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 219 10003 10027 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 219 10003 10057
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.incr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 220 10058 10085 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 220 10058 10125
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 220 10058 10126 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 220 10058 10128
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 217 9950 9967 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 217 9950 9969
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 221 10129 10159 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 221 10129 10191
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 222 10192 10225 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 222 10192 10239
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 222 10192 10240 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 222 10192 10264
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10301 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10313
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10314 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10318
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10300 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10319
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10321 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10333
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10334 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10338
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10320 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 223 10265 10339
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10376 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10388
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10389 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10393
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10375 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10394
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10396 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10408
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10409 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10413
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10395 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10414
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 222 10192 10224 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10415
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 221 10129 10158 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10416
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 220 10058 10084 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10417
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 219 10003 10026 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10418
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 9995 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 224 10340 10418
+call(
+  stack
+)
+type(
+  'b FStar_Pervasives_Native.option FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10486 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10487
+type(
+  'b FStar_Pervasives_Native.option
+)
+ident(
+  def a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 227 10496 10515 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11277
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10488 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10491
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 227 10496 10515 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11277
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10485 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10492
+type(
+  'b FStar_Pervasives_Native.option * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10456 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10492
+type(
+  'b FStar_Pervasives_Native.option FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 227 10496 10522 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 227 10496 10524
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 228 10530 10552 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 228 10530 10554
+type(
+  unit
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 229 10558 10590 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 229 10558 10591
+type(
+  'b FStar_Pervasives_Native.option
+)
+ident(
+  int_ref a "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10486 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10487
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 230 10597 10654 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 230 10597 10657
+type(
+  'b
+)
+ident(
+  def hd2 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10691 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10724
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 230 10597 10625 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 230 10597 10657
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10691 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10705
+type(
+  ('a ->
+   ('b FStar_Pervasives_Native.option, Prims.unit)
+   FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'b Prims.list ->
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref filter_map_acc "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9467 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9481
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10706 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10707
+type(
+  'a ->
+  ('b FStar_Pervasives_Native.option, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9733 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9734
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10709 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10712
+type(
+  'b
+)
+ident(
+  int_ref hd2 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 230 10597 10654 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 230 10597 10657
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10716 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10719
+type(
+  'b Prims.list
+)
+ident(
+  int_ref acc "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9747 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9750
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10708 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10720
+type(
+  'b Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10721 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10724
+type(
+  'a Prims.list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9943 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9946
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10691 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 231 10661 10724
+call(
+  stack
+)
+type(
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 232 10725 10753 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 232 10725 10781
+type(
+  'b FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10816 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10830
+type(
+  ('a ->
+   ('b FStar_Pervasives_Native.option, Prims.unit)
+   FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'b Prims.list ->
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref filter_map_acc "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9467 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9481
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10831 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10832
+type(
+  'a ->
+  ('b FStar_Pervasives_Native.option, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9733 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9734
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10833 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10836
+type(
+  'b Prims.list
+)
+ident(
+  int_ref acc "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9747 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9750
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10837 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10840
+type(
+  'a Prims.list
+)
+ident(
+  int_ref tl1 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9943 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 216 9928 9946
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10816 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10840
+call(
+  stack
+)
+type(
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 229 10558 10582 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 233 10786 10842
+type(
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 234 10843 10870 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 234 10843 10900
+type(
+  FStar_Tactics_Types.proofstate -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.decr_depth
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 235 10901 10931 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 235 10901 10971
+type(
+  FStar_Tactics_Types.proofstate ->
+  FStar_Range.range -> FStar_Tactics_Types.proofstate
+)
+ident(
+  ext_ref FStar_Tactics_Types.set_proofstate_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 235 10901 10972 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 235 10901 10975
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10488 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 226 10439 10491
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 236 10976 11009 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 236 10976 11041
+type(
+  Prims.range -> FStar_Range.range
+)
+ident(
+  ext_ref FStar_Range.prims_to_fstar_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 237 11042 11078 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 237 11042 11092
+type(
+  string -> Prims.int -> Prims.int -> Prims.int -> Prims.int -> Prims.range
+)
+ident(
+  ext_ref Prims.mk_range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 237 11042 11093 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 237 11042 11117
+type(
+  string
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11157 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11169
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11170 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11174
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11156 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11175
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11177 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11189
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11190 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11193
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11176 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 238 11118 11194
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11234 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11246
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11247 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11251
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11233 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11252
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11254 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11266
+type(
+  int -> Prims.int
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11267 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11271
+type(
+  int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11253 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11272
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 237 11042 11077 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11273
+call(
+  stack
+)
+type(
+  Prims.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 236 10976 11008 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11274
+call(
+  stack
+)
+type(
+  FStar_Range.range
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 235 10901 10930 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11275
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 234 10843 10869 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11276
+call(
+  stack
+)
+type(
+  FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 229 10558 10582 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11276
+call(
+  tail
+)
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 227 10496 10515 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 239 11195 11277
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11324 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11325
+type(
+  Prims.exn
+)
+ident(
+  def e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11353 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11389
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11326 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11329
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  def ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11353 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11389
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11323 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11330
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11295 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11330
+type(
+  'b FStar_Pervasives_Native.option FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11382 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11383
+type(
+  Prims.exn
+)
+ident(
+  int_ref e "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11324 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11325
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11385 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11388
+type(
+  FStar_Tactics_Types.proofstate
+)
+ident(
+  int_ref ps' "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11326 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 240 11278 11329
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11381 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11389
+type(
+  Prims.exn * FStar_Tactics_Types.proofstate
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11353 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11389
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 218 9974 9989 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11389
+type(
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 217 9950 9962 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+type(
+  FStar_Tactics_Types.proofstate ->
+  'b Prims.list FStar_Tactics_Result.__result
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 211 9771 9779 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+type(
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 210 9755 9761 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+type(
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 209 9739 9743 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+type(
+  'b Prims.list ->
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 208 9727 9729 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 241 11334 11390
+type(
+  ('a ->
+   ('b FStar_Pervasives_Native.option, Prims.unit)
+   FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'b Prims.list ->
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 243 11394 11398 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 243 11394 11408
+type(
+  'a 'b.
+    ('a ->
+     ('b FStar_Pervasives_Native.option, Prims.unit)
+     FStar_Tactics_Effect._dm4f_TAC_repr) ->
+    'a Prims.list ->
+    ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def filter_map "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11668 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 1 0 -1
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11631 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11632
+type(
+  'a ->
+  ('b FStar_Pervasives_Native.option, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  def f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11637 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11668
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11641 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11642
+type(
+  'a Prims.list
+)
+ident(
+  def l "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11647 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11668
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11647 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11661
+type(
+  ('a ->
+   ('b FStar_Pervasives_Native.option, Prims.unit)
+   FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'b Prims.list ->
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref filter_map_acc "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9467 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 198 9459 9481
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11662 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11663
+type(
+  'a ->
+  ('b FStar_Pervasives_Native.option, Prims.unit)
+  FStar_Tactics_Effect._dm4f_TAC_repr
+)
+ident(
+  int_ref f "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11631 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11632
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11664 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11666
+type(
+  'b Prims.list
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11667 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11668
+type(
+  'a Prims.list
+)
+ident(
+  int_ref l "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11641 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11642
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11647 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11668
+call(
+  tail
+)
+type(
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11637 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11668
+type(
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)
+"ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11627 "ulib/tactics_ml/extracted/FStar_Tactics_Util.ml" 251 11623 11668
+type(
+  ('a ->
+   ('b FStar_Pervasives_Native.option, Prims.unit)
+   FStar_Tactics_Effect._dm4f_TAC_repr) ->
+  'a Prims.list ->
+  ('b Prims.list, Prims.unit) FStar_Tactics_Effect._dm4f_TAC_repr
+)

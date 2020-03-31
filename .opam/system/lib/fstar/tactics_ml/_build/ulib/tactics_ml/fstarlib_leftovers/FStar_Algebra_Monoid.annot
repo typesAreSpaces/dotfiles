@@ -1,0 +1,1403 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 241 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 255
+type(
+  'Am. 'Am monoid -> Prims.bool
+)
+ident(
+  def uu___is_Monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 8 315 315 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 295 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 304
+type(
+  'Am monoid
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 309 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 313
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 309 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 313
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 291 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 7 237 313
+type(
+  'Am monoid -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 8 315 319 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 8 315 345
+type(
+  'Am. 'Am monoid -> 'Am
+)
+ident(
+  def __proj__Monoid__item__unit "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 13 500 500 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 9 374 380 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 9 374 389
+type(
+  'Am monoid
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 10 394 398 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 10 394 404 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 10 394 413
+type(
+  'Am monoid
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 9 374 380 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 9 374 389
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 433 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 437
+type(
+  'Am
+)
+ident(
+  def unit "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 438 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 442
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  def mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 443 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 458
+type(
+  Prims.unit
+)
+ident(
+  def right_unitality "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 459 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 473
+type(
+  Prims.unit
+)
+ident(
+  def left_unitality "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 474 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 487
+type(
+  Prims.unit
+)
+ident(
+  def associativity "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 425 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 488
+type(
+  'Am monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+type(
+  'Am
+)
+ident(
+  int_ref unit "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 433 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 437
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 10 394 398 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+type(
+  'Am
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 9 374 376 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 11 419 496
+type(
+  'Am monoid -> 'Am
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 13 500 504 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 13 500 530
+type(
+  'Am. 'Am monoid -> 'Am -> 'Am -> 'Am
+)
+ident(
+  def __proj__Monoid__item__mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 702 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 14 573 579 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 14 573 588
+type(
+  'Am monoid
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 15 593 597 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 15 593 603 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 15 593 612
+type(
+  'Am monoid
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 14 573 579 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 14 573 588
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 632 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 636
+type(
+  'Am
+)
+ident(
+  def unit "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 637 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 641
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  def mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 642 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 657
+type(
+  Prims.unit
+)
+ident(
+  def right_unitality "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 658 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 672
+type(
+  Prims.unit
+)
+ident(
+  def left_unitality "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 673 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 686
+type(
+  Prims.unit
+)
+ident(
+  def associativity "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 624 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 687
+type(
+  'Am monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  int_ref mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 637 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 641
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 15 593 597 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+type(
+  'Am -> 'Am -> 'Am
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 14 573 575 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 16 618 695
+type(
+  'Am monoid -> 'Am -> 'Am -> 'Am
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+type(
+  'Am. 'Am -> ('Am -> 'Am -> 'Am) -> 'Am monoid
+)
+ident(
+  def intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 23 825 825 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 776 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 777
+type(
+  'Am
+)
+ident(
+  def u "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 782 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 823
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 786 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 790
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  def mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 795 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 823
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 803 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 804
+type(
+  'Am
+)
+ident(
+  int_ref u "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 776 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 777
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 806 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 810
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  int_ref mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 786 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 790
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 812 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 814
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 816 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 818
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 820 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 822
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 795 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 823
+type(
+  'Am monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 782 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 823
+type(
+  ('Am -> 'Am -> 'Am) -> 'Am monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 772 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 22 770 823
+type(
+  'Am -> ('Am -> 'Am -> 'Am) -> 'Am monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 23 825 830 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 23 825 845
+type(
+  Prims.nat monoid
+)
+ident(
+  def nat_plus_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 927 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 874 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 877
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def add "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 894 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 925
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 878 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 879
+type(
+  Z.t
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 880 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 889
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 880 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 881
+type(
+  Z.t
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 884 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 889
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 884 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 885
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 878 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 879
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 886 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 887
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 888 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 889
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 880 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 881
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 884 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 889
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 894 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 906
+type(
+  Prims.nat -> (Prims.nat -> Prims.nat -> Prims.nat) -> Prims.nat monoid
+)
+ident(
+  int_ref intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 907 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 921
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 922 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 925
+type(
+  Prims.nat -> Prims.nat -> Prims.nat
+)
+ident(
+  int_ref add "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 874 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 877
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 894 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 925
+call(
+  stack
+)
+type(
+  Prims.nat monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 870 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 24 868 925
+type(
+  Prims.nat monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 932 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 947
+type(
+  Prims.int monoid
+)
+ident(
+  def int_plus_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 26 1003 1003 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 970 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 982
+type(
+  Prims.int -> (Prims.int -> Prims.int -> Prims.int) -> Prims.int monoid
+)
+ident(
+  int_ref intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 983 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 997
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 998 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 1001
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 970 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 1001
+call(
+  stack
+)
+type(
+  Prims.int monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 26 1003 1008 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 26 1003 1026
+type(
+  Prims.unit monoid
+)
+ident(
+  def conjunction_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 28 1090 1090 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1046 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1058
+type(
+  Prims.unit -> (Prims.unit -> Prims.unit -> Prims.unit) -> Prims.unit monoid
+)
+ident(
+  int_ref intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1059 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1061
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1067 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1069
+type(
+  Prims.unit
+)
+ident(
+  def a1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1074 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1087
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1078 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1080
+type(
+  Prims.unit
+)
+ident(
+  def a2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1085 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1087
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1085 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1087
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1074 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1087
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1062 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1088
+type(
+  Prims.unit -> Prims.unit -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1046 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 27 1044 1088
+call(
+  stack
+)
+type(
+  Prims.unit monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 28 1090 1095 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 28 1090 1113
+type(
+  Prims.unit monoid
+)
+ident(
+  def disjunction_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 30 1177 1177 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1145
+type(
+  Prims.unit -> (Prims.unit -> Prims.unit -> Prims.unit) -> Prims.unit monoid
+)
+ident(
+  int_ref intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1146 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1148
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1154 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1156
+type(
+  Prims.unit
+)
+ident(
+  def a3 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1161 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1174
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1165 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1167
+type(
+  Prims.unit
+)
+ident(
+  def a4 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1172 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1174
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1172 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1174
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1161 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1174
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1149 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1175
+type(
+  Prims.unit -> Prims.unit -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 29 1131 1175
+call(
+  stack
+)
+type(
+  Prims.unit monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 30 1177 1182 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 30 1177 1197
+type(
+  Prims.bool monoid
+)
+ident(
+  def bool_and_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 32 1277 1277 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1227 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1231
+type(
+  bool -> bool -> bool
+)
+ident(
+  def and_ "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1275
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1232 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1234
+type(
+  bool
+)
+ident(
+  def b1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1235 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1235 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1237
+type(
+  bool
+)
+ident(
+  def b2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1248
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1242
+type(
+  bool
+)
+ident(
+  int_ref b1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1232 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1234
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1243 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1245
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1248
+type(
+  bool
+)
+ident(
+  int_ref b2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1235 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1237
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1240 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1248
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1265
+type(
+  Prims.bool -> (Prims.bool -> Prims.bool -> Prims.bool) -> Prims.bool monoid
+)
+ident(
+  int_ref intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1266 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1270
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1271 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1275
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  int_ref and_ "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1227 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1231
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1275
+call(
+  stack
+)
+type(
+  Prims.bool monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1223 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 31 1221 1275
+type(
+  Prims.bool monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 32 1277 1282 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 32 1277 1296
+type(
+  Prims.bool monoid
+)
+ident(
+  def bool_or_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 34 1375 1375 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1326 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1329
+type(
+  bool -> bool -> bool
+)
+ident(
+  def or_ "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1351 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1373
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1330 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1332
+type(
+  bool
+)
+ident(
+  def b1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1346
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1335
+type(
+  bool
+)
+ident(
+  def b2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1338 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1346
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1338 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1340
+type(
+  bool
+)
+ident(
+  int_ref b1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1330 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1332
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1341 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1343
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1346
+type(
+  bool
+)
+ident(
+  int_ref b2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1333 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1335
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1338 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1346
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1351 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1363
+type(
+  Prims.bool -> (Prims.bool -> Prims.bool -> Prims.bool) -> Prims.bool monoid
+)
+ident(
+  int_ref intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1364 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1369
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1370 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1373
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  int_ref or_ "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1326 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1329
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1351 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1373
+call(
+  stack
+)
+type(
+  Prims.bool monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1322 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 33 1320 1373
+type(
+  Prims.bool monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 34 1375 1380 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 34 1375 1395
+type(
+  Prims.bool monoid
+)
+ident(
+  def bool_xor_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 37 1512 1512 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1425 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1428
+type(
+  bool -> bool -> bool
+)
+ident(
+  def xor "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1510
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1431
+type(
+  bool
+)
+ident(
+  def b1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1432 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1481
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1432 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1434
+type(
+  bool
+)
+ident(
+  def b2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1437 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1481
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1438 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1440
+type(
+  bool
+)
+ident(
+  int_ref b1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1431
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1441 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1443
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1444 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1446
+type(
+  bool
+)
+ident(
+  int_ref b2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1432 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1434
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1437 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1447
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1448 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1450
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1452 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1469
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Prims.op_Negation
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1471 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1473
+type(
+  bool
+)
+ident(
+  int_ref b1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1431
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1474 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1476
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1477 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1479
+type(
+  bool
+)
+ident(
+  int_ref b2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1432 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1434
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1470 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1480
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1451 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1481
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1437 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1481
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1500
+type(
+  Prims.bool -> (Prims.bool -> Prims.bool -> Prims.bool) -> Prims.bool monoid
+)
+ident(
+  int_ref intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1501 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1506
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1507 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1510
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  int_ref xor "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1425 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1428
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1510
+call(
+  stack
+)
+type(
+  Prims.bool monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 35 1419 1421 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 36 1486 1510
+type(
+  Prims.bool monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 37 1512 1516 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 37 1512 1534
+type(
+  'Aa. 'Aa monoid -> 'Aa FStar_Pervasives_Native.option monoid
+)
+ident(
+  def lift_monoid_option "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 48 1970 1970 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 39 1603 1609 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 39 1603 1610
+type(
+  'Aa monoid
+)
+ident(
+  def m "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1619 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1966
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1623 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1627
+type(
+  'Aa FStar_Pervasives_Native.option ->
+  'Aa FStar_Pervasives_Native.option -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 45 1877 1881 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1966
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1628 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1629
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1630 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1872
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1630 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1631
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def y "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 41 1634 1640 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1872
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 41 1634 1647 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 41 1634 1648
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1628 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1629
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 41 1634 1650 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 41 1634 1651
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1630 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1631
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 41 1634 1646 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 41 1634 1652
+type(
+  'Aa FStar_Pervasives_Native.option * 'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1696 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1698
+type(
+  'Aa
+)
+ident(
+  def x0 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1745 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1810
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1667 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1698
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1728 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1730
+type(
+  'Aa
+)
+ident(
+  def y0 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1745 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1810
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1699 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1730
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1666 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1731
+type(
+  'Aa FStar_Pervasives_Native.option * 'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1775 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1801
+type(
+  'Aa monoid -> 'Aa -> 'Aa -> 'Aa
+)
+ident(
+  int_ref __proj__Monoid__item__mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 13 500 504 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 13 500 530
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1802 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1803
+type(
+  'Aa monoid
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 39 1603 1609 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 39 1603 1610
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1804 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1806
+type(
+  'Aa
+)
+ident(
+  int_ref x0 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1696 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1698
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1807 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1809
+type(
+  'Aa
+)
+ident(
+  int_ref y0 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1728 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 42 1658 1730
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1774 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1810
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1745 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 43 1735 1810
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1820 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1829
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def uu____513 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1844 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1872
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1830 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1839
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def uu____514 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1844 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1872
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1819 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1840
+type(
+  'Aa FStar_Pervasives_Native.option * 'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1844 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1872
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 41 1634 1640 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 44 1811 1872
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 45 1877 1881 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 45 1877 1893
+type(
+  'Aa FStar_Pervasives_Native.option ->
+  ('Aa FStar_Pervasives_Native.option ->
+   'Aa FStar_Pervasives_Native.option -> 'Aa FStar_Pervasives_Native.option) ->
+  'Aa FStar_Pervasives_Native.option monoid
+)
+ident(
+  int_ref intro_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1931 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1957
+type(
+  'Aa monoid -> 'Aa
+)
+ident(
+  int_ref __proj__Monoid__item__unit "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 8 315 319 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 8 315 345
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1958 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1959
+type(
+  'Aa monoid
+)
+ident(
+  int_ref m "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 39 1603 1609 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 39 1603 1610
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1930 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1960
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1900 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1961
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1962 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1966
+type(
+  'Aa FStar_Pervasives_Native.option ->
+  'Aa FStar_Pervasives_Native.option -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref mult "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1623 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1627
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 45 1877 1881 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1966
+call(
+  tail
+)
+type(
+  'Aa FStar_Pervasives_Native.option monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 40 1615 1619 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1966
+type(
+  'Aa FStar_Pervasives_Native.option monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 39 1603 1605 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 46 1894 1966
+type(
+  'Aa monoid -> 'Aa FStar_Pervasives_Native.option monoid
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 52 2178 2182 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 52 2178 2204
+type(
+  'Aa 'Ab.
+    ('Aa -> 'Ab) ->
+    'Aa monoid ->
+    'Ab monoid ->
+    ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+    Prims.bool
+)
+ident(
+  def uu___is_MonoidMorphism "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2398 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2344 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2345
+type(
+  'Aa -> 'Ab
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2350 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2356
+type(
+  'Aa monoid
+)
+ident(
+  def ma "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2361 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2365 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2367
+type(
+  'Ab monoid
+)
+ident(
+  def mb "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2372 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2376 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2385
+type(
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2390 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2390 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2372 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2361 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2350 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  'Aa monoid ->
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2340 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  ('Aa -> 'Ab) ->
+  'Aa monoid ->
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2402 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2423
+type(
+  'Aa 'Ab.
+    ('Aa -> 'Ab) ->
+    'Aa monoid ->
+    'Ab monoid ->
+    ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+ident(
+  def intro_monoid_morphism "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2594 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2541 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2542
+type(
+  'Aa -> 'Ab
+)
+ident(
+  def f "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2547 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2592
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2551 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2553
+type(
+  'Aa monoid
+)
+ident(
+  def ma "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2558 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2592
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2562 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2564
+type(
+  'Ab monoid
+)
+ident(
+  def mb "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2569 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2592
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2585 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2587
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2589 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2591
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2569 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2592
+type(
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2558 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2592
+type(
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2547 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2592
+type(
+  'Aa monoid ->
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2537 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 64 2533 2592
+type(
+  ('Aa -> 'Ab) ->
+  'Aa monoid ->
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2599 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2612
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  def embed_nat_int "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 66 2654 2654 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2645 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2646
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2651 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2652
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2651 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2652
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2645 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2646
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2641 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2652
+type(
+  Prims.nat -> Prims.int
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 66 2654 2659 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 66 2654 2667
+type(
+  (Prims.nat, Prims.int, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+ident(
+  def uu___154 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 68 2797 2797 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2728 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2749
+type(
+  (Prims.nat -> Prims.int) ->
+  Prims.nat monoid ->
+  Prims.int monoid ->
+  (Prims.nat, Prims.int, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+ident(
+  int_ref intro_monoid_morphism "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2402 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2423
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2750 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2763
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  int_ref embed_nat_int "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2599 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 65 2594 2612
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2764 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2779
+type(
+  Prims.nat monoid
+)
+ident(
+  int_ref nat_plus_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 23 825 830 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 23 825 845
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2780 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2795
+type(
+  Prims.int monoid
+)
+ident(
+  int_ref int_plus_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 932 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 25 927 947
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2728 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 67 2726 2795
+call(
+  stack
+)
+type(
+  (Prims.nat, Prims.int, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 69 2817 2822 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 69 2817 2830
+type(
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+ident(
+  def uu___156 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 71 2962 2962 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2885 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2906
+type(
+  (Prims.unit -> Prims.unit) ->
+  Prims.unit monoid ->
+  Prims.unit monoid ->
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+ident(
+  int_ref intro_monoid_morphism "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2402 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2423
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2912 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2914
+type(
+  Prims.unit
+)
+ident(
+  def a5 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2919 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2921
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2919 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2921
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2907 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2922
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2923 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2941
+type(
+  Prims.unit monoid
+)
+ident(
+  int_ref conjunction_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 26 1003 1008 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 26 1003 1026
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2942 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2960
+type(
+  Prims.unit monoid
+)
+ident(
+  int_ref disjunction_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 28 1090 1095 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 28 1090 1113
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2885 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 70 2883 2960
+call(
+  stack
+)
+type(
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 71 2962 2967 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 71 2962 2975
+type(
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+ident(
+  def uu___165 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 73 3107 3107 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3030 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3051
+type(
+  (Prims.unit -> Prims.unit) ->
+  Prims.unit monoid ->
+  Prims.unit monoid ->
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+ident(
+  int_ref intro_monoid_morphism "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2402 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 60 2398 2423
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3057 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3059
+type(
+  Prims.unit
+)
+ident(
+  def a6 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3064 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3066
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3064 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3066
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3052 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3067
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3068 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3086
+type(
+  Prims.unit monoid
+)
+ident(
+  int_ref disjunction_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 28 1090 1095 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 28 1090 1113
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3087 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3105
+type(
+  Prims.unit monoid
+)
+ident(
+  int_ref conjunction_monoid "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 26 1003 1008 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 26 1003 1026
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3030 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 72 3028 3105
+call(
+  stack
+)
+type(
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 77 3285 3289 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 77 3285 3301
+type(
+  'Am.
+    'Am monoid ->
+    Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> Prims.bool
+)
+ident(
+  def uu___is_LAct "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 80 3426 3426 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3385 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3387
+type(
+  'Am monoid
+)
+ident(
+  def mm "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3392 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3424
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3396 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3397
+type(
+  Prims.unit
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3402 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3424
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3406 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3415
+type(
+  ('Am, Prims.unit, Obj.t) left_action
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3420 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3424
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3420 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3424
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3402 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3424
+type(
+  ('Am, Prims.unit, Obj.t) left_action -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3392 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3424
+type(
+  Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3381 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 79 3379 3424
+type(
+  'Am monoid ->
+  Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 80 3426 3430 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 80 3426 3453
+type(
+  'Am.
+    'Am monoid ->
+    Prims.unit ->
+    ('Am, Prims.unit, Obj.t) left_action -> 'Am -> Obj.t -> Obj.t
+)
+ident(
+  def __proj__LAct__item__act "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 92 3681 3681 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 85 3554 3560 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 85 3554 3562
+type(
+  'Am monoid
+)
+ident(
+  def mm "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 86 3567 3571 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 86 3567 3575 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 86 3567 3576
+type(
+  Prims.unit
+)
+ident(
+  def a "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 87 3581 3587 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 87 3581 3591 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 87 3581 3600
+type(
+  ('Am, Prims.unit, Obj.t) left_action
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3613 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3619 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3628
+type(
+  ('Am, Prims.unit, Obj.t) left_action
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 87 3581 3591 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 87 3581 3600
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3642 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3645
+type(
+  'Am -> Obj.t -> Obj.t
+)
+ident(
+  def act "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3672 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3646 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3656
+type(
+  Prims.unit
+)
+ident(
+  def mult_lemma "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3672 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3657 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3667
+type(
+  Prims.unit
+)
+ident(
+  def unit_lemma "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3672 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3636 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3668
+type(
+  ('Am, Prims.unit, Obj.t) left_action
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3672 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  'Am -> Obj.t -> Obj.t
+)
+ident(
+  int_ref act "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3642 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3645
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3613 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  'Am -> Obj.t -> Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 87 3581 3587 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  ('Am, Prims.unit, Obj.t) left_action -> 'Am -> Obj.t -> Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 86 3567 3571 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> 'Am -> Obj.t -> Obj.t
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 85 3554 3556 "ulib/tactics_ml/fstarlib_leftovers/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  'Am monoid ->
+  Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> 'Am -> Obj.t -> Obj.t
+)

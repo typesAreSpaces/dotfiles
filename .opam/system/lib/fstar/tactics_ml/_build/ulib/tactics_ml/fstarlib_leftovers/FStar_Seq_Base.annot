@@ -1,0 +1,1887 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 59 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 72
+type(
+  'Aa. 'Aa seq -> Prims.bool
+)
+ident(
+  def uu___is_MkSeq "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 129 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 109 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 118
+type(
+  'Aa seq
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 123 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 127
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 123 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 127
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 105 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 4 55 127
+type(
+  'Aa seq -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 155
+type(
+  'Aa. 'Aa seq -> 'Aa Prims.list
+)
+ident(
+  def __proj__MkSeq__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 249 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 198 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 207
+type(
+  'Aa seq
+)
+ident(
+  def projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 212 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 247
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 218 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 227
+type(
+  'Aa seq
+)
+ident(
+  int_ref projectee "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 198 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 207
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 241 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 242
+type(
+  'Aa Prims.list
+)
+ident(
+  def l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 247
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 235 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 242
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 247
+type(
+  'Aa Prims.list
+)
+ident(
+  int_ref l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 241 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 242
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 212 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 247
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 194 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 6 192 247
+type(
+  'Aa seq -> 'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 259
+type(
+  'Aa. 'Aa seq -> Prims.nat
+)
+ident(
+  def length "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 9 358 358 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 297 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 298
+type(
+  'Aa seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 303 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 356
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 303 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 329
+type(
+  'Aa Prims.list -> Prims.nat
+)
+ident(
+  ext_ref FStar_List_Tot_Base.length
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 331 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 353
+type(
+  'Aa seq -> 'Aa Prims.list
+)
+ident(
+  int_ref __proj__MkSeq__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 155
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 354 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 355
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 297 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 298
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 330 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 356
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 303 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 356
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 293 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 8 291 356
+type(
+  'Aa seq -> Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 9 358 362 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 9 358 367
+type(
+  'Aa. 'Aa seq -> Prims.nat -> 'Aa
+)
+ident(
+  def index "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 484 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 412 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 413
+type(
+  'Aa seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 418 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 482
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 422 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 423
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 428 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 482
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 428 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 453
+type(
+  'Aa Prims.list -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_List_Tot_Base.index
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 455 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 477
+type(
+  'Aa seq -> 'Aa Prims.list
+)
+ident(
+  int_ref __proj__MkSeq__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 155
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 478 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 479
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 412 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 413
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 454 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 480
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 481 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 482
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 422 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 423
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 428 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 482
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 418 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 482
+type(
+  Prims.nat -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 408 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 10 406 482
+type(
+  'Aa seq -> Prims.nat -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 492
+type(
+  'Aa. 'Aa -> 'Aa seq -> 'Aa seq
+)
+ident(
+  def cons "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 13 592 592 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 535 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 536
+type(
+  'Aa
+)
+ident(
+  def x "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 541 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 590
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 545 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 546
+type(
+  'Aa seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 551 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 590
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 558 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 559
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 535 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 536
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 564 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 586
+type(
+  'Aa seq -> 'Aa Prims.list
+)
+ident(
+  int_ref __proj__MkSeq__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 155
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 587 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 588
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 545 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 546
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 563 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 589
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 557 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 590
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 551 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 590
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 541 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 590
+type(
+  'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 531 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 12 529 590
+type(
+  'Aa -> 'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 13 592 596 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 13 592 598
+type(
+  'Aa. 'Aa seq -> 'Aa
+)
+ident(
+  def hd "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 687 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 630 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 631
+type(
+  'Aa seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 636 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 685
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 636 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 658
+type(
+  'Aa Prims.list -> 'Aa
+)
+ident(
+  ext_ref FStar_List_Tot_Base.hd
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 660 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 682
+type(
+  'Aa seq -> 'Aa Prims.list
+)
+ident(
+  int_ref __proj__MkSeq__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 155
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 683 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 684
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 630 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 631
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 659 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 685
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 636 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 685
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 626 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 14 624 685
+type(
+  'Aa seq -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 693
+type(
+  'Aa. 'Aa seq -> 'Aa seq
+)
+ident(
+  def tl "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 17 794 794 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 729 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 730
+type(
+  'Aa seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 735 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 792
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 742 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 764
+type(
+  'Aa Prims.list -> 'Aa Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.tl
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 766 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 788
+type(
+  'Aa seq -> 'Aa Prims.list
+)
+ident(
+  int_ref __proj__MkSeq__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 155
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 789 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 790
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 729 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 730
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 765 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 791
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 741 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 792
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 735 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 792
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 725 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 16 723 792
+type(
+  'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 17 794 802 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 17 794 808
+type(
+  'Aa. Prims.nat -> 'Aa -> 'Aa seq
+)
+ident(
+  def create "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 17 794 794 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 18 847 853 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 18 847 856
+type(
+  Prims.nat
+)
+ident(
+  def len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 19 861 865 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 975
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 19 861 869 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 19 861 870
+type(
+  'Aa
+)
+ident(
+  def v "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 881 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 975
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 884 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 887
+type(
+  Prims.nat
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 18 847 853 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 18 847 856
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 888 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 889
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 890 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 904
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 884 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 904
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 21 905 922 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 21 905 924
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 21 905 916 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 21 905 924
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 936 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 940
+type(
+  'Aa -> 'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref cons "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 492
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 941 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 942
+type(
+  'Aa
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 19 861 869 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 19 861 870
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 944 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 950
+type(
+  Prims.nat -> 'Aa -> 'Aa seq
+)
+ident(
+  int_ref create "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 17 794 802 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 17 794 808
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 952 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 955
+type(
+  Prims.nat
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 18 847 853 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 18 847 856
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 956 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 957
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 958 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 971
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 951 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 972
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 973 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 974
+type(
+  'Aa
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 19 861 869 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 19 861 870
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 943 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 975
+call(
+  stack
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 936 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 975
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 20 875 881 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 975
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 19 861 865 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 975
+type(
+  'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 18 847 849 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 22 925 975
+type(
+  Prims.nat -> 'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 24 979 987 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 24 979 995
+type(
+  'Aa. Prims.nat -> Prims.nat -> (Prims.nat -> 'Aa) -> 'Aa seq
+)
+ident(
+  def init_aux "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 24 979 979 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 26 1064 1070 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 26 1064 1073
+type(
+  Prims.nat
+)
+ident(
+  def len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1082 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1086 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1087
+type(
+  Prims.nat
+)
+ident(
+  def k "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1098 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1102 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1110
+type(
+  Prims.nat -> 'Aa
+)
+ident(
+  def contents "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1123 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1127 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1128
+type(
+  Prims.nat
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1086 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1087
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1129 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1130
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1131 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1144
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1126 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1145
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1146 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1147
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1148 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1151
+type(
+  Prims.nat
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 26 1064 1070 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 26 1064 1073
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1126 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1151
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1172 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1180
+type(
+  Prims.nat -> 'Aa
+)
+ident(
+  int_ref contents "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1102 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1110
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1181 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1182
+type(
+  Prims.nat
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1086 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1087
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1172 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1182
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1171 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1183
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1165 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 30 1152 1183
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1201
+type(
+  'Aa -> 'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref cons "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 492
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1203 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1211
+type(
+  Prims.nat -> 'Aa
+)
+ident(
+  int_ref contents "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1102 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1110
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1212 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1213
+type(
+  Prims.nat
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1086 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1087
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1202 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1214
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1216 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1224
+type(
+  Prims.nat -> Prims.nat -> (Prims.nat -> 'Aa) -> 'Aa seq
+)
+ident(
+  int_ref init_aux "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 24 979 987 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 24 979 995
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1225 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1228
+type(
+  Prims.nat
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 26 1064 1070 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 26 1064 1073
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1230 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1231
+type(
+  Prims.nat
+)
+ident(
+  int_ref k "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1086 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1087
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1232 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1233
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1234 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1247
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1229 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1248
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1249 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1257
+type(
+  Prims.nat -> 'Aa
+)
+ident(
+  int_ref contents "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1102 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1110
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1215 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+call(
+  stack
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 29 1115 1123 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 28 1092 1098 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+type(
+  (Prims.nat -> 'Aa) -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 27 1078 1082 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+type(
+  Prims.nat -> (Prims.nat -> 'Aa) -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 26 1064 1066 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 31 1184 1258
+type(
+  Prims.nat -> Prims.nat -> (Prims.nat -> 'Aa) -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 33 1262 1266 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 33 1262 1270
+type(
+  'Aa. Prims.nat -> (Prims.nat -> 'Aa) -> 'Aa seq
+)
+ident(
+  def init "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1460 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 34 1324 1330 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 34 1324 1333
+type(
+  Prims.nat
+)
+ident(
+  def len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 35 1338 1342 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1456
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 35 1338 1346 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 35 1338 1354
+type(
+  Prims.nat -> 'Aa
+)
+ident(
+  def contents "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1456
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1368 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1371
+type(
+  Prims.nat
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 34 1324 1330 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 34 1324 1333
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1372 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1373
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1374 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1388
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1368 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1388
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 37 1389 1406 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 37 1389 1408
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 37 1389 1400 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 37 1389 1408
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1420 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1428
+type(
+  Prims.nat -> Prims.nat -> (Prims.nat -> 'Aa) -> 'Aa seq
+)
+ident(
+  int_ref init_aux "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 24 979 987 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 24 979 995
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1429 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1432
+type(
+  Prims.nat
+)
+ident(
+  int_ref len "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 34 1324 1330 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 34 1324 1333
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1433 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1447
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1448 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1456
+type(
+  Prims.nat -> 'Aa
+)
+ident(
+  int_ref contents "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 35 1338 1346 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 35 1338 1354
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1420 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1456
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 36 1359 1365 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1456
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 35 1338 1342 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1456
+type(
+  (Prims.nat -> 'Aa) -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 34 1324 1326 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 38 1409 1456
+type(
+  Prims.nat -> (Prims.nat -> 'Aa) -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1464 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1469
+type(
+  'Aa. Prims.unit -> 'Aa seq
+)
+ident(
+  def empty "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1524 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1500 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1509
+type(
+  Prims.unit
+)
+ident(
+  def uu____276 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1514 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1522
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1520 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1522
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1514 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1522
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1496 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1522
+type(
+  Prims.unit -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1528 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1539
+type(
+  'Aa. Prims.unit -> 'Aa seq
+)
+ident(
+  def createEmpty "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 43 1595 1595 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1570 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1579
+type(
+  Prims.unit
+)
+ident(
+  def uu____284 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1584 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1592
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1584 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1589
+type(
+  Prims.unit -> 'Aa seq
+)
+ident(
+  int_ref empty "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1464 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 40 1460 1469
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1590 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1592
+type(
+  Prims.unit
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1584 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1592
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1566 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 41 1524 1592
+type(
+  Prims.unit -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 43 1595 1603 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 43 1595 1606
+type(
+  'Aa. 'Aa seq -> Prims.nat -> 'Aa -> 'Aa seq
+)
+ident(
+  def upd "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 43 1595 1595 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1662 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1663
+type(
+  'Aa seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 45 1668 1672 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 45 1668 1676 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 45 1668 1677
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 46 1682 1688 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 46 1682 1692 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 46 1682 1693
+type(
+  'Aa
+)
+ident(
+  def v "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1709 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1710
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 45 1668 1676 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 45 1668 1677
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1711 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1712
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1713 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1727
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1709 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1727
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1741 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1745
+type(
+  'Aa -> 'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref cons "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 492
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1746 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1747
+type(
+  'Aa
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 46 1682 1692 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 46 1682 1693
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1749 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1751
+type(
+  'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref tl "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 693
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1752 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1753
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1662 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1663
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1748 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1754
+call(
+  stack
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1741 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 48 1728 1754
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1768 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1772
+type(
+  'Aa -> 'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref cons "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 492
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1774 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1776
+type(
+  'Aa seq -> 'Aa
+)
+ident(
+  int_ref hd "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 13 592 596 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 13 592 598
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1777 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1778
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1662 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1663
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1773 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1779
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1781 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1784
+type(
+  'Aa seq -> Prims.nat -> 'Aa -> 'Aa seq
+)
+ident(
+  int_ref upd "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 43 1595 1603 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 43 1595 1606
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1786 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1788
+type(
+  'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref tl "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 693
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1789 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1790
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1662 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1663
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1785 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1791
+call(
+  stack
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1793 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1794
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 45 1668 1676 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 45 1668 1677
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1795 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1796
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1797 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1810
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1792 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1811
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1812 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1813
+type(
+  'Aa
+)
+ident(
+  int_ref v "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 46 1682 1692 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 46 1682 1693
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1780 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+call(
+  stack
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1768 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 47 1698 1706 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 46 1682 1688 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+type(
+  'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 45 1668 1672 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+type(
+  Prims.nat -> 'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 44 1656 1658 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 49 1755 1814
+type(
+  'Aa seq -> Prims.nat -> 'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 51 1818 1822 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 51 1818 1828
+type(
+  'Aa. 'Aa seq -> 'Aa seq -> 'Aa seq
+)
+ident(
+  def append "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 58 2016 2016 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 52 1869 1875 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 52 1869 1877
+type(
+  'Aa seq
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 53 1882 1886 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2012
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 53 1882 1890 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 53 1882 1892
+type(
+  'Aa seq
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 54 1897 1903 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2012
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1918 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1944
+type(
+  'Aa Prims.list -> 'Aa Prims.list -> 'Aa Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.append
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1946 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1968
+type(
+  'Aa seq -> 'Aa Prims.list
+)
+ident(
+  int_ref __proj__MkSeq__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 155
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1969 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1971
+type(
+  'Aa seq
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 52 1869 1875 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 52 1869 1877
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1945 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1972
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 1985 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2007
+type(
+  'Aa seq -> 'Aa Prims.list
+)
+ident(
+  int_ref __proj__MkSeq__item__l "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 133 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 5 129 155
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2008 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2010
+type(
+  'Aa seq
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 53 1882 1890 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 53 1882 1892
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 1984 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2011
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 55 1909 1917 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2012
+call(
+  stack
+)
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 54 1897 1903 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2012
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 53 1882 1886 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2012
+type(
+  'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 52 1869 1871 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 56 1973 2012
+type(
+  'Aa seq -> 'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 58 2016 2020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 58 2016 2029
+type(
+  'Aa. 'Aa seq -> 'Aa seq -> 'Aa seq
+)
+ident(
+  def op_At_Bar "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 60 2108 2108 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2076 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2078
+type(
+  'Aa seq
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2083 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2106
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2087 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2089
+type(
+  'Aa seq
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2094 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2106
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2094 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2100
+type(
+  'Aa seq -> 'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref append "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 51 1818 1822 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 51 1818 1828
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2101 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2103
+type(
+  'Aa seq
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2076 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2078
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2104 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2106
+type(
+  'Aa seq
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2087 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2089
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2094 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2106
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2083 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2106
+type(
+  'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2072 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 59 2070 2106
+type(
+  'Aa seq -> 'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 60 2108 2116 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 60 2108 2121
+type(
+  'Aa. 'Aa seq -> Prims.nat -> Prims.nat -> 'Aa seq
+)
+ident(
+  def slice "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 60 2108 2108 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2183 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2184
+type(
+  'Aa seq
+)
+ident(
+  def s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2193 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2198
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2209 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2213 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2214
+type(
+  Prims.nat
+)
+ident(
+  def j "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2227 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2230 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2231
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2198
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2232 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2233
+type(
+  Prims.nat -> Z.t -> bool
+)
+ident(
+  ext_ref Prims.( > )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2234 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2248
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2230 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2248
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2262 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2267
+type(
+  'Aa seq -> Prims.nat -> Prims.nat -> 'Aa seq
+)
+ident(
+  int_ref slice "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 60 2108 2116 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 60 2108 2121
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2269 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2271
+type(
+  'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref tl "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 693
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2272 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2273
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2183 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2184
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2268 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2274
+call(
+  stack
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2276 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2277
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2198
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2278 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2279
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2280 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2293
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2275 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2294
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2296 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2297
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2213 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2214
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2298 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2299
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2300 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2313
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2295 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2314
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2262 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 65 2249 2314
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2341 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2342
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2213 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2214
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2343 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2344
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2345 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2359
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2341 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2359
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 68 2360 2381 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 68 2360 2383
+type(
+  'Aa Prims.list
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 68 2360 2375 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 68 2360 2383
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2399 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2403
+type(
+  'Aa -> 'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref cons "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 488 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 11 484 492
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2405 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2407
+type(
+  'Aa seq -> 'Aa
+)
+ident(
+  int_ref hd "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 13 592 596 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 13 592 598
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2408 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2409
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2183 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2184
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2404 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2410
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2412 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2417
+type(
+  'Aa seq -> Prims.nat -> Prims.nat -> 'Aa seq
+)
+ident(
+  int_ref slice "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 60 2108 2116 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 60 2108 2121
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2419 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2421
+type(
+  'Aa seq -> 'Aa seq
+)
+ident(
+  int_ref tl "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 691 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 15 687 693
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2422 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2423
+type(
+  'Aa seq
+)
+ident(
+  int_ref s "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2183 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2184
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2418 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2424
+call(
+  stack
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2425 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2426
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2198
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2428 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2429
+type(
+  Prims.nat
+)
+ident(
+  int_ref j "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2213 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2214
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2430 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2431
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2432 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2445
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2427 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2446
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2411 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+call(
+  stack
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2399 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 67 2328 2338 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 64 2219 2227 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 63 2203 2209 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+type(
+  Prims.nat -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 62 2189 2193 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+type(
+  Prims.nat -> Prims.nat -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 61 2177 2179 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 69 2384 2447
+type(
+  'Aa seq -> Prims.nat -> Prims.nat -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 85 2498 2506 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 85 2498 2510
+type(
+  'Aa. 'Aa seq -> 'Aa seq -> Prims.nat -> Prims.bool
+)
+ident(
+  def eq_i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 85 2498 2498 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2573 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2575
+type(
+  'Aa seq
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 87 2580 2584 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 87 2580 2588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 87 2580 2590
+type(
+  'Aa seq
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2601 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2605 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2606
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2619 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2622 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2623
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2605 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2606
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2624 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2625
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2627 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2633
+type(
+  'Aa seq -> Prims.nat
+)
+ident(
+  int_ref length "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 259
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2634 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2636
+type(
+  'Aa seq
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2573 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2575
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2626 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2637
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2622 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2637
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 90 2638 2651 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 90 2638 2655
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2683 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2688
+type(
+  'Aa seq -> Prims.nat -> 'Aa
+)
+ident(
+  int_ref index "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 9 358 362 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 9 358 367
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2689 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2691
+type(
+  'Aa seq
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2573 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2575
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2692 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2693
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2605 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2606
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2682 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2694
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2695 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2696
+type(
+  'Aa -> 'Aa -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2698 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2703
+type(
+  'Aa seq -> Prims.nat -> 'Aa
+)
+ident(
+  int_ref index "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 9 358 362 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 9 358 367
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2704 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2706
+type(
+  'Aa seq
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 87 2580 2588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 87 2580 2590
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2707 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2708
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2605 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2606
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2697 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2709
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2682 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2709
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2725 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2729
+type(
+  'Aa seq -> 'Aa seq -> Prims.nat -> Prims.bool
+)
+ident(
+  int_ref eq_i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 85 2498 2506 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 85 2498 2510
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2730 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2732
+type(
+  'Aa seq
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2573 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2575
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2733 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2735
+type(
+  'Aa seq
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 87 2580 2588 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 87 2580 2590
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2737 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2738
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2605 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2606
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2739 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2740
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2741 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2754
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2736 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2755
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2725 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 93 2710 2755
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2771 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 92 2669 2679 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 89 2611 2619 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 88 2595 2601 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+type(
+  Prims.nat -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 87 2580 2584 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+type(
+  'Aa seq -> Prims.nat -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 86 2567 2569 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 94 2756 2776
+type(
+  'Aa seq -> 'Aa seq -> Prims.nat -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 96 2780 2784 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 96 2780 2786
+type(
+  'Aa. 'Aa seq -> 'Aa seq -> Prims.bool
+)
+ident(
+  def eq "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2934 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 97 2830 2836 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 97 2830 2838
+type(
+  'Aa seq
+)
+ident(
+  def s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 98 2843 2847 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2934
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 98 2843 2851 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 98 2843 2853
+type(
+  'Aa seq
+)
+ident(
+  def s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2864 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2934
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2868 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2874
+type(
+  'Aa seq -> Prims.nat
+)
+ident(
+  int_ref length "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 259
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2875 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2877
+type(
+  'Aa seq
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 97 2830 2836 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 97 2830 2838
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2867 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2878
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2879 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2880
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2882 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2888
+type(
+  'Aa seq -> Prims.nat
+)
+ident(
+  int_ref length "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 253 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 7 249 259
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2889 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2891
+type(
+  'Aa seq
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 98 2843 2851 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 98 2843 2853
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2881 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2892
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2867 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2892
+type(
+  bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2898 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2902
+type(
+  'Aa seq -> 'Aa seq -> Prims.nat -> Prims.bool
+)
+ident(
+  int_ref eq_i "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 85 2498 2506 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 85 2498 2510
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2903 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2905
+type(
+  'Aa seq
+)
+ident(
+  int_ref s1 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 97 2830 2836 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 97 2830 2838
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2906 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2908
+type(
+  'Aa seq
+)
+ident(
+  int_ref s2 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 98 2843 2851 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 98 2843 2853
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2909 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2923
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2898 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2923
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2929 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2934
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2864 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2934
+type(
+  Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 98 2843 2847 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2934
+type(
+  'Aa seq -> Prims.bool
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 97 2830 2832 "ulib/tactics_ml/fstarlib_leftovers/FStar_Seq_Base.ml" 99 2858 2934
+type(
+  'Aa seq -> 'Aa seq -> Prims.bool
+)

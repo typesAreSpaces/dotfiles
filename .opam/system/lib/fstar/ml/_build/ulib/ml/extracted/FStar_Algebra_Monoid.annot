@@ -1,0 +1,1403 @@
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 241 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 255
+type(
+  'Am. 'Am monoid -> Prims.bool
+)
+ident(
+  def uu___is_Monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 8 315 315 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 295 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 304
+type(
+  'Am monoid
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 309 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 313
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 309 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 313
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 291 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 7 237 313
+type(
+  'Am monoid -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 8 315 319 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 8 315 345
+type(
+  'Am. 'Am monoid -> 'Am
+)
+ident(
+  def __proj__Monoid__item__unit "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 13 500 500 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 9 374 380 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 9 374 389
+type(
+  'Am monoid
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 10 394 398 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 10 394 404 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 10 394 413
+type(
+  'Am monoid
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 9 374 380 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 9 374 389
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 433 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 437
+type(
+  'Am
+)
+ident(
+  def unit "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 438 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 442
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  def mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 443 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 458
+type(
+  Prims.unit
+)
+ident(
+  def right_unitality "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 459 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 473
+type(
+  Prims.unit
+)
+ident(
+  def left_unitality "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 474 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 487
+type(
+  Prims.unit
+)
+ident(
+  def associativity "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 425 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 488
+type(
+  'Am monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 492 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+type(
+  'Am
+)
+ident(
+  int_ref unit "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 433 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 437
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 10 394 398 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+type(
+  'Am
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 9 374 376 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 11 419 496
+type(
+  'Am monoid -> 'Am
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 13 500 504 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 13 500 530
+type(
+  'Am. 'Am monoid -> 'Am -> 'Am -> 'Am
+)
+ident(
+  def __proj__Monoid__item__mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 702 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 14 573 579 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 14 573 588
+type(
+  'Am monoid
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 15 593 597 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 15 593 603 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 15 593 612
+type(
+  'Am monoid
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 14 573 579 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 14 573 588
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 632 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 636
+type(
+  'Am
+)
+ident(
+  def unit "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 637 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 641
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  def mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 642 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 657
+type(
+  Prims.unit
+)
+ident(
+  def right_unitality "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 658 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 672
+type(
+  Prims.unit
+)
+ident(
+  def left_unitality "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 673 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 686
+type(
+  Prims.unit
+)
+ident(
+  def associativity "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 624 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 687
+type(
+  'Am monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 691 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  int_ref mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 637 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 641
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 15 593 597 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+type(
+  'Am -> 'Am -> 'Am
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 14 573 575 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 16 618 695
+type(
+  'Am monoid -> 'Am -> 'Am -> 'Am
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+type(
+  'Am. 'Am -> ('Am -> 'Am -> 'Am) -> 'Am monoid
+)
+ident(
+  def intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 23 825 825 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 776 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 777
+type(
+  'Am
+)
+ident(
+  def u "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 782 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 823
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 786 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 790
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  def mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 795 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 823
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 803 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 804
+type(
+  'Am
+)
+ident(
+  int_ref u "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 776 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 777
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 806 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 810
+type(
+  'Am -> 'Am -> 'Am
+)
+ident(
+  int_ref mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 786 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 790
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 812 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 814
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 816 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 818
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 820 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 822
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 795 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 823
+type(
+  'Am monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 782 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 823
+type(
+  ('Am -> 'Am -> 'Am) -> 'Am monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 772 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 22 770 823
+type(
+  'Am -> ('Am -> 'Am -> 'Am) -> 'Am monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 23 825 830 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 23 825 845
+type(
+  Prims.nat monoid
+)
+ident(
+  def nat_plus_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 927 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 874 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 877
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def add "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 894 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 925
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 878 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 879
+type(
+  Z.t
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 880 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 889
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 880 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 881
+type(
+  Z.t
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 884 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 889
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 884 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 885
+type(
+  Z.t
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 878 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 879
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 886 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 887
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 888 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 889
+type(
+  Z.t
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 880 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 881
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 884 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 889
+call(
+  tail
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 894 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 906
+type(
+  Prims.nat -> (Prims.nat -> Prims.nat -> Prims.nat) -> Prims.nat monoid
+)
+ident(
+  int_ref intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 907 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 921
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 922 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 925
+type(
+  Prims.nat -> Prims.nat -> Prims.nat
+)
+ident(
+  int_ref add "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 874 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 877
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 894 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 925
+call(
+  stack
+)
+type(
+  Prims.nat monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 870 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 24 868 925
+type(
+  Prims.nat monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 932 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 947
+type(
+  Prims.int monoid
+)
+ident(
+  def int_plus_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 26 1003 1003 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 970 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 982
+type(
+  Prims.int -> (Prims.int -> Prims.int -> Prims.int) -> Prims.int monoid
+)
+ident(
+  int_ref intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 983 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 997
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 998 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 1001
+type(
+  Prims.int -> Prims.int -> Prims.int
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 970 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 1001
+call(
+  stack
+)
+type(
+  Prims.int monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 26 1003 1008 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 26 1003 1026
+type(
+  Prims.unit monoid
+)
+ident(
+  def conjunction_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 28 1090 1090 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1046 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1058
+type(
+  Prims.unit -> (Prims.unit -> Prims.unit -> Prims.unit) -> Prims.unit monoid
+)
+ident(
+  int_ref intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1059 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1061
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1067 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1069
+type(
+  Prims.unit
+)
+ident(
+  def a1 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1074 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1087
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1078 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1080
+type(
+  Prims.unit
+)
+ident(
+  def a2 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1085 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1087
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1085 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1087
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1074 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1087
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1062 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1088
+type(
+  Prims.unit -> Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1046 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 27 1044 1088
+call(
+  stack
+)
+type(
+  Prims.unit monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 28 1090 1095 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 28 1090 1113
+type(
+  Prims.unit monoid
+)
+ident(
+  def disjunction_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 30 1177 1177 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1133 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1145
+type(
+  Prims.unit -> (Prims.unit -> Prims.unit -> Prims.unit) -> Prims.unit monoid
+)
+ident(
+  int_ref intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1146 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1148
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1154 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1156
+type(
+  Prims.unit
+)
+ident(
+  def a3 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1161 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1174
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1165 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1167
+type(
+  Prims.unit
+)
+ident(
+  def a4 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1172 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1174
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1172 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1174
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1161 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1174
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1149 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1175
+type(
+  Prims.unit -> Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1133 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 29 1131 1175
+call(
+  stack
+)
+type(
+  Prims.unit monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 30 1177 1182 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 30 1177 1197
+type(
+  Prims.bool monoid
+)
+ident(
+  def bool_and_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 32 1277 1277 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1227 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1231
+type(
+  bool -> bool -> bool
+)
+ident(
+  def and_ "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1253 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1275
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1232 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1234
+type(
+  bool
+)
+ident(
+  def b1 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1235 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1248
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1235 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1237
+type(
+  bool
+)
+ident(
+  def b2 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1240 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1248
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1240 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1242
+type(
+  bool
+)
+ident(
+  int_ref b1 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1232 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1234
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1243 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1245
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1246 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1248
+type(
+  bool
+)
+ident(
+  int_ref b2 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1235 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1237
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1240 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1248
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1253 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1265
+type(
+  Prims.bool -> (Prims.bool -> Prims.bool -> Prims.bool) -> Prims.bool monoid
+)
+ident(
+  int_ref intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1266 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1270
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1271 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1275
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  int_ref and_ "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1227 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1231
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1253 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1275
+call(
+  stack
+)
+type(
+  Prims.bool monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1223 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 31 1221 1275
+type(
+  Prims.bool monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 32 1277 1282 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 32 1277 1296
+type(
+  Prims.bool monoid
+)
+ident(
+  def bool_or_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 34 1375 1375 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1326 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1329
+type(
+  bool -> bool -> bool
+)
+ident(
+  def or_ "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1351 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1373
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1330 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1332
+type(
+  bool
+)
+ident(
+  def b1 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1333 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1346
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1333 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1335
+type(
+  bool
+)
+ident(
+  def b2 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1338 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1346
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1338 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1340
+type(
+  bool
+)
+ident(
+  int_ref b1 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1330 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1332
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1341 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1343
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1344 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1346
+type(
+  bool
+)
+ident(
+  int_ref b2 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1333 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1335
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1338 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1346
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1351 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1363
+type(
+  Prims.bool -> (Prims.bool -> Prims.bool -> Prims.bool) -> Prims.bool monoid
+)
+ident(
+  int_ref intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1364 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1369
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1370 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1373
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  int_ref or_ "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1326 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1329
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1351 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1373
+call(
+  stack
+)
+type(
+  Prims.bool monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1322 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 33 1320 1373
+type(
+  Prims.bool monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 34 1375 1380 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 34 1375 1395
+type(
+  Prims.bool monoid
+)
+ident(
+  def bool_xor_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 37 1512 1512 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1425 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1428
+type(
+  bool -> bool -> bool
+)
+ident(
+  def xor "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1488 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1510
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1429 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1431
+type(
+  bool
+)
+ident(
+  def b1 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1432 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1481
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1432 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1434
+type(
+  bool
+)
+ident(
+  def b2 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1437 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1481
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1438 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1440
+type(
+  bool
+)
+ident(
+  int_ref b1 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1429 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1431
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1441 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1443
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1444 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1446
+type(
+  bool
+)
+ident(
+  int_ref b2 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1432 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1434
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1437 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1447
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1448 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1450
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1452 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1469
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Prims.op_Negation
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1471 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1473
+type(
+  bool
+)
+ident(
+  int_ref b1 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1429 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1431
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1474 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1476
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1477 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1479
+type(
+  bool
+)
+ident(
+  int_ref b2 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1432 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1434
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1470 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1480
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1451 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1481
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1437 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1481
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1488 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1500
+type(
+  Prims.bool -> (Prims.bool -> Prims.bool -> Prims.bool) -> Prims.bool monoid
+)
+ident(
+  int_ref intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1501 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1506
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1507 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1510
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  int_ref xor "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1425 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1428
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1488 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1510
+call(
+  stack
+)
+type(
+  Prims.bool monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 35 1419 1421 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 36 1486 1510
+type(
+  Prims.bool monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 37 1512 1516 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 37 1512 1534
+type(
+  'Aa. 'Aa monoid -> 'Aa FStar_Pervasives_Native.option monoid
+)
+ident(
+  def lift_monoid_option "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 48 1970 1970 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 39 1603 1609 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 39 1603 1610
+type(
+  'Aa monoid
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1619 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1966
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1623 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1627
+type(
+  'Aa FStar_Pervasives_Native.option ->
+  'Aa FStar_Pervasives_Native.option -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 45 1877 1881 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1966
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1628 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1629
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1630 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1872
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1630 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1631
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def y "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 41 1634 1640 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1872
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 41 1634 1647 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 41 1634 1648
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1628 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1629
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 41 1634 1650 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 41 1634 1651
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1630 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1631
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 41 1634 1646 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 41 1634 1652
+type(
+  'Aa FStar_Pervasives_Native.option * 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1696 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1698
+type(
+  'Aa
+)
+ident(
+  def x0 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1745 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1810
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1667 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1698
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1728 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1730
+type(
+  'Aa
+)
+ident(
+  def y0 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1745 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1810
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1699 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1730
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1666 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1731
+type(
+  'Aa FStar_Pervasives_Native.option * 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1775 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1801
+type(
+  'Aa monoid -> 'Aa -> 'Aa -> 'Aa
+)
+ident(
+  int_ref __proj__Monoid__item__mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 13 500 504 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 13 500 530
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1802 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1803
+type(
+  'Aa monoid
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 39 1603 1609 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 39 1603 1610
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1804 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1806
+type(
+  'Aa
+)
+ident(
+  int_ref x0 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1696 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1698
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1807 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1809
+type(
+  'Aa
+)
+ident(
+  int_ref y0 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1728 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 42 1658 1730
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1774 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1810
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1745 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 43 1735 1810
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1820 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1829
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def uu____513 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1844 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1872
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1830 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1839
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+ident(
+  def uu____514 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1844 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1872
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1819 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1840
+type(
+  'Aa FStar_Pervasives_Native.option * 'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1844 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1872
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 41 1634 1640 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 44 1811 1872
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 45 1877 1881 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 45 1877 1893
+type(
+  'Aa FStar_Pervasives_Native.option ->
+  ('Aa FStar_Pervasives_Native.option ->
+   'Aa FStar_Pervasives_Native.option -> 'Aa FStar_Pervasives_Native.option) ->
+  'Aa FStar_Pervasives_Native.option monoid
+)
+ident(
+  int_ref intro_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 706 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 21 702 718
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1931 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1957
+type(
+  'Aa monoid -> 'Aa
+)
+ident(
+  int_ref __proj__Monoid__item__unit "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 8 315 319 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 8 315 345
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1958 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1959
+type(
+  'Aa monoid
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 39 1603 1609 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 39 1603 1610
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1930 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1960
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1900 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1961
+type(
+  'Aa FStar_Pervasives_Native.option
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1962 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1966
+type(
+  'Aa FStar_Pervasives_Native.option ->
+  'Aa FStar_Pervasives_Native.option -> 'Aa FStar_Pervasives_Native.option
+)
+ident(
+  int_ref mult "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1623 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1627
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 45 1877 1881 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1966
+call(
+  tail
+)
+type(
+  'Aa FStar_Pervasives_Native.option monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 40 1615 1619 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1966
+type(
+  'Aa FStar_Pervasives_Native.option monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 39 1603 1605 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 46 1894 1966
+type(
+  'Aa monoid -> 'Aa FStar_Pervasives_Native.option monoid
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 52 2178 2182 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 52 2178 2204
+type(
+  'Aa 'Ab.
+    ('Aa -> 'Ab) ->
+    'Aa monoid ->
+    'Ab monoid ->
+    ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+    Prims.bool
+)
+ident(
+  def uu___is_MonoidMorphism "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2398 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2344 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2345
+type(
+  'Aa -> 'Ab
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2350 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2354 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2356
+type(
+  'Aa monoid
+)
+ident(
+  def ma "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2361 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2365 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2367
+type(
+  'Ab monoid
+)
+ident(
+  def mb "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2372 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2376 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2385
+type(
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2390 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2390 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2372 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2361 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2350 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  'Aa monoid ->
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2340 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 57 2336 2394
+type(
+  ('Aa -> 'Ab) ->
+  'Aa monoid ->
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism ->
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2402 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2423
+type(
+  'Aa 'Ab.
+    ('Aa -> 'Ab) ->
+    'Aa monoid ->
+    'Ab monoid ->
+    ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+ident(
+  def intro_monoid_morphism "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2594 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2541 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2542
+type(
+  'Aa -> 'Ab
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2547 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2592
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2551 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2553
+type(
+  'Aa monoid
+)
+ident(
+  def ma "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2558 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2592
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2562 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2564
+type(
+  'Ab monoid
+)
+ident(
+  def mb "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2569 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2592
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2585 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2587
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2589 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2591
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2569 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2592
+type(
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2558 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2592
+type(
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2547 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2592
+type(
+  'Aa monoid ->
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2537 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 64 2533 2592
+type(
+  ('Aa -> 'Ab) ->
+  'Aa monoid ->
+  'Ab monoid ->
+  ('Aa, 'Ab, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2599 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2612
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  def embed_nat_int "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 66 2654 2654 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2645 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2646
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2651 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2652
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2651 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2652
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2645 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2646
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2641 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2652
+type(
+  Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 66 2654 2659 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 66 2654 2667
+type(
+  (Prims.nat, Prims.int, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+ident(
+  def uu___154 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 68 2797 2797 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2728 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2749
+type(
+  (Prims.nat -> Prims.int) ->
+  Prims.nat monoid ->
+  Prims.int monoid ->
+  (Prims.nat, Prims.int, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+ident(
+  int_ref intro_monoid_morphism "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2402 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2423
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2750 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2763
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  int_ref embed_nat_int "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2599 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 65 2594 2612
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2764 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2779
+type(
+  Prims.nat monoid
+)
+ident(
+  int_ref nat_plus_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 23 825 830 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 23 825 845
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2780 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2795
+type(
+  Prims.int monoid
+)
+ident(
+  int_ref int_plus_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 932 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 25 927 947
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2728 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 67 2726 2795
+call(
+  stack
+)
+type(
+  (Prims.nat, Prims.int, Prims.unit, Prims.unit, Prims.unit) monoid_morphism
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 69 2817 2822 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 69 2817 2830
+type(
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+ident(
+  def uu___156 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 71 2962 2962 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2885 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2906
+type(
+  (Prims.unit -> Prims.unit) ->
+  Prims.unit monoid ->
+  Prims.unit monoid ->
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+ident(
+  int_ref intro_monoid_morphism "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2402 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2423
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2912 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2914
+type(
+  Prims.unit
+)
+ident(
+  def a5 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2919 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2921
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2919 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2921
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2907 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2922
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2923 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2941
+type(
+  Prims.unit monoid
+)
+ident(
+  int_ref conjunction_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 26 1003 1008 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 26 1003 1026
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2942 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2960
+type(
+  Prims.unit monoid
+)
+ident(
+  int_ref disjunction_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 28 1090 1095 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 28 1090 1113
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2885 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 70 2883 2960
+call(
+  stack
+)
+type(
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 71 2962 2967 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 71 2962 2975
+type(
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+ident(
+  def uu___165 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 73 3107 3107 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3030 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3051
+type(
+  (Prims.unit -> Prims.unit) ->
+  Prims.unit monoid ->
+  Prims.unit monoid ->
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+ident(
+  int_ref intro_monoid_morphism "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2402 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 60 2398 2423
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3057 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3059
+type(
+  Prims.unit
+)
+ident(
+  def a6 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3064 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3066
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3064 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3066
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3052 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3067
+type(
+  Prims.unit -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3068 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3086
+type(
+  Prims.unit monoid
+)
+ident(
+  int_ref disjunction_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 28 1090 1095 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 28 1090 1113
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3087 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3105
+type(
+  Prims.unit monoid
+)
+ident(
+  int_ref conjunction_monoid "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 26 1003 1008 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 26 1003 1026
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3030 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 72 3028 3105
+call(
+  stack
+)
+type(
+  (Prims.unit, Prims.unit, Prims.unit neg, Prims.unit, Prims.unit)
+  monoid_morphism
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 77 3285 3289 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 77 3285 3301
+type(
+  'Am.
+    'Am monoid ->
+    Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> Prims.bool
+)
+ident(
+  def uu___is_LAct "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 80 3426 3426 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3385 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3387
+type(
+  'Am monoid
+)
+ident(
+  def mm "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3392 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3424
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3396 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3397
+type(
+  Prims.unit
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3402 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3424
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3406 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3415
+type(
+  ('Am, Prims.unit, Obj.t) left_action
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3420 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3424
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3420 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3424
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3402 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3424
+type(
+  ('Am, Prims.unit, Obj.t) left_action -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3392 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3424
+type(
+  Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3381 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 79 3379 3424
+type(
+  'Am monoid ->
+  Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> Prims.bool
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 80 3426 3430 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 80 3426 3453
+type(
+  'Am.
+    'Am monoid ->
+    Prims.unit ->
+    ('Am, Prims.unit, Obj.t) left_action -> 'Am -> Obj.t -> Obj.t
+)
+ident(
+  def __proj__LAct__item__act "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 92 3681 3681 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 85 3554 3560 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 85 3554 3562
+type(
+  'Am monoid
+)
+ident(
+  def mm "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 86 3567 3571 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 86 3567 3575 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 86 3567 3576
+type(
+  Prims.unit
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 87 3581 3587 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 87 3581 3591 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 87 3581 3600
+type(
+  ('Am, Prims.unit, Obj.t) left_action
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3613 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3619 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3628
+type(
+  ('Am, Prims.unit, Obj.t) left_action
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 87 3581 3591 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 87 3581 3600
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3642 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3645
+type(
+  'Am -> Obj.t -> Obj.t
+)
+ident(
+  def act "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3672 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3646 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3656
+type(
+  Prims.unit
+)
+ident(
+  def mult_lemma "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3672 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3657 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3667
+type(
+  Prims.unit
+)
+ident(
+  def unit_lemma "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3672 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3636 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3668
+type(
+  ('Am, Prims.unit, Obj.t) left_action
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3672 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  'Am -> Obj.t -> Obj.t
+)
+ident(
+  int_ref act "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3642 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3645
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3613 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  'Am -> Obj.t -> Obj.t
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 87 3581 3587 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  ('Am, Prims.unit, Obj.t) left_action -> 'Am -> Obj.t -> Obj.t
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 86 3567 3571 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> 'Am -> Obj.t -> Obj.t
+)
+"ulib/ml/extracted/FStar_Algebra_Monoid.ml" 85 3554 3556 "ulib/ml/extracted/FStar_Algebra_Monoid.ml" 88 3605 3675
+type(
+  'Am monoid ->
+  Prims.unit -> ('Am, Prims.unit, Obj.t) left_action -> 'Am -> Obj.t -> Obj.t
+)

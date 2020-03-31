@@ -1,0 +1,1728 @@
+"ulib/ml/FStar_UInt63.ml" 6 79 83 "ulib/ml/FStar_UInt63.ml" 6 79 86
+type(
+  int -> int -> int
+)
+ident(
+  def % "ulib/ml/FStar_UInt63.ml" 8 135 135 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 87 "ulib/ml/FStar_UInt63.ml" 6 79 88
+type(
+  int
+)
+ident(
+  def x "ulib/ml/FStar_UInt63.ml" 6 79 89 "ulib/ml/FStar_UInt63.ml" 6 79 133
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 89 "ulib/ml/FStar_UInt63.ml" 6 79 90
+type(
+  int
+)
+ident(
+  def y "ulib/ml/FStar_UInt63.ml" 6 79 93 "ulib/ml/FStar_UInt63.ml" 6 79 133
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 96 "ulib/ml/FStar_UInt63.ml" 6 79 97
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_UInt63.ml" 6 79 87 "ulib/ml/FStar_UInt63.ml" 6 79 88
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 98 "ulib/ml/FStar_UInt63.ml" 6 79 99
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 100 "ulib/ml/FStar_UInt63.ml" 6 79 101
+type(
+  int
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 96 "ulib/ml/FStar_UInt63.ml" 6 79 101
+type(
+  bool
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 108 "ulib/ml/FStar_UInt63.ml" 6 79 109
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_UInt63.ml" 6 79 87 "ulib/ml/FStar_UInt63.ml" 6 79 88
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 110 "ulib/ml/FStar_UInt63.ml" 6 79 113
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 114 "ulib/ml/FStar_UInt63.ml" 6 79 115
+type(
+  int
+)
+ident(
+  int_ref y "ulib/ml/FStar_UInt63.ml" 6 79 89 "ulib/ml/FStar_UInt63.ml" 6 79 90
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 107 "ulib/ml/FStar_UInt63.ml" 6 79 116
+type(
+  int
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 117 "ulib/ml/FStar_UInt63.ml" 6 79 118
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 119 "ulib/ml/FStar_UInt63.ml" 6 79 120
+type(
+  int
+)
+ident(
+  int_ref y "ulib/ml/FStar_UInt63.ml" 6 79 89 "ulib/ml/FStar_UInt63.ml" 6 79 90
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 107 "ulib/ml/FStar_UInt63.ml" 6 79 120
+type(
+  int
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 126 "ulib/ml/FStar_UInt63.ml" 6 79 127
+type(
+  int
+)
+ident(
+  int_ref x "ulib/ml/FStar_UInt63.ml" 6 79 87 "ulib/ml/FStar_UInt63.ml" 6 79 88
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 128 "ulib/ml/FStar_UInt63.ml" 6 79 131
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 132 "ulib/ml/FStar_UInt63.ml" 6 79 133
+type(
+  int
+)
+ident(
+  int_ref y "ulib/ml/FStar_UInt63.ml" 6 79 89 "ulib/ml/FStar_UInt63.ml" 6 79 90
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 126 "ulib/ml/FStar_UInt63.ml" 6 79 133
+type(
+  int
+)
+"ulib/ml/FStar_UInt63.ml" 6 79 93 "ulib/ml/FStar_UInt63.ml" 6 79 133
+type(
+  int
+)
+"ulib/ml/FStar_UInt63.ml" 8 135 139 "ulib/ml/FStar_UInt63.ml" 8 135 140
+type(
+  uint63 -> Prims.int
+)
+ident(
+  def v "ulib/ml/FStar_UInt63.ml" 10 201 201 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 8 135 142 "ulib/ml/FStar_UInt63.ml" 8 135 143
+type(
+  uint63
+)
+ident(
+  def x "ulib/ml/FStar_UInt63.ml" 8 135 152 "ulib/ml/FStar_UInt63.ml" 8 135 199
+)
+"ulib/ml/FStar_UInt63.ml" 8 135 166 "ulib/ml/FStar_UInt63.ml" 8 135 181
+type(
+  string -> Prims.int
+)
+ident(
+  ext_ref Prims.parse_int
+)
+"ulib/ml/FStar_UInt63.ml" 8 135 183 "ulib/ml/FStar_UInt63.ml" 8 135 196
+type(
+  uint63 -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"ulib/ml/FStar_UInt63.ml" 8 135 197 "ulib/ml/FStar_UInt63.ml" 8 135 198
+type(
+  uint63
+)
+ident(
+  int_ref x "ulib/ml/FStar_UInt63.ml" 8 135 142 "ulib/ml/FStar_UInt63.ml" 8 135 143
+)
+"ulib/ml/FStar_UInt63.ml" 8 135 182 "ulib/ml/FStar_UInt63.ml" 8 135 199
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_UInt63.ml" 8 135 166 "ulib/ml/FStar_UInt63.ml" 8 135 199
+call(
+  tail
+)
+type(
+  Prims.int
+)
+type(
+  Prims.int
+)
+"ulib/ml/FStar_UInt63.ml" 10 201 205 "ulib/ml/FStar_UInt63.ml" 10 201 209
+type(
+  int
+)
+ident(
+  def zero "ulib/ml/FStar_UInt63.ml" 11 214 214 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 10 201 212 "ulib/ml/FStar_UInt63.ml" 10 201 213
+type(
+  int
+)
+"ulib/ml/FStar_UInt63.ml" 11 214 218 "ulib/ml/FStar_UInt63.ml" 11 214 221
+type(
+  int
+)
+ident(
+  def one "ulib/ml/FStar_UInt63.ml" 12 226 226 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 11 214 224 "ulib/ml/FStar_UInt63.ml" 11 214 225
+type(
+  int
+)
+"ulib/ml/FStar_UInt63.ml" 12 226 230 "ulib/ml/FStar_UInt63.ml" 12 226 234
+type(
+  int
+)
+ident(
+  def ones "ulib/ml/FStar_UInt63.ml" 14 241 241 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 12 226 237 "ulib/ml/FStar_UInt63.ml" 12 226 239
+type(
+  int
+)
+"ulib/ml/FStar_UInt63.ml" 14 241 245 "ulib/ml/FStar_UInt63.ml" 14 241 248
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def add "ulib/ml/FStar_UInt63.ml" 15 288 288 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 14 241 250 "ulib/ml/FStar_UInt63.ml" 14 241 251
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 14 241 260 "ulib/ml/FStar_UInt63.ml" 14 241 287
+)
+"ulib/ml/FStar_UInt63.ml" 14 241 261 "ulib/ml/FStar_UInt63.ml" 14 241 262
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 14 241 271 "ulib/ml/FStar_UInt63.ml" 14 241 287
+)
+"ulib/ml/FStar_UInt63.ml" 14 241 282 "ulib/ml/FStar_UInt63.ml" 14 241 283
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 14 241 250 "ulib/ml/FStar_UInt63.ml" 14 241 251
+)
+"ulib/ml/FStar_UInt63.ml" 14 241 284 "ulib/ml/FStar_UInt63.ml" 14 241 285
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"ulib/ml/FStar_UInt63.ml" 14 241 286 "ulib/ml/FStar_UInt63.ml" 14 241 287
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 14 241 261 "ulib/ml/FStar_UInt63.ml" 14 241 262
+)
+"ulib/ml/FStar_UInt63.ml" 14 241 282 "ulib/ml/FStar_UInt63.ml" 14 241 287
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 15 288 292 "ulib/ml/FStar_UInt63.ml" 15 288 305
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def add_underspec "ulib/ml/FStar_UInt63.ml" 16 320 320 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 15 288 306 "ulib/ml/FStar_UInt63.ml" 15 288 307
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 15 288 308 "ulib/ml/FStar_UInt63.ml" 15 288 319
+)
+"ulib/ml/FStar_UInt63.ml" 15 288 308 "ulib/ml/FStar_UInt63.ml" 15 288 309
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 15 288 312 "ulib/ml/FStar_UInt63.ml" 15 288 319
+)
+"ulib/ml/FStar_UInt63.ml" 15 288 312 "ulib/ml/FStar_UInt63.ml" 15 288 315
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref add "ulib/ml/FStar_UInt63.ml" 14 241 245 "ulib/ml/FStar_UInt63.ml" 14 241 248
+)
+"ulib/ml/FStar_UInt63.ml" 15 288 316 "ulib/ml/FStar_UInt63.ml" 15 288 317
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 15 288 306 "ulib/ml/FStar_UInt63.ml" 15 288 307
+)
+"ulib/ml/FStar_UInt63.ml" 15 288 318 "ulib/ml/FStar_UInt63.ml" 15 288 319
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 15 288 308 "ulib/ml/FStar_UInt63.ml" 15 288 309
+)
+"ulib/ml/FStar_UInt63.ml" 15 288 312 "ulib/ml/FStar_UInt63.ml" 15 288 319
+call(
+  tail
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 16 320 324 "ulib/ml/FStar_UInt63.ml" 16 320 331
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def add_mod "ulib/ml/FStar_UInt63.ml" 18 347 347 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 16 320 332 "ulib/ml/FStar_UInt63.ml" 16 320 333
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 16 320 334 "ulib/ml/FStar_UInt63.ml" 16 320 345
+)
+"ulib/ml/FStar_UInt63.ml" 16 320 334 "ulib/ml/FStar_UInt63.ml" 16 320 335
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 16 320 338 "ulib/ml/FStar_UInt63.ml" 16 320 345
+)
+"ulib/ml/FStar_UInt63.ml" 16 320 338 "ulib/ml/FStar_UInt63.ml" 16 320 341
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref add "ulib/ml/FStar_UInt63.ml" 14 241 245 "ulib/ml/FStar_UInt63.ml" 14 241 248
+)
+"ulib/ml/FStar_UInt63.ml" 16 320 342 "ulib/ml/FStar_UInt63.ml" 16 320 343
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 16 320 332 "ulib/ml/FStar_UInt63.ml" 16 320 333
+)
+"ulib/ml/FStar_UInt63.ml" 16 320 344 "ulib/ml/FStar_UInt63.ml" 16 320 345
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 16 320 334 "ulib/ml/FStar_UInt63.ml" 16 320 335
+)
+"ulib/ml/FStar_UInt63.ml" 16 320 338 "ulib/ml/FStar_UInt63.ml" 16 320 345
+call(
+  tail
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 18 347 351 "ulib/ml/FStar_UInt63.ml" 18 347 354
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def sub "ulib/ml/FStar_UInt63.ml" 19 394 394 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 18 347 356 "ulib/ml/FStar_UInt63.ml" 18 347 357
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 18 347 366 "ulib/ml/FStar_UInt63.ml" 18 347 393
+)
+"ulib/ml/FStar_UInt63.ml" 18 347 367 "ulib/ml/FStar_UInt63.ml" 18 347 368
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 18 347 377 "ulib/ml/FStar_UInt63.ml" 18 347 393
+)
+"ulib/ml/FStar_UInt63.ml" 18 347 388 "ulib/ml/FStar_UInt63.ml" 18 347 389
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 18 347 356 "ulib/ml/FStar_UInt63.ml" 18 347 357
+)
+"ulib/ml/FStar_UInt63.ml" 18 347 390 "ulib/ml/FStar_UInt63.ml" 18 347 391
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"ulib/ml/FStar_UInt63.ml" 18 347 392 "ulib/ml/FStar_UInt63.ml" 18 347 393
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 18 347 367 "ulib/ml/FStar_UInt63.ml" 18 347 368
+)
+"ulib/ml/FStar_UInt63.ml" 18 347 388 "ulib/ml/FStar_UInt63.ml" 18 347 393
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 19 394 398 "ulib/ml/FStar_UInt63.ml" 19 394 411
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def sub_underspec "ulib/ml/FStar_UInt63.ml" 20 426 426 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 19 394 412 "ulib/ml/FStar_UInt63.ml" 19 394 413
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 19 394 414 "ulib/ml/FStar_UInt63.ml" 19 394 425
+)
+"ulib/ml/FStar_UInt63.ml" 19 394 414 "ulib/ml/FStar_UInt63.ml" 19 394 415
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 19 394 418 "ulib/ml/FStar_UInt63.ml" 19 394 425
+)
+"ulib/ml/FStar_UInt63.ml" 19 394 418 "ulib/ml/FStar_UInt63.ml" 19 394 421
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref sub "ulib/ml/FStar_UInt63.ml" 18 347 351 "ulib/ml/FStar_UInt63.ml" 18 347 354
+)
+"ulib/ml/FStar_UInt63.ml" 19 394 422 "ulib/ml/FStar_UInt63.ml" 19 394 423
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 19 394 412 "ulib/ml/FStar_UInt63.ml" 19 394 413
+)
+"ulib/ml/FStar_UInt63.ml" 19 394 424 "ulib/ml/FStar_UInt63.ml" 19 394 425
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 19 394 414 "ulib/ml/FStar_UInt63.ml" 19 394 415
+)
+"ulib/ml/FStar_UInt63.ml" 19 394 418 "ulib/ml/FStar_UInt63.ml" 19 394 425
+call(
+  tail
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 20 426 430 "ulib/ml/FStar_UInt63.ml" 20 426 437
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def sub_mod "ulib/ml/FStar_UInt63.ml" 22 453 453 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 20 426 438 "ulib/ml/FStar_UInt63.ml" 20 426 439
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 20 426 440 "ulib/ml/FStar_UInt63.ml" 20 426 451
+)
+"ulib/ml/FStar_UInt63.ml" 20 426 440 "ulib/ml/FStar_UInt63.ml" 20 426 441
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 20 426 444 "ulib/ml/FStar_UInt63.ml" 20 426 451
+)
+"ulib/ml/FStar_UInt63.ml" 20 426 444 "ulib/ml/FStar_UInt63.ml" 20 426 447
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref sub "ulib/ml/FStar_UInt63.ml" 18 347 351 "ulib/ml/FStar_UInt63.ml" 18 347 354
+)
+"ulib/ml/FStar_UInt63.ml" 20 426 448 "ulib/ml/FStar_UInt63.ml" 20 426 449
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 20 426 438 "ulib/ml/FStar_UInt63.ml" 20 426 439
+)
+"ulib/ml/FStar_UInt63.ml" 20 426 450 "ulib/ml/FStar_UInt63.ml" 20 426 451
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 20 426 440 "ulib/ml/FStar_UInt63.ml" 20 426 441
+)
+"ulib/ml/FStar_UInt63.ml" 20 426 444 "ulib/ml/FStar_UInt63.ml" 20 426 451
+call(
+  tail
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 22 453 457 "ulib/ml/FStar_UInt63.ml" 22 453 460
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def mul "ulib/ml/FStar_UInt63.ml" 23 500 500 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 22 453 462 "ulib/ml/FStar_UInt63.ml" 22 453 463
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 22 453 472 "ulib/ml/FStar_UInt63.ml" 22 453 499
+)
+"ulib/ml/FStar_UInt63.ml" 22 453 473 "ulib/ml/FStar_UInt63.ml" 22 453 474
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 22 453 483 "ulib/ml/FStar_UInt63.ml" 22 453 499
+)
+"ulib/ml/FStar_UInt63.ml" 22 453 494 "ulib/ml/FStar_UInt63.ml" 22 453 495
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 22 453 462 "ulib/ml/FStar_UInt63.ml" 22 453 463
+)
+"ulib/ml/FStar_UInt63.ml" 22 453 496 "ulib/ml/FStar_UInt63.ml" 22 453 497
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"ulib/ml/FStar_UInt63.ml" 22 453 498 "ulib/ml/FStar_UInt63.ml" 22 453 499
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 22 453 473 "ulib/ml/FStar_UInt63.ml" 22 453 474
+)
+"ulib/ml/FStar_UInt63.ml" 22 453 494 "ulib/ml/FStar_UInt63.ml" 22 453 499
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 23 500 504 "ulib/ml/FStar_UInt63.ml" 23 500 517
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def mul_underspec "ulib/ml/FStar_UInt63.ml" 24 532 532 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 23 500 518 "ulib/ml/FStar_UInt63.ml" 23 500 519
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 23 500 520 "ulib/ml/FStar_UInt63.ml" 23 500 531
+)
+"ulib/ml/FStar_UInt63.ml" 23 500 520 "ulib/ml/FStar_UInt63.ml" 23 500 521
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 23 500 524 "ulib/ml/FStar_UInt63.ml" 23 500 531
+)
+"ulib/ml/FStar_UInt63.ml" 23 500 524 "ulib/ml/FStar_UInt63.ml" 23 500 527
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref mul "ulib/ml/FStar_UInt63.ml" 22 453 457 "ulib/ml/FStar_UInt63.ml" 22 453 460
+)
+"ulib/ml/FStar_UInt63.ml" 23 500 528 "ulib/ml/FStar_UInt63.ml" 23 500 529
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 23 500 518 "ulib/ml/FStar_UInt63.ml" 23 500 519
+)
+"ulib/ml/FStar_UInt63.ml" 23 500 530 "ulib/ml/FStar_UInt63.ml" 23 500 531
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 23 500 520 "ulib/ml/FStar_UInt63.ml" 23 500 521
+)
+"ulib/ml/FStar_UInt63.ml" 23 500 524 "ulib/ml/FStar_UInt63.ml" 23 500 531
+call(
+  tail
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 24 532 536 "ulib/ml/FStar_UInt63.ml" 24 532 543
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def mul_mod "ulib/ml/FStar_UInt63.ml" 26 559 559 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 24 532 544 "ulib/ml/FStar_UInt63.ml" 24 532 545
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 24 532 546 "ulib/ml/FStar_UInt63.ml" 24 532 557
+)
+"ulib/ml/FStar_UInt63.ml" 24 532 546 "ulib/ml/FStar_UInt63.ml" 24 532 547
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 24 532 550 "ulib/ml/FStar_UInt63.ml" 24 532 557
+)
+"ulib/ml/FStar_UInt63.ml" 24 532 550 "ulib/ml/FStar_UInt63.ml" 24 532 553
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref mul "ulib/ml/FStar_UInt63.ml" 22 453 457 "ulib/ml/FStar_UInt63.ml" 22 453 460
+)
+"ulib/ml/FStar_UInt63.ml" 24 532 554 "ulib/ml/FStar_UInt63.ml" 24 532 555
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 24 532 544 "ulib/ml/FStar_UInt63.ml" 24 532 545
+)
+"ulib/ml/FStar_UInt63.ml" 24 532 556 "ulib/ml/FStar_UInt63.ml" 24 532 557
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 24 532 546 "ulib/ml/FStar_UInt63.ml" 24 532 547
+)
+"ulib/ml/FStar_UInt63.ml" 24 532 550 "ulib/ml/FStar_UInt63.ml" 24 532 557
+call(
+  tail
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 26 559 563 "ulib/ml/FStar_UInt63.ml" 26 559 566
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def div "ulib/ml/FStar_UInt63.ml" 28 628 628 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 26 559 568 "ulib/ml/FStar_UInt63.ml" 26 559 569
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 26 559 578 "ulib/ml/FStar_UInt63.ml" 26 559 626
+)
+"ulib/ml/FStar_UInt63.ml" 26 559 579 "ulib/ml/FStar_UInt63.ml" 26 559 580
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 26 559 589 "ulib/ml/FStar_UInt63.ml" 26 559 626
+)
+"ulib/ml/FStar_UInt63.ml" 26 559 600 "ulib/ml/FStar_UInt63.ml" 26 559 608
+type(
+  string -> uint63
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/FStar_UInt63.ml" 26 559 609 "ulib/ml/FStar_UInt63.ml" 26 559 626
+type(
+  string
+)
+"ulib/ml/FStar_UInt63.ml" 26 559 600 "ulib/ml/FStar_UInt63.ml" 26 559 626
+call(
+  tail
+)
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 28 628 632 "ulib/ml/FStar_UInt63.ml" 28 628 635
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def rem "ulib/ml/FStar_UInt63.ml" 30 697 697 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 28 628 637 "ulib/ml/FStar_UInt63.ml" 28 628 638
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 28 628 647 "ulib/ml/FStar_UInt63.ml" 28 628 695
+)
+"ulib/ml/FStar_UInt63.ml" 28 628 648 "ulib/ml/FStar_UInt63.ml" 28 628 649
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 28 628 658 "ulib/ml/FStar_UInt63.ml" 28 628 695
+)
+"ulib/ml/FStar_UInt63.ml" 28 628 669 "ulib/ml/FStar_UInt63.ml" 28 628 677
+type(
+  string -> uint63
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/FStar_UInt63.ml" 28 628 678 "ulib/ml/FStar_UInt63.ml" 28 628 695
+type(
+  string
+)
+"ulib/ml/FStar_UInt63.ml" 28 628 669 "ulib/ml/FStar_UInt63.ml" 28 628 695
+call(
+  tail
+)
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 30 697 701 "ulib/ml/FStar_UInt63.ml" 30 697 707
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def logand "ulib/ml/FStar_UInt63.ml" 31 750 750 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 30 697 709 "ulib/ml/FStar_UInt63.ml" 30 697 710
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 30 697 719 "ulib/ml/FStar_UInt63.ml" 30 697 749
+)
+"ulib/ml/FStar_UInt63.ml" 30 697 720 "ulib/ml/FStar_UInt63.ml" 30 697 721
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 30 697 730 "ulib/ml/FStar_UInt63.ml" 30 697 749
+)
+"ulib/ml/FStar_UInt63.ml" 30 697 741 "ulib/ml/FStar_UInt63.ml" 30 697 742
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 30 697 709 "ulib/ml/FStar_UInt63.ml" 30 697 710
+)
+"ulib/ml/FStar_UInt63.ml" 30 697 743 "ulib/ml/FStar_UInt63.ml" 30 697 747
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"ulib/ml/FStar_UInt63.ml" 30 697 748 "ulib/ml/FStar_UInt63.ml" 30 697 749
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 30 697 720 "ulib/ml/FStar_UInt63.ml" 30 697 721
+)
+"ulib/ml/FStar_UInt63.ml" 30 697 741 "ulib/ml/FStar_UInt63.ml" 30 697 749
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 31 750 754 "ulib/ml/FStar_UInt63.ml" 31 750 760
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def logxor "ulib/ml/FStar_UInt63.ml" 32 803 803 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 31 750 762 "ulib/ml/FStar_UInt63.ml" 31 750 763
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 31 750 772 "ulib/ml/FStar_UInt63.ml" 31 750 802
+)
+"ulib/ml/FStar_UInt63.ml" 31 750 773 "ulib/ml/FStar_UInt63.ml" 31 750 774
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 31 750 783 "ulib/ml/FStar_UInt63.ml" 31 750 802
+)
+"ulib/ml/FStar_UInt63.ml" 31 750 794 "ulib/ml/FStar_UInt63.ml" 31 750 795
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 31 750 762 "ulib/ml/FStar_UInt63.ml" 31 750 763
+)
+"ulib/ml/FStar_UInt63.ml" 31 750 796 "ulib/ml/FStar_UInt63.ml" 31 750 800
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  ext_ref Pervasives.( lxor )
+)
+"ulib/ml/FStar_UInt63.ml" 31 750 801 "ulib/ml/FStar_UInt63.ml" 31 750 802
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 31 750 773 "ulib/ml/FStar_UInt63.ml" 31 750 774
+)
+"ulib/ml/FStar_UInt63.ml" 31 750 794 "ulib/ml/FStar_UInt63.ml" 31 750 802
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 32 803 807 "ulib/ml/FStar_UInt63.ml" 32 803 812
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def logor "ulib/ml/FStar_UInt63.ml" 33 855 855 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 32 803 815 "ulib/ml/FStar_UInt63.ml" 32 803 816
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 32 803 825 "ulib/ml/FStar_UInt63.ml" 32 803 854
+)
+"ulib/ml/FStar_UInt63.ml" 32 803 826 "ulib/ml/FStar_UInt63.ml" 32 803 827
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 32 803 836 "ulib/ml/FStar_UInt63.ml" 32 803 854
+)
+"ulib/ml/FStar_UInt63.ml" 32 803 847 "ulib/ml/FStar_UInt63.ml" 32 803 848
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 32 803 815 "ulib/ml/FStar_UInt63.ml" 32 803 816
+)
+"ulib/ml/FStar_UInt63.ml" 32 803 849 "ulib/ml/FStar_UInt63.ml" 32 803 852
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  ext_ref Pervasives.( lor )
+)
+"ulib/ml/FStar_UInt63.ml" 32 803 853 "ulib/ml/FStar_UInt63.ml" 32 803 854
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 32 803 826 "ulib/ml/FStar_UInt63.ml" 32 803 827
+)
+"ulib/ml/FStar_UInt63.ml" 32 803 847 "ulib/ml/FStar_UInt63.ml" 32 803 854
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 33 855 859 "ulib/ml/FStar_UInt63.ml" 33 855 865
+type(
+  uint63 -> uint63
+)
+ident(
+  def lognot "ulib/ml/FStar_UInt63.ml" 35 903 903 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 33 855 867 "ulib/ml/FStar_UInt63.ml" 33 855 868
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 33 855 877 "ulib/ml/FStar_UInt63.ml" 33 855 894
+)
+"ulib/ml/FStar_UInt63.ml" 33 855 888 "ulib/ml/FStar_UInt63.ml" 33 855 892
+type(
+  uint63 -> uint63
+)
+ident(
+  ext_ref Pervasives.lnot
+)
+"ulib/ml/FStar_UInt63.ml" 33 855 893 "ulib/ml/FStar_UInt63.ml" 33 855 894
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 33 855 867 "ulib/ml/FStar_UInt63.ml" 33 855 868
+)
+"ulib/ml/FStar_UInt63.ml" 33 855 888 "ulib/ml/FStar_UInt63.ml" 33 855 894
+call(
+  tail
+)
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 907 "ulib/ml/FStar_UInt63.ml" 35 903 920
+type(
+  Prims.int -> uint63
+)
+ident(
+  def int_to_uint63 "ulib/ml/FStar_UInt63.ml" 37 998 998 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 922 "ulib/ml/FStar_UInt63.ml" 35 903 923
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/ml/FStar_UInt63.ml" 35 903 935 "ulib/ml/FStar_UInt63.ml" 35 903 996
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 946 "ulib/ml/FStar_UInt63.ml" 35 903 958
+type(
+  int64 -> uint63
+)
+ident(
+  ext_ref Int64.to_int
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 960 "ulib/ml/FStar_UInt63.ml" 35 903 975
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 977 "ulib/ml/FStar_UInt63.ml" 35 903 992
+type(
+  Prims.int -> string
+)
+ident(
+  ext_ref Prims.to_string
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 993 "ulib/ml/FStar_UInt63.ml" 35 903 994
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/FStar_UInt63.ml" 35 903 922 "ulib/ml/FStar_UInt63.ml" 35 903 923
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 976 "ulib/ml/FStar_UInt63.ml" 35 903 995
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 959 "ulib/ml/FStar_UInt63.ml" 35 903 996
+type(
+  int64
+)
+"ulib/ml/FStar_UInt63.ml" 35 903 946 "ulib/ml/FStar_UInt63.ml" 35 903 996
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 37 998 1002 "ulib/ml/FStar_UInt63.ml" 37 998 1013
+type(
+  uint63 -> uint8 -> uint63
+)
+ident(
+  def shift_right "ulib/ml/FStar_UInt63.ml" 38 1054 1054 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 37 998 1015 "ulib/ml/FStar_UInt63.ml" 37 998 1016
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 37 998 1025 "ulib/ml/FStar_UInt63.ml" 37 998 1053
+)
+"ulib/ml/FStar_UInt63.ml" 37 998 1026 "ulib/ml/FStar_UInt63.ml" 37 998 1027
+type(
+  uint8
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 37 998 1035 "ulib/ml/FStar_UInt63.ml" 37 998 1053
+)
+"ulib/ml/FStar_UInt63.ml" 37 998 1046 "ulib/ml/FStar_UInt63.ml" 37 998 1047
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 37 998 1015 "ulib/ml/FStar_UInt63.ml" 37 998 1016
+)
+"ulib/ml/FStar_UInt63.ml" 37 998 1048 "ulib/ml/FStar_UInt63.ml" 37 998 1051
+type(
+  uint63 -> uint8 -> uint63
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"ulib/ml/FStar_UInt63.ml" 37 998 1052 "ulib/ml/FStar_UInt63.ml" 37 998 1053
+type(
+  uint8
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 37 998 1026 "ulib/ml/FStar_UInt63.ml" 37 998 1027
+)
+"ulib/ml/FStar_UInt63.ml" 37 998 1046 "ulib/ml/FStar_UInt63.ml" 37 998 1053
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 38 1054 1058 "ulib/ml/FStar_UInt63.ml" 38 1054 1068
+type(
+  uint63 -> uint8 -> uint63
+)
+ident(
+  def shift_left "ulib/ml/FStar_UInt63.ml" 41 1140 1140 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 38 1054 1071 "ulib/ml/FStar_UInt63.ml" 38 1054 1072
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 38 1054 1081 "ulib/ml/FStar_UInt63.ml" 38 1054 1111
+)
+"ulib/ml/FStar_UInt63.ml" 38 1054 1082 "ulib/ml/FStar_UInt63.ml" 38 1054 1083
+type(
+  uint8
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 38 1054 1091 "ulib/ml/FStar_UInt63.ml" 38 1054 1111
+)
+"ulib/ml/FStar_UInt63.ml" 38 1054 1103 "ulib/ml/FStar_UInt63.ml" 38 1054 1104
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 38 1054 1071 "ulib/ml/FStar_UInt63.ml" 38 1054 1072
+)
+"ulib/ml/FStar_UInt63.ml" 38 1054 1105 "ulib/ml/FStar_UInt63.ml" 38 1054 1108
+type(
+  uint63 -> uint8 -> uint63
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"ulib/ml/FStar_UInt63.ml" 38 1054 1109 "ulib/ml/FStar_UInt63.ml" 38 1054 1110
+type(
+  uint8
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 38 1054 1082 "ulib/ml/FStar_UInt63.ml" 38 1054 1083
+)
+"ulib/ml/FStar_UInt63.ml" 38 1054 1102 "ulib/ml/FStar_UInt63.ml" 38 1054 1111
+type(
+  uint63
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 41 1140 1144 "ulib/ml/FStar_UInt63.ml" 41 1140 1146
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def eq "ulib/ml/FStar_UInt63.ml" 42 1184 1184 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 41 1140 1148 "ulib/ml/FStar_UInt63.ml" 41 1140 1149
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 41 1140 1158 "ulib/ml/FStar_UInt63.ml" 41 1140 1183
+)
+"ulib/ml/FStar_UInt63.ml" 41 1140 1159 "ulib/ml/FStar_UInt63.ml" 41 1140 1160
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 41 1140 1169 "ulib/ml/FStar_UInt63.ml" 41 1140 1183
+)
+"ulib/ml/FStar_UInt63.ml" 41 1140 1178 "ulib/ml/FStar_UInt63.ml" 41 1140 1179
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 41 1140 1148 "ulib/ml/FStar_UInt63.ml" 41 1140 1149
+)
+"ulib/ml/FStar_UInt63.ml" 41 1140 1180 "ulib/ml/FStar_UInt63.ml" 41 1140 1181
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/FStar_UInt63.ml" 41 1140 1182 "ulib/ml/FStar_UInt63.ml" 41 1140 1183
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 41 1140 1159 "ulib/ml/FStar_UInt63.ml" 41 1140 1160
+)
+"ulib/ml/FStar_UInt63.ml" 41 1140 1178 "ulib/ml/FStar_UInt63.ml" 41 1140 1183
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_UInt63.ml" 42 1184 1188 "ulib/ml/FStar_UInt63.ml" 42 1184 1190
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def gt "ulib/ml/FStar_UInt63.ml" 43 1228 1228 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 42 1184 1192 "ulib/ml/FStar_UInt63.ml" 42 1184 1193
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 42 1184 1202 "ulib/ml/FStar_UInt63.ml" 42 1184 1227
+)
+"ulib/ml/FStar_UInt63.ml" 42 1184 1203 "ulib/ml/FStar_UInt63.ml" 42 1184 1204
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 42 1184 1213 "ulib/ml/FStar_UInt63.ml" 42 1184 1227
+)
+"ulib/ml/FStar_UInt63.ml" 42 1184 1222 "ulib/ml/FStar_UInt63.ml" 42 1184 1223
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 42 1184 1192 "ulib/ml/FStar_UInt63.ml" 42 1184 1193
+)
+"ulib/ml/FStar_UInt63.ml" 42 1184 1224 "ulib/ml/FStar_UInt63.ml" 42 1184 1225
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"ulib/ml/FStar_UInt63.ml" 42 1184 1226 "ulib/ml/FStar_UInt63.ml" 42 1184 1227
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 42 1184 1203 "ulib/ml/FStar_UInt63.ml" 42 1184 1204
+)
+"ulib/ml/FStar_UInt63.ml" 42 1184 1222 "ulib/ml/FStar_UInt63.ml" 42 1184 1227
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_UInt63.ml" 43 1228 1232 "ulib/ml/FStar_UInt63.ml" 43 1228 1235
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def gte "ulib/ml/FStar_UInt63.ml" 44 1274 1274 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 43 1228 1237 "ulib/ml/FStar_UInt63.ml" 43 1228 1238
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 43 1228 1247 "ulib/ml/FStar_UInt63.ml" 43 1228 1273
+)
+"ulib/ml/FStar_UInt63.ml" 43 1228 1248 "ulib/ml/FStar_UInt63.ml" 43 1228 1249
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 43 1228 1258 "ulib/ml/FStar_UInt63.ml" 43 1228 1273
+)
+"ulib/ml/FStar_UInt63.ml" 43 1228 1267 "ulib/ml/FStar_UInt63.ml" 43 1228 1268
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 43 1228 1237 "ulib/ml/FStar_UInt63.ml" 43 1228 1238
+)
+"ulib/ml/FStar_UInt63.ml" 43 1228 1269 "ulib/ml/FStar_UInt63.ml" 43 1228 1271
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"ulib/ml/FStar_UInt63.ml" 43 1228 1272 "ulib/ml/FStar_UInt63.ml" 43 1228 1273
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 43 1228 1248 "ulib/ml/FStar_UInt63.ml" 43 1228 1249
+)
+"ulib/ml/FStar_UInt63.ml" 43 1228 1267 "ulib/ml/FStar_UInt63.ml" 43 1228 1273
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_UInt63.ml" 44 1274 1278 "ulib/ml/FStar_UInt63.ml" 44 1274 1280
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def lt "ulib/ml/FStar_UInt63.ml" 45 1318 1318 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 44 1274 1282 "ulib/ml/FStar_UInt63.ml" 44 1274 1283
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 44 1274 1292 "ulib/ml/FStar_UInt63.ml" 44 1274 1317
+)
+"ulib/ml/FStar_UInt63.ml" 44 1274 1293 "ulib/ml/FStar_UInt63.ml" 44 1274 1294
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 44 1274 1303 "ulib/ml/FStar_UInt63.ml" 44 1274 1317
+)
+"ulib/ml/FStar_UInt63.ml" 44 1274 1312 "ulib/ml/FStar_UInt63.ml" 44 1274 1313
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 44 1274 1282 "ulib/ml/FStar_UInt63.ml" 44 1274 1283
+)
+"ulib/ml/FStar_UInt63.ml" 44 1274 1314 "ulib/ml/FStar_UInt63.ml" 44 1274 1315
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ulib/ml/FStar_UInt63.ml" 44 1274 1316 "ulib/ml/FStar_UInt63.ml" 44 1274 1317
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 44 1274 1293 "ulib/ml/FStar_UInt63.ml" 44 1274 1294
+)
+"ulib/ml/FStar_UInt63.ml" 44 1274 1312 "ulib/ml/FStar_UInt63.ml" 44 1274 1317
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_UInt63.ml" 45 1318 1322 "ulib/ml/FStar_UInt63.ml" 45 1318 1325
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def lte "ulib/ml/FStar_UInt63.ml" 48 1388 1388 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 45 1318 1327 "ulib/ml/FStar_UInt63.ml" 45 1318 1328
+type(
+  uint63
+)
+ident(
+  def a "ulib/ml/FStar_UInt63.ml" 45 1318 1337 "ulib/ml/FStar_UInt63.ml" 45 1318 1364
+)
+"ulib/ml/FStar_UInt63.ml" 45 1318 1338 "ulib/ml/FStar_UInt63.ml" 45 1318 1339
+type(
+  uint63
+)
+ident(
+  def b "ulib/ml/FStar_UInt63.ml" 45 1318 1348 "ulib/ml/FStar_UInt63.ml" 45 1318 1364
+)
+"ulib/ml/FStar_UInt63.ml" 45 1318 1358 "ulib/ml/FStar_UInt63.ml" 45 1318 1359
+type(
+  uint63
+)
+ident(
+  int_ref a "ulib/ml/FStar_UInt63.ml" 45 1318 1327 "ulib/ml/FStar_UInt63.ml" 45 1318 1328
+)
+"ulib/ml/FStar_UInt63.ml" 45 1318 1360 "ulib/ml/FStar_UInt63.ml" 45 1318 1362
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"ulib/ml/FStar_UInt63.ml" 45 1318 1363 "ulib/ml/FStar_UInt63.ml" 45 1318 1364
+type(
+  uint63
+)
+ident(
+  int_ref b "ulib/ml/FStar_UInt63.ml" 45 1318 1338 "ulib/ml/FStar_UInt63.ml" 45 1318 1339
+)
+"ulib/ml/FStar_UInt63.ml" 45 1318 1358 "ulib/ml/FStar_UInt63.ml" 45 1318 1364
+type(
+  bool
+)
+type(
+  bool
+)
+"ulib/ml/FStar_UInt63.ml" 48 1388 1392 "ulib/ml/FStar_UInt63.ml" 48 1388 1403
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Plus_Hat "ulib/ml/FStar_UInt63.ml" 49 1410 1410 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 48 1388 1406 "ulib/ml/FStar_UInt63.ml" 48 1388 1409
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref add "ulib/ml/FStar_UInt63.ml" 14 241 245 "ulib/ml/FStar_UInt63.ml" 14 241 248
+)
+"ulib/ml/FStar_UInt63.ml" 49 1410 1414 "ulib/ml/FStar_UInt63.ml" 49 1410 1434
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Plus_Question_Hat "ulib/ml/FStar_UInt63.ml" 50 1451 1451 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 49 1410 1437 "ulib/ml/FStar_UInt63.ml" 49 1410 1450
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref add_underspec "ulib/ml/FStar_UInt63.ml" 15 288 292 "ulib/ml/FStar_UInt63.ml" 15 288 305
+)
+"ulib/ml/FStar_UInt63.ml" 50 1451 1455 "ulib/ml/FStar_UInt63.ml" 50 1451 1474
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Plus_Percent_Hat "ulib/ml/FStar_UInt63.ml" 51 1485 1485 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 50 1451 1477 "ulib/ml/FStar_UInt63.ml" 50 1451 1484
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref add_mod "ulib/ml/FStar_UInt63.ml" 16 320 324 "ulib/ml/FStar_UInt63.ml" 16 320 331
+)
+"ulib/ml/FStar_UInt63.ml" 51 1485 1489 "ulib/ml/FStar_UInt63.ml" 51 1485 1507
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Subtraction_Hat "ulib/ml/FStar_UInt63.ml" 52 1514 1514 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 51 1485 1510 "ulib/ml/FStar_UInt63.ml" 51 1485 1513
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref sub "ulib/ml/FStar_UInt63.ml" 18 347 351 "ulib/ml/FStar_UInt63.ml" 18 347 354
+)
+"ulib/ml/FStar_UInt63.ml" 52 1514 1518 "ulib/ml/FStar_UInt63.ml" 52 1514 1545
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Subtraction_Question_Hat "ulib/ml/FStar_UInt63.ml" 53 1562 1562 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 52 1514 1548 "ulib/ml/FStar_UInt63.ml" 52 1514 1561
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref sub_underspec "ulib/ml/FStar_UInt63.ml" 19 394 398 "ulib/ml/FStar_UInt63.ml" 19 394 411
+)
+"ulib/ml/FStar_UInt63.ml" 53 1562 1566 "ulib/ml/FStar_UInt63.ml" 53 1562 1592
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Subtraction_Percent_Hat "ulib/ml/FStar_UInt63.ml" 54 1603 1603 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 53 1562 1595 "ulib/ml/FStar_UInt63.ml" 53 1562 1602
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref sub_mod "ulib/ml/FStar_UInt63.ml" 20 426 430 "ulib/ml/FStar_UInt63.ml" 20 426 437
+)
+"ulib/ml/FStar_UInt63.ml" 54 1603 1607 "ulib/ml/FStar_UInt63.ml" 54 1603 1618
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Star_Hat "ulib/ml/FStar_UInt63.ml" 55 1625 1625 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 54 1603 1621 "ulib/ml/FStar_UInt63.ml" 54 1603 1624
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref mul "ulib/ml/FStar_UInt63.ml" 22 453 457 "ulib/ml/FStar_UInt63.ml" 22 453 460
+)
+"ulib/ml/FStar_UInt63.ml" 55 1625 1629 "ulib/ml/FStar_UInt63.ml" 55 1625 1649
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Star_Question_Hat "ulib/ml/FStar_UInt63.ml" 56 1666 1666 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 55 1625 1652 "ulib/ml/FStar_UInt63.ml" 55 1625 1665
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref mul_underspec "ulib/ml/FStar_UInt63.ml" 23 500 504 "ulib/ml/FStar_UInt63.ml" 23 500 517
+)
+"ulib/ml/FStar_UInt63.ml" 56 1666 1670 "ulib/ml/FStar_UInt63.ml" 56 1666 1689
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Star_Percent_Hat "ulib/ml/FStar_UInt63.ml" 57 1700 1700 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 56 1666 1692 "ulib/ml/FStar_UInt63.ml" 56 1666 1699
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref mul_mod "ulib/ml/FStar_UInt63.ml" 24 532 536 "ulib/ml/FStar_UInt63.ml" 24 532 543
+)
+"ulib/ml/FStar_UInt63.ml" 57 1700 1704 "ulib/ml/FStar_UInt63.ml" 57 1700 1716
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Slash_Hat "ulib/ml/FStar_UInt63.ml" 58 1723 1723 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 57 1700 1719 "ulib/ml/FStar_UInt63.ml" 57 1700 1722
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref div "ulib/ml/FStar_UInt63.ml" 26 559 563 "ulib/ml/FStar_UInt63.ml" 26 559 566
+)
+"ulib/ml/FStar_UInt63.ml" 58 1723 1727 "ulib/ml/FStar_UInt63.ml" 58 1723 1741
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Percent_Hat "ulib/ml/FStar_UInt63.ml" 59 1748 1748 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 58 1723 1744 "ulib/ml/FStar_UInt63.ml" 58 1723 1747
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref rem "ulib/ml/FStar_UInt63.ml" 28 628 632 "ulib/ml/FStar_UInt63.ml" 28 628 635
+)
+"ulib/ml/FStar_UInt63.ml" 59 1748 1752 "ulib/ml/FStar_UInt63.ml" 59 1748 1762
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Hat_Hat "ulib/ml/FStar_UInt63.ml" 60 1774 1774 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 59 1748 1765 "ulib/ml/FStar_UInt63.ml" 59 1748 1771
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref logxor "ulib/ml/FStar_UInt63.ml" 31 750 754 "ulib/ml/FStar_UInt63.ml" 31 750 760
+)
+"ulib/ml/FStar_UInt63.ml" 60 1774 1778 "ulib/ml/FStar_UInt63.ml" 60 1774 1788
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Amp_Hat "ulib/ml/FStar_UInt63.ml" 61 1798 1798 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 60 1774 1791 "ulib/ml/FStar_UInt63.ml" 60 1774 1797
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref logand "ulib/ml/FStar_UInt63.ml" 30 697 701 "ulib/ml/FStar_UInt63.ml" 30 697 707
+)
+"ulib/ml/FStar_UInt63.ml" 61 1798 1802 "ulib/ml/FStar_UInt63.ml" 61 1798 1812
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  def op_Bar_Hat "ulib/ml/FStar_UInt63.ml" 62 1821 1821 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 61 1798 1815 "ulib/ml/FStar_UInt63.ml" 61 1798 1820
+type(
+  uint63 -> uint63 -> uint63
+)
+ident(
+  int_ref logor "ulib/ml/FStar_UInt63.ml" 32 803 807 "ulib/ml/FStar_UInt63.ml" 32 803 812
+)
+"ulib/ml/FStar_UInt63.ml" 62 1821 1825 "ulib/ml/FStar_UInt63.ml" 62 1821 1841
+type(
+  uint63 -> uint8 -> uint63
+)
+ident(
+  def op_Less_Less_Hat "ulib/ml/FStar_UInt63.ml" 63 1855 1855 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 62 1821 1844 "ulib/ml/FStar_UInt63.ml" 62 1821 1854
+type(
+  uint63 -> uint8 -> uint63
+)
+ident(
+  int_ref shift_left "ulib/ml/FStar_UInt63.ml" 38 1054 1058 "ulib/ml/FStar_UInt63.ml" 38 1054 1068
+)
+"ulib/ml/FStar_UInt63.ml" 63 1855 1859 "ulib/ml/FStar_UInt63.ml" 63 1855 1881
+type(
+  uint63 -> uint8 -> uint63
+)
+ident(
+  def op_Greater_Greater_Hat "ulib/ml/FStar_UInt63.ml" 64 1896 1896 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 63 1855 1884 "ulib/ml/FStar_UInt63.ml" 63 1855 1895
+type(
+  uint63 -> uint8 -> uint63
+)
+ident(
+  int_ref shift_right "ulib/ml/FStar_UInt63.ml" 37 998 1002 "ulib/ml/FStar_UInt63.ml" 37 998 1013
+)
+"ulib/ml/FStar_UInt63.ml" 64 1896 1900 "ulib/ml/FStar_UInt63.ml" 64 1896 1913
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def op_Equals_Hat "ulib/ml/FStar_UInt63.ml" 65 1919 1919 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 64 1896 1916 "ulib/ml/FStar_UInt63.ml" 64 1896 1918
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  int_ref eq "ulib/ml/FStar_UInt63.ml" 41 1140 1144 "ulib/ml/FStar_UInt63.ml" 41 1140 1146
+)
+"ulib/ml/FStar_UInt63.ml" 65 1919 1923 "ulib/ml/FStar_UInt63.ml" 65 1919 1937
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def op_Greater_Hat "ulib/ml/FStar_UInt63.ml" 66 1943 1943 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 65 1919 1940 "ulib/ml/FStar_UInt63.ml" 65 1919 1942
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  int_ref gt "ulib/ml/FStar_UInt63.ml" 42 1184 1188 "ulib/ml/FStar_UInt63.ml" 42 1184 1190
+)
+"ulib/ml/FStar_UInt63.ml" 66 1943 1947 "ulib/ml/FStar_UInt63.ml" 66 1943 1968
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def op_Greater_Equals_Hat "ulib/ml/FStar_UInt63.ml" 67 1975 1975 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 66 1943 1971 "ulib/ml/FStar_UInt63.ml" 66 1943 1974
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  int_ref gte "ulib/ml/FStar_UInt63.ml" 43 1228 1232 "ulib/ml/FStar_UInt63.ml" 43 1228 1235
+)
+"ulib/ml/FStar_UInt63.ml" 67 1975 1979 "ulib/ml/FStar_UInt63.ml" 67 1975 1990
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def op_Less_Hat "ulib/ml/FStar_UInt63.ml" 68 1996 1996 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 67 1975 1993 "ulib/ml/FStar_UInt63.ml" 67 1975 1995
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  int_ref lt "ulib/ml/FStar_UInt63.ml" 44 1274 1278 "ulib/ml/FStar_UInt63.ml" 44 1274 1280
+)
+"ulib/ml/FStar_UInt63.ml" 68 1996 2000 "ulib/ml/FStar_UInt63.ml" 68 1996 2018
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  def op_Less_Equals_Hat "ulib/ml/FStar_UInt63.ml" 70 2026 2026 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 68 1996 2021 "ulib/ml/FStar_UInt63.ml" 68 1996 2024
+type(
+  uint63 -> uint63 -> bool
+)
+ident(
+  int_ref lte "ulib/ml/FStar_UInt63.ml" 45 1318 1322 "ulib/ml/FStar_UInt63.ml" 45 1318 1325
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2030 "ulib/ml/FStar_UInt63.ml" 70 2026 2039
+type(
+  int -> string
+)
+ident(
+  def to_string "ulib/ml/FStar_UInt63.ml" 71 2131 2131 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2040 "ulib/ml/FStar_UInt63.ml" 70 2026 2041
+type(
+  int
+)
+ident(
+  def s "ulib/ml/FStar_UInt63.ml" 70 2026 2044 "ulib/ml/FStar_UInt63.ml" 70 2026 2130
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2044 "ulib/ml/FStar_UInt63.ml" 70 2026 2059
+type(
+  int64 -> string
+)
+ident(
+  ext_ref Int64.to_string
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2061 "ulib/ml/FStar_UInt63.ml" 70 2026 2073
+type(
+  int64 -> int64 -> int64
+)
+ident(
+  ext_ref Int64.logand
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2075 "ulib/ml/FStar_UInt63.ml" 70 2026 2087
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2088 "ulib/ml/FStar_UInt63.ml" 70 2026 2089
+type(
+  int
+)
+ident(
+  int_ref s "ulib/ml/FStar_UInt63.ml" 70 2026 2040 "ulib/ml/FStar_UInt63.ml" 70 2026 2041
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2074 "ulib/ml/FStar_UInt63.ml" 70 2026 2090
+type(
+  int64
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2092 "ulib/ml/FStar_UInt63.ml" 70 2026 2107
+type(
+  string -> int64
+)
+ident(
+  ext_ref Int64.of_string
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2108 "ulib/ml/FStar_UInt63.ml" 70 2026 2128
+type(
+  string
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2091 "ulib/ml/FStar_UInt63.ml" 70 2026 2129
+type(
+  int64
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2060 "ulib/ml/FStar_UInt63.ml" 70 2026 2130
+type(
+  int64
+)
+"ulib/ml/FStar_UInt63.ml" 70 2026 2044 "ulib/ml/FStar_UInt63.ml" 70 2026 2130
+call(
+  tail
+)
+type(
+  string
+)
+"ulib/ml/FStar_UInt63.ml" 71 2131 2135 "ulib/ml/FStar_UInt63.ml" 71 2131 2144
+type(
+  Prims.int -> uint63
+)
+ident(
+  def uint_to_t "ulib/ml/FStar_UInt63.ml" 72 2165 2165 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 71 2131 2145 "ulib/ml/FStar_UInt63.ml" 71 2131 2146
+type(
+  Prims.int
+)
+ident(
+  def s "ulib/ml/FStar_UInt63.ml" 71 2131 2149 "ulib/ml/FStar_UInt63.ml" 71 2131 2164
+)
+"ulib/ml/FStar_UInt63.ml" 71 2131 2149 "ulib/ml/FStar_UInt63.ml" 71 2131 2162
+type(
+  Prims.int -> uint63
+)
+ident(
+  int_ref int_to_uint63 "ulib/ml/FStar_UInt63.ml" 35 903 907 "ulib/ml/FStar_UInt63.ml" 35 903 920
+)
+"ulib/ml/FStar_UInt63.ml" 71 2131 2163 "ulib/ml/FStar_UInt63.ml" 71 2131 2164
+type(
+  Prims.int
+)
+ident(
+  int_ref s "ulib/ml/FStar_UInt63.ml" 71 2131 2145 "ulib/ml/FStar_UInt63.ml" 71 2131 2146
+)
+"ulib/ml/FStar_UInt63.ml" 71 2131 2149 "ulib/ml/FStar_UInt63.ml" 71 2131 2164
+call(
+  tail
+)
+type(
+  uint63
+)
+"ulib/ml/FStar_UInt63.ml" 72 2165 2169 "ulib/ml/FStar_UInt63.ml" 72 2165 2180
+type(
+  Prims.int -> uint63
+)
+ident(
+  def __uint_to_t "ulib/ml/FStar_UInt63.ml" 72 2165 2192 "ulib/ml/FStar_UInt63.ml" 1 0 -1
+)
+"ulib/ml/FStar_UInt63.ml" 72 2165 2183 "ulib/ml/FStar_UInt63.ml" 72 2165 2192
+type(
+  Prims.int -> uint63
+)
+ident(
+  int_ref uint_to_t "ulib/ml/FStar_UInt63.ml" 71 2131 2135 "ulib/ml/FStar_UInt63.ml" 71 2131 2144
+)

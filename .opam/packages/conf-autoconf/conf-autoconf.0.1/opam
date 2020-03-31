@@ -1,0 +1,26 @@
+opam-version: "1.2"
+maintainer: "unixjunkie@sdf.org"
+authors: "https://www.gnu.org/software/autoconf/autoconf.html#maintainer"
+homepage: "http://www.gnu.org/software/autoconf"
+bug-reports: "https://github.com/ocaml/opam-repository/issues"
+license: "GPL-3.0"
+build: ["which" "autoconf"]
+depends: [
+  "conf-which" {build}
+]
+depexts: [
+  [["alpine"] ["autoconf"]]
+  [["archlinux"] ["autoconf"]]
+  [["centos"] ["autoconf"]]
+  [["debian"] ["autoconf"]]
+  [["fedora"] ["autoconf"]]
+  [["freebsd"] ["autoconf"]]
+  [["gentoo"] ["sys-devel/autoconf"]]
+  [["homebrew" "osx"] ["autoconf"]]
+  [["netbsd"] ["autoconf"]]
+  [["nixpkgs"] ["autoconf"]]
+  [["openbsd"] ["devel/autoconf"]]
+  [["oraclelinux"] ["autoconf"]]
+  [["rhel"] ["autoconf"]]
+  [["ubuntu"] ["autoconf"]]
+]

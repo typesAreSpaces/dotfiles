@@ -1,0 +1,4623 @@
+"ulib/ml/extracted/FStar_UInt.ml" 3 12 17 "ulib/ml/extracted/FStar_UInt.ml" 3 12 24
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  def max_int "ulib/ml/extracted/FStar_UInt.ml" 5 97 97 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 4 53 59 "ulib/ml/extracted/FStar_UInt.ml" 4 53 60
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 4 53 65 "ulib/ml/extracted/FStar_UInt.ml" 4 53 95
+)
+"ulib/ml/extracted/FStar_UInt.ml" 4 53 66 "ulib/ml/extracted/FStar_UInt.ml" 4 53 76
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 4 53 77 "ulib/ml/extracted/FStar_UInt.ml" 4 53 78
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 4 53 59 "ulib/ml/extracted/FStar_UInt.ml" 4 53 60
+)
+"ulib/ml/extracted/FStar_UInt.ml" 4 53 65 "ulib/ml/extracted/FStar_UInt.ml" 4 53 79
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 4 53 80 "ulib/ml/extracted/FStar_UInt.ml" 4 53 81
+type(
+  Prims.pos -> Z.t -> Prims.int
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 4 53 82 "ulib/ml/extracted/FStar_UInt.ml" 4 53 95
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 4 53 65 "ulib/ml/extracted/FStar_UInt.ml" 4 53 95
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 4 53 55 "ulib/ml/extracted/FStar_UInt.ml" 4 53 95
+type(
+  Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 5 97 102 "ulib/ml/extracted/FStar_UInt.ml" 5 97 109
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  def min_int "ulib/ml/extracted/FStar_UInt.ml" 6 164 164 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 5 97 142 "ulib/ml/extracted/FStar_UInt.ml" 5 97 143
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 5 97 148 "ulib/ml/extracted/FStar_UInt.ml" 5 97 162
+)
+"ulib/ml/extracted/FStar_UInt.ml" 5 97 148 "ulib/ml/extracted/FStar_UInt.ml" 5 97 162
+type(
+  Prims.int
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 5 97 138 "ulib/ml/extracted/FStar_UInt.ml" 5 97 162
+type(
+  Prims.nat -> Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 6 164 169 "ulib/ml/extracted/FStar_UInt.ml" 6 164 173
+type(
+  Prims.int -> Prims.nat -> Prims.bool
+)
+ident(
+  def fits "ulib/ml/extracted/FStar_UInt.ml" 8 280 280 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 222 "ulib/ml/extracted/FStar_UInt.ml" 7 216 223
+type(
+  Prims.int
+)
+ident(
+  def x "ulib/ml/extracted/FStar_UInt.ml" 7 216 228 "ulib/ml/extracted/FStar_UInt.ml" 7 216 278
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 232 "ulib/ml/extracted/FStar_UInt.ml" 7 216 233
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 7 216 238 "ulib/ml/extracted/FStar_UInt.ml" 7 216 278
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 240 "ulib/ml/extracted/FStar_UInt.ml" 7 216 247
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  int_ref min_int "ulib/ml/extracted/FStar_UInt.ml" 5 97 102 "ulib/ml/extracted/FStar_UInt.ml" 5 97 109
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 248 "ulib/ml/extracted/FStar_UInt.ml" 7 216 249
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 7 216 232 "ulib/ml/extracted/FStar_UInt.ml" 7 216 233
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 239 "ulib/ml/extracted/FStar_UInt.ml" 7 216 250
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 251 "ulib/ml/extracted/FStar_UInt.ml" 7 216 253
+type(
+  Prims.int -> Prims.int -> bool
+)
+ident(
+  ext_ref Prims.( <= )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 254 "ulib/ml/extracted/FStar_UInt.ml" 7 216 255
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_UInt.ml" 7 216 222 "ulib/ml/extracted/FStar_UInt.ml" 7 216 223
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 238 "ulib/ml/extracted/FStar_UInt.ml" 7 216 256
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 257 "ulib/ml/extracted/FStar_UInt.ml" 7 216 259
+type(
+  bool -> bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 261 "ulib/ml/extracted/FStar_UInt.ml" 7 216 262
+type(
+  Prims.int
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_UInt.ml" 7 216 222 "ulib/ml/extracted/FStar_UInt.ml" 7 216 223
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 263 "ulib/ml/extracted/FStar_UInt.ml" 7 216 265
+type(
+  Prims.int -> Prims.int -> bool
+)
+ident(
+  ext_ref Prims.( <= )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 267 "ulib/ml/extracted/FStar_UInt.ml" 7 216 274
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  int_ref max_int "ulib/ml/extracted/FStar_UInt.ml" 3 12 17 "ulib/ml/extracted/FStar_UInt.ml" 3 12 24
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 275 "ulib/ml/extracted/FStar_UInt.ml" 7 216 276
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 7 216 232 "ulib/ml/extracted/FStar_UInt.ml" 7 216 233
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 266 "ulib/ml/extracted/FStar_UInt.ml" 7 216 277
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 260 "ulib/ml/extracted/FStar_UInt.ml" 7 216 278
+call(
+  tail
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 238 "ulib/ml/extracted/FStar_UInt.ml" 7 216 278
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 228 "ulib/ml/extracted/FStar_UInt.ml" 7 216 278
+type(
+  Prims.nat -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 7 216 218 "ulib/ml/extracted/FStar_UInt.ml" 7 216 278
+type(
+  Prims.int -> Prims.nat -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 10 335 340 "ulib/ml/extracted/FStar_UInt.ml" 10 335 344
+type(
+  Prims.nat -> Prims.unit uint_t
+)
+ident(
+  def zero "ulib/ml/extracted/FStar_UInt.ml" 11 401 401 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 10 335 379 "ulib/ml/extracted/FStar_UInt.ml" 10 335 380
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 10 335 385 "ulib/ml/extracted/FStar_UInt.ml" 10 335 399
+)
+"ulib/ml/extracted/FStar_UInt.ml" 10 335 385 "ulib/ml/extracted/FStar_UInt.ml" 10 335 399
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 10 335 375 "ulib/ml/extracted/FStar_UInt.ml" 10 335 399
+type(
+  Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 11 401 406 "ulib/ml/extracted/FStar_UInt.ml" 11 401 412
+type(
+  Prims.pos -> Prims.nat -> Prims.unit uint_t
+)
+ident(
+  def pow2_n "ulib/ml/extracted/FStar_UInt.ml" 13 492 492 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 12 456 462 "ulib/ml/extracted/FStar_UInt.ml" 12 456 463
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 12 456 468 "ulib/ml/extracted/FStar_UInt.ml" 12 456 490
+)
+"ulib/ml/extracted/FStar_UInt.ml" 12 456 472 "ulib/ml/extracted/FStar_UInt.ml" 12 456 473
+type(
+  Prims.nat
+)
+ident(
+  def p "ulib/ml/extracted/FStar_UInt.ml" 12 456 478 "ulib/ml/extracted/FStar_UInt.ml" 12 456 490
+)
+"ulib/ml/extracted/FStar_UInt.ml" 12 456 478 "ulib/ml/extracted/FStar_UInt.ml" 12 456 488
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 12 456 489 "ulib/ml/extracted/FStar_UInt.ml" 12 456 490
+type(
+  Prims.nat
+)
+ident(
+  int_ref p "ulib/ml/extracted/FStar_UInt.ml" 12 456 472 "ulib/ml/extracted/FStar_UInt.ml" 12 456 473
+)
+"ulib/ml/extracted/FStar_UInt.ml" 12 456 478 "ulib/ml/extracted/FStar_UInt.ml" 12 456 490
+call(
+  tail
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 12 456 468 "ulib/ml/extracted/FStar_UInt.ml" 12 456 490
+type(
+  Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 12 456 458 "ulib/ml/extracted/FStar_UInt.ml" 12 456 490
+type(
+  Prims.pos -> Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 13 492 497 "ulib/ml/extracted/FStar_UInt.ml" 13 492 500
+type(
+  Prims.pos -> Prims.unit uint_t
+)
+ident(
+  def one "ulib/ml/extracted/FStar_UInt.ml" 14 556 556 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 13 492 535 "ulib/ml/extracted/FStar_UInt.ml" 13 492 536
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 13 492 541 "ulib/ml/extracted/FStar_UInt.ml" 13 492 554
+)
+"ulib/ml/extracted/FStar_UInt.ml" 13 492 541 "ulib/ml/extracted/FStar_UInt.ml" 13 492 554
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 13 492 531 "ulib/ml/extracted/FStar_UInt.ml" 13 492 554
+type(
+  Prims.pos -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 14 556 561 "ulib/ml/extracted/FStar_UInt.ml" 14 556 565
+type(
+  Prims.nat -> Prims.unit uint_t
+)
+ident(
+  def ones "ulib/ml/extracted/FStar_UInt.ml" 15 617 617 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 14 556 600 "ulib/ml/extracted/FStar_UInt.ml" 14 556 601
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 14 556 606 "ulib/ml/extracted/FStar_UInt.ml" 14 556 615
+)
+"ulib/ml/extracted/FStar_UInt.ml" 14 556 606 "ulib/ml/extracted/FStar_UInt.ml" 14 556 613
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  int_ref max_int "ulib/ml/extracted/FStar_UInt.ml" 3 12 17 "ulib/ml/extracted/FStar_UInt.ml" 3 12 24
+)
+"ulib/ml/extracted/FStar_UInt.ml" 14 556 614 "ulib/ml/extracted/FStar_UInt.ml" 14 556 615
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 14 556 600 "ulib/ml/extracted/FStar_UInt.ml" 14 556 601
+)
+"ulib/ml/extracted/FStar_UInt.ml" 14 556 606 "ulib/ml/extracted/FStar_UInt.ml" 14 556 615
+call(
+  tail
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 14 556 596 "ulib/ml/extracted/FStar_UInt.ml" 14 556 615
+type(
+  Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 15 617 622 "ulib/ml/extracted/FStar_UInt.ml" 15 617 626
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def incr "ulib/ml/extracted/FStar_UInt.ml" 17 713 713 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 16 672 678 "ulib/ml/extracted/FStar_UInt.ml" 16 672 679
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 16 672 684 "ulib/ml/extracted/FStar_UInt.ml" 16 672 711
+)
+"ulib/ml/extracted/FStar_UInt.ml" 16 672 688 "ulib/ml/extracted/FStar_UInt.ml" 16 672 689
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 16 672 694 "ulib/ml/extracted/FStar_UInt.ml" 16 672 711
+)
+"ulib/ml/extracted/FStar_UInt.ml" 16 672 694 "ulib/ml/extracted/FStar_UInt.ml" 16 672 695
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 16 672 688 "ulib/ml/extracted/FStar_UInt.ml" 16 672 689
+)
+"ulib/ml/extracted/FStar_UInt.ml" 16 672 696 "ulib/ml/extracted/FStar_UInt.ml" 16 672 697
+type(
+  Prims.unit uint_t -> Z.t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 16 672 698 "ulib/ml/extracted/FStar_UInt.ml" 16 672 711
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 16 672 694 "ulib/ml/extracted/FStar_UInt.ml" 16 672 711
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 16 672 684 "ulib/ml/extracted/FStar_UInt.ml" 16 672 711
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 16 672 674 "ulib/ml/extracted/FStar_UInt.ml" 16 672 711
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 17 713 718 "ulib/ml/extracted/FStar_UInt.ml" 17 713 722
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def decr "ulib/ml/extracted/FStar_UInt.ml" 19 809 809 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 18 768 774 "ulib/ml/extracted/FStar_UInt.ml" 18 768 775
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 18 768 780 "ulib/ml/extracted/FStar_UInt.ml" 18 768 807
+)
+"ulib/ml/extracted/FStar_UInt.ml" 18 768 784 "ulib/ml/extracted/FStar_UInt.ml" 18 768 785
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 18 768 790 "ulib/ml/extracted/FStar_UInt.ml" 18 768 807
+)
+"ulib/ml/extracted/FStar_UInt.ml" 18 768 790 "ulib/ml/extracted/FStar_UInt.ml" 18 768 791
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 18 768 784 "ulib/ml/extracted/FStar_UInt.ml" 18 768 785
+)
+"ulib/ml/extracted/FStar_UInt.ml" 18 768 792 "ulib/ml/extracted/FStar_UInt.ml" 18 768 793
+type(
+  Prims.unit uint_t -> Z.t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 18 768 794 "ulib/ml/extracted/FStar_UInt.ml" 18 768 807
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 18 768 790 "ulib/ml/extracted/FStar_UInt.ml" 18 768 807
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 18 768 780 "ulib/ml/extracted/FStar_UInt.ml" 18 768 807
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 18 768 770 "ulib/ml/extracted/FStar_UInt.ml" 18 768 807
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 19 809 814 "ulib/ml/extracted/FStar_UInt.ml" 19 809 828
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def incr_underspec "ulib/ml/extracted/FStar_UInt.ml" 23 965 965 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 20 874 880 "ulib/ml/extracted/FStar_UInt.ml" 20 874 881
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 21 886 890 "ulib/ml/extracted/FStar_UInt.ml" 21 886 961
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 894 "ulib/ml/extracted/FStar_UInt.ml" 21 886 895
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 21 886 900 "ulib/ml/extracted/FStar_UInt.ml" 21 886 961
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 903 "ulib/ml/extracted/FStar_UInt.ml" 21 886 904
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 21 886 894 "ulib/ml/extracted/FStar_UInt.ml" 21 886 895
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 905 "ulib/ml/extracted/FStar_UInt.ml" 21 886 906
+type(
+  Prims.unit uint_t -> Prims.int -> bool
+)
+ident(
+  ext_ref Prims.( < )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 908 "ulib/ml/extracted/FStar_UInt.ml" 21 886 915
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  int_ref max_int "ulib/ml/extracted/FStar_UInt.ml" 3 12 17 "ulib/ml/extracted/FStar_UInt.ml" 3 12 24
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 916 "ulib/ml/extracted/FStar_UInt.ml" 21 886 917
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 20 874 880 "ulib/ml/extracted/FStar_UInt.ml" 20 874 881
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 907 "ulib/ml/extracted/FStar_UInt.ml" 21 886 918
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 903 "ulib/ml/extracted/FStar_UInt.ml" 21 886 918
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 924 "ulib/ml/extracted/FStar_UInt.ml" 21 886 925
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 21 886 894 "ulib/ml/extracted/FStar_UInt.ml" 21 886 895
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 926 "ulib/ml/extracted/FStar_UInt.ml" 21 886 927
+type(
+  Prims.unit uint_t -> Z.t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 928 "ulib/ml/extracted/FStar_UInt.ml" 21 886 941
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 924 "ulib/ml/extracted/FStar_UInt.ml" 21 886 941
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 947 "ulib/ml/extracted/FStar_UInt.ml" 21 886 961
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 900 "ulib/ml/extracted/FStar_UInt.ml" 21 886 961
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 21 886 890 "ulib/ml/extracted/FStar_UInt.ml" 21 886 961
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 20 874 876 "ulib/ml/extracted/FStar_UInt.ml" 21 886 961
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 23 965 970 "ulib/ml/extracted/FStar_UInt.ml" 23 965 984
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def decr_underspec "ulib/ml/extracted/FStar_UInt.ml" 27 1121 1121 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 24 1030 1036 "ulib/ml/extracted/FStar_UInt.ml" 24 1030 1037
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1046 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1117
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1050 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1051
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1056 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1117
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1059 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1060
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1050 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1051
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1061 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1062
+type(
+  Prims.unit uint_t -> Prims.int -> bool
+)
+ident(
+  ext_ref Prims.( > )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1064 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1071
+type(
+  Prims.nat -> Prims.int
+)
+ident(
+  int_ref min_int "ulib/ml/extracted/FStar_UInt.ml" 5 97 102 "ulib/ml/extracted/FStar_UInt.ml" 5 97 109
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1072 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1073
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 24 1030 1036 "ulib/ml/extracted/FStar_UInt.ml" 24 1030 1037
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1063 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1074
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1059 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1074
+call(
+  stack
+)
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1080 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1081
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1050 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1051
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1082 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1083
+type(
+  Prims.unit uint_t -> Z.t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1084 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1097
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1080 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1097
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1103 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1117
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1056 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1117
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 25 1042 1046 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1117
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 24 1030 1032 "ulib/ml/extracted/FStar_UInt.ml" 25 1042 1117
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 27 1121 1126 "ulib/ml/extracted/FStar_UInt.ml" 27 1121 1134
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def incr_mod "ulib/ml/extracted/FStar_UInt.ml" 29 1242 1242 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1186 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1187
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1192 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1240
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1196 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1197
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1202 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1240
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1203 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1204
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1196 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1197
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1205 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1206
+type(
+  Prims.unit uint_t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1207 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1220
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1202 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1221
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1222 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1225
+type(
+  Z.t -> Prims.pos -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1227 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1237
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1238 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1239
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1186 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1187
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1226 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1240
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1202 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1240
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1192 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1240
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 28 1180 1182 "ulib/ml/extracted/FStar_UInt.ml" 28 1180 1240
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 29 1242 1247 "ulib/ml/extracted/FStar_UInt.ml" 29 1242 1255
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def decr_mod "ulib/ml/extracted/FStar_UInt.ml" 31 1363 1363 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1307 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1308
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1313 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1361
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1317 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1318
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1323 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1361
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1324 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1325
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1317 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1318
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1326 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1327
+type(
+  Prims.unit uint_t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1328 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1341
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1323 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1342
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1343 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1346
+type(
+  Z.t -> Prims.pos -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1348 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1358
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1359 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1360
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1307 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1308
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1347 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1361
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1323 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1361
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1313 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1361
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 30 1301 1303 "ulib/ml/extracted/FStar_UInt.ml" 30 1301 1361
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 31 1363 1368 "ulib/ml/extracted/FStar_UInt.ml" 31 1363 1371
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def add "ulib/ml/extracted/FStar_UInt.ml" 33 1471 1471 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1438 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1439
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1444 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1469
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1448 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1449
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1454 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1469
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1458 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1459
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1464 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1469
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1464 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1465
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1448 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1449
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1466 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1467
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1468 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1469
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1458 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1459
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1464 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1469
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1454 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1469
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1444 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1469
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 32 1432 1434 "ulib/ml/extracted/FStar_UInt.ml" 32 1432 1469
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 33 1471 1476 "ulib/ml/extracted/FStar_UInt.ml" 33 1471 1489
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def add_underspec "ulib/ml/extracted/FStar_UInt.ml" 38 1640 1640 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 35 1552 1558 "ulib/ml/extracted/FStar_UInt.ml" 35 1552 1559
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1568 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1636
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1572 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1573
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1578 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1636
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1582 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1583
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1588 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1636
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1591 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1595
+type(
+  Prims.int -> Prims.nat -> Prims.bool
+)
+ident(
+  int_ref fits "ulib/ml/extracted/FStar_UInt.ml" 6 164 169 "ulib/ml/extracted/FStar_UInt.ml" 6 164 173
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1597 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1598
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1572 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1573
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1599 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1600
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.int
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1601 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1602
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1582 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1583
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1596 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1603
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1604 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1605
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 35 1552 1558 "ulib/ml/extracted/FStar_UInt.ml" 35 1552 1559
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1591 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1605
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1611 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1612
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1572 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1573
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1613 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1614
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1615 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1616
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1582 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1583
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1611 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1616
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1622 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1636
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1588 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1636
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1578 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1636
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 36 1564 1568 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1636
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 35 1552 1554 "ulib/ml/extracted/FStar_UInt.ml" 36 1564 1636
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 38 1640 1645 "ulib/ml/extracted/FStar_UInt.ml" 38 1640 1652
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def add_mod "ulib/ml/extracted/FStar_UInt.ml" 40 1773 1773 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1719 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1720
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1725 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1771
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1729 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1730
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1735 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1771
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1739 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1740
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1745 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1771
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1746 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1747
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1729 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1730
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1748 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1749
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Z.t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1750 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1751
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1739 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1740
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1745 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1752
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1753 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1756
+type(
+  Z.t -> Prims.pos -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1758 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1768
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1769 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1770
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1719 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1720
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1757 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1771
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1745 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1771
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1735 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1771
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1725 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1771
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 39 1713 1715 "ulib/ml/extracted/FStar_UInt.ml" 39 1713 1771
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 40 1773 1778 "ulib/ml/extracted/FStar_UInt.ml" 40 1773 1781
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def sub "ulib/ml/extracted/FStar_UInt.ml" 42 1881 1881 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1848 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1849
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1854 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1879
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1858 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1859
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1864 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1879
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1868 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1869
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1874 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1879
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1874 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1875
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1858 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1859
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1876 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1877
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1878 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1879
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1868 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1869
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1874 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1879
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1864 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1879
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1854 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1879
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 41 1842 1844 "ulib/ml/extracted/FStar_UInt.ml" 41 1842 1879
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 42 1881 1886 "ulib/ml/extracted/FStar_UInt.ml" 42 1881 1899
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def sub_underspec "ulib/ml/extracted/FStar_UInt.ml" 47 2050 2050 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 44 1962 1968 "ulib/ml/extracted/FStar_UInt.ml" 44 1962 1969
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1978 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2046
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 1982 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1983
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1988 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2046
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 1992 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1993
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1998 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2046
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2001 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2005
+type(
+  Prims.int -> Prims.nat -> Prims.bool
+)
+ident(
+  int_ref fits "ulib/ml/extracted/FStar_UInt.ml" 6 164 169 "ulib/ml/extracted/FStar_UInt.ml" 6 164 173
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2007 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2008
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1982 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1983
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2009 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2010
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.int
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2011 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2012
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1992 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1993
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2006 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2013
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2014 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2015
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 44 1962 1968 "ulib/ml/extracted/FStar_UInt.ml" 44 1962 1969
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2001 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2015
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2021 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2022
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1982 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1983
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2023 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2024
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2025 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2026
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1992 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 1993
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2021 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2026
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 2032 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2046
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 1998 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2046
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 1988 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2046
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 45 1974 1978 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2046
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 44 1962 1964 "ulib/ml/extracted/FStar_UInt.ml" 45 1974 2046
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 47 2050 2055 "ulib/ml/extracted/FStar_UInt.ml" 47 2050 2062
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def sub_mod "ulib/ml/extracted/FStar_UInt.ml" 49 2183 2183 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2129 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2130
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2135 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2181
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2139 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2140
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2145 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2181
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2149 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2150
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2155 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2181
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2156 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2157
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2139 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2140
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2158 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2159
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Z.t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2160 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2161
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2149 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2150
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2155 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2162
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2163 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2166
+type(
+  Z.t -> Prims.pos -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2168 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2178
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2179 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2180
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2129 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2130
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2167 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2181
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2155 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2181
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2145 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2181
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2135 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2181
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 48 2123 2125 "ulib/ml/extracted/FStar_UInt.ml" 48 2123 2181
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 49 2183 2188 "ulib/ml/extracted/FStar_UInt.ml" 49 2183 2191
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def mul "ulib/ml/extracted/FStar_UInt.ml" 51 2291 2291 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2258 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2259
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2264 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2289
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2268 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2269
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2274 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2289
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2278 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2279
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2284 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2289
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2284 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2285
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2268 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2269
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2286 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2287
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2288 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2289
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2278 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2279
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2284 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2289
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2274 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2289
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2264 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2289
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 50 2252 2254 "ulib/ml/extracted/FStar_UInt.ml" 50 2252 2289
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 51 2291 2296 "ulib/ml/extracted/FStar_UInt.ml" 51 2291 2309
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def mul_underspec "ulib/ml/extracted/FStar_UInt.ml" 56 2460 2460 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 53 2372 2378 "ulib/ml/extracted/FStar_UInt.ml" 53 2372 2379
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2388 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2456
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2392 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2393
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2398 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2456
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2402 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2403
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2408 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2456
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2411 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2415
+type(
+  Prims.int -> Prims.nat -> Prims.bool
+)
+ident(
+  int_ref fits "ulib/ml/extracted/FStar_UInt.ml" 6 164 169 "ulib/ml/extracted/FStar_UInt.ml" 6 164 173
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2417 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2418
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2392 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2393
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2419 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2420
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.int
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2421 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2422
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2402 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2403
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2416 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2423
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2424 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2425
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 53 2372 2378 "ulib/ml/extracted/FStar_UInt.ml" 53 2372 2379
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2411 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2425
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2431 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2432
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2392 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2393
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2433 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2434
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2435 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2436
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2402 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2403
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2431 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2436
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2442 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2456
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2408 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2456
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2398 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2456
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 54 2384 2388 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2456
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 53 2372 2374 "ulib/ml/extracted/FStar_UInt.ml" 54 2384 2456
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 56 2460 2465 "ulib/ml/extracted/FStar_UInt.ml" 56 2460 2472
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def mul_mod "ulib/ml/extracted/FStar_UInt.ml" 59 2594 2594 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2539 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2540
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2545 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2591
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2549 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2550
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2555 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2591
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2559 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2560
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2565 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2591
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2566 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2567
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2549 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2550
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2568 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2569
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Z.t
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2570 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2571
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2559 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2560
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2565 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2572
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2573 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2576
+type(
+  Z.t -> Prims.pos -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2578 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2588
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2589 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2590
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2539 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2540
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2577 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2591
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2565 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2591
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2555 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2591
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2545 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2591
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 57 2533 2535 "ulib/ml/extracted/FStar_UInt.ml" 57 2533 2591
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 59 2594 2599 "ulib/ml/extracted/FStar_UInt.ml" 59 2594 2606
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def mul_div "ulib/ml/extracted/FStar_UInt.ml" 61 2725 2725 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2673 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2674
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2679 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2723
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2683 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2684
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2689 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2723
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2693 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2694
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2699 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2723
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2700 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2701
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2683 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2684
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2702 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2703
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Z.t
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2704 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2705
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2693 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2694
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2699 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2706
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2707 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2708
+type(
+  Z.t -> Prims.pos -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2710 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2720
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2721 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2722
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2673 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2674
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2709 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2723
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2699 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2723
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2689 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2723
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2679 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2723
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 60 2667 2669 "ulib/ml/extracted/FStar_UInt.ml" 60 2667 2723
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 61 2725 2730 "ulib/ml/extracted/FStar_UInt.ml" 61 2725 2733
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def div "ulib/ml/extracted/FStar_UInt.ml" 63 2833 2833 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2800 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2801
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2806 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2831
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2810 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2811
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2816 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2831
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2820 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2821
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2826 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2831
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2826 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2827
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2810 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2811
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2828 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2829
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2830 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2831
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2820 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2821
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2826 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2831
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2816 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2831
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2806 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2831
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 62 2794 2796 "ulib/ml/extracted/FStar_UInt.ml" 62 2794 2831
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 63 2833 2838 "ulib/ml/extracted/FStar_UInt.ml" 63 2833 2851
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def div_underspec "ulib/ml/extracted/FStar_UInt.ml" 69 3003 3003 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 65 2914 2920 "ulib/ml/extracted/FStar_UInt.ml" 65 2914 2921
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2930 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2998
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2934 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2935
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2940 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2998
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2944 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2945
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2950 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2998
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2953 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2957
+type(
+  Prims.int -> Prims.nat -> Prims.bool
+)
+ident(
+  int_ref fits "ulib/ml/extracted/FStar_UInt.ml" 6 164 169 "ulib/ml/extracted/FStar_UInt.ml" 6 164 173
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2959 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2960
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2934 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2935
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2961 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2962
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.int
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2963 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2964
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2944 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2945
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2958 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2965
+call(
+  stack
+)
+type(
+  Prims.int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2966 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2967
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 65 2914 2920 "ulib/ml/extracted/FStar_UInt.ml" 65 2914 2921
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2953 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2967
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2973 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2974
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2934 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2935
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2975 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2976
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2977 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2978
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2944 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2945
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2973 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2978
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2984 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2998
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2950 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2998
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2940 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2998
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 66 2926 2930 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2998
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 65 2914 2916 "ulib/ml/extracted/FStar_UInt.ml" 66 2926 2998
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 69 3003 3008 "ulib/ml/extracted/FStar_UInt.ml" 69 3003 3012
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def udiv "ulib/ml/extracted/FStar_UInt.ml" 71 3112 3112 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3079 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3080
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3085 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3110
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3089 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3090
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3095 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3110
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3099 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3100
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3105 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3110
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3105 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3106
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3089 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3090
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3107 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3108
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3109 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3110
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3099 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3100
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3105 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3110
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3095 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3110
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3085 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3110
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 70 3073 3075 "ulib/ml/extracted/FStar_UInt.ml" 70 3073 3110
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 71 3112 3117 "ulib/ml/extracted/FStar_UInt.ml" 71 3112 3121
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def mod_ "ulib/ml/extracted/FStar_UInt.ml" 73 3233 3233 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3188 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3189
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3194 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3231
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3198 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3199
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3204 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3231
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3208 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3209
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3214 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3231
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3214 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3215
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3198 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3199
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3216 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3217
+type(
+  Prims.unit uint_t -> Z.t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3220 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3221
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3198 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3199
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3222 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3223
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Z.t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3224 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3225
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3208 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3209
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3219 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3226
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3227 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3228
+type(
+  Z.t -> Prims.unit uint_t -> Z.t
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3229 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3230
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3208 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3209
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3218 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3231
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3214 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3231
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3204 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3231
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3194 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3231
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 72 3182 3184 "ulib/ml/extracted/FStar_UInt.ml" 72 3182 3231
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 73 3233 3238 "ulib/ml/extracted/FStar_UInt.ml" 73 3233 3240
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  def eq "ulib/ml/extracted/FStar_UInt.ml" 75 3339 3339 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3306 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3307
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3312 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3337
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3316 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3317
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3322 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3337
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3326 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3327
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3332 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3337
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3332 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3333
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3316 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3317
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3334 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3335
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3336 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3337
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3326 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3327
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3332 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3337
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3322 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3337
+type(
+  Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3312 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3337
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 74 3300 3302 "ulib/ml/extracted/FStar_UInt.ml" 74 3300 3337
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 75 3339 3344 "ulib/ml/extracted/FStar_UInt.ml" 75 3339 3346
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  def gt "ulib/ml/extracted/FStar_UInt.ml" 77 3445 3445 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3412 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3413
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3418 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3443
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3422 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3423
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3428 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3443
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3432 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3433
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3438 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3443
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3438 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3439
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3422 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3423
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3440 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3441
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  ext_ref Prims.( > )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3442 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3443
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3432 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3433
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3438 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3443
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3428 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3443
+type(
+  Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3418 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3443
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 76 3406 3408 "ulib/ml/extracted/FStar_UInt.ml" 76 3406 3443
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 77 3445 3450 "ulib/ml/extracted/FStar_UInt.ml" 77 3445 3453
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  def gte "ulib/ml/extracted/FStar_UInt.ml" 79 3553 3553 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3519 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3520
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3525 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3551
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3529 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3530
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3535 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3551
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3539 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3540
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3545 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3551
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3545 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3546
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3529 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3530
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3547 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3549
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  ext_ref Prims.( >= )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3550 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3551
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3539 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3540
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3545 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3551
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3535 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3551
+type(
+  Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3525 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3551
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 78 3513 3515 "ulib/ml/extracted/FStar_UInt.ml" 78 3513 3551
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 79 3553 3558 "ulib/ml/extracted/FStar_UInt.ml" 79 3553 3560
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  def lt "ulib/ml/extracted/FStar_UInt.ml" 81 3659 3659 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3626 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3627
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3632 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3657
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3636 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3637
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3642 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3657
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3646 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3647
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3652 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3657
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3652 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3653
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3636 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3637
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3654 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3655
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  ext_ref Prims.( < )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3656 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3657
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3646 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3647
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3652 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3657
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3642 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3657
+type(
+  Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3632 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3657
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 80 3620 3622 "ulib/ml/extracted/FStar_UInt.ml" 80 3620 3657
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 81 3659 3664 "ulib/ml/extracted/FStar_UInt.ml" 81 3659 3667
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  def lte "ulib/ml/extracted/FStar_UInt.ml" 83 3767 3767 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3733 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3734
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3739 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3765
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3743 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3744
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3749 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3765
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3753 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3754
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3759 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3765
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3759 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3760
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3743 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3744
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3761 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3763
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  ext_ref Prims.( <= )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3764 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3765
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3753 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3754
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3759 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3765
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3749 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3765
+type(
+  Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3739 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3765
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 82 3727 3729 "ulib/ml/extracted/FStar_UInt.ml" 82 3727 3765
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 83 3767 3772 "ulib/ml/extracted/FStar_UInt.ml" 83 3767 3781
+type(
+  Prims.nat -> Prims.int -> Prims.unit uint_t
+)
+ident(
+  def to_uint_t "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3869 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3831 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3832
+type(
+  Prims.nat
+)
+ident(
+  def m "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3837 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3867
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3841 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3842
+type(
+  Prims.int
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3847 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3867
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3847 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3848
+type(
+  Prims.int
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3841 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3842
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3849 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3852
+type(
+  Prims.int -> Prims.pos -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3854 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3864
+type(
+  Prims.nat -> Prims.pos
+)
+ident(
+  ext_ref Prims.pow2
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3865 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3866
+type(
+  Prims.nat
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3831 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3832
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3853 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3867
+call(
+  stack
+)
+type(
+  Prims.pos
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3847 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3867
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3837 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3867
+type(
+  Prims.int -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 84 3825 3827 "ulib/ml/extracted/FStar_UInt.ml" 84 3825 3867
+type(
+  Prims.nat -> Prims.int -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  def to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3869 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 86 3944 3950 "ulib/ml/extracted/FStar_UInt.ml" 86 3944 3951
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 87 3956 3960 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4249
+)
+"ulib/ml/extracted/FStar_UInt.ml" 87 3956 3964 "ulib/ml/extracted/FStar_UInt.ml" 87 3956 3967
+type(
+  Prims.unit uint_t
+)
+ident(
+  def num "ulib/ml/extracted/FStar_UInt.ml" 88 3972 3978 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4249
+)
+"ulib/ml/extracted/FStar_UInt.ml" 88 3972 3981 "ulib/ml/extracted/FStar_UInt.ml" 88 3972 3982
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 86 3944 3950 "ulib/ml/extracted/FStar_UInt.ml" 86 3944 3951
+)
+"ulib/ml/extracted/FStar_UInt.ml" 88 3972 3983 "ulib/ml/extracted/FStar_UInt.ml" 88 3972 3984
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 88 3972 3985 "ulib/ml/extracted/FStar_UInt.ml" 88 3972 3999
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 88 3972 3981 "ulib/ml/extracted/FStar_UInt.ml" 88 3972 3999
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 89 4000 4011 "ulib/ml/extracted/FStar_UInt.ml" 89 4000 4031
+type(
+  Prims.unit -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.empty
+)
+"ulib/ml/extracted/FStar_UInt.ml" 89 4000 4032 "ulib/ml/extracted/FStar_UInt.ml" 89 4000 4034
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_UInt.ml" 89 4000 4011 "ulib/ml/extracted/FStar_UInt.ml" 89 4000 4034
+call(
+  tail
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 91 4046 4054 "ulib/ml/extracted/FStar_UInt.ml" 91 4046 4075
+type(
+  Prims.unit FStar_BitVector.bv_t ->
+  Prims.bool FStar_Seq_Base.seq -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4087 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4093
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4095 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4096
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 86 3944 3950 "ulib/ml/extracted/FStar_UInt.ml" 86 3944 3951
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4097 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4098
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4099 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4112
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4094 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4113
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4115 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4118
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref num "ulib/ml/extracted/FStar_UInt.ml" 87 3956 3964 "ulib/ml/extracted/FStar_UInt.ml" 87 3956 3967
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4119 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4120
+type(
+  Prims.unit uint_t -> Z.t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( / )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4122 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4134
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4135 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4138
+type(
+  int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4121 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4139
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4114 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4140
+call(
+  stack
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 92 4076 4086 "ulib/ml/extracted/FStar_UInt.ml" 92 4076 4141
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 93 4142 4153 "ulib/ml/extracted/FStar_UInt.ml" 93 4142 4174
+type(
+  Prims.nat -> Prims.bool -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_UInt.ml" 93 4142 4175 "ulib/ml/extracted/FStar_UInt.ml" 93 4142 4188
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4204 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4207
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref num "ulib/ml/extracted/FStar_UInt.ml" 87 3956 3964 "ulib/ml/extracted/FStar_UInt.ml" 87 3956 3967
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4208 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4211
+type(
+  Prims.unit uint_t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( mod )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4213 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4225
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4226 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4229
+type(
+  int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4212 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4230
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4203 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4231
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4232 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4233
+type(
+  Z.t -> Z.t -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4234 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4247
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 94 4189 4202 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4248
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 93 4142 4152 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4249
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_UInt.ml" 91 4046 4054 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4249
+call(
+  tail
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 88 3972 3978 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4249
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 87 3956 3960 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4249
+type(
+  Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 86 3944 3946 "ulib/ml/extracted/FStar_UInt.ml" 94 4189 4249
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  def from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4253 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 97 4330 4336 "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4337
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 98 4342 4346 "ulib/ml/extracted/FStar_UInt.ml" 108 4673 4704
+)
+"ulib/ml/extracted/FStar_UInt.ml" 98 4342 4350 "ulib/ml/extracted/FStar_UInt.ml" 98 4342 4353
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  def vec "ulib/ml/extracted/FStar_UInt.ml" 99 4358 4364 "ulib/ml/extracted/FStar_UInt.ml" 108 4673 4704
+)
+"ulib/ml/extracted/FStar_UInt.ml" 99 4358 4367 "ulib/ml/extracted/FStar_UInt.ml" 99 4358 4368
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4336 "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4337
+)
+"ulib/ml/extracted/FStar_UInt.ml" 99 4358 4369 "ulib/ml/extracted/FStar_UInt.ml" 99 4358 4370
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 99 4358 4371 "ulib/ml/extracted/FStar_UInt.ml" 99 4358 4385
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 99 4358 4367 "ulib/ml/extracted/FStar_UInt.ml" 99 4358 4385
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 100 4386 4397 "ulib/ml/extracted/FStar_UInt.ml" 100 4386 4411
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 102 4423 4433 "ulib/ml/extracted/FStar_UInt.ml" 102 4423 4445
+type(
+  int -> Z.t
+)
+ident(
+  ext_ref Prims.of_int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 102 4423 4446 "ulib/ml/extracted/FStar_UInt.ml" 102 4423 4449
+type(
+  int
+)
+"ulib/ml/extracted/FStar_UInt.ml" 102 4423 4432 "ulib/ml/extracted/FStar_UInt.ml" 102 4423 4450
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 102 4423 4451 "ulib/ml/extracted/FStar_UInt.ml" 102 4423 4452
+type(
+  Z.t -> Prims.unit uint_t -> Z.t
+)
+ident(
+  ext_ref Prims.( * )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 103 4453 4465 "ulib/ml/extracted/FStar_UInt.ml" 103 4453 4473
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 103 4453 4475 "ulib/ml/extracted/FStar_UInt.ml" 103 4453 4476
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4336 "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4337
+)
+"ulib/ml/extracted/FStar_UInt.ml" 103 4453 4477 "ulib/ml/extracted/FStar_UInt.ml" 103 4453 4478
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 103 4453 4479 "ulib/ml/extracted/FStar_UInt.ml" 103 4453 4492
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 103 4453 4474 "ulib/ml/extracted/FStar_UInt.ml" 103 4453 4493
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_UInt.ml" 104 4494 4509 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4529
+type(
+  Prims.unit FStar_BitVector.bv_t ->
+  Prims.nat -> Prims.nat -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_UInt.ml" 104 4494 4530 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4533
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref vec "ulib/ml/extracted/FStar_UInt.ml" 98 4342 4350 "ulib/ml/extracted/FStar_UInt.ml" 98 4342 4353
+)
+"ulib/ml/extracted/FStar_UInt.ml" 104 4494 4534 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4548
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 104 4494 4550 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4551
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4336 "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4337
+)
+"ulib/ml/extracted/FStar_UInt.ml" 104 4494 4552 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4553
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 104 4494 4554 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4567
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 104 4494 4549 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4568
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_UInt.ml" 104 4494 4508 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4569
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 103 4453 4464 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4570
+call(
+  stack
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 102 4423 4431 "ulib/ml/extracted/FStar_UInt.ml" 104 4494 4571
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 105 4572 4582 "ulib/ml/extracted/FStar_UInt.ml" 105 4572 4583
+type(
+  Z.t -> Z.t -> Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 106 4584 4598 "ulib/ml/extracted/FStar_UInt.ml" 106 4584 4618
+type(
+  Prims.unit FStar_BitVector.bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_UInt.ml" 106 4584 4619 "ulib/ml/extracted/FStar_UInt.ml" 106 4584 4622
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref vec "ulib/ml/extracted/FStar_UInt.ml" 98 4342 4350 "ulib/ml/extracted/FStar_UInt.ml" 98 4342 4353
+)
+"ulib/ml/extracted/FStar_UInt.ml" 106 4584 4624 "ulib/ml/extracted/FStar_UInt.ml" 106 4584 4625
+type(
+  Prims.nat
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4336 "ulib/ml/extracted/FStar_UInt.ml" 97 4330 4337
+)
+"ulib/ml/extracted/FStar_UInt.ml" 106 4584 4626 "ulib/ml/extracted/FStar_UInt.ml" 106 4584 4627
+type(
+  Prims.nat -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 106 4584 4628 "ulib/ml/extracted/FStar_UInt.ml" 106 4584 4641
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 106 4584 4623 "ulib/ml/extracted/FStar_UInt.ml" 106 4584 4642
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_UInt.ml" 106 4584 4598 "ulib/ml/extracted/FStar_UInt.ml" 106 4584 4642
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 107 4643 4659 "ulib/ml/extracted/FStar_UInt.ml" 107 4643 4672
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 108 4673 4689 "ulib/ml/extracted/FStar_UInt.ml" 108 4673 4703
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 106 4584 4594 "ulib/ml/extracted/FStar_UInt.ml" 108 4673 4704
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 102 4423 4431 "ulib/ml/extracted/FStar_UInt.ml" 108 4673 4704
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 99 4358 4364 "ulib/ml/extracted/FStar_UInt.ml" 108 4673 4704
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 98 4342 4346 "ulib/ml/extracted/FStar_UInt.ml" 108 4673 4704
+type(
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 97 4330 4332 "ulib/ml/extracted/FStar_UInt.ml" 108 4673 4704
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 130 4728 4733 "ulib/ml/extracted/FStar_UInt.ml" 130 4728 4736
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.nat -> Prims.bool
+)
+ident(
+  def nth "ulib/ml/extracted/FStar_UInt.ml" 137 4868 4868 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4800 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4801
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4806 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4861
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4810 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4811
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4816 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4861
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4820 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4821
+type(
+  Prims.nat
+)
+ident(
+  def i "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4826 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4861
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4826 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4846
+type(
+  Prims.unit FStar_BitVector.bv_t -> Prims.nat -> Prims.bool
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4848 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4854
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4855 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4856
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4800 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4801
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4857 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4858
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4810 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4811
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4847 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4859
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4860 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4861
+type(
+  Prims.nat
+)
+ident(
+  int_ref i "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4820 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4821
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4826 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4861
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4816 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4861
+type(
+  Prims.nat -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4806 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4861
+type(
+  Prims.unit uint_t -> Prims.nat -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 131 4794 4796 "ulib/ml/extracted/FStar_UInt.ml" 131 4794 4861
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.nat -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 137 4868 4873 "ulib/ml/extracted/FStar_UInt.ml" 137 4868 4879
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def logand "ulib/ml/extracted/FStar_UInt.ml" 143 5061 5061 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 138 4940 4946 "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4947
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 139 4952 4956 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5057
+)
+"ulib/ml/extracted/FStar_UInt.ml" 139 4952 4960 "ulib/ml/extracted/FStar_UInt.ml" 139 4952 4961
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 140 4966 4972 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5057
+)
+"ulib/ml/extracted/FStar_UInt.ml" 140 4966 4976 "ulib/ml/extracted/FStar_UInt.ml" 140 4966 4977
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 141 4982 4990 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5057
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 4990 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 4998
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 4999 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5000
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4946 "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4947
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5002 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5028
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_BitVector.logand_vec
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5029 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5030
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4946 "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4947
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5032 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5038
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5039 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5040
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4946 "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4947
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5041 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5042
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 139 4952 4960 "ulib/ml/extracted/FStar_UInt.ml" 139 4952 4961
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5031 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5043
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5045 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5051
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5052 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5053
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4946 "ulib/ml/extracted/FStar_UInt.ml" 138 4940 4947
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5054 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5055
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 140 4966 4976 "ulib/ml/extracted/FStar_UInt.ml" 140 4966 4977
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5044 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5056
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 5001 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5057
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 141 4982 4990 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5057
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 140 4966 4972 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5057
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 139 4952 4956 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5057
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 138 4940 4942 "ulib/ml/extracted/FStar_UInt.ml" 141 4982 5057
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 143 5061 5066 "ulib/ml/extracted/FStar_UInt.ml" 143 5061 5072
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def logxor "ulib/ml/extracted/FStar_UInt.ml" 149 5254 5254 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 144 5133 5139 "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5140
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 145 5145 5149 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5250
+)
+"ulib/ml/extracted/FStar_UInt.ml" 145 5145 5153 "ulib/ml/extracted/FStar_UInt.ml" 145 5145 5154
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 146 5159 5165 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5250
+)
+"ulib/ml/extracted/FStar_UInt.ml" 146 5159 5169 "ulib/ml/extracted/FStar_UInt.ml" 146 5159 5170
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5183 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5250
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5183 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5191
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5192 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5193
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5139 "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5140
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5195 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5221
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_BitVector.logxor_vec
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5222 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5223
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5139 "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5140
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5225 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5231
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5232 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5233
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5139 "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5140
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5234 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5235
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 145 5145 5153 "ulib/ml/extracted/FStar_UInt.ml" 145 5145 5154
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5224 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5236
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5238 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5244
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5245 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5246
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5139 "ulib/ml/extracted/FStar_UInt.ml" 144 5133 5140
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5247 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5248
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 146 5159 5169 "ulib/ml/extracted/FStar_UInt.ml" 146 5159 5170
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5237 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5249
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5194 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5250
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 147 5175 5183 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5250
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 146 5159 5165 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5250
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 145 5145 5149 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5250
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 144 5133 5135 "ulib/ml/extracted/FStar_UInt.ml" 147 5175 5250
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 149 5254 5259 "ulib/ml/extracted/FStar_UInt.ml" 149 5254 5264
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def logor "ulib/ml/extracted/FStar_UInt.ml" 155 5445 5445 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 150 5325 5331 "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5332
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 151 5337 5341 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5441
+)
+"ulib/ml/extracted/FStar_UInt.ml" 151 5337 5345 "ulib/ml/extracted/FStar_UInt.ml" 151 5337 5346
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 152 5351 5357 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5441
+)
+"ulib/ml/extracted/FStar_UInt.ml" 152 5351 5361 "ulib/ml/extracted/FStar_UInt.ml" 152 5351 5362
+type(
+  Prims.unit uint_t
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5375 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5441
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5375 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5383
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5384 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5385
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5331 "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5332
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5387 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5412
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_BitVector.logor_vec
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5413 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5414
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5331 "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5332
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5416 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5422
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5423 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5424
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5331 "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5332
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5425 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5426
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 151 5337 5345 "ulib/ml/extracted/FStar_UInt.ml" 151 5337 5346
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5415 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5427
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5429 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5435
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5436 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5437
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5331 "ulib/ml/extracted/FStar_UInt.ml" 150 5325 5332
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5438 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5439
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 152 5351 5361 "ulib/ml/extracted/FStar_UInt.ml" 152 5351 5362
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5428 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5440
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5386 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5441
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 153 5367 5375 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5441
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 152 5351 5357 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5441
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 151 5337 5341 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5441
+type(
+  Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 150 5325 5327 "ulib/ml/extracted/FStar_UInt.ml" 153 5367 5441
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 155 5445 5450 "ulib/ml/extracted/FStar_UInt.ml" 155 5445 5456
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def lognot "ulib/ml/extracted/FStar_UInt.ml" 161 5584 5584 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5508 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5509
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5514 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5578
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5518 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5519
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5524 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5578
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5524 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5532
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5533 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5534
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5508 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5509
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5536 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5562
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_BitVector.lognot_vec
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5563 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5564
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5508 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5509
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5566 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5572
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5573 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5574
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5508 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5509
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5575 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5576
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5518 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5519
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5565 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5577
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5535 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5578
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5524 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5578
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5514 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5578
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 156 5502 5504 "ulib/ml/extracted/FStar_UInt.ml" 156 5502 5578
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 161 5584 5589 "ulib/ml/extracted/FStar_UInt.ml" 161 5584 5594
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def minus "ulib/ml/extracted/FStar_UInt.ml" 175 5712 5712 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5646 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5647
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5652 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5698
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5656 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5657
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5662 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5698
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5662 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5669
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  int_ref add_mod "ulib/ml/extracted/FStar_UInt.ml" 38 1640 1645 "ulib/ml/extracted/FStar_UInt.ml" 38 1640 1652
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5670 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5671
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5646 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5647
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5673 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5679
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  int_ref lognot "ulib/ml/extracted/FStar_UInt.ml" 155 5445 5450 "ulib/ml/extracted/FStar_UInt.ml" 155 5445 5456
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5680 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5681
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5646 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5647
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5682 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5683
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5656 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5657
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5672 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5684
+call(
+  stack
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5685 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5698
+type(
+  Prims.unit uint_t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5662 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5698
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5652 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5698
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 162 5640 5642 "ulib/ml/extracted/FStar_UInt.ml" 162 5640 5698
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 175 5712 5717 "ulib/ml/extracted/FStar_UInt.ml" 175 5712 5720
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  def xor "ulib/ml/extracted/FStar_UInt.ml" 194 5814 5814 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 176 5765 5771 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5772
+type(
+  Prims.bool
+)
+ident(
+  def b "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5777 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5795
+)
+"ulib/ml/extracted/FStar_UInt.ml" 176 5765 5781 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5783
+type(
+  Prims.bool
+)
+ident(
+  def b' "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5788 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5795
+)
+"ulib/ml/extracted/FStar_UInt.ml" 176 5765 5788 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5789
+type(
+  Prims.bool
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5771 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5772
+)
+"ulib/ml/extracted/FStar_UInt.ml" 176 5765 5790 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5792
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 176 5765 5793 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5795
+type(
+  Prims.bool
+)
+ident(
+  int_ref b' "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5781 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5783
+)
+"ulib/ml/extracted/FStar_UInt.ml" 176 5765 5788 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5795
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 176 5765 5777 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5795
+type(
+  Prims.bool -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 176 5765 5767 "ulib/ml/extracted/FStar_UInt.ml" 176 5765 5795
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 194 5814 5819 "ulib/ml/extracted/FStar_UInt.ml" 194 5814 5829
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.nat -> Prims.unit uint_t
+)
+ident(
+  def shift_left "ulib/ml/extracted/FStar_UInt.ml" 199 5994 5994 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 195 5888 5894 "ulib/ml/extracted/FStar_UInt.ml" 195 5888 5895
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 196 5900 5904 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5990
+)
+"ulib/ml/extracted/FStar_UInt.ml" 196 5900 5908 "ulib/ml/extracted/FStar_UInt.ml" 196 5900 5909
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5920 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5990
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5924 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5925
+type(
+  Prims.nat
+)
+ident(
+  def s "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5930 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5990
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5930 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5938
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5939 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5940
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 195 5888 5894 "ulib/ml/extracted/FStar_UInt.ml" 195 5888 5895
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5942 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5972
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t ->
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_BitVector.shift_left_vec
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5973 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5974
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 195 5888 5894 "ulib/ml/extracted/FStar_UInt.ml" 195 5888 5895
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5976 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5982
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5983 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5984
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 195 5888 5894 "ulib/ml/extracted/FStar_UInt.ml" 195 5888 5895
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5985 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5986
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 196 5900 5908 "ulib/ml/extracted/FStar_UInt.ml" 196 5900 5909
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5975 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5987
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5988 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5989
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5924 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5925
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5941 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5990
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5930 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5990
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 197 5914 5920 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5990
+type(
+  Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 196 5900 5904 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5990
+type(
+  Prims.unit uint_t -> Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 195 5888 5890 "ulib/ml/extracted/FStar_UInt.ml" 197 5914 5990
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 199 5994 5999 "ulib/ml/extracted/FStar_UInt.ml" 199 5994 6010
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.nat -> Prims.unit uint_t
+)
+ident(
+  def shift_right "ulib/ml/extracted/FStar_UInt.ml" 222 6194 6194 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 200 6069 6075 "ulib/ml/extracted/FStar_UInt.ml" 200 6069 6076
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 201 6081 6085 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6172
+)
+"ulib/ml/extracted/FStar_UInt.ml" 201 6081 6089 "ulib/ml/extracted/FStar_UInt.ml" 201 6081 6090
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6101 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6172
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6105 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6106
+type(
+  Prims.nat
+)
+ident(
+  def s "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6111 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6172
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6111 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6119
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6120 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6121
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 200 6069 6075 "ulib/ml/extracted/FStar_UInt.ml" 200 6069 6076
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6123 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6154
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t ->
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_BitVector.shift_right_vec
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6155 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6156
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 200 6069 6075 "ulib/ml/extracted/FStar_UInt.ml" 200 6069 6076
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6158 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6164
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6165 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6166
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 200 6069 6075 "ulib/ml/extracted/FStar_UInt.ml" 200 6069 6076
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6167 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6168
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 201 6081 6089 "ulib/ml/extracted/FStar_UInt.ml" 201 6081 6090
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6157 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6169
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6170 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6171
+type(
+  Prims.nat
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6105 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6106
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6122 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6172
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6111 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6172
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 202 6095 6101 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6172
+type(
+  Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 201 6081 6085 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6172
+type(
+  Prims.unit uint_t -> Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 200 6069 6071 "ulib/ml/extracted/FStar_UInt.ml" 202 6095 6172
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.nat -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 222 6194 6199 "ulib/ml/extracted/FStar_UInt.ml" 222 6194 6202
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.bool
+)
+ident(
+  def msb "ulib/ml/extracted/FStar_UInt.ml" 232 6301 6301 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6253 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6254
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6259 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6291
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6263 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6264
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6269 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6291
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6269 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6272
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.nat -> Prims.bool
+)
+ident(
+  int_ref nth "ulib/ml/extracted/FStar_UInt.ml" 130 4728 4733 "ulib/ml/extracted/FStar_UInt.ml" 130 4728 4736
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6273 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6274
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6253 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6254
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6275 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6276
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6263 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6264
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6277 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6291
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6269 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6291
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6259 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6291
+type(
+  Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 223 6247 6249 "ulib/ml/extracted/FStar_UInt.ml" 223 6247 6291
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 232 6301 6306 "ulib/ml/extracted/FStar_UInt.ml" 232 6301 6321
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  def zero_extend_vec "ulib/ml/extracted/FStar_UInt.ml" 238 6500 6500 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 234 6397 6403 "ulib/ml/extracted/FStar_UInt.ml" 234 6397 6404
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 235 6409 6413 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6496
+)
+"ulib/ml/extracted/FStar_UInt.ml" 235 6409 6417 "ulib/ml/extracted/FStar_UInt.ml" 235 6409 6418
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6429 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6496
+)
+"ulib/ml/extracted/FStar_UInt.ml" 236 6423 6429 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6450
+type(
+  Prims.bool FStar_Seq_Base.seq ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_UInt.ml" 236 6423 6452 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6473
+type(
+  Prims.nat -> Prims.bool -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_UInt.ml" 236 6423 6474 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6487
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 236 6423 6488 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6493
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 236 6423 6451 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6494
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_UInt.ml" 236 6423 6495 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6496
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 235 6409 6417 "ulib/ml/extracted/FStar_UInt.ml" 235 6409 6418
+)
+"ulib/ml/extracted/FStar_UInt.ml" 236 6423 6429 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6496
+call(
+  tail
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 235 6409 6413 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6496
+type(
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 234 6397 6399 "ulib/ml/extracted/FStar_UInt.ml" 236 6423 6496
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 238 6500 6505 "ulib/ml/extracted/FStar_UInt.ml" 238 6500 6519
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  def one_extend_vec "ulib/ml/extracted/FStar_UInt.ml" 244 6697 6697 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 240 6595 6601 "ulib/ml/extracted/FStar_UInt.ml" 240 6595 6602
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 241 6607 6611 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6693
+)
+"ulib/ml/extracted/FStar_UInt.ml" 241 6607 6615 "ulib/ml/extracted/FStar_UInt.ml" 241 6607 6616
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6627 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6693
+)
+"ulib/ml/extracted/FStar_UInt.ml" 242 6621 6627 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6648
+type(
+  Prims.bool FStar_Seq_Base.seq ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_UInt.ml" 242 6621 6650 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6671
+type(
+  Prims.nat -> Prims.bool -> Prims.bool FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_UInt.ml" 242 6621 6672 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6685
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 242 6621 6686 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6690
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_UInt.ml" 242 6621 6649 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6691
+call(
+  stack
+)
+type(
+  Prims.bool FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_UInt.ml" 242 6621 6692 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6693
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 241 6607 6615 "ulib/ml/extracted/FStar_UInt.ml" 241 6607 6616
+)
+"ulib/ml/extracted/FStar_UInt.ml" 242 6621 6627 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6693
+call(
+  tail
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 241 6607 6611 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6693
+type(
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 240 6595 6597 "ulib/ml/extracted/FStar_UInt.ml" 242 6621 6693
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 244 6697 6702 "ulib/ml/extracted/FStar_UInt.ml" 244 6697 6713
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def zero_extend "ulib/ml/extracted/FStar_UInt.ml" 248 6850 6850 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 245 6759 6765 "ulib/ml/extracted/FStar_UInt.ml" 245 6759 6766
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6775 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6846
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6779 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6780
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6785 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6846
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6785 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6793
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6795 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6796
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 245 6759 6765 "ulib/ml/extracted/FStar_UInt.ml" 245 6759 6766
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6797 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6798
+type(
+  Prims.pos -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6799 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6812
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6794 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6813
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6815 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6830
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref zero_extend_vec "ulib/ml/extracted/FStar_UInt.ml" 232 6301 6306 "ulib/ml/extracted/FStar_UInt.ml" 232 6301 6321
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6831 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6832
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 245 6759 6765 "ulib/ml/extracted/FStar_UInt.ml" 245 6759 6766
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6834 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6840
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6841 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6842
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 245 6759 6765 "ulib/ml/extracted/FStar_UInt.ml" 245 6759 6766
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6843 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6844
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6779 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6780
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6833 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6845
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6814 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6846
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6785 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6846
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 246 6771 6775 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6846
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 245 6759 6761 "ulib/ml/extracted/FStar_UInt.ml" 246 6771 6846
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 248 6850 6855 "ulib/ml/extracted/FStar_UInt.ml" 248 6850 6865
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)
+ident(
+  def one_extend "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6997 "ulib/ml/extracted/FStar_UInt.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_UInt.ml" 249 6911 6917 "ulib/ml/extracted/FStar_UInt.ml" 249 6911 6918
+type(
+  Prims.pos
+)
+ident(
+  def n "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6927 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6997
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6931 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6932
+type(
+  Prims.unit uint_t
+)
+ident(
+  def a "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6937 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6997
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6937 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6945
+type(
+  Prims.nat -> Prims.unit FStar_BitVector.bv_t -> Prims.unit uint_t
+)
+ident(
+  int_ref from_vec "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4262 "ulib/ml/extracted/FStar_UInt.ml" 96 4253 4270
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6947 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6948
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 249 6911 6917 "ulib/ml/extracted/FStar_UInt.ml" 249 6911 6918
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6949 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6950
+type(
+  Prims.pos -> Z.t -> Prims.nat
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6951 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6964
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6946 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6965
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6967 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6981
+type(
+  Prims.pos ->
+  Prims.unit FStar_BitVector.bv_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref one_extend_vec "ulib/ml/extracted/FStar_UInt.ml" 238 6500 6505 "ulib/ml/extracted/FStar_UInt.ml" 238 6500 6519
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6982 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6983
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 249 6911 6917 "ulib/ml/extracted/FStar_UInt.ml" 249 6911 6918
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6985 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6991
+type(
+  Prims.nat -> Prims.unit uint_t -> Prims.unit FStar_BitVector.bv_t
+)
+ident(
+  int_ref to_vec "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3878 "ulib/ml/extracted/FStar_UInt.ml" 85 3869 3884
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6992 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6993
+type(
+  Prims.pos
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_UInt.ml" 249 6911 6917 "ulib/ml/extracted/FStar_UInt.ml" 249 6911 6918
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6994 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6995
+type(
+  Prims.unit uint_t
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6931 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6932
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6984 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6996
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6966 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6997
+call(
+  stack
+)
+type(
+  Prims.unit FStar_BitVector.bv_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6937 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6997
+call(
+  tail
+)
+type(
+  Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 250 6923 6927 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6997
+type(
+  Prims.unit uint_t -> Prims.unit uint_t
+)
+"ulib/ml/extracted/FStar_UInt.ml" 249 6911 6913 "ulib/ml/extracted/FStar_UInt.ml" 250 6923 6997
+type(
+  Prims.pos -> Prims.unit uint_t -> Prims.unit uint_t
+)

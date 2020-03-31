@@ -1,0 +1,95 @@
+"ulib/ml/FStar_Set.ml" 2 26 30 "ulib/ml/FStar_Set.ml" 2 26 35
+type(
+  unit -> 'a BatSet.t
+)
+ident(
+  def empty "ulib/ml/FStar_Set.ml" 3 55 55 "ulib/ml/FStar_Set.ml" 1 0 -1
+)
+"ulib/ml/FStar_Set.ml" 2 26 36 "ulib/ml/FStar_Set.ml" 2 26 38
+type(
+  unit
+)
+"ulib/ml/FStar_Set.ml" 2 26 42 "ulib/ml/FStar_Set.ml" 2 26 54
+type(
+  'a BatSet.t
+)
+ident(
+  ext_ref BatSet.empty
+)
+"ulib/ml/FStar_Set.ml" 3 55 59 "ulib/ml/FStar_Set.ml" 3 55 68
+type(
+  'a -> 'a BatSet.t
+)
+ident(
+  def singleton "ulib/ml/FStar_Set.ml" 4 88 88 "ulib/ml/FStar_Set.ml" 1 0 -1
+)
+"ulib/ml/FStar_Set.ml" 3 55 71 "ulib/ml/FStar_Set.ml" 3 55 87
+type(
+  'a -> 'a BatSet.t
+)
+ident(
+  ext_ref BatSet.singleton
+)
+"ulib/ml/FStar_Set.ml" 4 88 92 "ulib/ml/FStar_Set.ml" 4 88 97
+type(
+  'a BatSet.t -> 'a BatSet.t -> 'a BatSet.t
+)
+ident(
+  def union "ulib/ml/FStar_Set.ml" 5 113 113 "ulib/ml/FStar_Set.ml" 1 0 -1
+)
+"ulib/ml/FStar_Set.ml" 4 88 100 "ulib/ml/FStar_Set.ml" 4 88 112
+type(
+  'a BatSet.t -> 'a BatSet.t -> 'a BatSet.t
+)
+ident(
+  ext_ref BatSet.union
+)
+"ulib/ml/FStar_Set.ml" 5 113 117 "ulib/ml/FStar_Set.ml" 5 113 126
+type(
+  'a BatSet.t -> 'a BatSet.t -> 'a BatSet.t
+)
+ident(
+  def intersect "ulib/ml/FStar_Set.ml" 6 146 146 "ulib/ml/FStar_Set.ml" 1 0 -1
+)
+"ulib/ml/FStar_Set.ml" 5 113 129 "ulib/ml/FStar_Set.ml" 5 113 145
+type(
+  'a BatSet.t -> 'a BatSet.t -> 'a BatSet.t
+)
+ident(
+  ext_ref BatSet.intersect
+)
+"ulib/ml/FStar_Set.ml" 6 146 150 "ulib/ml/FStar_Set.ml" 6 146 160
+type(
+  'a -> 'b BatSet.t
+)
+ident(
+  def complement "ulib/ml/FStar_Set.ml" 7 178 178 "ulib/ml/FStar_Set.ml" 1 0 -1
+)
+"ulib/ml/FStar_Set.ml" 6 146 161 "ulib/ml/FStar_Set.ml" 6 146 162
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/FStar_Set.ml" 6 146 165 "ulib/ml/FStar_Set.ml" 6 146 177
+)
+"ulib/ml/FStar_Set.ml" 6 146 165 "ulib/ml/FStar_Set.ml" 6 146 177
+type(
+  'b BatSet.t
+)
+ident(
+  ext_ref BatSet.empty
+)
+"ulib/ml/FStar_Set.ml" 7 178 182 "ulib/ml/FStar_Set.ml" 7 178 185
+type(
+  'a -> 'a BatSet.t -> bool
+)
+ident(
+  def mem "ulib/ml/FStar_Set.ml" 13 300 300 "ulib/ml/FStar_Set.ml" 1 0 -1
+)
+"ulib/ml/FStar_Set.ml" 7 178 188 "ulib/ml/FStar_Set.ml" 7 178 198
+type(
+  'a -> 'a BatSet.t -> bool
+)
+ident(
+  ext_ref BatSet.mem
+)

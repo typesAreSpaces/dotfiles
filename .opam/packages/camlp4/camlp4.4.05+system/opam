@@ -1,0 +1,13 @@
+opam-version: "1.2"
+maintainer: "jeremie@dimino.org"
+homepage: "https://github.com/ocaml/camlp4"
+bug-reports: "https://github.com/ocaml/camlp4/issues"
+license: "LGPLv2"
+dev-repo: "https://github.com/ocaml/camlp4.git"
+build: ["sh" "./make.sh"]
+depexts: [
+  [["debian"] ["camlp4-extra"]]
+  [["homebrew" "osx"] ["camlp4"]]
+  [["ubuntu"] ["camlp4-extra"]]
+]
+available: [preinstalled & ocaml-version >= "4.05" & ocaml-version < "4.06"]

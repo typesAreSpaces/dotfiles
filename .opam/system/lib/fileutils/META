@@ -1,0 +1,22 @@
+# OASIS_START
+# DO NOT EDIT (digest: 9d1139a1deb604d8d8b99a5c85513902)
+version = "0.5.3"
+description = "Functions to manipulate real file (POSIX like) and filename."
+requires = "unix bytes"
+archive(byte) = "fileutils.cma"
+archive(byte, plugin) = "fileutils.cma"
+archive(native) = "fileutils.cmxa"
+archive(native, plugin) = "fileutils.cmxs"
+exists_if = "fileutils.cma"
+package "str" (
+ version = "0.5.3"
+ description = "Functions to manipulate real file (POSIX like) and filename."
+ requires = "fileutils str"
+ archive(byte) = "fileutils-str.cma"
+ archive(byte, plugin) = "fileutils-str.cma"
+ archive(native) = "fileutils-str.cmxa"
+ archive(native, plugin) = "fileutils-str.cmxs"
+ exists_if = "fileutils-str.cma"
+)
+# OASIS_STOP
+

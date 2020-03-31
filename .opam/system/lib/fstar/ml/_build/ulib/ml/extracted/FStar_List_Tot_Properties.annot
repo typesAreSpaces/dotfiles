@@ -1,0 +1,300 @@
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 27 73 81 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 27 73 85
+type(
+  'a. 'a Prims.list -> 'a Prims.list
+)
+ident(
+  def rev' "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 27 73 73 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 28 126 132 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 28 126 142
+type(
+  'a Prims.list
+)
+ident(
+  def uu___1_187 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 29 147 151 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 248
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 29 147 157 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 29 147 167
+type(
+  'a Prims.list
+)
+ident(
+  int_ref uu___1_187 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 28 126 132 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 28 126 142
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 30 173 179 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 30 173 181
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 30 173 185 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 30 173 187
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 194 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 197
+type(
+  'a
+)
+ident(
+  def hd1 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 206 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 248
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 199 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 202
+type(
+  'a list
+)
+ident(
+  def tl1 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 206 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 248
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 194 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 202
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 206 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 231
+type(
+  'a Prims.list -> 'a list -> 'a Prims.list
+)
+ident(
+  ext_ref FStar_List_Tot_Base.op_At
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 233 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 237
+type(
+  'a Prims.list -> 'a Prims.list
+)
+ident(
+  int_ref rev' "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 27 73 81 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 27 73 85
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 238 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 241
+type(
+  'a Prims.list
+)
+ident(
+  int_ref tl1 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 199 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 202
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 232 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 242
+call(
+  stack
+)
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 244 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 247
+type(
+  'a
+)
+ident(
+  int_ref hd1 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 194 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 197
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 243 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 248
+type(
+  'a list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 206 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 248
+call(
+  tail
+)
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 29 147 151 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 248
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 28 126 128 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 31 188 248
+type(
+  'a Prims.list -> 'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 33 252 256 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 33 252 261
+type(
+  'Auu____200. Prims.unit -> 'Auu____200 Prims.list -> 'Auu____200 Prims.list
+)
+ident(
+  def rev'T "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 61 390 390 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 35 339 345 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 35 339 354
+type(
+  Prims.unit
+)
+ident(
+  def uu____208 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 35 339 359 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 35 339 363
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 35 339 359 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 35 339 363
+type(
+  'Auu____200 Prims.list -> 'Auu____200 Prims.list
+)
+ident(
+  int_ref rev' "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 27 73 81 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 27 73 85
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 35 339 341 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 35 339 363
+type(
+  Prims.unit -> 'Auu____200 Prims.list -> 'Auu____200 Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 61 390 398 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 61 390 404
+type(
+  'a. ('a -> 'a -> Prims.bool) -> 'a Prims.list -> Prims.bool
+)
+ident(
+  def sorted "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 61 390 390 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 63 472 478 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 63 472 479
+type(
+  'a -> 'a -> Prims.bool
+)
+ident(
+  def f "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 64 484 488 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 64 484 492 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 64 484 502
+type(
+  'a Prims.list
+)
+ident(
+  def uu___4_440 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 65 507 513 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 65 507 519 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 65 507 529
+type(
+  'a Prims.list
+)
+ident(
+  int_ref uu___4_440 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 64 484 492 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 64 484 502
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 66 535 543 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 66 535 545
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 66 535 549 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 66 535 553
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 562 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 571
+type(
+  'a
+)
+ident(
+  def uu____449 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 579 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 583
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 573 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 575
+type(
+  'a list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 562 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 575
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 579 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 67 554 583
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 592 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 593
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 605 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 595 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 596
+type(
+  'a
+)
+ident(
+  def y "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 605 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 598 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 601
+type(
+  'a list
+)
+ident(
+  def tl1 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 605 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 595 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 601
+type(
+  'a list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 592 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 601
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 606 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 607
+type(
+  'a -> 'a -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 63 472 478 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 63 472 479
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 608 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 609
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 592 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 593
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 610 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 611
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 595 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 596
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 605 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 612
+call(
+  stack
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 613 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 615
+type(
+  Prims.bool -> Prims.bool -> Prims.bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 617 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 623
+type(
+  ('a -> 'a -> Prims.bool) -> 'a Prims.list -> Prims.bool
+)
+ident(
+  int_ref sorted "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 61 390 398 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 61 390 404
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 624 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 625
+type(
+  'a -> 'a -> Prims.bool
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 63 472 478 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 63 472 479
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 627 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 628
+type(
+  'a
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 595 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 596
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 632 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 635
+type(
+  'a list
+)
+ident(
+  int_ref tl1 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 598 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 601
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 626 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 636
+type(
+  'a Prims.list
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 616 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+call(
+  tail
+)
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 605 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 65 507 513 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 64 484 488 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+type(
+  'a Prims.list -> Prims.bool
+)
+"ulib/ml/extracted/FStar_List_Tot_Properties.ml" 63 472 474 "ulib/ml/extracted/FStar_List_Tot_Properties.ml" 68 584 637
+type(
+  ('a -> 'a -> Prims.bool) -> 'a Prims.list -> Prims.bool
+)

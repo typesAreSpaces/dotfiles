@@ -1,0 +1,2212 @@
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 4 61 65 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 4 61 69
+type(
+  'a. 'a FStar_Seq_Base.seq -> 'a -> 'a FStar_Seq_Base.seq
+)
+ident(
+  def snoc "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 9 226 226 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 5 132 138 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 5 132 139
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 148 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 221
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 152 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 153
+type(
+  'a
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 158 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 221
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 158 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 179
+type(
+  'a FStar_Seq_Base.seq -> 'a FStar_Seq_Base.seq -> 'a FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 180 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 181
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 5 132 138 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 5 132 139
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 183 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 204
+type(
+  Prims.nat -> 'a -> 'a FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.create
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 205 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 218
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 219 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 220
+type(
+  'a
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 152 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 153
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 182 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 221
+call(
+  stack
+)
+type(
+  'a FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 158 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 221
+call(
+  tail
+)
+type(
+  'a FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 148 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 221
+type(
+  'a -> 'a FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 5 132 134 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 6 144 221
+type(
+  'a FStar_Seq_Base.seq -> 'a -> 'a FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 9 226 230 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 9 226 244
+type(
+  'Aa.
+    Prims.unit ->
+    'Aa FStar_Seq_Base.seq ->
+    (Prims.unit, 'Aa FStar_Seq_Base.seq, ('Aa, Prims.unit, Prims.unit) grows)
+    FStar_HyperStack_ST.m_rref
+)
+ident(
+  def alloc_mref_seq "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 16 461 461 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 404 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 405
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 410 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 459
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 414 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 419
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def init1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 424 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 459
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 424 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 450
+type(
+  Prims.unit ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq FStar_HyperStack.reference
+)
+ident(
+  ext_ref FStar_HyperStack_ST.ralloc
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 451 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 453
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 454 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 459
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref init1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 414 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 419
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 424 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 459
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 410 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 459
+type(
+  'Aa FStar_Seq_Base.seq ->
+  ('_a, 'Aa FStar_Seq_Base.seq, ('_b, '_c, '_d) grows)
+  FStar_HyperStack_ST.m_rref
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 400 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 15 396 459
+type(
+  Prims.unit ->
+  'Aa FStar_Seq_Base.seq ->
+  (Prims.unit, 'Aa FStar_Seq_Base.seq, ('Aa, Prims.unit, Prims.unit) grows)
+  FStar_HyperStack_ST.m_rref
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 18 509 513 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 18 509 525
+type(
+  'Aa.
+    Prims.unit ->
+    (Prims.unit, 'Aa FStar_Seq_Base.seq, ('Aa, Prims.unit, Prims.unit) grows)
+    FStar_HyperStack_ST.m_rref -> 'Aa -> Prims.unit
+)
+ident(
+  def write_at_end "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 34 1000 1000 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 24 660 666 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 24 660 667
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 676 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 996
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 680 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 681
+type(
+  ('a, 'Aa FStar_Seq_Base.seq, ('b, 'c, 'd) grows) FStar_HyperStack_ST.m_rref
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 26 686 692 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 996
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 26 686 696 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 26 686 697
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 27 702 710 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 996
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 27 702 710 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 27 702 736
+type(
+  ('_e, 'Aa FStar_Seq_Base.seq, ('_f, '_g, '_h) grows)
+  FStar_HyperStack_ST.m_rref -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.recall
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 27 702 737 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 27 702 738
+type(
+  ('_e, 'Aa FStar_Seq_Base.seq, ('_f, '_g, '_h) grows)
+  FStar_HyperStack_ST.m_rref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 680 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 681
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 27 702 710 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 27 702 738
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 753 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 755
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 801 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 995
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 758 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 785
+type(
+  ('Aa FStar_Seq_Base.seq, Prims.unit) FStar_Monotonic_HyperStack.mreference' ->
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 786 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 787
+type(
+  ('_i, 'Aa FStar_Seq_Base.seq, ('_j, '_k, '_l) grows)
+  FStar_HyperStack_ST.m_rref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 680 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 681
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 758 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 787
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 805 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 806
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 30 838 847 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 995
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 809 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 830
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 831 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 833
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 753 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 755
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 809 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 833
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 30 838 847 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 30 838 882
+type(
+  ('Aa FStar_Seq_Base.seq, Prims.unit) FStar_Monotonic_HyperStack.mreference' ->
+  'Aa FStar_Seq_Base.seq -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Colon_Equals
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 30 838 883 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 30 838 884
+type(
+  ('_m, 'Aa FStar_Seq_Base.seq, ('_n, '_o, '_p) grows)
+  FStar_HyperStack_ST.m_rref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 680 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 681
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 897 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 922
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Properties.snoc
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 923 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 925
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 753 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 755
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 926 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 927
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 26 686 696 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 26 686 697
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 896 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 928
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 30 838 847 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 31 885 928
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 939 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 969
+type(
+  unit -> unit -> unit -> '_q -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 970 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 972
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 973 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 975
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 976 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 978
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 980 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 989
+type(
+  ('_r, 'Aa FStar_Seq_Base.seq, ('_s, '_t, '_u) grows)
+  FStar_HyperStack_ST.m_rref -> '_q
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 990 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 991
+type(
+  ('_r, 'Aa FStar_Seq_Base.seq, ('_s, '_t, '_u) grows)
+  FStar_HyperStack_ST.m_rref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 680 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 681
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 979 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 992
+type(
+  '_q
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 993 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 995
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 939 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 995
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 30 838 847 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 995
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 29 792 801 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 995
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 28 740 748 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 996
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 27 702 710 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 996
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 26 686 692 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 996
+type(
+  'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 25 672 676 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 996
+type(
+  ('_v, 'Aa FStar_Seq_Base.seq, ('_w, '_x, '_y) grows)
+  FStar_HyperStack_ST.m_rref -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 24 660 662 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 32 930 996
+type(
+  Prims.unit ->
+  (Prims.unit, 'Aa FStar_Seq_Base.seq, ('Aa, Prims.unit, Prims.unit) grows)
+  FStar_HyperStack_ST.m_rref -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 37 1131 1135 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 37 1131 1150
+type(
+  'Aa 'Ap.
+    Prims.unit -> 'Aa FStar_Seq_Base.seq -> (Prims.unit, 'Aa, 'Ap) i_seq
+)
+ident(
+  def alloc_mref_iseq "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 40 1285 1285 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1228 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1229
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1234 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1283
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1238 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1243
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def init1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1248 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1283
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1248 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1274
+type(
+  Prims.unit ->
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq FStar_HyperStack.reference
+)
+ident(
+  ext_ref FStar_HyperStack_ST.ralloc
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1275 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1277
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1278 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1283
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref init1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1238 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1243
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1248 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1283
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1234 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1283
+type(
+  'Aa FStar_Seq_Base.seq -> ('_a, 'Aa, '_b) i_seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1224 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 39 1222 1283
+type(
+  Prims.unit -> 'Aa FStar_Seq_Base.seq -> (Prims.unit, 'Aa, 'Ap) i_seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 45 1392 1396 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 45 1392 1402
+type(
+  'Aa 'Ap.
+    Prims.unit -> (Prims.unit, 'Aa, 'Ap) i_seq -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  def i_read "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 47 1525 1525 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1478 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1479
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1484 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1523
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1488 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1489
+type(
+  ('a, 'Aa, 'b) i_seq
+)
+ident(
+  def m "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1494 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1523
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1494 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1521
+type(
+  ('Aa FStar_Seq_Base.seq, Prims.unit) FStar_Monotonic_HyperStack.mreference' ->
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1522 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1523
+type(
+  ('_c, 'Aa, '_d) i_seq
+)
+ident(
+  int_ref m "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1488 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1489
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1494 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1523
+call(
+  tail
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1484 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1523
+type(
+  ('_e, 'Aa, '_f) i_seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1474 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 46 1470 1523
+type(
+  Prims.unit -> (Prims.unit, 'Aa, 'Ap) i_seq -> 'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 48 1570 1574 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 48 1570 1588
+type(
+  'Aa 'Ap. Prims.unit -> (Prims.unit, 'Aa, 'Ap) i_seq -> 'Aa -> Prims.unit
+)
+ident(
+  def i_write_at_end "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 59 1989 1989 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 49 1647 1653 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 49 1647 1656
+type(
+  Prims.unit
+)
+ident(
+  def rgn "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1665 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1985
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1669 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1670
+type(
+  ('a, 'Aa, 'b) i_seq
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 51 1675 1681 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1985
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 51 1675 1685 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 51 1675 1686
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 52 1691 1699 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1985
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 52 1691 1699 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 52 1691 1725
+type(
+  ('_c, 'Aa, '_d) i_seq -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.recall
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 52 1691 1726 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 52 1691 1727
+type(
+  ('_c, 'Aa, '_d) i_seq
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1669 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1670
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 52 1691 1699 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 52 1691 1727
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1742 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1744
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1790 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1984
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1747 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1774
+type(
+  ('Aa FStar_Seq_Base.seq, Prims.unit) FStar_Monotonic_HyperStack.mreference' ->
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1775 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1776
+type(
+  ('_e, 'Aa, '_f) i_seq
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1669 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1670
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1747 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1776
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1794 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1795
+type(
+  Prims.nat
+)
+ident(
+  def n "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 55 1827 1836 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1984
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1798 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1819
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1820 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1822
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1742 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1744
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1798 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1822
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 55 1827 1836 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 55 1827 1871
+type(
+  ('Aa FStar_Seq_Base.seq, Prims.unit) FStar_Monotonic_HyperStack.mreference' ->
+  'Aa FStar_Seq_Base.seq -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Colon_Equals
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 55 1827 1872 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 55 1827 1873
+type(
+  ('_g, 'Aa, '_h) i_seq
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1669 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1670
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1886 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1911
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Properties.snoc
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1912 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1914
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1742 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1744
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1915 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1916
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 51 1675 1685 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 51 1675 1686
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1885 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1917
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 55 1827 1836 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 56 1874 1917
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1928 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1958
+type(
+  unit -> unit -> unit -> '_i -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1959 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1961
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1962 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1964
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1965 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1967
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1969 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1978
+type(
+  ('_j, 'Aa, '_k) i_seq -> '_i
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1979 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1980
+type(
+  ('_j, 'Aa, '_k) i_seq
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1669 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1670
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1968 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1981
+type(
+  '_i
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1982 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1984
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1928 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1984
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 55 1827 1836 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1984
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 54 1781 1790 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1984
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 53 1729 1737 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1985
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 52 1691 1699 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1985
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 51 1675 1681 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1985
+type(
+  'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 50 1661 1665 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1985
+type(
+  ('_l, 'Aa, '_m) i_seq -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 49 1647 1649 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 57 1919 1985
+type(
+  Prims.unit -> (Prims.unit, 'Aa, 'Ap) i_seq -> 'Aa -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 60 2015 2020 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 60 2015 2025
+type(
+  Prims.unit ->
+  (Prims.unit, Prims.nat FStar_Seq_Base.seq,
+   (Prims.nat, Prims.unit, Prims.unit) grows)
+  FStar_HyperStack_ST.m_rref -> Prims.nat -> Prims.unit
+)
+ident(
+  def test0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 71 2323 2323 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 65 2165 2171 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 65 2165 2172
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 66 2177 2181 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 66 2177 2185 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 66 2177 2186
+type(
+  (Prims.unit, Prims.nat FStar_Seq_Base.seq,
+   (Prims.nat, Prims.unit, Prims.unit) grows)
+  FStar_HyperStack_ST.m_rref
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 67 2191 2197 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 67 2191 2201 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 67 2191 2202
+type(
+  Prims.nat
+)
+ident(
+  def k "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2215 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2219 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2221
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2263 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2224 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2247
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2248 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2250
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2224 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2250
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2263 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2293
+type(
+  unit -> unit -> unit -> '_a -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2294 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2296
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2297 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2299
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2300 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2302
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2304 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2313
+type(
+  (Prims.unit, Prims.nat FStar_Seq_Base.seq,
+   (Prims.nat, Prims.unit, Prims.unit) grows)
+  FStar_HyperStack_ST.m_rref -> '_a
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2314 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2315
+type(
+  (Prims.unit, Prims.nat FStar_Seq_Base.seq,
+   (Prims.nat, Prims.unit, Prims.unit) grows)
+  FStar_HyperStack_ST.m_rref
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 66 2177 2185 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 66 2177 2186
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2303 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2316
+type(
+  '_a
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2317 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2263 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 68 2207 2215 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 67 2191 2197 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+type(
+  Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 66 2177 2181 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+type(
+  (Prims.unit, Prims.nat FStar_Seq_Base.seq,
+   (Prims.nat, Prims.unit, Prims.unit) grows)
+  FStar_HyperStack_ST.m_rref -> Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 65 2165 2167 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 69 2255 2319
+type(
+  Prims.unit ->
+  (Prims.unit, Prims.nat FStar_Seq_Base.seq,
+   (Prims.nat, Prims.unit, Prims.unit) grows)
+  FStar_HyperStack_ST.m_rref -> Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 71 2323 2328 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 71 2323 2333
+type(
+  Prims.unit ->
+  (Prims.unit, Prims.nat, Prims.unit invariant) i_seq ->
+  Prims.nat -> Prims.unit
+)
+ident(
+  def itest "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 79 2566 2566 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 73 2408 2414 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 73 2408 2415
+type(
+  Prims.unit
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 74 2420 2424 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 74 2420 2428 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 74 2420 2429
+type(
+  (Prims.unit, Prims.nat, Prims.unit invariant) i_seq
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 75 2434 2440 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 75 2434 2444 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 75 2434 2445
+type(
+  Prims.nat
+)
+ident(
+  def k "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2458 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2462 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2464
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  def h0 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2506 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2467 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2490
+type(
+  unit -> FStar_Monotonic_HyperStack.mem'
+)
+ident(
+  ext_ref FStar_HyperStack_ST.get
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2491 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2493
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2467 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2493
+call(
+  stack
+)
+type(
+  FStar_Monotonic_HyperStack.mem'
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2506 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2536
+type(
+  unit -> unit -> unit -> '_a -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2537 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2539
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2540 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2542
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2543 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2545
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2547 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2556
+type(
+  (Prims.unit, Prims.nat, Prims.unit invariant) i_seq -> '_a
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2557 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2558
+type(
+  (Prims.unit, Prims.nat, Prims.unit invariant) i_seq
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 74 2420 2428 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 74 2420 2429
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2546 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2559
+type(
+  '_a
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2560 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2506 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 76 2450 2458 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 75 2434 2440 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+type(
+  Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 74 2420 2424 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+type(
+  (Prims.unit, Prims.nat, Prims.unit invariant) i_seq ->
+  Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 73 2408 2410 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 77 2498 2562
+type(
+  Prims.unit ->
+  (Prims.unit, Prims.nat, Prims.unit invariant) i_seq ->
+  Prims.nat -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 79 2566 2570 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 79 2566 2577
+type(
+  'Aa. 'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq * 'Aa
+)
+ident(
+  def un_snoc "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 86 2814 2814 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2653 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2654
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2663 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2810
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2667 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2672
+type(
+  Z.t
+)
+ident(
+  def last1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2725 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2810
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2676 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2697
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2698 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2699
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2653 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2654
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2675 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2700
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2701 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2702
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( - )
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2703 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2716
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2675 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2716
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2727 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2747
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> Prims.nat -> 'Aa FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.slice
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2748 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2749
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2653 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2654
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2750 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2764
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2765 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2770
+type(
+  Prims.nat
+)
+ident(
+  int_ref last1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2667 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2672
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2726 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2771
+call(
+  stack
+)
+type(
+  'Aa FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2780 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2800
+type(
+  'Aa FStar_Seq_Base.seq -> Prims.nat -> 'Aa
+)
+ident(
+  ext_ref FStar_Seq_Base.index
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2801 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2802
+type(
+  'Aa FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2653 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2654
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2803 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2808
+type(
+  Prims.nat
+)
+ident(
+  int_ref last1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2667 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2672
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2779 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2809
+call(
+  stack
+)
+type(
+  'Aa
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 83 2721 2725 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2810
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 82 2659 2663 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2810
+type(
+  'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 81 2647 2649 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 84 2773 2810
+type(
+  'Aa FStar_Seq_Base.seq -> 'Aa FStar_Seq_Base.seq * 'Aa
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 86 2814 2822 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 86 2814 2825
+type(
+  'a 'b. ('a -> 'b) -> 'a FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+ident(
+  def map "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 86 2814 2814 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 88 2901 2907 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 88 2901 2908
+type(
+  'a -> 'b
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 89 2913 2917 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3189
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 89 2913 2921 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 89 2913 2922
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2933 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3189
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2937 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2958
+type(
+  'a FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2959 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2960
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 89 2913 2921 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 89 2913 2922
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2936 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2961
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2962 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2963
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2964 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2978
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2936 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2978
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 91 2979 2990 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 91 2979 3010
+type(
+  Prims.unit -> 'b FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.empty
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 91 2979 3011 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 91 2979 3013
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 91 2979 2990 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 91 2979 3013
+call(
+  tail
+)
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3038 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3048
+type(
+  'a FStar_Seq_Base.seq * 'a
+)
+ident(
+  def uu____1630 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 94 3065 3074 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3188
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3051 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3058
+type(
+  'a FStar_Seq_Base.seq -> 'a FStar_Seq_Base.seq * 'a
+)
+ident(
+  int_ref un_snoc "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 79 2566 2570 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 79 2566 2577
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3059 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3060
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 89 2913 2921 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 89 2913 2922
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3051 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3060
+call(
+  stack
+)
+type(
+  'a FStar_Seq_Base.seq * 'a
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 94 3065 3080 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 94 3065 3090
+type(
+  'a FStar_Seq_Base.seq * 'a
+)
+ident(
+  int_ref uu____1630 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3038 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3048
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3108 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3114
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  def prefix "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3138 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3188
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3115 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3120
+type(
+  'a
+)
+ident(
+  def last1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3138 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3188
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3107 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3121
+type(
+  'a FStar_Seq_Base.seq * 'a
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3138 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3163
+type(
+  'b FStar_Seq_Base.seq -> 'b -> 'b FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Properties.snoc
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3165 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3168
+type(
+  ('a -> 'b) -> 'a FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+ident(
+  int_ref map "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 86 2814 2822 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 86 2814 2825
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3169 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3170
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 88 2901 2907 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 88 2901 2908
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3171 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3177
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  int_ref prefix "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3108 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3114
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3164 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3178
+call(
+  stack
+)
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3180 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3181
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 88 2901 2907 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 88 2901 2908
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3182 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3187
+type(
+  'a
+)
+ident(
+  int_ref last1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3115 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 95 3096 3120
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3179 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3188
+call(
+  stack
+)
+type(
+  'b
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3138 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3188
+call(
+  tail
+)
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 94 3065 3074 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3188
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 93 3025 3033 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3189
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 90 2927 2933 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3189
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 89 2913 2917 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3189
+type(
+  'a FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 88 2901 2903 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 96 3125 3189
+type(
+  ('a -> 'b) -> 'a FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 99 3194 3198 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 99 3194 3203
+type(
+  'Auu____1663.
+    'Auu____1663 FStar_Seq_Base.seq ->
+    'Auu____1663 FStar_Seq_Base.seq -> 'Auu____1663 FStar_Seq_Base.seq
+)
+ident(
+  def op_At "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 108 3394 3394 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3343 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3345
+type(
+  'Auu____1663 FStar_Seq_Base.seq
+)
+ident(
+  def s1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3350 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3388
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3354 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3356
+type(
+  'Auu____1663 FStar_Seq_Base.seq
+)
+ident(
+  def s2 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3361 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3388
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3361 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3382
+type(
+  'Auu____1663 FStar_Seq_Base.seq ->
+  'Auu____1663 FStar_Seq_Base.seq -> 'Auu____1663 FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3383 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3385
+type(
+  'Auu____1663 FStar_Seq_Base.seq
+)
+ident(
+  int_ref s1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3343 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3345
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3386 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3388
+type(
+  'Auu____1663 FStar_Seq_Base.seq
+)
+ident(
+  int_ref s2 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3354 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3356
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3361 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3388
+call(
+  tail
+)
+type(
+  'Auu____1663 FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3350 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3388
+type(
+  'Auu____1663 FStar_Seq_Base.seq -> 'Auu____1663 FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3339 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 103 3335 3388
+type(
+  'Auu____1663 FStar_Seq_Base.seq ->
+  'Auu____1663 FStar_Seq_Base.seq -> 'Auu____1663 FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 112 3513 3521 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 112 3513 3528
+type(
+  'a 'b.
+    ('a -> 'b FStar_Seq_Base.seq) ->
+    'a FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+ident(
+  def collect "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 112 3513 3513 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 117 3635 3641 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 117 3635 3642
+type(
+  'a -> 'b FStar_Seq_Base.seq
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 118 3647 3651 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3923
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 118 3647 3655 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 118 3647 3656
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  def s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3667 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3923
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3671 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3692
+type(
+  'a FStar_Seq_Base.seq -> Prims.nat
+)
+ident(
+  ext_ref FStar_Seq_Base.length
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3693 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3694
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 118 3647 3655 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 118 3647 3656
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3670 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3695
+call(
+  stack
+)
+type(
+  Prims.nat
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3696 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3697
+type(
+  Prims.nat -> Prims.nat -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3698 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3712
+type(
+  Prims.nat
+)
+ident(
+  ext_ref Prims.int_zero
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3670 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3712
+type(
+  bool
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 120 3713 3724 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 120 3713 3744
+type(
+  Prims.unit -> 'b FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.empty
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 120 3713 3745 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 120 3713 3747
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 120 3713 3724 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 120 3713 3747
+call(
+  tail
+)
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3772 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3782
+type(
+  'a FStar_Seq_Base.seq * 'a
+)
+ident(
+  def uu____2075 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 123 3799 3808 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3922
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3785 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3792
+type(
+  'a FStar_Seq_Base.seq -> 'a FStar_Seq_Base.seq * 'a
+)
+ident(
+  int_ref un_snoc "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 79 2566 2570 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 79 2566 2577
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3793 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3794
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  int_ref s "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 118 3647 3655 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 118 3647 3656
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3785 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3794
+call(
+  stack
+)
+type(
+  'a FStar_Seq_Base.seq * 'a
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 123 3799 3814 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 123 3799 3824
+type(
+  'a FStar_Seq_Base.seq * 'a
+)
+ident(
+  int_ref uu____2075 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3772 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3782
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3842 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3848
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  def prefix "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3872 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3922
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3849 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3854
+type(
+  'a
+)
+ident(
+  def last1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3872 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3922
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3841 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3855
+type(
+  'a FStar_Seq_Base.seq * 'a
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3872 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3893
+type(
+  'b FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+ident(
+  ext_ref FStar_Seq_Base.append
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3895 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3902
+type(
+  ('a -> 'b FStar_Seq_Base.seq) ->
+  'a FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+ident(
+  int_ref collect "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 112 3513 3521 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 112 3513 3528
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3903 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3904
+type(
+  'a -> 'b FStar_Seq_Base.seq
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 117 3635 3641 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 117 3635 3642
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3905 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3911
+type(
+  'a FStar_Seq_Base.seq
+)
+ident(
+  int_ref prefix "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3842 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3848
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3894 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3912
+call(
+  stack
+)
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3914 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3915
+type(
+  'a -> 'b FStar_Seq_Base.seq
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 117 3635 3641 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 117 3635 3642
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3916 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3921
+type(
+  'a
+)
+ident(
+  int_ref last1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3849 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 124 3830 3854
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3913 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3922
+call(
+  stack
+)
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3872 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3922
+call(
+  tail
+)
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 123 3799 3808 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3922
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 122 3759 3767 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3923
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 119 3661 3667 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3923
+type(
+  'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 118 3647 3651 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3923
+type(
+  'a FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 117 3635 3637 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 125 3859 3923
+type(
+  ('a -> 'b FStar_Seq_Base.seq) ->
+  'a FStar_Seq_Base.seq -> 'b FStar_Seq_Base.seq
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 141 4394 4398 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 141 4394 4406
+type(
+  'Aa.
+    Prims.unit ->
+    Prims.nat ->
+    Prims.unit ->
+    Prims.nat ->
+    (Prims.unit, 'Aa) log_t ->
+    (Prims.unit, 'Aa, Prims.unit, Prims.unit, Prims.unit) seqn
+)
+ident(
+  def new_seqn "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 158 4847 4847 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 148 4542 4548 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 148 4542 4549
+type(
+  Prims.unit
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 149 4554 4558 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 149 4554 4562 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 149 4554 4565
+type(
+  Prims.nat
+)
+ident(
+  def max "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 150 4570 4576 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 150 4570 4580 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 150 4570 4581
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 151 4586 4594 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 151 4586 4598 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 151 4586 4603
+type(
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+ident(
+  def init1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 152 4608 4618 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 152 4608 4622 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 152 4608 4625
+type(
+  ('b, 'Aa) log_t
+)
+ident(
+  def log "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 153 4630 4642 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 153 4630 4642 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 153 4630 4668
+type(
+  ('_c, 'Aa) log_t -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.recall
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 153 4630 4669 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 153 4630 4672
+type(
+  ('_c, 'Aa) log_t
+)
+ident(
+  int_ref log "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 152 4608 4622 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 152 4608 4625
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 153 4630 4642 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 153 4630 4672
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 154 4674 4686 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 154 4674 4719
+type(
+  unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.recall_region
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 154 4674 4720 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 154 4674 4722
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 154 4674 4686 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 154 4674 4722
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4736 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4766
+type(
+  unit -> unit -> unit -> '_d -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4767 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4769
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4770 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4772
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4773 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4775
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4777 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4786
+type(
+  ('_e, 'Aa) log_t -> '_d
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4787 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4790
+type(
+  ('_e, 'Aa) log_t
+)
+ident(
+  int_ref log "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 152 4608 4622 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 152 4608 4625
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4776 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4791
+type(
+  '_d
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4792 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4794
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4736 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4794
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4808 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4834
+type(
+  Prims.unit ->
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val ->
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val
+  FStar_HyperStack.reference
+)
+ident(
+  ext_ref FStar_HyperStack_ST.ralloc
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4835 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4837
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4838 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+ident(
+  int_ref init1 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 151 4586 4598 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 151 4586 4603
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4808 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+call(
+  tail
+)
+type(
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val
+  FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 155 4724 4736 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val
+  FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 154 4674 4686 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val
+  FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 153 4630 4642 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val
+  FStar_HyperStack.reference
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 152 4608 4618 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  ('_f, 'Aa) log_t -> ('_g, '_h, '_i, '_j, '_k) seqn
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 151 4586 4594 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val ->
+  ('_l, 'Aa) log_t -> ('_m, '_n, '_o, '_p, '_q) seqn
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 150 4570 4576 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  Prims.unit ->
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val ->
+  ('_r, 'Aa) log_t -> ('_s, '_t, '_u, '_v, '_w) seqn
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 149 4554 4558 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  Prims.nat ->
+  Prims.unit ->
+  (Prims.unit, '_a, Prims.unit, Prims.unit, Prims.unit) seqn_val ->
+  ('_x, 'Aa) log_t -> ('_y, '_z, '_a1, '_b1, '_c1) seqn
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 148 4542 4544 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 156 4796 4843
+type(
+  Prims.unit ->
+  Prims.nat ->
+  Prims.unit ->
+  Prims.nat ->
+  (Prims.unit, 'Aa) log_t ->
+  (Prims.unit, 'Aa, Prims.unit, Prims.unit, Prims.unit) seqn
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 158 4847 4851 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 158 4847 4865
+type(
+  'Aa.
+    Prims.unit ->
+    Prims.nat ->
+    Prims.unit ->
+    (Prims.unit, 'Aa) log_t ->
+    (Prims.unit, 'Aa, Prims.unit, Prims.unit, Prims.unit) seqn -> Prims.unit
+)
+ident(
+  def increment_seqn "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 177 5419 5419 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 164 4986 4992 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 164 4986 4993
+type(
+  Prims.unit
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 165 4998 5002 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 165 4998 5006 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 165 4998 5009
+type(
+  Prims.nat
+)
+ident(
+  def max "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 166 5014 5020 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 166 5014 5024 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 166 5014 5025
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 167 5030 5038 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 167 5030 5042 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 167 5030 5045
+type(
+  ('a, 'Aa) log_t
+)
+ident(
+  def log "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5060 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5064 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5065
+type(
+  ('b, 'c, 'd, 'e, 'f) seqn
+)
+ident(
+  def c "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 169 5070 5082 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 169 5070 5082 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 169 5070 5108
+type(
+  ('_g, '_h, '_i, '_j, '_k) seqn -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.recall
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 169 5070 5109 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 169 5070 5110
+type(
+  ('_g, '_h, '_i, '_j, '_k) seqn
+)
+ident(
+  int_ref c "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5064 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5065
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 169 5070 5082 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 169 5070 5110
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 170 5112 5124 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 170 5112 5150
+type(
+  ('_l, 'Aa) log_t -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.recall
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 170 5112 5151 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 170 5112 5154
+type(
+  ('_l, 'Aa) log_t
+)
+ident(
+  int_ref log "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 167 5030 5042 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 167 5030 5045
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 170 5112 5124 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 170 5112 5154
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 171 5156 5173 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 171 5156 5174
+type(
+  Z.t
+)
+ident(
+  def n "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5302 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5414
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5196 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5206
+type(
+  (Prims.unit, 'm, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+ident(
+  def uu____3738 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5258 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5284
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5209 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5236
+type(
+  ((Prims.unit, 'm, Prims.unit, Prims.unit, Prims.unit) seqn_val, Prims.unit)
+  FStar_Monotonic_HyperStack.mreference' ->
+  (Prims.unit, 'm, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5237 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5238
+type(
+  ('_n, 'm, '_o, '_p, '_q) seqn
+)
+ident(
+  int_ref c "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5064 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5065
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5209 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5238
+call(
+  stack
+)
+type(
+  (Prims.unit, 'm, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5258 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5268
+type(
+  (Prims.unit, '_r, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+ident(
+  int_ref uu____3738 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5196 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5206
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5269 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5270
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Prims.( + )
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5271 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5284
+type(
+  Z.t
+)
+ident(
+  ext_ref Prims.int_one
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5258 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5284
+call(
+  stack
+)
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 172 5177 5192 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 173 5243 5284
+type(
+  Z.t
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5302 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5332
+type(
+  unit -> unit -> unit -> '_s -> unit -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.mr_witness
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5333 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5335
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5336 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5338
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5339 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5341
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5343 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5352
+type(
+  ('_t, 'Aa) log_t -> '_s
+)
+ident(
+  ext_ref Obj.magic
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5353 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5356
+type(
+  ('_t, 'Aa) log_t
+)
+ident(
+  int_ref log "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 167 5030 5042 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 167 5030 5045
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5342 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5357
+type(
+  '_s
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5358 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5360
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5302 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5360
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5375 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5410
+type(
+  ((Prims.unit, '_u, Prims.unit, Prims.unit, Prims.unit) seqn_val,
+   Prims.unit)
+  FStar_Monotonic_HyperStack.mreference' ->
+  (Prims.unit, '_u, Prims.unit, Prims.unit, Prims.unit) seqn_val -> unit
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Colon_Equals
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5411 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5412
+type(
+  ('_v, '_u, '_w, '_x, '_y) seqn
+)
+ident(
+  int_ref c "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5064 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5065
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5413 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5414
+type(
+  (Prims.unit, '_u, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+ident(
+  int_ref n "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 171 5156 5173 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 171 5156 5174
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5375 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5414
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 174 5289 5302 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5414
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 171 5156 5168 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 170 5112 5124 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 169 5070 5082 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 168 5050 5060 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+type(
+  ('_z, '_a1, '_b1, '_c1, '_d1) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 167 5030 5038 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+type(
+  ('_e1, 'Aa) log_t -> ('_f1, '_g1, '_h1, '_i1, '_j1) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 166 5014 5020 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+type(
+  Prims.unit ->
+  ('_k1, 'Aa) log_t -> ('_l1, '_m1, '_n1, '_o1, '_p1) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 165 4998 5002 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+type(
+  Prims.nat ->
+  Prims.unit ->
+  ('_q1, 'Aa) log_t -> ('_r1, '_s1, '_t1, '_u1, '_v1) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 164 4986 4988 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 175 5362 5415
+type(
+  Prims.unit ->
+  Prims.nat ->
+  Prims.unit ->
+  (Prims.unit, 'Aa) log_t ->
+  (Prims.unit, 'Aa, Prims.unit, Prims.unit, Prims.unit) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 177 5419 5423 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 177 5419 5435
+type(
+  'Aa.
+    Prims.unit ->
+    Prims.unit ->
+    (Prims.unit, 'Aa) log_t ->
+    Prims.nat ->
+    (Prims.unit, 'Aa, Prims.unit, Prims.unit, Prims.unit) seqn -> Prims.unit
+)
+ident(
+  def testify_seqn "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 184 5566 5572 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 184 5566 5573
+type(
+  Prims.unit
+)
+ident(
+  def i "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 185 5578 5582 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 185 5578 5586 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 185 5578 5587
+type(
+  Prims.unit
+)
+ident(
+  def l "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 186 5592 5598 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 186 5592 5602 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 186 5592 5605
+type(
+  ('a, 'Aa) log_t
+)
+ident(
+  def log "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 187 5610 5618 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 187 5610 5622 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 187 5610 5625
+type(
+  Prims.nat
+)
+ident(
+  def max "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5640 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5644 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5647
+type(
+  ('b, 'c, 'd, 'e, 'f) seqn
+)
+ident(
+  def ctr "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5652 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5656 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5657
+type(
+  (Prims.unit, 'g, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+ident(
+  def n "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5696 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5660 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5687
+type(
+  ((Prims.unit, 'g, Prims.unit, Prims.unit, Prims.unit) seqn_val, Prims.unit)
+  FStar_Monotonic_HyperStack.mreference' ->
+  (Prims.unit, 'g, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+ident(
+  ext_ref FStar_HyperStack_ST.op_Bang
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5688 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5691
+type(
+  ('_h, 'g, '_i, '_j, '_k) seqn
+)
+ident(
+  int_ref ctr "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5644 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5647
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5660 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5691
+call(
+  stack
+)
+type(
+  (Prims.unit, 'g, Prims.unit, Prims.unit, Prims.unit) seqn_val
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5696 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5652 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+type(
+  unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5640 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+type(
+  ('_l, '_m, '_n, '_o, '_p) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 187 5610 5618 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+type(
+  Prims.nat -> ('_q, '_r, '_s, '_t, '_u) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 186 5592 5598 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+type(
+  ('_v, 'Aa) log_t ->
+  Prims.nat -> ('_w, '_x, '_y, '_z, '_a1) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 185 5578 5582 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+type(
+  Prims.unit ->
+  ('_b1, 'Aa) log_t ->
+  Prims.nat -> ('_c1, '_d1, '_e1, '_f1, '_g1) seqn -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Monotonic_Seq.ml" 184 5566 5568 "ulib/ml/extracted/FStar_Monotonic_Seq.ml" 188 5630 5698
+type(
+  Prims.unit ->
+  Prims.unit ->
+  (Prims.unit, 'Aa) log_t ->
+  Prims.nat ->
+  (Prims.unit, 'Aa, Prims.unit, Prims.unit, Prims.unit) seqn -> Prims.unit
+)

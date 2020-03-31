@@ -1,0 +1,101 @@
+[
+  "‹_tVT|,uå‡ªÜÁÅçn",
+  [
+    [
+      "Evens.unary_nat",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "5f57dece9bec47a9f05f5f5ae2b538b8"
+    ],
+    [
+      "Evens.__proj__US__item___0",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Evens.US",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_7094be438dbc16658c0caec70fa7452e"
+      ],
+      0,
+      "1440e5eafe7cc72c9c48b6b5025820b8"
+    ],
+    [
+      "Evens.even",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_Evens.unary_nat__uu___haseq" ],
+      0,
+      "e344031412953f85ebe9e86904196e78"
+    ],
+    [
+      "Evens.__proj__Even_SSn__item__n",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Evens.Even_SSn",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_6b35b246e3f3e217f09d76d285c6fcd3"
+      ],
+      0,
+      "8dccf11002c0de258d65e57868c4f3a9"
+    ],
+    [
+      "Evens.__proj__Even_SSn__item___1",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Evens.Even_SSn",
+        "proj_equation_Evens.Even_SSn_n",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_Evens.Even_SSn_n",
+        "refinement_interpretation_Tm_refine_6b35b246e3f3e217f09d76d285c6fcd3"
+      ],
+      0,
+      "1380f6cf1cc7693b554e17ee0e1b7c88"
+    ],
+    [
+      "Evens.nat2unary",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "binder_x_bb4e1c9af0265270f8e7a5f250f730e2_0", "equation_Prims.nat",
+        "int_inversion", "int_typing", "primitive_Prims.op_Equality",
+        "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "26424cd936c5d380d510a33004923cba"
+    ],
+    [
+      "Evens.even0",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "equality_tok_Evens.Even0@tok",
+        "equality_tok_Evens.U0@tok", "typing_tok_Evens.Even0@tok"
+      ],
+      0,
+      "6b736c5a0996adc11d7a64e705a0686e"
+    ],
+    [
+      "Evens.evenSSn",
+      1,
+      2,
+      1,
+      [ "@query", "true_interp" ],
+      0,
+      "a4f2e076a3b106733ee2a98e16271491"
+    ]
+  ]
+]

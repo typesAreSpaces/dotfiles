@@ -1,0 +1,365 @@
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 3 37 41 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 3 37 46
+type(
+  'Aa. 'Aa seq -> Prims.int -> 'Aa
+)
+ident(
+  def index "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 5 159 159 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 91 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 99
+type(
+  'Aa seq
+)
+ident(
+  def uu____32 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 104 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 157
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 108 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 116
+type(
+  Prims.int
+)
+ident(
+  def uu____33 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 121 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 157
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 121 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 129
+type(
+  string -> 'Aa
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 130 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 157
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 121 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 157
+call(
+  tail
+)
+type(
+  'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 104 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 157
+type(
+  Prims.int -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 87 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 4 85 157
+type(
+  'Aa seq -> Prims.int -> 'Aa
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 5 159 163 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 5 159 169
+type(
+  'Aa. 'Aa seq -> Prims.int -> 'Aa -> 'Aa seq
+)
+ident(
+  def update "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 9 317 317 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 6 219 225 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 6 219 233
+type(
+  'Aa seq
+)
+ident(
+  def uu____77 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 242 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 313
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 246 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 254
+type(
+  Prims.int
+)
+ident(
+  def uu____78 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 259 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 313
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 263 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 271
+type(
+  'Aa
+)
+ident(
+  def uu____79 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 276 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 313
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 276 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 284
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 285 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 313
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 276 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 313
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 259 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 313
+type(
+  'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 242 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 313
+type(
+  Prims.int -> 'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 6 219 221 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 7 238 313
+type(
+  'Aa seq -> Prims.int -> 'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 9 317 321 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 9 317 324
+type(
+  'Aa. Prims.unit -> 'Aa seq
+)
+ident(
+  def emp "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 11 406 406 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 357 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 365
+type(
+  Prims.unit
+)
+ident(
+  def uu____95 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 370 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 404
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 370 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 378
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 379 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 404
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 370 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 404
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 353 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 10 351 404
+type(
+  Prims.unit -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 11 406 410 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 11 406 416
+type(
+  'Aa. Prims.int -> 'Aa -> 'Aa seq
+)
+ident(
+  def create "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 13 532 532 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 461 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 470
+type(
+  Prims.int
+)
+ident(
+  def uu____127 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 475 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 530
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 479 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 488
+type(
+  'Aa
+)
+ident(
+  def uu____128 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 493 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 530
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 493 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 501
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 502 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 530
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 493 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 530
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 475 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 530
+type(
+  'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 457 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 12 455 530
+type(
+  Prims.int -> 'Aa -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 13 532 536 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 13 532 542
+type(
+  'Aa. 'Aa seq -> Prims.nat
+)
+ident(
+  def length "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 15 633 633 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 580 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 589
+type(
+  'Aa seq
+)
+ident(
+  def uu____151 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 594 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 631
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 594 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 602
+type(
+  string -> Prims.nat
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 603 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 631
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 594 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 631
+call(
+  tail
+)
+type(
+  Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 576 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 14 574 631
+type(
+  'Aa seq -> Prims.nat
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 15 633 637 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 15 633 642
+type(
+  'Aa. 'Aa seq -> Prims.int -> Prims.int -> 'Aa seq
+)
+ident(
+  def slice "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 19 798 798 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 16 698 704 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 16 698 713
+type(
+  'Aa seq
+)
+ident(
+  def uu____195 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 722 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 794
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 726 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 735
+type(
+  Prims.int
+)
+ident(
+  def uu____196 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 794
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 744 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 753
+type(
+  Prims.int
+)
+ident(
+  def uu____197 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 758 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 794
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 758 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 766
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 767 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 794
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 758 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 794
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 740 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 794
+type(
+  Prims.int -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 722 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 794
+type(
+  Prims.int -> Prims.int -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 16 698 700 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 17 718 794
+type(
+  'Aa seq -> Prims.int -> Prims.int -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 19 798 802 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 19 798 808
+type(
+  'Aa. 'Aa seq -> 'Aa seq -> 'Aa seq
+)
+ident(
+  def append "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 21 926 926 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 855 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 864
+type(
+  'Aa seq
+)
+ident(
+  def uu____236 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 869 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 924
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 873 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 882
+type(
+  'Aa seq
+)
+ident(
+  def uu____237 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 887 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 924
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 887 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 895
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 896 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 924
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 887 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 924
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 869 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 924
+type(
+  'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 851 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 20 849 924
+type(
+  'Aa seq -> 'Aa seq -> 'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 21 926 930 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 21 926 939
+type(
+  'Aa. 'Aa FStar_Pervasives_Native.option seq -> 'Aa seq
+)
+ident(
+  def proj_some "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 23 1062 1062 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 1 0 -1
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1006 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1015
+type(
+  'Aa FStar_Pervasives_Native.option seq
+)
+ident(
+  def uu____267 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1060
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1028
+type(
+  string -> 'Aa seq
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1029 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1060
+type(
+  string
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1020 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1060
+call(
+  tail
+)
+type(
+  'Aa seq
+)
+"ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1002 "ulib/tactics_ml/fstarlib_leftovers/FStar_Axiomatic_Array.ml" 22 1000 1060
+type(
+  'Aa FStar_Pervasives_Native.option seq -> 'Aa seq
+)

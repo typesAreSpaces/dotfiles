@@ -1,0 +1,87 @@
+
+
+lib: [
+  "_build/install/default/lib/stdint/META" {"META"}
+  "_build/install/default/lib/stdint/bytes_conv.ml" {"bytes_conv.ml"}
+  "_build/install/default/lib/stdint/bytes_conv.mli" {"bytes_conv.mli"}
+  "_build/install/default/lib/stdint/infix.ml" {"infix.ml"}
+  "_build/install/default/lib/stdint/infix.mli" {"infix.mli"}
+  "_build/install/default/lib/stdint/int128.h" {"int128.h"}
+  "_build/install/default/lib/stdint/int16.h" {"int16.h"}
+  "_build/install/default/lib/stdint/int24.h" {"int24.h"}
+  "_build/install/default/lib/stdint/int40.h" {"int40.h"}
+  "_build/install/default/lib/stdint/int48.h" {"int48.h"}
+  "_build/install/default/lib/stdint/int56.h" {"int56.h"}
+  "_build/install/default/lib/stdint/int8.h" {"int8.h"}
+  "_build/install/default/lib/stdint/int_wrapper.ml" {"int_wrapper.ml"}
+  "_build/install/default/lib/stdint/int_wrapper.mli" {"int_wrapper.mli"}
+  "_build/install/default/lib/stdint/libstdint_stubs.a" {"libstdint_stubs.a"}
+  "_build/install/default/lib/stdint/opam" {"opam"}
+  "_build/install/default/lib/stdint/stdint.a" {"stdint.a"}
+  "_build/install/default/lib/stdint/stdint.cma" {"stdint.cma"}
+  "_build/install/default/lib/stdint/stdint.cmi" {"stdint.cmi"}
+  "_build/install/default/lib/stdint/stdint.cmt" {"stdint.cmt"}
+  "_build/install/default/lib/stdint/stdint.cmti" {"stdint.cmti"}
+  "_build/install/default/lib/stdint/stdint.cmx" {"stdint.cmx"}
+  "_build/install/default/lib/stdint/stdint.cmxa" {"stdint.cmxa"}
+  "_build/install/default/lib/stdint/stdint.cmxs" {"stdint.cmxs"}
+  "_build/install/default/lib/stdint/stdint.dune" {"stdint.dune"}
+  "_build/install/default/lib/stdint/stdint.ml" {"stdint.ml"}
+  "_build/install/default/lib/stdint/stdint.mli" {"stdint.mli"}
+  "_build/install/default/lib/stdint/stdint__.cmi" {"stdint__.cmi"}
+  "_build/install/default/lib/stdint/stdint__.cmt" {"stdint__.cmt"}
+  "_build/install/default/lib/stdint/stdint__.cmx" {"stdint__.cmx"}
+  "_build/install/default/lib/stdint/stdint__.ml-gen" {"stdint__.ml-gen"}
+  "_build/install/default/lib/stdint/stdint__Bytes_conv.cmi"
+    {"stdint__Bytes_conv.cmi"}
+  "_build/install/default/lib/stdint/stdint__Bytes_conv.cmt"
+    {"stdint__Bytes_conv.cmt"}
+  "_build/install/default/lib/stdint/stdint__Bytes_conv.cmti"
+    {"stdint__Bytes_conv.cmti"}
+  "_build/install/default/lib/stdint/stdint__Bytes_conv.cmx"
+    {"stdint__Bytes_conv.cmx"}
+  "_build/install/default/lib/stdint/stdint__Infix.cmi" {"stdint__Infix.cmi"}
+  "_build/install/default/lib/stdint/stdint__Infix.cmt" {"stdint__Infix.cmt"}
+  "_build/install/default/lib/stdint/stdint__Infix.cmti"
+    {"stdint__Infix.cmti"}
+  "_build/install/default/lib/stdint/stdint__Infix.cmx" {"stdint__Infix.cmx"}
+  "_build/install/default/lib/stdint/stdint__Int_wrapper.cmi"
+    {"stdint__Int_wrapper.cmi"}
+  "_build/install/default/lib/stdint/stdint__Int_wrapper.cmt"
+    {"stdint__Int_wrapper.cmt"}
+  "_build/install/default/lib/stdint/stdint__Int_wrapper.cmti"
+    {"stdint__Int_wrapper.cmti"}
+  "_build/install/default/lib/stdint/stdint__Int_wrapper.cmx"
+    {"stdint__Int_wrapper.cmx"}
+  "_build/install/default/lib/stdint/stdint__Str_conv.cmi"
+    {"stdint__Str_conv.cmi"}
+  "_build/install/default/lib/stdint/stdint__Str_conv.cmt"
+    {"stdint__Str_conv.cmt"}
+  "_build/install/default/lib/stdint/stdint__Str_conv.cmti"
+    {"stdint__Str_conv.cmti"}
+  "_build/install/default/lib/stdint/stdint__Str_conv.cmx"
+    {"stdint__Str_conv.cmx"}
+  "_build/install/default/lib/stdint/str_conv.ml" {"str_conv.ml"}
+  "_build/install/default/lib/stdint/str_conv.mli" {"str_conv.mli"}
+  "_build/install/default/lib/stdint/uint128.h" {"uint128.h"}
+  "_build/install/default/lib/stdint/uint16.h" {"uint16.h"}
+  "_build/install/default/lib/stdint/uint24.h" {"uint24.h"}
+  "_build/install/default/lib/stdint/uint32.h" {"uint32.h"}
+  "_build/install/default/lib/stdint/uint40.h" {"uint40.h"}
+  "_build/install/default/lib/stdint/uint48.h" {"uint48.h"}
+  "_build/install/default/lib/stdint/uint56.h" {"uint56.h"}
+  "_build/install/default/lib/stdint/uint64.h" {"uint64.h"}
+  "_build/install/default/lib/stdint/uint8.h" {"uint8.h"}
+]
+
+stublibs: "_build/install/default/lib/stublibs/dllstdint_stubs.so"
+
+
+
+doc: [
+  "_build/install/default/doc/stdint/LICENSE"
+  "_build/install/default/doc/stdint/README.md"
+]
+
+
+

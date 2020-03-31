@@ -1,0 +1,432 @@
+"ulib/ml/extracted/FStar_Relational_State.ml" 2 11 15 "ulib/ml/extracted/FStar_Relational_State.ml" 2 11 24
+type(
+  'Auu____9.
+    'Auu____9 FStar_ST.ref -> 'Auu____9 FStar_Relational_Relational.double
+)
+ident(
+  def read_rel1 "ulib/ml/extracted/FStar_Relational_State.ml" 10 234 234 "ulib/ml/extracted/FStar_Relational_State.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 6 120 126 "ulib/ml/extracted/FStar_Relational_State.ml" 6 120 127
+type(
+  'Auu____9 FStar_ST.ref
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Relational_State.ml" 7 132 136 "ulib/ml/extracted/FStar_Relational_State.ml" 8 187 230
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 7 132 136 "ulib/ml/extracted/FStar_Relational_State.ml" 7 132 171
+type(
+  ('Auu____9 FStar_ST.ref -> 'Auu____9) ->
+  'Auu____9 FStar_ST.ref FStar_Relational_Relational.double ->
+  'Auu____9 FStar_Relational_Relational.double
+)
+ident(
+  ext_ref FStar_Relational_Comp.compose2_self
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 7 132 172 "ulib/ml/extracted/FStar_Relational_State.ml" 7 132 186
+type(
+  'Auu____9 FStar_ST.ref -> 'Auu____9
+)
+ident(
+  ext_ref FStar_Ref.read
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 8 187 194 "ulib/ml/extracted/FStar_Relational_State.ml" 8 187 227
+type(
+  'Auu____9 FStar_ST.ref ->
+  'Auu____9 FStar_ST.ref FStar_Relational_Relational.double
+)
+ident(
+  ext_ref FStar_Relational_Relational.twice
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 8 187 228 "ulib/ml/extracted/FStar_Relational_State.ml" 8 187 229
+type(
+  'Auu____9 FStar_ST.ref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Relational_State.ml" 6 120 126 "ulib/ml/extracted/FStar_Relational_State.ml" 6 120 127
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 8 187 193 "ulib/ml/extracted/FStar_Relational_State.ml" 8 187 230
+call(
+  stack
+)
+type(
+  'Auu____9 FStar_ST.ref FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 7 132 136 "ulib/ml/extracted/FStar_Relational_State.ml" 8 187 230
+call(
+  tail
+)
+type(
+  'Auu____9 FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 6 120 122 "ulib/ml/extracted/FStar_Relational_State.ml" 8 187 230
+type(
+  'Auu____9 FStar_ST.ref -> 'Auu____9 FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 10 234 238 "ulib/ml/extracted/FStar_Relational_State.ml" 10 234 247
+type(
+  'Auu____46.
+    Prims.unit ->
+    'Auu____46 FStar_ST.ref FStar_Relational_Relational.double ->
+    'Auu____46 FStar_Relational_Relational.double
+)
+ident(
+  def read_rel2 "ulib/ml/extracted/FStar_Relational_State.ml" 16 472 472 "ulib/ml/extracted/FStar_Relational_State.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 15 399 407 "ulib/ml/extracted/FStar_Relational_State.ml" 15 399 415
+type(
+  Prims.unit
+)
+ident(
+  def uu____60 "ulib/ml/extracted/FStar_Relational_State.ml" 15 399 420 "ulib/ml/extracted/FStar_Relational_State.ml" 15 399 470
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 15 399 420 "ulib/ml/extracted/FStar_Relational_State.ml" 15 399 455
+type(
+  ('Auu____46 FStar_ST.ref -> 'Auu____46) ->
+  'Auu____46 FStar_ST.ref FStar_Relational_Relational.double ->
+  'Auu____46 FStar_Relational_Relational.double
+)
+ident(
+  ext_ref FStar_Relational_Comp.compose2_self
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 15 399 456 "ulib/ml/extracted/FStar_Relational_State.ml" 15 399 470
+type(
+  'Auu____46 FStar_ST.ref -> 'Auu____46
+)
+ident(
+  ext_ref FStar_Ref.read
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 15 399 420 "ulib/ml/extracted/FStar_Relational_State.ml" 15 399 470
+call(
+  tail
+)
+type(
+  'Auu____46 FStar_ST.ref FStar_Relational_Relational.double ->
+  'Auu____46 FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 15 399 403 "ulib/ml/extracted/FStar_Relational_State.ml" 15 399 470
+type(
+  Prims.unit ->
+  'Auu____46 FStar_ST.ref FStar_Relational_Relational.double ->
+  'Auu____46 FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 16 472 476 "ulib/ml/extracted/FStar_Relational_State.ml" 16 472 487
+type(
+  'Auu____91.
+    'Auu____91 FStar_ST.ref ->
+    ('Auu____91, 'Auu____91) FStar_Relational_Relational.rel ->
+    Prims.unit FStar_Relational_Relational.double
+)
+ident(
+  def assign_rel1 "ulib/ml/extracted/FStar_Relational_State.ml" 30 913 913 "ulib/ml/extracted/FStar_Relational_State.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 22 653 659 "ulib/ml/extracted/FStar_Relational_State.ml" 22 653 660
+type(
+  'Auu____91 FStar_ST.ref
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Relational_State.ml" 23 665 669 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 909
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 23 665 673 "ulib/ml/extracted/FStar_Relational_State.ml" 23 665 674
+type(
+  ('Auu____91, 'Auu____91) FStar_Relational_Relational.rel
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Relational_State.ml" 24 679 685 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 909
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 24 679 685 "ulib/ml/extracted/FStar_Relational_State.ml" 24 679 720
+type(
+  ('Auu____91 FStar_ST.ref * 'Auu____91 -> Prims.unit) ->
+  ('Auu____91 FStar_ST.ref * 'Auu____91) FStar_Relational_Relational.double ->
+  Prims.unit FStar_Relational_Relational.double
+)
+ident(
+  ext_ref FStar_Relational_Comp.compose2_self
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 25 721 734 "ulib/ml/extracted/FStar_Relational_State.ml" 25 721 743
+type(
+  'Auu____91 FStar_ST.ref * 'Auu____91
+)
+ident(
+  def uu____153 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 759 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 810
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 765 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 774
+type(
+  'Auu____91 FStar_ST.ref * 'Auu____91
+)
+ident(
+  int_ref uu____153 "ulib/ml/extracted/FStar_Relational_State.ml" 25 721 734 "ulib/ml/extracted/FStar_Relational_State.ml" 25 721 743
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 783 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 784
+type(
+  'Auu____91 FStar_ST.ref
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 791 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 810
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 785 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 786
+type(
+  'Auu____91
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 791 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 810
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 782 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 787
+type(
+  'Auu____91 FStar_ST.ref * 'Auu____91
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 791 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 806
+type(
+  'Auu____91 FStar_ST.ref -> 'Auu____91 -> Prims.unit
+)
+ident(
+  ext_ref FStar_Ref.write
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 807 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 808
+type(
+  'Auu____91 FStar_ST.ref
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 783 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 784
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 809 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 810
+type(
+  'Auu____91
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 785 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 786
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 791 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 810
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 26 748 759 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 810
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 25 721 729 "ulib/ml/extracted/FStar_Relational_State.ml" 26 748 811
+type(
+  'Auu____91 FStar_ST.ref * 'Auu____91 -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 27 812 821 "ulib/ml/extracted/FStar_Relational_State.ml" 27 812 857
+type(
+  ('Auu____91 FStar_ST.ref, 'Auu____91 FStar_ST.ref)
+  FStar_Relational_Relational.rel ->
+  ('Auu____91, 'Auu____91) FStar_Relational_Relational.rel ->
+  ('Auu____91 FStar_ST.ref * 'Auu____91) FStar_Relational_Relational.double
+)
+ident(
+  ext_ref FStar_Relational_Relational.pair_rel
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 28 858 870 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 903
+type(
+  'Auu____91 FStar_ST.ref ->
+  ('Auu____91 FStar_ST.ref, 'Auu____91 FStar_ST.ref)
+  FStar_Relational_Relational.rel
+)
+ident(
+  ext_ref FStar_Relational_Relational.twice
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 28 858 904 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 905
+type(
+  'Auu____91 FStar_ST.ref
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Relational_State.ml" 22 653 659 "ulib/ml/extracted/FStar_Relational_State.ml" 22 653 660
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 28 858 869 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 906
+call(
+  stack
+)
+type(
+  ('Auu____91 FStar_ST.ref, 'Auu____91 FStar_ST.ref)
+  FStar_Relational_Relational.rel
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 28 858 907 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 908
+type(
+  ('Auu____91, 'Auu____91) FStar_Relational_Relational.rel
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Relational_State.ml" 23 665 673 "ulib/ml/extracted/FStar_Relational_State.ml" 23 665 674
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 27 812 820 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 909
+call(
+  stack
+)
+type(
+  ('Auu____91 FStar_ST.ref * 'Auu____91) FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 24 679 685 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 909
+call(
+  tail
+)
+type(
+  Prims.unit FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 23 665 669 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 909
+type(
+  ('Auu____91, 'Auu____91) FStar_Relational_Relational.rel ->
+  Prims.unit FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 22 653 655 "ulib/ml/extracted/FStar_Relational_State.ml" 28 858 909
+type(
+  'Auu____91 FStar_ST.ref ->
+  ('Auu____91, 'Auu____91) FStar_Relational_Relational.rel ->
+  Prims.unit FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 30 913 917 "ulib/ml/extracted/FStar_Relational_State.ml" 30 913 928
+type(
+  'Auu____192.
+    ('Auu____192 FStar_ST.ref, 'Auu____192 FStar_ST.ref)
+    FStar_Relational_Relational.rel ->
+    ('Auu____192, 'Auu____192) FStar_Relational_Relational.rel ->
+    Prims.unit FStar_Relational_Relational.double
+)
+ident(
+  def assign_rel2 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1372 "ulib/ml/extracted/FStar_Relational_State.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 37 1163 1169 "ulib/ml/extracted/FStar_Relational_State.ml" 37 1163 1170
+type(
+  ('Auu____192 FStar_ST.ref, 'Auu____192 FStar_ST.ref)
+  FStar_Relational_Relational.rel
+)
+ident(
+  def r "ulib/ml/extracted/FStar_Relational_State.ml" 38 1175 1179 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1372
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 38 1175 1183 "ulib/ml/extracted/FStar_Relational_State.ml" 38 1175 1184
+type(
+  ('Auu____192, 'Auu____192) FStar_Relational_Relational.rel
+)
+ident(
+  def v "ulib/ml/extracted/FStar_Relational_State.ml" 39 1189 1195 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1372
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 39 1189 1195 "ulib/ml/extracted/FStar_Relational_State.ml" 39 1189 1230
+type(
+  ('Auu____192 FStar_ST.ref * 'Auu____192 -> Prims.unit) ->
+  ('Auu____192 FStar_ST.ref * 'Auu____192) FStar_Relational_Relational.double ->
+  Prims.unit FStar_Relational_Relational.double
+)
+ident(
+  ext_ref FStar_Relational_Comp.compose2_self
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 40 1231 1244 "ulib/ml/extracted/FStar_Relational_State.ml" 40 1231 1253
+type(
+  'Auu____192 FStar_ST.ref * 'Auu____192
+)
+ident(
+  def uu____266 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1269 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1320
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1275 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1284
+type(
+  'Auu____192 FStar_ST.ref * 'Auu____192
+)
+ident(
+  int_ref uu____266 "ulib/ml/extracted/FStar_Relational_State.ml" 40 1231 1244 "ulib/ml/extracted/FStar_Relational_State.ml" 40 1231 1253
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1293 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1294
+type(
+  'Auu____192 FStar_ST.ref
+)
+ident(
+  def a "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1301 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1320
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1295 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1296
+type(
+  'Auu____192
+)
+ident(
+  def b "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1301 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1320
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1292 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1297
+type(
+  'Auu____192 FStar_ST.ref * 'Auu____192
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1301 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1316
+type(
+  'Auu____192 FStar_ST.ref -> 'Auu____192 -> Prims.unit
+)
+ident(
+  ext_ref FStar_Ref.write
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1317 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1318
+type(
+  'Auu____192 FStar_ST.ref
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1293 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1294
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1319 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1320
+type(
+  'Auu____192
+)
+ident(
+  int_ref b "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1295 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1296
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1301 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1320
+call(
+  tail
+)
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1269 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1320
+type(
+  Prims.unit
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 40 1231 1239 "ulib/ml/extracted/FStar_Relational_State.ml" 41 1258 1321
+type(
+  'Auu____192 FStar_ST.ref * 'Auu____192 -> Prims.unit
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1331 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1367
+type(
+  ('Auu____192 FStar_ST.ref, 'Auu____192 FStar_ST.ref)
+  FStar_Relational_Relational.rel ->
+  ('Auu____192, 'Auu____192) FStar_Relational_Relational.rel ->
+  ('Auu____192 FStar_ST.ref * 'Auu____192) FStar_Relational_Relational.double
+)
+ident(
+  ext_ref FStar_Relational_Relational.pair_rel
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1368 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1369
+type(
+  ('Auu____192 FStar_ST.ref, 'Auu____192 FStar_ST.ref)
+  FStar_Relational_Relational.rel
+)
+ident(
+  int_ref r "ulib/ml/extracted/FStar_Relational_State.ml" 37 1163 1169 "ulib/ml/extracted/FStar_Relational_State.ml" 37 1163 1170
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1370 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1371
+type(
+  ('Auu____192, 'Auu____192) FStar_Relational_Relational.rel
+)
+ident(
+  int_ref v "ulib/ml/extracted/FStar_Relational_State.ml" 38 1175 1183 "ulib/ml/extracted/FStar_Relational_State.ml" 38 1175 1184
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1330 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1372
+call(
+  stack
+)
+type(
+  ('Auu____192 FStar_ST.ref * 'Auu____192) FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 39 1189 1195 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1372
+call(
+  tail
+)
+type(
+  Prims.unit FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 38 1175 1179 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1372
+type(
+  ('Auu____192, 'Auu____192) FStar_Relational_Relational.rel ->
+  Prims.unit FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_State.ml" 37 1163 1165 "ulib/ml/extracted/FStar_Relational_State.ml" 42 1322 1372
+type(
+  ('Auu____192 FStar_ST.ref, 'Auu____192 FStar_ST.ref)
+  FStar_Relational_Relational.rel ->
+  ('Auu____192, 'Auu____192) FStar_Relational_Relational.rel ->
+  Prims.unit FStar_Relational_Relational.double
+)

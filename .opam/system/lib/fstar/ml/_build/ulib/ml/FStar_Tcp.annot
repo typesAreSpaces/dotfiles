@@ -1,0 +1,1635 @@
+"ulib/ml/FStar_Tcp.ml" 8 118 124 "ulib/ml/FStar_Tcp.ml" 8 118 130
+type(
+  string -> Z.t -> Unix.file_descr
+)
+ident(
+  def listen "ulib/ml/FStar_Tcp.ml" 17 419 421 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 8 118 131 "ulib/ml/FStar_Tcp.ml" 8 118 132
+type(
+  string
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 8 118 133 "ulib/ml/FStar_Tcp.ml" 15 398 417
+)
+"ulib/ml/FStar_Tcp.ml" 8 118 133 "ulib/ml/FStar_Tcp.ml" 8 118 134
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 9 137 143 "ulib/ml/FStar_Tcp.ml" 15 398 417
+)
+"ulib/ml/FStar_Tcp.ml" 9 137 147 "ulib/ml/FStar_Tcp.ml" 9 137 148
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 10 165 171 "ulib/ml/FStar_Tcp.ml" 15 398 417
+)
+"ulib/ml/FStar_Tcp.ml" 9 137 151 "ulib/ml/FStar_Tcp.ml" 9 137 159
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Tcp.ml" 9 137 160 "ulib/ml/FStar_Tcp.ml" 9 137 161
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 8 118 133 "ulib/ml/FStar_Tcp.ml" 8 118 134
+)
+"ulib/ml/FStar_Tcp.ml" 9 137 151 "ulib/ml/FStar_Tcp.ml" 9 137 161
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 10 165 175 "ulib/ml/FStar_Tcp.ml" 10 165 186
+type(
+  Unix.file_descr
+)
+ident(
+  def server_sock "ulib/ml/FStar_Tcp.ml" 11 221 227 "ulib/ml/FStar_Tcp.ml" 15 398 417
+)
+"ulib/ml/FStar_Tcp.ml" 10 165 189 "ulib/ml/FStar_Tcp.ml" 10 165 195
+type(
+  ?cloexec:bool ->
+  Unix.socket_domain -> Unix.socket_type -> int -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.socket
+)
+"ulib/ml/FStar_Tcp.ml" 10 165 196 "ulib/ml/FStar_Tcp.ml" 10 165 203
+type(
+  Unix.socket_domain
+)
+"ulib/ml/FStar_Tcp.ml" 10 165 204 "ulib/ml/FStar_Tcp.ml" 10 165 215
+type(
+  Unix.socket_type
+)
+"ulib/ml/FStar_Tcp.ml" 10 165 216 "ulib/ml/FStar_Tcp.ml" 10 165 217
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 10 165 189 "ulib/ml/FStar_Tcp.ml" 10 165 217
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 11 221 228 "ulib/ml/FStar_Tcp.ml" 11 221 238
+type(
+  Unix.file_descr -> Unix.socket_bool_option -> bool -> unit
+)
+ident(
+  ext_ref Unix.setsockopt
+)
+"ulib/ml/FStar_Tcp.ml" 11 221 239 "ulib/ml/FStar_Tcp.ml" 11 221 250
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref server_sock "ulib/ml/FStar_Tcp.ml" 10 165 175 "ulib/ml/FStar_Tcp.ml" 10 165 186
+)
+"ulib/ml/FStar_Tcp.ml" 11 221 251 "ulib/ml/FStar_Tcp.ml" 11 221 263
+type(
+  Unix.socket_bool_option
+)
+"ulib/ml/FStar_Tcp.ml" 11 221 264 "ulib/ml/FStar_Tcp.ml" 11 221 268
+type(
+  bool
+)
+"ulib/ml/FStar_Tcp.ml" 11 221 228 "ulib/ml/FStar_Tcp.ml" 11 221 268
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/FStar_Tcp.ml" 12 271 282 "ulib/ml/FStar_Tcp.ml" 12 271 289
+type(
+  Unix.inet_addr
+)
+ident(
+  def address "ulib/ml/FStar_Tcp.ml" 13 317 324 "ulib/ml/FStar_Tcp.ml" 15 398 416
+)
+"ulib/ml/FStar_Tcp.ml" 12 271 292 "ulib/ml/FStar_Tcp.ml" 12 271 311
+type(
+  string -> Unix.inet_addr
+)
+ident(
+  ext_ref Unix.inet_addr_of_string
+)
+"ulib/ml/FStar_Tcp.ml" 12 271 312 "ulib/ml/FStar_Tcp.ml" 12 271 313
+type(
+  string
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 8 118 131 "ulib/ml/FStar_Tcp.ml" 8 118 132
+)
+"ulib/ml/FStar_Tcp.ml" 12 271 292 "ulib/ml/FStar_Tcp.ml" 12 271 313
+call(
+  stack
+)
+type(
+  Unix.inet_addr
+)
+"ulib/ml/FStar_Tcp.ml" 13 317 324 "ulib/ml/FStar_Tcp.ml" 13 317 328
+type(
+  Unix.file_descr -> Unix.sockaddr -> unit
+)
+ident(
+  ext_ref Unix.bind
+)
+"ulib/ml/FStar_Tcp.ml" 13 317 329 "ulib/ml/FStar_Tcp.ml" 13 317 340
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref server_sock "ulib/ml/FStar_Tcp.ml" 10 165 175 "ulib/ml/FStar_Tcp.ml" 10 165 186
+)
+"ulib/ml/FStar_Tcp.ml" 13 317 353 "ulib/ml/FStar_Tcp.ml" 13 317 360
+type(
+  Unix.inet_addr
+)
+ident(
+  int_ref address "ulib/ml/FStar_Tcp.ml" 12 271 282 "ulib/ml/FStar_Tcp.ml" 12 271 289
+)
+"ulib/ml/FStar_Tcp.ml" 13 317 362 "ulib/ml/FStar_Tcp.ml" 13 317 363
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 9 137 147 "ulib/ml/FStar_Tcp.ml" 9 137 148
+)
+"ulib/ml/FStar_Tcp.ml" 13 317 341 "ulib/ml/FStar_Tcp.ml" 13 317 365
+type(
+  Unix.sockaddr
+)
+"ulib/ml/FStar_Tcp.ml" 13 317 324 "ulib/ml/FStar_Tcp.ml" 13 317 365
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/FStar_Tcp.ml" 14 368 375 "ulib/ml/FStar_Tcp.ml" 14 368 381
+type(
+  Unix.file_descr -> int -> unit
+)
+ident(
+  ext_ref Unix.listen
+)
+"ulib/ml/FStar_Tcp.ml" 14 368 382 "ulib/ml/FStar_Tcp.ml" 14 368 393
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref server_sock "ulib/ml/FStar_Tcp.ml" 10 165 175 "ulib/ml/FStar_Tcp.ml" 10 165 186
+)
+"ulib/ml/FStar_Tcp.ml" 14 368 394 "ulib/ml/FStar_Tcp.ml" 14 368 396
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 14 368 375 "ulib/ml/FStar_Tcp.ml" 14 368 396
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/FStar_Tcp.ml" 15 398 405 "ulib/ml/FStar_Tcp.ml" 15 398 416
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref server_sock "ulib/ml/FStar_Tcp.ml" 10 165 175 "ulib/ml/FStar_Tcp.ml" 10 165 186
+)
+"ulib/ml/FStar_Tcp.ml" 14 368 375 "ulib/ml/FStar_Tcp.ml" 15 398 416
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 13 317 324 "ulib/ml/FStar_Tcp.ml" 15 398 416
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 12 271 278 "ulib/ml/FStar_Tcp.ml" 15 398 416
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 11 221 227 "ulib/ml/FStar_Tcp.ml" 15 398 417
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 10 165 171 "ulib/ml/FStar_Tcp.ml" 15 398 417
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 9 137 143 "ulib/ml/FStar_Tcp.ml" 15 398 417
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 17 419 425 "ulib/ml/FStar_Tcp.ml" 17 419 431
+type(
+  Unix.file_descr -> Unix.file_descr
+)
+ident(
+  def accept "ulib/ml/FStar_Tcp.ml" 21 506 508 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 17 419 432 "ulib/ml/FStar_Tcp.ml" 17 419 433
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 18 436 442 "ulib/ml/FStar_Tcp.ml" 19 487 504
+)
+"ulib/ml/FStar_Tcp.ml" 18 436 447 "ulib/ml/FStar_Tcp.ml" 18 436 458
+type(
+  Unix.file_descr
+)
+ident(
+  def client_sock "ulib/ml/FStar_Tcp.ml" 19 487 493 "ulib/ml/FStar_Tcp.ml" 19 487 504
+)
+"ulib/ml/FStar_Tcp.ml" 18 436 460 "ulib/ml/FStar_Tcp.ml" 18 436 471
+type(
+  Unix.sockaddr
+)
+ident(
+  def client_addr "ulib/ml/FStar_Tcp.ml" 19 487 493 "ulib/ml/FStar_Tcp.ml" 19 487 504
+)
+"ulib/ml/FStar_Tcp.ml" 18 436 446 "ulib/ml/FStar_Tcp.ml" 18 436 472
+type(
+  Unix.file_descr * Unix.sockaddr
+)
+"ulib/ml/FStar_Tcp.ml" 18 436 475 "ulib/ml/FStar_Tcp.ml" 18 436 481
+type(
+  ?cloexec:bool -> Unix.file_descr -> Unix.file_descr * Unix.sockaddr
+)
+ident(
+  ext_ref Unix.accept
+)
+"ulib/ml/FStar_Tcp.ml" 18 436 482 "ulib/ml/FStar_Tcp.ml" 18 436 483
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 17 419 432 "ulib/ml/FStar_Tcp.ml" 17 419 433
+)
+"ulib/ml/FStar_Tcp.ml" 18 436 475 "ulib/ml/FStar_Tcp.ml" 18 436 483
+call(
+  stack
+)
+type(
+  Unix.file_descr * Unix.sockaddr
+)
+"ulib/ml/FStar_Tcp.ml" 19 487 493 "ulib/ml/FStar_Tcp.ml" 19 487 504
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref client_sock "ulib/ml/FStar_Tcp.ml" 18 436 447 "ulib/ml/FStar_Tcp.ml" 18 436 458
+)
+"ulib/ml/FStar_Tcp.ml" 18 436 442 "ulib/ml/FStar_Tcp.ml" 19 487 504
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 21 506 512 "ulib/ml/FStar_Tcp.ml" 21 506 525
+type(
+  'a -> Unix.file_descr -> Unix.file_descr
+)
+ident(
+  def acceptTimeout "ulib/ml/FStar_Tcp.ml" 23 542 544 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 21 506 526 "ulib/ml/FStar_Tcp.ml" 21 506 527
+type(
+  'a
+)
+ident(
+  def t "ulib/ml/FStar_Tcp.ml" 21 506 528 "ulib/ml/FStar_Tcp.ml" 21 506 540
+)
+"ulib/ml/FStar_Tcp.ml" 21 506 528 "ulib/ml/FStar_Tcp.ml" 21 506 529
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 21 506 532 "ulib/ml/FStar_Tcp.ml" 21 506 540
+)
+"ulib/ml/FStar_Tcp.ml" 21 506 532 "ulib/ml/FStar_Tcp.ml" 21 506 538
+type(
+  Unix.file_descr -> Unix.file_descr
+)
+ident(
+  int_ref accept "ulib/ml/FStar_Tcp.ml" 17 419 425 "ulib/ml/FStar_Tcp.ml" 17 419 431
+)
+"ulib/ml/FStar_Tcp.ml" 21 506 539 "ulib/ml/FStar_Tcp.ml" 21 506 540
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 21 506 528 "ulib/ml/FStar_Tcp.ml" 21 506 529
+)
+"ulib/ml/FStar_Tcp.ml" 21 506 532 "ulib/ml/FStar_Tcp.ml" 21 506 540
+call(
+  tail
+)
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 23 542 548 "ulib/ml/FStar_Tcp.ml" 23 542 552
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def stop "ulib/ml/FStar_Tcp.ml" 25 582 584 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 23 542 553 "ulib/ml/FStar_Tcp.ml" 23 542 554
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 23 542 557 "ulib/ml/FStar_Tcp.ml" 23 542 580
+)
+"ulib/ml/FStar_Tcp.ml" 23 542 557 "ulib/ml/FStar_Tcp.ml" 23 542 565
+type(
+  Unix.file_descr -> Unix.shutdown_command -> unit
+)
+ident(
+  ext_ref Unix.shutdown
+)
+"ulib/ml/FStar_Tcp.ml" 23 542 566 "ulib/ml/FStar_Tcp.ml" 23 542 567
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 23 542 553 "ulib/ml/FStar_Tcp.ml" 23 542 554
+)
+"ulib/ml/FStar_Tcp.ml" 23 542 568 "ulib/ml/FStar_Tcp.ml" 23 542 580
+type(
+  Unix.shutdown_command
+)
+"ulib/ml/FStar_Tcp.ml" 23 542 557 "ulib/ml/FStar_Tcp.ml" 23 542 580
+call(
+  tail
+)
+type(
+  unit
+)
+"ulib/ml/FStar_Tcp.ml" 25 582 588 "ulib/ml/FStar_Tcp.ml" 25 582 595
+type(
+  string -> Z.t -> Unix.file_descr
+)
+ident(
+  def connect "ulib/ml/FStar_Tcp.ml" 32 811 813 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 25 582 596 "ulib/ml/FStar_Tcp.ml" 25 582 597
+type(
+  string
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 25 582 598 "ulib/ml/FStar_Tcp.ml" 30 792 809
+)
+"ulib/ml/FStar_Tcp.ml" 25 582 598 "ulib/ml/FStar_Tcp.ml" 25 582 599
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 26 602 608 "ulib/ml/FStar_Tcp.ml" 30 792 809
+)
+"ulib/ml/FStar_Tcp.ml" 26 602 612 "ulib/ml/FStar_Tcp.ml" 26 602 613
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 27 630 636 "ulib/ml/FStar_Tcp.ml" 30 792 809
+)
+"ulib/ml/FStar_Tcp.ml" 26 602 616 "ulib/ml/FStar_Tcp.ml" 26 602 624
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Tcp.ml" 26 602 625 "ulib/ml/FStar_Tcp.ml" 26 602 626
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 25 582 598 "ulib/ml/FStar_Tcp.ml" 25 582 599
+)
+"ulib/ml/FStar_Tcp.ml" 26 602 616 "ulib/ml/FStar_Tcp.ml" 26 602 626
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 27 630 640 "ulib/ml/FStar_Tcp.ml" 27 630 651
+type(
+  Unix.file_descr
+)
+ident(
+  def client_sock "ulib/ml/FStar_Tcp.ml" 28 686 692 "ulib/ml/FStar_Tcp.ml" 30 792 809
+)
+"ulib/ml/FStar_Tcp.ml" 27 630 654 "ulib/ml/FStar_Tcp.ml" 27 630 660
+type(
+  ?cloexec:bool ->
+  Unix.socket_domain -> Unix.socket_type -> int -> Unix.file_descr
+)
+ident(
+  ext_ref Unix.socket
+)
+"ulib/ml/FStar_Tcp.ml" 27 630 661 "ulib/ml/FStar_Tcp.ml" 27 630 668
+type(
+  Unix.socket_domain
+)
+"ulib/ml/FStar_Tcp.ml" 27 630 669 "ulib/ml/FStar_Tcp.ml" 27 630 680
+type(
+  Unix.socket_type
+)
+"ulib/ml/FStar_Tcp.ml" 27 630 681 "ulib/ml/FStar_Tcp.ml" 27 630 682
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 27 630 654 "ulib/ml/FStar_Tcp.ml" 27 630 682
+call(
+  stack
+)
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 28 686 696 "ulib/ml/FStar_Tcp.ml" 28 686 702
+type(
+  Unix.host_entry
+)
+ident(
+  def hentry "ulib/ml/FStar_Tcp.ml" 29 724 730 "ulib/ml/FStar_Tcp.ml" 30 792 809
+)
+"ulib/ml/FStar_Tcp.ml" 28 686 705 "ulib/ml/FStar_Tcp.ml" 28 686 718
+type(
+  string -> Unix.host_entry
+)
+ident(
+  ext_ref Unix.gethostbyname
+)
+"ulib/ml/FStar_Tcp.ml" 28 686 719 "ulib/ml/FStar_Tcp.ml" 28 686 720
+type(
+  string
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 25 582 596 "ulib/ml/FStar_Tcp.ml" 25 582 597
+)
+"ulib/ml/FStar_Tcp.ml" 28 686 705 "ulib/ml/FStar_Tcp.ml" 28 686 720
+call(
+  stack
+)
+type(
+  Unix.host_entry
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 730 "ulib/ml/FStar_Tcp.ml" 29 724 737
+type(
+  Unix.file_descr -> Unix.sockaddr -> unit
+)
+ident(
+  ext_ref Unix.connect
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 738 "ulib/ml/FStar_Tcp.ml" 29 724 749
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref client_sock "ulib/ml/FStar_Tcp.ml" 27 630 640 "ulib/ml/FStar_Tcp.ml" 27 630 651
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 762 "ulib/ml/FStar_Tcp.ml" 29 724 768
+type(
+  Unix.host_entry
+)
+ident(
+  int_ref hentry "ulib/ml/FStar_Tcp.ml" 28 686 696 "ulib/ml/FStar_Tcp.ml" 28 686 702
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 762 "ulib/ml/FStar_Tcp.ml" 29 724 780
+type(
+  Unix.inet_addr array
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 782 "ulib/ml/FStar_Tcp.ml" 29 724 783
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 762 "ulib/ml/FStar_Tcp.ml" 29 724 784
+type(
+  Unix.inet_addr
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 786 "ulib/ml/FStar_Tcp.ml" 29 724 787
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 26 602 612 "ulib/ml/FStar_Tcp.ml" 26 602 613
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 750 "ulib/ml/FStar_Tcp.ml" 29 724 789
+type(
+  Unix.sockaddr
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 730 "ulib/ml/FStar_Tcp.ml" 29 724 789
+call(
+  stack
+)
+type(
+  unit
+)
+"ulib/ml/FStar_Tcp.ml" 30 792 798 "ulib/ml/FStar_Tcp.ml" 30 792 809
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref client_sock "ulib/ml/FStar_Tcp.ml" 27 630 640 "ulib/ml/FStar_Tcp.ml" 27 630 651
+)
+"ulib/ml/FStar_Tcp.ml" 29 724 730 "ulib/ml/FStar_Tcp.ml" 30 792 809
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 28 686 692 "ulib/ml/FStar_Tcp.ml" 30 792 809
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 27 630 636 "ulib/ml/FStar_Tcp.ml" 30 792 809
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 26 602 608 "ulib/ml/FStar_Tcp.ml" 30 792 809
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 32 811 817 "ulib/ml/FStar_Tcp.ml" 32 811 831
+type(
+  'a -> string -> Z.t -> Unix.file_descr
+)
+ident(
+  def connectTimeout "ulib/ml/FStar_Tcp.ml" 34 853 855 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 32 811 832 "ulib/ml/FStar_Tcp.ml" 32 811 833
+type(
+  'a
+)
+ident(
+  def t "ulib/ml/FStar_Tcp.ml" 32 811 834 "ulib/ml/FStar_Tcp.ml" 32 811 851
+)
+"ulib/ml/FStar_Tcp.ml" 32 811 834 "ulib/ml/FStar_Tcp.ml" 32 811 835
+type(
+  string
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 32 811 836 "ulib/ml/FStar_Tcp.ml" 32 811 851
+)
+"ulib/ml/FStar_Tcp.ml" 32 811 836 "ulib/ml/FStar_Tcp.ml" 32 811 837
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 32 811 840 "ulib/ml/FStar_Tcp.ml" 32 811 851
+)
+"ulib/ml/FStar_Tcp.ml" 32 811 840 "ulib/ml/FStar_Tcp.ml" 32 811 847
+type(
+  string -> Z.t -> Unix.file_descr
+)
+ident(
+  int_ref connect "ulib/ml/FStar_Tcp.ml" 25 582 588 "ulib/ml/FStar_Tcp.ml" 25 582 595
+)
+"ulib/ml/FStar_Tcp.ml" 32 811 848 "ulib/ml/FStar_Tcp.ml" 32 811 849
+type(
+  string
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 32 811 834 "ulib/ml/FStar_Tcp.ml" 32 811 835
+)
+"ulib/ml/FStar_Tcp.ml" 32 811 850 "ulib/ml/FStar_Tcp.ml" 32 811 851
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 32 811 836 "ulib/ml/FStar_Tcp.ml" 32 811 837
+)
+"ulib/ml/FStar_Tcp.ml" 32 811 840 "ulib/ml/FStar_Tcp.ml" 32 811 851
+call(
+  tail
+)
+type(
+  Unix.file_descr
+)
+"ulib/ml/FStar_Tcp.ml" 34 853 859 "ulib/ml/FStar_Tcp.ml" 34 853 868
+type(
+  Unix.file_descr -> FStar_Bytes.bytes -> int
+)
+ident(
+  def sock_send "ulib/ml/FStar_Tcp.ml" 39 991 993 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 34 853 869 "ulib/ml/FStar_Tcp.ml" 34 853 873
+type(
+  Unix.file_descr
+)
+ident(
+  def sock "ulib/ml/FStar_Tcp.ml" 34 853 874 "ulib/ml/FStar_Tcp.ml" 37 951 989
+)
+"ulib/ml/FStar_Tcp.ml" 34 853 874 "ulib/ml/FStar_Tcp.ml" 34 853 877
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  def str "ulib/ml/FStar_Tcp.ml" 35 880 886 "ulib/ml/FStar_Tcp.ml" 37 951 989
+)
+"ulib/ml/FStar_Tcp.ml" 35 880 890 "ulib/ml/FStar_Tcp.ml" 35 880 893
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  def str "ulib/ml/FStar_Tcp.ml" 36 914 920 "ulib/ml/FStar_Tcp.ml" 37 951 989
+)
+"ulib/ml/FStar_Tcp.ml" 35 880 896 "ulib/ml/FStar_Tcp.ml" 35 880 906
+type(
+  FStar_Bytes.bytes -> FStar_Bytes.bytes
+)
+ident(
+  ext_ref FStar_Bytes.get_cbytes
+)
+"ulib/ml/FStar_Tcp.ml" 35 880 907 "ulib/ml/FStar_Tcp.ml" 35 880 910
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Tcp.ml" 34 853 874 "ulib/ml/FStar_Tcp.ml" 34 853 877
+)
+"ulib/ml/FStar_Tcp.ml" 35 880 896 "ulib/ml/FStar_Tcp.ml" 35 880 910
+call(
+  stack
+)
+type(
+  FStar_Bytes.bytes
+)
+"ulib/ml/FStar_Tcp.ml" 36 914 924 "ulib/ml/FStar_Tcp.ml" 36 914 927
+type(
+  int
+)
+ident(
+  def len "ulib/ml/FStar_Tcp.ml" 37 951 957 "ulib/ml/FStar_Tcp.ml" 37 951 989
+)
+"ulib/ml/FStar_Tcp.ml" 36 914 930 "ulib/ml/FStar_Tcp.ml" 36 914 943
+type(
+  FStar_Bytes.bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"ulib/ml/FStar_Tcp.ml" 36 914 944 "ulib/ml/FStar_Tcp.ml" 36 914 947
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Tcp.ml" 35 880 890 "ulib/ml/FStar_Tcp.ml" 35 880 893
+)
+"ulib/ml/FStar_Tcp.ml" 36 914 930 "ulib/ml/FStar_Tcp.ml" 36 914 947
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 37 951 957 "ulib/ml/FStar_Tcp.ml" 37 951 971
+type(
+  Unix.file_descr ->
+  FStar_Bytes.bytes -> int -> int -> Unix.msg_flag list -> int
+)
+ident(
+  ext_ref Unix.send_substring
+)
+"ulib/ml/FStar_Tcp.ml" 37 951 972 "ulib/ml/FStar_Tcp.ml" 37 951 976
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref sock "ulib/ml/FStar_Tcp.ml" 34 853 869 "ulib/ml/FStar_Tcp.ml" 34 853 873
+)
+"ulib/ml/FStar_Tcp.ml" 37 951 977 "ulib/ml/FStar_Tcp.ml" 37 951 980
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Tcp.ml" 35 880 890 "ulib/ml/FStar_Tcp.ml" 35 880 893
+)
+"ulib/ml/FStar_Tcp.ml" 37 951 981 "ulib/ml/FStar_Tcp.ml" 37 951 982
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 37 951 983 "ulib/ml/FStar_Tcp.ml" 37 951 986
+type(
+  int
+)
+ident(
+  int_ref len "ulib/ml/FStar_Tcp.ml" 36 914 924 "ulib/ml/FStar_Tcp.ml" 36 914 927
+)
+"ulib/ml/FStar_Tcp.ml" 37 951 987 "ulib/ml/FStar_Tcp.ml" 37 951 989
+type(
+  Unix.msg_flag list
+)
+"ulib/ml/FStar_Tcp.ml" 37 951 957 "ulib/ml/FStar_Tcp.ml" 37 951 989
+call(
+  tail
+)
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 36 914 920 "ulib/ml/FStar_Tcp.ml" 37 951 989
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 35 880 886 "ulib/ml/FStar_Tcp.ml" 37 951 989
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 39 991 997 "ulib/ml/FStar_Tcp.ml" 39 991 1006
+type(
+  Unix.file_descr -> int -> FStar_Bytes.cbytes
+)
+ident(
+  def sock_recv "ulib/ml/FStar_Tcp.ml" 45 1177 1179 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 39 991 1007 "ulib/ml/FStar_Tcp.ml" 39 991 1011
+type(
+  Unix.file_descr
+)
+ident(
+  def sock "ulib/ml/FStar_Tcp.ml" 39 991 1012 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+)
+"ulib/ml/FStar_Tcp.ml" 39 991 1012 "ulib/ml/FStar_Tcp.ml" 39 991 1018
+type(
+  int
+)
+ident(
+  def maxlen "ulib/ml/FStar_Tcp.ml" 40 1021 1027 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+)
+"ulib/ml/FStar_Tcp.ml" 40 1021 1031 "ulib/ml/FStar_Tcp.ml" 40 1021 1034
+type(
+  bytes
+)
+ident(
+  def str "ulib/ml/FStar_Tcp.ml" 41 1060 1066 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+)
+"ulib/ml/FStar_Tcp.ml" 40 1021 1037 "ulib/ml/FStar_Tcp.ml" 40 1021 1049
+type(
+  int -> bytes
+)
+ident(
+  ext_ref Bytes.create
+)
+"ulib/ml/FStar_Tcp.ml" 40 1021 1050 "ulib/ml/FStar_Tcp.ml" 40 1021 1056
+type(
+  int
+)
+ident(
+  int_ref maxlen "ulib/ml/FStar_Tcp.ml" 39 991 1012 "ulib/ml/FStar_Tcp.ml" 39 991 1018
+)
+"ulib/ml/FStar_Tcp.ml" 40 1021 1037 "ulib/ml/FStar_Tcp.ml" 40 1021 1056
+type(
+  bytes
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1070 "ulib/ml/FStar_Tcp.ml" 41 1060 1077
+type(
+  int
+)
+ident(
+  def recvlen "ulib/ml/FStar_Tcp.ml" 42 1109 1115 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1080 "ulib/ml/FStar_Tcp.ml" 41 1060 1084
+type(
+  Unix.file_descr -> bytes -> int -> int -> Unix.msg_flag list -> int
+)
+ident(
+  ext_ref Unix.recv
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1085 "ulib/ml/FStar_Tcp.ml" 41 1060 1089
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref sock "ulib/ml/FStar_Tcp.ml" 39 991 1007 "ulib/ml/FStar_Tcp.ml" 39 991 1011
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1090 "ulib/ml/FStar_Tcp.ml" 41 1060 1093
+type(
+  bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Tcp.ml" 40 1021 1031 "ulib/ml/FStar_Tcp.ml" 40 1021 1034
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1094 "ulib/ml/FStar_Tcp.ml" 41 1060 1095
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1096 "ulib/ml/FStar_Tcp.ml" 41 1060 1102
+type(
+  int
+)
+ident(
+  int_ref maxlen "ulib/ml/FStar_Tcp.ml" 39 991 1012 "ulib/ml/FStar_Tcp.ml" 39 991 1018
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1103 "ulib/ml/FStar_Tcp.ml" 41 1060 1105
+type(
+  Unix.msg_flag list
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1080 "ulib/ml/FStar_Tcp.ml" 41 1060 1105
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 42 1109 1119 "ulib/ml/FStar_Tcp.ml" 42 1109 1122
+type(
+  string
+)
+ident(
+  def str "ulib/ml/FStar_Tcp.ml" 43 1159 1165 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+)
+"ulib/ml/FStar_Tcp.ml" 42 1109 1125 "ulib/ml/FStar_Tcp.ml" 42 1109 1141
+type(
+  bytes -> int -> int -> string
+)
+ident(
+  ext_ref Bytes.sub_string
+)
+"ulib/ml/FStar_Tcp.ml" 42 1109 1142 "ulib/ml/FStar_Tcp.ml" 42 1109 1145
+type(
+  bytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Tcp.ml" 40 1021 1031 "ulib/ml/FStar_Tcp.ml" 40 1021 1034
+)
+"ulib/ml/FStar_Tcp.ml" 42 1109 1146 "ulib/ml/FStar_Tcp.ml" 42 1109 1147
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 42 1109 1148 "ulib/ml/FStar_Tcp.ml" 42 1109 1155
+type(
+  int
+)
+ident(
+  int_ref recvlen "ulib/ml/FStar_Tcp.ml" 41 1060 1070 "ulib/ml/FStar_Tcp.ml" 41 1060 1077
+)
+"ulib/ml/FStar_Tcp.ml" 42 1109 1125 "ulib/ml/FStar_Tcp.ml" 42 1109 1155
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 43 1159 1165 "ulib/ml/FStar_Tcp.ml" 43 1159 1171
+type(
+  FStar_Bytes.cbytes -> FStar_Bytes.cbytes
+)
+ident(
+  ext_ref FStar_Bytes.abytes
+)
+"ulib/ml/FStar_Tcp.ml" 43 1159 1172 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+type(
+  FStar_Bytes.cbytes
+)
+ident(
+  int_ref str "ulib/ml/FStar_Tcp.ml" 42 1109 1119 "ulib/ml/FStar_Tcp.ml" 42 1109 1122
+)
+"ulib/ml/FStar_Tcp.ml" 43 1159 1165 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+call(
+  tail
+)
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Tcp.ml" 42 1109 1115 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Tcp.ml" 41 1060 1066 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Tcp.ml" 40 1021 1027 "ulib/ml/FStar_Tcp.ml" 43 1159 1175
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Tcp.ml" 50 1268 1274 "ulib/ml/FStar_Tcp.ml" 50 1268 1284
+type(
+  Unix.file_descr -> Z.t -> 'a recv_result
+)
+ident(
+  def recv_async "ulib/ml/FStar_Tcp.ml" 56 1522 1524 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 50 1268 1285 "ulib/ml/FStar_Tcp.ml" 50 1268 1286
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 50 1268 1287 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+)
+"ulib/ml/FStar_Tcp.ml" 50 1268 1287 "ulib/ml/FStar_Tcp.ml" 50 1268 1288
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 51 1291 1297 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+)
+"ulib/ml/FStar_Tcp.ml" 51 1291 1301 "ulib/ml/FStar_Tcp.ml" 51 1291 1302
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 52 1319 1325 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+)
+"ulib/ml/FStar_Tcp.ml" 51 1291 1305 "ulib/ml/FStar_Tcp.ml" 51 1291 1313
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Tcp.ml" 51 1291 1314 "ulib/ml/FStar_Tcp.ml" 51 1291 1315
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 50 1268 1287 "ulib/ml/FStar_Tcp.ml" 50 1268 1288
+)
+"ulib/ml/FStar_Tcp.ml" 51 1291 1305 "ulib/ml/FStar_Tcp.ml" 51 1291 1315
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 52 1319 1339 "ulib/ml/FStar_Tcp.ml" 52 1319 1348
+type(
+  Unix.file_descr -> int -> FStar_Bytes.cbytes
+)
+ident(
+  int_ref sock_recv "ulib/ml/FStar_Tcp.ml" 39 991 997 "ulib/ml/FStar_Tcp.ml" 39 991 1006
+)
+"ulib/ml/FStar_Tcp.ml" 52 1319 1349 "ulib/ml/FStar_Tcp.ml" 52 1319 1350
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 50 1268 1285 "ulib/ml/FStar_Tcp.ml" 50 1268 1286
+)
+"ulib/ml/FStar_Tcp.ml" 52 1319 1351 "ulib/ml/FStar_Tcp.ml" 52 1319 1352
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 51 1291 1301 "ulib/ml/FStar_Tcp.ml" 51 1291 1302
+)
+"ulib/ml/FStar_Tcp.ml" 52 1319 1338 "ulib/ml/FStar_Tcp.ml" 52 1319 1353
+call(
+  stack
+)
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Tcp.ml" 52 1319 1329 "ulib/ml/FStar_Tcp.ml" 52 1319 1353
+type(
+  'a recv_result
+)
+"ulib/ml/FStar_Tcp.ml" 53 1359 1380 "ulib/ml/FStar_Tcp.ml" 53 1359 1386
+type(
+  Unix.error
+)
+"ulib/ml/FStar_Tcp.ml" 53 1359 1389 "ulib/ml/FStar_Tcp.ml" 53 1359 1400
+type(
+  Unix.error
+)
+"ulib/ml/FStar_Tcp.ml" 53 1359 1379 "ulib/ml/FStar_Tcp.ml" 53 1359 1401
+type(
+  Unix.error
+)
+"ulib/ml/FStar_Tcp.ml" 53 1359 1402 "ulib/ml/FStar_Tcp.ml" 53 1359 1403
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 53 1359 1404 "ulib/ml/FStar_Tcp.ml" 53 1359 1405
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 53 1359 1367 "ulib/ml/FStar_Tcp.ml" 53 1359 1406
+type(
+  exn
+)
+"ulib/ml/FStar_Tcp.ml" 53 1359 1410 "ulib/ml/FStar_Tcp.ml" 53 1359 1424
+type(
+  'a recv_result
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1445 "ulib/ml/FStar_Tcp.ml" 54 1425 1446
+type(
+  Unix.error
+)
+ident(
+  def e "ulib/ml/FStar_Tcp.ml" 54 1425 1457 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1447 "ulib/ml/FStar_Tcp.ml" 54 1425 1449
+type(
+  string
+)
+ident(
+  def s1 "ulib/ml/FStar_Tcp.ml" 54 1425 1457 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1450 "ulib/ml/FStar_Tcp.ml" 54 1425 1452
+type(
+  string
+)
+ident(
+  def s2 "ulib/ml/FStar_Tcp.ml" 54 1425 1457 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1433 "ulib/ml/FStar_Tcp.ml" 54 1425 1453
+type(
+  exn
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1468 "ulib/ml/FStar_Tcp.ml" 54 1425 1482
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1483 "ulib/ml/FStar_Tcp.ml" 54 1425 1495
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1497 "ulib/ml/FStar_Tcp.ml" 54 1425 1510
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1511 "ulib/ml/FStar_Tcp.ml" 54 1425 1512
+type(
+  Unix.error
+)
+ident(
+  int_ref e "ulib/ml/FStar_Tcp.ml" 54 1425 1445 "ulib/ml/FStar_Tcp.ml" 54 1425 1446
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1496 "ulib/ml/FStar_Tcp.ml" 54 1425 1513
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1514 "ulib/ml/FStar_Tcp.ml" 54 1425 1516
+type(
+  string
+)
+ident(
+  int_ref s1 "ulib/ml/FStar_Tcp.ml" 54 1425 1447 "ulib/ml/FStar_Tcp.ml" 54 1425 1449
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1517 "ulib/ml/FStar_Tcp.ml" 54 1425 1519
+type(
+  string
+)
+ident(
+  int_ref s2 "ulib/ml/FStar_Tcp.ml" 54 1425 1450 "ulib/ml/FStar_Tcp.ml" 54 1425 1452
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1467 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 54 1425 1457 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+type(
+  'a recv_result
+)
+"ulib/ml/FStar_Tcp.ml" 52 1319 1325 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+type(
+  'a recv_result
+)
+"ulib/ml/FStar_Tcp.ml" 51 1291 1297 "ulib/ml/FStar_Tcp.ml" 54 1425 1520
+type(
+  'a recv_result
+)
+"ulib/ml/FStar_Tcp.ml" 56 1522 1528 "ulib/ml/FStar_Tcp.ml" 56 1522 1540
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def set_nonblock "ulib/ml/FStar_Tcp.ml" 57 1557 1559 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 56 1522 1543 "ulib/ml/FStar_Tcp.ml" 56 1522 1555
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.set_nonblock
+)
+"ulib/ml/FStar_Tcp.ml" 57 1557 1563 "ulib/ml/FStar_Tcp.ml" 57 1557 1577
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def clear_nonblock "ulib/ml/FStar_Tcp.ml" 59 1596 1598 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 57 1557 1580 "ulib/ml/FStar_Tcp.ml" 57 1557 1594
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.clear_nonblock
+)
+"ulib/ml/FStar_Tcp.ml" 59 1596 1602 "ulib/ml/FStar_Tcp.ml" 59 1596 1606
+type(
+  Unix.file_descr ->
+  Z.t -> (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+ident(
+  def recv "ulib/ml/FStar_Tcp.ml" 65 1778 1780 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 59 1596 1607 "ulib/ml/FStar_Tcp.ml" 59 1596 1608
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 59 1596 1609 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+)
+"ulib/ml/FStar_Tcp.ml" 59 1596 1609 "ulib/ml/FStar_Tcp.ml" 59 1596 1610
+type(
+  Z.t
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 60 1613 1619 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+)
+"ulib/ml/FStar_Tcp.ml" 60 1613 1623 "ulib/ml/FStar_Tcp.ml" 60 1613 1624
+type(
+  int
+)
+ident(
+  def i "ulib/ml/FStar_Tcp.ml" 61 1641 1647 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+)
+"ulib/ml/FStar_Tcp.ml" 60 1613 1627 "ulib/ml/FStar_Tcp.ml" 60 1613 1635
+type(
+  Z.t -> int
+)
+ident(
+  ext_ref Z.to_int
+)
+"ulib/ml/FStar_Tcp.ml" 60 1613 1636 "ulib/ml/FStar_Tcp.ml" 60 1613 1637
+type(
+  Z.t
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 59 1596 1609 "ulib/ml/FStar_Tcp.ml" 59 1596 1610
+)
+"ulib/ml/FStar_Tcp.ml" 60 1613 1627 "ulib/ml/FStar_Tcp.ml" 60 1613 1637
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 61 1641 1660 "ulib/ml/FStar_Tcp.ml" 61 1641 1669
+type(
+  Unix.file_descr -> int -> FStar_Bytes.cbytes
+)
+ident(
+  int_ref sock_recv "ulib/ml/FStar_Tcp.ml" 39 991 997 "ulib/ml/FStar_Tcp.ml" 39 991 1006
+)
+"ulib/ml/FStar_Tcp.ml" 61 1641 1670 "ulib/ml/FStar_Tcp.ml" 61 1641 1671
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 59 1596 1607 "ulib/ml/FStar_Tcp.ml" 59 1596 1608
+)
+"ulib/ml/FStar_Tcp.ml" 61 1641 1672 "ulib/ml/FStar_Tcp.ml" 61 1641 1673
+type(
+  int
+)
+ident(
+  int_ref i "ulib/ml/FStar_Tcp.ml" 60 1613 1623 "ulib/ml/FStar_Tcp.ml" 60 1613 1624
+)
+"ulib/ml/FStar_Tcp.ml" 61 1641 1659 "ulib/ml/FStar_Tcp.ml" 61 1641 1674
+call(
+  stack
+)
+type(
+  FStar_Bytes.cbytes
+)
+"ulib/ml/FStar_Tcp.ml" 61 1641 1651 "ulib/ml/FStar_Tcp.ml" 61 1641 1674
+type(
+  (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 62 1675 1698 "ulib/ml/FStar_Tcp.ml" 62 1675 1699
+type(
+  Unix.error
+)
+ident(
+  def e "ulib/ml/FStar_Tcp.ml" 63 1710 1717 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+)
+"ulib/ml/FStar_Tcp.ml" 62 1675 1700 "ulib/ml/FStar_Tcp.ml" 62 1675 1702
+type(
+  string
+)
+ident(
+  def s1 "ulib/ml/FStar_Tcp.ml" 63 1710 1717 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+)
+"ulib/ml/FStar_Tcp.ml" 62 1675 1703 "ulib/ml/FStar_Tcp.ml" 62 1675 1705
+type(
+  string
+)
+ident(
+  def s2 "ulib/ml/FStar_Tcp.ml" 63 1710 1717 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+)
+"ulib/ml/FStar_Tcp.ml" 62 1675 1686 "ulib/ml/FStar_Tcp.ml" 62 1675 1706
+type(
+  exn
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1724 "ulib/ml/FStar_Tcp.ml" 63 1710 1738
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1739 "ulib/ml/FStar_Tcp.ml" 63 1710 1751
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1753 "ulib/ml/FStar_Tcp.ml" 63 1710 1766
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1767 "ulib/ml/FStar_Tcp.ml" 63 1710 1768
+type(
+  Unix.error
+)
+ident(
+  int_ref e "ulib/ml/FStar_Tcp.ml" 62 1675 1698 "ulib/ml/FStar_Tcp.ml" 62 1675 1699
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1752 "ulib/ml/FStar_Tcp.ml" 63 1710 1769
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1770 "ulib/ml/FStar_Tcp.ml" 63 1710 1772
+type(
+  string
+)
+ident(
+  int_ref s1 "ulib/ml/FStar_Tcp.ml" 62 1675 1700 "ulib/ml/FStar_Tcp.ml" 62 1675 1702
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1773 "ulib/ml/FStar_Tcp.ml" 63 1710 1775
+type(
+  string
+)
+ident(
+  int_ref s2 "ulib/ml/FStar_Tcp.ml" 62 1675 1703 "ulib/ml/FStar_Tcp.ml" 62 1675 1705
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1723 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 63 1710 1717 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+type(
+  (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 61 1641 1647 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+type(
+  (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 60 1613 1619 "ulib/ml/FStar_Tcp.ml" 63 1710 1776
+type(
+  (string, FStar_Bytes.cbytes) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 65 1778 1788 "ulib/ml/FStar_Tcp.ml" 65 1778 1792
+type(
+  Unix.file_descr ->
+  FStar_Bytes.bytes -> (string, unit) FStar_Error.optResult
+)
+ident(
+  def send "ulib/ml/FStar_Tcp.ml" 65 1778 1780 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 65 1778 1793 "ulib/ml/FStar_Tcp.ml" 65 1778 1794
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 65 1778 1795 "ulib/ml/FStar_Tcp.ml" 76 2142 2233
+)
+"ulib/ml/FStar_Tcp.ml" 65 1778 1795 "ulib/ml/FStar_Tcp.ml" 65 1778 1796
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  def b "ulib/ml/FStar_Tcp.ml" 66 1799 1805 "ulib/ml/FStar_Tcp.ml" 76 2142 2233
+)
+"ulib/ml/FStar_Tcp.ml" 67 1811 1825 "ulib/ml/FStar_Tcp.ml" 67 1811 1826
+type(
+  int
+)
+ident(
+  def n "ulib/ml/FStar_Tcp.ml" 68 1847 1857 "ulib/ml/FStar_Tcp.ml" 73 2044 2068
+)
+"ulib/ml/FStar_Tcp.ml" 67 1811 1829 "ulib/ml/FStar_Tcp.ml" 67 1811 1838
+type(
+  Unix.file_descr -> FStar_Bytes.bytes -> int
+)
+ident(
+  int_ref sock_send "ulib/ml/FStar_Tcp.ml" 34 853 859 "ulib/ml/FStar_Tcp.ml" 34 853 868
+)
+"ulib/ml/FStar_Tcp.ml" 67 1811 1839 "ulib/ml/FStar_Tcp.ml" 67 1811 1840
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 65 1778 1793 "ulib/ml/FStar_Tcp.ml" 65 1778 1794
+)
+"ulib/ml/FStar_Tcp.ml" 67 1811 1841 "ulib/ml/FStar_Tcp.ml" 67 1811 1842
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref b "ulib/ml/FStar_Tcp.ml" 65 1778 1795 "ulib/ml/FStar_Tcp.ml" 65 1778 1796
+)
+"ulib/ml/FStar_Tcp.ml" 67 1811 1829 "ulib/ml/FStar_Tcp.ml" 67 1811 1842
+call(
+  stack
+)
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 68 1847 1861 "ulib/ml/FStar_Tcp.ml" 68 1847 1862
+type(
+  int
+)
+ident(
+  def m "ulib/ml/FStar_Tcp.ml" 69 1885 1895 "ulib/ml/FStar_Tcp.ml" 73 2044 2068
+)
+"ulib/ml/FStar_Tcp.ml" 68 1847 1865 "ulib/ml/FStar_Tcp.ml" 68 1847 1878
+type(
+  FStar_Bytes.bytes -> int
+)
+ident(
+  ext_ref String.length
+)
+"ulib/ml/FStar_Tcp.ml" 68 1847 1879 "ulib/ml/FStar_Tcp.ml" 68 1847 1880
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref b "ulib/ml/FStar_Tcp.ml" 65 1778 1795 "ulib/ml/FStar_Tcp.ml" 65 1778 1796
+)
+"ulib/ml/FStar_Tcp.ml" 68 1847 1865 "ulib/ml/FStar_Tcp.ml" 68 1847 1880
+type(
+  int
+)
+"ulib/ml/FStar_Tcp.ml" 69 1885 1898 "ulib/ml/FStar_Tcp.ml" 69 1885 1899
+type(
+  int
+)
+ident(
+  int_ref n "ulib/ml/FStar_Tcp.ml" 67 1811 1825 "ulib/ml/FStar_Tcp.ml" 67 1811 1826
+)
+"ulib/ml/FStar_Tcp.ml" 69 1885 1900 "ulib/ml/FStar_Tcp.ml" 69 1885 1901
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"ulib/ml/FStar_Tcp.ml" 69 1885 1902 "ulib/ml/FStar_Tcp.ml" 69 1885 1903
+type(
+  int
+)
+ident(
+  int_ref m "ulib/ml/FStar_Tcp.ml" 68 1847 1861 "ulib/ml/FStar_Tcp.ml" 68 1847 1862
+)
+"ulib/ml/FStar_Tcp.ml" 69 1885 1898 "ulib/ml/FStar_Tcp.ml" 69 1885 1903
+type(
+  bool
+)
+"ulib/ml/FStar_Tcp.ml" 72 1973 1993 "ulib/ml/FStar_Tcp.ml" 72 1973 2007
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ulib/ml/FStar_Tcp.ml" 72 1973 2008 "ulib/ml/FStar_Tcp.ml" 72 1973 2039
+type(
+  (int -> string, unit, string) format
+)
+"ulib/ml/FStar_Tcp.ml" 72 1973 2040 "ulib/ml/FStar_Tcp.ml" 72 1973 2041
+type(
+  int
+)
+ident(
+  int_ref n "ulib/ml/FStar_Tcp.ml" 67 1811 1825 "ulib/ml/FStar_Tcp.ml" 67 1811 1826
+)
+"ulib/ml/FStar_Tcp.ml" 72 1973 1992 "ulib/ml/FStar_Tcp.ml" 72 1973 2042
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 72 1973 1987 "ulib/ml/FStar_Tcp.ml" 72 1973 2042
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 73 2044 2066 "ulib/ml/FStar_Tcp.ml" 73 2044 2068
+type(
+  unit
+)
+"ulib/ml/FStar_Tcp.ml" 73 2044 2059 "ulib/ml/FStar_Tcp.ml" 73 2044 2068
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 69 1885 1895 "ulib/ml/FStar_Tcp.ml" 73 2044 2068
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 68 1847 1857 "ulib/ml/FStar_Tcp.ml" 73 2044 2068
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 66 1799 1809 "ulib/ml/FStar_Tcp.ml" 73 2044 2069
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2103 "ulib/ml/FStar_Tcp.ml" 75 2082 2109
+type(
+  Unix.error
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2112 "ulib/ml/FStar_Tcp.ml" 75 2082 2123
+type(
+  Unix.error
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2102 "ulib/ml/FStar_Tcp.ml" 75 2082 2124
+type(
+  Unix.error
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2125 "ulib/ml/FStar_Tcp.ml" 75 2082 2126
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2127 "ulib/ml/FStar_Tcp.ml" 75 2082 2128
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2090 "ulib/ml/FStar_Tcp.ml" 75 2082 2129
+type(
+  exn
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2133 "ulib/ml/FStar_Tcp.ml" 75 2082 2137
+type(
+  Unix.file_descr ->
+  FStar_Bytes.bytes -> (string, unit) FStar_Error.optResult
+)
+ident(
+  int_ref send "ulib/ml/FStar_Tcp.ml" 65 1778 1788 "ulib/ml/FStar_Tcp.ml" 65 1778 1792
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2138 "ulib/ml/FStar_Tcp.ml" 75 2082 2139
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 65 1778 1793 "ulib/ml/FStar_Tcp.ml" 65 1778 1794
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2140 "ulib/ml/FStar_Tcp.ml" 75 2082 2141
+type(
+  FStar_Bytes.bytes
+)
+ident(
+  int_ref b "ulib/ml/FStar_Tcp.ml" 65 1778 1795 "ulib/ml/FStar_Tcp.ml" 65 1778 1796
+)
+"ulib/ml/FStar_Tcp.ml" 75 2082 2133 "ulib/ml/FStar_Tcp.ml" 75 2082 2141
+call(
+  tail
+)
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2162 "ulib/ml/FStar_Tcp.ml" 76 2142 2163
+type(
+  Unix.error
+)
+ident(
+  def e "ulib/ml/FStar_Tcp.ml" 76 2142 2174 "ulib/ml/FStar_Tcp.ml" 76 2142 2233
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2164 "ulib/ml/FStar_Tcp.ml" 76 2142 2166
+type(
+  string
+)
+ident(
+  def s1 "ulib/ml/FStar_Tcp.ml" 76 2142 2174 "ulib/ml/FStar_Tcp.ml" 76 2142 2233
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2167 "ulib/ml/FStar_Tcp.ml" 76 2142 2169
+type(
+  string
+)
+ident(
+  def s2 "ulib/ml/FStar_Tcp.ml" 76 2142 2174 "ulib/ml/FStar_Tcp.ml" 76 2142 2233
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2150 "ulib/ml/FStar_Tcp.ml" 76 2142 2170
+type(
+  exn
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2181 "ulib/ml/FStar_Tcp.ml" 76 2142 2195
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2196 "ulib/ml/FStar_Tcp.ml" 76 2142 2208
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2210 "ulib/ml/FStar_Tcp.ml" 76 2142 2223
+type(
+  Unix.error -> string
+)
+ident(
+  ext_ref Unix.error_message
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2224 "ulib/ml/FStar_Tcp.ml" 76 2142 2225
+type(
+  Unix.error
+)
+ident(
+  int_ref e "ulib/ml/FStar_Tcp.ml" 76 2142 2162 "ulib/ml/FStar_Tcp.ml" 76 2142 2163
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2209 "ulib/ml/FStar_Tcp.ml" 76 2142 2226
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2227 "ulib/ml/FStar_Tcp.ml" 76 2142 2229
+type(
+  string
+)
+ident(
+  int_ref s1 "ulib/ml/FStar_Tcp.ml" 76 2142 2164 "ulib/ml/FStar_Tcp.ml" 76 2142 2166
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2230 "ulib/ml/FStar_Tcp.ml" 76 2142 2232
+type(
+  string
+)
+ident(
+  int_ref s2 "ulib/ml/FStar_Tcp.ml" 76 2142 2167 "ulib/ml/FStar_Tcp.ml" 76 2142 2169
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2180 "ulib/ml/FStar_Tcp.ml" 76 2142 2233
+call(
+  stack
+)
+type(
+  string
+)
+"ulib/ml/FStar_Tcp.ml" 76 2142 2174 "ulib/ml/FStar_Tcp.ml" 76 2142 2233
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 66 1799 1805 "ulib/ml/FStar_Tcp.ml" 76 2142 2233
+type(
+  (string, unit) FStar_Error.optResult
+)
+"ulib/ml/FStar_Tcp.ml" 78 2235 2241 "ulib/ml/FStar_Tcp.ml" 78 2235 2246
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  def close "ulib/ml/FStar_Tcp.ml" 79 2251 2264 "ulib/ml/FStar_Tcp.ml" 1 0 -1
+)
+"ulib/ml/FStar_Tcp.ml" 78 2235 2247 "ulib/ml/FStar_Tcp.ml" 78 2235 2248
+type(
+  Unix.file_descr
+)
+ident(
+  def s "ulib/ml/FStar_Tcp.ml" 79 2251 2257 "ulib/ml/FStar_Tcp.ml" 79 2251 2264
+)
+"ulib/ml/FStar_Tcp.ml" 79 2251 2257 "ulib/ml/FStar_Tcp.ml" 79 2251 2262
+type(
+  Unix.file_descr -> unit
+)
+ident(
+  ext_ref Unix.close
+)
+"ulib/ml/FStar_Tcp.ml" 79 2251 2263 "ulib/ml/FStar_Tcp.ml" 79 2251 2264
+type(
+  Unix.file_descr
+)
+ident(
+  int_ref s "ulib/ml/FStar_Tcp.ml" 78 2235 2247 "ulib/ml/FStar_Tcp.ml" 78 2235 2248
+)
+"ulib/ml/FStar_Tcp.ml" 79 2251 2257 "ulib/ml/FStar_Tcp.ml" 79 2251 2264
+call(
+  tail
+)
+type(
+  unit
+)

@@ -1,0 +1,467 @@
+"ulib/ml/extracted/FStar_WellFounded.ml" 4 88 92 "ulib/ml/extracted/FStar_WellFounded.ml" 4 88 108
+type(
+  'Aa 'Ar. 'Aa -> ('Aa, 'Ar, Prims.unit) acc -> Prims.bool
+)
+ident(
+  def uu___is_AccIntro "ulib/ml/extracted/FStar_WellFounded.ml" 6 199 199 "ulib/ml/extracted/FStar_WellFounded.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 5 163 169 "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 170
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 175 "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 197
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 5 163 179 "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 188
+type(
+  ('Aa, 'Ar, Prims.unit) acc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 193 "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 197
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 5 163 193 "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 197
+type(
+  Prims.bool
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 5 163 175 "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 197
+type(
+  ('Aa, 'Ar, Prims.unit) acc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 5 163 165 "ulib/ml/extracted/FStar_WellFounded.ml" 5 163 197
+type(
+  'Aa -> ('Aa, 'Ar, Prims.unit) acc -> Prims.bool
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 6 199 203 "ulib/ml/extracted/FStar_WellFounded.ml" 6 199 229
+type(
+  'Aa 'Ar.
+    'Aa ->
+    ('Aa, 'Ar, Prims.unit) acc -> 'Aa -> 'Ar -> ('Aa, 'Ar, Prims.unit) acc
+)
+ident(
+  def __proj__AccIntro__item___0 "ulib/ml/extracted/FStar_WellFounded.ml" 9 380 380 "ulib/ml/extracted/FStar_WellFounded.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 314 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 315
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 320 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 378
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 324 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 333
+type(
+  ('Aa, 'Ar, Prims.unit) acc
+)
+ident(
+  def projectee "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 338 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 378
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 344 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 353
+type(
+  ('Aa, 'Ar, Prims.unit) acc
+)
+ident(
+  int_ref projectee "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 324 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 333
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 370 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 372
+type(
+  'Aa -> 'Ar -> ('Aa, 'Ar, Prims.unit) acc
+)
+ident(
+  def _0 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 376 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 378
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 361 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 372
+type(
+  ('Aa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 376 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 378
+type(
+  'Aa -> 'Ar -> ('Aa, 'Ar, Prims.unit) acc
+)
+ident(
+  int_ref _0 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 370 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 372
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 338 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 378
+type(
+  'Aa -> 'Ar -> ('Aa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 320 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 378
+type(
+  ('Aa, 'Ar, Prims.unit) acc -> 'Aa -> 'Ar -> ('Aa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 8 308 310 "ulib/ml/extracted/FStar_WellFounded.ml" 8 308 378
+type(
+  'Aa ->
+  ('Aa, 'Ar, Prims.unit) acc -> 'Aa -> 'Ar -> ('Aa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 10 436 440 "ulib/ml/extracted/FStar_WellFounded.ml" 10 436 447
+type(
+  'Aaa 'Ar.
+    'Aaa ->
+    ('Aaa, 'Ar, Prims.unit) acc -> 'Aaa -> 'Ar -> ('Aaa, 'Ar, Prims.unit) acc
+)
+ident(
+  def acc_inv "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 592 "ulib/ml/extracted/FStar_WellFounded.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 541 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 542
+type(
+  'Aaa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 547 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 589
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 551 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 552
+type(
+  ('Aaa, 'Ar, Prims.unit) acc
+)
+ident(
+  def a "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 557 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 589
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 563 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 564
+type(
+  ('Aaa, 'Ar, Prims.unit) acc
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 551 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 552
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 581 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 583
+type(
+  'Aaa -> 'Ar -> ('Aaa, 'Ar, Prims.unit) acc
+)
+ident(
+  def h1 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 587 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 589
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 572 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 583
+type(
+  ('Aaa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 587 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 589
+type(
+  'Aaa -> 'Ar -> ('Aaa, 'Ar, Prims.unit) acc
+)
+ident(
+  int_ref h1 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 581 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 583
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 557 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 589
+type(
+  'Aaa -> 'Ar -> ('Aaa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 547 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 589
+type(
+  ('Aaa, 'Ar, Prims.unit) acc -> 'Aaa -> 'Ar -> ('Aaa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 13 533 537 "ulib/ml/extracted/FStar_WellFounded.ml" 13 533 589
+type(
+  'Aaa ->
+  ('Aaa, 'Ar, Prims.unit) acc -> 'Aaa -> 'Ar -> ('Aaa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 15 592 596 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 601
+type(
+  'Aa 'Ab. ('Aa -> 'Ab) -> 'Aa -> 'Ab
+)
+ident(
+  def apply "ulib/ml/extracted/FStar_WellFounded.ml" 16 668 668 "ulib/ml/extracted/FStar_WellFounded.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 15 592 647 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 648
+type(
+  'Aa -> 'Ab
+)
+ident(
+  def f "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 653 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 666
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 15 592 657 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 658
+type(
+  'Aa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 663 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 666
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 15 592 663 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 664
+type(
+  'Aa -> 'Ab
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 647 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 648
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 15 592 665 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 666
+type(
+  'Aa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 657 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 658
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 15 592 663 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 666
+call(
+  tail
+)
+type(
+  'Ab
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 15 592 653 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 666
+type(
+  'Aa -> 'Ab
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 15 592 643 "ulib/ml/extracted/FStar_WellFounded.ml" 15 592 666
+type(
+  ('Aa -> 'Ab) -> 'Aa -> 'Ab
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 16 668 676 "ulib/ml/extracted/FStar_WellFounded.ml" 16 668 681
+type(
+  'Aaa 'Ar 'Ap.
+    ('Aaa -> ('Aaa -> 'Ar -> 'Ap) -> 'Ap) ->
+    'Aaa -> ('Aaa, 'Ar, Prims.unit) acc -> 'Ap
+)
+ident(
+  def fix_F "ulib/ml/extracted/FStar_WellFounded.ml" 16 668 668 "ulib/ml/extracted/FStar_WellFounded.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 21 791 797 "ulib/ml/extracted/FStar_WellFounded.ml" 21 791 798
+type(
+  'Aaa -> ('Aaa -> 'Ar -> 'Ap) -> 'Ap
+)
+ident(
+  def f "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 807 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 880
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 811 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 812
+type(
+  'Aaa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 817 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 880
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 821 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 822
+type(
+  ('Aaa, 'Ar, Prims.unit) acc
+)
+ident(
+  def a "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 827 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 880
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 827 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 828
+type(
+  'Aaa -> ('Aaa -> 'Ar -> 'Ap) -> 'Ap
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_WellFounded.ml" 21 791 797 "ulib/ml/extracted/FStar_WellFounded.ml" 21 791 798
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 829 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 830
+type(
+  'Aaa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 811 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 812
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 836 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 837
+type(
+  'Aaa
+)
+ident(
+  def y "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 842 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 879
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 846 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 847
+type(
+  'Ar
+)
+ident(
+  def h "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 852 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 879
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 852 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 857
+type(
+  ('Aaa -> ('Aaa -> 'Ar -> 'Ap) -> 'Ap) ->
+  'Aaa -> ('Aaa, 'Ar, Prims.unit) acc -> 'Ap
+)
+ident(
+  int_ref fix_F "ulib/ml/extracted/FStar_WellFounded.ml" 16 668 676 "ulib/ml/extracted/FStar_WellFounded.ml" 16 668 681
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 858 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 859
+type(
+  'Aaa -> ('Aaa -> 'Ar -> 'Ap) -> 'Ap
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_WellFounded.ml" 21 791 797 "ulib/ml/extracted/FStar_WellFounded.ml" 21 791 798
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 860 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 861
+type(
+  'Aaa
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 836 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 837
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 863 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 870
+type(
+  'Aaa ->
+  ('Aaa, 'Ar, Prims.unit) acc -> 'Aaa -> 'Ar -> ('Aaa, 'Ar, Prims.unit) acc
+)
+ident(
+  int_ref acc_inv "ulib/ml/extracted/FStar_WellFounded.ml" 10 436 440 "ulib/ml/extracted/FStar_WellFounded.ml" 10 436 447
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 871 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 872
+type(
+  'Aaa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 811 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 812
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 873 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 874
+type(
+  ('Aaa, 'Ar, Prims.unit) acc
+)
+ident(
+  int_ref a "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 821 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 822
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 875 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 876
+type(
+  'Aaa
+)
+ident(
+  int_ref y "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 836 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 837
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 877 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 878
+type(
+  'Ar
+)
+ident(
+  int_ref h "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 846 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 847
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 862 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 879
+call(
+  stack
+)
+type(
+  ('Aaa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 852 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 879
+call(
+  tail
+)
+type(
+  'Ap
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 842 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 879
+type(
+  'Ar -> 'Ap
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 831 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 880
+type(
+  'Aaa -> 'Ar -> 'Ap
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 827 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 880
+call(
+  tail
+)
+type(
+  'Ap
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 817 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 880
+type(
+  ('Aaa, 'Ar, Prims.unit) acc -> 'Ap
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 22 803 807 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 880
+type(
+  'Aaa -> ('Aaa, 'Ar, Prims.unit) acc -> 'Ap
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 21 791 793 "ulib/ml/extracted/FStar_WellFounded.ml" 22 803 880
+type(
+  ('Aaa -> ('Aaa -> 'Ar -> 'Ap) -> 'Ap) ->
+  'Aaa -> ('Aaa, 'Ar, Prims.unit) acc -> 'Ap
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 24 884 888 "ulib/ml/extracted/FStar_WellFounded.ml" 24 884 891
+type(
+  'Aaa 'Ar.
+    ('Aaa, 'Ar) well_founded ->
+    Prims.unit -> ('Aaa -> ('Aaa -> 'Ar -> Obj.t) -> Obj.t) -> 'Aaa -> Obj.t
+)
+ident(
+  def fix "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074 "ulib/ml/extracted/FStar_WellFounded.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1019 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1022
+type(
+  ('Aaa, 'Ar) well_founded
+)
+ident(
+  def rwf "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1027 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1031 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1032
+type(
+  Prims.unit
+)
+ident(
+  def p "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1037 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1041 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1042
+type(
+  'Aaa -> ('Aaa -> 'Ar -> Obj.t) -> Obj.t
+)
+ident(
+  def f "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1047 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1051 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1052
+type(
+  'Aaa
+)
+ident(
+  def x "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1057 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1057 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1062
+type(
+  ('Aaa -> ('Aaa -> 'Ar -> Obj.t) -> Obj.t) ->
+  'Aaa -> ('Aaa, 'Ar, Prims.unit) acc -> Obj.t
+)
+ident(
+  int_ref fix_F "ulib/ml/extracted/FStar_WellFounded.ml" 16 668 676 "ulib/ml/extracted/FStar_WellFounded.ml" 16 668 681
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1063 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1064
+type(
+  'Aaa -> ('Aaa -> 'Ar -> Obj.t) -> Obj.t
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1041 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1042
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1065 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1066
+type(
+  'Aaa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1051 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1052
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1068 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1071
+type(
+  ('Aaa, 'Ar) well_founded
+)
+ident(
+  int_ref rwf "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1019 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1022
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1072 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1073
+type(
+  'Aaa
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1051 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1052
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1067 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+call(
+  stack
+)
+type(
+  ('Aaa, 'Ar, Prims.unit) acc
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1057 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+call(
+  tail
+)
+type(
+  Obj.t
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1047 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+type(
+  'Aaa -> Obj.t
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1037 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+type(
+  ('Aaa -> ('Aaa -> 'Ar -> Obj.t) -> Obj.t) -> 'Aaa -> Obj.t
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1027 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+type(
+  Prims.unit -> ('Aaa -> ('Aaa -> 'Ar -> Obj.t) -> Obj.t) -> 'Aaa -> Obj.t
+)
+"ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1015 "ulib/ml/extracted/FStar_WellFounded.ml" 28 1011 1074
+type(
+  ('Aaa, 'Ar) well_founded ->
+  Prims.unit -> ('Aaa -> ('Aaa -> 'Ar -> Obj.t) -> Obj.t) -> 'Aaa -> Obj.t
+)

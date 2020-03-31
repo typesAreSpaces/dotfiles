@@ -1,0 +1,307 @@
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 8 236 240 "ulib/ml/extracted/FStar_Relational_Comp.ml" 8 236 248
+type(
+  'Aa0 'Ab0 'Aa1 'Ab1.
+    ('Aa0 -> 'Ab0) ->
+    ('Aa1 -> 'Ab1) ->
+    ('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+    ('Ab0, 'Ab1) FStar_Relational_Relational.rel
+)
+ident(
+  def compose2 "ulib/ml/extracted/FStar_Relational_Comp.ml" 15 519 519 "ulib/ml/extracted/FStar_Relational_Comp.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 450 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 452
+type(
+  'Aa0 -> 'Ab0
+)
+ident(
+  def c0 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 457 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 517
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 461 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 463
+type(
+  'Aa1 -> 'Ab1
+)
+ident(
+  def c1 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 468 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 517
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 472 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 473
+type(
+  ('Aa0, 'Aa1) FStar_Relational_Relational.rel
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 478 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 517
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 478 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 486
+type(
+  string -> ('Ab0, 'Ab1) FStar_Relational_Relational.rel
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 487 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 517
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 478 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 517
+call(
+  tail
+)
+type(
+  ('Ab0, 'Ab1) FStar_Relational_Relational.rel
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 468 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 517
+type(
+  ('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+  ('Ab0, 'Ab1) FStar_Relational_Relational.rel
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 457 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 517
+type(
+  ('Aa1 -> 'Ab1) ->
+  ('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+  ('Ab0, 'Ab1) FStar_Relational_Relational.rel
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 446 "ulib/ml/extracted/FStar_Relational_Comp.ml" 14 442 517
+type(
+  ('Aa0 -> 'Ab0) ->
+  ('Aa1 -> 'Ab1) ->
+  ('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+  ('Ab0, 'Ab1) FStar_Relational_Relational.rel
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 15 519 523 "ulib/ml/extracted/FStar_Relational_Comp.ml" 15 519 536
+type(
+  'Aa 'Ab.
+    ('Aa -> 'Ab) ->
+    'Aa FStar_Relational_Relational.double ->
+    'Ab FStar_Relational_Relational.double
+)
+ident(
+  def compose2_self "ulib/ml/extracted/FStar_Relational_Comp.ml" 21 711 711 "ulib/ml/extracted/FStar_Relational_Comp.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 679 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 680
+type(
+  'Aa -> 'Ab
+)
+ident(
+  def f "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 685 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 709
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 689 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 690
+type(
+  'Aa FStar_Relational_Relational.double
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 695 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 709
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 695 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 703
+type(
+  ('Aa -> 'Ab) ->
+  ('Aa -> 'Ab) ->
+  'Aa FStar_Relational_Relational.double ->
+  'Ab FStar_Relational_Relational.double
+)
+ident(
+  int_ref compose2 "ulib/ml/extracted/FStar_Relational_Comp.ml" 8 236 240 "ulib/ml/extracted/FStar_Relational_Comp.ml" 8 236 248
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 704 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 705
+type(
+  'Aa -> 'Ab
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 679 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 680
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 706 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 707
+type(
+  'Aa -> 'Ab
+)
+ident(
+  int_ref f "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 679 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 680
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 708 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 709
+type(
+  'Aa FStar_Relational_Relational.double
+)
+ident(
+  int_ref x "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 689 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 690
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 695 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 709
+call(
+  tail
+)
+type(
+  'Ab FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 685 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 709
+type(
+  'Aa FStar_Relational_Relational.double ->
+  'Ab FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 675 "ulib/ml/extracted/FStar_Relational_Comp.ml" 20 671 709
+type(
+  ('Aa -> 'Ab) ->
+  'Aa FStar_Relational_Relational.double ->
+  'Ab FStar_Relational_Relational.double
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 21 711 715 "ulib/ml/extracted/FStar_Relational_Comp.ml" 21 711 720
+type(
+  'Aa 'Ab 'Ac 'Ad.
+    (Prims.unit FStar_Relational_Relational.double ->
+     ('Aa, 'Ab) FStar_Relational_Relational.rel) ->
+    (Prims.unit FStar_Relational_Relational.double ->
+     ('Ac, 'Ad) FStar_Relational_Relational.rel) ->
+    ('Aa, 'Ad) FStar_Relational_Relational.rel
+)
+ident(
+  def cross "ulib/ml/extracted/FStar_Relational_Comp.ml" 30 1087 1087 "ulib/ml/extracted/FStar_Relational_Comp.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1031 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1033
+type(
+  Prims.unit FStar_Relational_Relational.double ->
+  ('Aa, 'Ab) FStar_Relational_Relational.rel
+)
+ident(
+  def c1 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1038 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1085
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1042 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1044
+type(
+  Prims.unit FStar_Relational_Relational.double ->
+  ('Ac, 'Ad) FStar_Relational_Relational.rel
+)
+ident(
+  def c2 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1049 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1085
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1049 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1057
+type(
+  string -> ('Aa, 'Ad) FStar_Relational_Relational.rel
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1058 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1085
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1049 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1085
+call(
+  tail
+)
+type(
+  ('Aa, 'Ad) FStar_Relational_Relational.rel
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1038 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1085
+type(
+  (Prims.unit FStar_Relational_Relational.double ->
+   ('Ac, 'Ad) FStar_Relational_Relational.rel) ->
+  ('Aa, 'Ad) FStar_Relational_Relational.rel
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1027 "ulib/ml/extracted/FStar_Relational_Comp.ml" 29 1023 1085
+type(
+  (Prims.unit FStar_Relational_Relational.double ->
+   ('Aa, 'Ab) FStar_Relational_Relational.rel) ->
+  (Prims.unit FStar_Relational_Relational.double ->
+   ('Ac, 'Ad) FStar_Relational_Relational.rel) ->
+  ('Aa, 'Ad) FStar_Relational_Relational.rel
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 32 1211 1215 "ulib/ml/extracted/FStar_Relational_Comp.ml" 32 1211 1224
+type(
+  'Aa0 'Ab0 'Aa1 'Ab1.
+    (('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+     ('Ab0, 'Ab1) FStar_Relational_Relational.rel) ->
+    'Aa0 -> 'Ab0
+)
+ident(
+  def project_l "ulib/ml/extracted/FStar_Relational_Comp.ml" 38 1448 1448 "ulib/ml/extracted/FStar_Relational_Comp.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1390 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1391
+type(
+  ('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+  ('Ab0, 'Ab1) FStar_Relational_Relational.rel
+)
+ident(
+  def c "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1396 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1446
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1400 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1401
+type(
+  'Aa0
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1406 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1446
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1406 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1414
+type(
+  string -> 'Ab0
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1415 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1446
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1406 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1446
+call(
+  tail
+)
+type(
+  'Ab0
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1396 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1446
+type(
+  'Aa0 -> 'Ab0
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1386 "ulib/ml/extracted/FStar_Relational_Comp.ml" 37 1382 1446
+type(
+  (('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+   ('Ab0, 'Ab1) FStar_Relational_Relational.rel) ->
+  'Aa0 -> 'Ab0
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 38 1448 1452 "ulib/ml/extracted/FStar_Relational_Comp.ml" 38 1448 1461
+type(
+  'Aa0 'Ab0 'Aa1 'Ab1.
+    (('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+     ('Ab0, 'Ab1) FStar_Relational_Relational.rel) ->
+    'Aa1 -> 'Ab1
+)
+ident(
+  def project_r "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1683 "ulib/ml/extracted/FStar_Relational_Comp.ml" 1 0 -1
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1627 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1628
+type(
+  ('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+  ('Ab0, 'Ab1) FStar_Relational_Relational.rel
+)
+ident(
+  def c "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1633 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1683
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1637 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1638
+type(
+  'Aa1
+)
+ident(
+  def x "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1643 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1683
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1643 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1651
+type(
+  string -> 'Ab1
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1652 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1683
+type(
+  string
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1643 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1683
+call(
+  tail
+)
+type(
+  'Ab1
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1633 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1683
+type(
+  'Aa1 -> 'Ab1
+)
+"ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1623 "ulib/ml/extracted/FStar_Relational_Comp.ml" 43 1619 1683
+type(
+  (('Aa0, 'Aa1) FStar_Relational_Relational.rel ->
+   ('Ab0, 'Ab1) FStar_Relational_Relational.rel) ->
+  'Aa1 -> 'Ab1
+)
