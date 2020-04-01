@@ -104,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias second_home="cd /media/jose/4486d9bd-d3c3-4b92-9842-d38226a22c20/$HOME"
 alias emacs="emacs -nw"
+alias emacs26="emacs26 -nw"
 alias open="xdg-open"
 alias utop="rlwrap ocaml"
 
