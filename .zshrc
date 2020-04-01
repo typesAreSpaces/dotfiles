@@ -105,14 +105,13 @@ source $ZSH/oh-my-zsh.sh
 alias second_home="cd /media/jose/4486d9bd-d3c3-4b92-9842-d38226a22c20/$HOME"
 alias emacs="emacs -nw"
 alias emacs26="emacs26 -nw"
-alias open="xdg-open"
 alias utop="rlwrap ocaml"
 
 alias semester="cd /$HOME/Documents/Current-Semester/PhD\ in\ Computer\ Science\ UNM/Semester\ 3"
 alias masterThesis="cd /$HOME/Documents/GithubProjects/master-thesis/Software/Cpp/EUFInterpolantsZ3"
 alias masterThesisPaperProject="cd /$HOME/Documents/GithubProjects/master-thesis/Write\ Ups/paper_project"
-alias z3_dir="cd ~/Documents/GithubProjects/z3"
-alias my_z3_dir="cd ~/Documents/GithubProjects/z3__"
+alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
+alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
 
 alias bosqueProject="cd /$HOME/Documents/GithubProjects/BosqueLanguage && code . && cd ref_impl/src/verifier"
 alias bosqueInstall="npm install && npm run-script build"
@@ -121,17 +120,21 @@ alias gg="bosqueInstall && bosqueVerifier"
 alias bosqueExec="node /$HOME/Documents/GithubProjects/BosqueLanguage/ref_impl/bin/test/app_runner.js"
 alias gitDiscardChanges="git stash save --keep-index --include-untracked"
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
-alias vim="vim.gtk3"
+
+if [[ uname  = Linux ]] then
+  alias open="xdg-open"
+  alias vim="vim.gtk3"
+fi
 
 function fstar(){
-    fstar.exe "$1" --z3refresh --z3rlimit 20 --max_fuel 15 --max_ifuel 5
+  fstar.exe "$1" --z3refresh --z3rlimit 20 --max_fuel 15 --max_ifuel 5
 }
 
 function fstar2(){
-    fstar.exe "$1" --z3refresh --z3rlimit 30 --max_fuel 20 --max_ifuel 15
+  fstar.exe "$1" --z3refresh --z3rlimit 30 --max_fuel 20 --max_ifuel 15
 }
 
-alias smtinterpol="java -jar ~/Documents/Apps/smtinterpol.jar"
+alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
 # OPAM configuration
 . /$HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
