@@ -33,6 +33,7 @@ Plug 'FStarLang/VimFStar', {'for': 'fstar'}
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
+Plug 'jeffkreeftmeijer/vim-numbertoggle'
 
 call plug#end()
 
@@ -66,3 +67,6 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 
 set timeoutlen=1000 ttimeoutlen=0
 set clipboard=unnamedplus
+
+set number relativenumber
+set nu rnu
