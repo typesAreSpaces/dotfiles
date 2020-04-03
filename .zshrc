@@ -3,6 +3,7 @@
 export PATH=$HOME"/.opam/system/bin:"$PATH
 export PATH="/usr/bin:"$PATH
 export PATH="/$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
+export PATH="$HOME/.cargo/bin:"$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
