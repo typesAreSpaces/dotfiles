@@ -115,7 +115,7 @@ alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
 alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
 
 alias bosqueProject="cd /$HOME/Documents/GithubProjects/BosqueLanguage/ref_impl/src/verifier/typescript_files"
-alias bosquePaper="cd /$HOME/Documents/GithubProjects/BosqueLanguage/Technical Reports/Automatic verification for the Bosque Programming Language"
+alias bosquePaper="cd /$HOME/Documents/GithubProjects/BosqueLanguage/Technical\ Reports/Automatic\ verification\ for\ the\ Bosque\ Programming\ Language"
 alias gg="npm run-script verifier"
 
 alias gitDiscardChanges="git stash save --keep-index --include-untracked"
