@@ -114,7 +114,7 @@ alias masterThesisPaperProject="cd /$HOME/Documents/GithubProjects/master-thesis
 alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
 alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
 
-alias bosqueProject="cd /$HOME/Documents/GithubProjects/BosqueLanguage"
+alias bosqueProject="cd /$HOME/Documents/GithubProjects/BosqueLanguage/ref_impl/src/verifier/typescript_files"
 alias gg="npm run-script verifier"
 
 alias gitDiscardChanges="git stash save --keep-index --include-untracked"
