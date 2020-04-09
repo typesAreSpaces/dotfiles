@@ -114,11 +114,9 @@ alias masterThesisPaperProject="cd /$HOME/Documents/GithubProjects/master-thesis
 alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
 alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
 
-alias bosqueProject="cd /$HOME/Documents/GithubProjects/BosqueLanguage && code . && cd ref_impl/src/verifier"
-alias bosqueInstall="npm install && npm run-script build"
-alias bosqueVerifier="node /$HOME/Documents/GithubProjects/BosqueLanguage/ref_impl/bin/verifier/testing/testing_collect_expressions.js"
-alias gg="bosqueInstall && bosqueVerifier"
-alias bosqueExec="node /$HOME/Documents/GithubProjects/BosqueLanguage/ref_impl/bin/test/app_runner.js"
+alias bosqueProject="cd /$HOME/Documents/GithubProjects/BosqueLanguage"
+alias gg="npm run-script verifier"
+
 alias gitDiscardChanges="git stash save --keep-index --include-untracked"
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 
@@ -130,14 +128,6 @@ fi
 if [[ uname == 'Darwin' ]]; then
   alias vim="/usr/local/Cellar/vim/8.2.0450/bin/vim"
 fi
-
-function fstar(){
-  fstar.exe "$1" --z3refresh --z3rlimit 20 --max_fuel 15 --max_ifuel 5
-}
-
-function fstar2(){
-  fstar.exe "$1" --z3refresh --z3rlimit 30 --max_fuel 20 --max_ifuel 15
-}
 
 alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
 # OPAM configuration

@@ -50,6 +50,7 @@ nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :bblast<CR>
 
 nnoremap <silent> <Leader>gd :YcmCompleter GoTo<CR>
+nnoremap <Leader>l :ls<CR>
 nnoremap <silent> <Leader>gr :YcmCompleter GoToReferences<CR>
 
 colorscheme dracula 
