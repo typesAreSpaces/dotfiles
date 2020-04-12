@@ -34,6 +34,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
