@@ -86,7 +86,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+#bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -191,7 +191,7 @@ bar {
     }
 }
 
-bindsym $mod+Shift+f exec rofi -show run -theme slate -hide-scrollbar -width 1440 -lines 4 -font "Fira Code 28" -padding 400 -separator-style none
+bindsym $mod+space exec rofi -show run -theme slate -hide-scrollbar -width 1440 -lines 4 -font "Fira Code 28" -padding 400 -separator-style none
 
 bindsym $mod+Shift+F12 exec shutdown -h now
 
