@@ -114,7 +114,7 @@ alias masterThesisPaperProject="cd /$HOME/Documents/GithubProjects/master-thesis
 alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
 alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
 
-alias bosqueProject="cd /$HOME/Documents/GithubProjects/BosqueLanguage/ref_impl/src/verifier/typescript_files"
+alias bosqueProject="cd /$HOME/Documents/GithubProjects/BosqueLanguage/ref_impl/src"
 alias bosquePaper="cd /$HOME/Documents/GithubProjects/BosqueLanguage/Technical\ Reports/Automatic\ verification\ for\ the\ Bosque\ Programming\ Language"
 alias gg="npm run-script verifier"
 
