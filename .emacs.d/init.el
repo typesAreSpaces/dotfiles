@@ -71,13 +71,13 @@
 (add-hook 'c-mode-common-hook 'my:add-semantic-to-autocomplete)
 
 ;; Turn on ede-mode
-(global-ede-mode t)
-(ede-cpp-root-project "masterThesis"
-		      :file "/home/jose/Documents/GithubProjects/master-thesis/Software/Cpp/EUFInterpolantsZ3/src/main.cpp" 
-		      :include-path '("/../include")
-		      )
+;(global-ede-mode t)
+;(ede-cpp-root-project "masterThesis"
+;		      :file "/home/jose/Documents/GithubProjects/master-thesis/Software/Cpp/EUFInterpolantsZ3/src/main.cpp" 
+;		      :include-path '("/../include")
+;		      )
 ;; Turn on automatic reparsing of open buffers in semantic
-(global-semantic-idle-scheduler-mode t)
+;(global-semantic-idle-scheduler-mode t)
 
 ;; (add-hook 'c++-mode-hook 'irony-mode)
 ;; (add-hook 'c-mode-hook 'irony-mode)
