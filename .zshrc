@@ -4,6 +4,7 @@ export PATH=$HOME"/.opam/system/bin:"$PATH
 export PATH="/usr/bin:"$PATH
 export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
 export PATH="$HOME/.cargo/bin:"$PATH
+export PATH="$HOME/maple2020/bin:"$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -137,3 +138,4 @@ alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias profKapur="cd $HOME/Documents/GithubProjects/Extended-Groebner-Basis"
+alias basisConversion="cd $HOME/Documents/GithubProjects/Basis-Conversion"
