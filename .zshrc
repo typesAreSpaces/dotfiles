@@ -140,3 +140,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias profKapur="cd $HOME/Documents/GithubProjects/Extended-Groebner-Basis"
 alias basisConversion="cd $HOME/Documents/GithubProjects/Basis-Conversion"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

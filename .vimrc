@@ -35,7 +35,7 @@ Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 call plug#end()
 
@@ -54,6 +54,8 @@ nnoremap <silent> ]B :bblast<CR>
 nnoremap <silent> <Leader>gd :YcmCompleter GoTo<CR>
 nnoremap <Leader>l :ls<CR>
 nnoremap <silent> <Leader>gr :YcmCompleter GoToReferences<CR>
+
+nnoremap <C-p> :<C-u>FZF<CR>
 
 colorscheme dracula 
 set background=dark
