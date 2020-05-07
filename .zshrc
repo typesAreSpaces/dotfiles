@@ -5,6 +5,7 @@ export PATH="/usr/bin:"$PATH
 export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
 export PATH="$HOME/.cargo/bin:"$PATH
 export PATH="$HOME/maple2020/bin:"$PATH
+export PATH="$HOME/Documents/Apps:"$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
