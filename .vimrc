@@ -35,6 +35,7 @@ Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'junegunn/fzf'
 
 call plug#end()
 
