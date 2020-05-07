@@ -55,7 +55,7 @@ nnoremap <silent> <Leader>gd :YcmCompleter GoTo<CR>
 nnoremap <Leader>l :ls<CR>
 nnoremap <silent> <Leader>gr :YcmCompleter GoToReferences<CR>
 
-nnoremap <C-p> :<C-u>FZF<CR>
+nnoremap <C-m> :<C-u>FZF<CR>
 
 colorscheme dracula 
 set background=dark
