@@ -123,12 +123,12 @@ alias gg="npm run-script verifier"
 alias gitDiscardChanges="git stash save --keep-index --include-untracked"
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 
-if [[ uname  == 'Linux' ]]; then
+if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   alias open="xdg-open"
-  alias vim="vim.gtk3"
+  # alias vim="vim.gtk3"
 fi
 
-if [[ uname == 'Darwin' ]]; then
+if [ "$(uname 2> /dev/null)" = "Darwin" ]; then
   alias vim="/usr/local/Cellar/vim/8.2.0450/bin/vim"
 fi
 
