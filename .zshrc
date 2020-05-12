@@ -2,10 +2,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME"/.opam/system/bin:"$PATH
 export PATH="/usr/bin:"$PATH
-export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
-export PATH="$HOME/.cargo/bin:"$PATH
-export PATH="$HOME/maple2020/bin:"$PATH
-export PATH="$HOME/Documents/Apps:"$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -109,6 +105,11 @@ alias gitDiscardChanges="git stash save --keep-index --include-untracked"
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 
 if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
+  export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
+  export PATH="$HOME/.cargo/bin:"$PATH
+  export PATH="$HOME/maple2020/bin:"$PATH
+  export PATH="$HOME/Documents/Apps:"$PATH
+
   alias open="xdg-open"
   alias emacs="emacs -nw"
   alias emacs26="emacs26 -nw"
