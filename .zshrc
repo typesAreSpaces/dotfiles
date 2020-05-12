@@ -105,28 +105,32 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias second_home="cd /media/jose/4486d9bd-d3c3-4b92-9842-d38226a22c20$HOME"
-alias emacs="emacs -nw"
-alias emacs26="emacs26 -nw"
-alias utop="rlwrap ocaml"
-
-alias semester="cd $HOME/Documents/Current-Semester/PhD\ in\ Computer\ Science\ UNM/Semester\ 3"
-alias masterThesis="cd $HOME/Documents/GithubProjects/master-thesis/Software/Cpp/EUFInterpolantsZ3"
-alias masterThesisPaperProject="cd $HOME/Documents/GithubProjects/master-thesis/Write\ Ups/paper_project"
-alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
-alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
-
-alias bosqueProject="cd $HOME/Documents/GithubProjects/BosqueLanguage/ref_impl/src"
-alias bosquePaper="cd $HOME/Documents/GithubProjects/BosqueLanguage/Technical\ Reports/Automatic\ verification\ for\ the\ Bosque\ Programming\ Language"
-alias gg="npm run-script verifier"
-
 alias gitDiscardChanges="git stash save --keep-index --include-untracked"
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 
 if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   alias open="xdg-open"
+  alias emacs="emacs -nw"
+  alias emacs26="emacs26 -nw"
+  alias utop="rlwrap ocaml"
+
+  alias second_home="cd /media/jose/4486d9bd-d3c3-4b92-9842-d38226a22c20$HOME"
+
+  alias semester="cd $HOME/Documents/Current-Semester/PhD\ in\ Computer\ Science\ UNM/Semester\ 3"
+  alias masterThesis="cd $HOME/Documents/GithubProjects/master-thesis/Software/Cpp/EUFInterpolantsZ3"
+  alias masterThesisPaperProject="cd $HOME/Documents/GithubProjects/master-thesis/Write\ Ups/paper_project"
+  alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
+  alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
+
+  alias bosqueProject="cd $HOME/Documents/GithubProjects/BosqueLanguage/ref_impl"
+  alias bosquePaper="cd $HOME/Documents/GithubProjects/BosqueLanguage/Technical\ Reports/Automatic\ verification\ for\ the\ Bosque\ Programming\ Language"
+
+  alias profKapur="cd $HOME/Documents/GithubProjects/Extended-Groebner-Basis"
+  alias basisConversion="cd $HOME/Documents/GithubProjects/Basis-Conversion"
   # alias vim="vim.gtk3"
 fi
+
+alias gg="npm run-script verifier"
 
 if [ "$(uname 2> /dev/null)" = "Darwin" ]; then
   alias vim="/usr/local/Cellar/vim/8.2.0450/bin/vim"
@@ -137,8 +141,5 @@ alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
 . $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
-alias profKapur="cd $HOME/Documents/GithubProjects/Extended-Groebner-Basis"
-alias basisConversion="cd $HOME/Documents/GithubProjects/Basis-Conversion"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
