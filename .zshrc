@@ -128,7 +128,10 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
 
   alias profKapur="cd $HOME/Documents/GithubProjects/Extended-Groebner-Basis"
   alias basisConversion="cd $HOME/Documents/GithubProjects/Basis-Conversion"
+  alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
   # alias vim="vim.gtk3"
+  #
+  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 fi
 
 alias gg="npm run-script verifier"
@@ -137,10 +140,8 @@ if [ "$(uname 2> /dev/null)" = "Darwin" ]; then
   alias vim="/usr/local/Cellar/vim/8.2.0450/bin/vim"
 fi
 
-alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
 # OPAM configuration
 . $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
