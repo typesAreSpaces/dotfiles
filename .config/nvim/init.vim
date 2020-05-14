@@ -3,3 +3,14 @@ let &packpath = &runtimepath
 source ~/.vimrc
 
 color dracula
+
+if has('nvim')
+  tnoremap <Esc> <C-\><C-n>
+  tnoremap <C-v><Esc> <Esc> 
+endif
+
+if has('nvim')
+  highlight! link TermCursor Cursor
+  highlight! TermCursorNC guibg=red guifg=white ctermbg=1 ctermfg=15
+endif
+

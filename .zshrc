@@ -132,12 +132,15 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   # alias vim="vim.gtk3"
   #
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+  se() { du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open; }
 fi
 
 alias gg="npm run-script verifier"
 
 if [ "$(uname 2> /dev/null)" = "Darwin" ]; then
   alias vim="/usr/local/Cellar/vim/8.2.0450/bin/vim"
+  se() { du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r open; }
 fi
 
 # OPAM configuration
