@@ -123,7 +123,7 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
   alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
 
-  alias bosqueProject="cd $HOME/Documents/GithubProjects/BosqueLanguage/ref_impl"
+  alias bosqueProject="cd $HOME/Documents/GithubProjects/BosqueLanguage/impl"
   alias bosquePaper="cd $HOME/Documents/GithubProjects/BosqueLanguage/Technical\ Reports/Automatic\ verification\ for\ the\ Bosque\ Programming\ Language"
 
   alias profKapur="cd $HOME/Documents/GithubProjects/Extended-Groebner-Basis"
