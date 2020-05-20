@@ -205,3 +205,14 @@ assign [class="Firefox"] $workspace2
 assign [class="Thunderbird"] $workspace3
 for_window [class="Spotify"] move to workspace $workspace4, workspace --no-auto-back-and-forth $workspace4
 assign [class="Evince"] $workspace5
+
+for_window [class=".*"] border pixel 0
+set $gap_size 10
+gaps inner $gap_size
+gaps outer $gap_size
+gaps horizontal $gap_size
+gaps vertical $gap_size
+gaps top $gap_size
+gaps left $gap_size
+gaps bottom $gap_size
+gaps right $gap_size
