@@ -207,7 +207,7 @@ for_window [class="Spotify"] move to workspace $workspace4, workspace --no-auto-
 assign [class="Evince"] $workspace5
 
 for_window [class=".*"] border pixel 0
-set $gap_size 10
+set $gap_size 3
 gaps inner $gap_size
 gaps outer $gap_size
 gaps horizontal $gap_size
