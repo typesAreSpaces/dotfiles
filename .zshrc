@@ -74,6 +74,7 @@ ZSH_THEME="dracula"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.xsessionrc
 
 # User configuration
 
