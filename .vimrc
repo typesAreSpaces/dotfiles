@@ -36,6 +36,8 @@ Plug 'preservim/nerdcommenter'
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 
 call plug#end()
 
