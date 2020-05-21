@@ -74,7 +74,6 @@ ZSH_THEME="dracula"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/.xsessionrc
 
 # User configuration
 
@@ -106,6 +105,8 @@ alias gitDiscardChanges="git stash save --keep-index --include-untracked"
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 
 if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
+  source $HOME/.xsessionrc
+
   export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
   export PATH="$HOME/.cargo/bin:"$PATH
   export PATH="$HOME/maple2020/bin:"$PATH
