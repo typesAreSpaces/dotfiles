@@ -201,7 +201,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 
 exec_always feh --bg-scale $HOME/Pictures/656336.png
 
-assign [class="Firefox"] $workspace2
+assign [class="Navigator"] $workspace2
 assign [class="Thunderbird"] $workspace3
 for_window [class="Spotify"] move to workspace $workspace4, workspace --no-auto-back-and-forth $workspace4
 assign [class="Evince"] $workspace5
@@ -216,3 +216,18 @@ gaps top $gap_size
 gaps left $gap_size
 gaps bottom $gap_size
 gaps right $gap_size
+
+# move focused workspace between monitors
+bindsym $mod+Ctrl+greater move workspace to output right
+bindsym $mod+Ctrl+less move workspace to output left
+
+workspace $workspace1 output DP-0
+workspace $workspace2 output DP-0
+workspace $workspace3 output DP-0
+workspace $workspace4 output DP-0
+workspace $workspace5 output DP-0
+workspace 6           output HDMI-0
+workspace 7           output HDMI-0
+workspace 8           output HDMI-0
+workspace 9           output HDMI-0
+workspace 10          output HDMI-0
