@@ -133,6 +133,7 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
   # alias vim="vim.gtk3"
   #
+  [ -f ~/.screenlayout/dual.sh ] && source ~/.screenlayout/dual.sh
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
   se() { du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open; }
