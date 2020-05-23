@@ -14,9 +14,11 @@ URxvt.depth:           32
 !! URxvt.inheritPixmap: true
 
 !! Fonts
-URxvt.font:        xft:monospace:pixelsize=20:antialias=true,xft:monospace
-URxvt.boldFont:    xft:monospace:pixelsize=20:weight=bold:antialias=true,xft:monospace
-URxvt.letterSpace: -1
+URxvt.font:        xtf:DejaVu Sans Mono:pixelsize=20:antialias=true,xtf:DejaVu Sans Mono
+!URxvt.font:        xtf:monospace:pixelsize=20:antialias=true,xtf:monospace
+URxvt.boldFont:    xtf:DejaVu Sans Mono:pixelsize=20:weight=bold:antialias=true,xtf:DejaVu Sans Mono
+!URxvt.boldFont:    xtf:monospace:pixelsize=20:weight=bold:antialias=true,xtf:monospace
+URxvt.letterSpace: 1
 
 !! Larger history limit
 URxvt.saveLines:  1000000
@@ -49,4 +51,4 @@ URxvt.saveLines:  1000000
    URxvt.color7:     #b7bbbd
    URxvt.color15:    #d9d9d9
 
-URxvt.perl-ext-common: ...,font-size
+URxvt.perl-ext-common: font-size
