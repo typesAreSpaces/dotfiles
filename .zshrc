@@ -73,7 +73,7 @@ ZSH_THEME="dracula"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+[ -f $ZSH/oh-my-zsh.sh ] && source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -105,7 +105,7 @@ alias gitDiscardChanges="git stash save --keep-index --include-untracked"
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 
 if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
-  source $HOME/.xsessionrc
+  [ -f $HOME/.xsessionrc ] && source $HOME/.xsessionrc
 
   export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
   export PATH="$HOME/.cargo/bin:"$PATH
@@ -151,4 +151,4 @@ fi
 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-
+dotfilesChanges() { config status | grep "modified" | grep -v "opam" }
