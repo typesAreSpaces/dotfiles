@@ -210,7 +210,7 @@ assign [class="Thunderbird"] $workspace3
 for_window [class="Spotify"] move to workspace $workspace4, workspace --no-auto-back-and-forth $workspace4
 assign [class="Evince"] $workspace5
 
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 3
 set $gap_size 4
 gaps inner $gap_size
 gaps outer $gap_size
