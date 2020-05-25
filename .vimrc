@@ -16,8 +16,8 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'ycm-core/YouCompleteMe'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'ycm-core/YouCompleteMe'
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim' 
 Plug 'jremmen/vim-ripgrep'
@@ -57,6 +57,11 @@ nnoremap <silent> ]B :bblast<CR>
 nnoremap <silent> <Leader>gd :YcmCompleter GoTo<CR>
 nnoremap <Leader>l :ls<CR>
 nnoremap <silent> <Leader>gr :YcmCompleter GoToReferences<CR>
+
+nnoremap <silent> <Leader>u :exe "resize -5" <CR>
+nnoremap <silent> <Leader>i :exe "resize +5" <CR>
+nnoremap <silent> <Leader>y :exe "vertical resize +5"<CR>
+nnoremap <silent> <Leader>o :exe "vertical resize -5"<CR>
 
 nnoremap <CR> :<C-u>FZF<CR>
 
