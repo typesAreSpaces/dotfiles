@@ -54,3 +54,7 @@ URxvt.saveLines:  1000000
    URxvt.color15:    #d9d9d9
 
 URxvt.perl-ext-common: font-size
+
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+
