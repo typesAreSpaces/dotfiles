@@ -16,8 +16,8 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ycm-core/YouCompleteMe'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim' 
 Plug 'jremmen/vim-ripgrep'
@@ -26,7 +26,6 @@ Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'git@github.com:kien/ctrlp.vim.git'
-Plug 'neoclide/coc.nvim'
 Plug 'mbbill/undotree'
 Plug 'bohlender/vim-smt2' 
 Plug 'vim-latex/vim-latex'
