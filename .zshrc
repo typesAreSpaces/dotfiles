@@ -139,6 +139,9 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
   se() { du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open; }
+  listofpackages() {
+    sudo pacman -Qqen > .listofpackages
+  }
 fi
 
 alias gg="npm run-script verifier"
