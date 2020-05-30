@@ -132,6 +132,8 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   alias basisConversion="cd $HOME/Documents/GithubProjects/Basis-Conversion"
   alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
   # alias vim="vim.gtk3"
+  alias v="vim"
+  alias nv="nvim"
   #
   [ -f ~/.screenlayout/dual.sh ] && source ~/.screenlayout/dual.sh
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
