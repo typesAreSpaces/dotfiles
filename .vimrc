@@ -83,3 +83,6 @@ set clipboard=unnamedplus
 
 set number relativenumber
 set nu rnu
+
+highlight Normal ctermbg=none
+"highlight NonText ctermbg=none
