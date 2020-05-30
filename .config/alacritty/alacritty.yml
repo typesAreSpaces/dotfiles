@@ -1,33 +1,53 @@
 colors:
   # Default colors
   primary:
-    background: "#1e2127"
-    # background: "#2E3440"
-    foreground: "#D8DEE9"
+    #background: "#1e2126"
+    #foreground: "#D8DEE9"
+    background: "#334455"
+    foreground: "#aacccc"
 
   # Normal colors
+  #normal:
+    #black: "#3B4252"
+    #red: "#BF616A"
+    #green: "#A3BE8C"
+    #yellow: "#EBCB8B"
+    #blue: "#81A1C1"
+    #magenta: "#B48EAD"
+    #cyan: "#88C0D0"
+    #white: "#abb2bf"
   normal:
-    black: "#3B4252"
-    red: "#BF616A"
-    green: "#A3BE8C"
-    yellow: "#EBCB8B"
-    blue: "#81A1C1"
-    magenta: "#B48EAD"
-    cyan: "#88C0D0"
-    white: "#abb2bf"
+    black: "#2e1f1f"
+    red: "#aa0e50"
+    green: "#1dcc9f"
+    yellow: "#27c282"
+    blue: "#7182a8"
+    magenta: "#aa5566"
+    cyan: "#22ddcc"
+    white: "#b7bbdd"
 
   # Bright colors
+  #bright:
+    #black: "#5c6370"
+    #red: "#e06c75"
+    #green: "#98c379"
+    #yellow: "#d19a66"
+    #blue: "#61afef"
+    #magenta: "#c678dd"
+    #cyan: "#56b6c2"
+    #white: "#ECEFF4"
+  # Bright colors
   bright:
-    black: "#5c6370"
-    red: "#e06c75"
-    green: "#98c379"
-    yellow: "#d19a66"
-    blue: "#61afef"
-    magenta: "#c678dd"
-    cyan: "#56b6c2"
-    white: "#ECEFF4"
+    black: "#bb8899"
+    red: "#bb8899"
+    green: "#1fd9a9"
+    yellow: "#2cdb93"
+    blue: "#8194bf"
+    magenta: "#7f5aa1"
+    cyan: "#669997"
+    white: "#d9d9d9"
 
-background_opacity: 0.5
+background_opacity: 0.8
 
 font:
   normal:
