@@ -14,3 +14,5 @@ if has('nvim')
   highlight! TermCursorNC guibg=red guifg=white ctermbg=1 ctermfg=15
 endif
 
+highlight Normal ctermbg=none
+"highlight NonText ctermbg=none
