@@ -138,7 +138,9 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   [ -f ~/.screenlayout/dual.sh ] && source ~/.screenlayout/dual.sh
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-  se() { du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open; }
+  se() { 
+    du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open;
+  }
   listofpackages() {
     sudo pacman -Qqen > .listofpackages
   }
