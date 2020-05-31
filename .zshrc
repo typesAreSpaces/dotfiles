@@ -107,7 +107,6 @@ alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   [ -f $HOME/.xsessionrc ] && source $HOME/.xsessionrc
 
-  export PATH="$HOME/Documents/GithubProjects/picom/build/src:"$PATH
   export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
   export PATH="$HOME/.cargo/bin:"$PATH
   export PATH="$HOME/maple2020/bin:"$PATH
