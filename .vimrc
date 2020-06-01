@@ -64,6 +64,8 @@ nnoremap <silent> <Leader>i :exe "resize +5" <CR>
 nnoremap <silent> <Leader>y :exe "vertical resize +5"<CR>
 nnoremap <silent> <Leader>o :exe "vertical resize -5"<CR>
 
+nnoremap <leader>p li<space><esc>p
+
 nnoremap <CR> :<C-u>FZF<CR>
 
 colorscheme dracula 
