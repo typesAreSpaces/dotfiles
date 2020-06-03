@@ -105,7 +105,6 @@ alias gitDiscardChanges="git stash save --keep-index --include-untracked"
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 
 if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
-  [ -f $HOME/.xsessionrc ] && source $HOME/.xsessionrc
 
   export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
   export PATH="$HOME/.cargo/bin:"$PATH
@@ -135,7 +134,6 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   alias v="vim"
   alias nv="nvim"
   #
-  [ -f ~/.screenlayout/dual.sh ] && source ~/.screenlayout/dual.sh
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
   se() { 
