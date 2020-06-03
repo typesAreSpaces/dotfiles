@@ -142,6 +142,9 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   listofpackages() {
     sudo pacman -Qqen > .listofpackages
   }
+  installLocalPackages() {
+    sudo pacman -S --needed - < .listofpackages
+  }
 fi
 
 alias gg="npm run-script verifier"
