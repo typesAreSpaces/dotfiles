@@ -138,10 +138,10 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
 
   se() { du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open; }
   updateManjaroPackages() { sudo pacman -Qqen > .manjaro_packages }
-  updateUbuntuPackages() { sudo apt list --installed > .ubuntu_packages }
+  updateUbuntuPackages() { sudo apt list --installed | awk '{ if(NR>1) print }' > .ubuntu_packages }
   installManjaroPackages() { sudo pacman -S --needed - < .manjaro_packages }
-  installUbuntuPackages() { sudo apt install $(awk { 'print $1' } .ubuntu_packages) }
 fi
+  installUbuntuPackages() { awk -F/ '{ print $1 }' .ubuntu_packages | xargs -r -- sudo apt install }
 
 alias gg="npm run-script verifier"
 
