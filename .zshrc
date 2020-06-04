@@ -140,8 +140,8 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   updateManjaroPackages() { sudo pacman -Qqen > .manjaro_packages }
   updateUbuntuPackages() { sudo apt list --installed | awk '{ if(NR>1) print }' > .ubuntu_packages }
   installManjaroPackages() { sudo pacman -S --needed - < .manjaro_packages }
-fi
   installUbuntuPackages() { awk -F/ '{ print $1 }' .ubuntu_packages | xargs -r -- sudo apt install }
+fi
 
 alias gg="npm run-script verifier"
 
