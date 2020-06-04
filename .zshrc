@@ -139,11 +139,11 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   se() { 
     du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open;
   }
-  listofpackages() {
-    sudo pacman -Qqen > .listofpackages
+  updateManjaroPackages() {
+    sudo pacman -Qqen > .manjaro_packages
   }
-  installLocalPackages() {
-    sudo pacman -S --needed - < .listofpackages
+  installManjaroPackages() {
+    sudo pacman -S --needed - < .manjaro_packages
   }
 fi
 
