@@ -136,15 +136,11 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   #
   [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-  se() { 
-    du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open;
-  }
-  updateManjaroPackages() {
-    sudo pacman -Qqen > .manjaro_packages
-  }
-  installManjaroPackages() {
-    sudo pacman -S --needed - < .manjaro_packages
-  }
+  se() { du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open; }
+  updateManjaroPackages() { sudo pacman -Qqen > .manjaro_packages }
+  updateUbuntuPackages() { sudo apt list --installed > .ubuntu_packages }
+  installManjaroPackages() { sudo pacman -S --needed - < .manjaro_packages }
+  installUbuntuPackages() { sudo apt install $(awk { 'print $1' } .ubuntu_packages) }
 fi
 
 alias gg="npm run-script verifier"
