@@ -119,7 +119,7 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   alias second_home="cd /media/jose/4486d9bd-d3c3-4b92-9842-d38226a22c20$HOME"
 
   alias semester="cd $HOME/Documents/Current-Semester/PhD\ in\ Computer\ Science\ UNM/Semester\ 3"
-  alias masterThesis="cd $HOME/Documents/GithubProjects/master-thesis/Software/Cpp/EUFInterpolantsZ3"
+  alias masterThesis="cd $HOME/Documents/GithubProjects/master-thesis/Software/Cpp/ThCombination"
   alias masterThesisPaperProject="cd $HOME/Documents/GithubProjects/master-thesis/Write\ Ups/paper_project"
   alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
   alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
