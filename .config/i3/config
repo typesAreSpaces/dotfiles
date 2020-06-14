@@ -203,6 +203,7 @@ client.background       #F8F8F2
 #}
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id picom
 
 bindsym $mod+space exec rofi -show run -theme slate -hide-scrollbar -width 1440 -lines 4 -font "Fira Code 28" -padding 400 -separator-style none
 
@@ -246,5 +247,3 @@ workspace 7           output HDMI-0
 workspace 8           output HDMI-0
 workspace 9           output HDMI-0
 workspace 10          output HDMI-0
-
-exec --no-startup-id picom
