@@ -144,6 +144,7 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
 fi
 
 alias gg="npm run-script verifier"
+alias tt="npm run-script optimizer"
 
 if [ "$(uname 2> /dev/null)" = "Darwin" ]; then
   alias vim="/usr/local/Cellar/vim/8.2.0450/bin/vim"
