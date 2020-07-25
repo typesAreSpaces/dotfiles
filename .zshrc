@@ -121,6 +121,7 @@ if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
   alias semester="cd $HOME/Documents/Current-Semester/PhD\ in\ Computer\ Science\ UNM/Semester\ 3"
   alias masterThesis="cd $HOME/Documents/GithubProjects/master-thesis/Software/Cpp/ThCombination"
   alias masterThesisPaperProject="cd $HOME/Documents/GithubProjects/master-thesis/Write\ Ups/paper_project"
+  alias thesis="cd /home/jose/Documents/GithubProjects/master-thesis/Write\ Ups/thesis"
   alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
   alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
 
