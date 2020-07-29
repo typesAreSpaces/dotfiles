@@ -1,151 +1,69 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=$HOME"/.opam/system/bin:"$PATH
-export PATH="/usr/bin:"$PATH
+export PATH="/usr/bin:$PATH"
+export PATH="$HOME/.opam/system/bin:$PATH"
 
-# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="random"
 ZSH_THEME="simple"
 
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS=true
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
 [ -f $ZSH/oh-my-zsh.sh ] && source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
+# general aliases
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias gitDiscardChanges="git stash save --keep-index --include-untracked"
+
 alias findCPPETAGS="find . -type f -iname \"*.[chS]p*\" | xargs etags -a"
 
+alias gg="npm run-script verifier"
+alias tt="npm run-script optimizer"
+
+# general scripts
+dotfilesChanges() { config status | grep "modified" | grep -v "opam" }
+
 if [ "$(uname 2> /dev/null)"  = "Linux" ]; then
+  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-  export PATH="$HOME/Documents/GithubProjects/cool-retro-term:"$PATH
-  export PATH="$HOME/.cargo/bin:"$PATH
-  export PATH="$HOME/maple2020/bin:"$PATH
-  export PATH="$HOME/Documents/Apps:"$PATH
+  export PATH="$HOME/Documents/GithubProjects/cool-retro-term:$PATH"
+  export PATH="$HOME/.cargo/bin:$PATH"
+  export PATH="$HOME/maple2020/bin:$PATH"
+  export PATH="$HOME/Documents/Apps:$PATH"
 
+  # program aliases
   alias open="xdg-open"
   alias emacs="emacs -nw"
   alias emacs26="emacs26 -nw"
   alias utop="rlwrap ocaml"
+  alias v="vim"
+  alias nv="nvim"
+  alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
 
+  # directory aliases
   alias second_home="cd /media/jose/4486d9bd-d3c3-4b92-9842-d38226a22c20$HOME"
-
+  
   alias semester="cd $HOME/Documents/Current-Semester/PhD\ in\ Computer\ Science\ UNM/Semester\ 3"
+
   alias masterThesis="cd $HOME/Documents/GithubProjects/master-thesis/Software/Cpp/ThCombination"
   alias masterThesisPaperProject="cd $HOME/Documents/GithubProjects/master-thesis/Write\ Ups/paper_project"
   alias thesis="cd /home/jose/Documents/GithubProjects/master-thesis/Write\ Ups/thesis"
+
   alias z3_dir="cd $HOME/Documents/GithubProjects/z3"
   alias my_z3_dir="cd $HOME/Documents/GithubProjects/z3__"
 
   alias bosqueProject="cd $HOME/Documents/GithubProjects/BosqueLanguage/impl"
   alias bosquePaper="cd $HOME/Documents/GithubProjects/BosqueLanguage/Technical\ Reports/Automatic\ verification\ for\ the\ Bosque\ Programming\ Language"
-
   alias profKapur="cd $HOME/Documents/GithubProjects/Extended-Groebner-Basis"
   alias basisConversion="cd $HOME/Documents/GithubProjects/Basis-Conversion"
-  alias smtinterpol="java -jar $HOME/Documents/Apps/smtinterpol.jar"
-  # alias vim="vim.gtk3"
-  alias v="vim"
-  alias nv="nvim"
-  #
-  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+  alias axd="cd $HOME/Documents/GithubProjects/AXDInterpolator"
+
+  # scripts
   se() { du -a $HOME/* | awk '{ gsub (" ", "\\ ", $0); $1 = ""; print $0; }' | fzf | xargs -r xdg-open; }
   updateManjaroPackages() { sudo pacman -Qqen > .manjaro_packages }
   updateUbuntuPackages() { sudo apt list --installed | awk '{ if(NR>1) print }' > .ubuntu_packages }
   installManjaroPackages() { sudo pacman -S --needed - < .manjaro_packages }
   installUbuntuPackages() { awk -F/ '{ print $1 }' .ubuntu_packages | xargs -r -- sudo apt install }
 fi
-
-alias gg="npm run-script verifier"
-alias tt="npm run-script optimizer"
 
 if [ "$(uname 2> /dev/null)" = "Darwin" ]; then
   alias vim="/usr/local/Cellar/vim/8.2.0450/bin/vim"
@@ -154,7 +72,3 @@ fi
 
 # OPAM configuration
 . $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
-dotfilesChanges() { config status | grep "modified" | grep -v "opam" }
