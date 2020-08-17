@@ -61,4 +61,4 @@ installMyZ3() { pushd "/home/jose/Documents/GithubProjects/z3__/build" && sudo m
 installZ3InterpPlus() { pushd "/home/jose/Documents/GithubProjects/z3-interp-plus/build" && sudo make install && popd; }
 
 # OPAM configuration
-. $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+#. $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
