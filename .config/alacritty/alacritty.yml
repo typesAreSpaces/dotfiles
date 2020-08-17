@@ -26,7 +26,7 @@ colors:
     cyan: '0x95E6CB'
     white: '0xFFFFFF'
 
-background_opacity: 0.8
+background_opacity: 0.7
 
 font:
   normal:
@@ -49,13 +49,13 @@ font:
     x: -1
     y: -1
   glyph_offset:
-    x: 0
-    y: 0
+    x: 1
+    y: 1
 
 window:
   padding:
-    x: 2
-    y: 2
+    x: 15
+    y: 15
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
