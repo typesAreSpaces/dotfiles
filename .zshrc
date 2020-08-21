@@ -4,11 +4,8 @@ plugins=(git)
 
 export PATH="/usr/bin:$PATH"
 export PATH="$HOME/.opam/system/bin:$PATH"
-export PATH="$HOME/Documents/GithubProjects/cool-retro-term:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/maple2020/bin:$PATH"
-export PATH="$HOME/Documents/Apps:$PATH"
-export PATH="$HOME/Documents/Apps/LADR-2009-11A/bin:$PATH"
+#export PATH="$HOME/maple2020/bin:$PATH"
 
 [ -f $ZSH/oh-my-zsh.sh ] && source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
